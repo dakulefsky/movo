@@ -1,0 +1,50 @@
+{
+  "versions": [
+    {
+      "status": "locked",
+      "priority": "",
+      "license": "Public Domain",
+      "versionNotes": "",
+      "formatAsPoetry": "",
+      "digitizedBySefaria": true,
+      "method": "",
+      "heversionSource": "",
+      "versionUrl": "",
+      "versionTitleInHebrew": "מהדורת וילנא",
+      "versionNotesInHebrew": "",
+      "shortVersionTitle": "",
+      "shortVersionTitleInHebrew": "",
+      "extendedNotes": "",
+      "extendedNotesHebrew": "",
+      "purchaseInformationImage": "",
+      "purchaseInformationURL": "",
+      "hasManuallyWrappedRefs": "",
+      "language": "he",
+      "title": "Rambam on Mishnah Maaser Sheni",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "versionTitle": "Vilna Edition",
+      "actualLanguage": "he",
+      "languageFamilyName": "hebrew",
+      "isSource": true,
+      "isPrimary": true,
+      "direction": "rtl"
+    }
+  ],
+  "book": "Rambam on Mishnah Maaser Sheni",
+  "indexTitle": "Rambam on Mishnah Maaser Sheni",
+  "heVersionTitle": "Vilna Edition",
+  "ref": "Rambam on Mishnah Maaser Sheni 5:10",
+  "heRef": "רמב״ם על משנה מעשר שני 5:10",
+  "he": [
+    "כבר בארנו כי בכל מקום מעשר שני ונטע רבעי קודש ומעשר לוי הוא מעשר ראשון ואמרו וגם נתתיו ללוי יורה על מעלה שניה קדמה לו לפי שמלת וגם אצלם תוספת כמו הנוסף עליו ומעשר עני ולקט ושכחה ופאה הם חקי גר יתום ואלמנה מן הבית זו חלה לפי שאין שם חק יהיה במה שבבית בלבד אלא החלה החייבת בעיסה: \n"
+  ],
+  "provenance": {
+    "file": "raw/sefaria-full-maaser_sheni.json",
+    "jsonPath": [
+      "he",
+      4,
+      9
+    ],
+    "note": "Exact selected Mishnah array; comment segmentation preserved"
+  }
+}

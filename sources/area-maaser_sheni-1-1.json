@@ -1,0 +1,51 @@
+{
+  "versions": [
+    {
+      "status": "locked",
+      "priority": "",
+      "license": "Public Domain",
+      "versionNotes": "",
+      "formatAsPoetry": "",
+      "digitizedBySefaria": true,
+      "method": "",
+      "heversionSource": "",
+      "versionUrl": "",
+      "versionTitleInHebrew": "מהדורת וילנא",
+      "versionNotesInHebrew": "",
+      "shortVersionTitle": "",
+      "shortVersionTitleInHebrew": "",
+      "extendedNotes": "",
+      "extendedNotesHebrew": "",
+      "purchaseInformationImage": "",
+      "purchaseInformationURL": "",
+      "hasManuallyWrappedRefs": "",
+      "language": "he",
+      "title": "Rambam on Mishnah Maaser Sheni",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "versionTitle": "Vilna Edition",
+      "actualLanguage": "he",
+      "languageFamilyName": "hebrew",
+      "isSource": true,
+      "isPrimary": true,
+      "direction": "rtl"
+    }
+  ],
+  "book": "Rambam on Mishnah Maaser Sheni",
+  "indexTitle": "Rambam on Mishnah Maaser Sheni",
+  "heVersionTitle": "Vilna Edition",
+  "ref": "Rambam on Mishnah Maaser Sheni 1:1",
+  "heRef": "רמב״ם על משנה מעשר שני 1:1",
+  "he": [
+    "מעשר שני קדש ולפיכך אסור למכרו ולמשכנו ולהחליפו לפי שהחליפין מכירה בלא ספק: \n",
+    "ואין שוקלין בו לפי שהוא בזיון בקדשים כשהוא עושה ממנו אבני משקל ומה שפרט ואמר בירושלים לפי ששם נאכל מעשר שני: \n"
+  ],
+  "provenance": {
+    "file": "raw/sefaria-full-maaser_sheni.json",
+    "jsonPath": [
+      "he",
+      0,
+      0
+    ],
+    "note": "Exact selected Mishnah array; comment segmentation preserved"
+  }
+}

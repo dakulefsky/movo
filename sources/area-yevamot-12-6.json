@@ -1,0 +1,79 @@
+{
+  "versions": [
+    {
+      "status": "locked",
+      "priority": "",
+      "license": "Public Domain",
+      "versionNotes": "",
+      "formatAsPoetry": "",
+      "digitizedBySefaria": true,
+      "method": "",
+      "heversionSource": "",
+      "versionUrl": "",
+      "versionTitleInHebrew": "מהדורת וילנא",
+      "versionNotesInHebrew": "",
+      "shortVersionTitle": "",
+      "shortVersionTitleInHebrew": "",
+      "extendedNotes": "",
+      "extendedNotesHebrew": "",
+      "purchaseInformationImage": "",
+      "purchaseInformationURL": "",
+      "hasManuallyWrappedRefs": "",
+      "language": "he",
+      "title": "Rambam on Mishnah Yevamot",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "versionTitle": "Vilna edition",
+      "actualLanguage": "he",
+      "languageFamilyName": "hebrew",
+      "isSource": true,
+      "isPrimary": true,
+      "direction": "rtl"
+    },
+    {
+      "status": "",
+      "priority": "",
+      "license": "CC0",
+      "versionNotes": "",
+      "formatAsPoetry": "",
+      "digitizedBySefaria": "",
+      "method": "",
+      "heversionSource": "",
+      "versionUrl": "",
+      "versionTitleInHebrew": "",
+      "versionNotesInHebrew": "",
+      "shortVersionTitle": "",
+      "shortVersionTitleInHebrew": "",
+      "extendedNotes": "",
+      "extendedNotesHebrew": "",
+      "purchaseInformationImage": "",
+      "purchaseInformationURL": "",
+      "hasManuallyWrappedRefs": "",
+      "language": "en",
+      "title": "Rambam on Mishnah Yevamot",
+      "versionSource": "https://www.sefaria.org",
+      "versionTitle": "Sefaria Community Translation",
+      "actualLanguage": "en",
+      "languageFamilyName": "english",
+      "isSource": false,
+      "isPrimary": false,
+      "direction": "ltr"
+    }
+  ],
+  "book": "Rambam on Mishnah Yevamot",
+  "indexTitle": "Rambam on Mishnah Yevamot",
+  "versionSource": "https://www.sefaria.org",
+  "license": "CC0",
+  "ref": "Rambam on Mishnah Yevamot 12:6",
+  "heRef": "רמב״ם על משנה יבמות 12:6",
+  "he": [
+    "<b>מצות חליצה בא הוא ויבמתו לב\"ד כו':  </b>פירוש עצה ההוגנת לו שאם היה הוא קטן בשנים והיא זקנה או הוא זקן והיא קטנה יועצין לו שיחלוץ ולא ייבם ואם היתה הוגנת לו מצד שנותם יועצים לו שייבם יותר משיחלוץ. והלכה כרבי יהודה: "
+  ],
+  "provenance": {
+    "file": "raw/sefaria-full-yevamot.json",
+    "jsonPath": [
+      "he",
+      11,
+      5
+    ]
+  }
+}

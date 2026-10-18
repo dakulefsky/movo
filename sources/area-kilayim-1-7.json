@@ -1,0 +1,50 @@
+{
+  "versions": [
+    {
+      "status": "locked",
+      "priority": "",
+      "license": "Public Domain",
+      "versionNotes": "",
+      "formatAsPoetry": "",
+      "digitizedBySefaria": true,
+      "method": "",
+      "heversionSource": "",
+      "versionUrl": "",
+      "versionTitleInHebrew": "מהדורת וילנא",
+      "versionNotesInHebrew": "",
+      "shortVersionTitle": "",
+      "shortVersionTitleInHebrew": "",
+      "extendedNotes": "",
+      "extendedNotesHebrew": "",
+      "purchaseInformationImage": "",
+      "purchaseInformationURL": "",
+      "hasManuallyWrappedRefs": "",
+      "language": "he",
+      "title": "Rambam on Mishnah Kilayim",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "versionTitle": "Vilna Edition",
+      "actualLanguage": "he",
+      "languageFamilyName": "hebrew",
+      "isSource": true,
+      "isPrimary": true,
+      "direction": "rtl"
+    }
+  ],
+  "book": "Rambam on Mishnah Kilayim",
+  "indexTitle": "Rambam on Mishnah Kilayim",
+  "heVersionTitle": "Vilna Edition",
+  "ref": "Rambam on Mishnah Kilayim 1:7",
+  "heRef": "רמב״ם על משנה כלאים 1:7",
+  "he": [
+    "אין מרכיבין אילן באילן כשישתנו המינין וכן ירק בירק ואין הלכה כר' יהודה: \n"
+  ],
+  "provenance": {
+    "file": "raw/sefaria-full-kilayim.json",
+    "jsonPath": [
+      "he",
+      0,
+      6
+    ],
+    "note": "Exact selected Mishnah array; comment segmentation preserved"
+  }
+}

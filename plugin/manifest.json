@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "com.dantheman.mevoot-shas",
+  "name": "מבואות לש״ס",
+  "version": "0.9.3",
+  "description": "מפתח מבואי לשבעה תחומים בש״ס: ענינים ותהליכים בקצרה, עם מקורות לעיון ללא רשת.",
+  "author": "DanTheMan",
+  "stability": "beta",
+  "entrypoint": "index.html",
+  "minAppVersion": "0.9.97",
+  "sdkVersion": "1.x",
+  "permissions": [
+    "search.fulltext.read",
+    "reader.open"
+  ],
+  "network": {
+    "enabled": false,
+    "allowlist": []
+  },
+  "contributes": {
+    "toolTab": {
+      "title": "מבואות לש״ס",
+      "order": 921,
+      "defaultPinned": true,
+      "iconName": "book_24_regular"
+    }
+  }
+}

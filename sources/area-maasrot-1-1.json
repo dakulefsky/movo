@@ -1,0 +1,51 @@
+{
+  "versions": [
+    {
+      "status": "locked",
+      "priority": "",
+      "license": "Public Domain",
+      "versionNotes": "",
+      "formatAsPoetry": "",
+      "digitizedBySefaria": true,
+      "method": "",
+      "heversionSource": "",
+      "versionUrl": "",
+      "versionTitleInHebrew": "מהדורת וילנא",
+      "versionNotesInHebrew": "",
+      "shortVersionTitle": "",
+      "shortVersionTitleInHebrew": "",
+      "extendedNotes": "",
+      "extendedNotesHebrew": "",
+      "purchaseInformationImage": "",
+      "purchaseInformationURL": "",
+      "hasManuallyWrappedRefs": "",
+      "language": "he",
+      "title": "Rambam on Mishnah Maasrot",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "versionTitle": "Vilna Edition",
+      "actualLanguage": "he",
+      "languageFamilyName": "hebrew",
+      "isSource": true,
+      "isPrimary": true,
+      "direction": "rtl"
+    }
+  ],
+  "book": "Rambam on Mishnah Maasrot",
+  "indexTitle": "Rambam on Mishnah Maasrot",
+  "ref": "Rambam on Mishnah Maasrot 1:1",
+  "heRef": "רמב״ם על משנה מעשרות 1:1",
+  "he": [
+    "כל שהוא אוכל יצא הכופר והוא בערבי אלחנה והאסוס והוא בלשון ערבי ניליג והקוצה הוא בל' ערבי אלעצפור ודומיהן: \n",
+    "ונשמר. יצא המופקר: \n",
+    "וגדוליו מן הארץ יצאו כמהין ופטריות וכל זה נסמך למה שאמר השם יתברך(דברי' יא) עשר תעשר ואח\"כ אמ' ואכלת לפני ה' אלהיך מעשר דגנך תירושך ויצהרך למדנו שאין חייב במעשר אלא היוצא מן השדה וראוי לאכילה ונשמר למאמר יתברך זרעך זרעך המיוחד לך לא של הפקר לפי שאין לו בעלים: \n",
+    "ותחלתו אוכל וסופו אוכל. הם מיני ירקות לפי שהם ראויות לאכילה תכף מצמיחתן ואחר גמר גדולן ואין מניחין אותן בארץ אלא כדי שיגדילו וזה דרך רוב הירקות ולפיכך הם חייבות במעשר בשעת קטנן או גדלן לפי שהם ראויות לאכילה בין גדולות ובין קטנות ומה שאינו ראוי לאכילה בתחלת צמיחתו כמו פירות האילן אינן חייבות במעשר עד שיעשו אוכל למה שאמר ה' יתברך מזרע הארץ מפרי העץ עד שיהיה פרי ואמר גם כן עשר תעשר את כל תבואת זרעך עד שיעשה תבואה: \n"
+  ],
+  "provenance": {
+    "file": "raw/sefaria-full-maasrot.json",
+    "jsonPath": [
+      "he",
+      0,
+      0
+    ]
+  }
+}

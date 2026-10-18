@@ -1,0 +1,123 @@
+{
+  "ref": "Rambam on Mishnah Zevachim 1:1",
+  "heRef": "רמב\"ם על משנה זבחים א׳:א׳",
+  "isComplex": false,
+  "text": [],
+  "he": [
+    "<b>כל הזבחים שנזבחו שלא לשמן כשרים אלא שלא עלו לבעלים לשם חובה כו': </b>מה שאמר כשרים ר\"ל כשנגמרה העבודה לשם הזבח אע\"פ ששחט שלא לשמן כגון ששחט עולה לשם חטאת ואח\"כ נודע שהוא קרבן עולה אז הוא מקבל הדם לשם עולה וישלים העבודה לשם עולה אע\"פ שהעולה הזאת לא עלתה לבעלים: וממה שאמר לבעלים תבין שאינו מדבר אלא על הקרבנות שיש להן בעלים ידועים אמנם קרבנות הצבור אין פוסלת אותן שחיטה שלא לשמן שכך אמרו רז\"ל קרבנות הצבור סכין מושכתן לכמות שהן וסמך הדין הזה לקרבנות יחיד ממה שנאמר מוצא שפתיך תשמור וגו' כאשר נדרת נדבה וכבר בארתי לך שהנדר אינו נדבה ולכן אמר אם כמה שנדרת עשית יהיה נדר ואם לאו נדבה ר\"ל אם שחט לשם זבח ולשם בעלים אז הוא עולה לבעלים משום חובה ויצא ידי נדרו ואם אירע בשחיטה שינוי כוונה ושחט שלא לשמן או שלא לשם בעלים הרי הוא כשר אלא שהוא נדבה ונשאר עליו הנדר שנדר. וממה שאמר שלא לשמן ראיה שאם שחט סתם שהוא כשר ועלה לבעלים ובא הכתוב בפסח ואמר ועשית פסח ואמר בפירושו שיהיו כל עשיותיו לשם פסח ועוד בא כתוב אחר ואמר ואמרתם זבח פסח הוא לה' שיהא זביחה לשם פסח ושני הכתובים האלה האחד לשלא לשמן שהוא פסול והכתוב האחר לשלא לשם בעלים ונאמר בחטאת ושחט אותה לחטאת שתהא שחיטה לשם חטאת וכן אמר ולקח הכהן מדם החטאת וכפר עליו הכהן מחטאתו אשר חטא ראיה שהוא צריך קבלה לשמה וזריקה לשמה ולכן אם נשחטה שלא לשמה או שלא לשם בעלים פסולה שנאמר וכפר עליו הכהן עליו ולא על חברו וצריך שתדע מה שאמר ושחט אותה לחטאת לשם אותו החטאת ודע שאם שחט החטאת לשם חולין כשרה ולא עלתה לבעלים אבל תפסל אם נשחטה לשם קדשים אחרים וזהו מה שאמר ולא יחללו את קדשי בני ישראל קדשים מחללים קדשים ואין חולין מחללין קדשים. וזמנו של פסח הוא יום י\"ד בניסן אבל אם ישחט ביום אחר שאינו יום י\"ד ושחטו לשמו פסול ושלא לשמו כשר וזה מבואר וכבר נזכר בפסחים ורבי אליעזר מביא ראיה ממה שנאמר כחטאת כאשם ואינו כן בענין זה לפי שלא מצינו באשם מיעוט כמו שמצינו בריטאת ושחט אותה לחטאת ואע\"פ שנאמר באשם אשם הוא לא נאמר בשעת שחיטה כמו שנאמר בחטאת אבל נאמר בו אחר גמר הקטרת אימורים ואין הלכה כר\"א: "
+  ],
+  "versions": [
+    {
+      "status": "locked",
+      "priority": "",
+      "license": "Public Domain",
+      "versionNotes": "",
+      "formatAsPoetry": "",
+      "digitizedBySefaria": true,
+      "method": "",
+      "heversionSource": "",
+      "versionUrl": "",
+      "versionTitleInHebrew": "מהדורת וילנא",
+      "versionNotesInHebrew": "",
+      "shortVersionTitle": "",
+      "shortVersionTitleInHebrew": "",
+      "extendedNotes": "",
+      "extendedNotesHebrew": "",
+      "purchaseInformationImage": "",
+      "purchaseInformationURL": "",
+      "hasManuallyWrappedRefs": "",
+      "language": "he",
+      "title": "Rambam on Mishnah Zevachim",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "versionTitle": "Vilna edition",
+      "actualLanguage": "he",
+      "languageFamilyName": "hebrew",
+      "isSource": true,
+      "isPrimary": true,
+      "direction": "rtl"
+    }
+  ],
+  "textDepth": 3,
+  "sectionNames": [
+    "Chapter",
+    "Mishnah",
+    "Comment"
+  ],
+  "addressTypes": [
+    "Perek",
+    "Mishnah",
+    "Integer"
+  ],
+  "lengths": [
+    14,
+    101,
+    103
+  ],
+  "length": 14,
+  "heTitle": "רמב\"ם על משנה זבחים",
+  "titleVariants": [
+    "Maimonides on Mishna Zevachim",
+    "Maimonides on M. Zevachim",
+    "Maimonides on M Zevachim",
+    "Maimonides on Mishnah Zevachim",
+    "Rambam on Mishna Zevachim",
+    "Rambam on M. Zevachim",
+    "Rambam on M Zevachim",
+    "Rambam on Mishnah Zevachim"
+  ],
+  "heTitleVariants": [
+    "רמב\"ם על משנה זבחים"
+  ],
+  "type": "Commentary",
+  "primary_category": "Commentary",
+  "book": "Rambam on Mishnah Zevachim",
+  "categories": [
+    "Mishnah",
+    "Rishonim on Mishnah",
+    "Rambam",
+    "Seder Kodashim"
+  ],
+  "order": "",
+  "sections": [
+    1,
+    1
+  ],
+  "toSections": [
+    1,
+    1
+  ],
+  "commentator": "Rambam",
+  "heCommentator": "רמב\"ם",
+  "collectiveTitle": "Rambam",
+  "heCollectiveTitle": "רמב\"ם",
+  "baseTexTitles": [
+    "Mishnah Zevachim"
+  ],
+  "isDependant": true,
+  "indexTitle": "Rambam on Mishnah Zevachim",
+  "heIndexTitle": "רמב\"ם על משנה זבחים",
+  "sectionRef": "Rambam on Mishnah Zevachim 1:1",
+  "firstAvailableSectionRef": "Rambam on Mishnah Zevachim 1:1",
+  "heSectionRef": "רמב\"ם על משנה זבחים א׳:א׳",
+  "isSpanning": false,
+  "heVersionTitle": "Vilna edition",
+  "heVersionTitleInHebrew": "מהדורת וילנא",
+  "heShortVersionTitle": "",
+  "heShortVersionTitleInHebrew": "",
+  "heVersionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+  "heVersionStatus": "locked",
+  "heVersionNotes": "",
+  "heExtendedNotes": "",
+  "heExtendedNotesHebrew": "",
+  "heVersionNotesInHebrew": "",
+  "heDigitizedBySefaria": true,
+  "heLicense": "Public Domain",
+  "formatHeAsPoetry": false,
+  "alts": [],
+  "index_offsets_by_depth": {},
+  "next": "Rambam on Mishnah Zevachim 1:2",
+  "prev": null,
+  "commentary": [],
+  "sheets": [],
+  "layer": []
+}

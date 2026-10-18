@@ -1,0 +1,123 @@
+{
+  "ref": "Rambam on Mishnah Zevachim 5:6",
+  "heRef": "רמב\"ם על משנה זבחים ה׳:ו׳",
+  "isComplex": false,
+  "text": [],
+  "he": [
+    "<b>התודה ואיל נזיר קדשים קלים שחיטתן בכל כו': </b>התודה היא קרבן שלמים עם מנחה ועוד נבאר אותה במנחות שנאמר וזאת תורת זבח השלמים אם על תודה יקריבנו. ונאמר בזריקת דם השלמים סביב כמו שנאמר בעולה לפיכך כל שלמים דמן טעון שתי מתנות שהן ד' כמו העולה ואמר רחמנא בחטאת ואכלתם אותה במקום קדוש ואמרו אותה במקום קדוש ולא אחרת במקום קדוש ר\"ל שהחטאת וכל הראוי לה והאשם שמשפטו כמשפטם שנא' בתורה כחטאת כאשם היא שאינה נאכלת אלא בעזרה אבל זולתה מן הקרבנות נאכלין בכל ירושלים: והמורם הוא הדבר שהכהן נוטל מתודה ואיל נזיר והוא שנוטל מקרבן תודה חזה ושוק ונוטל מן הלחם שמקריבין עמו אחד מכל קרבן שהן ד' חלות כמו שנבאר בשביעי ממנחות ונוטל מאיל נזיר הזרוע בשלה וחזה ושוק ג\"כ וחלת מצה ורקיק מצה מן הלחם שמקריבין עם איל השלמים וכל אלו אוכלין אותן הכהנים זכרים ונקבות לפי שכן בא הכתוב עליהן חקך וחק בניך וגו' ונאמר בתודה בפי' ובשר זבח תודת שלמיו ביום קרבנו יאכל לא יניח ממנו עד בקר ואיל נזיר הוקש לתודה שהוא ג\"כ קרבן שלמים עם מנחה. וכבר ידעת שכ\"מ שנא' בו עד בוקר מצותו עד שיעלה עמוד השחר אבל מדרבנן אמרו עד חצות להרחיק האדם מן העבירה כמו שנזכר למעלה: "
+  ],
+  "versions": [
+    {
+      "status": "locked",
+      "priority": "",
+      "license": "Public Domain",
+      "versionNotes": "",
+      "formatAsPoetry": "",
+      "digitizedBySefaria": true,
+      "method": "",
+      "heversionSource": "",
+      "versionUrl": "",
+      "versionTitleInHebrew": "מהדורת וילנא",
+      "versionNotesInHebrew": "",
+      "shortVersionTitle": "",
+      "shortVersionTitleInHebrew": "",
+      "extendedNotes": "",
+      "extendedNotesHebrew": "",
+      "purchaseInformationImage": "",
+      "purchaseInformationURL": "",
+      "hasManuallyWrappedRefs": "",
+      "language": "he",
+      "title": "Rambam on Mishnah Zevachim",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "versionTitle": "Vilna edition",
+      "actualLanguage": "he",
+      "languageFamilyName": "hebrew",
+      "isSource": true,
+      "isPrimary": true,
+      "direction": "rtl"
+    }
+  ],
+  "textDepth": 3,
+  "sectionNames": [
+    "Chapter",
+    "Mishnah",
+    "Comment"
+  ],
+  "addressTypes": [
+    "Perek",
+    "Mishnah",
+    "Integer"
+  ],
+  "lengths": [
+    14,
+    101,
+    103
+  ],
+  "length": 14,
+  "heTitle": "רמב\"ם על משנה זבחים",
+  "titleVariants": [
+    "Maimonides on Mishna Zevachim",
+    "Maimonides on M. Zevachim",
+    "Maimonides on M Zevachim",
+    "Maimonides on Mishnah Zevachim",
+    "Rambam on Mishna Zevachim",
+    "Rambam on M. Zevachim",
+    "Rambam on M Zevachim",
+    "Rambam on Mishnah Zevachim"
+  ],
+  "heTitleVariants": [
+    "רמב\"ם על משנה זבחים"
+  ],
+  "type": "Commentary",
+  "primary_category": "Commentary",
+  "book": "Rambam on Mishnah Zevachim",
+  "categories": [
+    "Mishnah",
+    "Rishonim on Mishnah",
+    "Rambam",
+    "Seder Kodashim"
+  ],
+  "order": "",
+  "sections": [
+    5,
+    6
+  ],
+  "toSections": [
+    5,
+    6
+  ],
+  "commentator": "Rambam",
+  "heCommentator": "רמב\"ם",
+  "collectiveTitle": "Rambam",
+  "heCollectiveTitle": "רמב\"ם",
+  "baseTexTitles": [
+    "Mishnah Zevachim"
+  ],
+  "isDependant": true,
+  "indexTitle": "Rambam on Mishnah Zevachim",
+  "heIndexTitle": "רמב\"ם על משנה זבחים",
+  "sectionRef": "Rambam on Mishnah Zevachim 5:6",
+  "firstAvailableSectionRef": "Rambam on Mishnah Zevachim 5:6",
+  "heSectionRef": "רמב\"ם על משנה זבחים ה׳:ו׳",
+  "isSpanning": false,
+  "heVersionTitle": "Vilna edition",
+  "heVersionTitleInHebrew": "מהדורת וילנא",
+  "heShortVersionTitle": "",
+  "heShortVersionTitleInHebrew": "",
+  "heVersionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+  "heVersionStatus": "locked",
+  "heVersionNotes": "",
+  "heExtendedNotes": "",
+  "heExtendedNotesHebrew": "",
+  "heVersionNotesInHebrew": "",
+  "heDigitizedBySefaria": true,
+  "heLicense": "Public Domain",
+  "formatHeAsPoetry": false,
+  "alts": [],
+  "index_offsets_by_depth": {},
+  "next": "Rambam on Mishnah Zevachim 5:7",
+  "prev": "Rambam on Mishnah Zevachim 5:5",
+  "commentary": [],
+  "sheets": [],
+  "layer": []
+}

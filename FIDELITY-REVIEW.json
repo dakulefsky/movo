@@ -1,0 +1,3635 @@
+{
+  "version": "0.9.3",
+  "type": "same-editor manual source comparison",
+  "scope": "All 106 existing entries across seven areas; Ishut completed in 0.9.2, all remaining areas in 0.9.3. No added coverage.",
+  "limits": "This record tracks editorial work, not independent rabbinic certification. Matching text, citation checks and tests do not prove interpretation. Hebrew source snapshots were compared, not the Arabic originals or a critical apparatus.",
+  "entries": [
+    {
+      "area": "kodashim",
+      "entry": "olah",
+      "title": "עולה",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [
+        "service"
+      ],
+      "attribution_blocks_changed": [
+        "service",
+        "portions",
+        "bird"
+      ],
+      "passages": [
+        {
+          "source": "intro",
+          "segments": [
+            14,
+            16,
+            22,
+            25,
+            36,
+            37,
+            39,
+            41
+          ]
+        },
+        {
+          "source": "mishnah5",
+          "segments": [
+            4
+          ]
+        },
+        {
+          "source": "mishnah6",
+          "segments": [
+            5
+          ]
+        },
+        {
+          "source": "z1-1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "z5-4",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "z6-5",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "kodashim",
+      "entry": "chattat",
+      "title": "חטאת",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [
+        "animals",
+        "outer",
+        "inner",
+        "bird"
+      ],
+      "passages": [
+        {
+          "source": "intro",
+          "segments": [
+            17,
+            20,
+            21,
+            32,
+            33,
+            35,
+            36,
+            41,
+            42,
+            43,
+            47,
+            48,
+            50
+          ]
+        },
+        {
+          "source": "mishnah5",
+          "segments": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "source": "mishnah6",
+          "segments": [
+            4,
+            5
+          ]
+        },
+        {
+          "source": "z1-1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "z5-3",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "z6-4",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "z6-5",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "kodashim",
+      "entry": "asham",
+      "title": "אשם",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [
+        "nature",
+        "types",
+        "service",
+        "eating"
+      ],
+      "passages": [
+        {
+          "source": "intro",
+          "segments": [
+            18,
+            20,
+            21,
+            33,
+            35,
+            36,
+            41
+          ]
+        },
+        {
+          "source": "keritot4",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "mishnah5",
+          "segments": [
+            5
+          ]
+        },
+        {
+          "source": "z5-1",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "kodashim",
+      "entry": "shelamim",
+      "title": "שלמים",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [
+        "service",
+        "portions",
+        "time"
+      ],
+      "passages": [
+        {
+          "source": "intro",
+          "segments": [
+            19,
+            20,
+            21,
+            39,
+            41
+          ]
+        },
+        {
+          "source": "mishnah5",
+          "segments": [
+            6,
+            7
+          ]
+        },
+        {
+          "source": "z5-5",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "z5-6",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "z5-7",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "kodashim",
+      "entry": "todah",
+      "title": "תודה",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [
+        "service"
+      ],
+      "passages": [
+        {
+          "source": "bread7",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "intro",
+          "segments": [
+            19,
+            20,
+            21,
+            41
+          ]
+        },
+        {
+          "source": "mishnah5",
+          "segments": [
+            6
+          ]
+        },
+        {
+          "source": "z5-6",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "kodashim",
+      "entry": "nazir",
+      "title": "איל נזיר",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [
+        "service",
+        "time"
+      ],
+      "passages": [
+        {
+          "source": "intro",
+          "segments": [
+            19,
+            20,
+            21,
+            36,
+            41
+          ]
+        },
+        {
+          "source": "mishnah5",
+          "segments": [
+            6
+          ]
+        },
+        {
+          "source": "z5-6",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "kodashim",
+      "entry": "public-shelamim",
+      "title": "שלמי ציבור",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [
+        "service",
+        "portions"
+      ],
+      "passages": [
+        {
+          "source": "intro",
+          "segments": [
+            19,
+            20,
+            21,
+            22,
+            25
+          ]
+        },
+        {
+          "source": "mishnah5",
+          "segments": [
+            5
+          ]
+        },
+        {
+          "source": "z5-5",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "kodashim",
+      "entry": "bekhor",
+      "title": "בכור בהמה טהורה",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [
+        "service",
+        "eating"
+      ],
+      "passages": [
+        {
+          "source": "bekhor-torah",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "bekhorot2",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "intro",
+          "segments": [
+            38
+          ]
+        },
+        {
+          "source": "mishnah5",
+          "segments": [
+            8
+          ]
+        },
+        {
+          "source": "z5-8",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "kodashim",
+      "entry": "maaser",
+      "title": "מעשר בהמה",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [
+        "nature",
+        "service",
+        "eating"
+      ],
+      "passages": [
+        {
+          "source": "intro",
+          "segments": [
+            38
+          ]
+        },
+        {
+          "source": "maaser-mishnah",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "maaser9",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "mishnah5",
+          "segments": [
+            8
+          ]
+        },
+        {
+          "source": "z5-8",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "kodashim",
+      "entry": "pesach",
+      "title": "פסח",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [
+        "scope"
+      ],
+      "attribution_blocks_changed": [
+        "service",
+        "eating"
+      ],
+      "passages": [
+        {
+          "source": "intro",
+          "segments": [
+            44,
+            45
+          ]
+        },
+        {
+          "source": "meiri",
+          "segments": [
+            2
+          ]
+        },
+        {
+          "source": "mishnah5",
+          "segments": [
+            8
+          ]
+        },
+        {
+          "source": "pesach5",
+          "segments": [
+            1,
+            2
+          ]
+        },
+        {
+          "source": "z1-1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "z5-8",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "kodashim",
+      "entry": "minchah",
+      "title": "מנחות — עיקר הענין",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [
+        "eating"
+      ],
+      "passages": [
+        {
+          "source": "m1-1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "m2-1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "m5-1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "m6-1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "mishnah6",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "z5-8",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "kodashim",
+      "entry": "k-nesachim",
+      "title": "מנחת נסכים ויין",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [
+        "distinction"
+      ],
+      "passages": [
+        {
+          "source": "c-Menachot-9.6",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "c-m-Menachot-9.6",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "c-nesachim-verses",
+          "segments": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "area": "kodashim",
+      "entry": "av-semichah",
+      "title": "סמיכה",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [
+        "act",
+        "offerings",
+        "person"
+      ],
+      "passages": [
+        {
+          "source": "av-m-9.7",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "av-m-9.8",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "av-mm-9.7",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "av-mm-9.8",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "av-mm-9.9",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "kodashim",
+      "entry": "av-shechitah",
+      "title": "שחיטה",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [
+        "place"
+      ],
+      "passages": [
+        {
+          "source": "av-chullin",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "av-m-9.8",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "av-z-1.4",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "mishnah5",
+          "segments": [
+            4,
+            7,
+            8
+          ]
+        },
+        {
+          "source": "z2-1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "z3-1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "z5-1",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "kodashim",
+      "entry": "av-kabbalah",
+      "title": "קבלת הדם",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [
+        "place"
+      ],
+      "passages": [
+        {
+          "source": "mishnah5",
+          "segments": [
+            1,
+            4,
+            5
+          ]
+        },
+        {
+          "source": "z2-1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "z3-1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "z5-1",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "kodashim",
+      "entry": "av-holachah",
+      "title": "הולכת הדם",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [
+        "act",
+        "possible",
+        "thought"
+      ],
+      "passages": [
+        {
+          "source": "av-mz-1.4",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "av-z-1.4",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "kodashim",
+      "entry": "av-zerikah",
+      "title": "זריקה ומתנות הדם",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [
+        "act",
+        "outer",
+        "height",
+        "inner",
+        "meakev",
+        "shirayim"
+      ],
+      "passages": [
+        {
+          "source": "av-mz-1.4",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "av-mz-4.1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "av-mz-4.2",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "av-z-4.1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "av-z-4.2",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "mishnah5",
+          "segments": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "source": "mishnah6",
+          "segments": [
+            4,
+            5
+          ]
+        },
+        {
+          "source": "z2-1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "z5-1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "z5-3",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "z5-4",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "z5-6",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "z6-4",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "z6-5",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "kodashim",
+      "entry": "av-haktarah",
+      "title": "הקטרה",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [
+        "burning",
+        "altar"
+      ],
+      "passages": [
+        {
+          "source": "av-mz-9.1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "av-olah-verses",
+          "segments": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "source": "av-z-9.1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "intro",
+          "segments": [
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ]
+        },
+        {
+          "source": "m2-1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "mishnah5",
+          "segments": [
+            1,
+            2
+          ]
+        },
+        {
+          "source": "z5-4",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "kodashim",
+      "entry": "av-melikah",
+      "title": "מליקה ועבודת דם העוף",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [
+        "act",
+        "blood",
+        "portions"
+      ],
+      "passages": [
+        {
+          "source": "mishnah6",
+          "segments": [
+            4,
+            5
+          ]
+        },
+        {
+          "source": "z6-4",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "z6-5",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "kodashim",
+      "entry": "av-tenufah",
+      "title": "תנופה",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [
+        "objects"
+      ],
+      "attribution_blocks_changed": [
+        "act",
+        "objects",
+        "when",
+        "person"
+      ],
+      "passages": [
+        {
+          "source": "av-m-5.6",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "av-m-5.7",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "av-m-9.9",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "av-mm-5.6",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "av-mm-5.7",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "av-mm-9.9",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "kodashim",
+      "entry": "avodot",
+      "title": "שחיטה ועבודת הדם",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [
+        "worker",
+        "place"
+      ],
+      "passages": [
+        {
+          "source": "intro",
+          "segments": [
+            53
+          ]
+        },
+        {
+          "source": "mishnah5",
+          "segments": [
+            4,
+            7
+          ]
+        },
+        {
+          "source": "mishnah6",
+          "segments": [
+            4,
+            5
+          ]
+        },
+        {
+          "source": "z2-1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "z2-3",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "z3-1",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "kodashim",
+      "entry": "imurim",
+      "title": "אימורים וחלקי הקרבן",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [
+        "boundaries"
+      ],
+      "passages": [
+        {
+          "source": "intro",
+          "segments": [
+            17,
+            18,
+            19,
+            20,
+            21
+          ]
+        },
+        {
+          "source": "mishnah5",
+          "segments": [
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "source": "z5-3",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "kodashim",
+      "entry": "pesulim",
+      "title": "פסולי מחשבה ונותר",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [
+        "shem"
+      ],
+      "attribution_blocks_changed": [],
+      "passages": [
+        {
+          "source": "mishnah5",
+          "segments": [
+            6,
+            7
+          ]
+        },
+        {
+          "source": "z1-1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "z2-2",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "z2-3",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "z3-1",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "kodashim",
+      "entry": "k-meilah",
+      "title": "מעילה",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [
+        "distinction"
+      ],
+      "passages": [
+        {
+          "source": "c-Meilah-1.1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "c-m-Meilah-1.1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "intro",
+          "segments": [
+            35
+          ]
+        }
+      ]
+    },
+    {
+      "area": "kodashim",
+      "entry": "k-temurah",
+      "title": "תמורה",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [
+        "meaning"
+      ],
+      "passages": [
+        {
+          "source": "c-Temurah-1.1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "c-m-Temurah-1.1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "c-temurah-verse",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "kodashim",
+      "entry": "public",
+      "title": "ציבור, יחיד וזמן קבוע",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [],
+      "passages": [
+        {
+          "source": "intro",
+          "segments": [
+            18,
+            22,
+            25,
+            42,
+            43,
+            44,
+            45,
+            46
+          ]
+        }
+      ]
+    },
+    {
+      "area": "tahorot",
+      "entry": "t-met",
+      "title": "טומאת מת",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [],
+      "passages": [
+        {
+          "source": "t-intro",
+          "segments": [
+            6,
+            14
+          ]
+        }
+      ]
+    },
+    {
+      "area": "tahorot",
+      "entry": "t-sheretz",
+      "title": "שרץ",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [
+        "species"
+      ],
+      "attribution_blocks_changed": [],
+      "passages": [
+        {
+          "source": "t-intro",
+          "segments": [
+            4,
+            23
+          ]
+        },
+        {
+          "source": "t-kelim-1",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "tahorot",
+      "entry": "t-nevelah",
+      "title": "נבילה",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [
+        "source"
+      ],
+      "attribution_blocks_changed": [],
+      "passages": [
+        {
+          "source": "t-intro",
+          "segments": [
+            5,
+            21
+          ]
+        },
+        {
+          "source": "t-kelim-2",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "tahorot",
+      "entry": "t-zav",
+      "title": "זב, משכב ומושב",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [],
+      "passages": [
+        {
+          "source": "review-zavim",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "t-intro",
+          "segments": [
+            10,
+            11
+          ]
+        },
+        {
+          "source": "t-kelim-3",
+          "segments": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "source": "t-kelim-4",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "tahorot",
+      "entry": "t-niddah",
+      "title": "נדה, זבה ושומרת יום",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [],
+      "passages": [
+        {
+          "source": "t-intro",
+          "segments": [
+            10,
+            11
+          ]
+        },
+        {
+          "source": "v-Niddah-4.7",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "v-niddah-verse",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "v-zavah-verses",
+          "segments": [
+            1,
+            2,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "area": "tahorot",
+      "entry": "t-contact",
+      "title": "מגע ומשא",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [],
+      "passages": [
+        {
+          "source": "t-kelim-1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "t-kelim-2",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "tahorot",
+      "entry": "t-ohel",
+      "title": "טומאת אהל",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [],
+      "passages": [
+        {
+          "source": "v-Oholot-3.1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "v-Oholot-3.7",
+          "segments": [
+            3,
+            4,
+            5,
+            7
+          ]
+        },
+        {
+          "source": "v-m-Oholot-3.7",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "tahorot",
+      "entry": "t-ranks",
+      "title": "אב, ראשון ושני",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [],
+      "passages": [
+        {
+          "source": "t-intro",
+          "segments": [
+            23,
+            33
+          ]
+        }
+      ]
+    },
+    {
+      "area": "tahorot",
+      "entry": "t-kelim",
+      "title": "טומאת כלים",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [],
+      "passages": [
+        {
+          "source": "t-intro",
+          "segments": [
+            14,
+            31
+          ]
+        },
+        {
+          "source": "t-kelim-1",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "tahorot",
+      "entry": "t-hechsher",
+      "title": "הכשר אוכלין ומשקין",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [],
+      "passages": [
+        {
+          "source": "t-hechsher",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "t-intro",
+          "segments": [
+            24,
+            25
+          ]
+        }
+      ]
+    },
+    {
+      "area": "tahorot",
+      "entry": "t-yadayim",
+      "title": "טומאת ידיים",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [],
+      "passages": [
+        {
+          "source": "c-Tahorot-4.11",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "c-Yadayim-3.2",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "tahorot",
+      "entry": "t-tevilah",
+      "title": "טבילה, חציצה והערב שמש",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [],
+      "passages": [
+        {
+          "source": "t-intro",
+          "segments": [
+            25,
+            33
+          ]
+        },
+        {
+          "source": "t-mik-1-7",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "t-mik-1-8",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "t-mik-9-1",
+          "segments": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "area": "tahorot",
+      "entry": "t-hazaah",
+      "title": "הזאה ומי חטאת",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [],
+      "passages": [
+        {
+          "source": "t-hazaah",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "t-intro",
+          "segments": [
+            8
+          ]
+        },
+        {
+          "source": "t-kelim-2",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "t-mik-1-8",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "tahorot",
+      "entry": "t-safek",
+      "title": "ספקות טומאה",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [
+        "meaning"
+      ],
+      "passages": [
+        {
+          "source": "c-Tahorot-4.11",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "c-Tahorot-4.7",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "c-m-Tahorot-4.7",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "ishut",
+      "entry": "i-kiddushin",
+      "title": "קידושין",
+      "review": "source-comparison completed in 0.9.2",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [],
+      "passages": [
+        {
+          "source": "a-kiddushin-1-1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "a-kiddushin-3-12",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "am-kiddushin-1-1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "am-kiddushin-3-12",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "i-meiri",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "ishut",
+      "entry": "i-nissuin",
+      "title": "נישואין וחופה",
+      "review": "source-comparison completed in 0.9.2",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [
+        "stages"
+      ],
+      "passages": [
+        {
+          "source": "i-ket-5-2",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "i-meiri",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "review-nissuin-m",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "ishut",
+      "entry": "i-ketubah",
+      "title": "כתובה ותנאי האישות",
+      "review": "source-comparison completed in 0.9.2",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [],
+      "passages": [
+        {
+          "source": "i-ket-4-7",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "i-meiri",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "ishut",
+      "entry": "i-shlichut",
+      "title": "שליחות בקידושין ובגט",
+      "review": "source-comparison completed in 0.9.2",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [],
+      "passages": [
+        {
+          "source": "a-kiddushin-2-1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "i-get-1-1",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "ishut",
+      "entry": "i-gerushin",
+      "title": "גירושין ונתינת הגט",
+      "review": "source-comparison completed in 0.9.2",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [],
+      "passages": [
+        {
+          "source": "am-kiddushin-1-1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "i-get-8-1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "i-get-9-3",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "ishut",
+      "entry": "i-lishmah",
+      "title": "כתיבת הגט לשמה",
+      "review": "source-comparison completed in 0.9.2",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [
+        "distinction"
+      ],
+      "passages": [
+        {
+          "source": "c-Gittin-3.1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "c-m-Gittin-3.1",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "ishut",
+      "entry": "i-edei-get",
+      "title": "עדי חתימה ועדי מסירה",
+      "review": "source-comparison completed in 0.9.2",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [],
+      "passages": [
+        {
+          "source": "c-Gittin-9.4",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "c-m-Gittin-9.4",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "ishut",
+      "entry": "i-yibum",
+      "title": "יבום וזיקה",
+      "review": "source-comparison completed in 0.9.2",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [],
+      "passages": [
+        {
+          "source": "a-yevamot-1-1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "a-yevamot-2-1",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "ishut",
+      "entry": "i-chalitzah",
+      "title": "חליצה",
+      "review": "source-comparison completed in 0.9.2",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [],
+      "passages": [
+        {
+          "source": "a-yevamot-1-1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "a-yevamot-12-1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "a-yevamot-12-6",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "am-kiddushin-1-1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "am-yevamot-12-6",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "ishut",
+      "entry": "i-maamar",
+      "title": "מאמר ביבמה",
+      "review": "source-comparison completed in 0.9.2",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [],
+      "passages": [
+        {
+          "source": "a-yevamot-2-1",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "zeraim",
+      "entry": "z-peah",
+      "title": "לקט, שכחה ופאה",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [
+        "meaning",
+        "distinction"
+      ],
+      "passages": [
+        {
+          "source": "c-Peah-1.1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "c-Peah-1.2",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "c-Peah-4.10",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "c-Peah-6.6",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "c-m-Peah-1.2",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "c-m-Peah-4.10",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "c-m-Peah-5.7",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "c-m-Peah-6.6",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "zeraim",
+      "entry": "z-hafrashah",
+      "title": "חיוב המעשרות וסדר ההפרשה",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [],
+      "passages": [
+        {
+          "source": "a-maasrot-1-1",
+          "segments": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "source": "a-maasrot-1-5",
+          "segments": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "source": "a-terumot-3-6",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "am-terumot-3-6",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "z-trumat-maaser",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "zeraim",
+      "entry": "z-terumah",
+      "title": "תרומה גדולה",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [
+        "meaning",
+        "amount",
+        "who"
+      ],
+      "passages": [
+        {
+          "source": "a-terumot-1-1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "a-terumot-4-3",
+          "segments": [
+            1,
+            2
+          ]
+        },
+        {
+          "source": "am-terumot-1-1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "am-terumot-3-6",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "am-terumot-4-3",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "zeraim",
+      "entry": "z-maaser-rishon",
+      "title": "מעשר ראשון ותרומת מעשר",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [
+        "gift",
+        "tenth",
+        "distinction"
+      ],
+      "attribution_blocks_changed": [
+        "gift",
+        "tenth"
+      ],
+      "passages": [
+        {
+          "source": "a-maaser_sheni-1-1",
+          "segments": [
+            1,
+            2
+          ]
+        },
+        {
+          "source": "a-maaser_sheni-5-10",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "a-terumot-1-1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "am-terumot-3-6",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "z-levi",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "z-trumat-maaser",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "zeraim",
+      "entry": "z-maaser-sheni",
+      "title": "מעשר שני ופדיונו",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [],
+      "passages": [
+        {
+          "source": "a-maaser_sheni-1-1",
+          "segments": [
+            1,
+            2
+          ]
+        },
+        {
+          "source": "a-maaser_sheni-2-1",
+          "segments": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "source": "a-maaser_sheni-4-3",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "a-maaser_sheni-5-10",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "z-maaser-verses",
+          "segments": [
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "area": "zeraim",
+      "entry": "z-maaser-ani",
+      "title": "מעשר עני וביעור",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [],
+      "passages": [
+        {
+          "source": "a-maaser_sheni-5-10",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "a-maaser_sheni-5-6",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "zeraim",
+      "entry": "z-demai",
+      "title": "דמאי",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [],
+      "passages": [
+        {
+          "source": "c-Demai-1.1",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "zeraim",
+      "entry": "z-challah",
+      "title": "חלה והפרשתה",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [
+        "grains"
+      ],
+      "attribution_blocks_changed": [
+        "grains",
+        "dough",
+        "amount"
+      ],
+      "passages": [
+        {
+          "source": "a-challah-1-1",
+          "segments": [
+            1,
+            2
+          ]
+        },
+        {
+          "source": "a-challah-2-5",
+          "segments": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "source": "a-challah-2-7",
+          "segments": [
+            1,
+            2
+          ]
+        },
+        {
+          "source": "am-challah-1-1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "am-challah-2-5",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "am-challah-2-6",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "am-challah-2-7",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "zeraim",
+      "entry": "z-orlah",
+      "title": "ערלה ונטע רבעי",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [],
+      "passages": [
+        {
+          "source": "a-maaser_sheni-5-10",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "a-orlah-1-1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "a-orlah-3-9",
+          "segments": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "source": "z-orlah-verses",
+          "segments": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "area": "zeraim",
+      "entry": "z-bikkurim",
+      "title": "הבאת ביכורים ומקרא ביכורים",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [
+        "meaning",
+        "distinction"
+      ],
+      "passages": [
+        {
+          "source": "c-Bikkurim-1.1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "c-Bikkurim-3.1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "c-Bikkurim-3.6",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "c-m-Bikkurim-1.1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "c-m-Bikkurim-3.1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "c-m-Bikkurim-3.6",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "zeraim",
+      "entry": "z-kilayim",
+      "title": "כלאים",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [
+        "kinds",
+        "crops",
+        "grafting"
+      ],
+      "passages": [
+        {
+          "source": "a-kilayim-1-7",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "a-kilayim-8-1",
+          "segments": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "source": "a-orlah-3-9",
+          "segments": [
+            3
+          ]
+        },
+        {
+          "source": "am-kilayim-8-1",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "zeraim",
+      "entry": "z-sheviit",
+      "title": "שביעית ופירותיה",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [
+        "use"
+      ],
+      "attribution_blocks_changed": [],
+      "passages": [
+        {
+          "source": "a-sheviit-7-1",
+          "segments": [
+            1,
+            2
+          ]
+        },
+        {
+          "source": "a-sheviit-8-1",
+          "segments": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "source": "z-sheviit-verses",
+          "segments": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "area": "zeraim",
+      "entry": "z-biur",
+      "title": "ביעור פירות שביעית",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [
+        "distinction"
+      ],
+      "attribution_blocks_changed": [
+        "meaning"
+      ],
+      "passages": [
+        {
+          "source": "v-Sheviit-9.2",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "v-m-Sheviit-9.2",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "v-ramban-biur",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "zeraim",
+      "entry": "z-shemittat-kesafim",
+      "title": "שמיטת כספים",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [
+        "debt",
+        "disputes"
+      ],
+      "attribution_blocks_changed": [
+        "debt",
+        "disputes"
+      ],
+      "passages": [
+        {
+          "source": "a-sheviit-10-1",
+          "segments": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "source": "am-sheviit-10-1",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "zeraim",
+      "entry": "z-prozbul",
+      "title": "פרוזבול",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [
+        "meaning"
+      ],
+      "passages": [
+        {
+          "source": "c-Sheviit-10.3",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "c-Sheviit-10.4",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "c-m-Sheviit-10.3",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "c-m-Sheviit-10.4",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "moed",
+      "entry": "s-melachot",
+      "title": "אבות מלאכות ותולדות",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [
+        "avot"
+      ],
+      "attribution_blocks_changed": [
+        "avot"
+      ],
+      "passages": [
+        {
+          "source": "n-Shabbat-7.2",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "n-m-Shabbat-7.2",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "moed",
+      "entry": "s-hotzaah",
+      "title": "הוצאה ורשויות שבת",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [],
+      "passages": [
+        {
+          "source": "n-Shabbat-1.1",
+          "segments": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "area": "moed",
+      "entry": "s-eruv",
+      "title": "עירובי חצרות ושיתופי מבואות",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [],
+      "passages": [
+        {
+          "source": "c-Eruvin-1.1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "c-Eruvin-3.1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "c-Eruvin-6.1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "c-Eruvin-7.10",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "moed",
+      "entry": "s-techum",
+      "title": "תחומין ומקום שביתה",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [
+        "meaning"
+      ],
+      "passages": [
+        {
+          "source": "c-Eruvin-3.1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "c-Eruvin-4.3",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "c-Eruvin-4.7",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "c-m-Eruvin-4.7",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "moed",
+      "entry": "s-shvut",
+      "title": "שבות",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [
+        "gezerah"
+      ],
+      "passages": [
+        {
+          "source": "n-Beitzah-5.2",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "n-m-Beitzah-5.2",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "moed",
+      "entry": "s-muktzeh",
+      "title": "מוקצה, נולד והכנה",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [],
+      "passages": [
+        {
+          "source": "c-Beitzah-1.1",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "moed",
+      "entry": "s-yomtov",
+      "title": "מלאכה ביום טוב",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [
+        "ochel"
+      ],
+      "passages": [
+        {
+          "source": "n-Beitzah-5.2",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "n-m-Beitzah-5.2",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "moed",
+      "entry": "s-bedikah",
+      "title": "בדיקת חמץ וביטולו",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [
+        "meaning"
+      ],
+      "passages": [
+        {
+          "source": "p-Pesachim-1.1",
+          "segments": [
+            1,
+            2
+          ]
+        },
+        {
+          "source": "p-m-Pesachim-1.1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "p-meiri-bitul",
+          "segments": [
+            1,
+            3,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "area": "moed",
+      "entry": "s-biur",
+      "title": "זמני איסור חמץ וביעורו",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [
+        "distinction"
+      ],
+      "passages": [
+        {
+          "source": "p-Pesachim-1.4",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "p-Pesachim-2.1",
+          "segments": [
+            1,
+            5,
+            6
+          ]
+        },
+        {
+          "source": "p-m-Pesachim-2.1",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "moed",
+      "entry": "s-pesach-night",
+      "title": "מצה, הסבה וארבע כוסות",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [
+        "cherut"
+      ],
+      "passages": [
+        {
+          "source": "n-Pesachim-10.1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "n-m-Pesachim-10.1",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "moed",
+      "entry": "s-chodesh",
+      "title": "קידוש החודש על פי הראייה",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [
+        "meaning",
+        "distinction"
+      ],
+      "passages": [
+        {
+          "source": "p-Rosh_Hashanah-2.6",
+          "segments": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "source": "p-Rosh_Hashanah-3.1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "p-m-Rosh_Hashanah-2.6",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "p-m-Rosh_Hashanah-3.1",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "moed",
+      "entry": "s-shofar",
+      "title": "תקיעה, שברים ותרועה",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [
+        "distinction"
+      ],
+      "attribution_blocks_changed": [
+        "distinction"
+      ],
+      "passages": [
+        {
+          "source": "c-Rosh_Hashanah-3.3",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "c-Rosh_Hashanah-4.9",
+          "segments": [
+            1,
+            2
+          ]
+        },
+        {
+          "source": "c-m-Rosh_Hashanah-3.3",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "moed",
+      "entry": "s-yom-kippur",
+      "title": "עינוי וכפרת יום הכפורים",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [
+        "distinction"
+      ],
+      "attribution_blocks_changed": [
+        "meaning",
+        "distinction"
+      ],
+      "passages": [
+        {
+          "source": "c-Yoma-8.1",
+          "segments": [
+            1,
+            2
+          ]
+        },
+        {
+          "source": "c-Yoma-8.9",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "c-m-Yoma-8.1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "c-m-Yoma-8.9",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "moed",
+      "entry": "s-sukkah",
+      "title": "סוכה",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [
+        "dirah"
+      ],
+      "passages": [
+        {
+          "source": "n-Sukkah-1.1",
+          "segments": [
+            1,
+            2
+          ]
+        },
+        {
+          "source": "n-m-Sukkah-1.1",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "moed",
+      "entry": "s-lulav",
+      "title": "ארבעת המינים",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [
+        "meaning",
+        "distinction"
+      ],
+      "passages": [
+        {
+          "source": "c-Sukkah-3.1",
+          "segments": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "source": "c-Sukkah-3.4",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "c-m-Sukkah-3.1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "c-m-Sukkah-3.4",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "moed",
+      "entry": "s-megillah",
+      "title": "קריאת המגילה",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [],
+      "passages": [
+        {
+          "source": "c-Megillah-1.1",
+          "segments": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "area": "moed",
+      "entry": "s-chol-hamoed",
+      "title": "מלאכה בחול המועד",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [
+        "distinction"
+      ],
+      "passages": [
+        {
+          "source": "c-Moed_Katan-1.1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "c-m-Moed_Katan-1.1",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "mammon",
+      "entry": "d-nezikin",
+      "title": "אבות נזיקין",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [
+        "difference"
+      ],
+      "attribution_blocks_changed": [
+        "difference"
+      ],
+      "passages": [
+        {
+          "source": "n-Bava_Kamma-1.1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "n-m-Bava_Kamma-1.1",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "mammon",
+      "entry": "d-chovel",
+      "title": "חובל בחברו וחמשת התשלומים",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [
+        "distinction"
+      ],
+      "passages": [
+        {
+          "source": "q-Bava_Kamma-8.1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "q-m-Bava_Kamma-8.1",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "mammon",
+      "entry": "d-geneivah",
+      "title": "גניבה ותשלומיה",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [
+        "distinction"
+      ],
+      "passages": [
+        {
+          "source": "p-Bava_Kamma-7.1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "p-m-Bava_Kamma-7.1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "p-meiri-geneivah",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "review-shomrim",
+          "segments": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "area": "mammon",
+      "entry": "d-gezel",
+      "title": "השבת גזלה ושינוי",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [
+        "distinction"
+      ],
+      "attribution_blocks_changed": [
+        "meaning",
+        "distinction"
+      ],
+      "passages": [
+        {
+          "source": "p-Bava_Kamma-9.1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "p-Bava_Kamma-9.2",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "p-gezel-verse",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "p-m-Bava_Kamma-9.1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "p-m-Bava_Kamma-9.2",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "mammon",
+      "entry": "d-shomrim",
+      "title": "ארבעה שומרים",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [
+        "four",
+        "ones"
+      ],
+      "passages": [
+        {
+          "source": "n-Bava_Metzia-7.8",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "n-Bava_Metzia-7.9",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "n-Bava_Metzia-8.1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "n-m-Bava_Metzia-7.8",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "n-m-Bava_Metzia-7.9",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "review-shomrim",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "mammon",
+      "entry": "d-ribit",
+      "title": "נשך ורבית",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [
+        "distinction"
+      ],
+      "attribution_blocks_changed": [
+        "meaning"
+      ],
+      "passages": [
+        {
+          "source": "c-Bava_Metzia-5.1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "c-m-Bava_Metzia-5.1",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "mammon",
+      "entry": "d-avedah",
+      "title": "מציאה והכרזה",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [
+        "siman"
+      ],
+      "passages": [
+        {
+          "source": "n-Bava_Metzia-2.1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "n-m-Bava_Metzia-2.1",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "mammon",
+      "entry": "d-karka",
+      "title": "קנין קרקע",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [
+        "ways"
+      ],
+      "passages": [
+        {
+          "source": "n-Kiddushin-1.5",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "n-m-Kiddushin-1.5",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "mammon",
+      "entry": "d-mitaltelin",
+      "title": "קנין מטלטלין ואגב",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [],
+      "passages": [
+        {
+          "source": "n-Bava_Metzia-4.1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "n-Kiddushin-1.5",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "mammon",
+      "entry": "d-onaah",
+      "title": "אונאה וביטול מקח",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [
+        "meaning"
+      ],
+      "passages": [
+        {
+          "source": "p-Bava_Metzia-4.3",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "p-Bava_Metzia-4.4",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "p-m-Bava_Metzia-4.4",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "mammon",
+      "entry": "d-shutfin",
+      "title": "חלוקת חצר ומחיצה",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [
+        "distinction"
+      ],
+      "attribution_blocks_changed": [
+        "distinction"
+      ],
+      "passages": [
+        {
+          "source": "p-Bava_Batra-1.1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "p-m-Bava_Batra-1.1",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "mammon",
+      "entry": "d-harchakah",
+      "title": "הרחקת נזקי שכנים",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [
+        "meaning"
+      ],
+      "passages": [
+        {
+          "source": "p-Bava_Batra-2.1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "p-m-Bava_Batra-2.1",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "mammon",
+      "entry": "d-yerushah",
+      "title": "סדר נחלות",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [
+        "distinction"
+      ],
+      "attribution_blocks_changed": [
+        "meaning",
+        "distinction"
+      ],
+      "passages": [
+        {
+          "source": "p-Bava_Batra-8.1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "p-Bava_Batra-8.2",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "p-m-Bava_Batra-8.1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "p-m-Bava_Batra-8.2",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "mammon",
+      "entry": "d-chazakah",
+      "title": "חזקת שלוש שנים",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [],
+      "passages": [
+        {
+          "source": "c-Bava_Batra-3.1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "n-Kiddushin-1.5",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "mammon",
+      "entry": "d-shevuot",
+      "title": "שבועת הדיינים",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [
+        "meaning"
+      ],
+      "passages": [
+        {
+          "source": "c-Shevuot-6.1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "c-m-Shevuot-6.1",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "mammon",
+      "entry": "d-edut",
+      "title": "בדיקת עדים בדיני ממונות",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [],
+      "passages": [
+        {
+          "source": "q-Sanhedrin-3.6",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "q-m-Sanhedrin-3.6",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "mammon",
+      "entry": "d-dayanim",
+      "title": "בית דין בדיני ממונות",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [
+        "three"
+      ],
+      "passages": [
+        {
+          "source": "n-Sanhedrin-3.1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "n-m-Sanhedrin-3.1",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "issur",
+      "entry": "a-shechitah",
+      "title": "שחיטת חולין",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [],
+      "passages": [
+        {
+          "source": "av-chullin",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "c-Chullin-1.1",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "issur",
+      "entry": "a-terefah",
+      "title": "טרפה",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [
+        "meaning"
+      ],
+      "passages": [
+        {
+          "source": "av-chullin",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "c-Chullin-3.1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "c-m-Chullin-3.1",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "issur",
+      "entry": "a-basar-chalav",
+      "title": "בשר בחלב",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [
+        "meaning",
+        "distinction"
+      ],
+      "passages": [
+        {
+          "source": "c-Chullin-8.1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "c-Chullin-8.4",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "c-m-Chullin-8.1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "c-m-Chullin-8.4",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "issur",
+      "entry": "a-taam",
+      "title": "נותן טעם בתערובת",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [
+        "meaning",
+        "distinction"
+      ],
+      "passages": [
+        {
+          "source": "c-Chullin-8.3",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "c-m-Chullin-8.3",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "issur",
+      "entry": "a-neder",
+      "title": "נדרי איסור ולשונותיהם",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [],
+      "passages": [
+        {
+          "source": "c-Nedarim-1.1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "c-Nedarim-2.2",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "intro",
+          "segments": [
+            41
+          ]
+        }
+      ]
+    },
+    {
+      "area": "issur",
+      "entry": "a-hatarah",
+      "title": "התרת נדרים והפרתם",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [],
+      "attribution_blocks_changed": [
+        "distinction"
+      ],
+      "passages": [
+        {
+          "source": "c-Nedarim-10.1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "c-Nedarim-9.1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "c-m-Nedarim-10.1",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "area": "issur",
+      "entry": "a-shevuah",
+      "title": "שבועת ביטוי",
+      "review": "source-comparison completed in 0.9.3",
+      "text_blocks_changed": [
+        "distinction"
+      ],
+      "attribution_blocks_changed": [
+        "meaning",
+        "distinction"
+      ],
+      "passages": [
+        {
+          "source": "c-Shevuot-3.1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "c-Shevuot-6.1",
+          "segments": [
+            1
+          ]
+        },
+        {
+          "source": "c-m-Shevuot-3.1",
+          "segments": [
+            1
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "versions": [
+    {
+      "status": "locked",
+      "priority": "",
+      "license": "Public Domain",
+      "versionNotes": "",
+      "formatAsPoetry": "",
+      "digitizedBySefaria": true,
+      "method": "",
+      "heversionSource": "",
+      "versionUrl": "",
+      "versionTitleInHebrew": "מהדורת וילנא",
+      "versionNotesInHebrew": "",
+      "shortVersionTitle": "",
+      "shortVersionTitleInHebrew": "",
+      "extendedNotes": "",
+      "extendedNotesHebrew": "",
+      "purchaseInformationImage": "",
+      "purchaseInformationURL": "",
+      "hasManuallyWrappedRefs": "",
+      "language": "he",
+      "title": "Rambam on Mishnah Orlah",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "versionTitle": "Vilna Edition",
+      "actualLanguage": "he",
+      "languageFamilyName": "hebrew",
+      "isSource": true,
+      "isPrimary": true,
+      "direction": "rtl"
+    }
+  ],
+  "book": "Rambam on Mishnah Orlah",
+  "indexTitle": "Rambam on Mishnah Orlah",
+  "heVersionTitle": "Vilna Edition",
+  "ref": "Rambam on Mishnah Orlah 1:1",
+  "heRef": "רמב״ם על משנה ערלה 1:1",
+  "he": [
+    "אמר הש\"י ונטעתם כל עץ מאכל וערלתם ערלתו (ויקרא י״ט:כ״ג) ולפיכך כשנתכוין בנטיעתו לאכילה אז יתחייב בערלה אבל אם נתכוין בשעת נטיעת האילן שיהיה סייג או ליקח ממנו קורות או עצים אינו חייבת בערלה ורבי יוסי אומר שאפילו אילן עצמו אם היתה כונתו שיהיה אותו הצד הנוטה ממנו לרשות הרבים סייג לצד הנוטה ממנה לגנה ויתכוין גם כן שיהיה הצד הנוטה ממנו לפנים רצונו לומר לגנה למאכל שדין זה האילן נחלף והצד הפנימית נתחייב בערלה והצד החיצון פטור מן הערלה ואין הלכה כרבי יוסי:\n"
+  ],
+  "provenance": {
+    "file": "raw/sefaria-full-orlah.json",
+    "jsonPath": [
+      "he",
+      0,
+      0
+    ],
+    "note": "Exact selected Mishnah array; comment segmentation preserved"
+  }
+}

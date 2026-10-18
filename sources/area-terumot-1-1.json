@@ -1,0 +1,82 @@
+{
+  "versions": [
+    {
+      "status": "locked",
+      "priority": "",
+      "license": "Public Domain",
+      "versionNotes": "",
+      "formatAsPoetry": "",
+      "digitizedBySefaria": true,
+      "method": "",
+      "heversionSource": "",
+      "versionUrl": "",
+      "versionTitleInHebrew": "מהדורת וילנא",
+      "versionNotesInHebrew": "",
+      "shortVersionTitle": "",
+      "shortVersionTitleInHebrew": "",
+      "extendedNotes": "",
+      "extendedNotesHebrew": "",
+      "purchaseInformationImage": "",
+      "purchaseInformationURL": "",
+      "hasManuallyWrappedRefs": "",
+      "language": "he",
+      "title": "Rambam on Mishnah Terumot",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "versionTitle": "Vilna Edition",
+      "actualLanguage": "he",
+      "languageFamilyName": "hebrew",
+      "isSource": true,
+      "isPrimary": true,
+      "direction": "rtl"
+    },
+    {
+      "status": "",
+      "priority": "",
+      "license": "CC0",
+      "versionNotes": "",
+      "formatAsPoetry": "",
+      "digitizedBySefaria": "",
+      "method": "",
+      "heversionSource": "",
+      "versionUrl": "",
+      "versionTitleInHebrew": "",
+      "versionNotesInHebrew": "",
+      "shortVersionTitle": "",
+      "shortVersionTitleInHebrew": "",
+      "extendedNotes": "",
+      "extendedNotesHebrew": "",
+      "purchaseInformationImage": "",
+      "purchaseInformationURL": "",
+      "hasManuallyWrappedRefs": "",
+      "language": "en",
+      "title": "Rambam on Mishnah Terumot",
+      "versionSource": "https://www.sefaria.org",
+      "versionTitle": "Sefaria Community Translation",
+      "actualLanguage": "en",
+      "languageFamilyName": "english",
+      "isSource": false,
+      "isPrimary": false,
+      "direction": "ltr"
+    }
+  ],
+  "book": "Rambam on Mishnah Terumot",
+  "indexTitle": "Rambam on Mishnah Terumot",
+  "versionTitle": "Sefaria Community Translation",
+  "versionSource": "https://www.sefaria.org",
+  "license": "CC0",
+  "heVersionTitle": "Vilna Edition",
+  "ref": "Rambam on Mishnah Terumot 1:1",
+  "heRef": "רמב״ם על משנה תרומות 1:1",
+  "he": [
+    "אמרם בכל המשנה תרם ותורם ויתרום בעלי הלשון האחרוני' מקשין על זה ואומרים כי השרש הרים ומרים וירים וזו אינה קושיא אמתית כיון שעיקר כל הלשון מן הלשונות הוא חוזר למה שמדברים בו בעלי אותו הלשון ומה שנשמע מהם ואלו בעלי המשנה בלא ספק עבריים היו במקומן ר\"ל בארץ הצבי ונשמע מהם לשון תרם ובו נשתמשו הנה זו ראיה שהוא מקובל בלשון ושזו המלה לשון מלשונות העבריים ועל זה הדרך תהיה תשובתך לכל מי שיאמר מן האחרונים שלשון המשנה אינו צח או שהם נשתמשו במלו' שאינן כראוי בלשון וזה העיקר שזכרתי לך אמתי אצל החכמים השלמים המדברים על הדברים הכוללים כל הלשונות כלם ותרומה הנזכרת בכאן היא הנזכרת בתורה באמרו יתברך ראשית דגנך תירושך ויצהרך וגו' (דברים י״ח:ד׳) ולא פירש בתורה שיעורה ועוד נבאר אותו וקרא השם זה ראשית תרומה והוא אמר ואני הנה נתתי לך את משמרת תרומתי וגו' (במדבר י״ח:ח׳) וקרא הדבר הלקוח מישראל למשכן תרומה והוא אמרו ויקחו לי תרומה וכמו שזו התרומה אין מביאין אותה אחד מאלו החמשה כמו כן תרומת גרן אין ראוי שיביאו אותה אחד מהם והראיה שהרחיקם השם ית' מתרומת המשכן הוא אמרו (שמותכה) דבר אלבני ישראל פרט לנכרי מאת כל איש פרט לקטן אשר ידבנו לבו פרט לחרש ולשוטה לפי שאין בהם שכל להתנדב בשום דבר אשר תקחו מאתם פרט לתורם מה שאינו שלו: ואמרו ואפילו ברשות ענינו שעשאו ישראל שלוחו וזה למאמר ה' יתברך (במדבר י״ח:כ״ח) כן תרימו גם אתם ואמר גם אתם לרבות שלוחכם ופי' זה כי אמרו אתם יורה עליהם ואמרו גם יורה כשעושין לאחרים שלוחין במקומן שמלת גם ענינה עוד וכשאמר עוד אתם ראיה שיש שם זולתם שהוא תורם וזה שלוחו של אדם ואמרו מה אתם בני ברית אף שלוחכם בני ברית ואמרו חמשה למעוטי דר' יהודה שאומר קטן שלא הביא שתי שערות תרומתו תרומה: \n"
+  ],
+  "provenance": {
+    "file": "raw/sefaria-full-terumot.json",
+    "jsonPath": [
+      "he",
+      0,
+      0
+    ],
+    "note": "Exact selected Mishnah array; comment segmentation preserved"
+  }
+}

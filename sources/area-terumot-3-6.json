@@ -1,0 +1,82 @@
+{
+  "versions": [
+    {
+      "status": "locked",
+      "priority": "",
+      "license": "Public Domain",
+      "versionNotes": "",
+      "formatAsPoetry": "",
+      "digitizedBySefaria": true,
+      "method": "",
+      "heversionSource": "",
+      "versionUrl": "",
+      "versionTitleInHebrew": "מהדורת וילנא",
+      "versionNotesInHebrew": "",
+      "shortVersionTitle": "",
+      "shortVersionTitleInHebrew": "",
+      "extendedNotes": "",
+      "extendedNotesHebrew": "",
+      "purchaseInformationImage": "",
+      "purchaseInformationURL": "",
+      "hasManuallyWrappedRefs": "",
+      "language": "he",
+      "title": "Rambam on Mishnah Terumot",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "versionTitle": "Vilna Edition",
+      "actualLanguage": "he",
+      "languageFamilyName": "hebrew",
+      "isSource": true,
+      "isPrimary": true,
+      "direction": "rtl"
+    },
+    {
+      "status": "",
+      "priority": "",
+      "license": "CC0",
+      "versionNotes": "",
+      "formatAsPoetry": "",
+      "digitizedBySefaria": "",
+      "method": "",
+      "heversionSource": "",
+      "versionUrl": "",
+      "versionTitleInHebrew": "",
+      "versionNotesInHebrew": "",
+      "shortVersionTitle": "",
+      "shortVersionTitleInHebrew": "",
+      "extendedNotes": "",
+      "extendedNotesHebrew": "",
+      "purchaseInformationImage": "",
+      "purchaseInformationURL": "",
+      "hasManuallyWrappedRefs": "",
+      "language": "en",
+      "title": "Rambam on Mishnah Terumot",
+      "versionSource": "https://www.sefaria.org",
+      "versionTitle": "Sefaria Community Translation",
+      "actualLanguage": "en",
+      "languageFamilyName": "english",
+      "isSource": false,
+      "isPrimary": false,
+      "direction": "ltr"
+    }
+  ],
+  "book": "Rambam on Mishnah Terumot",
+  "indexTitle": "Rambam on Mishnah Terumot",
+  "versionTitle": "Sefaria Community Translation",
+  "versionSource": "https://www.sefaria.org",
+  "license": "CC0",
+  "heVersionTitle": "Vilna Edition",
+  "ref": "Rambam on Mishnah Terumot 3:6",
+  "heRef": "רמב״ם על משנה תרומות 3:6",
+  "he": [
+    "מזה הפסוק הביא ראיה על מאמרם עובר בלא תעשה כי הם אומרים כי מה שאמר הכתוב לא תאחר ר\"ל לא תאחר ממלאתך ודמעך מי שהוא ראוי להקדימו ואח\"כ הביאו ראיה שראוי להקדים אלו החקים קצתם על קצתם: \n"
+  ],
+  "provenance": {
+    "file": "raw/sefaria-full-terumot.json",
+    "jsonPath": [
+      "he",
+      2,
+      5
+    ],
+    "note": "Exact selected Mishnah array; comment segmentation preserved"
+  }
+}

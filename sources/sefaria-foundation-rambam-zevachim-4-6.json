@@ -1,0 +1,123 @@
+{
+  "ref": "Rambam on Mishnah Zevachim 4:6",
+  "heRef": "רמב\"ם על משנה זבחים ד׳:ו׳",
+  "isComplex": false,
+  "text": [],
+  "he": [
+    "<b>לשם ששה דברים הזבח נזבח לשם הזבח כו': </b>מכלל דברינו נתבאר לך שלא הוצרך שיהיו השלמים נשחטים לשם שלמים ולא עולה לשם עולה וכבר הודעתיך בתחלת המסכתא שאם שחט סתם כשר והתנא הזה הצריך שתהא כוונת בעל הקרבן לאלה הו' דברים מוסף על השוחט: וא\"ר יוסי שהוא תנאי בית דין שאין הולכים אלא אחר מחשבת העובד בלבד ר\"ל השוחט או המקבל או הזורק אבל בעל הזבח לא והלכה כרבי יוסי ולפיכך דברי האומר בעלים מפגלים נדחין ואין ענין המחשבה תלוי אלא בעושה אחד מד' העבודות בלבד כמו שנזכר: "
+  ],
+  "versions": [
+    {
+      "status": "locked",
+      "priority": "",
+      "license": "Public Domain",
+      "versionNotes": "",
+      "formatAsPoetry": "",
+      "digitizedBySefaria": true,
+      "method": "",
+      "heversionSource": "",
+      "versionUrl": "",
+      "versionTitleInHebrew": "מהדורת וילנא",
+      "versionNotesInHebrew": "",
+      "shortVersionTitle": "",
+      "shortVersionTitleInHebrew": "",
+      "extendedNotes": "",
+      "extendedNotesHebrew": "",
+      "purchaseInformationImage": "",
+      "purchaseInformationURL": "",
+      "hasManuallyWrappedRefs": "",
+      "language": "he",
+      "title": "Rambam on Mishnah Zevachim",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "versionTitle": "Vilna edition",
+      "actualLanguage": "he",
+      "languageFamilyName": "hebrew",
+      "isSource": true,
+      "isPrimary": true,
+      "direction": "rtl"
+    }
+  ],
+  "textDepth": 3,
+  "sectionNames": [
+    "Chapter",
+    "Mishnah",
+    "Comment"
+  ],
+  "addressTypes": [
+    "Perek",
+    "Mishnah",
+    "Integer"
+  ],
+  "lengths": [
+    14,
+    101,
+    103
+  ],
+  "length": 14,
+  "heTitle": "רמב\"ם על משנה זבחים",
+  "titleVariants": [
+    "Maimonides on Mishna Zevachim",
+    "Maimonides on M. Zevachim",
+    "Maimonides on M Zevachim",
+    "Maimonides on Mishnah Zevachim",
+    "Rambam on Mishna Zevachim",
+    "Rambam on M. Zevachim",
+    "Rambam on M Zevachim",
+    "Rambam on Mishnah Zevachim"
+  ],
+  "heTitleVariants": [
+    "רמב\"ם על משנה זבחים"
+  ],
+  "type": "Commentary",
+  "primary_category": "Commentary",
+  "book": "Rambam on Mishnah Zevachim",
+  "categories": [
+    "Mishnah",
+    "Rishonim on Mishnah",
+    "Rambam",
+    "Seder Kodashim"
+  ],
+  "order": "",
+  "sections": [
+    4,
+    6
+  ],
+  "toSections": [
+    4,
+    6
+  ],
+  "commentator": "Rambam",
+  "heCommentator": "רמב\"ם",
+  "collectiveTitle": "Rambam",
+  "heCollectiveTitle": "רמב\"ם",
+  "baseTexTitles": [
+    "Mishnah Zevachim"
+  ],
+  "isDependant": true,
+  "indexTitle": "Rambam on Mishnah Zevachim",
+  "heIndexTitle": "רמב\"ם על משנה זבחים",
+  "sectionRef": "Rambam on Mishnah Zevachim 4:6",
+  "firstAvailableSectionRef": "Rambam on Mishnah Zevachim 4:6",
+  "heSectionRef": "רמב\"ם על משנה זבחים ד׳:ו׳",
+  "isSpanning": false,
+  "heVersionTitle": "Vilna edition",
+  "heVersionTitleInHebrew": "מהדורת וילנא",
+  "heShortVersionTitle": "",
+  "heShortVersionTitleInHebrew": "",
+  "heVersionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+  "heVersionStatus": "locked",
+  "heVersionNotes": "",
+  "heExtendedNotes": "",
+  "heExtendedNotesHebrew": "",
+  "heVersionNotesInHebrew": "",
+  "heDigitizedBySefaria": true,
+  "heLicense": "Public Domain",
+  "formatHeAsPoetry": false,
+  "alts": [],
+  "index_offsets_by_depth": {},
+  "next": "Rambam on Mishnah Zevachim 5:1",
+  "prev": "Rambam on Mishnah Zevachim 4:5",
+  "commentary": [],
+  "sheets": [],
+  "layer": []
+}

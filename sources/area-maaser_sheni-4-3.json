@@ -1,0 +1,50 @@
+{
+  "versions": [
+    {
+      "status": "locked",
+      "priority": "",
+      "license": "Public Domain",
+      "versionNotes": "",
+      "formatAsPoetry": "",
+      "digitizedBySefaria": true,
+      "method": "",
+      "heversionSource": "",
+      "versionUrl": "",
+      "versionTitleInHebrew": "מהדורת וילנא",
+      "versionNotesInHebrew": "",
+      "shortVersionTitle": "",
+      "shortVersionTitleInHebrew": "",
+      "extendedNotes": "",
+      "extendedNotesHebrew": "",
+      "purchaseInformationImage": "",
+      "purchaseInformationURL": "",
+      "hasManuallyWrappedRefs": "",
+      "language": "he",
+      "title": "Rambam on Mishnah Maaser Sheni",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "versionTitle": "Vilna Edition",
+      "actualLanguage": "he",
+      "languageFamilyName": "hebrew",
+      "isSource": true,
+      "isPrimary": true,
+      "direction": "rtl"
+    }
+  ],
+  "book": "Rambam on Mishnah Maaser Sheni",
+  "indexTitle": "Rambam on Mishnah Maaser Sheni",
+  "heVersionTitle": "Vilna Edition",
+  "ref": "Rambam on Mishnah Maaser Sheni 4:3",
+  "heRef": "רמב״ם על משנה מעשר שני 4:3",
+  "he": [
+    "כבר בארנו במה שקדם כי החומש הוא רביע עיקר הממון והוא אומרו עד שיהא הוא וחומשו חמשה שהוא נותן במה שישוה סלע סלע ודינר כי הסלע ארבעה דינרים והדינר ששה מעין והמעה ארבעה איסרים אם כן איסר חלק מששה ותשעים מן הסלע ומה שנתנו מעלה לסלע ואיסר על סלע ודינר שאע\"פ שהוא יותר לפי שהוא יכול להערים על החומש ולא יתן אותו כמו שיתבאר לקמן על כן נחוש לתוספת שתהיה בעיקר וכן נתנו הטעם בגמרא ודע כי מעשר שני ממון גבוה הוא ולפיכך לא תתקיים בו המתנה אלא בתנאי והוא שיתננו לו והוא טבל ר\"ל קודם הוצאתו והפרשתו אבל כשהוציאו אין לו רשות ליתנו במתנה בשום פנים: \n"
+  ],
+  "provenance": {
+    "file": "raw/sefaria-full-maaser_sheni.json",
+    "jsonPath": [
+      "he",
+      3,
+      2
+    ],
+    "note": "Exact selected Mishnah array; comment segmentation preserved"
+  }
+}

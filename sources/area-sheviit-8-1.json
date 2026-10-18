@@ -1,0 +1,53 @@
+{
+  "versions": [
+    {
+      "status": "locked",
+      "priority": "",
+      "license": "Public Domain",
+      "versionNotes": "",
+      "formatAsPoetry": "",
+      "digitizedBySefaria": true,
+      "method": "",
+      "heversionSource": "",
+      "versionUrl": "",
+      "versionTitleInHebrew": "מהדורת וילנא",
+      "versionNotesInHebrew": "",
+      "shortVersionTitle": "",
+      "shortVersionTitleInHebrew": "",
+      "extendedNotes": "",
+      "extendedNotesHebrew": "",
+      "purchaseInformationImage": "",
+      "purchaseInformationURL": "",
+      "hasManuallyWrappedRefs": "",
+      "language": "he",
+      "title": "Rambam on Mishnah Sheviit",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "versionTitle": "Vilna Edition",
+      "actualLanguage": "he",
+      "languageFamilyName": "hebrew",
+      "isSource": true,
+      "isPrimary": true,
+      "direction": "rtl"
+    }
+  ],
+  "book": "Rambam on Mishnah Sheviit",
+  "indexTitle": "Rambam on Mishnah Sheviit",
+  "heVersionTitle": "Vilna Edition",
+  "ref": "Rambam on Mishnah Sheviit 8:1",
+  "heRef": "רמב״ם על משנה שביעית 8:1",
+  "he": [
+    "אמר הכתוב (ויקרא כ״ה:ו׳) והיתה שבת הארץ לכם לאכלה. ר\"ל הדבר שהיא לכם למאכל אדם בלבד יהיה לאכלה ולא למלוגמא היא מלה מורכבת מלא לוגמא ולוגמא שם צד אחד משני צדדי הפה מבפנים ר\"ל לעיסת מאכל שאפשר שילעוס מן החטה או התאנים לעיסה אחת לשום ע\"פ מכה או שחין והענין המבורר מכל זה ממה שאמר ולא למלוגמא הוא שלא יעשה מפירות שביעית לא תחבושת ולא רטיות ולא רפואות להקיא ולא שום דבר מכל זה אלא מה שהוא מיוחד למאכל אדם כמו שבארנו: \n",
+    "וכל שאינו מיוחד למאכל אדם עושין ממנו מלוגמא לאדם שנאמר (שם) לכם לאכלה המיוחד לכם הוא שיהיה לכם לאכלה בלבד וזולתו לאכלה ולמלוגמא: \n",
+    "וחומרי אדם הוא שלא יעשה ממנו מלוגמא כמו שלא יעשו מן המיוחד למאכל אדם וחומרי בהמה הוא שיהיו כמו מאכל בהמה שאין בהמה אוכלת אותו אלא כל זמן שהוא נמצא אותו המין בשדה לחיות השדה כמו שיתבאר: \n",
+    "וסיאה נקרא פידרג בלשון ערב ואזוב נקרא צעתר בלשון ערב וקורניס נקרא בערבי האשה ובלעז שדריי\"ה והם עשבים ידועים אצל הרופאים: \n"
+  ],
+  "provenance": {
+    "file": "raw/sefaria-full-sheviit.json",
+    "jsonPath": [
+      "he",
+      7,
+      0
+    ],
+    "note": "Exact selected Mishnah array; comment segmentation preserved"
+  }
+}

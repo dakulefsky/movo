@@ -1,0 +1,119 @@
+{
+  "ref": "Rambam on Mishnah Mikvaot 9:1",
+  "heRef": "רמב\"ם על משנה מקואות ט׳:א׳",
+  "isComplex": false,
+  "text": [],
+  "he": [
+    "כוונת חוצצין שמבדילין בין המים והגוף או השער המחובר בגוף כי שער הגוף יחוייב שיכללוהו המים כמו שיכללו הגוף: \n",
+    "<b>והרצועות.</b> שבראשי הבנות יקשרוהו על השער ועל הגבות יחד והלכה כר' יהודה בחוטי שער ואפילו קשרן על ראשו תכלית הקשר: \n"
+  ],
+  "versions": [
+    {
+      "status": "locked",
+      "priority": "",
+      "license": "Public Domain",
+      "versionNotes": "",
+      "formatAsPoetry": "",
+      "digitizedBySefaria": true,
+      "method": "",
+      "heversionSource": "",
+      "versionUrl": "",
+      "versionTitleInHebrew": "מהדורת וילנא",
+      "versionNotesInHebrew": "",
+      "shortVersionTitle": "",
+      "shortVersionTitleInHebrew": "",
+      "extendedNotes": "",
+      "extendedNotesHebrew": "",
+      "purchaseInformationImage": "",
+      "purchaseInformationURL": "",
+      "hasManuallyWrappedRefs": "",
+      "language": "he",
+      "title": "Rambam on Mishnah Mikvaot",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "versionTitle": "Vilna Edition",
+      "actualLanguage": "he",
+      "languageFamilyName": "hebrew",
+      "isSource": true,
+      "isPrimary": true,
+      "direction": "rtl"
+    }
+  ],
+  "textDepth": 3,
+  "sectionNames": [
+    "Chapter",
+    "Mishnah",
+    "Comment"
+  ],
+  "addressTypes": [
+    "Perek",
+    "Mishnah",
+    "Integer"
+  ],
+  "lengths": [
+    10,
+    71,
+    122
+  ],
+  "length": 10,
+  "heTitle": "רמב\"ם על משנה מקואות",
+  "titleVariants": [
+    "Rambam on Mishnah Mikvaot"
+  ],
+  "heTitleVariants": [
+    "רמב\"ם על משנה מקואות",
+    "רמב\"ם משנה מקואות"
+  ],
+  "type": "Commentary",
+  "primary_category": "Commentary",
+  "book": "Rambam on Mishnah Mikvaot",
+  "categories": [
+    "Mishnah",
+    "Rishonim on Mishnah",
+    "Rambam",
+    "Seder Tahorot"
+  ],
+  "order": "",
+  "sections": [
+    9,
+    1
+  ],
+  "toSections": [
+    9,
+    1
+  ],
+  "commentator": "Rambam",
+  "heCommentator": "רמב\"ם",
+  "collectiveTitle": "Rambam",
+  "heCollectiveTitle": "רמב\"ם",
+  "baseTexTitles": [
+    "Mishnah Mikvaot"
+  ],
+  "isDependant": true,
+  "indexTitle": "Rambam on Mishnah Mikvaot",
+  "heIndexTitle": "רמב\"ם על משנה מקואות",
+  "sectionRef": "Rambam on Mishnah Mikvaot 9:1",
+  "firstAvailableSectionRef": "Rambam on Mishnah Mikvaot 9:1",
+  "heSectionRef": "רמב\"ם על משנה מקואות ט׳:א׳",
+  "isSpanning": false,
+  "heVersionTitle": "Vilna Edition",
+  "heVersionTitleInHebrew": "מהדורת וילנא",
+  "heShortVersionTitle": "",
+  "heShortVersionTitleInHebrew": "",
+  "heVersionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+  "heVersionStatus": "locked",
+  "heVersionNotes": "",
+  "heExtendedNotes": "",
+  "heExtendedNotesHebrew": "",
+  "heVersionNotesInHebrew": "",
+  "heDigitizedBySefaria": true,
+  "heLicense": "Public Domain",
+  "formatHeAsPoetry": false,
+  "alts": [],
+  "index_offsets_by_depth": {},
+  "next": "Rambam on Mishnah Mikvaot 9:2",
+  "prev": "Rambam on Mishnah Mikvaot 8:5",
+  "commentary": [],
+  "sheets": [],
+  "layer": [],
+  "sourceUrl": "https://www.sefaria.org/api/texts/Rambam%20on%20Mishnah%20Mikvaot%209%3A1?context=0&commentary=0"
+}

@@ -1,0 +1,83 @@
+{
+  "versions": [
+    {
+      "status": "locked",
+      "priority": "",
+      "license": "Public Domain",
+      "versionNotes": "",
+      "formatAsPoetry": "",
+      "digitizedBySefaria": true,
+      "method": "",
+      "heversionSource": "",
+      "versionUrl": "",
+      "versionTitleInHebrew": "מהדורת וילנא",
+      "versionNotesInHebrew": "",
+      "shortVersionTitle": "",
+      "shortVersionTitleInHebrew": "",
+      "extendedNotes": "",
+      "extendedNotesHebrew": "",
+      "purchaseInformationImage": "",
+      "purchaseInformationURL": "",
+      "hasManuallyWrappedRefs": "",
+      "language": "he",
+      "title": "Rambam on Mishnah Challah",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "versionTitle": "Vilna Edition",
+      "actualLanguage": "he",
+      "languageFamilyName": "hebrew",
+      "isSource": true,
+      "isPrimary": true,
+      "direction": "rtl"
+    },
+    {
+      "status": "",
+      "priority": "",
+      "license": "CC0",
+      "versionNotes": "",
+      "formatAsPoetry": "",
+      "digitizedBySefaria": "",
+      "method": "",
+      "heversionSource": "",
+      "versionUrl": "",
+      "versionTitleInHebrew": "",
+      "versionNotesInHebrew": "",
+      "shortVersionTitle": "",
+      "shortVersionTitleInHebrew": "",
+      "extendedNotes": "",
+      "extendedNotesHebrew": "",
+      "purchaseInformationImage": "",
+      "purchaseInformationURL": "",
+      "hasManuallyWrappedRefs": "",
+      "language": "en",
+      "title": "Rambam on Mishnah Challah",
+      "versionSource": "https://www.sefaria.org",
+      "versionTitle": "Sefaria Community Translation",
+      "actualLanguage": "en",
+      "languageFamilyName": "english",
+      "isSource": false,
+      "isPrimary": false,
+      "direction": "ltr"
+    }
+  ],
+  "book": "Rambam on Mishnah Challah",
+  "indexTitle": "Rambam on Mishnah Challah",
+  "versionTitle": "Sefaria Community Translation",
+  "versionSource": "https://www.sefaria.org",
+  "license": "CC0",
+  "heVersionTitle": "Vilna Edition",
+  "ref": "Rambam on Mishnah Challah 2:7",
+  "heRef": "רמב״ם על משנה חלה 2:7",
+  "he": [
+    "מה שחייבו לבע\"ה אחד מכ\"ד לפי שהוא לש עיסה קטנה וצריך להוציא שיעור שיהיה ראוי לתתו לכהן כמו שאמר הש\"י תתנו שיהא בו כדי נתינה וע\"כ אין ראוי להיות פחות מחלק מכ\"ד מן השיעור המשוער לחלה שהוא חמשת רבעים אבל הנחתום שהוא לש הרבה אפי' חלק מארבעים ושמנה הוא שיעור שיש בו כדי נתינה ועוד נתנו טעם אחר מפני מה נתנו שעור לבעל הבית חלק מעשרים וארבעה לפי שענין הוצאת החלה הוא נתון לאשה והאשה עינה רעה וכשמטריחין אותה להוציא חלק מעשרים וארבעה ולוואי שתוציא חלק מארבעים ושמנה והעושה עיסה למשתה בנו אע\"פ ששיעורו רב והוא דומה לנחתום חייב להוציא חלק מעשרים וארבע כדי שלא תשתנה חלת בעל הבית וכמו כן לא נתן הפרש בחלת נחתום שתהיה חלק מארבעים ושמנה ואפילו תהיה זו המוכרת אשה ותלוש בביתה כמו בעל הבית. ונתן שיעור (תרומה) טמאה מעט לפי שהיא לשרפה עומדת ולא נשתדל להרבות טומאה בקדש: \n",
+    "שלא יהא חוטא נשכר. פי' שלא ירויח החוטא שטמאה ויוציא פחות ממה שהיה מוציא אלו לא עבר וטמאה: \n"
+  ],
+  "provenance": {
+    "file": "raw/sefaria-full-challah.json",
+    "jsonPath": [
+      "he",
+      1,
+      6
+    ],
+    "note": "Exact selected Mishnah array; comment segmentation preserved"
+  }
+}

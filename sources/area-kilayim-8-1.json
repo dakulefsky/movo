@@ -1,0 +1,52 @@
+{
+  "versions": [
+    {
+      "status": "locked",
+      "priority": "",
+      "license": "Public Domain",
+      "versionNotes": "",
+      "formatAsPoetry": "",
+      "digitizedBySefaria": true,
+      "method": "",
+      "heversionSource": "",
+      "versionUrl": "",
+      "versionTitleInHebrew": "מהדורת וילנא",
+      "versionNotesInHebrew": "",
+      "shortVersionTitle": "",
+      "shortVersionTitleInHebrew": "",
+      "extendedNotes": "",
+      "extendedNotesHebrew": "",
+      "purchaseInformationImage": "",
+      "purchaseInformationURL": "",
+      "hasManuallyWrappedRefs": "",
+      "language": "he",
+      "title": "Rambam on Mishnah Kilayim",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "versionTitle": "Vilna Edition",
+      "actualLanguage": "he",
+      "languageFamilyName": "hebrew",
+      "isSource": true,
+      "isPrimary": true,
+      "direction": "rtl"
+    }
+  ],
+  "book": "Rambam on Mishnah Kilayim",
+  "indexTitle": "Rambam on Mishnah Kilayim",
+  "heVersionTitle": "Vilna Edition",
+  "ref": "Rambam on Mishnah Kilayim 8:1",
+  "heRef": "רמב״ם על משנה כלאים 8:1",
+  "he": [
+    "אמר הכתוב בכלאי הכרם פן תקדש (דברים כב) יבא בקבלה פן תקדש תוקד אש ר\"ל לשרפם ולא יהנה בהם: ",
+    "ופי' מלהרביע הוא להרכיב זכר על נקבה ויכניס כמכחול בשפופרת ואז ילקה: ...",
+    "ומה שאמר כלאי בהמה אסורין זה עם זה ר\"ל שאסור הרבעת הבהמות שהם מורכבות מב' מינין אלו עם אלו כגון שירכיב פרד על סוסיא כמו שיתבאר בפרק שאחר זה: "
+  ],
+  "provenance": {
+    "file": "raw/sefaria-full-kilayim.json",
+    "jsonPath": [
+      "he",
+      7,
+      0
+    ],
+    "note": "Exact selected Mishnah array; comment segmentation preserved"
+  }
+}

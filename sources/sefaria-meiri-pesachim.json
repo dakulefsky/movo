@@ -1,0 +1,104 @@
+{
+  "ref": "Meiri on Pesachim, Introduction",
+  "heRef": "מאירי על פסחים, הקדמה",
+  "isComplex": true,
+  "text": [],
+  "he": [
+    "<b>מסכת</b> פסח ראשון בע\"ה:",
+    "<b>אמר</b> מנחם בן שלמה לבית מאיר י\"א זאת המסכתא ר\"ל מסכת פסח ראשון היא מסדר מועד והורגלנו בלמודה אחר מסכת סוכה לסבה אשר הזכרנו בפתיחת החבור וכבר ביארנו שם שזאת המסכתא עם המסכתא הבאה אחריה ר\"ל פסח שני היו מתחלה בסדור רבינו הקדוש מסכתא אחת נקראת פסחים ובימי הגאונים חלקוה לשתים וקראו הראשונה פסח ראשון והשניה פסח שני וגם העתיקו פרק ערבי פסחים ממקומו שהיה אחרון לכל הפרקים ושמוהו אחרון לזה החלק הראשון שאנו מבארים עכשו בע\"ה ר\"ל מסכת פסח ראשון ועל זה הסדר זאת המסכתא כוללת חמשה פרקים לפי שיטתנו א' אור לארבעה עשר ב' כל שעה ג' אלו עוברין ד' מקום שנהגו ה' ערבי פסחים וענין המסכתא כלו אמנם הוא בא לבאר עניני הפסח בכל ענינים הצריכים בביאורו הן בבדיקת החמץ וביעורו בזמן איסורו והפלטתו מן הכלים המובלעים ממנו וידיעת הדברים שהם צריכים לבער ושאין צריכים לבער הן בעניני איסור מלאכה בערב הפסח וביאור עניני סדר הפסח על השלמות ועל זה הצד יחלקו עניני המסכתא לששה חלקים הראשון לבאר עניני בדיקת החמץ השני לבאר סדרי זמן איסורו וענין ביעורו ופליטת הכלים מבליעתם השלישי לבאר איזה מין מן התבואות תורת חמץ עליו עד שיהא ראוי למצה לצאת בו ידי חובת מצה וכן איזה מין מן הירקות יוצאין בו בפסח ידי חובת מרור הרביעי לבאר הדברים שצריך לבערם והדברים שהופקעה תורת חמץ מהם עד שאין צריך לבערם ויתבאר עם זה מה בין דין איסור חמץ בעינו לדין איסור תערובתו החמישי לבאר דין איסור מלאכה בארבעה עשר הששי לבאר סדר לילי הפסח כלו החלק הראשון יתבאר בפרק ראשון והחלק השני יתבאר בפרק ראשון ושני השלישי יתבאר בפרק שני הרביעי יתבאר בפרק שלישי החמישי יתבאר בפרק רביעי הששי יתבאר בפרק אחרון אלא שיתבלבל הסדר בקצת מקומות ויכנס חלק אחד בגבול חברו בקצת דברים זהו שרש המסכתא דרך כלל אלא שיתגלגלו בו הרבה דברים מעניני טומאה וטהרה ושאר דברים שלא מן הכונה כענין סוגיית התלמוד על דרך שהתבאר:",
+    "<b>והפרק</b> הראשון ממנה יסוד ענינו בביאור החלק הראשון וקצת החלק השני ורובו יסוב על שלשה ענינים הראשון לבאר ענין בדיקת חמץ והשני יתחיל בו בסדרי זמן איסורו השלישי במה שבאו בזה הפרק דינין אריכי הדברים בענין טומאה וטהרה זהו שורש הפרק דרך כלל אלא שיבאו בו דברים על ידי גלגול כענין סוגיית התלמוד על הדרך שקדם:"
+  ],
+  "versions": [
+    {
+      "status": "",
+      "priority": "",
+      "license": "unknown",
+      "versionNotes": "",
+      "formatAsPoetry": "",
+      "digitizedBySefaria": "",
+      "method": "",
+      "heversionSource": "",
+      "versionUrl": "",
+      "versionTitleInHebrew": "",
+      "versionNotesInHebrew": "",
+      "shortVersionTitle": "",
+      "shortVersionTitleInHebrew": "",
+      "extendedNotes": "",
+      "extendedNotesHebrew": "",
+      "purchaseInformationImage": "",
+      "purchaseInformationURL": "",
+      "hasManuallyWrappedRefs": "",
+      "language": "he",
+      "title": "Meiri on Pesachim",
+      "versionSource": "http://www.sefaria.org",
+      "versionTitle": "Meiri on Shas",
+      "actualLanguage": "he",
+      "languageFamilyName": "hebrew",
+      "isSource": true,
+      "isPrimary": true,
+      "direction": "rtl"
+    }
+  ],
+  "textDepth": 1,
+  "sectionNames": [
+    "Paragraph"
+  ],
+  "addressTypes": [
+    "Integer"
+  ],
+  "heTitle": "מאירי על פסחים, הקדמה",
+  "titleVariants": [
+    "Introduction"
+  ],
+  "heTitleVariants": [
+    "הקדמה",
+    "מבוא"
+  ],
+  "type": "Commentary",
+  "primary_category": "Commentary",
+  "book": "Meiri on Pesachim, Introduction",
+  "categories": [
+    "Talmud",
+    "Bavli",
+    "Rishonim on Talmud",
+    "Meiri",
+    "Seder Moed"
+  ],
+  "order": "",
+  "sections": [],
+  "toSections": [],
+  "commentator": "Meiri",
+  "heCommentator": "מאירי",
+  "collectiveTitle": "Meiri",
+  "heCollectiveTitle": "מאירי",
+  "baseTexTitles": [
+    "Pesachim"
+  ],
+  "isDependant": true,
+  "indexTitle": "Meiri on Pesachim",
+  "heIndexTitle": "מאירי על פסחים",
+  "sectionRef": "Meiri on Pesachim, Introduction",
+  "firstAvailableSectionRef": "Meiri on Pesachim, Introduction",
+  "heSectionRef": "מאירי על פסחים, הקדמה",
+  "isSpanning": false,
+  "heVersionTitle": "Meiri on Shas",
+  "heVersionTitleInHebrew": "",
+  "heShortVersionTitle": "",
+  "heShortVersionTitleInHebrew": "",
+  "heVersionSource": "http://www.sefaria.org",
+  "heVersionStatus": "",
+  "heVersionNotes": "",
+  "heExtendedNotes": "",
+  "heExtendedNotesHebrew": "",
+  "heVersionNotesInHebrew": "",
+  "heDigitizedBySefaria": false,
+  "heLicense": "unknown",
+  "formatHeAsPoetry": false,
+  "alts": [],
+  "index_offsets_by_depth": {},
+  "next": "Meiri on Pesachim 2a",
+  "prev": null,
+  "commentary": [],
+  "sheets": [],
+  "layer": []
+}

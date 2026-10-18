@@ -1,0 +1,60 @@
+{
+  "versions": [
+    {
+      "status": "locked",
+      "priority": "",
+      "license": "Public Domain",
+      "versionNotes": "",
+      "formatAsPoetry": "",
+      "digitizedBySefaria": true,
+      "method": "",
+      "heversionSource": "",
+      "versionUrl": "",
+      "versionTitleInHebrew": "מהדורת וילנא",
+      "versionNotesInHebrew": "",
+      "shortVersionTitle": "",
+      "shortVersionTitleInHebrew": "",
+      "extendedNotes": "",
+      "extendedNotesHebrew": "",
+      "purchaseInformationImage": "",
+      "purchaseInformationURL": "",
+      "hasManuallyWrappedRefs": "",
+      "language": "he",
+      "title": "Rambam on Mishnah Sheviit",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "versionTitle": "Vilna Edition",
+      "actualLanguage": "he",
+      "languageFamilyName": "hebrew",
+      "isSource": true,
+      "isPrimary": true,
+      "direction": "rtl"
+    }
+  ],
+  "book": "Rambam on Mishnah Sheviit",
+  "indexTitle": "Rambam on Mishnah Sheviit",
+  "heVersionTitle": "Vilna Edition",
+  "ref": "Rambam on Mishnah Sheviit 7:1",
+  "heRef": "רמב״ם על משנה שביעית 7:1",
+  "he": [
+    "ענין שאמר כלל גדול כנגד הכלל הנאמר במעשרות שדין שנה שביעית חייב למאכל אדם. ופירוש ממין הצובעין. ממיני הצבעים: \n",
+    "<b>יש לו שביעית ולדמיו שביעית.</b> יתחייב בהן שביעית ואם נמכר יתחייבו דמיו בדינים ההם ועוד יתבאר ענין הביעור לאחר זה וכבר פירשנו שהלוף מין מהבצלים: \n",
+    "<b>הדנדנה.</b> נקרא נענע ובערוך נקרא מינט\"א בלע\"ז: \n",
+    "<b>ועולשין.</b> הנדבה: \n",
+    "<b>והכרישין.</b> כראתי: \n",
+    "<b>והרגילה.</b> פו\"ר קאקל\"י בלע\"ז נקראת רגלה: \n",
+    "<b>ונץ החלב.</b> מקדונס עשב ידוע אצל הרופאין: \n",
+    "<b>החוחין.</b> קבוץ חוח: \n",
+    "<b>והדרדרין.</b> קבוץ דרדר ואלה מיני קוצים הם: \n",
+    "<b>ספיחי אסטיס.</b> הוא הצבע שצובעים בו תכלת ונקרא כן מפני שיקצרוהו ויצמח והוא לעולם ספיח: \n",
+    "<b>וקוצה.</b> ממיני הצבעונין ויש מי שפירש אותו אלעצפו\"ר: \n"
+  ],
+  "provenance": {
+    "file": "raw/sefaria-full-sheviit.json",
+    "jsonPath": [
+      "he",
+      6,
+      0
+    ],
+    "note": "Exact selected Mishnah array; comment segmentation preserved"
+  }
+}

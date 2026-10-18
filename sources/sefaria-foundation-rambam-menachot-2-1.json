@@ -1,0 +1,125 @@
+{
+  "ref": "Rambam on Mishnah Menachot 2:1",
+  "heRef": "רמב\"ם על משנה מנחות ב׳:א׳",
+  "isComplex": false,
+  "text": [],
+  "he": [
+    "<b>הקומץ את המנחה לאכול שיריים או כו': </b>כבר זכרנו שהקומץ והלבונה כמו האימורים מן הזבח וכבר נתבאר בשני מזבחים שאם חשב להקטיר לבונה למחר שהיא כמו מקצת האימורים שאותה מנחה אין חייבין על אכילתה כרת והקשו עליו מאי שנא מן הזבח והשיב לבונה אינה מן המנחה ר\"ל שאינו ממין המנחה כמו הקומץ אבל הוא מכלל מותרי המנחה ודעת ר' יוסי שאין המתיר מפגל את המתיר ולפיכך לא תפס' מחשבתו על הלבונה בשעת קמיצה: וחכ\"א אין המתיר מפגל את המתיר היכא דלא איקבע בחד מנא ולפיכך נתן הכל בכלי אחד היה כגוף א' ומפגל קצתו לקצתו כמו אימורי הזבח וכבר בארנו בשני מזבחים ענין הפגול וסימניו ואין אנו צריכין לחזור ולפרשו כל זמן שנזכור אותו והלכה כחכמים: "
+  ],
+  "versions": [
+    {
+      "status": "locked",
+      "priority": "",
+      "license": "Public Domain",
+      "versionNotes": "",
+      "formatAsPoetry": "",
+      "digitizedBySefaria": true,
+      "method": "",
+      "heversionSource": "",
+      "versionUrl": "",
+      "versionTitleInHebrew": "מהדורת וילנא",
+      "versionNotesInHebrew": "",
+      "shortVersionTitle": "",
+      "shortVersionTitleInHebrew": "",
+      "extendedNotes": "",
+      "extendedNotesHebrew": "",
+      "purchaseInformationImage": "",
+      "purchaseInformationURL": "",
+      "hasManuallyWrappedRefs": "",
+      "language": "he",
+      "title": "Rambam on Mishnah Menachot",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "versionTitle": "Vilna edition",
+      "actualLanguage": "he",
+      "languageFamilyName": "hebrew",
+      "isSource": true,
+      "isPrimary": true,
+      "direction": "rtl"
+    }
+  ],
+  "textDepth": 3,
+  "sectionNames": [
+    "Chapter",
+    "Mishnah",
+    "Comment"
+  ],
+  "addressTypes": [
+    "Perek",
+    "Mishnah",
+    "Integer"
+  ],
+  "lengths": [
+    13,
+    93,
+    95
+  ],
+  "length": 13,
+  "heTitle": "רמב\"ם על משנה מנחות",
+  "titleVariants": [
+    "Maimonides on M Menachot",
+    "Maimonides on Mishna Menachot",
+    "Maimonides on M. Menachot",
+    "Maimonides on Mishna Menahot",
+    "Maimonides on Mishnah Menachot",
+    "Rambam on M Menachot",
+    "Rambam on Mishna Menachot",
+    "Rambam on M. Menachot",
+    "Rambam on Mishna Menahot",
+    "Rambam on Mishnah Menachot"
+  ],
+  "heTitleVariants": [
+    "רמב\"ם על משנה מנחות"
+  ],
+  "type": "Commentary",
+  "primary_category": "Commentary",
+  "book": "Rambam on Mishnah Menachot",
+  "categories": [
+    "Mishnah",
+    "Rishonim on Mishnah",
+    "Rambam",
+    "Seder Kodashim"
+  ],
+  "order": "",
+  "sections": [
+    2,
+    1
+  ],
+  "toSections": [
+    2,
+    1
+  ],
+  "commentator": "Rambam",
+  "heCommentator": "רמב\"ם",
+  "collectiveTitle": "Rambam",
+  "heCollectiveTitle": "רמב\"ם",
+  "baseTexTitles": [
+    "Mishnah Menachot"
+  ],
+  "isDependant": true,
+  "indexTitle": "Rambam on Mishnah Menachot",
+  "heIndexTitle": "רמב\"ם על משנה מנחות",
+  "sectionRef": "Rambam on Mishnah Menachot 2:1",
+  "firstAvailableSectionRef": "Rambam on Mishnah Menachot 2:1",
+  "heSectionRef": "רמב\"ם על משנה מנחות ב׳:א׳",
+  "isSpanning": false,
+  "heVersionTitle": "Vilna edition",
+  "heVersionTitleInHebrew": "מהדורת וילנא",
+  "heShortVersionTitle": "",
+  "heShortVersionTitleInHebrew": "",
+  "heVersionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+  "heVersionStatus": "locked",
+  "heVersionNotes": "",
+  "heExtendedNotes": "",
+  "heExtendedNotesHebrew": "",
+  "heVersionNotesInHebrew": "",
+  "heDigitizedBySefaria": true,
+  "heLicense": "Public Domain",
+  "formatHeAsPoetry": false,
+  "alts": [],
+  "index_offsets_by_depth": {},
+  "next": "Rambam on Mishnah Menachot 2:2",
+  "prev": "Rambam on Mishnah Menachot 1:4",
+  "commentary": [],
+  "sheets": [],
+  "layer": []
+}

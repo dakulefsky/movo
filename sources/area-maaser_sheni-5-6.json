@@ -1,0 +1,50 @@
+{
+  "versions": [
+    {
+      "status": "locked",
+      "priority": "",
+      "license": "Public Domain",
+      "versionNotes": "",
+      "formatAsPoetry": "",
+      "digitizedBySefaria": true,
+      "method": "",
+      "heversionSource": "",
+      "versionUrl": "",
+      "versionTitleInHebrew": "מהדורת וילנא",
+      "versionNotesInHebrew": "",
+      "shortVersionTitle": "",
+      "shortVersionTitleInHebrew": "",
+      "extendedNotes": "",
+      "extendedNotesHebrew": "",
+      "purchaseInformationImage": "",
+      "purchaseInformationURL": "",
+      "hasManuallyWrappedRefs": "",
+      "language": "he",
+      "title": "Rambam on Mishnah Maaser Sheni",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "versionTitle": "Vilna Edition",
+      "actualLanguage": "he",
+      "languageFamilyName": "hebrew",
+      "isSource": true,
+      "isPrimary": true,
+      "direction": "rtl"
+    }
+  ],
+  "book": "Rambam on Mishnah Maaser Sheni",
+  "indexTitle": "Rambam on Mishnah Maaser Sheni",
+  "heVersionTitle": "Vilna Edition",
+  "ref": "Rambam on Mishnah Maaser Sheni 5:6",
+  "heRef": "רמב״ם על משנה מעשר שני 5:6",
+  "he": [
+    "כבר בארנו פעמים (פ\"ד מ\"ג דדמאי) במה שקדם כי בשנה השלישית והששית מן השבוע שיוציא מעשר עני במקום מעשר שני ואמר הש\"י (דברים יד) מקצה שלש שנים ואמר (שם לא) מקץ שבע שנים במועד שנת השמטה בחג הסכות ואמרו מה קץ האמור להלן רגל אף קץ האמור כאן רגל יכול חג הסכות תלמוד לומר (שם כו) כי תכלה לעשר את כל מעשר תבואתך רגל שכל המעשרות כלין בו הוי אומר זה פסח לפי שלא יחול פסח מן השנה הרביעית אלא אחר שנגמרה כל מה שצמח בשנה השלישית ממה שהוא חייב מעשר עני וכמו כן כל מה שצמח בששית שהיא גם כן שנת המעשר וענין מתבערים שיתבערו ויאבדו אותן הפירו' עד שלא ימצא מהם אצלו וברשותו כלל לפי שנאמר (שם) בערתי הקדש מן הבית ואמר ר\"ש כי הבכורים אם נשאר מהם כלל שיתנם לכהן כמו שנותנין לו התרומה ואינו חייב להשליכם או לשורפם וענין הבעור בכאן שיתן מכל הצמחים כל המתנות שנתחייב לתתן ושיתן כל מתנה לבעליו ומה שהוא חייב לאכלו כגון מע\"ש ונטע רבעי ומאבד מה שנשאר ואם היה אצלו תבשיל ממעשר שני אומרים ב\"ה הרי הוא כמבוער לפי שאם ישאר וישהה יפסיד ואין הלכ' כרבי שמעון:  "
+  ],
+  "provenance": {
+    "file": "raw/sefaria-full-maaser_sheni.json",
+    "jsonPath": [
+      "he",
+      4,
+      5
+    ],
+    "note": "Exact selected Mishnah array; comment segmentation preserved"
+  }
+}

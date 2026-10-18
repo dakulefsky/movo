@@ -1,0 +1,52 @@
+{
+  "versions": [
+    {
+      "status": "locked",
+      "priority": "",
+      "license": "Public Domain",
+      "versionNotes": "",
+      "formatAsPoetry": "",
+      "digitizedBySefaria": true,
+      "method": "",
+      "heversionSource": "",
+      "versionUrl": "",
+      "versionTitleInHebrew": "מהדורת וילנא",
+      "versionNotesInHebrew": "",
+      "shortVersionTitle": "",
+      "shortVersionTitleInHebrew": "",
+      "extendedNotes": "",
+      "extendedNotesHebrew": "",
+      "purchaseInformationImage": "",
+      "purchaseInformationURL": "",
+      "hasManuallyWrappedRefs": "",
+      "language": "he",
+      "title": "Rambam on Mishnah Orlah",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "versionTitle": "Vilna Edition",
+      "actualLanguage": "he",
+      "languageFamilyName": "hebrew",
+      "isSource": true,
+      "isPrimary": true,
+      "direction": "rtl"
+    }
+  ],
+  "book": "Rambam on Mishnah Orlah",
+  "indexTitle": "Rambam on Mishnah Orlah",
+  "heVersionTitle": "Vilna Edition",
+  "ref": "Rambam on Mishnah Orlah 3:9",
+  "heRef": "רמב״ם על משנה ערלה 3:9",
+  "he": [
+    "<b>ספק הערלה.</b> בארו שהוא כשיהיה כרם הערלה ידוע וענבים נמכרים חוצה לו ולא נודע שהענבים מזה הכרם או מזולתו. \n",
+    "ואמרם ובלבד שלא ילקט ביד ענינו שזה האוכל לא ילקוט הוא בעצמו ויאכל אבל ילקט לו זולתו:\n",
+    "והחדש אסור מן התורה בכל מקום לאמרו הש\"י (ויקרא כ״ג:י״ד) ולחם וקלי וכרמל לא תאכלו ולא נתן זה תלוי בארץ אבל ערלה וכלאי הכרם אינן אסורים מן התורה אלא בארץ ישראל לפי שהן תלויות בארץ אמר הש\"י בערלה (ויקרא י״ט:כ״ג) כי תבאו אל הארץ ונטעתם וערלתם ובכלאי הכרם אמר (דברים כ״ב:ט׳) לא תזרע כרמך כלאים וזה הכנוי שב על מה שיש לאדם בארץ ישראל ודומה לו אמרו בכתוב אחר שדך לא תזרע וכרמך לא תזמור וזהו נוהג בארץ ישראל אבל איסור הערלה בחוצה לארץ הלכה למשה מסיני והוא ענין אמרם הלכה ואיסור זריעת כלאי הכרם והוא שיזרע חטה ושעורה וחרצן במפולת יד בחוצה לארץ מדרבנן ומפני שהן אסורים בהנאה בא\"י גזרו בהו רבנן בחוצה לארץ שלא יהיו זורעין אותם כמו שאמרנו וזהו ענין אמרם והכלאים מדברי סופרים אבל כלאי זרעים וזריעת התבואה וזולתם בכרם בלי הרחקת הריחוק הנזכר במסכת כלאים הוא מותר לכתחלה בחוצה לארץ אבל כלאי בהמה לוקין עליהם בחוצה לארץ מן התורה וכן הרכבת אילן היא מדאורייתא בין בארץ בין בחוצה לארץ ולוקין עליה בכל מקום ולוקין על כלאי זרעים בארץ ישראל מן התורה:\n"
+  ],
+  "provenance": {
+    "file": "raw/sefaria-full-orlah.json",
+    "jsonPath": [
+      "he",
+      2,
+      8
+    ],
+    "note": "Exact selected Mishnah array; comment segmentation preserved"
+  }
+}

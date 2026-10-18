@@ -1,0 +1,125 @@
+{
+  "ref": "Rambam on Mishnah Menachot 1:1",
+  "heRef": "רמב\"ם על משנה מנחות א׳:א׳",
+  "isComplex": false,
+  "text": [],
+  "he": [
+    "<b>כל המנחות שנקמצו שלא לשמן כשירות אלא שלא כו': </b>נתן קמיצות המנחה תחת שחיטת הקרבנות וכבר הקדמנו בתחילת זבחים שכל הזבחים שנשחטו שלא לשמן כשרים חוץ מן החטאת ונאמר במנחת קנאות הוא מנחת זכרון מזכרת עון ולפי שזכר בה עון עשו אותה כמנחת חוטא וכבר ידעת מה שנאמר במנחת חוטא שקראה חטאת: וענין מה שנא' כשרים שיגמר אותם בכשרות כמו שנתבאר בזבחים: ומה שאמר כל המנחות ר\"ל מנחות שאין קבוע להם זמן אבל עומר התנופה אם קמצו שלא לשמו פסול הואיל ובאת להתיר ולא הותרה ר\"ל שאינו מותר לאכול החדש עד שיקריב אותו הקומץ שנא' ולחם וקלי וכרמל וגו' אבל מנחות שאין קבוע להן זמן אם קמצן [<small>יעב\"ץ:</small> שלא לשמן] כשרים כגון שיקמוץ מחבת לשם מרחשת או מרחשת לשם מחבת והדומה לזה: ומה שאמר נתן בכלי רוצה לומר נתן הקומץ בכלי לפי שהוא צריך לתת אותו בכלי שרת וראיתי לזכור בכאן גוף הברייתא הנזכרת בגמ' בסדר הקרבת המנחה ומפני שהיא מבוארת ואינה צריכה פירוש וזה גוף מה שאמר בה סדר מנחות (האשם) ושמור העניינים האלו שכוללת אותם הברייתא הזאת: "
+  ],
+  "versions": [
+    {
+      "status": "locked",
+      "priority": "",
+      "license": "Public Domain",
+      "versionNotes": "",
+      "formatAsPoetry": "",
+      "digitizedBySefaria": true,
+      "method": "",
+      "heversionSource": "",
+      "versionUrl": "",
+      "versionTitleInHebrew": "מהדורת וילנא",
+      "versionNotesInHebrew": "",
+      "shortVersionTitle": "",
+      "shortVersionTitleInHebrew": "",
+      "extendedNotes": "",
+      "extendedNotesHebrew": "",
+      "purchaseInformationImage": "",
+      "purchaseInformationURL": "",
+      "hasManuallyWrappedRefs": "",
+      "language": "he",
+      "title": "Rambam on Mishnah Menachot",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "versionTitle": "Vilna edition",
+      "actualLanguage": "he",
+      "languageFamilyName": "hebrew",
+      "isSource": true,
+      "isPrimary": true,
+      "direction": "rtl"
+    }
+  ],
+  "textDepth": 3,
+  "sectionNames": [
+    "Chapter",
+    "Mishnah",
+    "Comment"
+  ],
+  "addressTypes": [
+    "Perek",
+    "Mishnah",
+    "Integer"
+  ],
+  "lengths": [
+    13,
+    93,
+    95
+  ],
+  "length": 13,
+  "heTitle": "רמב\"ם על משנה מנחות",
+  "titleVariants": [
+    "Maimonides on M Menachot",
+    "Maimonides on Mishna Menachot",
+    "Maimonides on M. Menachot",
+    "Maimonides on Mishna Menahot",
+    "Maimonides on Mishnah Menachot",
+    "Rambam on M Menachot",
+    "Rambam on Mishna Menachot",
+    "Rambam on M. Menachot",
+    "Rambam on Mishna Menahot",
+    "Rambam on Mishnah Menachot"
+  ],
+  "heTitleVariants": [
+    "רמב\"ם על משנה מנחות"
+  ],
+  "type": "Commentary",
+  "primary_category": "Commentary",
+  "book": "Rambam on Mishnah Menachot",
+  "categories": [
+    "Mishnah",
+    "Rishonim on Mishnah",
+    "Rambam",
+    "Seder Kodashim"
+  ],
+  "order": "",
+  "sections": [
+    1,
+    1
+  ],
+  "toSections": [
+    1,
+    1
+  ],
+  "commentator": "Rambam",
+  "heCommentator": "רמב\"ם",
+  "collectiveTitle": "Rambam",
+  "heCollectiveTitle": "רמב\"ם",
+  "baseTexTitles": [
+    "Mishnah Menachot"
+  ],
+  "isDependant": true,
+  "indexTitle": "Rambam on Mishnah Menachot",
+  "heIndexTitle": "רמב\"ם על משנה מנחות",
+  "sectionRef": "Rambam on Mishnah Menachot 1:1",
+  "firstAvailableSectionRef": "Rambam on Mishnah Menachot 1:1",
+  "heSectionRef": "רמב\"ם על משנה מנחות א׳:א׳",
+  "isSpanning": false,
+  "heVersionTitle": "Vilna edition",
+  "heVersionTitleInHebrew": "מהדורת וילנא",
+  "heShortVersionTitle": "",
+  "heShortVersionTitleInHebrew": "",
+  "heVersionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+  "heVersionStatus": "locked",
+  "heVersionNotes": "",
+  "heExtendedNotes": "",
+  "heExtendedNotesHebrew": "",
+  "heVersionNotesInHebrew": "",
+  "heDigitizedBySefaria": true,
+  "heLicense": "Public Domain",
+  "formatHeAsPoetry": false,
+  "alts": [],
+  "index_offsets_by_depth": {},
+  "next": "Rambam on Mishnah Menachot 1:2",
+  "prev": null,
+  "commentary": [],
+  "sheets": [],
+  "layer": []
+}

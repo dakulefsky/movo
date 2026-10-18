@@ -1,0 +1,82 @@
+{
+  "versions": [
+    {
+      "status": "locked",
+      "priority": "",
+      "license": "Public Domain",
+      "versionNotes": "",
+      "formatAsPoetry": "",
+      "digitizedBySefaria": true,
+      "method": "",
+      "heversionSource": "",
+      "versionUrl": "",
+      "versionTitleInHebrew": "מהדורת וילנא",
+      "versionNotesInHebrew": "",
+      "shortVersionTitle": "",
+      "shortVersionTitleInHebrew": "",
+      "extendedNotes": "",
+      "extendedNotesHebrew": "",
+      "purchaseInformationImage": "",
+      "purchaseInformationURL": "",
+      "hasManuallyWrappedRefs": "",
+      "language": "he",
+      "title": "Rambam on Mishnah Kiddushin",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "versionTitle": "Vilna edition",
+      "actualLanguage": "he",
+      "languageFamilyName": "hebrew",
+      "isSource": true,
+      "isPrimary": true,
+      "direction": "rtl"
+    },
+    {
+      "status": "",
+      "priority": "",
+      "license": "CC0",
+      "versionNotes": "",
+      "formatAsPoetry": "",
+      "digitizedBySefaria": "",
+      "method": "",
+      "heversionSource": "",
+      "versionUrl": "",
+      "versionTitleInHebrew": "",
+      "versionNotesInHebrew": "",
+      "shortVersionTitle": "",
+      "shortVersionTitleInHebrew": "",
+      "extendedNotes": "",
+      "extendedNotesHebrew": "",
+      "purchaseInformationImage": "",
+      "purchaseInformationURL": "",
+      "hasManuallyWrappedRefs": "",
+      "language": "en",
+      "title": "Rambam on Mishnah Kiddushin",
+      "versionSource": "https://www.sefaria.org",
+      "versionTitle": "Sefaria Community Translation",
+      "actualLanguage": "en",
+      "languageFamilyName": "english",
+      "isSource": false,
+      "isPrimary": false,
+      "direction": "ltr"
+    }
+  ],
+  "book": "Rambam on Mishnah Kiddushin",
+  "indexTitle": "Rambam on Mishnah Kiddushin",
+  "versionTitle": "Sefaria Community Translation",
+  "versionSource": "https://www.sefaria.org",
+  "license": "CC0",
+  "heVersionTitle": "Vilna edition",
+  "ref": "Rambam on Mishnah Kiddushin 1:1",
+  "heRef": "רמב״ם על משנה קידושין 1:1",
+  "he": [
+    "<b>האשה נקנית בשלש דרכים וקונה את עצמה בשתי דרכים כו':  </b>דרך טפל בין על לשון זכור בין על לשון נקבה כתוב בתורה את הדרך (אשר) ילכו בה וכתוב בדרך אחד יצאו אליך. ומה שאמר האשה נקנית ולא אמר האיש קונה ללמדינו שהיא אינה נישאת ותהיה אשת איש אלא בעצונה אבל אם קדשה בעל כרחה אינה מקודשת. ולמדנו שהיא מתקדשת בכסף לפי שנאמר כי יקח איש אשה ונאמר בעפרון נתתי כסף השדה קח ממני גמר קיחה קיחה. והקידושין בשטר הוא שיכתוב לה על איזה דבר שיזדמן ואפילו על גב החרס או על עלי הצמחים הרי את מקודשת לי או הרי את מאורסת לי ומה שדומה לזה הענין ויתן לה זה הדבר הכתוב בפני שני עדים והראיה על זה מה שאמר ויצאה והיתה מקיש הויה ליציאה מה יציאה בשטר כמו שנאמר בתורה וכתב לה ספר כריתות אף הויה בשטר. וענין הקדושין בביאה הוא שיבא עליה בפני שני עדים לשם קידושין ואין שם דרך מבואר בקדושין יותר מזו והוא הכתוב בתורה שנאמר ובא עליה ובעלה בביאה נעשית בעולת בעל אבל מי שקדש בביאה או בלא שדוכין שקדמו לקדושין יש לו לדיין להלקותו מכת מרדות כדי שלא יהיו בני אדם פרוצין ואף על פי שהם נשואים קיימין ויכנוס את אשתו: ומשקל הדינר ששה ותשעים גרעיני שעורה מכסף ואיסר הוא רובע הדרכמון נקרא דרהם בערבי. והדינר ששה דרכמונים א\"כ משקל האיסר ארבעה גרעינין ופרוטה חצי גרעין מכסף. ומפני שאמר האשה נקנית אמר ג\"כ היבמה נקנית והיה מן הדין שיאמר היבם קונה לפי שהעיקר אצלנו שהאונס יבמתו ובא עליה בלא כוונה שקנאה כמו שנתבאר בסוף פרק ששי מיבמות: "
+  ],
+  "provenance": {
+    "file": "raw/sefaria-full-kiddushin.json",
+    "jsonPath": [
+      "he",
+      0,
+      0
+    ],
+    "note": "Exact selected Mishnah array; comment segmentation preserved"
+  }
+}

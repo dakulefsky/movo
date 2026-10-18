@@ -1,0 +1,53 @@
+{
+  "versions": [
+    {
+      "status": "locked",
+      "priority": "",
+      "license": "Public Domain",
+      "versionNotes": "",
+      "formatAsPoetry": "",
+      "digitizedBySefaria": true,
+      "method": "",
+      "heversionSource": "",
+      "versionUrl": "",
+      "versionTitleInHebrew": "מהדורת וילנא",
+      "versionNotesInHebrew": "",
+      "shortVersionTitle": "",
+      "shortVersionTitleInHebrew": "",
+      "extendedNotes": "",
+      "extendedNotesHebrew": "",
+      "purchaseInformationImage": "",
+      "purchaseInformationURL": "",
+      "hasManuallyWrappedRefs": "",
+      "language": "he",
+      "title": "Rambam on Mishnah Sheviit",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "versionTitle": "Vilna Edition",
+      "actualLanguage": "he",
+      "languageFamilyName": "hebrew",
+      "isSource": true,
+      "isPrimary": true,
+      "direction": "rtl"
+    }
+  ],
+  "book": "Rambam on Mishnah Sheviit",
+  "indexTitle": "Rambam on Mishnah Sheviit",
+  "heVersionTitle": "Vilna Edition",
+  "ref": "Rambam on Mishnah Sheviit 10:1",
+  "heRef": "רמב״ם על משנה שביעית 10:1",
+  "he": [
+    "שלא בשטר הוא שטר שלא יהיה בו אחריות נכסים ובשטר הוא שיהיה בו בבאור אחריות נכסים ויהיה משמטת ואף על פי שהוא כמו שמשכן אצלו קרקעות בממון ההוא: \n",
+    "<b>והקפת החנות.</b> היא האמנה במקח ובממכר שבין בני אדם ובעלי החנויות שיוציא עליו כל מה שצריך וכשיקבץ סך ממון עליו יפרעהו וזה הנקבץ לא יהיה נשמט בשנה שביעית מפני שאינו על דרך חוב ולא מכר לו בעל החנות על מנת שיהיה חוב אבל מכר לו מעט מעט עד שנתקבץ לו הכל ויתן לו ממונו: \n",
+    "ודברי רבי יהודה הראשון הראשון משמט הוא כשיקנה בעל החנות פעם אחר פעם סוף דברינו שלא יהיה נשמט בשנה שביעית מה שיש אצלו מן ההקפה האחרונה וכל מה שקדמוהו מן ההקפות הם חוב כשאר החובות ויהיה נשמט בשנה שביעית: \n",
+    "ומלאכה שפוסקת בשביעית כגון החריש והקציר וזמיר האילנות והנטיעות וא\"ר יוסי שאם יהיה לשכיר אצלו שכירות בחרישה שחרש או בקצירה שקצר ישמט כל השכירות ההוא מפני שנעשה חוב מפני שהוא פוסק מהמלאכה ההיא בשעת השמטת החוב ואין הלכה כרבי יהודה ולא כר' יוסי: \n"
+  ],
+  "provenance": {
+    "file": "raw/sefaria-full-sheviit.json",
+    "jsonPath": [
+      "he",
+      9,
+      0
+    ],
+    "note": "Exact selected Mishnah array; comment segmentation preserved"
+  }
+}

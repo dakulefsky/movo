@@ -1,0 +1,125 @@
+{
+  "ref": "Rambam on Mishnah Menachot 6:1",
+  "heRef": "רמב\"ם על משנה מנחות ו׳:א׳",
+  "isComplex": false,
+  "text": [],
+  "he": [
+    "<b>אלו מנחות נקמצות ושיריהן לכהנים מנחת סלת כו': </b>אמר רחמנא בכלל המנחות תורת המנחה וגו' ואמר והנותרת ממנה יאכלו אהרן ובניו וכבר ידעת מה שנאמר בתורה וכל מנחת כהן כליל תהיה לא תאכל ואמר ר' שמעון שמנחת כהן חוטא אע\"פ שהיא נשרפת כולה הואיל והיא מנחת כהן שהיא ג\"כ נקמצת מפני שהיא מנחת חוטא וחכמים אומרים כל מנחה ששיריה נאכלין נקמצת ושאין שיריה נאכלין אינה נקמצת והלכה כחכמים: "
+  ],
+  "versions": [
+    {
+      "status": "locked",
+      "priority": "",
+      "license": "Public Domain",
+      "versionNotes": "",
+      "formatAsPoetry": "",
+      "digitizedBySefaria": true,
+      "method": "",
+      "heversionSource": "",
+      "versionUrl": "",
+      "versionTitleInHebrew": "מהדורת וילנא",
+      "versionNotesInHebrew": "",
+      "shortVersionTitle": "",
+      "shortVersionTitleInHebrew": "",
+      "extendedNotes": "",
+      "extendedNotesHebrew": "",
+      "purchaseInformationImage": "",
+      "purchaseInformationURL": "",
+      "hasManuallyWrappedRefs": "",
+      "language": "he",
+      "title": "Rambam on Mishnah Menachot",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "versionTitle": "Vilna edition",
+      "actualLanguage": "he",
+      "languageFamilyName": "hebrew",
+      "isSource": true,
+      "isPrimary": true,
+      "direction": "rtl"
+    }
+  ],
+  "textDepth": 3,
+  "sectionNames": [
+    "Chapter",
+    "Mishnah",
+    "Comment"
+  ],
+  "addressTypes": [
+    "Perek",
+    "Mishnah",
+    "Integer"
+  ],
+  "lengths": [
+    13,
+    93,
+    95
+  ],
+  "length": 13,
+  "heTitle": "רמב\"ם על משנה מנחות",
+  "titleVariants": [
+    "Maimonides on M Menachot",
+    "Maimonides on Mishna Menachot",
+    "Maimonides on M. Menachot",
+    "Maimonides on Mishna Menahot",
+    "Maimonides on Mishnah Menachot",
+    "Rambam on M Menachot",
+    "Rambam on Mishna Menachot",
+    "Rambam on M. Menachot",
+    "Rambam on Mishna Menahot",
+    "Rambam on Mishnah Menachot"
+  ],
+  "heTitleVariants": [
+    "רמב\"ם על משנה מנחות"
+  ],
+  "type": "Commentary",
+  "primary_category": "Commentary",
+  "book": "Rambam on Mishnah Menachot",
+  "categories": [
+    "Mishnah",
+    "Rishonim on Mishnah",
+    "Rambam",
+    "Seder Kodashim"
+  ],
+  "order": "",
+  "sections": [
+    6,
+    1
+  ],
+  "toSections": [
+    6,
+    1
+  ],
+  "commentator": "Rambam",
+  "heCommentator": "רמב\"ם",
+  "collectiveTitle": "Rambam",
+  "heCollectiveTitle": "רמב\"ם",
+  "baseTexTitles": [
+    "Mishnah Menachot"
+  ],
+  "isDependant": true,
+  "indexTitle": "Rambam on Mishnah Menachot",
+  "heIndexTitle": "רמב\"ם על משנה מנחות",
+  "sectionRef": "Rambam on Mishnah Menachot 6:1",
+  "firstAvailableSectionRef": "Rambam on Mishnah Menachot 6:1",
+  "heSectionRef": "רמב\"ם על משנה מנחות ו׳:א׳",
+  "isSpanning": false,
+  "heVersionTitle": "Vilna edition",
+  "heVersionTitleInHebrew": "מהדורת וילנא",
+  "heShortVersionTitle": "",
+  "heShortVersionTitleInHebrew": "",
+  "heVersionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+  "heVersionStatus": "locked",
+  "heVersionNotes": "",
+  "heExtendedNotes": "",
+  "heExtendedNotesHebrew": "",
+  "heVersionNotesInHebrew": "",
+  "heDigitizedBySefaria": true,
+  "heLicense": "Public Domain",
+  "formatHeAsPoetry": false,
+  "alts": [],
+  "index_offsets_by_depth": {},
+  "next": "Rambam on Mishnah Menachot 6:2",
+  "prev": "Rambam on Mishnah Menachot 5:9",
+  "commentary": [],
+  "sheets": [],
+  "layer": []
+}

@@ -1,0 +1,82 @@
+{
+  "versions": [
+    {
+      "status": "locked",
+      "priority": "",
+      "license": "Public Domain",
+      "versionNotes": "",
+      "formatAsPoetry": "",
+      "digitizedBySefaria": true,
+      "method": "",
+      "heversionSource": "",
+      "versionUrl": "",
+      "versionTitleInHebrew": "מהדורת וילנא",
+      "versionNotesInHebrew": "",
+      "shortVersionTitle": "",
+      "shortVersionTitleInHebrew": "",
+      "extendedNotes": "",
+      "extendedNotesHebrew": "",
+      "purchaseInformationImage": "",
+      "purchaseInformationURL": "",
+      "hasManuallyWrappedRefs": "",
+      "language": "he",
+      "title": "Rambam on Mishnah Kiddushin",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "versionTitle": "Vilna edition",
+      "actualLanguage": "he",
+      "languageFamilyName": "hebrew",
+      "isSource": true,
+      "isPrimary": true,
+      "direction": "rtl"
+    },
+    {
+      "status": "",
+      "priority": "",
+      "license": "CC0",
+      "versionNotes": "",
+      "formatAsPoetry": "",
+      "digitizedBySefaria": "",
+      "method": "",
+      "heversionSource": "",
+      "versionUrl": "",
+      "versionTitleInHebrew": "",
+      "versionNotesInHebrew": "",
+      "shortVersionTitle": "",
+      "shortVersionTitleInHebrew": "",
+      "extendedNotes": "",
+      "extendedNotesHebrew": "",
+      "purchaseInformationImage": "",
+      "purchaseInformationURL": "",
+      "hasManuallyWrappedRefs": "",
+      "language": "en",
+      "title": "Rambam on Mishnah Kiddushin",
+      "versionSource": "https://www.sefaria.org",
+      "versionTitle": "Sefaria Community Translation",
+      "actualLanguage": "en",
+      "languageFamilyName": "english",
+      "isSource": false,
+      "isPrimary": false,
+      "direction": "ltr"
+    }
+  ],
+  "book": "Rambam on Mishnah Kiddushin",
+  "indexTitle": "Rambam on Mishnah Kiddushin",
+  "versionTitle": "Sefaria Community Translation",
+  "versionSource": "https://www.sefaria.org",
+  "license": "CC0",
+  "heVersionTitle": "Vilna edition",
+  "ref": "Rambam on Mishnah Kiddushin 3:12",
+  "heRef": "רמב״ם על משנה קידושין 3:12",
+  "he": [
+    "<b>כל מקום שיש קדושין ואין עבירה כו':  </b>כבר ידעת שאלמנה לכהן גדול גרושה וחלוצה לכהן הדיוט הולד חלל ולא נאמר באלו הולד הולך אחר הפגום אלא מפני שהם מחייבי לאוין והולד פגום כללום עם חייבי לאוים שאפשר לומר בהם הולד הולך אחר הפגום לפי שישראל שנשא ממזרת או ממזר שנשא ישראלית הולד ממזר כמו כן הדין בנתין ונתינה ואף על פי שאלו הכללות אמתיים וההסכמה עליה אמנם יש בבבא הראשונה זוג אחד בלבד שאינו כמו שאמרנו והוא גר שנשא ממזרת שיש קדושין ואין עבירה לפי שהגר מותר בממזרת לפי שפסק הלכה קהל גרים לא איקרי קהל אבל הולד ממזר וכמו כן ממזר שנשא גיורת בזה הזוג בלבד ואף על פי שהוא בלא עבירה והולד הולך אחר הפגום וממה שראוי שתדעהו שמצרי שני שנשא מצרית ראשונה הולד שלישי לפי שהם קדושין בלא עבירה והולד הולך אחר הזכר וכמו כן אילו נשא אדומי ראשון לאדומית שניה הולד שני ונאמר בשפחה האשה וילדיה ולדה כמוה ונאמר בעובדת כוכבים כי יסיר את בנך מאחרי בנך [מישראלית] קרוי בנך ואין בנך הבא מן העובדת כוכבים קרוי בנך אלא בנה. "
+  ],
+  "provenance": {
+    "file": "raw/sefaria-full-kiddushin.json",
+    "jsonPath": [
+      "he",
+      2,
+      11
+    ],
+    "note": "Exact selected Mishnah array; comment segmentation preserved"
+  }
+}

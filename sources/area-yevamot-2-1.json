@@ -1,0 +1,82 @@
+{
+  "versions": [
+    {
+      "status": "locked",
+      "priority": "",
+      "license": "Public Domain",
+      "versionNotes": "",
+      "formatAsPoetry": "",
+      "digitizedBySefaria": true,
+      "method": "",
+      "heversionSource": "",
+      "versionUrl": "",
+      "versionTitleInHebrew": "מהדורת וילנא",
+      "versionNotesInHebrew": "",
+      "shortVersionTitle": "",
+      "shortVersionTitleInHebrew": "",
+      "extendedNotes": "",
+      "extendedNotesHebrew": "",
+      "purchaseInformationImage": "",
+      "purchaseInformationURL": "",
+      "hasManuallyWrappedRefs": "",
+      "language": "he",
+      "title": "Rambam on Mishnah Yevamot",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "versionTitle": "Vilna edition",
+      "actualLanguage": "he",
+      "languageFamilyName": "hebrew",
+      "isSource": true,
+      "isPrimary": true,
+      "direction": "rtl"
+    },
+    {
+      "status": "",
+      "priority": "",
+      "license": "CC0",
+      "versionNotes": "",
+      "formatAsPoetry": "",
+      "digitizedBySefaria": "",
+      "method": "",
+      "heversionSource": "",
+      "versionUrl": "",
+      "versionTitleInHebrew": "",
+      "versionNotesInHebrew": "",
+      "shortVersionTitle": "",
+      "shortVersionTitleInHebrew": "",
+      "extendedNotes": "",
+      "extendedNotesHebrew": "",
+      "purchaseInformationImage": "",
+      "purchaseInformationURL": "",
+      "hasManuallyWrappedRefs": "",
+      "language": "en",
+      "title": "Rambam on Mishnah Yevamot",
+      "versionSource": "https://www.sefaria.org",
+      "versionTitle": "Sefaria Community Translation",
+      "actualLanguage": "en",
+      "languageFamilyName": "english",
+      "isSource": false,
+      "isPrimary": false,
+      "direction": "ltr"
+    }
+  ],
+  "book": "Rambam on Mishnah Yevamot",
+  "indexTitle": "Rambam on Mishnah Yevamot",
+  "versionTitle": "Sefaria Community Translation",
+  "versionSource": "https://www.sefaria.org",
+  "license": "CC0",
+  "heVersionTitle": "Vilna edition",
+  "ref": "Rambam on Mishnah Yevamot 2:1",
+  "heRef": "רמב״ם על משנה יבמות 2:1",
+  "he": [
+    "<b>כיצד אשת אחיו שלא היה בעולמו כו':  </b>למדנו איסור אשת אחיו שלא היה בעולמו ממה שנאמר כי ישבו אחים יחדיו פרט לאשת אחיו שלא היה בעולמו ומאמר הוא הקדושין ודין הקדושין באלו המקומות וכיוצא בהן במדרגת קדושין שאינן גמורין וצריך לדון בהן להחמיר ואני אפרש בכאן זה הענין על דרך משל להקיש עליו שאר הדינין אשר ימצא בהן זה הענין ונאמר על דרך משל ראובן היתה לו אשה ושמה לאה ואח\"כ מת שמעון אחיו והניח אשה ואחר מיתת שמעון נולד לוי ואחר שנולד לוי קדש ראובן רחל שהיא יבמתו ומת הדין נותן שיחלוץ לוי ללאה ולא ייבם אותה וזה מפני שאם ראובן לא קדש רחל היה לו ללוי שיבם ללאה אם ירצה או יחלוץ ועוד אילו ראובן כנס רחל היתה לאה פטורה מן החליצה ומן הייבום מפני שהיא צרת ערוה לפי שרחל ערוה על לוי ומפני שקידשה והיו שם קצת קדושין (אין) דנין על לאה שלא תתייבם וגם כן אינה מותרת בלא חליצה וזה חומרא משני צדדין ואפילו היו הקדושין גמורין אין הפסד בחליצה לפי שנחשוב אותה כאילו לא היתה ואם אלו הקדושין לא גמרו הנשואין הרי חלץ לאה וכן תבין לעולם כל זמן שתראה בדברי זאת המסכתא חולצת ולא מתייבמת בבעלת מאמר או גבי צרתה ולא נצטרך להחזיר לך זה הענין תדיר: "
+  ],
+  "provenance": {
+    "file": "raw/sefaria-full-yevamot.json",
+    "jsonPath": [
+      "he",
+      1,
+      0
+    ],
+    "note": "Exact selected Mishnah array; comment segmentation preserved"
+  }
+}

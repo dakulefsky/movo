@@ -1,0 +1,83 @@
+{
+  "versions": [
+    {
+      "status": "locked",
+      "priority": "",
+      "license": "Public Domain",
+      "versionNotes": "",
+      "formatAsPoetry": "",
+      "digitizedBySefaria": true,
+      "method": "",
+      "heversionSource": "",
+      "versionUrl": "",
+      "versionTitleInHebrew": "מהדורת וילנא",
+      "versionNotesInHebrew": "",
+      "shortVersionTitle": "",
+      "shortVersionTitleInHebrew": "",
+      "extendedNotes": "",
+      "extendedNotesHebrew": "",
+      "purchaseInformationImage": "",
+      "purchaseInformationURL": "",
+      "hasManuallyWrappedRefs": "",
+      "language": "he",
+      "title": "Rambam on Mishnah Terumot",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "versionTitle": "Vilna Edition",
+      "actualLanguage": "he",
+      "languageFamilyName": "hebrew",
+      "isSource": true,
+      "isPrimary": true,
+      "direction": "rtl"
+    },
+    {
+      "status": "",
+      "priority": "",
+      "license": "CC0",
+      "versionNotes": "",
+      "formatAsPoetry": "",
+      "digitizedBySefaria": "",
+      "method": "",
+      "heversionSource": "",
+      "versionUrl": "",
+      "versionTitleInHebrew": "",
+      "versionNotesInHebrew": "",
+      "shortVersionTitle": "",
+      "shortVersionTitleInHebrew": "",
+      "extendedNotes": "",
+      "extendedNotesHebrew": "",
+      "purchaseInformationImage": "",
+      "purchaseInformationURL": "",
+      "hasManuallyWrappedRefs": "",
+      "language": "en",
+      "title": "Rambam on Mishnah Terumot",
+      "versionSource": "https://www.sefaria.org",
+      "versionTitle": "Sefaria Community Translation",
+      "actualLanguage": "en",
+      "languageFamilyName": "english",
+      "isSource": false,
+      "isPrimary": false,
+      "direction": "ltr"
+    }
+  ],
+  "book": "Rambam on Mishnah Terumot",
+  "indexTitle": "Rambam on Mishnah Terumot",
+  "versionTitle": "Sefaria Community Translation",
+  "versionSource": "https://www.sefaria.org",
+  "license": "CC0",
+  "heVersionTitle": "Vilna Edition",
+  "ref": "Rambam on Mishnah Terumot 4:3",
+  "heRef": "רמב״ם על משנה תרומות 4:3",
+  "he": [
+    "עין יפה. פי' נדבת לב ועין רעה הפך כלומר כילות וכמו מה שאמרו ב\"ש עין יפה אחד משלשים כמו כן אמרו בינונית מארבעים ורעה מחמשים ואמרו תרומה תרי ממאה: ואמרו חזר והוסיף חייב במעשרות. ענינו כי התרומה אינה חייבת במעשרות ומה שנשאר אחר הוצאת התרומה הוא חייב במעשרות בלי ספק ולפיכך אם הוסיף על התרומה הראשונה יתחייב להוציא מאותו תוספת מעשרות ואז יאכלנה הכהן: ואמרם כמות שהוא למוד. ענינו שמותר לו להוציא התרומה שניה שהיא תוספת תרומה כמו שמנהגו לשער זרעו במדה או במנין או במשקל וזה אסור לעשות בתחלה כמו שאמרנו אין תורמין לא במדה ולא במשקל ולא במנין: \n",
+    "ורבי יהודה אומר שמותר לו להוציא ממנו תוספת תרומה שלא מן המוקף ר\"ל ממקום אחר וזה אסור לעשותו לכתחלה ר\"ל שיוציא אדם תרומה ממקום אחד על הפירות שהם במקום אחר אבל יוציא התרומה מן המוקף רצה לומר ממה שהוא תוך הקף מקום אחד ומן הדברים שנשנו אצלנו פעמים לא נחשדו חברים לתרום שלא מן המוקף ואין הלכה כרבי יהודה: \n"
+  ],
+  "provenance": {
+    "file": "raw/sefaria-full-terumot.json",
+    "jsonPath": [
+      "he",
+      3,
+      2
+    ],
+    "note": "Exact selected Mishnah array; comment segmentation preserved"
+  }
+}

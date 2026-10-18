@@ -1,0 +1,51 @@
+{
+  "versions": [
+    {
+      "status": "locked",
+      "priority": "",
+      "license": "Public Domain",
+      "versionNotes": "",
+      "formatAsPoetry": "",
+      "digitizedBySefaria": true,
+      "method": "",
+      "heversionSource": "",
+      "versionUrl": "",
+      "versionTitleInHebrew": "מהדורת וילנא",
+      "versionNotesInHebrew": "",
+      "shortVersionTitle": "",
+      "shortVersionTitleInHebrew": "",
+      "extendedNotes": "",
+      "extendedNotesHebrew": "",
+      "purchaseInformationImage": "",
+      "purchaseInformationURL": "",
+      "hasManuallyWrappedRefs": "",
+      "language": "he",
+      "title": "Rambam on Mishnah Maasrot",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "versionTitle": "Vilna Edition",
+      "actualLanguage": "he",
+      "languageFamilyName": "hebrew",
+      "isSource": true,
+      "isPrimary": true,
+      "direction": "rtl"
+    }
+  ],
+  "book": "Rambam on Mishnah Maasrot",
+  "indexTitle": "Rambam on Mishnah Maasrot",
+  "ref": "Rambam on Mishnah Maasrot 1:5",
+  "heRef": "רמב״ם על משנה מעשרות 1:5",
+  "he": [
+    "גרנן למעשרו' כמו מלה מושאלת והכוונה ששאל התנא אימתי יהיו הפירות כמו התבואה כשהיא בגורן שאסור לאכול ממנה אכילת עראי לפי שכבר נקבעה למעשר כי קודם גרנן של מעשרות אף על פי שהגיעו לעונת המעשרות מותר לאכול מהם אכילת עראי ודרך הקשואים והדלועין שיעלה עליהם כמו שער או כמו קוץ דק מאד והוא נקרא פקס וכן יעלה על האבטיחים כמו שער ויקרא שלק ואמרם משיפקסו ומשישלקו רוצים בו מעת שיפול מהם אותו השער כשיקנחם בידו וכן אמרו בגמרא *מעת שירים שלף וקיא: \n",
+    "עד שיעשה מוקצה. ענינו עד שישטח אותם ויסדר אותם והמקום ששוטחין בו הפירות נקרא מוקצה כי האבטיחין אין עושין מהם ערימה לפי שהם מתחברים זה עם זה: \n",
+    "משיחפה. פי' משיכסה כמו שדרך בני אדם האוספים את הפירות שמכסין אותן בעלי האילן ודומיהן: \n",
+    "במה דברים אמורים. שכשיגיעו לעת הזאת שקבעו למעשרות אסור לאכול מהם עראי במוליך לשוק למכור אבל במוליך לביתו אוכל עראי עד שהוא מגיע לבית וכבר קדם לך זה העיקר בפרק שמיני (מ\"ג) ממסכת תרומות כי הטבל אינו מתחייב במעשרות עד שהוא רואה פני הבית שנאמר (דברים כ״ו:י״ג) בערתי הקדש מן הבית: \n"
+  ],
+  "provenance": {
+    "file": "raw/sefaria-full-maasrot.json",
+    "jsonPath": [
+      "he",
+      0,
+      4
+    ]
+  }
+}

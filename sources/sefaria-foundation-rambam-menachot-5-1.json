@@ -1,0 +1,125 @@
+{
+  "ref": "Rambam on Mishnah Menachot 5:1",
+  "heRef": "רמב\"ם על משנה מנחות ה׳:א׳",
+  "isComplex": false,
+  "text": [],
+  "he": [
+    "<b>כל המנחות באות מצה חוץ מחמץ שבתודה כו': </b>דבר תורה במנחות שקרבים על גבי המזבח שיהיו מצה שנא' כל המנחה אשר תקריבו לה' ונאמר קרבן ראשית תקריבו אותם לה' רומז אל שתי הלחם שנא' עליהן סולת תהיינה חמץ תאפינה ואלו הבכורים ג\"כ שמביאים מן התמרים והוא הדבש האמור בתורה באמרו ארץ חטה ושעורה וגו' ר\"ל דבש תמרים כמו שבאר' במסכת בכורים וכן נאמר בלחם תודה על חלות לחם חמץ יקריב והוא אחד מהארבעה מינים כמו שזכרנו ועוד יתבאר זה: ומה שאמר חסירה או יתירה מפני שלפעמים יהא השאור קשה ומחזיק מן המדה מקום קטן ופעמים יהא נפוח ורך ומחזיק מקום גדול אע\"פ שהשיעור שיש בו מקמח הוא אחד בשוה ואין הלכה כרבי יהודה: "
+  ],
+  "versions": [
+    {
+      "status": "locked",
+      "priority": "",
+      "license": "Public Domain",
+      "versionNotes": "",
+      "formatAsPoetry": "",
+      "digitizedBySefaria": true,
+      "method": "",
+      "heversionSource": "",
+      "versionUrl": "",
+      "versionTitleInHebrew": "מהדורת וילנא",
+      "versionNotesInHebrew": "",
+      "shortVersionTitle": "",
+      "shortVersionTitleInHebrew": "",
+      "extendedNotes": "",
+      "extendedNotesHebrew": "",
+      "purchaseInformationImage": "",
+      "purchaseInformationURL": "",
+      "hasManuallyWrappedRefs": "",
+      "language": "he",
+      "title": "Rambam on Mishnah Menachot",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "versionTitle": "Vilna edition",
+      "actualLanguage": "he",
+      "languageFamilyName": "hebrew",
+      "isSource": true,
+      "isPrimary": true,
+      "direction": "rtl"
+    }
+  ],
+  "textDepth": 3,
+  "sectionNames": [
+    "Chapter",
+    "Mishnah",
+    "Comment"
+  ],
+  "addressTypes": [
+    "Perek",
+    "Mishnah",
+    "Integer"
+  ],
+  "lengths": [
+    13,
+    93,
+    95
+  ],
+  "length": 13,
+  "heTitle": "רמב\"ם על משנה מנחות",
+  "titleVariants": [
+    "Maimonides on M Menachot",
+    "Maimonides on Mishna Menachot",
+    "Maimonides on M. Menachot",
+    "Maimonides on Mishna Menahot",
+    "Maimonides on Mishnah Menachot",
+    "Rambam on M Menachot",
+    "Rambam on Mishna Menachot",
+    "Rambam on M. Menachot",
+    "Rambam on Mishna Menahot",
+    "Rambam on Mishnah Menachot"
+  ],
+  "heTitleVariants": [
+    "רמב\"ם על משנה מנחות"
+  ],
+  "type": "Commentary",
+  "primary_category": "Commentary",
+  "book": "Rambam on Mishnah Menachot",
+  "categories": [
+    "Mishnah",
+    "Rishonim on Mishnah",
+    "Rambam",
+    "Seder Kodashim"
+  ],
+  "order": "",
+  "sections": [
+    5,
+    1
+  ],
+  "toSections": [
+    5,
+    1
+  ],
+  "commentator": "Rambam",
+  "heCommentator": "רמב\"ם",
+  "collectiveTitle": "Rambam",
+  "heCollectiveTitle": "רמב\"ם",
+  "baseTexTitles": [
+    "Mishnah Menachot"
+  ],
+  "isDependant": true,
+  "indexTitle": "Rambam on Mishnah Menachot",
+  "heIndexTitle": "רמב\"ם על משנה מנחות",
+  "sectionRef": "Rambam on Mishnah Menachot 5:1",
+  "firstAvailableSectionRef": "Rambam on Mishnah Menachot 5:1",
+  "heSectionRef": "רמב\"ם על משנה מנחות ה׳:א׳",
+  "isSpanning": false,
+  "heVersionTitle": "Vilna edition",
+  "heVersionTitleInHebrew": "מהדורת וילנא",
+  "heShortVersionTitle": "",
+  "heShortVersionTitleInHebrew": "",
+  "heVersionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+  "heVersionStatus": "locked",
+  "heVersionNotes": "",
+  "heExtendedNotes": "",
+  "heExtendedNotesHebrew": "",
+  "heVersionNotesInHebrew": "",
+  "heDigitizedBySefaria": true,
+  "heLicense": "Public Domain",
+  "formatHeAsPoetry": false,
+  "alts": [],
+  "index_offsets_by_depth": {},
+  "next": "Rambam on Mishnah Menachot 5:2",
+  "prev": "Rambam on Mishnah Menachot 4:5",
+  "commentary": [],
+  "sheets": [],
+  "layer": []
+}

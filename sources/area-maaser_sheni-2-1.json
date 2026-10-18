@@ -1,0 +1,53 @@
+{
+  "versions": [
+    {
+      "status": "locked",
+      "priority": "",
+      "license": "Public Domain",
+      "versionNotes": "",
+      "formatAsPoetry": "",
+      "digitizedBySefaria": true,
+      "method": "",
+      "heversionSource": "",
+      "versionUrl": "",
+      "versionTitleInHebrew": "מהדורת וילנא",
+      "versionNotesInHebrew": "",
+      "shortVersionTitle": "",
+      "shortVersionTitleInHebrew": "",
+      "extendedNotes": "",
+      "extendedNotesHebrew": "",
+      "purchaseInformationImage": "",
+      "purchaseInformationURL": "",
+      "hasManuallyWrappedRefs": "",
+      "language": "he",
+      "title": "Rambam on Mishnah Maaser Sheni",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "versionTitle": "Vilna Edition",
+      "actualLanguage": "he",
+      "languageFamilyName": "hebrew",
+      "isSource": true,
+      "isPrimary": true,
+      "direction": "rtl"
+    }
+  ],
+  "book": "Rambam on Mishnah Maaser Sheni",
+  "indexTitle": "Rambam on Mishnah Maaser Sheni",
+  "heVersionTitle": "Vilna Edition",
+  "ref": "Rambam on Mishnah Maaser Sheni 2:1",
+  "heRef": "רמב״ם על משנה מעשר שני 2:1",
+  "he": [
+    "התורה אמרה שיהיה מעשר שני לאכול שנאמר ונתתה הכסף בכל אשר תאוה נפשך (דברים י״ד:כ״ו) אבל שיהיה מותר לסוך בו הוא דבר נסמך לאמרו ית' במעשר (שם כו) ולא נתתי ממנו למת ואמרו אם להביא לו ארון ותכריכין דבר שאסור לחי הוא לחי אסור למת לא כ\"ש אלא איזה הוא דבר שמותר לחי ואסור למת זו סיכה: \n",
+    "לאכול דבר שדרכו לאכול יש בו שני ענינים האחד שאין מטריחין אותו דבר שלקחו במעות מעשר שני אם נפסד ואינו ראוי לאכול כגון לאכול הפת המעופש או יין שנפסד טעמו והענין האחר שאין לו לאכול דבר ממעשר שני שלא כדרכו כגון האוכל ירקות בלי שלוקות או הפירות מבושלות וכיוצא בזה: \n",
+    "ואסור לפטם ולרקוח השמן בעקרי' ומרקחות לפי שמפסידין טעמו וימעט באכילתו ולזה הטעם אסור לקנות במעות מעשר שני שמן מפוטם: \n",
+    "קפלוטות. החציר הנעשה בארץ הצבי: והמשל באמרו השבח לפי חשבון שיהיו פירות מעשר שני שוה סלע והחולין שנתערבו עמהם או נתבשלו עמהם שוות ג' סלעים וכשיתבשל הכל או נתערב ישוה הכל ה' סלעים נמצא שהסלע הנוסף יש בו למעשר שני הרביע ולפיכך חושבין אותן הפירות בסלע ורביע סלע וחושבין ממעות מעשר שני סלע ורביע סלע יעלה ועל הדרך זה תחשוב: ואמר עיסה של מעשר שני שאפאה. ר\"ל בעצים של חולין השבח לשני רוצה בו שלא יחשוב השבח: ואמר כל ששבחו ניכר. הוא שיוסיף אותו הדבר שהשביח במשקל המעשר וכמותו לא שיראה שם החולין באיכות המעשר בלבד ולפיכך אילו רקחו תבשיל של מעשר שני בדבר שיש לו דמים יקרים ויוסיף אותו הרקוח בדמיו חושבין אותו התוספת ממעות מעשר שני לפי שלא הוסיף בכמו' התבשיל דבר: \n"
+  ],
+  "provenance": {
+    "file": "raw/sefaria-full-maaser_sheni.json",
+    "jsonPath": [
+      "he",
+      1,
+      0
+    ],
+    "note": "Exact selected Mishnah array; comment segmentation preserved"
+  }
+}

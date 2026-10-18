@@ -1,0 +1,117 @@
+{
+  "ref": "Rambam on Mishnah Mikvaot 1:7",
+  "heRef": "רמב\"ם על משנה מקואות א׳:ז׳",
+  "isComplex": false,
+  "text": [],
+  "he": [
+    "מעלה שלישית שיהיו המים מכונסין נתקבצו בלי שאיבה ויש בו מ' סאה הנה הוא כשר לטהר בו הטמאים ולטהר בו הכלים הטמאים והוא אמרו טובלין ומטבילין וכן מטבילין בו את הידים לדברים אשר יצטרכו נטילת ידים וכבר התבאר בחגיגה (שם) שלקודש מטבילין את הידים ואינן ראוים לנטילה ולשון התוספתא (פ\"א) זה הכלל כ\"מ שאדם טובל ידים וכלים טובלין אין אדם טובל אין ידים וכלים טובלין: ומעלה רביעית שתהיה עין מים מעטת המים ושאבו המים ונשפך בה עד שרבו המים וגברו הנה אלה המים משותפי המשפט בין משפט המקוה והמעין ידמה למעין בדבר ולמקוה בדבר וראוי לנו שנבאר קודם זה משפטי המעין והמקוה ונאמר שהמעין והוא המים הנובעין מטהרין בכל שהוא ואפי' היה הפחות מעט השיעור מה שטהר בו טהור ודין שני שהמים הנוזלים מן המעין היוצאין ממנו יטהרו בו ג\"כ וכל מי שטבל בו טהור הנה שני אלה המשפטים במעין אחד מהם שהוא מטהר בכל שהוא והשני שהוא מטהר בזוחלין. ובמקוה והוא קיבוץ המים בלתי נובעים שני משפטים אחד מהם שהוא אינו מטהר הטמאים אלא במ' סאה א) לגבורות ומה שיהיה פחות מזה אינו מטהר הטמאים והשני המים הנוזלין ממנו חוצה לה והנה אותה אשר יקרא זוחלין לא יטהרו ואמנם יטהרו במקום מקוער ינוחו המים בו ויעמדו הוא אשר יקרא אשבורן ואמר שאין המים מעטת המימות אם הוצק בו מים שאובין והיה המקובץ מזה מטהר בכל שהוא כמו המעין אשר אין בו מים שאובין ואינו מטהר אלא באשבורן כמו המקוה אשר אין מעין בו: "
+  ],
+  "versions": [
+    {
+      "status": "locked",
+      "priority": "",
+      "license": "Public Domain",
+      "versionNotes": "",
+      "formatAsPoetry": "",
+      "digitizedBySefaria": true,
+      "method": "",
+      "heversionSource": "",
+      "versionUrl": "",
+      "versionTitleInHebrew": "מהדורת וילנא",
+      "versionNotesInHebrew": "",
+      "shortVersionTitle": "",
+      "shortVersionTitleInHebrew": "",
+      "extendedNotes": "",
+      "extendedNotesHebrew": "",
+      "purchaseInformationImage": "",
+      "purchaseInformationURL": "",
+      "hasManuallyWrappedRefs": "",
+      "language": "he",
+      "title": "Rambam on Mishnah Mikvaot",
+      "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+      "versionTitle": "Vilna Edition",
+      "actualLanguage": "he",
+      "languageFamilyName": "hebrew",
+      "isSource": true,
+      "isPrimary": true,
+      "direction": "rtl"
+    }
+  ],
+  "textDepth": 3,
+  "sectionNames": [
+    "Chapter",
+    "Mishnah",
+    "Comment"
+  ],
+  "addressTypes": [
+    "Perek",
+    "Mishnah",
+    "Integer"
+  ],
+  "lengths": [
+    10,
+    71,
+    122
+  ],
+  "length": 10,
+  "heTitle": "רמב\"ם על משנה מקואות",
+  "titleVariants": [
+    "Rambam on Mishnah Mikvaot"
+  ],
+  "heTitleVariants": [
+    "רמב\"ם על משנה מקואות",
+    "רמב\"ם משנה מקואות"
+  ],
+  "type": "Commentary",
+  "primary_category": "Commentary",
+  "book": "Rambam on Mishnah Mikvaot",
+  "categories": [
+    "Mishnah",
+    "Rishonim on Mishnah",
+    "Rambam",
+    "Seder Tahorot"
+  ],
+  "order": "",
+  "sections": [
+    1,
+    7
+  ],
+  "toSections": [
+    1,
+    7
+  ],
+  "commentator": "Rambam",
+  "heCommentator": "רמב\"ם",
+  "collectiveTitle": "Rambam",
+  "heCollectiveTitle": "רמב\"ם",
+  "baseTexTitles": [
+    "Mishnah Mikvaot"
+  ],
+  "isDependant": true,
+  "indexTitle": "Rambam on Mishnah Mikvaot",
+  "heIndexTitle": "רמב\"ם על משנה מקואות",
+  "sectionRef": "Rambam on Mishnah Mikvaot 1:7",
+  "firstAvailableSectionRef": "Rambam on Mishnah Mikvaot 1:7",
+  "heSectionRef": "רמב\"ם על משנה מקואות א׳:ז׳",
+  "isSpanning": false,
+  "heVersionTitle": "Vilna Edition",
+  "heVersionTitleInHebrew": "מהדורת וילנא",
+  "heShortVersionTitle": "",
+  "heShortVersionTitleInHebrew": "",
+  "heVersionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+  "heVersionStatus": "locked",
+  "heVersionNotes": "",
+  "heExtendedNotes": "",
+  "heExtendedNotesHebrew": "",
+  "heVersionNotesInHebrew": "",
+  "heDigitizedBySefaria": true,
+  "heLicense": "Public Domain",
+  "formatHeAsPoetry": false,
+  "alts": [],
+  "index_offsets_by_depth": {},
+  "next": "Rambam on Mishnah Mikvaot 1:8",
+  "prev": "Rambam on Mishnah Mikvaot 1:6",
+  "commentary": [],
+  "sheets": [],
+  "layer": []
+}
