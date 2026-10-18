@@ -106,6 +106,7 @@ for src in sources.values():
   obj=[obj] if isinstance(obj,str) else obj
   assert obj==d['he'],src['filename']
 data={'schemaVersion':2,'version':'0.9.3','author':'DanTheMan','editorialPolicy':policy,'subjects':[{'id':id,'title':title,'status':status} for id,title,status in [('kodashim','קדשים','available'),('tahorot','טהרות','available'),('ishut','אישות','available'),('zeraim','זרעים','available'),('moed','שבת ומועדים','available'),('mammon','דיני ממונות','available'),('issur','איסור והיתר','available')]],'handbooks':handbooks,'sources':sources}
+(ROOT/'plugin/data').mkdir(parents=True,exist_ok=True)
 (ROOT/'plugin/data/library.js').write_text('window.MEVOOT='+json.dumps(data,ensure_ascii=False)+';\n')
 (ROOT/'editorial.json').write_text(json.dumps(data,ensure_ascii=False,indent=2))
 (ROOT/'EDITORIAL-FORMAT.json').write_text(json.dumps(policy,ensure_ascii=False,indent=2))
