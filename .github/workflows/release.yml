@@ -1,0 +1,58 @@
+name: Validate and publish Mevoot Hashas
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: mevoot-shas-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Build the offline content and installable package
+        run: |
+          python3 build.py
+          python3 package.py
+      - name: Test the packaged reading interface
+        run: |
+          npm install --ignore-scripts --no-audit --no-fund
+          npx playwright install --with-deps chromium
+          npm test
+      - name: Check store account connection
+        if: github.event_name != 'pull_request'
+        env:
+          OTZARIA_USER: ${{ secrets.OTZARIA_USER }}
+          OTZARIA_PASSWORD: ${{ secrets.OTZARIA_PASSWORD }}
+        run: |
+          if [ -z "$OTZARIA_USER" ] || [ -z "$OTZARIA_PASSWORD" ]; then
+            echo '::error::Add OTZARIA_USER and OTZARIA_PASSWORD in this repository under Settings → Secrets and variables → Actions, using the same Otzaria account as your other plugins.'
+            exit 1
+          fi
+      - name: Validate and publish the existing store listing
+        id: publish
+        uses: Otzaria/otzaria-plugin-validator@v1
+        with:
+          path: plugin
+          build: 'true'
+          fail-on-warnings: 'true'
+          publish: ${{ github.event_name == 'pull_request' && 'false' || 'true' }}
+          otzaria-user: ${{ secrets.OTZARIA_USER }}
+          otzaria-password: ${{ secrets.OTZARIA_PASSWORD }}
+      - name: Save the validated package
+        if: steps.publish.outputs.plugin-file != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: Mevoot-Hashas-plugin
+          path: ${{ steps.publish.outputs.plugin-file }}
+          if-no-files-found: error

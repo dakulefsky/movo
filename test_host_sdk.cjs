@@ -11,12 +11,12 @@ const boot=dart.split('String buildPluginBootScript')[1].split("'''")[1]
  .replace("${fontFaceJson == null ? '' : _fontFaceJs(fontFaceJson)}",'')
  .replaceAll('$nonceJson','"mevoot-contract-test"').replaceAll('$payloadJson',JSON.stringify({theme:{mode:'light',colorScheme:{primary:'#345678',onPrimary:'#ffffff',surface:'#fdfdfd',onSurface:'#101010',onSurfaceVariant:'#505050',surfaceContainerLow:'#eeeeee',outline:'#999999',scrim:'#000000'},typography:{fontFamily:'serif',uiFontFamily:'sans-serif',fontSize:24}}}));
 (async()=>{
- execFileSync('python3',['-c',`import zipfile; zipfile.ZipFile(${JSON.stringify(path.join(root,'dist/Mevoot-Shas-0.9.5.otzplugin'))}).extractall(${JSON.stringify(path.join(root,'test-unpacked'))})`]);
+ execFileSync('python3',['-c',`import zipfile; zipfile.ZipFile(${JSON.stringify(path.join(root,'dist/Mevoot-Shas-0.10.0.otzplugin'))}).extractall(${JSON.stringify(path.join(root,'test-unpacked'))})`]);
  const browser=await pw.chromium.launch({headless:true,executablePath:process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE,args:['--no-sandbox']});
  try{
   const page=await browser.newPage(),errors=[],remote=[];
   page.on('pageerror',e=>errors.push(e.message));page.on('request',r=>{if(/^https?:/.test(r.url()))remote.push(r.url())});
-  await page.addInitScript(stub);await page.goto('file://'+path.join(root,'test-unpacked/index.html'));
+  await page.addInitScript(stub);await page.goto('file://'+path.join(root,'test-unpacked/index.html')+'#olah');
   await page.evaluate(()=>{
    window.rpcCalls=[];window.hostCase='success';window.openOK=true;
    window.flutter_inappwebview={callHandler:async(name,request)=>{
@@ -40,10 +40,13 @@ const boot=dart.split('String buildPluginBootScript')[1].split("'''")[1]
    }};
    function assertNonce(n){if(n!=='mevoot-contract-test')throw Error('bad nonce');}
   });
+  assert.equal(await page.evaluate(()=>getComputedStyle(document.body).visibility),'hidden');
+  const permissionsSource=fs.readFileSync(path.join(host,'lib/plugins/models/plugin_valid_permissions.dart'),'utf8');assert.match(permissionsSource.split('pluginBaselinePermissions')[1].split('};')[0],/events.subscribe:theme.changed/);
   await page.evaluate(boot);
+  await page.waitForFunction(()=>getComputedStyle(document.body).visibility==='visible');
   assert.equal(await page.evaluate(()=>getComputedStyle(document.documentElement).getPropertyValue('--color-primary')),'#345678');
   assert.equal(await page.evaluate(()=>getComputedStyle(document.documentElement).getPropertyValue('--reader-size')),'24px');
-  await page.locator('#olah--service .refs summary').click();await page.locator('#olah--service .refs button').first().click();
+  await page.locator('#olah--service>summary').click();await page.locator('#olah--service .refs summary').click();await page.locator('#olah--service .refs button').first().click();
   const trigger=()=>page.locator('.source-segment button').first().click();
   await trigger();await page.locator('#native-results button').first().waitFor();assert.equal(await page.locator('#native-results button').count(),2);
   assert.equal((await page.locator('#native-results').innerText()).includes('<b>'),false);
@@ -57,6 +60,13 @@ const boot=dart.split('String buildPluginBootScript')[1].split("'''")[1]
   await page.evaluate(()=>window.dispatchEvent(new CustomEvent('theme.changed',{detail:{mode:'dark',colorScheme:{primary:'#abcdef',surface:'#121212',onSurface:'#fefefe'}}})));
   assert.equal(await page.evaluate(()=>getComputedStyle(document.documentElement).getPropertyValue('--color-primary')),'#abcdef');
   assert.equal(await page.evaluate(()=>document.documentElement.style.colorScheme),'dark');
+  // Reopening must apply the previous host palette before any content becomes visible.
+  await page.reload();
+  assert.equal(await page.evaluate(()=>document.documentElement.style.colorScheme),'dark');
+  assert.equal(await page.evaluate(()=>getComputedStyle(document.documentElement).getPropertyValue('--color-primary')),'#abcdef');
+  assert.equal(await page.evaluate(()=>getComputedStyle(document.body).visibility),'hidden');
+  await page.evaluate(boot);await page.waitForFunction(()=>getComputedStyle(document.body).visibility==='visible');
+  assert.equal(await page.evaluate(()=>getComputedStyle(document.documentElement).getPropertyValue('--color-primary')),'#345678');
   assert.deepEqual(errors,[]);assert.deepEqual(remote,[]);
   console.log('PASS actual Otzaria SDK '+commit+': streamed chunks, highlighted text, envelope true/false, source identity, no-match, permission failure, cancellation, boot/change theme. Flutter RPC remains a double; no screenshots.');
  }finally{await browser.close()}

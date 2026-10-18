@@ -514,3 +514,13 @@ Sources were retrieved from Sefaria. URLs and edition details are also available
 | ויקרא ט״ו:כ״ה-כ״ט | Yehoyesh's Yiddish Tanakh Translation [yi] | CC0 |
 | ויקרא ט״ו:כ״ה-כ״ט | Persian translation by Mashallah Rahman Pour Davud and Hakham Musa Zargari, Otzar haTorah, 1985 [fa] | unknown |
 | ויקרא ט״ו:כ״ה-כ״ט | Miqra Mevoar, trans. and edited by David Kokhav, Jerusalem 2020 | PD |
+
+
+## Offline fallback fonts — 0.10.0
+
+Unmodified font binaries copied from Otzaria commit `9f11690b80bf37703a3d1477a32c677c889dab7b`:
+
+- `plugin/fonts/Rubik.ttf` — original `fonts/Rubik-VariableFont_wght.ttf`; Copyright 2015 The Rubik Project Authors. SIL Open Font License 1.1, included as `plugin/fonts/rubik-OFL.txt`.
+- `plugin/fonts/NotoSerifHebrew.ttf` — original `fonts/NotoSerifHebrew-VariableFont_wdth,wght.ttf`; SIL Open Font License 1.1, included as `plugin/fonts/notoserifhebrew-OFL.txt`.
+
+Full license texts were obtained from the respective `ofl/rubik/OFL.txt` and `ofl/notoserifhebrew/OFL.txt` files in the official `google/fonts` repository. The binaries are unmodified; CSS aliases do not rename the fonts internally. Installed Otzaria can supply its own selected fonts instead.
