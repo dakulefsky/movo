@@ -23,7 +23,7 @@ policy={
   'אישות':['קידושין','נישואין','גירושין','יבום וחליצה'],
   'זרעים':['תרומה','מעשרות','חלה','ערלה','כלאים']
  },
- 'status':'נכתבו מבואות נבחרים בשבעה תחומים. זהו מפתח מבואי ולא אנציקלופדיה; אין זו טענת כיסוי מלא.'
+ 'status':'נכתבו מבואות נבחרים בששה תחומים. זהו מפתח מבואי ולא אנציקלופדיה; אין זו טענת כיסוי מלא.'
 }
 H={
  'id':'kodashim','title':'קדשים','subtitle':'מיני הקרבנות וסדרי העבודה',
@@ -75,6 +75,12 @@ for h in handbooks:
  for ent in h['entries']:
   if ent['id'] in links:ent['blocks'][-1]['links']=list(dict.fromkeys([*ent['blocks'][-1]['links'],*links[ent['id']]]))
 
+# Scope is the six approved broad areas; Shabbat and Moed are excluded entirely.
+handbooks=[h for h in handbooks if h['id']!='moed']
+# Bundle only sources used by the remaining introductions.
+used_sources={ref['source'] for h in handbooks for e in h['entries'] for b in e['blocks'] for ref in b['refs']}
+sources={id:source for id,source in sources.items() if id in used_sources}
+
 # Attribution correction after reading the Mishnah and Rambam passages together.
 for h in handbooks:
  if h['id']=='ishut':
@@ -105,7 +111,7 @@ for src in sources.values():
   for key in d['provenance']['jsonPath']:obj=obj[key]
   obj=[obj] if isinstance(obj,str) else obj
   assert obj==d['he'],src['filename']
-data={'schemaVersion':2,'version':'0.9.3','author':'DanTheMan','editorialPolicy':policy,'subjects':[{'id':id,'title':title,'status':status} for id,title,status in [('kodashim','קדשים','available'),('tahorot','טהרות','available'),('ishut','אישות','available'),('zeraim','זרעים','available'),('moed','שבת ומועדים','available'),('mammon','דיני ממונות','available'),('issur','איסור והיתר','available')]],'handbooks':handbooks,'sources':sources}
+data={'schemaVersion':2,'version':'0.9.4','author':'DanTheMan','editorialPolicy':policy,'subjects':[{'id':id,'title':title,'status':status} for id,title,status in [('kodashim','קדשים','available'),('tahorot','טהרות','available'),('ishut','אישות','available'),('zeraim','זרעים','available'),('mammon','דיני ממונות','available'),('issur','איסור והיתר','available')]],'handbooks':handbooks,'sources':sources}
 (ROOT/'plugin/data').mkdir(parents=True,exist_ok=True)
 (ROOT/'plugin/data/library.js').write_text('window.MEVOOT='+json.dumps(data,ensure_ascii=False)+';\n')
 (ROOT/'editorial.json').write_text(json.dumps(data,ensure_ascii=False,indent=2))

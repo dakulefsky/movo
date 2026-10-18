@@ -13,7 +13,7 @@ $('smaller').onclick=()=>{hasFontPreference=true;setFont(font-1)};$('larger').on
 function applyTheme(theme){
  if(!theme?.colorScheme)return;
  const root=document.documentElement,cs=theme.colorScheme;
- for(const key of ['primary','onPrimary','surface','onSurface','onSurfaceVariant','surfaceContainerLow','outline','scrim']){
+ for(const key of ['primary','onPrimary','surface','onSurface','onSurfaceVariant','surfaceContainerLow','surfaceContainerHigh','surfaceContainerHighest','secondaryContainer','onSecondaryContainer','outline','outlineVariant','scrim']){
   if(typeof cs[key]==='string')root.style.setProperty('--color-'+key.replace(/[A-Z]/g,x=>'-'+x.toLowerCase()),cs[key]);
  }
  root.style.colorScheme=theme.mode==='dark'?'dark':'light';
@@ -21,6 +21,7 @@ function applyTheme(theme){
  if(t.fontFamily)root.style.setProperty('--font-main',JSON.stringify(t.fontFamily)+',serif');
  if(t.uiFontFamily)root.style.setProperty('--font-ui',JSON.stringify(t.uiFontFamily)+',system-ui,sans-serif');
  if(!hasFontPreference&&Number.isFinite(t.fontSize))setFont(t.fontSize);
+ if(Number.isFinite(t.lineHeight)&&t.lineHeight>0)root.style.setProperty('--reader-line-height',String(t.lineHeight));
 }
 window.addEventListener('plugin.boot',event=>applyTheme(event.detail?.theme));
 if(window.Otzaria?.on)window.Otzaria.on('theme.changed',applyTheme);

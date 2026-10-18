@@ -1,12 +1,12 @@
-# מבואות לש״ס
+# מבואות הש״ס
 
 An offline Hebrew introductory index for Otzaria, by **DanTheMan**.
 
-The plugin introduces the main subjects and essential processes in קדשים, טהרות, אישות, זרעים, שבת ומועדים, דיני ממונות, and איסור והיתר. Entries are short, with expandable headings, search, related entries, and bundled source passages. The current package is **0.9.3**.
+The plugin introduces the main subjects and essential processes in קדשים, טהרות, אישות, זרעים, דיני ממונות, and איסור והיתר. Entries are short, with expandable headings, search, related entries, and bundled source passages. The current package is **0.9.4**.
 
 ## Install
 
-Download [Mevoot-Shas-0.9.3.otzplugin](dist/Mevoot-Shas-0.9.3.otzplugin) and import it into Otzaria's plugin manager. No internet connection or AI service is required by the installed plugin.
+Download [Mevoot-Shas-0.9.4.otzplugin](dist/Mevoot-Shas-0.9.4.otzplugin) and import it into Otzaria's plugin manager. No internet connection or AI service is required by the installed plugin.
 
 The manifest declares Otzaria 0.9.97 or later. Package validation was run against 0.9.98. Installation and source opening in a running installed Otzaria application remain unverified; see [VALIDATION.md](VALIDATION.md).
 
@@ -19,7 +19,7 @@ python3 build.py
 python3 package.py
 ```
 
-This generates the content export, editorial data and `plugin/data/library.js`, then creates `dist/Mevoot-Shas-0.9.3.otzplugin`. Build output is reproducible without fetching source texts.
+This generates the content export, editorial data and `plugin/data/library.js`, then creates `dist/Mevoot-Shas-0.9.4.otzplugin`. Build output is reproducible without fetching source texts.
 
 ## Sources and editorial scope
 
@@ -52,3 +52,9 @@ OTZARIA_HOST_SOURCE=/path/to/otzaria npm run test:host
 That test reads the host's actual injected SDK and doubles the Flutter transport boundary. It does not replace installed-app testing. See [HOST-INTEGRATION.md](HOST-INTEGRATION.md).
 
 Uploading this repository does not publish the plugin to the Otzaria store. No publication workflow is included.
+
+## Store submission
+
+Version 0.9.4 uses the Hebrew name מבואות הש״ס. The user-supplied store image is `store/logo.png`, and the proposed Hebrew listing text is `store/description.txt`. The package passed the actual-package interface tests and official validator with zero errors or warnings. Submission is blocked on store sign-in; no store publication is claimed.
+
+The entire Shabbat/Moed section is excluded at the user’s instruction. The current index contains six broad areas, 89 entries and 251 sourced blocks. Version 0.9.4 also adopts the official Otzaria design guide’s top bar, surface roles, selection controls and UI/reader font separation. Native-app appearance remains unverified.
