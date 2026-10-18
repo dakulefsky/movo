@@ -25,3 +25,7 @@ Actual-package browser tests exercise all entries and blocks, home/directory rou
 The theme cache is restored by a synchronous head script. Host content stays hidden until the first theme/font setup is ready, with a bounded fallback for failed host initialization. Actual host startup tests cover first opening, theme changes, and reopening with cached colors. The current SDK provides `events.subscribe:theme.changed` as a baseline permission, which the host checks when delivering palette changes and resuming suspended plugins. This does not constitute installed-WebView first-paint verification.
 
 The release workflow follows the existing Yevamos workflow: GitHub Actions secrets OTZARIA_USER / OTZARIA_PASSWORD authenticate the owner’s Otzaria store account. The workflow updates by the unchanged manifest ID and preserves the store image. It fails explicitly if the repository is not connected, rather than claiming publication.
+
+## Store font declaration correction
+
+The store rejected the existing compatibility badge because its CSS checker interpreted an `@font-face` family descriptor as a hard-coded UI font. The unmodified fallback resources now register through the standard FontFace API before content paint. CSS still selects fonts through `--font-ui` and `--font-main`, and host font choices keep priority. The licensed font files remain bundled; no typography or source content is removed to pass validation.

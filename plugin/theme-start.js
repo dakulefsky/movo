@@ -1,6 +1,14 @@
 /* Runs synchronously in <head>, before the stylesheet or first content paint. */
 (()=>{'use strict';
  const root=document.documentElement,key='mevoot-theme-v1';let previous=null;
+ // Register fallback font resources independently of the CSS font-role variables.
+ // CSS selects them only through --font-ui / --font-main; host fonts retain priority.
+ if(window.FontFace&&document.fonts){
+  for(const [family,file,weight] of [['MevootUI','Rubik.ttf','300 900'],['MevootText','NotoSerifHebrew.ttf','100 900']]){
+   try{const face=new FontFace(family,'url("fonts/'+file+'")',{weight,display:'swap'});document.fonts.add(face);face.load().catch(()=>{});}catch{}
+  }
+ }
+
  function apply(theme){
   if(!theme||!theme.colorScheme)return false;
   const cs={...(previous?.colorScheme||{}),...theme.colorScheme};previous={mode:theme.mode||previous?.mode,colorScheme:cs};
