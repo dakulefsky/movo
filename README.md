@@ -2,11 +2,11 @@
 
 An offline Hebrew introductory index for Otzaria, by **DanTheMan**.
 
-The plugin introduces the main subjects and essential processes in קדשים, טהרות, אישות, זרעים, דיני ממונות, and איסור והיתר. Entries are short, with expandable headings, search, related entries, and bundled source passages. The current source version is **0.12.1** (navigation, reading and selected prose refinements).
+The plugin introduces the main subjects and essential processes in קדשים, טהרות, אישות, זרעים, דיני ממונות, and איסור והיתר. Entries are short, with expandable headings, search, related entries, and bundled source passages. The current source version is **0.12.2**, a substantial Hebrew editorial revision built on the 0.12.1 interface.
 
 ## Install
 
-Install the validated **0.12.1** package from the `Mevoot-Hashas-plugin` artifact of the latest successful [GitHub Actions run](https://github.com/dakulefsky/movo/actions/workflows/release.yml), or from the Otzaria plugin listing once its update is published. The older [0.12.0 package](dist/Mevoot-Shas-0.12.0.otzplugin) remains in the repository for comparison. No internet connection or AI service is required by the installed plugin.
+Install the **0.12.2** package once validated from the `Mevoot-Hashas-plugin` artifact of the latest successful [GitHub Actions run](https://github.com/dakulefsky/movo/actions/workflows/release.yml), or from the Otzaria plugin listing once its update is published. The older [0.12.0 package](dist/Mevoot-Shas-0.12.0.otzplugin) remains in the repository for comparison. No internet connection or AI service is required by the installed plugin.
 
 The manifest declares Otzaria 0.9.97 or later. Package validation was run against 0.9.98. Installation and source opening in a running installed Otzaria application remain unverified; see [VALIDATION.md](VALIDATION.md).
 
@@ -19,7 +19,7 @@ python3 build.py
 python3 package.py
 ```
 
-This generates the content export, editorial data and `plugin/data/library.js`, then creates `dist/Mevoot-Shas-0.12.1.otzplugin`. Build output is reproducible without fetching source texts.
+This generates the content export, editorial data and `plugin/data/library.js`, then creates `dist/Mevoot-Shas-0.12.2.otzplugin`. Build output is reproducible without fetching source texts.
 
 ## Sources and editorial scope
 
@@ -86,3 +86,9 @@ The home screen remains the six approved study areas, with a clearer introductio
 The reading view has clearer hierarchy, narrower text measure, source controls, and mobile breakpoints. Theme-wait mode retains an opaque host-matched background rather than displaying transparency while the Otzaria theme initializes. The plugin still follows host theme colors and font roles.
 
 Ten existing editorial paragraphs have received a targeted wording revision across קדשים, טהרות, אישות, זרעים, דיני ממונות and איסור והיתר. No new Torah propositions, source passages, citations, subject areas, cross-references, or entry counts were introduced. See [PROSE-REVIEW-0.12.1.md](PROSE-REVIEW-0.12.1.md). The prose review is not an independent scholarly endorsement. Native Otzaria rendering remains to be verified.
+
+## Hebrew prose — 0.12.2
+
+A close editorial pass revised **126 of 251 explanatory sections** across all six areas (39 קדשים, 22 זרעים, 20 טהרות, 17 אישות, 16 דיני ממונות, 12 איסור והיתר). The goal is lucid, connected rabbinic Hebrew without modern-schoolbook formulations, inflated rhetoric, or artificial transitions. Revisions keep the point of each legal distinction in view and retain explicit qualifications and dissenting opinions.
+
+The revision changes explanation paragraphs only: their number, block identifiers, all source text, attribution, references, links and the six-area scope remain unchanged. The cumulative replacement map is still stored in `prose_012.json` because the existing build/review pipeline uses that filename. This was a literary and internal-consistency review of the previously sourced text, not a fresh independent verification of every Rambam passage against its original. See [PROSE-REVIEW-0.12.2.md](PROSE-REVIEW-0.12.2.md) for the audit scope and editorial examples.
