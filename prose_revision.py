@@ -25,6 +25,12 @@ def apply_prose_revision(handbooks):
                 seen.add(key)
                 # Existing geographical qualification is supported in Orlah 3:9,
                 # already bundled, rather than the attached Kilayim passage alone.
+                # Fifth audit: the Meiri's moral explanation is in segment 3, not
+                # the narrative thief/robber contrast in segment 1 alone.
+                if key == 'd-geneivah/meaning':
+                    moral_reference = {'source': 'p-meiri-geneivah', 'segments': [3]}
+                    if moral_reference not in block['refs']:
+                        block['refs'].append(moral_reference)
                 if key == 'd-dayanim/acceptance':
                     reference = {'source': 'mt-sanhedrin-authority', 'segments': [1, 2]}
                     if reference not in block['refs']:
