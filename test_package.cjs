@@ -2,8 +2,8 @@ const assert=require('node:assert/strict'),path=require('node:path'),fs=require(
 let pw;try{pw=require('playwright')}catch{pw=require(process.env.CODEX_PRIMARY_RUNTIME_NODE_MODULES+'/playwright')}
 (async()=>{
 const root=__dirname,unpacked=path.join(root,'test-unpacked');fs.rmSync(unpacked,{recursive:true,force:true});fs.mkdirSync(unpacked);
-execFileSync('python',['-c',`import zipfile;zipfile.ZipFile(${JSON.stringify(path.join(root,'dist/Mevoot-Shas-0.13.3.otzplugin'))}).extractall(${JSON.stringify(unpacked)})`]);
-const manifest=JSON.parse(fs.readFileSync(path.join(unpacked,'manifest.json')));assert.equal(manifest.author,'DanTheMan');assert.equal(manifest.version,'0.13.3');assert.equal(manifest.network.enabled,false);
+execFileSync('python',['-c',`import zipfile;zipfile.ZipFile(${JSON.stringify(path.join(root,'dist/Mevoot-Shas-0.13.4.otzplugin'))}).extractall(${JSON.stringify(unpacked)})`]);
+const manifest=JSON.parse(fs.readFileSync(path.join(unpacked,'manifest.json')));assert.equal(manifest.author,'DanTheMan');assert.equal(manifest.version,'0.13.4');assert.equal(manifest.network.enabled,false);
 const browser=await pw.chromium.launch({headless:true,...(process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE?{executablePath:process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE}:{}),args:['--no-sandbox']}),page=await browser.newPage();const errors=[],remote=[];
 try{
 page.on('pageerror',e=>errors.push(e.message));page.on('request',r=>{if(/^https?:/.test(r.url()))remote.push(r.url())});
@@ -201,6 +201,34 @@ assert.equal(audit4blocks.size,11);
 assert.match(entry('i-maamar','consequence').paragraphs.join(' '),/צרת ערוה/);
 assert.match(entry('z-challah','baker').paragraphs.join(' '),/משתה בנו/);
 assert.match(entry('d-shevuot','hesset').paragraphs.join(' '),/שבועת היסת שונה/);
-assert.deepEqual(errors,[]);assert.deepEqual(remote,[]);console.log('PASS: actual unpacked 0.13.3 package; home search, voluntary resume, continuous reading; all 98 entries and 317 block controls in six areas; new avodot source dialogs and reciprocal offering links; cross-area deep-link search and exact source dialogs; Hebrew search, back/reload/pager, SDK success and failure paths, mobile+desktop no overflow, font persistence. No network requests, JS errors or screenshots.');
+// 0.13.4: fifth independent source audit, ten corrected blocks and 15 exact anchors.
+const fifth=JSON.parse(fs.readFileSync(path.join(root,'SOURCE-REVIEW-0.13.4.json'),'utf8'));
+assert.equal(fifth.version,'0.13.4');
+assert.equal(fifth.reviewFindings,9);
+assert.equal(fifth.reviewedBlocks,10);
+assert.equal(fifth.checks.length,15);
+const checkedFifthBlocks=new Set();
+for(const check of fifth.checks){
+ const [entryId,blockId]=check.blockId.split('/');
+ const block=entry(entryId,blockId);
+ assert.ok(block,'0.13.4 reviewed block missing: '+check.blockId);
+ assert.ok(block.refs.some(ref=>ref.source===check.sourceId&&ref.segments.includes(check.segment)),
+  '0.13.4 exact source segment missing: '+check.blockId+' -> '+check.sourceId);
+ const src=d.sources[check.sourceId];assert.ok(src,'0.13.4 source record missing: '+check.sourceId);
+ assert.equal(src.filename,check.filename,'0.13.4 source filename mismatch: '+check.blockId);
+ const actualSource=src.segments[check.segment-1]?.text||'';
+ assert.ok(normalizeSource(actualSource).includes(normalizeSource(check.sourceQuote)),
+  '0.13.4 cited source wording drift: '+check.blockId+' -> '+check.sourceId);
+ assert.ok(normalizeSource(block.paragraphs.join(' ')).includes(normalizeSource(check.explanationQuote)),
+  '0.13.4 explanation lost necessary distinction: '+check.blockId);
+ checkedFifthBlocks.add(check.blockId);
+}
+assert.equal(checkedFifthBlocks.size,10);
+assert.match(entry('d-shomrim','baalav').paragraphs.join(' '),/אף אם פשע/);
+assert.match(entry('t-ranks','rabbinic').paragraphs.join(' '),/טהור לתרומה אך מטמא את הקודש/);
+assert.match(entry('a-taam','distinction').paragraphs.join(' '),/אלא ביאור דרך הבדיקה/);
+assert.ok(entry('d-shomer-ones','roles').paragraphs.join(' ').includes('ארבעה שומרים'),
+ 'Four-guardian introduction must remain distinct from Baalav Imo source discussion');
+assert.deepEqual(errors,[]);assert.deepEqual(remote,[]);console.log('PASS: actual unpacked 0.13.4 package; home search, voluntary resume, continuous reading; all 98 entries and 317 block controls in six areas; new avodot source dialogs and reciprocal offering links; cross-area deep-link search and exact source dialogs; Hebrew search, back/reload/pager, SDK success and failure paths, mobile+desktop no overflow, font persistence. No network requests, JS errors or screenshots.');
 }finally{await browser.close()}
 })().catch(e=>{console.error(e);process.exit(1)});
