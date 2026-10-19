@@ -1,5 +1,7 @@
 (()=>{'use strict';
 const D=window.MEVOOT,$=id=>document.getElementById(id);
+// Entry IDs are globally unique. Cross-handbook links must resolve in the full library.
+const allEntriesById=new Map(D.handbooks.flatMap(handbook=>handbook.entries.map(entry=>[entry.id,entry])));
 let H=null;
 const el=(tag,text)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;return n;};
 const btn=(text,fn)=>{const b=el('button',text);b.type='button';b.onclick=fn;return b;};
@@ -66,7 +68,7 @@ function render(id,blockId){
  try{localStorage.setItem('mevoot-last-entry',JSON.stringify({id:e.id}));}catch{}
  $('article').replaceChildren(el('h2',e.title));$('entry-label').textContent=e.title;$('back-subject').textContent=H.title;
  document.querySelectorAll('[data-subject]').forEach(b=>{if(b.dataset.subject===H.id)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');});
-for(const b of e.blocks){const d=el('details');d.className='chapter';d.id=e.id+'--'+b.id;d.open=e.blocks.indexOf(b)===0;d.append(el('summary',b.title));for(const p of b.paragraphs)d.append(el('p',p));if(b.items.length){const list=el('dl');list.className='fact-list';for(const i of b.items){list.append(el('dt',i.label),el('dd',i.text));}d.append(list);}const by=el('div',b.by);by.className='by';d.append(by);d.append(refControls(b.refs));if(b.links.length){const related=el('nav');related.className='related';related.setAttribute('aria-label','ענינים קשורים');for(const id of b.links){const next=H.entries.find(x=>x.id===id);related.append(btn(next.title,()=>navigate(id)));}d.append(related);}$('article').append(d);}
+for(const b of e.blocks){const d=el('details');d.className='chapter';d.id=e.id+'--'+b.id;d.open=e.blocks.indexOf(b)===0;d.append(el('summary',b.title));for(const p of b.paragraphs)d.append(el('p',p));if(b.items.length){const list=el('dl');list.className='fact-list';for(const i of b.items){list.append(el('dt',i.label),el('dd',i.text));}d.append(list);}const by=el('div',b.by);by.className='by';d.append(by);d.append(refControls(b.refs));if(b.links.length){const related=el('nav');related.className='related';related.setAttribute('aria-label','ענינים קשורים');for(const id of b.links){const next=allEntriesById.get(id);if(next)related.append(btn(next.title,()=>navigate(id)));}d.append(related);}$('article').append(d);}
 const n=H.entries.indexOf(e),pager=el('nav');pager.className='pager';pager.setAttribute('aria-label','מעבר בין הענינים');if(n>0)pager.append(btn('הקודם: '+H.entries[n-1].title,()=>navigate(H.entries[n-1].id)));if(n<H.entries.length-1)pager.append(btn('הבא: '+H.entries[n+1].title,()=>navigate(H.entries[n+1].id)));$('article').append(pager);
 fillDirectory(H);
 if(blockId){const b=$(e.id+'--'+blockId);if(b){b.open=true;requestAnimationFrame(()=>b.scrollIntoView({block:'start'}));}}

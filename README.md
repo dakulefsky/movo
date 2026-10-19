@@ -2,11 +2,11 @@
 
 An offline Hebrew introductory index for Otzaria, by **DanTheMan**.
 
-The plugin introduces the main subjects and essential processes in קדשים, טהרות, אישות, זרעים, דיני ממונות, and איסור והיתר. Entries are short, with expandable headings, search, related entries, and bundled source passages. The current source version is **0.13.1**, correcting eight explanations based on a second independent source audit, while retaining the expanded six-area coverage from 0.13.0.
+The plugin introduces the main subjects and essential processes in קדשים, טהרות, אישות, זרעים, דיני ממונות, and איסור והיתר. Entries are short, with expandable headings, search, related entries, and bundled source passages. The current source version is **0.13.2**, resolving third-audit source omissions and supporting safe related links across all six handbooks while preserving 98 entries and 317 sections.
 
 ## Install
 
-Install the **0.13.1** package once validated from the `Mevoot-Hashas-plugin` artifact of the latest successful [GitHub Actions run](https://github.com/dakulefsky/movo/actions/workflows/release.yml), or from the Otzaria plugin listing once its update is published. The older [0.12.0 package](dist/Mevoot-Shas-0.12.0.otzplugin) remains in the repository for comparison. No internet connection or AI service is required by the installed plugin.
+Install the **0.13.2** package once validated from the `Mevoot-Hashas-plugin` artifact of the latest successful [GitHub Actions run](https://github.com/dakulefsky/movo/actions/workflows/release.yml), or from the Otzaria plugin listing once its update is published. The older [0.12.0 package](dist/Mevoot-Shas-0.12.0.otzplugin) remains in the repository for comparison. No internet connection or AI service is required by the installed plugin.
 
 The manifest declares Otzaria 0.9.97 or later. Package validation was run against 0.9.98. Installation and source opening in a running installed Otzaria application remain unverified; see [VALIDATION.md](VALIDATION.md).
 
@@ -19,7 +19,7 @@ python3 build.py
 python3 package.py
 ```
 
-This generates the content export, editorial data and `plugin/data/library.js`, then creates `dist/Mevoot-Shas-0.13.1.otzplugin`. Build output is reproducible without fetching source texts.
+This generates the content export, editorial data and `plugin/data/library.js`, then creates `dist/Mevoot-Shas-0.13.2.otzplugin`. Build output is reproducible without fetching source texts.
 
 ## Sources and editorial scope
 
@@ -116,3 +116,11 @@ A second Gemini review identified eight missing legal qualifications in **איש
 Corrections address the crucial difference between husband-handwritten and scribe-written gittin with one witness; the Rambam's admonition about marrying off a minor daughter; the correct meaning of Challah 2:5 without declaring flour to be consecrated challah; biur of proceeds where applicable; a borrower's oath even when paying; the intent prerequisite for boshet; the inclusiveness of the list of treifot; and Rabbi Yehuda's additional vein requirement in shechita.
 
 **Two proposals were narrowed rather than copied as written:** the Challah passage requires the distinction between an invalid flour designation and challah separated after kneading, and the Shomrim passage must not state that `מתה מחמת מלאכה` is the borrower's only exemption. The new prose and CI source-quotation checks preserve these points. The number of subjects, introductions, blocks and original source records are unchanged from 0.13.0.
+
+## Third audit: source and crosslink corrections — 0.13.2
+
+A third independent report repeated seven findings **already corrected and published in 0.13.1**, and identified new limitations in the maaser sheni illustration, the consequences of refusing an oath, a dayan's territorial authority and the scriptural source of kiddushin by shtar. The new prose was checked against Rambam's cited commentary before editing. For the dayanim jurisdiction comparison a new primary text, **Mishneh Torah, Hilchot Sanhedrin 4:14–15**, was bundled and is now cited directly. This raises the offline source-record count from 214 to 215; the number of explanatory blocks and categories remains unchanged.
+
+The report also identified a real latent JavaScript crash in related links to another handbook. The renderer now uses global entry lookup and skips invalid targets rather than dereferencing `undefined`, and the offline build allows source-valid cross-handbook links. A concrete link from קידושי שטר to קנין קרקע and a Playwright click-through/invalid-link test prove this behavior. See [SOURCE-REVIEW-0.13.2.md](SOURCE-REVIEW-0.13.2.md) for the source-disposition report and [SOURCE-REVIEW-0.13.2.json](SOURCE-REVIEW-0.13.2.json) for nine automated source quotation checks.
+
+The auditor's recommendation to add an איסר **to every** מעשר שני redemption was not adopted: the original משנה and Rambam discuss which of two competing offers takes priority, and the new wording reflects that case exactly. This remains an introductory learning tool, not independent psak or final certification of every Hebrew/Rambam interpretation.

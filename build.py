@@ -80,6 +80,11 @@ for h in handbooks:
 handbooks=[h for h in handbooks if h['id']!='moed']
 # Bundle only sources used by the remaining introductions.
 used_sources={ref['source'] for h in handbooks for e in h['entries'] for b in e['blocks'] for ref in b['refs']}
+# Coverage supplements are applied later: include their refs before pruning the catalogue.
+for filename in ('coverage_013_entries.json','coverage_013_details_a.json','coverage_013_details_b.json'):
+ payload=json.loads((ROOT/filename).read_text(encoding='utf-8'))
+ new_blocks=[b for e in payload.get('entries',[]) for b in e['blocks']]+[item['block'] for item in payload.get('additions',[])]
+ used_sources.update(r['source'] for b in new_blocks for r in b['refs'])
 sources={id:source for id,source in sources.items() if id in used_sources}
 
 # Attribution correction after reading the Mishnah and Rambam passages together.
@@ -110,7 +115,7 @@ for h in handbooks:
    for r in b['refs']:
     assert r['source'] in sources
     assert all(1<=n<=len(sources[r['source']]['segments']) for n in r['segments']),(e['id'],b['id'],r)
-   assert all(l in {x['id'] for x in h['entries']} for l in b['links'])
+   assert all(l in set(ids) for l in b['links']), (e['id'],b['id'],b['links'])
 # Verify exact passage extraction against the preserved raw source, not as an interpretation test.
 for src in sources.values():
  d=json.loads((ROOT/'sources'/src['filename']).read_text())
@@ -119,7 +124,7 @@ for src in sources.values():
   for key in d['provenance']['jsonPath']:obj=obj[key]
   obj=[obj] if isinstance(obj,str) else obj
   assert obj==d['he'],src['filename']
-data={'schemaVersion':2,'version':'0.13.1','author':'DanTheMan','editorialPolicy':policy,'subjects':[{'id':id,'title':title,'status':status} for id,title,status in [('kodashim','קדשים','available'),('tahorot','טהרות','available'),('ishut','אישות','available'),('zeraim','זרעים','available'),('mammon','דיני ממונות','available'),('issur','איסור והיתר','available')]],'handbooks':handbooks,'sources':sources}
+data={'schemaVersion':2,'version':'0.13.2','author':'DanTheMan','editorialPolicy':policy,'subjects':[{'id':id,'title':title,'status':status} for id,title,status in [('kodashim','קדשים','available'),('tahorot','טהרות','available'),('ishut','אישות','available'),('zeraim','זרעים','available'),('mammon','דיני ממונות','available'),('issur','איסור והיתר','available')]],'handbooks':handbooks,'sources':sources}
 (ROOT/'plugin/data').mkdir(parents=True,exist_ok=True)
 (ROOT/'plugin/data/library.js').write_text('window.MEVOOT='+json.dumps(data,ensure_ascii=False)+';\n')
 (ROOT/'editorial.json').write_text(json.dumps(data,ensure_ascii=False,indent=2))
