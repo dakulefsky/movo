@@ -1,0 +1,128 @@
+{
+  "version": "0.13.4",
+  "description": "Fifth independent Gemini review: nine findings, ten existing blocks corrected (two Shomrim blocks for one finding), with 15 literal source and explanation anchors. The same-hallachah wording is preserved from prior audits and verified against the original bundled Hebrew sources; not a scholarly certification.",
+  "reviewFindings": 9,
+  "reviewedBlocks": 10,
+  "checks": [
+    {
+      "blockId": "av-kabbalah/person",
+      "sourceId": "z2-1",
+      "filename": "sefaria-foundation-rambam-zevachim-2-1.json",
+      "segment": 1,
+      "sourceQuote": "וכשם שאין בין ידיו ובין הכלי חציצה",
+      "explanationQuote": "אין דבר חוצץ בין ידיו של הכהן ובין הכלי"
+    },
+    {
+      "blockId": "av-kabbalah/person",
+      "sourceId": "z2-1",
+      "filename": "sefaria-foundation-rambam-zevachim-2-1.json",
+      "segment": 1,
+      "sourceQuote": "כך לא תהא בין רגליו ובין הארץ חציצה",
+      "explanationQuote": "אין דבר חוצץ בין רגליו ובין רצפת העזרה"
+    },
+    {
+      "blockId": "i-yibum/falling",
+      "sourceId": "a-yevamot-1-1",
+      "filename": "area-yevamot-1-1.json",
+      "segment": 1,
+      "sourceQuote": "כל העולה לייבום עולה לחליצה וכל שאינה עולה לייבום אינה עולה לחליצה",
+      "explanationQuote": "כל העולה לייבום עולה לחליצה"
+    },
+    {
+      "blockId": "d-shomrim/ones",
+      "sourceId": "n-Bava_Metzia-8.1",
+      "filename": "Rambam_on_Mishnah_Bava_Metzia.8.1.json",
+      "segment": 1,
+      "sourceQuote": "אם כששאל פרה ובעליה אפי' פשע בה פטור",
+      "explanationQuote": "פטור השואל מתשלומין אפילו אם פשע בה"
+    },
+    {
+      "blockId": "d-shomrim/baalav",
+      "sourceId": "n-Bava_Metzia-8.1",
+      "filename": "Rambam_on_Mishnah_Bava_Metzia.8.1.json",
+      "segment": 1,
+      "sourceQuote": "אם כששאל פרה ובעליה אפי' פשע בה פטור",
+      "explanationQuote": "אף אם פשע השואל בבהמה"
+    },
+    {
+      "blockId": "av-melikah/blood",
+      "sourceId": "z6-4",
+      "filename": "Rambam_on_Mishnah_Zevachim.6.4.json",
+      "segment": 1,
+      "sourceQuote": "ואמר קיר שהשירים שלו מתמצין ליסוד",
+      "explanationQuote": "שיירי הדם מתמצים אל היסוד"
+    },
+    {
+      "blockId": "av-melikah/blood",
+      "sourceId": "z6-5",
+      "filename": "Rambam_on_Mishnah_Zevachim.6.5.json",
+      "segment": 1,
+      "sourceQuote": "ולא נאמר בעולת העוף ימצה אל יסוד",
+      "explanationQuote": "ולא הוזכר יסוד"
+    },
+    {
+      "blockId": "k-temurah/meaning",
+      "sourceId": "c-Temurah-1.1",
+      "filename": "next-Rambam_on_Mishnah_Temurah.1.1.json",
+      "segment": 1,
+      "sourceQuote": "לפי שכל המימר לוקה ואין כל מימר עושה תמורה",
+      "explanationQuote": "כל המימר לוקה, ואין כל מימר עושה תמורה"
+    },
+    {
+      "blockId": "t-ranks/rabbinic",
+      "sourceId": "t-intro",
+      "filename": "sefaria-tahorot.json",
+      "segment": 23,
+      "sourceQuote": "בשר תאוה שמוהו לעולם שלישי לטומאה אף על פי שלא נטמא כלל",
+      "explanationQuote": "גזרו עליו דרגת שלישי אף שלא נטמא במגע כלל"
+    },
+    {
+      "blockId": "t-ranks/rabbinic",
+      "sourceId": "t-intro",
+      "filename": "sefaria-tahorot.json",
+      "segment": 23,
+      "sourceQuote": "טהור לתרומה",
+      "explanationQuote": "טהור לתרומה אך מטמא את הקודש"
+    },
+    {
+      "blockId": "z-shemittat-kesafim/debt",
+      "sourceId": "a-sheviit-10-1",
+      "filename": "area-sheviit-10-1.json",
+      "segment": 1,
+      "sourceQuote": "שלא בשטר הוא שטר שלא יהיה בו אחריות נכסים",
+      "explanationQuote": "כשאין בו אחריות כזו"
+    },
+    {
+      "blockId": "z-shemittat-kesafim/debt",
+      "sourceId": "a-sheviit-10-1",
+      "filename": "area-sheviit-10-1.json",
+      "segment": 1,
+      "sourceQuote": "ואף על פי שהוא כמו שמשכן אצלו קרקעות",
+      "explanationQuote": "ואף כשהחוב משועבד לקרקעות"
+    },
+    {
+      "blockId": "d-geneivah/meaning",
+      "sourceId": "p-meiri-geneivah",
+      "filename": "index7-Meiri_on_Bava_Kamma.79b.json",
+      "segment": 3,
+      "sourceQuote": "דוחק רגלי שכינה",
+      "explanationQuote": "דוחק רגלי שכינה"
+    },
+    {
+      "blockId": "d-geneivah/meaning",
+      "sourceId": "p-meiri-geneivah",
+      "filename": "index7-Meiri_on_Bava_Kamma.79b.json",
+      "segment": 1,
+      "sourceQuote": "ליסטים העומדים במארב",
+      "explanationQuote": "לסטים היושבים במארב"
+    },
+    {
+      "blockId": "a-taam/distinction",
+      "sourceId": "c-Chullin-8.3",
+      "filename": "next-Rambam_on_Mishnah_Chullin.8.3.json",
+      "segment": 1,
+      "sourceQuote": "ואם אין עובד כוכבים מצוי הרי אי אפשר לבדוק הטעם",
+      "explanationQuote": "ואם אין עובד כוכבים מצוי ואין אפשרות לברר את הטעם בדרך זו"
+    }
+  ]
+}
