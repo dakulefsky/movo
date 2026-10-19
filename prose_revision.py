@@ -1,4 +1,4 @@
-"""Complete 0.11.0 language revision of the existing introductory index.
+"""Complete 0.12.0 language revision of the existing introductory index.
 
 Only editorial prose/headings/list wording are replaced. Original source text,
 attribution, textual notes, entry IDs, links and subject scope are preserved.
@@ -9,7 +9,7 @@ from pathlib import Path
 
 
 def apply_prose_revision(handbooks):
-    revisions = json.loads(Path(__file__).with_name('prose_011.json').read_text())
+    revisions = json.loads(Path(__file__).with_name('prose_012.json').read_text())
     seen = set()
     for handbook in handbooks:
         for entry in handbook['entries']:

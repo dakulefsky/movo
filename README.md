@@ -2,11 +2,11 @@
 
 An offline Hebrew introductory index for Otzaria, by **DanTheMan**.
 
-The plugin introduces the main subjects and essential processes in קדשים, טהרות, אישות, זרעים, דיני ממונות, and איסור והיתר. Entries are short, with expandable headings, search, related entries, and bundled source passages. The current package is **0.11.0**.
+The plugin introduces the main subjects and essential processes in קדשים, טהרות, אישות, זרעים, דיני ממונות, and איסור והיתר. Entries are short, with expandable headings, search, related entries, and bundled source passages. The current package is **0.12.0**.
 
 ## Install
 
-Download [Mevoot-Shas-0.11.0.otzplugin](dist/Mevoot-Shas-0.11.0.otzplugin) and import it into Otzaria's plugin manager. No internet connection or AI service is required by the installed plugin.
+Download [Mevoot-Shas-0.12.0.otzplugin](dist/Mevoot-Shas-0.12.0.otzplugin) and import it into Otzaria's plugin manager. No internet connection or AI service is required by the installed plugin.
 
 The manifest declares Otzaria 0.9.97 or later. Package validation was run against 0.9.98. Installation and source opening in a running installed Otzaria application remain unverified; see [VALIDATION.md](VALIDATION.md).
 
@@ -19,7 +19,7 @@ python3 build.py
 python3 package.py
 ```
 
-This generates the content export, editorial data and `plugin/data/library.js`, then creates `dist/Mevoot-Shas-0.11.0.otzplugin`. Build output is reproducible without fetching source texts.
+This generates the content export, editorial data and `plugin/data/library.js`, then creates `dist/Mevoot-Shas-0.12.0.otzplugin`. Build output is reproducible without fetching source texts.
 
 ## Sources and editorial scope
 
@@ -74,3 +74,7 @@ Startup theme colors are cached and applied synchronously before the stylesheet 
 ## Hebrew prose — 0.11.0
 
 Every existing explanatory section and list has been rewritten for connected rabbinic Hebrew: 89 entries, 251 blocks, the same six subjects. The index is slightly shorter (8,481 editorial words versus 8,767). Source texts and textual notes remain unchanged; one existing claim now also cites the relevant bundled Orlah passage. See [PROSE-REVIEW-0.11.0.md](PROSE-REVIEW-0.11.0.md).
+
+## Hebrew prose — 0.12.0
+
+A second reading of the whole index refined 50 passages across all six subjects, with more direct explanations, smoother transitions and fewer vague summaries of the sources. The cited passages for those edits were read again. The 89 entries, 251 blocks, original source texts, citations and qualifications remain in place. See [PROSE-REVIEW-0.12.0.md](PROSE-REVIEW-0.12.0.md).
