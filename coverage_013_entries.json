@@ -32,7 +32,7 @@
           "anchor": {
             "source": "mishnah5",
             "segment": 1,
-            "contains": "ועל הפרוכת ועל מזבח הזהב"
+            "contains": "ועל מזבח הזהב"
           }
         },
         {
@@ -114,7 +114,7 @@
           "anchor": {
             "source": "av-mz-4.1",
             "segment": 1,
-            "contains": "אף חטאת שנתנה מתנה אחת כיפר"
+            "contains": "אף חטאת שנתנה מתנה אחת"
           }
         },
         {
@@ -163,7 +163,7 @@
           "anchor": {
             "source": "av-mz-4.2",
             "segment": 1,
-            "contains": "אם חסר אחת מן המתנות לא כיפר"
+            "contains": "חסר אחת מן המתנות"
           }
         }
       ]
@@ -278,7 +278,7 @@
           "anchor": {
             "source": "am-kiddushin-3-12",
             "segment": 1,
-            "contains": "כל מקום שיש קידושין ואין עבירה"
+            "contains": "כל מקום שיש קדושין ואין עבירה"
           }
         },
         {
@@ -626,7 +626,7 @@
           "anchor": {
             "source": "n-m-Bava_Metzia-7.9",
             "segment": 1,
-            "contains": "זאב אחד אינו אונס"
+            "contains": "זאב אחד אינו אנס"
           }
         },
         {
