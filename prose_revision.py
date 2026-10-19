@@ -1,6 +1,7 @@
-"""Complete 0.12.0 language revision of the existing introductory index.
+"""Cumulative reviewed language map, including the 0.12.2 prose pass.
 
-Only editorial prose/headings/list wording are replaced. Original source text,
+The cumulative data file preserves earlier title/item edits; 0.12.2 changes
+only explanatory paragraphs. Original source text,
 attribution, textual notes, entry IDs, links and subject scope are preserved.
 This mapping is explicit so a future content change cannot silently miss review.
 """
