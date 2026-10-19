@@ -1,0 +1,177 @@
+{
+  "version": "0.12.3",
+  "method": "Checks compare an explanation to a short quotation from its already-cited primary source segment. Quotation presence is evidence of source traceability, not automatic halachic verification or endorsement.",
+  "checks": [
+    {
+      "key": "i-kiddushin/ways",
+      "sourceId": "a-kiddushin-1-1",
+      "filename": "area-kiddushin-1-1.json",
+      "segment": 1,
+      "sourceTextAnchor": "מי שקדש בביאה או בלא שדוכין",
+      "expectedInExplanation": "בלא שידוכין",
+      "status": "revised"
+    },
+    {
+      "key": "d-onaah/meaning",
+      "sourceId": "p-Bava_Metzia-4.3",
+      "filename": "index7-Rambam_on_Mishnah_Bava_Metzia.4.3.json",
+      "segment": 1,
+      "sourceTextAnchor": "מה ששוה שבעה בששה כל אלה שתות",
+      "expectedInExplanation": "דבר השווה שבעה",
+      "status": "revised"
+    },
+    {
+      "key": "z-biur/distinction",
+      "sourceId": "v-Sheviit-9.2",
+      "filename": "coverage9-Rambam_on_Mishnah_Sheviit.9.2.json",
+      "segment": 1,
+      "sourceTextAnchor": "או ישרפם או יזרקם לים",
+      "expectedInExplanation": "בהשלכה לים",
+      "status": "revised"
+    },
+    {
+      "key": "z-biur/distinction",
+      "sourceId": "v-ramban-biur",
+      "filename": "coverage9-Ramban_on_Leviticus.25.7.json",
+      "segment": 1,
+      "sourceTextAnchor": "אבל אם עכבם בביתו אחר הבעור כדי לאכלן",
+      "expectedInExplanation": "לאחר הביעור כדי לאכלם",
+      "status": "revised"
+    },
+    {
+      "key": "k-meilah/meaning",
+      "sourceId": "c-Meilah-1.1",
+      "filename": "next-Rambam_on_Mishnah_Meilah.1.1.json",
+      "segment": 1,
+      "sourceTextAnchor": "בכל מקום שנאמר לא נהנין ולא מועלין",
+      "expectedInExplanation": "לא נהנין ולא מועלין",
+      "status": "revised"
+    },
+    {
+      "key": "i-maamar/consequence",
+      "sourceId": "a-yevamot-2-1",
+      "filename": "area-yevamot-2-1.json",
+      "segment": 1,
+      "sourceTextAnchor": "שיחלוץ לוי ללאה ולא ייבם אותה",
+      "expectedInExplanation": "לאה צריכה חליצה מלוי",
+      "status": "revised"
+    },
+    {
+      "key": "t-ohel/distinction",
+      "sourceId": "v-m-Oholot-3.7",
+      "filename": "coverage9-Mishnah_Oholot.3.7.json",
+      "segment": 1,
+      "sourceTextAnchor": "יש בו פותח טפח ויש ביציאתו פותח טפח",
+      "expectedInExplanation": "בפתח יציאתו",
+      "status": "revised"
+    },
+    {
+      "key": "t-ohel/distinction",
+      "sourceId": "v-Oholot-3.7",
+      "filename": "coverage9-Rambam_on_Mishnah_Oholot.3.7.json",
+      "segment": 3,
+      "sourceTextAnchor": "כאשר היה בפתח הביב פותח טפח וביציאתו פותח טפח",
+      "expectedInExplanation": "טומאה שבביב אינה עולה לבית",
+      "status": "revised"
+    },
+    {
+      "key": "t-hechsher/conditions",
+      "sourceId": "t-hechsher",
+      "filename": "Rambam_on_Mishnah_Makhshirin.1.1.json",
+      "segment": 1,
+      "sourceTextAnchor": "הטומאה עם ההכשר באין כאחת",
+      "expectedInExplanation": "המשקה המכשיר והטומאה באים כאחת",
+      "status": "revised"
+    },
+    {
+      "key": "d-chazakah/distinction",
+      "sourceId": "c-Bava_Batra-3.1",
+      "filename": "next-Rambam_on_Mishnah_Bava_Batra.3.1.json",
+      "segment": 1,
+      "sourceTextAnchor": "וענין המחאה שיאמר לשנים",
+      "expectedInExplanation": "מחאת הבעלים בפני שניים",
+      "status": "revised"
+    },
+    {
+      "key": "i-edei-get/meaning",
+      "sourceId": "c-m-Gittin-9.4",
+      "filename": "next-Mishnah_Gittin.9.4.json",
+      "segment": 1,
+      "sourceTextAnchor": "רבי אלעזר אומר",
+      "expectedInExplanation": "במשנה אומר רבי אלעזר",
+      "status": "revised"
+    },
+    {
+      "key": "i-edei-get/meaning",
+      "sourceId": "c-Gittin-9.4",
+      "filename": "next-Rambam_on_Mishnah_Gittin.9.4.json",
+      "segment": 1,
+      "sourceTextAnchor": "והלכה כרבי אליעזר בגיטי נשים וזולתן מהשטרות",
+      "expectedInExplanation": "בשאר שטרות",
+      "status": "revised"
+    },
+    {
+      "key": "a-taam/distinction",
+      "sourceId": "c-m-Chullin-8.3",
+      "filename": "next-Mishnah_Chullin.8.3.json",
+      "segment": 1,
+      "sourceTextAnchor": "נער את הקדרה אם יש בה בנותן טעם באותה קדרה",
+      "expectedInExplanation": "קדרה שניערוה",
+      "status": "revised"
+    },
+    {
+      "key": "a-basar-chalav/meaning",
+      "sourceId": "c-Chullin-8.4",
+      "filename": "next-Rambam_on_Mishnah_Chullin.8.4.json",
+      "segment": 1,
+      "sourceTextAnchor": "חיה ועוף אסור לאוכלן בחלב מדרבנן ומותר לבשל",
+      "expectedInExplanation": "מותר לבשלם בחלב",
+      "status": "revised"
+    },
+    {
+      "key": "a-neder/distinction",
+      "sourceId": "c-Nedarim-1.1",
+      "filename": "next-Rambam_on_Mishnah_Nedarim.1.1.json",
+      "segment": 1,
+      "sourceTextAnchor": "אבל אם אמר לו מודר אני ממך בלבד אינו אסור עליו לאכול אצלו",
+      "expectedInExplanation": "מודר אני ממך",
+      "status": "revised"
+    },
+    {
+      "key": "d-dayanim/acceptance",
+      "sourceId": "n-Sanhedrin-3.1",
+      "filename": "Rambam_on_Mishnah_Sanhedrin.3.1.json",
+      "segment": 1,
+      "sourceTextAnchor": "אבל זה המומחה דלא נקט רשות אין לו רשות להכריח",
+      "expectedInExplanation": "בלא רשות מתאימה",
+      "status": "revised"
+    },
+    {
+      "key": "z-hafrashah/order",
+      "sourceId": "am-terumot-3-6",
+      "filename": "mishnah-area-terumot-3-6.json",
+      "segment": 1,
+      "sourceTextAnchor": "אף על פי שהוא עובר בלא תעשה מה שעשה עשוי",
+      "expectedInExplanation": "מה שהפריש עשוי",
+      "status": "checked-unchanged"
+    },
+    {
+      "key": "pesach/eating",
+      "sourceId": "z5-8",
+      "filename": "Rambam_on_Mishnah_Zevachim.5.8.json",
+      "segment": 1,
+      "sourceTextAnchor": "וכל מה שנאמר בפסח הוא דבר תורה",
+      "expectedInExplanation": "הרמב״ם מגדיר את הדינים שנמנו כדברי תורה",
+      "status": "checked-unchanged"
+    },
+    {
+      "key": "z-sheviit/fruit",
+      "sourceId": "a-sheviit-7-1",
+      "filename": "area-sheviit-7-1.json",
+      "segment": 2,
+      "sourceTextAnchor": "ואם נמכר יתחייבו דמיו בדינים ההם",
+      "expectedInExplanation": "המעות שהתקבלו",
+      "status": "checked-unchanged"
+    }
+  ]
+}
