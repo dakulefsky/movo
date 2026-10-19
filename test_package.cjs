@@ -112,7 +112,7 @@ for(const item of [...detailA.additions,...detailB.additions]){assert.ok(entry(i
 const extendedCounts=Object.fromEntries(d.handbooks.map(h=>[h.id,h.entries.length]));
 assert.deepEqual(extendedCounts,{kodashim:28,tahorot:15,ishut:11,zeraim:17,mammon:19,issur:8});
 // Gemini audit follow-up: these wording and source anchors were independently reviewed.
-const geminiReview=JSON.parse(fs.readFileSync(path.join(root,'GEMINI-AUDIT-FOLLOWUP-0.13.1.json'),'utf8'));
+const geminiReview=JSON.parse(fs.readFileSync(path.join(root,'GEMINI-AUDIT-FOLLOWUP-0.13.0.json'),'utf8'));
 assert.equal(geminiReview.checkRows.length,7);
 for(const check of geminiReview.checkRows){
  const [entryId,blockId]=check.block.split('/'),block=entry(entryId,blockId);
