@@ -1,0 +1,94 @@
+{
+  "version": "0.13.3",
+  "scope": "Fourth independent Gemini audit, checked directly against original bundled Mishnah and Rambam texts. Nine original explanations and two 0.13.0 depth sections revised. A short matching source quotation is evidence of provenance, not an independent halachic certification.",
+  "checks": [
+    {
+      "blockId": "i-maamar/consequence",
+      "sourceId": "a-yevamot-2-1",
+      "filename": "area-yevamot-2-1.json",
+      "segment": 1,
+      "sourceQuote": "מפני שהיא צרת ערוה לפי שרחל ערוה על לוי",
+      "explanationQuote": "רחל אסורה על לוי משום אשת אחיו שלא היה בעולמו"
+    },
+    {
+      "blockId": "z-challah/baker",
+      "sourceId": "a-challah-2-7",
+      "filename": "area-challah-2-7.json",
+      "segment": 1,
+      "sourceQuote": "והעושה עיסה למשתה בנו",
+      "explanationQuote": "אף העושה עיסה גדולה למשתה בנו"
+    },
+    {
+      "blockId": "d-chazakah/distinction",
+      "sourceId": "c-Bava_Batra-3.1",
+      "filename": "next-Rambam_on_Mishnah_Bava_Batra.3.1.json",
+      "segment": 1,
+      "sourceQuote": "אבל אם הדרכים נפסקים יש לו לטעון לא הגיע לי דבר",
+      "explanationQuote": "יכול בעל הקרקע לטעון"
+    },
+    {
+      "blockId": "a-neder/meaning",
+      "sourceId": "c-Nedarim-2.2",
+      "filename": "next-Rambam_on_Mishnah_Nedarim.2.2.json",
+      "segment": 1,
+      "sourceQuote": "קרבן עלי כל זמן שמניח תפילין",
+      "explanationQuote": "קרבן עלי כל זמן שמניח תפילין"
+    },
+    {
+      "blockId": "d-shevuot/hesset",
+      "sourceId": "c-Shevuot-6.1",
+      "filename": "next-Rambam_on_Mishnah_Shevuot.6.1.json",
+      "segment": 1,
+      "sourceQuote": "ואין הפרש ביניהן זולתי בדין בלבד",
+      "explanationQuote": "שאין ביניהן הבדל באופן השבועה"
+    },
+    {
+      "blockId": "i-shlichut/get",
+      "sourceId": "i-get-1-1",
+      "filename": "sefaria-foundation-rambam-gittin-1-1.json",
+      "segment": 1,
+      "sourceQuote": "וחיוב על השנים שיקראו הגט ואז ינתן לה",
+      "explanationQuote": "על אותם שניים לקרוא את הגט קודם הנתינה"
+    },
+    {
+      "blockId": "z-kilayim/grafting",
+      "sourceId": "a-orlah-3-9",
+      "filename": "area-orlah-3-9.json",
+      "segment": 3,
+      "sourceQuote": "וכן הרכבת אילן היא מדאורייתא בין בארץ בין בחוצה לארץ",
+      "explanationQuote": "הרכבת אילן וכלאי בהמה אסורים מן התורה גם בחוץ לארץ"
+    },
+    {
+      "blockId": "d-edut/meaning",
+      "sourceId": "q-Sanhedrin-3.6",
+      "filename": "index8-Rambam_on_Mishnah_Sanhedrin.3.6.json",
+      "segment": 1,
+      "sourceQuote": "ויוסיפו הדיינין הוא שיוסיפו שנים ויהיו חמשה",
+      "explanationQuote": "מוסיפים שני דיינים"
+    },
+    {
+      "blockId": "z-orlah/chutz",
+      "sourceId": "a-orlah-3-9",
+      "filename": "area-orlah-3-9.json",
+      "segment": 2,
+      "sourceQuote": "אבל ילקט לו זולתו",
+      "explanationQuote": "אלא אחר לוקט לו"
+    },
+    {
+      "blockId": "d-yerushah/meaning",
+      "sourceId": "p-Bava_Batra-8.2",
+      "filename": "index7-Rambam_on_Mishnah_Bava_Batra.8.2.json",
+      "segment": 1,
+      "sourceQuote": "והנני עושה לך משל",
+      "explanationQuote": "הוא מצייר את ירושת עמרם"
+    },
+    {
+      "blockId": "d-gezel/distinction",
+      "sourceId": "p-Bava_Kamma-9.1",
+      "filename": "index7-Rambam_on_Mishnah_Bava_Kamma.9.1.json",
+      "segment": 1,
+      "sourceQuote": "ואינו חייב בתשלומי ארבעה וחמשה",
+      "explanationQuote": "אינו חייב עליה בתשלומי ארבעה וחמישה"
+    }
+  ]
+}
