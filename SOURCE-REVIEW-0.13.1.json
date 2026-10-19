@@ -1,0 +1,110 @@
+{
+  "edition": "0.13.1",
+  "scope": "Eight existing explanatory blocks; 13 checks against the original bundled primary-source texts. Exact source anchors establish traceability, not independent halachic correctness.",
+  "checks": [
+    {
+      "blockId": "i-edei-get/distinction",
+      "sourceId": "c-Gittin-9.4",
+      "filename": "next-Rambam_on_Mishnah_Gittin.9.4.json",
+      "segment": 1,
+      "sourceAnchor": "אין בו אלא עד אחד על מנת שיהיה כתוב בכתב ידו",
+      "explanationAnchor": "דווקא כשהגט נכתב בכתב ידו של הבעל"
+    },
+    {
+      "blockId": "i-edei-get/distinction",
+      "sourceId": "c-Gittin-9.4",
+      "filename": "next-Rambam_on_Mishnah_Gittin.9.4.json",
+      "segment": 1,
+      "sourceAnchor": "אם כתב אותו סופר ויש בו עד אחד תצא והולד ממזר",
+      "explanationAnchor": "תצא מן השני והוולד ממזר"
+    },
+    {
+      "blockId": "i-shlichut/kiddushin",
+      "sourceId": "a-kiddushin-2-1",
+      "filename": "area-kiddushin-2-1.json",
+      "segment": 1,
+      "sourceAnchor": "לא ישיא אדם את בתו כשהיא קטנה עד שתגדיל ותאמר",
+      "explanationAnchor": "אין לאב להשיא את בתו בעודה קטנה"
+    },
+    {
+      "blockId": "i-shlichut/kiddushin",
+      "sourceId": "a-kiddushin-2-1",
+      "filename": "area-kiddushin-2-1.json",
+      "segment": 1,
+      "sourceAnchor": "כי נשואי קטנה הוא דבר מכוער",
+      "explanationAnchor": "נישואי קטנה דבר מכוער"
+    },
+    {
+      "blockId": "z-challah/dough",
+      "sourceId": "am-challah-2-5",
+      "filename": "mishnah-area-challah-2-5.json",
+      "segment": 1,
+      "sourceAnchor": "המפריש חלתו קמח אינה חלה",
+      "explanationAnchor": "המפריש קמח לשם חלה לא הועיל בהפרשתו"
+    },
+    {
+      "blockId": "z-challah/dough",
+      "sourceId": "a-challah-2-5",
+      "filename": "area-challah-2-5.json",
+      "segment": 1,
+      "sourceAnchor": "ואותה חלה אסורה לזרים כדין כל חלה",
+      "explanationAnchor": "הרמב״ם בפירושו מתייחס לאיסור החלה הניטלת מן העיסה"
+    },
+    {
+      "blockId": "z-biur/distinction",
+      "sourceId": "v-Sheviit-9.2",
+      "filename": "coverage9-Rambam_on_Mishnah_Sheviit.9.2.json",
+      "segment": 1,
+      "sourceAnchor": "וכן יש לו לעשות בדמי כל דבר שהקדמנו שיש לדמיהן ביעור",
+      "explanationAnchor": "אף דמי הפירות שחייבים בביעור"
+    },
+    {
+      "blockId": "d-shomrim/four",
+      "sourceId": "review-shomrim",
+      "filename": "next-Rambam_on_Mishnah_Shevuot.8.1.json",
+      "segment": 1,
+      "sourceAnchor": "שהשואל משלם את הכל ישבע קודם לכן שבועת התורה",
+      "explanationAnchor": "להישבע תחילה שבועת התורה"
+    },
+    {
+      "blockId": "d-shomrim/four",
+      "sourceId": "review-shomrim",
+      "filename": "next-Rambam_on_Mishnah_Shevuot.8.1.json",
+      "segment": 1,
+      "sourceAnchor": "שמא עיניו נתן בה",
+      "explanationAnchor": "שמא נתן בו עיניו"
+    },
+    {
+      "blockId": "d-chovel/meaning",
+      "sourceId": "q-m-Bava_Kamma-8.1",
+      "filename": "index8-Mishnah_Bava_Kamma.8.1.json",
+      "segment": 1,
+      "sourceAnchor": "נפל מן הגג והזיק וביש חיב על הנזק ופטור על הבשת",
+      "explanationAnchor": "הנופל מן הגג והזיק ובייש חייב בנזק ופטור מן הבושת"
+    },
+    {
+      "blockId": "a-terefah/meaning",
+      "sourceId": "c-Chullin-3.1",
+      "filename": "next-Rambam_on_Mishnah_Chullin.3.1.json",
+      "segment": 1,
+      "sourceAnchor": "מה שאמר זה הכלל כדי שיכלול עם כל אלו הטרפות שמוטת הירך",
+      "explanationAnchor": "אלא לרבות גם טרפות שלא נמנו בה בפירוש"
+    },
+    {
+      "blockId": "a-shechitah/meaning",
+      "sourceId": "av-chullin",
+      "filename": "Rambam_on_Mishnah_Chullin.2.1.json",
+      "segment": 1,
+      "sourceAnchor": "וורידין הם שני גידים דופקים",
+      "explanationAnchor": "רבי יהודה מצריך גם את שחיטת הוורידין"
+    },
+    {
+      "blockId": "a-shechitah/meaning",
+      "sourceId": "av-chullin",
+      "filename": "Rambam_on_Mishnah_Chullin.2.1.json",
+      "segment": 1,
+      "sourceAnchor": "ואין הלכה כרבי יהודה",
+      "explanationAnchor": "אין הלכה כמותו"
+    }
+  ]
+}

@@ -2,11 +2,11 @@
 
 An offline Hebrew introductory index for Otzaria, by **DanTheMan**.
 
-The plugin introduces the main subjects and essential processes in קדשים, טהרות, אישות, זרעים, דיני ממונות, and איסור והיתר. Entries are short, with expandable headings, search, related entries, and bundled source passages. The current source version is **0.13.0**, expanding the number and depth of source-grounded introductions while retaining the six approved areas.
+The plugin introduces the main subjects and essential processes in קדשים, טהרות, אישות, זרעים, דיני ממונות, and איסור והיתר. Entries are short, with expandable headings, search, related entries, and bundled source passages. The current source version is **0.13.1**, correcting eight explanations based on a second independent source audit, while retaining the expanded six-area coverage from 0.13.0.
 
 ## Install
 
-Install the **0.13.0** package once validated from the `Mevoot-Hashas-plugin` artifact of the latest successful [GitHub Actions run](https://github.com/dakulefsky/movo/actions/workflows/release.yml), or from the Otzaria plugin listing once its update is published. The older [0.12.0 package](dist/Mevoot-Shas-0.12.0.otzplugin) remains in the repository for comparison. No internet connection or AI service is required by the installed plugin.
+Install the **0.13.1** package once validated from the `Mevoot-Hashas-plugin` artifact of the latest successful [GitHub Actions run](https://github.com/dakulefsky/movo/actions/workflows/release.yml), or from the Otzaria plugin listing once its update is published. The older [0.12.0 package](dist/Mevoot-Shas-0.12.0.otzplugin) remains in the repository for comparison. No internet connection or AI service is required by the installed plugin.
 
 The manifest declares Otzaria 0.9.97 or later. Package validation was run against 0.9.98. Installation and source opening in a running installed Otzaria application remain unverified; see [VALIDATION.md](VALIDATION.md).
 
@@ -19,7 +19,7 @@ python3 build.py
 python3 package.py
 ```
 
-This generates the content export, editorial data and `plugin/data/library.js`, then creates `dist/Mevoot-Shas-0.13.0.otzplugin`. Build output is reproducible without fetching source texts.
+This generates the content export, editorial data and `plugin/data/library.js`, then creates `dist/Mevoot-Shas-0.13.1.otzplugin`. Build output is reproducible without fetching source texts.
 
 ## Sources and editorial scope
 
@@ -108,3 +108,11 @@ New introductions: `k-inner-chattat` (חטאות הפנימיות), `k-matanot` 
 All 66 new sections cite numbered passages from the **already bundled primary-source snapshots**; none was drafted as a generic AI-generated survey. The build validates a Hebrew quotation anchor for each block directly against a passage it cites, after Unicode/niqqud normalization, and aborts if an anchor or reference is lost. The new material is kept in `coverage_013_entries.json`, `coverage_013_details_a.json` and `coverage_013_details_b.json` rather than rewriting the preserved source files or the 0.12.3 editorial overlay. See [COVERAGE-REVIEW-0.13.0.md](COVERAGE-REVIEW-0.13.0.md) for the scope and known gaps.
 
 **Limitations:** matching a quotation to the source is a provenance check, not a determination that the explanatory interpretation is correct. The original Rambam Arabic was not checked; these are explanations on the basis of preserved Hebrew translations and Mishnah. Significant halachic claims and nuanced Rishonim still benefit from a human talmid-chacham review.
+
+## Eight source-check corrections — 0.13.1
+
+A second Gemini review identified eight missing legal qualifications in **אישות, זרעים, דיני ממונות** and **איסור והיתר**. We re-read each quoted Mishnah and Rambam passage in the repository before revising the prose. See [SOURCE-REVIEW-0.13.1.md](SOURCE-REVIEW-0.13.1.md) for the full disposition table and [SOURCE-REVIEW-0.13.1.json](SOURCE-REVIEW-0.13.1.json) for 13 machine-checkable source anchors across the eight corrected blocks.
+
+Corrections address the crucial difference between husband-handwritten and scribe-written gittin with one witness; the Rambam's admonition about marrying off a minor daughter; the correct meaning of Challah 2:5 without declaring flour to be consecrated challah; biur of proceeds where applicable; a borrower's oath even when paying; the intent prerequisite for boshet; the inclusiveness of the list of treifot; and Rabbi Yehuda's additional vein requirement in shechita.
+
+**Two proposals were narrowed rather than copied as written:** the Challah passage requires the distinction between an invalid flour designation and challah separated after kneading, and the Shomrim passage must not state that `מתה מחמת מלאכה` is the borrower's only exemption. The new prose and CI source-quotation checks preserve these points. The number of subjects, introductions, blocks and original source records are unchanged from 0.13.0.
