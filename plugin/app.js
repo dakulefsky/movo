@@ -28,17 +28,27 @@ const descriptions={kodashim:'מיני הקרבנות · סדרי העבודה �
 for(const subject of D.subjects){
  const card=btn('',()=>openSubject(subject.id));card.className='subject-card';card.dataset.subject=subject.id;
  const name=el('span',subject.title);name.className='subject-title';const action=el('span','לתוכן העניינים');action.className='card-action';
- card.append(name,el('small',descriptions[subject.id]||''),action);$('subjects').append(card);
+ const handbook=D.handbooks.find(h=>h.id===subject.id);const count=el('span',(handbook?.entries.length||0)+' מבואות');count.className='card-count';
+ card.append(name,el('small',descriptions[subject.id]||''),count,action);$('subjects').append(card);
  const option=el('option',subject.title);option.value=subject.id;$('subject-switch').append(option);
 }
 function showView(view){for(const id of ['home','directory','entry'])$(id+'-view').hidden=id!==view;$('reading').dataset.view=view;}
 function resetSearch(){ $('search').value='';search();$('search-panel').hidden=true;$('search-toggle').setAttribute('aria-expanded','false'); }
 function pushRoute(hash){if(location.hash!==hash)history.pushState(null,'',location.pathname+location.search+hash);}
 function focusView(){ $('scroll-content').scrollTop=0;$('reading').focus({preventScroll:true}); }
-function showHome(){H=null;current=null;$('article').replaceChildren();showView('home');$('subject-switch').value='';document.querySelectorAll('[data-subject]').forEach(b=>b.removeAttribute('aria-current'));}
+function showHome(){H=null;current=null;$('article').replaceChildren();showView('home');$('subject-switch').value='';document.querySelectorAll('[data-subject]').forEach(b=>b.removeAttribute('aria-current'));renderContinue();}
+function renderContinue(){
+ const panel=$('continue-panel'),button=$('continue-button');panel.hidden=true;
+ try{const previous=JSON.parse(localStorage.getItem('mevoot-last-entry')||'null');if(!previous||typeof previous.id!=='string')return;
+ const handbook=D.handbooks.find(h=>h.entries.some(e=>e.id===previous.id));if(!handbook)return;
+ const entry=handbook.entries.find(e=>e.id===previous.id);
+ button.textContent='המשך לקרוא: '+entry.title+' ←';button.onclick=()=>navigate(entry.id);panel.hidden=false;
+ }catch{}
+}
 function fillDirectory(h){
- $('toc-title').textContent=h.title;$('directory-breadcrumb').textContent=h.title;$('directory-subtitle').textContent=h.subtitle;$('toc').setAttribute('aria-label','תוכן העניינים — '+h.title);$('toc').replaceChildren();
+ $('toc-title').textContent=h.title;$('directory-breadcrumb').textContent=h.title;$('directory-subtitle').textContent=h.subtitle;$('directory-count').textContent=h.entries.length+' מבואות לעיון';$('toc').setAttribute('aria-label','תוכן העניינים — '+h.title);$('toc').replaceChildren();
  const groups=new Map();for(const e of h.entries){if(!groups.has(e.group)){const section=el('section');section.className='topic-group';section.append(el('h2',e.group));groups.set(e.group,section);$('toc').append(section);}const link=el('a',e.title);link.href='#'+e.id;if(e.id===current)link.setAttribute('aria-current','page');link.onclick=event=>{event.preventDefault();navigate(e.id);};groups.get(e.group).append(link);}
+ for(const section of groups.values()){const count=section.querySelectorAll('a').length;const small=el('small',count+' עניינים');section.querySelector('h2').append(small);}
 }
 function displaySubject(id){const h=D.handbooks.find(h=>h.id===id);if(!h){showHome();return;}H=h;current=null;$('article').replaceChildren();showView('directory');fillDirectory(h);$('subject-switch').value=h.id;document.querySelectorAll('[data-subject]').forEach(b=>{if(b.dataset.subject===h.id)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');});}
 function openSubject(id){resetSearch();displaySubject(id);pushRoute('#subject/'+id);focusView();}
@@ -46,10 +56,14 @@ for(const id of ['home-button','directory-home','entry-home'])$(id).onclick=()=>
 $('subject-switch').onchange=()=>{if($('subject-switch').value)openSubject($('subject-switch').value);else $('home-button').click();};
 $('directory-toggle').onclick=$('back-subject').onclick=()=>openSubject(H.id);
 $('search-toggle').onclick=()=>{const open=$('search-panel').hidden;$('search-panel').hidden=!open;$('search-toggle').setAttribute('aria-expanded',String(open));if(open)$('search').focus();};
+$('home-search').onclick=()=>{$('search-toggle').click();if(!$('search-panel').hidden)$('scroll-content').scrollTop=0;};
+$('read-all').onclick=()=>document.querySelectorAll('.chapter').forEach(x=>x.open=true);
 function refControls(refs){const d=el('details');d.className='refs';d.append(el('summary','לעיון במקורות'));for(const r of refs){const src=D.sources[r.source];d.append(btn(src.citation+' · מקטעים '+r.segments.join(', '),()=>showSource(src.id,r.segments)));}return d;}
 function render(id,blockId){
  H=D.handbooks.find(h=>h.entries.some(e=>e.id===id));if(!H){showHome();return;}
  const e=H.entries.find(x=>x.id===id);current=e.id;showView('entry');$('subject-switch').value=H.id;
+ $('reading-meta').textContent=H.title+' · '+e.group+' · '+e.blocks.length+' סעיפים';
+ try{localStorage.setItem('mevoot-last-entry',JSON.stringify({id:e.id}));}catch{}
  $('article').replaceChildren(el('h2',e.title));$('entry-label').textContent=e.title;$('back-subject').textContent=H.title;
  document.querySelectorAll('[data-subject]').forEach(b=>{if(b.dataset.subject===H.id)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');});
 for(const b of e.blocks){const d=el('details');d.className='chapter';d.id=e.id+'--'+b.id;d.open=e.blocks.indexOf(b)===0;d.append(el('summary',b.title));for(const p of b.paragraphs)d.append(el('p',p));if(b.items.length){const list=el('dl');list.className='fact-list';for(const i of b.items){list.append(el('dt',i.label),el('dd',i.text));}d.append(list);}const by=el('div',b.by);by.className='by';d.append(by);d.append(refControls(b.refs));if(b.links.length){const related=el('nav');related.className='related';related.setAttribute('aria-label','ענינים קשורים');for(const id of b.links){const next=H.entries.find(x=>x.id===id);related.append(btn(next.title,()=>navigate(id)));}d.append(related);}$('article').append(d);}
