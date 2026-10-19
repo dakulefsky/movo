@@ -68,12 +68,12 @@ assert.match(entry('t-met','source').paragraphs.join(' '),/חלקים ממנו/)
 assert.match(entry('i-kiddushin','meaning').paragraphs.join(' '),/אין הקידושין חלים אלא מרצונה/);
 assert.match(entry('d-nezikin','avot').paragraphs.join(' '),/ארבעה אבות נזיקין/);
 assert.match(entry('a-neder','meaning').paragraphs.join(' '),/בנדרי איסור/);
-assert.match(entry('av-shechitah','person').paragraphs.join(' '),/בסכין ארוך/,'Source-audit long knife must remain visible');
-assert.match(entry('av-shechitah','person').paragraphs.join(' '),/אינו שוחט לכתחילה/,'Do not claim an unrestricted lechatchila exception');
-assert.match(entry('t-met','scope').paragraphs.join(' '),/אתם קרויין אדם/);
+assert.match(entry('av-shechitah','person').paragraphs.join(' '),/בסכין ארוכה/,'Source-audit long knife must remain visible');
+assert.match(entry('av-shechitah','person').paragraphs.join(' '),/שלא ישחוט לכתחילה/,'Do not claim an unrestricted lechatchila exception');
+assert.match(entry('t-met','scope').paragraphs.join(' '),/אתם קרוין אדם/);
 assert.doesNotMatch(entry('t-met','scope').paragraphs.join(' '),/אין זו דעה המוסכמת/);
 assert.match(entry('olah','bird').paragraphs.join(' '),/סופגים אותו במלח/);
-assert.match(entry('chattat','shem').paragraphs.join(' '),/שנעשתה סתם כשרה ועולה לבעליה/);
+assert.match(entry('chattat','shem').paragraphs.join(' '),/שנעשתה סתם כשרה ועולה לבעלים/);
 for(const [entryId,blockId,sourceId] of [['av-shechitah','person','z3-1'],['t-met','scope','t-intro'],['olah','bird','z6-5'],['chattat','shem','z1-1']]) {
  assert.ok(entry(entryId,blockId).refs.some(r=>r.source===sourceId),'Gemini-audit correction lost original reference: '+entryId+'/'+blockId);
 }
