@@ -22,6 +22,9 @@ def letters_only(value):
 
 def checked_block(raw, sources, context):
     b = dict(raw)
+    # Every section uses the standard Otzaria schema, even without bullet facts.
+    b.setdefault("items", [])
+    b.setdefault("links", [])
     anchor = b.pop("anchor", None)
     assert anchor and anchor.get("contains"), ("Missing source anchor", context)
     assert b["paragraphs"] and all(p.strip() for p in b["paragraphs"]), context
