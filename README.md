@@ -2,11 +2,11 @@
 
 An offline Hebrew introductory index for Otzaria, by **DanTheMan**.
 
-The plugin introduces the main subjects and essential processes in קדשים, טהרות, אישות, זרעים, דיני ממונות, and איסור והיתר. Entries are short, with expandable headings, search, related entries, and bundled source passages. The current source version is **0.13.3**, resolving third-audit source omissions and supporting safe related links across all six handbooks while preserving 98 entries and 317 sections.
+The plugin introduces the main subjects and essential processes in קדשים, טהרות, אישות, זרעים, דיני ממונות, and איסור והיתר. Entries are short, with expandable headings, search, related entries, and bundled source passages. The current source version is **0.13.4**, incorporating a fifth source-first audit of the Rambam and Meiri while retaining 98 introductions, 317 sections and globally safe cross-handbook links.
 
 ## Install
 
-Install the **0.13.3** package once validated from the `Mevoot-Hashas-plugin` artifact of the latest successful [GitHub Actions run](https://github.com/dakulefsky/movo/actions/workflows/release.yml), or from the Otzaria plugin listing once its update is published. The older [0.12.0 package](dist/Mevoot-Shas-0.12.0.otzplugin) remains in the repository for comparison. No internet connection or AI service is required by the installed plugin.
+Install the **0.13.4** package once validated from the `Mevoot-Hashas-plugin` artifact of the latest successful [GitHub Actions run](https://github.com/dakulefsky/movo/actions/workflows/release.yml), or from the Otzaria plugin listing once its update is published. The older [0.12.0 package](dist/Mevoot-Shas-0.12.0.otzplugin) remains in the repository for comparison. No internet connection or AI service is required by the installed plugin.
 
 The manifest declares Otzaria 0.9.97 or later. Package validation was run against 0.9.98. Installation and source opening in a running installed Otzaria application remain unverified; see [VALIDATION.md](VALIDATION.md).
 
@@ -19,7 +19,7 @@ python3 build.py
 python3 package.py
 ```
 
-This generates the content export, editorial data and `plugin/data/library.js`, then creates `dist/Mevoot-Shas-0.13.3.otzplugin`. Build output is reproducible without fetching source texts.
+This generates the content export, editorial data and `plugin/data/library.js`, then creates `dist/Mevoot-Shas-0.13.4.otzplugin`. Build output is reproducible without fetching source texts.
 
 ## Sources and editorial scope
 
@@ -128,3 +128,11 @@ The auditor's recommendation to add an איסר **to every** מעשר שני red
 ## Fourth source-fidelity review — 0.13.3
 
 Corrects eleven explanatory sections in Yibum/Maamar, Challah, Chazakah, Nedarim, rabbinic oaths, delivery of Gittin by a shaliach, Kilayim outside Israel, witness examination and judicial panel expansion, Orlah, inheritance and monetary acquisition through change. Changes were checked against the actual bundled Mishnah/Rambam passages; original texts and 98/317 explanations count remain intact. Eleven exact source/explanation checks protect the amendments in CI. See [SOURCE-REVIEW-0.13.3.md](SOURCE-REVIEW-0.13.3.md) and [SOURCE-REVIEW-0.13.3.json](SOURCE-REVIEW-0.13.3.json). This verifies source linkage, not halachic correctness certification.
+
+## Fifth independent Torah source audit — 0.13.4
+
+Resolved nine identified omissions in **ten** existing explanatory blocks, covering the two kinds of `חציצה` in receiving korban blood, `כל העולה ליבום עולה לחליצה` and the *ervah* qualification, the `בעליו עמו` exemption even when the borrower was negligent, the verses establishing the upper/lower bird-offering blood applications, why temurah incurs lashes despite the associated positive command, historical `בשר תאווה` impurity decrees and their limits, shemittah of documented loans secured by property, the Meiri's moral explanation of secret theft, and the Rambam's reference to non-Jewish taste testing in Chullin.
+
+The user's audit attached the Baalav Imo ruling to `d-shomer-ones/roles`, but the actual relevant blocks are `d-shomrim/ones` and `d-shomrim/baalav`; neither the four-guardians introduction nor the legal distinction was discarded. The Taharot revision expressly preserves the Rambam's conclusion that the historically decreed `בשר תאווה` is *טהור לתרומה* while *מטמא את הקודש*. The Chullin account describes the Rambam's example, not universal contemporary kashrut practice.
+
+See [SOURCE-REVIEW-0.13.4.md](SOURCE-REVIEW-0.13.4.md) for the exact decisions and [SOURCE-REVIEW-0.13.4.json](SOURCE-REVIEW-0.13.4.json) for 15 machine-checked source-text quotations and matching explanatory phrases. The release does not change the six broad study areas, 98 entries, 317 blocks or 215 source records; it preserves every previous source-audit regression.
