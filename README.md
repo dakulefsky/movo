@@ -2,11 +2,11 @@
 
 An offline Hebrew introductory index for Otzaria, by **DanTheMan**.
 
-The plugin introduces the main subjects and essential processes in קדשים, טהרות, אישות, זרעים, דיני ממונות, and איסור והיתר. Entries are short, with expandable headings, search, related entries, and bundled source passages. The current package is **0.12.0**.
+The plugin introduces the main subjects and essential processes in קדשים, טהרות, אישות, זרעים, דיני ממונות, and איסור והיתר. Entries are short, with expandable headings, search, related entries, and bundled source passages. The current source version is **0.12.1** (navigation, reading and selected prose refinements).
 
 ## Install
 
-Download [Mevoot-Shas-0.12.0.otzplugin](dist/Mevoot-Shas-0.12.0.otzplugin) and import it into Otzaria's plugin manager. No internet connection or AI service is required by the installed plugin.
+Install the validated **0.12.1** package from the `Mevoot-Hashas-plugin` artifact of the latest successful [GitHub Actions run](https://github.com/dakulefsky/movo/actions/workflows/release.yml), or from the Otzaria plugin listing once its update is published. The older [0.12.0 package](dist/Mevoot-Shas-0.12.0.otzplugin) remains in the repository for comparison. No internet connection or AI service is required by the installed plugin.
 
 The manifest declares Otzaria 0.9.97 or later. Package validation was run against 0.9.98. Installation and source opening in a running installed Otzaria application remain unverified; see [VALIDATION.md](VALIDATION.md).
 
@@ -19,7 +19,7 @@ python3 build.py
 python3 package.py
 ```
 
-This generates the content export, editorial data and `plugin/data/library.js`, then creates `dist/Mevoot-Shas-0.12.0.otzplugin`. Build output is reproducible without fetching source texts.
+This generates the content export, editorial data and `plugin/data/library.js`, then creates `dist/Mevoot-Shas-0.12.1.otzplugin`. Build output is reproducible without fetching source texts.
 
 ## Sources and editorial scope
 
@@ -78,3 +78,11 @@ Every existing explanatory section and list has been rewritten for connected rab
 ## Hebrew prose — 0.12.0
 
 A second reading of the whole index refined 50 passages across all six subjects, with more direct explanations, smoother transitions and fewer vague summaries of the sources. The cited passages for those edits were read again. The 89 entries, 251 blocks, original source texts, citations and qualifications remain in place. See [PROSE-REVIEW-0.12.0.md](PROSE-REVIEW-0.12.0.md).
+
+## Reading and editorial refinements — 0.12.1
+
+The home screen remains the six approved study areas, with a clearer introduction, direct search, subject-entry counts, and an optional **continue where you left off** control. The last-read link is stored only in local storage; it never opens an entry automatically. The subject directories now lay out groups in RTL reading order. A **קריאה ברצף** button expands all sections for uninterrupted reading; the original expandable sections and reading controls remain available.
+
+The reading view has clearer hierarchy, narrower text measure, source controls, and mobile breakpoints. Theme-wait mode retains an opaque host-matched background rather than displaying transparency while the Otzaria theme initializes. The plugin still follows host theme colors and font roles.
+
+Ten existing editorial paragraphs have received a targeted wording revision across קדשים, טהרות, אישות, זרעים, דיני ממונות and איסור והיתר. No new Torah propositions, source passages, citations, subject areas, cross-references, or entry counts were introduced. See [PROSE-REVIEW-0.12.1.md](PROSE-REVIEW-0.12.1.md). The prose review is not an independent scholarly endorsement. Native Otzaria rendering remains to be verified.
