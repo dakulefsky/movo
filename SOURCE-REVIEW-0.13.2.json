@@ -1,0 +1,78 @@
+{
+  "version": "0.13.2",
+  "auditScope": "Seven affected explanation blocks in four entries. Nine source and explanation anchors. Direct passage text from bundled Rambam commentary and a newly bundled Rambam Mishneh Torah source; matching quotation does not certify interpretation.",
+  "checks": [
+    {
+      "blockId": "z-maaser-sheni/fifth",
+      "sourceId": "a-maaser_sheni-4-3",
+      "filename": "area-maaser_sheni-4-3.json",
+      "segment": 1,
+      "sourceQuote": "ומה שנתנו מעלה לסלע ואיסר על סלע ודינר",
+      "explanationQuote": "בזה מקדימים את האחר"
+    },
+    {
+      "blockId": "z-maaser-sheni/fifth",
+      "sourceId": "a-maaser_sheni-4-3",
+      "filename": "area-maaser_sheni-4-3.json",
+      "segment": 1,
+      "sourceQuote": "לפי שהוא יכול להערים על החומש",
+      "explanationQuote": "אין מכאן חיוב להוסיף איסר"
+    },
+    {
+      "blockId": "d-shevuot/distinction",
+      "sourceId": "c-Shevuot-6.1",
+      "filename": "next-Rambam_on_Mishnah_Shevuot.6.1.json",
+      "segment": 1,
+      "sourceQuote": "השבועה המחוייבת מן התורה אם הוא מסרב ואינו רוצה לישבע",
+      "explanationQuote": "בשבועת התורה יורדים לנכסיו"
+    },
+    {
+      "blockId": "d-shevuot/distinction",
+      "sourceId": "c-Shevuot-6.1",
+      "filename": "next-Rambam_on_Mishnah_Shevuot.6.1.json",
+      "segment": 1,
+      "sourceQuote": "ואם עמד בנדויו שלשים יום",
+      "explanationQuote": "ואם עמד בנידויו שלושים יום"
+    },
+    {
+      "blockId": "d-shevuot/hesset",
+      "sourceId": "c-Shevuot-6.1",
+      "filename": "next-Rambam_on_Mishnah_Shevuot.6.1.json",
+      "segment": 1,
+      "sourceQuote": "לא נחתינן לנכסיה אבל משמתינן ליה",
+      "explanationQuote": "בשבועת חכמים אין יורדים לנכסים"
+    },
+    {
+      "blockId": "d-dayanim/acceptance",
+      "sourceId": "mt-sanhedrin-authority",
+      "filename": "Rambam_Mishneh_Torah_Sanhedrin.4.14-15.json",
+      "segment": 1,
+      "sourceQuote": "יש לו לדון בכל העולם כולו",
+      "explanationQuote": "מועילה לכפייה גם בחוץ לארץ"
+    },
+    {
+      "blockId": "d-dayanim/acceptance",
+      "sourceId": "mt-sanhedrin-authority",
+      "filename": "Rambam_Mishneh_Torah_Sanhedrin.4.14-15.json",
+      "segment": 2,
+      "sourceQuote": "אבל בחוצה לארץ אין רשותן מועלת לו ליכוף את בעלי דינין",
+      "explanationQuote": "כוחה לענין כפייה מוגבל לארץ ישראל"
+    },
+    {
+      "blockId": "d-dayanim/permission",
+      "sourceId": "mt-sanhedrin-authority",
+      "filename": "Rambam_Mishneh_Torah_Sanhedrin.4.14-15.json",
+      "segment": 1,
+      "sourceQuote": "יש לו לדון בכל העולם כולו",
+      "explanationQuote": "רשות ראש הגולה מועילה לכפייה בכל העולם"
+    },
+    {
+      "blockId": "i-kiddushin/way-of-act",
+      "sourceId": "a-kiddushin-1-1",
+      "filename": "area-kiddushin-1-1.json",
+      "segment": 1,
+      "sourceQuote": "ויצאה והיתה מקיש הויה ליציאה",
+      "explanationQuote": "מקורו של קניין שטר הוא מן ההיקש"
+    }
+  ]
+}
