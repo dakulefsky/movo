@@ -2,8 +2,8 @@ const assert=require('node:assert/strict'),path=require('node:path'),fs=require(
 let pw;try{pw=require('playwright')}catch{pw=require(process.env.CODEX_PRIMARY_RUNTIME_NODE_MODULES+'/playwright')}
 (async()=>{
 const root=__dirname,unpacked=path.join(root,'test-unpacked');fs.rmSync(unpacked,{recursive:true,force:true});fs.mkdirSync(unpacked);
-execFileSync('python',['-c',`import zipfile;zipfile.ZipFile(${JSON.stringify(path.join(root,'dist/Mevoot-Shas-0.13.2.otzplugin'))}).extractall(${JSON.stringify(unpacked)})`]);
-const manifest=JSON.parse(fs.readFileSync(path.join(unpacked,'manifest.json')));assert.equal(manifest.author,'DanTheMan');assert.equal(manifest.version,'0.13.2');assert.equal(manifest.network.enabled,false);
+execFileSync('python',['-c',`import zipfile;zipfile.ZipFile(${JSON.stringify(path.join(root,'dist/Mevoot-Shas-0.13.3.otzplugin'))}).extractall(${JSON.stringify(unpacked)})`]);
+const manifest=JSON.parse(fs.readFileSync(path.join(unpacked,'manifest.json')));assert.equal(manifest.author,'DanTheMan');assert.equal(manifest.version,'0.13.3');assert.equal(manifest.network.enabled,false);
 const browser=await pw.chromium.launch({headless:true,...(process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE?{executablePath:process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE}:{}),args:['--no-sandbox']}),page=await browser.newPage();const errors=[],remote=[];
 try{
 page.on('pageerror',e=>errors.push(e.message));page.on('request',r=>{if(/^https?:/.test(r.url()))remote.push(r.url())});
@@ -180,6 +180,27 @@ for(const record of audit3.checks){
 assert.ok(d.sources['mt-sanhedrin-authority']);
 const newRelated=entry('i-kiddushin','way-of-act').links;
 assert.ok(newRelated.includes('d-karka'));
-assert.deepEqual(errors,[]);assert.deepEqual(remote,[]);console.log('PASS: actual unpacked 0.13.2 package; home search, voluntary resume, continuous reading; all 98 entries and 317 block controls in six areas; new avodot source dialogs and reciprocal offering links; cross-area deep-link search and exact source dialogs; Hebrew search, back/reload/pager, SDK success and failure paths, mobile+desktop no overflow, font persistence. No network requests, JS errors or screenshots.');
+// 0.13.3: fourth independent audit, source fidelity and paragraph regression.
+const audit4=JSON.parse(fs.readFileSync(path.join(root,'SOURCE-REVIEW-0.13.3.json'),'utf8'));
+assert.equal(audit4.version,'0.13.3');assert.equal(audit4.checks.length,11);
+const audit4blocks=new Set();
+for(const row of audit4.checks){
+ const [entryId,blockId]=row.blockId.split('/');const b=entry(entryId,blockId);
+ assert.ok(b,'0.13.3 revised block missing: '+row.blockId);
+ assert.ok(b.refs.some(r=>r.source===row.sourceId&&r.segments.includes(row.segment)),
+  '0.13.3 original reference missing: '+row.blockId+' '+row.sourceId);
+ const src=d.sources[row.sourceId];assert.ok(src,'0.13.3 bundled source absent: '+row.sourceId);
+ assert.equal(src.filename,row.filename,'0.13.3 source version drift: '+row.blockId);
+ assert.ok(normalizeSource(src.segments[row.segment-1]?.text||'').includes(normalizeSource(row.sourceQuote)),
+  '0.13.3 original-source quotation mismatch: '+row.blockId);
+ assert.ok(normalizeSource(b.paragraphs.join(' ')).includes(normalizeSource(row.explanationQuote)),
+  '0.13.3 explanation lost reviewed qualification: '+row.blockId);
+ audit4blocks.add(row.blockId);
+}
+assert.equal(audit4blocks.size,11);
+assert.match(entry('i-maamar','consequence').paragraphs.join(' '),/צרת ערוה/);
+assert.match(entry('z-challah','baker').paragraphs.join(' '),/משתה בנו/);
+assert.match(entry('d-shevuot','hesset').paragraphs.join(' '),/שבועת היסת שונה/);
+assert.deepEqual(errors,[]);assert.deepEqual(remote,[]);console.log('PASS: actual unpacked 0.13.3 package; home search, voluntary resume, continuous reading; all 98 entries and 317 block controls in six areas; new avodot source dialogs and reciprocal offering links; cross-area deep-link search and exact source dialogs; Hebrew search, back/reload/pager, SDK success and failure paths, mobile+desktop no overflow, font persistence. No network requests, JS errors or screenshots.');
 }finally{await browser.close()}
 })().catch(e=>{console.error(e);process.exit(1)});
