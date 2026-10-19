@@ -25,6 +25,10 @@ def apply_prose_revision(handbooks):
                 seen.add(key)
                 # Existing geographical qualification is supported in Orlah 3:9,
                 # already bundled, rather than the attached Kilayim passage alone.
+                if key == 'd-dayanim/acceptance':
+                    reference = {'source': 'mt-sanhedrin-authority', 'segments': [1, 2]}
+                    if reference not in block['refs']:
+                        block['refs'].append(reference)
                 if key == 'z-kilayim/grafting':
                     reference = {'source': 'a-orlah-3-9', 'segments': [3]}
                     if reference not in block['refs']:
