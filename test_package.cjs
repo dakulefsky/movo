@@ -2,8 +2,8 @@ const assert=require('node:assert/strict'),path=require('node:path'),fs=require(
 let pw;try{pw=require('playwright')}catch{pw=require(process.env.CODEX_PRIMARY_RUNTIME_NODE_MODULES+'/playwright')}
 (async()=>{
 const root=__dirname,unpacked=path.join(root,'test-unpacked');fs.rmSync(unpacked,{recursive:true,force:true});fs.mkdirSync(unpacked);
-execFileSync('python',['-c',`import zipfile;zipfile.ZipFile(${JSON.stringify(path.join(root,'dist/Mevoot-Shas-0.12.2.otzplugin'))}).extractall(${JSON.stringify(unpacked)})`]);
-const manifest=JSON.parse(fs.readFileSync(path.join(unpacked,'manifest.json')));assert.equal(manifest.author,'DanTheMan');assert.equal(manifest.version,'0.12.2');assert.equal(manifest.network.enabled,false);
+execFileSync('python',['-c',`import zipfile;zipfile.ZipFile(${JSON.stringify(path.join(root,'dist/Mevoot-Shas-0.12.3.otzplugin'))}).extractall(${JSON.stringify(unpacked)})`]);
+const manifest=JSON.parse(fs.readFileSync(path.join(unpacked,'manifest.json')));assert.equal(manifest.author,'DanTheMan');assert.equal(manifest.version,'0.12.3');assert.equal(manifest.network.enabled,false);
 const browser=await pw.chromium.launch({headless:true,...(process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE?{executablePath:process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE}:{}),args:['--no-sandbox']}),page=await browser.newPage();const errors=[],remote=[];
 try{
 page.on('pageerror',e=>errors.push(e.message));page.on('request',r=>{if(/^https?:/.test(r.url()))remote.push(r.url())});
@@ -68,6 +68,24 @@ assert.match(entry('t-met','source').paragraphs.join(' '),/חלקים ממנו/)
 assert.match(entry('i-kiddushin','meaning').paragraphs.join(' '),/אין הקידושין חלים אלא מרצונה/);
 assert.match(entry('d-nezikin','avot').paragraphs.join(' '),/ארבעה אבות נזיקין/);
 assert.match(entry('a-neder','meaning').paragraphs.join(' '),/בנדרי איסור/);
-assert.deepEqual(errors,[]);assert.deepEqual(remote,[]);console.log('PASS: actual unpacked 0.12.2 package; home search, voluntary resume, continuous reading; all 89 entries and 251 block controls in six areas; new avodot source dialogs and reciprocal offering links; cross-area deep-link search and exact source dialogs; Hebrew search, back/reload/pager, SDK success and failure paths, mobile+desktop no overflow, font persistence. No network requests, JS errors or screenshots.');
+// Source-led editorial regression: cited source identity and a short actual-source
+// quotation must still support the named, still-visible explanatory sentence.
+// This establishes traceability only, not scholarly/halachic correctness.
+const evidence=JSON.parse(fs.readFileSync(path.join(root,'SOURCE-REVIEW-0.12.3.json'),'utf8'));
+const normalizeSource=s=>String(s).normalize('NFKD').replace(/<[^>]*>/g,' ').replace(/[\\u0591-\\u05C7]/g,'').replace(/[\\u2018\\u2019\\u201c\\u201d"'׳״.,:;!?()[\\]{}־–—]/g,' ').replace(/\\s+/g,' ').trim();
+const checkedEntries=new Set();
+for(const check of evidence.checks){
+ const [entryId,blockId]=check.key.split('/'),block=entry(entryId,blockId);
+ assert.ok(block,'Source review block missing: '+check.key);
+ assert.ok(block.refs.some(r=>r.source===check.sourceId&&r.segments.includes(check.segment)),'Primary-source citation missing: '+check.key+' '+check.sourceId);
+ const src=d.sources[check.sourceId];assert.ok(src,'Bundled source missing: '+check.sourceId);
+ assert.equal(src.filename,check.filename,'Source filename changed: '+check.sourceId);
+ const passage=src.segments[check.segment-1]?.text;
+ assert.ok(passage&&normalizeSource(passage).includes(normalizeSource(check.sourceTextAnchor)),'Source quotation drift: '+check.key+' '+check.sourceId);
+ assert.ok(normalizeSource(block.paragraphs.join(' ')).includes(normalizeSource(check.expectedInExplanation)),'Reviewed wording drift: '+check.key);
+ checkedEntries.add(check.key);
+}
+assert.equal(evidence.checks.length,19);assert.equal(checkedEntries.size,16);
+assert.deepEqual(errors,[]);assert.deepEqual(remote,[]);console.log('PASS: actual unpacked 0.12.3 package; home search, voluntary resume, continuous reading; all 89 entries and 251 block controls in six areas; new avodot source dialogs and reciprocal offering links; cross-area deep-link search and exact source dialogs; Hebrew search, back/reload/pager, SDK success and failure paths, mobile+desktop no overflow, font persistence. No network requests, JS errors or screenshots.');
 }finally{await browser.close()}
 })().catch(e=>{console.error(e);process.exit(1)});
