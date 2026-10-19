@@ -66,6 +66,12 @@
             "segments": [
               1
             ]
+          },
+          {
+            "source": "av-m-5.6",
+            "segments": [
+              1
+            ]
           }
         ],
         "by": "ביאור ערוך על פי המקורות המצוטטים",
@@ -138,6 +144,12 @@
         "refs": [
           {
             "source": "av-z-4.2",
+            "segments": [
+              1
+            ]
+          },
+          {
+            "source": "av-z-4.1",
             "segments": [
               1
             ]
@@ -264,6 +276,7 @@
           {
             "source": "t-intro",
             "segments": [
+              6,
               14
             ]
           }
@@ -272,7 +285,7 @@
         "links": [],
         "anchor": {
           "source": "t-intro",
-          "segment": 14,
+          "segment": 6,
           "contains": "כלי חרס"
         }
       }
