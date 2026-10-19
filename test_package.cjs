@@ -72,7 +72,7 @@ assert.match(entry('a-neder','meaning').paragraphs.join(' '),/בנדרי איס�
 // quotation must still support the named, still-visible explanatory sentence.
 // This establishes traceability only, not scholarly/halachic correctness.
 const evidence=JSON.parse(fs.readFileSync(path.join(root,'SOURCE-REVIEW-0.12.3.json'),'utf8'));
-const normalizeSource=s=>String(s).normalize('NFKD').replace(/<[^>]*>/g,' ').replace(/[\\u0591-\\u05C7]/g,'').replace(/[\\u2018\\u2019\\u201c\\u201d"'׳״.,:;!?()[\\]{}־–—]/g,' ').replace(/\\s+/g,' ').trim();
+const normalizeSource=s=>String(s).normalize('NFKD').replace(/<[^>]*>/g,' ').replace(/\p{M}/gu,'').replace(/[^\p{L}\p{N}]+/gu,' ').replace(/\s+/g,' ').trim();
 const checkedEntries=new Set();
 for(const check of evidence.checks){
  const [entryId,blockId]=check.key.split('/'),block=entry(entryId,blockId);
