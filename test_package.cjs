@@ -163,8 +163,8 @@ assert.equal(audit2Blocks.size,8);
 assert.match(entry('z-challah','dough').paragraphs[0],/אין ההפרשה הראשונה עושה את הקמח לחלה גמורה/);
 assert.match(entry('d-shomrim','four').paragraphs[0],/בכפוף לפטוריו/);
 // Source-audited 0.13.3 corrections with a separately bundled Mishneh Torah text.
-const audit3=JSON.parse(fs.readFileSync(path.join(root,'SOURCE-REVIEW-0.13.3.json'),'utf8'));
-assert.equal(audit3.version,'0.13.3');assert.equal(audit3.checks.length,9);
+const audit3=JSON.parse(fs.readFileSync(path.join(root,'SOURCE-REVIEW-0.13.2.json'),'utf8'));
+assert.equal(audit3.version,'0.13.2');assert.equal(audit3.checks.length,9);
 for(const record of audit3.checks){
  const [entryId,blockId]=record.blockId.split('/');const block=entry(entryId,blockId);
  assert.ok(block,'0.13.3 block missing '+record.blockId);
