@@ -2,11 +2,11 @@
 
 An offline Hebrew introductory index for Otzaria, by **DanTheMan**.
 
-The plugin introduces the main subjects and essential processes in קדשים, טהרות, אישות, זרעים, דיני ממונות, and איסור והיתר. Entries are short, with expandable headings, search, related entries, and bundled source passages. The current source version is **0.12.3**, with a new source-verified editorial pass building on the 0.12.2 Hebrew rewrite.
+The plugin introduces the main subjects and essential processes in קדשים, טהרות, אישות, זרעים, דיני ממונות, and איסור והיתר. Entries are short, with expandable headings, search, related entries, and bundled source passages. The current source version is **0.13.0**, expanding the number and depth of source-grounded introductions while retaining the six approved areas.
 
 ## Install
 
-Install the **0.12.3** package once validated from the `Mevoot-Hashas-plugin` artifact of the latest successful [GitHub Actions run](https://github.com/dakulefsky/movo/actions/workflows/release.yml), or from the Otzaria plugin listing once its update is published. The older [0.12.0 package](dist/Mevoot-Shas-0.12.0.otzplugin) remains in the repository for comparison. No internet connection or AI service is required by the installed plugin.
+Install the **0.13.0** package once validated from the `Mevoot-Hashas-plugin` artifact of the latest successful [GitHub Actions run](https://github.com/dakulefsky/movo/actions/workflows/release.yml), or from the Otzaria plugin listing once its update is published. The older [0.12.0 package](dist/Mevoot-Shas-0.12.0.otzplugin) remains in the repository for comparison. No internet connection or AI service is required by the installed plugin.
 
 The manifest declares Otzaria 0.9.97 or later. Package validation was run against 0.9.98. Installation and source opening in a running installed Otzaria application remain unverified; see [VALIDATION.md](VALIDATION.md).
 
@@ -19,7 +19,7 @@ python3 build.py
 python3 package.py
 ```
 
-This generates the content export, editorial data and `plugin/data/library.js`, then creates `dist/Mevoot-Shas-0.12.3.otzplugin`. Build output is reproducible without fetching source texts.
+This generates the content export, editorial data and `plugin/data/library.js`, then creates `dist/Mevoot-Shas-0.13.0.otzplugin`. Build output is reproducible without fetching source texts.
 
 ## Sources and editorial scope
 
@@ -98,3 +98,13 @@ The revision changes explanation paragraphs only: their number, block identifier
 The editorial priority for this pass is to **check the cited primary-source texts before changing the wording**, instead of accumulating stylistic edits that might quietly distort a Rishon's meaning. We inspected 16 existing explanatory sections and their cited Rambam, Mishnah and Ramban passages. Thirteen explanations were revised, while three were left unchanged after checking. The exact reference IDs, bundled source filenames, numbered passages and 19 short source-text anchors are recorded in [SOURCE-REVIEW-0.12.3.json](SOURCE-REVIEW-0.12.3.json) and explained individually in [SOURCE-REVIEW-0.12.3.md](SOURCE-REVIEW-0.12.3.md).
 
 The packaged browser test now checks that each reviewed paragraph continues to cite the expected source and that the source passage and explanation still contain the reviewed quotations/claims. This catches accidental source detachment; it does **not** prove that each interpretation is correct. All original source texts, textual variants, citations, 89 introductions and 251 sourced sections remain intact. A separate comparison with the Rambam's original Arabic and independent rabbinic review have not been performed.
+
+## Substantive introductory coverage — 0.13.0
+
+The previous 89 entries (251 explanatory sections) were judged **too thin to prepare someone for a major sugya**. This version adds **nine distinct, central-sugya introductions**, each with three substantive sections, and adds **39 explanatory sections** to existing introductions. The intended resulting corpus is **98 introductions and 317 sections**, while preserving exactly the six approved study areas—no new Moed or Shabbat area.
+
+New introductions: `k-inner-chattat` (חטאות הפנימיות), `k-matanot` (מתנות הדם ומצוה לעומת עיכוב), `t-mashkin` (טומאת משקין), `i-yuchasin` (תפיסת קידושין וייחוס הוולד), `z-leket-shikcha` (לקט ושכחה), `z-five-grains` (חמשת מיני דגן וחיוב עיסה), `d-two-chazakot` (חזקת קניין וחזקת שלוש שנים), `d-shomer-ones` (אונס ושמירה) and `a-yadot-kinuyim` (ידות וכינויים בנדרים).
+
+All 66 new sections cite numbered passages from the **already bundled primary-source snapshots**; none was drafted as a generic AI-generated survey. The build validates a Hebrew quotation anchor for each block directly against a passage it cites, after Unicode/niqqud normalization, and aborts if an anchor or reference is lost. The new material is kept in `coverage_013_entries.json`, `coverage_013_details_a.json` and `coverage_013_details_b.json` rather than rewriting the preserved source files or the 0.12.3 editorial overlay. See [COVERAGE-REVIEW-0.13.0.md](COVERAGE-REVIEW-0.13.0.md) for the scope and known gaps.
+
+**Limitations:** matching a quotation to the source is a provenance check, not a determination that the explanatory interpretation is correct. The original Rambam Arabic was not checked; these are explanations on the basis of preserved Hebrew translations and Mishnah. Significant halachic claims and nuanced Rishonim still benefit from a human talmid-chacham review.

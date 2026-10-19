@@ -1,0 +1,63 @@
+{
+  "edition": "0.13.0",
+  "auditBase": "9e96e3ff9f6a46b340804a0395ccdd0d3b7cfb16",
+  "provenance": "Independent Gemini feedback reviewed against primary-source text stored in repository; source anchor is evidence of text presence, not an independent halachic certification",
+  "checkRows": [
+    {
+      "block": "av-shechitah/person",
+      "source": "z3-1",
+      "segment": 1,
+      "sourceAnchor": "מפני הטמא שלכתחלה לא ישחוט",
+      "explanationAnchor": "בטמא גזרו שלא ישחוט לכתחילה",
+      "note": "Preserve rabbinic lechatchila restriction"
+    },
+    {
+      "block": "av-shechitah/person",
+      "source": "z3-1",
+      "segment": 1,
+      "sourceAnchor": "בהיות הסכין ארוך ושוחט והוא חוץ לעזרה",
+      "explanationAnchor": "מחוץ לעזרה וישחוט בסכין ארוכה",
+      "note": "Preserve spatial exception without asserting lechatchila permission"
+    },
+    {
+      "block": "t-met/scope",
+      "source": "t-intro",
+      "segment": 6,
+      "sourceAnchor": "ישראל מטמאין באהל ואין הגוים מטמאין באהל",
+      "explanationAnchor": "מת של גוי מטמא במגע אך אינו מטמא באהל",
+      "note": "Do not attribute unspecified other Rishonim without another source"
+    },
+    {
+      "block": "t-met/scope",
+      "source": "t-intro",
+      "segment": 6,
+      "sourceAnchor": "לא שיהיה מי שיטמא בדבר מהן חייב כרת",
+      "explanationAnchor": "ואין ללמוד ממנו שכל הנמנה שם מחייב גילוח נזיר",
+      "note": "Clarify distinct liability and nazir topics from Rambam introduction"
+    },
+    {
+      "block": "olah/bird",
+      "source": "z6-5",
+      "segment": 1,
+      "sourceAnchor": "ופירוש ספגו במלח שיפרוש עליו המלח בידו",
+      "explanationAnchor": "פירושה שפיזר עליו מלח בידו",
+      "note": "Restore hand-spreading rather than generic salting"
+    },
+    {
+      "block": "olah/bird",
+      "source": "z6-5",
+      "segment": 1,
+      "sourceAnchor": "כספוג הים שמנגבין בו",
+      "explanationAnchor": "כדרך שמייבשים דבר בספוג",
+      "note": "Rambam's tactile sponge comparison"
+    },
+    {
+      "block": "chattat/shem",
+      "source": "z1-1",
+      "segment": 1,
+      "sourceAnchor": "שאם שחט סתם שהוא כשר ועלה לבעלים",
+      "explanationAnchor": "שחיטה שנעשתה סתם כשרה ועולה לבעלים",
+      "note": "Affirmative form exactly following source"
+    }
+  ]
+}
