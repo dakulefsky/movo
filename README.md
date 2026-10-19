@@ -2,11 +2,11 @@
 
 An offline Hebrew introductory index for Otzaria, by **DanTheMan**.
 
-The plugin introduces the main subjects and essential processes in קדשים, טהרות, אישות, זרעים, דיני ממונות, and איסור והיתר. Entries are short, with expandable headings, search, related entries, and bundled source passages. The current source version is **0.12.2**, a substantial Hebrew editorial revision built on the 0.12.1 interface.
+The plugin introduces the main subjects and essential processes in קדשים, טהרות, אישות, זרעים, דיני ממונות, and איסור והיתר. Entries are short, with expandable headings, search, related entries, and bundled source passages. The current source version is **0.12.3**, with a new source-verified editorial pass building on the 0.12.2 Hebrew rewrite.
 
 ## Install
 
-Install the **0.12.2** package once validated from the `Mevoot-Hashas-plugin` artifact of the latest successful [GitHub Actions run](https://github.com/dakulefsky/movo/actions/workflows/release.yml), or from the Otzaria plugin listing once its update is published. The older [0.12.0 package](dist/Mevoot-Shas-0.12.0.otzplugin) remains in the repository for comparison. No internet connection or AI service is required by the installed plugin.
+Install the **0.12.3** package once validated from the `Mevoot-Hashas-plugin` artifact of the latest successful [GitHub Actions run](https://github.com/dakulefsky/movo/actions/workflows/release.yml), or from the Otzaria plugin listing once its update is published. The older [0.12.0 package](dist/Mevoot-Shas-0.12.0.otzplugin) remains in the repository for comparison. No internet connection or AI service is required by the installed plugin.
 
 The manifest declares Otzaria 0.9.97 or later. Package validation was run against 0.9.98. Installation and source opening in a running installed Otzaria application remain unverified; see [VALIDATION.md](VALIDATION.md).
 
@@ -19,7 +19,7 @@ python3 build.py
 python3 package.py
 ```
 
-This generates the content export, editorial data and `plugin/data/library.js`, then creates `dist/Mevoot-Shas-0.12.2.otzplugin`. Build output is reproducible without fetching source texts.
+This generates the content export, editorial data and `plugin/data/library.js`, then creates `dist/Mevoot-Shas-0.12.3.otzplugin`. Build output is reproducible without fetching source texts.
 
 ## Sources and editorial scope
 
@@ -92,3 +92,9 @@ Ten existing editorial paragraphs have received a targeted wording revision acro
 A close editorial pass revised **126 of 251 explanatory sections** across all six areas (39 קדשים, 22 זרעים, 20 טהרות, 17 אישות, 16 דיני ממונות, 12 איסור והיתר). The goal is lucid, connected rabbinic Hebrew without modern-schoolbook formulations, inflated rhetoric, or artificial transitions. Revisions keep the point of each legal distinction in view and retain explicit qualifications and dissenting opinions.
 
 The revision changes explanation paragraphs only: their number, block identifiers, all source text, attribution, references, links and the six-area scope remain unchanged. The cumulative replacement map is still stored in `prose_012.json` because the existing build/review pipeline uses that filename. This was a literary and internal-consistency review of the previously sourced text, not a fresh independent verification of every Rambam passage against its original. See [PROSE-REVIEW-0.12.2.md](PROSE-REVIEW-0.12.2.md) for the audit scope and editorial examples.
+
+## Source verification and Hebrew prose — 0.12.3
+
+The editorial priority for this pass is to **check the cited primary-source texts before changing the wording**, instead of accumulating stylistic edits that might quietly distort a Rishon's meaning. We inspected 16 existing explanatory sections and their cited Rambam, Mishnah and Ramban passages. Thirteen explanations were revised, while three were left unchanged after checking. The exact reference IDs, bundled source filenames, numbered passages and 19 short source-text anchors are recorded in [SOURCE-REVIEW-0.12.3.json](SOURCE-REVIEW-0.12.3.json) and explained individually in [SOURCE-REVIEW-0.12.3.md](SOURCE-REVIEW-0.12.3.md).
+
+The packaged browser test now checks that each reviewed paragraph continues to cite the expected source and that the source passage and explanation still contain the reviewed quotations/claims. This catches accidental source detachment; it does **not** prove that each interpretation is correct. All original source texts, textual variants, citations, 89 introductions and 251 sourced sections remain intact. A separate comparison with the Rambam's original Arabic and independent rabbinic review have not been performed.
