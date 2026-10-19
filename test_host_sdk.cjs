@@ -11,7 +11,7 @@ const boot=dart.split('String buildPluginBootScript')[1].split("'''")[1]
  .replace("${fontFaceJson == null ? '' : _fontFaceJs(fontFaceJson)}",'')
  .replaceAll('$nonceJson','"mevoot-contract-test"').replaceAll('$payloadJson',JSON.stringify({theme:{mode:'light',colorScheme:{primary:'#345678',onPrimary:'#ffffff',surface:'#fdfdfd',onSurface:'#101010',onSurfaceVariant:'#505050',surfaceContainerLow:'#eeeeee',outline:'#999999',scrim:'#000000'},typography:{fontFamily:'serif',uiFontFamily:'sans-serif',fontSize:24}}}));
 (async()=>{
- execFileSync('python3',['-c',`import zipfile; zipfile.ZipFile(${JSON.stringify(path.join(root,'dist/Mevoot-Shas-0.10.0.otzplugin'))}).extractall(${JSON.stringify(path.join(root,'test-unpacked'))})`]);
+ execFileSync('python3',['-c',`import zipfile; zipfile.ZipFile(${JSON.stringify(path.join(root,'dist/Mevoot-Shas-0.11.0.otzplugin'))}).extractall(${JSON.stringify(path.join(root,'test-unpacked'))})`]);
  const browser=await pw.chromium.launch({headless:true,executablePath:process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE,args:['--no-sandbox']});
  try{
   const page=await browser.newPage(),errors=[],remote=[];

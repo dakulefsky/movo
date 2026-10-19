@@ -7,4 +7,4 @@ archive/
 editorial.json
 plugin/data/library.js
 dist/*
-!dist/Mevoot-Shas-0.10.0.otzplugin
+!dist/Mevoot-Shas-0.11.0.otzplugin
