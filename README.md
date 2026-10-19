@@ -2,11 +2,11 @@
 
 An offline Hebrew introductory index for Otzaria, by **DanTheMan**.
 
-The plugin introduces the main subjects and essential processes in קדשים, טהרות, אישות, זרעים, דיני ממונות, and איסור והיתר. Entries are short, with expandable headings, search, related entries, and bundled source passages. The current source version is **0.13.2**, resolving third-audit source omissions and supporting safe related links across all six handbooks while preserving 98 entries and 317 sections.
+The plugin introduces the main subjects and essential processes in קדשים, טהרות, אישות, זרעים, דיני ממונות, and איסור והיתר. Entries are short, with expandable headings, search, related entries, and bundled source passages. The current source version is **0.13.3**, resolving third-audit source omissions and supporting safe related links across all six handbooks while preserving 98 entries and 317 sections.
 
 ## Install
 
-Install the **0.13.2** package once validated from the `Mevoot-Hashas-plugin` artifact of the latest successful [GitHub Actions run](https://github.com/dakulefsky/movo/actions/workflows/release.yml), or from the Otzaria plugin listing once its update is published. The older [0.12.0 package](dist/Mevoot-Shas-0.12.0.otzplugin) remains in the repository for comparison. No internet connection or AI service is required by the installed plugin.
+Install the **0.13.3** package once validated from the `Mevoot-Hashas-plugin` artifact of the latest successful [GitHub Actions run](https://github.com/dakulefsky/movo/actions/workflows/release.yml), or from the Otzaria plugin listing once its update is published. The older [0.12.0 package](dist/Mevoot-Shas-0.12.0.otzplugin) remains in the repository for comparison. No internet connection or AI service is required by the installed plugin.
 
 The manifest declares Otzaria 0.9.97 or later. Package validation was run against 0.9.98. Installation and source opening in a running installed Otzaria application remain unverified; see [VALIDATION.md](VALIDATION.md).
 
@@ -19,7 +19,7 @@ python3 build.py
 python3 package.py
 ```
 
-This generates the content export, editorial data and `plugin/data/library.js`, then creates `dist/Mevoot-Shas-0.13.2.otzplugin`. Build output is reproducible without fetching source texts.
+This generates the content export, editorial data and `plugin/data/library.js`, then creates `dist/Mevoot-Shas-0.13.3.otzplugin`. Build output is reproducible without fetching source texts.
 
 ## Sources and editorial scope
 
@@ -124,3 +124,7 @@ A third independent report repeated seven findings **already corrected and publi
 The report also identified a real latent JavaScript crash in related links to another handbook. The renderer now uses global entry lookup and skips invalid targets rather than dereferencing `undefined`, and the offline build allows source-valid cross-handbook links. A concrete link from קידושי שטר to קנין קרקע and a Playwright click-through/invalid-link test prove this behavior. See [SOURCE-REVIEW-0.13.2.md](SOURCE-REVIEW-0.13.2.md) for the source-disposition report and [SOURCE-REVIEW-0.13.2.json](SOURCE-REVIEW-0.13.2.json) for nine automated source quotation checks.
 
 The auditor's recommendation to add an איסר **to every** מעשר שני redemption was not adopted: the original משנה and Rambam discuss which of two competing offers takes priority, and the new wording reflects that case exactly. This remains an introductory learning tool, not independent psak or final certification of every Hebrew/Rambam interpretation.
+
+## Fourth source-fidelity review — 0.13.3
+
+Corrects eleven explanatory sections in Yibum/Maamar, Challah, Chazakah, Nedarim, rabbinic oaths, delivery of Gittin by a shaliach, Kilayim outside Israel, witness examination and judicial panel expansion, Orlah, inheritance and monetary acquisition through change. Changes were checked against the actual bundled Mishnah/Rambam passages; original texts and 98/317 explanations count remain intact. Eleven exact source/explanation checks protect the amendments in CI. See [SOURCE-REVIEW-0.13.3.md](SOURCE-REVIEW-0.13.3.md) and [SOURCE-REVIEW-0.13.3.json](SOURCE-REVIEW-0.13.3.json). This verifies source linkage, not halachic correctness certification.
