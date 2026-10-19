@@ -2,8 +2,8 @@ const assert=require('node:assert/strict'),path=require('node:path'),fs=require(
 let pw;try{pw=require('playwright')}catch{pw=require(process.env.CODEX_PRIMARY_RUNTIME_NODE_MODULES+'/playwright')}
 (async()=>{
 const root=__dirname,unpacked=path.join(root,'test-unpacked');fs.rmSync(unpacked,{recursive:true,force:true});fs.mkdirSync(unpacked);
-execFileSync('python',['-c',`import zipfile;zipfile.ZipFile(${JSON.stringify(path.join(root,'dist/Mevoot-Shas-0.13.0.otzplugin'))}).extractall(${JSON.stringify(unpacked)})`]);
-const manifest=JSON.parse(fs.readFileSync(path.join(unpacked,'manifest.json')));assert.equal(manifest.author,'DanTheMan');assert.equal(manifest.version,'0.13.0');assert.equal(manifest.network.enabled,false);
+execFileSync('python',['-c',`import zipfile;zipfile.ZipFile(${JSON.stringify(path.join(root,'dist/Mevoot-Shas-0.13.1.otzplugin'))}).extractall(${JSON.stringify(unpacked)})`]);
+const manifest=JSON.parse(fs.readFileSync(path.join(unpacked,'manifest.json')));assert.equal(manifest.author,'DanTheMan');assert.equal(manifest.version,'0.13.1');assert.equal(manifest.network.enabled,false);
 const browser=await pw.chromium.launch({headless:true,...(process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE?{executablePath:process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE}:{}),args:['--no-sandbox']}),page=await browser.newPage();const errors=[],remote=[];
 try{
 page.on('pageerror',e=>errors.push(e.message));page.on('request',r=>{if(/^https?:/.test(r.url()))remote.push(r.url())});
@@ -96,7 +96,7 @@ for(const check of evidence.checks){
  checkedEntries.add(check.key);
 }
 assert.equal(evidence.checks.length,19);assert.equal(checkedEntries.size,16);
-// 0.13.0 coverage regression: distinct major sugyas and new explanatory depth.
+// 0.13.1 coverage regression: distinct major sugyas and new explanatory depth.
 const expansion=JSON.parse(fs.readFileSync(path.join(root,'coverage_013_entries.json'),'utf8'));
 const detailA=JSON.parse(fs.readFileSync(path.join(root,'coverage_013_details_a.json'),'utf8'));
 const detailB=JSON.parse(fs.readFileSync(path.join(root,'coverage_013_details_b.json'),'utf8'));
@@ -112,7 +112,7 @@ for(const item of [...detailA.additions,...detailB.additions]){assert.ok(entry(i
 const extendedCounts=Object.fromEntries(d.handbooks.map(h=>[h.id,h.entries.length]));
 assert.deepEqual(extendedCounts,{kodashim:28,tahorot:15,ishut:11,zeraim:17,mammon:19,issur:8});
 // Gemini audit follow-up: these wording and source anchors were independently reviewed.
-const geminiReview=JSON.parse(fs.readFileSync(path.join(root,'GEMINI-AUDIT-FOLLOWUP-0.13.0.json'),'utf8'));
+const geminiReview=JSON.parse(fs.readFileSync(path.join(root,'GEMINI-AUDIT-FOLLOWUP-0.13.1.json'),'utf8'));
 assert.equal(geminiReview.checkRows.length,7);
 for(const check of geminiReview.checkRows){
  const [entryId,blockId]=check.block.split('/'),block=entry(entryId,blockId);
@@ -124,6 +124,30 @@ for(const check of geminiReview.checkRows){
  assert.ok(normalizeSource(block.paragraphs.join(' ')).includes(normalizeSource(check.explanationAnchor)),
    'Gemini-reviewed explanatory correction missing: '+check.block);
 }
-assert.deepEqual(errors,[]);assert.deepEqual(remote,[]);console.log('PASS: actual unpacked 0.13.0 package; home search, voluntary resume, continuous reading; all 98 entries and 317 block controls in six areas; new avodot source dialogs and reciprocal offering links; cross-area deep-link search and exact source dialogs; Hebrew search, back/reload/pager, SDK success and failure paths, mobile+desktop no overflow, font persistence. No network requests, JS errors or screenshots.');
+// Independent audit #2: enforce the actual cited segment and editorial correction.
+// These checks ensure evidence traceability, not formal halachic validation.
+const audit2=JSON.parse(fs.readFileSync(path.join(root,'SOURCE-REVIEW-0.13.1.json'),'utf8'));
+assert.equal(audit2.edition,'0.13.1');
+assert.equal(audit2.checks.length,13);
+const audit2Blocks=new Set();
+for(const record of audit2.checks){
+ const [entryId,blockId]=record.blockId.split('/');
+ const block=entry(entryId,blockId);
+ assert.ok(block,'Second audit lost block '+record.blockId);
+ assert.ok(block.refs.some(r=>r.source===record.sourceId && r.segments.includes(record.segment)),
+   'Second audit citation detached '+record.blockId+' '+record.sourceId);
+ const src=d.sources[record.sourceId];
+ assert.ok(src,'Second audit source absent: '+record.sourceId);
+ assert.equal(src.filename,record.filename,'Second audit source identity drift '+record.blockId);
+ assert.ok(normalizeSource(src.segments[record.segment-1]?.text||'').includes(normalizeSource(record.sourceAnchor)),
+   'Second audit source quotation drift '+record.blockId+' '+record.sourceId);
+ assert.ok(normalizeSource(block.paragraphs.join(' ')).includes(normalizeSource(record.explanationAnchor)),
+   'Second audit explanation omission returned '+record.blockId);
+ audit2Blocks.add(record.blockId);
+}
+assert.equal(audit2Blocks.size,8);
+assert.match(entry('z-challah','dough').paragraphs[0],/אין ההפרשה הראשונה עושה את הקמח לחלה גמורה/);
+assert.match(entry('d-shomrim','four').paragraphs[0],/בכפוף לפטוריו/);
+assert.deepEqual(errors,[]);assert.deepEqual(remote,[]);console.log('PASS: actual unpacked 0.13.1 package; home search, voluntary resume, continuous reading; all 98 entries and 317 block controls in six areas; new avodot source dialogs and reciprocal offering links; cross-area deep-link search and exact source dialogs; Hebrew search, back/reload/pager, SDK success and failure paths, mobile+desktop no overflow, font persistence. No network requests, JS errors or screenshots.');
 }finally{await browser.close()}
 })().catch(e=>{console.error(e);process.exit(1)});
