@@ -111,6 +111,19 @@ for(const e of expansion.entries){
 for(const item of [...detailA.additions,...detailB.additions]){assert.ok(entry(item.entry,item.block.id),'New explanatory block not present: '+item.entry+'/'+item.block.id);}
 const extendedCounts=Object.fromEntries(d.handbooks.map(h=>[h.id,h.entries.length]));
 assert.deepEqual(extendedCounts,{kodashim:28,tahorot:15,ishut:11,zeraim:17,mammon:19,issur:8});
+// Gemini audit follow-up: these wording and source anchors were independently reviewed.
+const geminiReview=JSON.parse(fs.readFileSync(path.join(root,'GEMINI-AUDIT-FOLLOWUP-0.13.0.json'),'utf8'));
+assert.equal(geminiReview.checkRows.length,7);
+for(const check of geminiReview.checkRows){
+ const [entryId,blockId]=check.block.split('/'),block=entry(entryId,blockId);
+ assert.ok(block,'Gemini-reviewed block missing: '+check.block);
+ assert.ok(block.refs.some(ref=>ref.source===check.source&&ref.segments.includes(check.segment)),
+   'Gemini-reviewed block lost exact citation: '+check.block+' → '+check.source);
+ assert.ok(normalizeSource(d.sources[check.source].segments[check.segment-1].text).includes(normalizeSource(check.sourceAnchor)),
+   'Gemini-reviewed source quotation mismatch: '+check.block+' → '+check.source);
+ assert.ok(normalizeSource(block.paragraphs.join(' ')).includes(normalizeSource(check.explanationAnchor)),
+   'Gemini-reviewed explanatory correction missing: '+check.block);
+}
 assert.deepEqual(errors,[]);assert.deepEqual(remote,[]);console.log('PASS: actual unpacked 0.13.0 package; home search, voluntary resume, continuous reading; all 98 entries and 317 block controls in six areas; new avodot source dialogs and reciprocal offering links; cross-area deep-link search and exact source dialogs; Hebrew search, back/reload/pager, SDK success and failure paths, mobile+desktop no overflow, font persistence. No network requests, JS errors or screenshots.');
 }finally{await browser.close()}
 })().catch(e=>{console.error(e);process.exit(1)});
