@@ -104,6 +104,9 @@ for id in sorted(_cited):
 sources['c-Chullin-3.1']['note']='סוגריים, הצעות הגהה ותוספות שבנוסח הדיגיטלי נשמרו. אין כאן הכרעת נוסח או אימות אנטומי מחודש של כל פרט; המבוא אינו מסיק דין מן המקומות המסופקים.'
 sources['c-Peah-1.2']['note']='הרמב״ם מביא שני נוסחים, ״ענוה״ ו״ענבה״, ומפרש את שניהם. שניהם נשמרו ללא הכרעת נוסח חדשה.'
 
+# Supplementary Rambam Mishneh Torah source verifies the distinction between
+# head-of-exile (worldwide) and Eretz Yisrael court (territorial) authority.
+source('mt-sanhedrin-authority','Rambam_Mishneh_Torah_Sanhedrin.4.14-15.json','רמב״ם')
 source('review-shomrim','next-Rambam_on_Mishnah_Shevuot.8.1.json','רמב״ם')
 source('review-zavim','next-Rambam_on_Mishnah_Zavim.1.1.json','רמב״ם')
 source('review-nissuin-m','next-Mishnah_Ketubot.4.4.json','משנה')
