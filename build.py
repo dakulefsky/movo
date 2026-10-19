@@ -9,14 +9,15 @@ from coverage_expansion import additions, issur_handbook
 from index_more import more
 from index_next import next_entries
 from coverage_core import core_additions
+from coverage_013 import apply_expansion
 ROOT=Path(__file__).resolve().parent
 policy={
  'format':'subject-handbook',
- 'scope':'מפתח לעניינים המרכזיים בלבד. אין להוסיף תחומים או מונחים רק כדי להגדיל את ההיקף. מפתח מבואי: רק מה שנצרך להעמיד את הענין ואת חילוקיו הראשונים לפני הכניסה לסוגיה. אין להוסיף סעיפים לשם מיצוי כל פרט ודעה.',
+ 'scope':'מפתח לעניינים המרכזיים בלבד. אין להוסיף תחומים או מונחים רק כדי להגדיל את ההיקף. מבוא לסוגיות המרכזיות: מבאר את הענין, סדרו, מקורותיו וחילוקיו העיקריים לפני הכניסה למשא ומתן של הסוגיה. אין להוסיף סעיפים לשם מיצוי כל פרט ודעה.',
  'fidelity':'הביאור נשען על האמור במקור המצוטט. אין להוסיף טעמים, מסקנות או מסגרות מושגיות שאינם מפורשים בו. ספקות נוסח ומחלוקות נשמרים בגלוי.',
  'principle':'בכל תחום מסבירים את הדברים, הפעולות והדינים הנצרכים להבנתו: מהו כל ענין, כיצד הוא נעשה, מתי הוא נוהג ומה פרטיו. אין להצטמצם לשמות חפצים או קרבנות בלבד.',
  'organization':'תחומים רחבים בלבד בראש הספרייה; בתוכם ענינים מסודרים, עם כותרות משנה המשתנות לפי הצורך.',
- 'style':'הסברים קצרים ומלאים בלשון בית המדרש. אין להסתפק בהגדרה בת שורה, ואין להאריך בפתיחות מאמריות.',
+ 'style':'הסברים בעלי תוכן ממשי בלשון בית המדרש; לא הערות קצרות בלבד, ולא פתיחות מאמריות שאין להן עוגן במקור.',
  'sources':'כל הסבר ערוך נבדל מלשון המחבר ומקושר למקורות שנקראו בפועל. אין להרחיב מן הזיכרון או להסיק הכרעת נוסח בלי ראיה.',
  'future_examples':{
   'טהרות':['טומאת מת','שרץ','נבילה','זב','טומאת אדם וכלים','דרכי הטהרה'],
@@ -94,6 +95,9 @@ from prose_refresh import apply_prose_refresh
 apply_prose_refresh(handbooks)
 from prose_revision import apply_prose_revision
 apply_prose_revision(handbooks)
+# Extend the reviewed core with independently anchored, in-depth introductions.
+coverage_summary=apply_expansion(handbooks,sources)
+print('source-anchored expansion:',coverage_summary)
 
 all_entries=[e for h in handbooks for e in h['entries']]
 ids=[e['id'] for e in all_entries]
@@ -115,7 +119,7 @@ for src in sources.values():
   for key in d['provenance']['jsonPath']:obj=obj[key]
   obj=[obj] if isinstance(obj,str) else obj
   assert obj==d['he'],src['filename']
-data={'schemaVersion':2,'version':'0.12.3','author':'DanTheMan','editorialPolicy':policy,'subjects':[{'id':id,'title':title,'status':status} for id,title,status in [('kodashim','קדשים','available'),('tahorot','טהרות','available'),('ishut','אישות','available'),('zeraim','זרעים','available'),('mammon','דיני ממונות','available'),('issur','איסור והיתר','available')]],'handbooks':handbooks,'sources':sources}
+data={'schemaVersion':2,'version':'0.13.0','author':'DanTheMan','editorialPolicy':policy,'subjects':[{'id':id,'title':title,'status':status} for id,title,status in [('kodashim','קדשים','available'),('tahorot','טהרות','available'),('ishut','אישות','available'),('zeraim','זרעים','available'),('mammon','דיני ממונות','available'),('issur','איסור והיתר','available')]],'handbooks':handbooks,'sources':sources}
 (ROOT/'plugin/data').mkdir(parents=True,exist_ok=True)
 (ROOT/'plugin/data/library.js').write_text('window.MEVOOT='+json.dumps(data,ensure_ascii=False)+';\n')
 (ROOT/'editorial.json').write_text(json.dumps(data,ensure_ascii=False,indent=2))
