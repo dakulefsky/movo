@@ -80,6 +80,11 @@ for h in handbooks:
 handbooks=[h for h in handbooks if h['id']!='moed']
 # Bundle only sources used by the remaining introductions.
 used_sources={ref['source'] for h in handbooks for e in h['entries'] for b in e['blocks'] for ref in b['refs']}
+# Coverage supplements are applied later: include their refs before pruning the catalogue.
+for filename in ('coverage_013_entries.json','coverage_013_details_a.json','coverage_013_details_b.json'):
+ payload=json.loads((ROOT/filename).read_text(encoding='utf-8'))
+ new_blocks=[b for e in payload.get('entries',[]) for b in e['blocks']]+[item['block'] for item in payload.get('additions',[])]
+ used_sources.update(r['source'] for b in new_blocks for r in b['refs'])
 sources={id:source for id,source in sources.items() if id in used_sources}
 
 # Attribution correction after reading the Mishnah and Rambam passages together.
