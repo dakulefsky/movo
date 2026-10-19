@@ -96,7 +96,7 @@ for(const e of expansion.entries){
  const found=d.handbooks.find(h=>h.id===e.handbook)?.entries.find(x=>x.id===e.id);
  assert.ok(found,'New central-sugya entry not present: '+e.id);
  assert.equal(found.blocks.length,3);
- for(const b of found.blocks){assert.ok(b.paragraphs.join(' ').split(/\\s+/).length>=32,'New introduction too thin: '+e.id+'/'+b.id);}
+ for(const b of found.blocks){assert.ok(b.paragraphs.join(' ').split(/\s+/).length>=32,'New introduction too thin: '+e.id+'/'+b.id);}
 }
 for(const item of [...detailA.additions,...detailB.additions]){assert.ok(entry(item.entry,item.block.id),'New explanatory block not present: '+item.entry+'/'+item.block.id);}
 const extendedCounts=Object.fromEntries(d.handbooks.map(h=>[h.id,h.entries.length]));
