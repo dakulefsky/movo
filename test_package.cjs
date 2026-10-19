@@ -2,8 +2,8 @@ const assert=require('node:assert/strict'),path=require('node:path'),fs=require(
 let pw;try{pw=require('playwright')}catch{pw=require(process.env.CODEX_PRIMARY_RUNTIME_NODE_MODULES+'/playwright')}
 (async()=>{
 const root=__dirname,unpacked=path.join(root,'test-unpacked');fs.rmSync(unpacked,{recursive:true,force:true});fs.mkdirSync(unpacked);
-execFileSync('python',['-c',`import zipfile;zipfile.ZipFile(${JSON.stringify(path.join(root,'dist/Mevoot-Shas-0.13.1.otzplugin'))}).extractall(${JSON.stringify(unpacked)})`]);
-const manifest=JSON.parse(fs.readFileSync(path.join(unpacked,'manifest.json')));assert.equal(manifest.author,'DanTheMan');assert.equal(manifest.version,'0.13.1');assert.equal(manifest.network.enabled,false);
+execFileSync('python',['-c',`import zipfile;zipfile.ZipFile(${JSON.stringify(path.join(root,'dist/Mevoot-Shas-0.13.2.otzplugin'))}).extractall(${JSON.stringify(unpacked)})`]);
+const manifest=JSON.parse(fs.readFileSync(path.join(unpacked,'manifest.json')));assert.equal(manifest.author,'DanTheMan');assert.equal(manifest.version,'0.13.2');assert.equal(manifest.network.enabled,false);
 const browser=await pw.chromium.launch({headless:true,...(process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE?{executablePath:process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE}:{}),args:['--no-sandbox']}),page=await browser.newPage();const errors=[],remote=[];
 try{
 page.on('pageerror',e=>errors.push(e.message));page.on('request',r=>{if(/^https?:/.test(r.url()))remote.push(r.url())});
@@ -52,6 +52,20 @@ await chooseSubject('zeraim');await chooseEntry('z-biur');await expandSection('z
 await chooseSubject('tahorot');await chooseEntry('t-ohel');await expandSection('t-ohel--distinction');await page.locator('#t-ohel--distinction .refs summary').click();await expandSection('t-ohel--distinction');await page.locator('#t-ohel--distinction .refs button').first().click();assert.match(await page.locator('#source-segments').innerText(),/חור שחררוהו מים/);await page.click('#close-source');await chooseEntry('t-niddah');await expandSection('t-niddah--distinction');await page.locator('#t-niddah--distinction .refs summary').click();await expandSection('t-niddah--distinction');await page.locator('#t-niddah--distinction .refs button').click();assert.match(await page.locator('#source-note').innerText(),/הסוגריים/);await page.click('#close-source');
 const corpus=await page.evaluate(()=>window.MEVOOT);assert.ok(!corpus.handbooks.some(h=>h.id==='berakhot'));assert.ok(!corpus.handbooks.flatMap(h=>h.entries).some(e=>e.id.startsWith('b-')));assert.ok(!Object.keys(corpus.sources).some(id=>id.startsWith('v-Berakhot-')));assert.equal(corpus.handbooks.length,6);assert.ok(!corpus.subjects.some(s=>s.id==='moed'));assert.ok(!corpus.handbooks.some(h=>h.id==='moed'));for(const id of ['s-melachot','s-hotzaah','s-eruv','s-techum','s-shvut','s-muktzeh'])assert.ok(!corpus.handbooks.flatMap(h=>h.entries).some(e=>e.id===id));assert.equal(corpus.handbooks.flatMap(h=>h.entries).length,98);assert.equal(corpus.handbooks.flatMap(h=>h.entries).reduce((n,e)=>n+e.blocks.length,0),317);
 for(const h of corpus.handbooks){await chooseSubject(''+h.id+'');for(const e of h.entries){await chooseEntry(''+e.id+'');assert.equal(await page.locator('#article h2').innerText(),e.title);assert.equal(await page.locator('.chapter').count(),e.blocks.length);assert.equal(await page.locator('.chapter>.refs').count(),e.blocks.length);}}
+// Cross-handbook related links are supported, not just cross-handbook search results.
+await chooseSubject('ishut');await chooseEntry('i-kiddushin');
+await expandSection('i-kiddushin--way-of-act');
+assert.equal(await page.locator('#i-kiddushin--way-of-act .related button').count(),1);
+await page.locator('#i-kiddushin--way-of-act .related button').click();
+const land=corpus.handbooks.find(h=>h.id==='mammon').entries.find(e=>e.id==='d-karka');
+assert.equal(await page.locator('#article h2').innerText(),land.title);
+assert.equal(await page.locator('#subject-switch').inputValue(),'mammon');
+assert.match(page.url(),/#d-karka$/);
+// Invalid future links must never blank an otherwise valid reading page.
+await page.evaluate(()=>window.MEVOOT.handbooks.find(h=>h.id==='ishut').entries.find(e=>e.id==='i-kiddushin').blocks.find(b=>b.id==='way-of-act').links.push('invalid-target-from-audit'));
+await chooseSubject('ishut');await chooseEntry('i-kiddushin');
+assert.equal(await page.locator('#article h2').innerText(),'קידושין');
+assert.equal(await page.locator('#i-kiddushin--way-of-act .related button').count(),1);
 await page.click('#home-button');assert.equal(await page.locator('#home-view').isVisible(),true);await page.reload();assert.equal(await page.locator('#home-view').isVisible(),true);await chooseSubject('kodashim');await page.reload();assert.equal(await page.locator('#directory-view').isVisible(),true);
 await chooseEntry('av-zerikah');assert.equal(await page.locator('#article h2').innerText(),'זריקה ומתנות הדם');assert.equal(await page.locator('#av-zerikah--outer dt').count(),3);await expandSection('av-zerikah--meakev');await page.locator('#av-zerikah--meakev .refs summary').click();await expandSection('av-zerikah--meakev');await page.locator('#av-zerikah--meakev .refs button').first().click();assert.match(await page.locator('#source-title').innerText(),/זבחים/);assert.match(await page.locator('#source-segments').innerText(),/מַתָּנָה אַחַת/);await page.click('#close-source');
 await chooseEntry('av-tenufah');await expandSection('av-tenufah--when');await page.locator('#av-tenufah--when .refs summary').click();await expandSection('av-tenufah--when');await page.locator('#av-tenufah--when .refs button').first().click();assert.match(await page.locator('#source-title').innerText(),/מנחות/);assert.match(await page.locator('#source-segments').innerText(),/תְּנוּפָה חַיִּים/);await page.click('#close-source');
@@ -148,6 +162,24 @@ for(const record of audit2.checks){
 assert.equal(audit2Blocks.size,8);
 assert.match(entry('z-challah','dough').paragraphs[0],/אין ההפרשה הראשונה עושה את הקמח לחלה גמורה/);
 assert.match(entry('d-shomrim','four').paragraphs[0],/בכפוף לפטוריו/);
-assert.deepEqual(errors,[]);assert.deepEqual(remote,[]);console.log('PASS: actual unpacked 0.13.1 package; home search, voluntary resume, continuous reading; all 98 entries and 317 block controls in six areas; new avodot source dialogs and reciprocal offering links; cross-area deep-link search and exact source dialogs; Hebrew search, back/reload/pager, SDK success and failure paths, mobile+desktop no overflow, font persistence. No network requests, JS errors or screenshots.');
+// Source-audited 0.13.2 corrections with a separately bundled Mishneh Torah text.
+const audit3=JSON.parse(fs.readFileSync(path.join(root,'SOURCE-REVIEW-0.13.2.json'),'utf8'));
+assert.equal(audit3.version,'0.13.2');assert.equal(audit3.checks.length,9);
+for(const record of audit3.checks){
+ const [entryId,blockId]=record.blockId.split('/');const block=entry(entryId,blockId);
+ assert.ok(block,'0.13.2 block missing '+record.blockId);
+ assert.ok(block.refs.some(ref=>ref.source===record.sourceId&&ref.segments.includes(record.segment)),
+   '0.13.2 source missing from block '+record.blockId+'/'+record.sourceId);
+ const src=d.sources[record.sourceId];assert.ok(src,'Source ID not bundled: '+record.sourceId);
+ assert.equal(src.filename,record.filename);
+ assert.ok(normalizeSource(src.segments[record.segment-1]?.text||'').includes(normalizeSource(record.sourceQuote)),
+   '0.13.2 source anchor mismatched: '+record.blockId+'/'+record.sourceId);
+ assert.ok(normalizeSource(block.paragraphs.join(' ')).includes(normalizeSource(record.explanationQuote)),
+   '0.13.2 reviewed wording missing: '+record.blockId);
+}
+assert.ok(d.sources['mt-sanhedrin-authority']);
+const newRelated=entry('i-kiddushin','way-of-act').links;
+assert.ok(newRelated.includes('d-karka'));
+assert.deepEqual(errors,[]);assert.deepEqual(remote,[]);console.log('PASS: actual unpacked 0.13.2 package; home search, voluntary resume, continuous reading; all 98 entries and 317 block controls in six areas; new avodot source dialogs and reciprocal offering links; cross-area deep-link search and exact source dialogs; Hebrew search, back/reload/pager, SDK success and failure paths, mobile+desktop no overflow, font persistence. No network requests, JS errors or screenshots.');
 }finally{await browser.close()}
 })().catch(e=>{console.error(e);process.exit(1)});
