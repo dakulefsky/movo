@@ -2,11 +2,11 @@
 
 An offline Hebrew introductory index for Otzaria, by **DanTheMan**.
 
-The plugin introduces the main subjects and essential processes in קדשים, טהרות, אישות, זרעים, דיני ממונות, and איסור והיתר. Entries are short, with expandable headings, search, related entries, and bundled source passages. The current source version is **0.13.4**, incorporating a fifth source-first audit of the Rambam and Meiri while retaining 98 introductions, 317 sections and globally safe cross-handbook links.
+The plugin introduces the main subjects and essential processes in קדשים, טהרות, אישות, זרעים, דיני ממונות, and איסור והיתר. Entries are short, with expandable headings, search, related entries, and bundled source passages. The current source version is **0.13.5**, incorporating a sixth source-first audit of the Rambam and Meiri while retaining 98 introductions, 317 sections and globally safe cross-handbook links.
 
 ## Install
 
-Install the **0.13.4** package once validated from the `Mevoot-Hashas-plugin` artifact of the latest successful [GitHub Actions run](https://github.com/dakulefsky/movo/actions/workflows/release.yml), or from the Otzaria plugin listing once its update is published. The older [0.12.0 package](dist/Mevoot-Shas-0.12.0.otzplugin) remains in the repository for comparison. No internet connection or AI service is required by the installed plugin.
+Install the **0.13.5** package once validated from the `Mevoot-Hashas-plugin` artifact of the latest successful [GitHub Actions run](https://github.com/dakulefsky/movo/actions/workflows/release.yml), or from the Otzaria plugin listing once its update is published. The older [0.12.0 package](dist/Mevoot-Shas-0.12.0.otzplugin) remains in the repository for comparison. No internet connection or AI service is required by the installed plugin.
 
 The manifest declares Otzaria 0.9.97 or later. Package validation was run against 0.9.98. Installation and source opening in a running installed Otzaria application remain unverified; see [VALIDATION.md](VALIDATION.md).
 
@@ -19,7 +19,7 @@ python3 build.py
 python3 package.py
 ```
 
-This generates the content export, editorial data and `plugin/data/library.js`, then creates `dist/Mevoot-Shas-0.13.4.otzplugin`. Build output is reproducible without fetching source texts.
+This generates the content export, editorial data and `plugin/data/library.js`, then creates `dist/Mevoot-Shas-0.13.5.otzplugin`. Build output is reproducible without fetching source texts.
 
 ## Sources and editorial scope
 
@@ -136,3 +136,11 @@ Resolved nine identified omissions in **ten** existing explanatory blocks, cover
 The user's audit attached the Baalav Imo ruling to `d-shomer-ones/roles`, but the actual relevant blocks are `d-shomrim/ones` and `d-shomrim/baalav`; neither the four-guardians introduction nor the legal distinction was discarded. The Taharot revision expressly preserves the Rambam's conclusion that the historically decreed `בשר תאווה` is *טהור לתרומה* while *מטמא את הקודש*. The Chullin account describes the Rambam's example, not universal contemporary kashrut practice.
 
 See [SOURCE-REVIEW-0.13.4.md](SOURCE-REVIEW-0.13.4.md) for the exact decisions and [SOURCE-REVIEW-0.13.4.json](SOURCE-REVIEW-0.13.4.json) for 15 machine-checked source-text quotations and matching explanatory phrases. The release does not change the six broad study areas, 98 entries, 317 blocks or 215 source records; it preserves every previous source-audit regression.
+
+## Sixth source-first audit — 0.13.5
+
+A consolidated review of the exact 0.13.4 prose identified one serious ambiguity about inner sin-offering blood applications, several omitted source-specific legal mechanisms, and several false positives. Fifteen existing explanatory blocks were revised after checking the bundled sources; the separate asham species and bird-chattat melikah explanations already covered two alleged omissions, so those blocks were left unchanged. The reviewed changes are in [SOURCE-REVIEW-0.13.5.json](SOURCE-REVIEW-0.13.5.json), with source-text quotation and explanation guards applied at build time. The six approved areas, 98 introductions, 317 blocks and original source records remain intact. Tests check source attachment and wording regressions; they do not constitute independent rabbinic certification.
+
+### Source-first depth additions
+
+Five short introductions were deliberately expanded instead of increasing the index count: inner blood applications (`k-matanot/inner`), the Mishnah's specific standards for unavoidable losses by animal attacks (`d-shomer-ones/wolves`), the five grain species and their related obligations (`z-five-grains/species`), the Meiri's map of Ketubot (`i-ketubah/source-map`), and the distinction between invalid slaughter, retained meilah and the three formulae of the Mishnah (`k-meilah/invalid-service`). See `DEPTH-REVIEW-0.13.5.json` for complete prose and passage anchors. The build and packaged regression tests require both directly cited source evidence and minimum meaningful depth in each revised explanation.

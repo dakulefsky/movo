@@ -9,7 +9,7 @@ from coverage_expansion import additions, issur_handbook
 from index_more import more
 from index_next import next_entries
 from coverage_core import core_additions
-from coverage_013 import apply_expansion
+from coverage_013 import apply_expansion, letters_only
 ROOT=Path(__file__).resolve().parent
 policy={
  'format':'subject-handbook',
@@ -85,6 +85,10 @@ for filename in ('coverage_013_entries.json','coverage_013_details_a.json','cove
  payload=json.loads((ROOT/filename).read_text(encoding='utf-8'))
  new_blocks=[b for e in payload.get('entries',[]) for b in e['blocks']]+[item['block'] for item in payload.get('additions',[])]
  used_sources.update(r['source'] for b in new_blocks for r in b['refs'])
+# Retain directly cited source passages added by the sixth audit.
+for reviewed in json.loads((ROOT/'SOURCE-REVIEW-0.13.5.json').read_text(encoding='utf-8'))['changes']:
+ for r in reviewed.get('addRefs',[]):used_sources.add(r['source'])
+ if reviewed.get('proof'):used_sources.add(reviewed['proof']['sourceId'])
 sources={id:source for id,source in sources.items() if id in used_sources}
 
 # Attribution correction after reading the Mishnah and Rambam passages together.
@@ -103,6 +107,90 @@ apply_prose_revision(handbooks)
 # Extend the reviewed core with independently anchored, in-depth introductions.
 coverage_summary=apply_expansion(handbooks,sources)
 print('source-anchored expansion:',coverage_summary)
+
+# Sixth source-first audit: make the reviewed corrections in the built corpus,
+# preserving the historical source and prose overlays without mutating quotations.
+sixth=json.loads((ROOT/'SOURCE-REVIEW-0.13.5.json').read_text(encoding='utf-8'))
+assert sixth['version']=='0.13.5'
+block_index={e['id']+'/'+b['id']:b for h in handbooks for e in h['entries'] for b in e['blocks']}
+assert len(sixth['changes'])==15
+seen_sixth=set()
+for edit in sixth['changes']:
+ key=edit['blockId']
+ assert key in block_index and key not in seen_sixth, ('sixth-audit block mismatch',key)
+ block=block_index[key]
+ assert edit['oldQuote'] in ' '.join(block['paragraphs']), ('sixth-audit stale original',key)
+ assert edit['paragraphs'] and all(p.strip() for p in edit['paragraphs']), key
+ block['paragraphs']=edit['paragraphs']
+ for ref in edit.get('addRefs',[]):
+  assert ref['source'] in sources, ('sixth-audit missing cited source',key,ref)
+  if ref not in block['refs']:block['refs'].append(ref)
+ proof=edit.get('proof')
+ if proof:
+  src=sources[proof['sourceId']]
+  segment=proof['segment']
+  assert 1<=segment<=len(src['segments']), (key,'bad source segment')
+  assert letters_only(proof['sourceQuote']) in letters_only(src['segments'][segment-1]['text']), (key,'source passage drift')
+  assert letters_only(proof['explanationQuote']) in letters_only(' '.join(block['paragraphs'])), (key,'explanation drift')
+  proof_ref={'source':proof['sourceId'],'segments':[segment]}
+  if not any(r['source']==proof_ref['source'] and segment in r['segments'] for r in block['refs']):
+   block['refs'].append(proof_ref)
+ seen_sixth.add(key)
+
+# Source-anchored depth pass: expand thin introductions only where the exact
+# cited source supplies an additional legal distinction or a concrete example.
+depth=json.loads((ROOT/'DEPTH-REVIEW-0.13.5.json').read_text(encoding='utf-8'))
+assert depth['version']=='0.13.5' and len(depth['updates'])==7
+depth_seen=set()
+for edit in depth['updates']:
+ key=edit['blockId']
+ assert key in block_index and key not in depth_seen, ('depth block',key)
+ b=block_index[key]
+ proof=edit['proof'];segment=proof['segment'];src=sources[proof['sourceId']]
+ assert any(r['source']==proof['sourceId'] and segment in r['segments'] for r in b['refs']), ('depth cite',key)
+ assert letters_only(proof['sourceQuote']) in letters_only(src['segments'][segment-1]['text']), ('depth source',key)
+ assert letters_only(proof['explanationQuote']) in letters_only(' '.join(edit['paragraphs'])), ('depth prose',key)
+ assert len(' '.join(edit['paragraphs']).split())>=90, ('still too short',key)
+ b['paragraphs']=edit['paragraphs']
+ depth_seen.add(key)
+
+
+# Guide readers through closely related fundamental sugyot, rather than
+# sending them back to the directory after every introduction.
+reading_paths={
+ 'k-inner-chattat':['chattat','k-matanot','pesulim','av-kabbalah','av-zerikah'],
+ 'k-matanot':['k-inner-chattat','pesulim','av-zerikah','chattat'],
+ 'pesulim':['k-matanot','k-inner-chattat','av-shechitah','av-kabbalah','av-holachah','av-zerikah'],
+ 'av-shechitah':['av-kabbalah','av-holachah','pesulim'],
+ 'av-kabbalah':['av-shechitah','av-holachah','av-zerikah','k-inner-chattat'],
+ 'av-holachah':['av-kabbalah','av-zerikah','pesulim'],
+ 'av-zerikah':['av-kabbalah','k-matanot','k-inner-chattat','pesulim'],
+ 'k-meilah':['k-temurah','asham'],
+ 'i-ketubah':['i-kiddushin','i-gerushin'],
+ 'z-challah':['z-hafrashah']
+}
+entry_by_id={e['id']:e for h in handbooks for e in h['entries']}
+for origin,targets in reading_paths.items():
+ if origin not in entry_by_id: continue
+ valid=[target for target in targets if target in entry_by_id and target!=origin]
+ for block in entry_by_id[origin]['blocks']:
+  if block is entry_by_id[origin]['blocks'][-1]:
+   block['links']=list(dict.fromkeys([*block['links'],*valid]))
+# Source-based editorial depth report. A short specific definition may be
+# sufficient; the report flags candidates for review, not automatic filler.
+depth_report={'edition':'0.13.5','purpose':'Editorial triage, not a claim of full Torah coverage','handbooks':[],'thin_candidates':[]}
+for handbook in handbooks:
+ total=0;short=0
+ for entry_ in handbook['entries']:
+  for block in entry_['blocks']:
+   total+=1
+   words=len(' '.join(block['paragraphs']).split())
+   if words<60:
+    short+=1
+    depth_report['thin_candidates'].append({'handbook':handbook['id'],'entry':entry_['id'],'block':block['id'],'words':words,'sources':[r['source'] for r in block['refs']]})
+ depth_report['handbooks'].append({'id':handbook['id'],'entries':len(handbook['entries']),'blocks':total,'under_60_words':short})
+(ROOT/'EDITORIAL-DEPTH-REPORT.json').write_text(json.dumps(depth_report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+
 
 all_entries=[e for h in handbooks for e in h['entries']]
 ids=[e['id'] for e in all_entries]
@@ -124,7 +212,7 @@ for src in sources.values():
   for key in d['provenance']['jsonPath']:obj=obj[key]
   obj=[obj] if isinstance(obj,str) else obj
   assert obj==d['he'],src['filename']
-data={'schemaVersion':2,'version':'0.13.4','author':'DanTheMan','editorialPolicy':policy,'subjects':[{'id':id,'title':title,'status':status} for id,title,status in [('kodashim','קדשים','available'),('tahorot','טהרות','available'),('ishut','אישות','available'),('zeraim','זרעים','available'),('mammon','דיני ממונות','available'),('issur','איסור והיתר','available')]],'handbooks':handbooks,'sources':sources}
+data={'schemaVersion':2,'version':'0.13.5','author':'DanTheMan','editorialPolicy':policy,'subjects':[{'id':id,'title':title,'status':status} for id,title,status in [('kodashim','קדשים','available'),('tahorot','טהרות','available'),('ishut','אישות','available'),('zeraim','זרעים','available'),('mammon','דיני ממונות','available'),('issur','איסור והיתר','available')]],'handbooks':handbooks,'sources':sources}
 (ROOT/'plugin/data').mkdir(parents=True,exist_ok=True)
 (ROOT/'plugin/data/library.js').write_text('window.MEVOOT='+json.dumps(data,ensure_ascii=False)+';\n')
 (ROOT/'editorial.json').write_text(json.dumps(data,ensure_ascii=False,indent=2))

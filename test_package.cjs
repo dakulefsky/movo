@@ -2,8 +2,8 @@ const assert=require('node:assert/strict'),path=require('node:path'),fs=require(
 let pw;try{pw=require('playwright')}catch{pw=require(process.env.CODEX_PRIMARY_RUNTIME_NODE_MODULES+'/playwright')}
 (async()=>{
 const root=__dirname,unpacked=path.join(root,'test-unpacked');fs.rmSync(unpacked,{recursive:true,force:true});fs.mkdirSync(unpacked);
-execFileSync('python',['-c',`import zipfile;zipfile.ZipFile(${JSON.stringify(path.join(root,'dist/Mevoot-Shas-0.13.4.otzplugin'))}).extractall(${JSON.stringify(unpacked)})`]);
-const manifest=JSON.parse(fs.readFileSync(path.join(unpacked,'manifest.json')));assert.equal(manifest.author,'DanTheMan');assert.equal(manifest.version,'0.13.4');assert.equal(manifest.network.enabled,false);
+execFileSync('python',['-c',`import zipfile;zipfile.ZipFile(${JSON.stringify(path.join(root,'dist/Mevoot-Shas-0.13.5.otzplugin'))}).extractall(${JSON.stringify(unpacked)})`]);
+const manifest=JSON.parse(fs.readFileSync(path.join(unpacked,'manifest.json')));assert.equal(manifest.author,'DanTheMan');assert.equal(manifest.version,'0.13.5');assert.equal(manifest.network.enabled,false);
 const browser=await pw.chromium.launch({headless:true,...(process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE?{executablePath:process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE}:{}),args:['--no-sandbox']}),page=await browser.newPage();const errors=[],remote=[];
 try{
 page.on('pageerror',e=>errors.push(e.message));page.on('request',r=>{if(/^https?:/.test(r.url()))remote.push(r.url())});
@@ -174,8 +174,12 @@ for(const record of audit3.checks){
  assert.equal(src.filename,record.filename);
  assert.ok(normalizeSource(src.segments[record.segment-1]?.text||'').includes(normalizeSource(record.sourceQuote)),
    '0.13.2 source anchor mismatched: '+record.blockId+'/'+record.sourceId);
- assert.ok(normalizeSource(block.paragraphs.join(' ')).includes(normalizeSource(record.explanationQuote)),
-   '0.13.2 reviewed wording missing: '+record.blockId);
+ // The 0.13.5 source-first revision supersedes the old paper-value wording,
+ // while keeping the 0.13.2 Rambam source reference and exact source quotation.
+ const reviewedPhrase=record.blockId==='i-kiddushin/way-of-act'
+   ? 'מקור קידושי שטר הוא ההיקש' : record.explanationQuote;
+ assert.ok(normalizeSource(block.paragraphs.join(' ')).includes(normalizeSource(reviewedPhrase)),
+   '0.13.2/0.13.5 reviewed wording missing: '+record.blockId);
 }
 assert.ok(d.sources['mt-sanhedrin-authority']);
 const newRelated=entry('i-kiddushin','way-of-act').links;
@@ -229,6 +233,58 @@ assert.match(entry('t-ranks','rabbinic').paragraphs.join(' '),/טהור לתרו
 assert.match(entry('a-taam','distinction').paragraphs.join(' '),/אלא ביאור דרך הבדיקה/);
 assert.ok(entry('d-shomer-ones','roles').paragraphs.join(' ').includes('ארבעה שומרים'),
  'Four-guardian introduction must remain distinct from Baalav Imo source discussion');
-assert.deepEqual(errors,[]);assert.deepEqual(remote,[]);console.log('PASS: actual unpacked 0.13.4 package; home search, voluntary resume, continuous reading; all 98 entries and 317 block controls in six areas; new avodot source dialogs and reciprocal offering links; cross-area deep-link search and exact source dialogs; Hebrew search, back/reload/pager, SDK success and failure paths, mobile+desktop no overflow, font persistence. No network requests, JS errors or screenshots.');
+// Sixth audit: source-first fixes are preserved without changing index shape.
+const sixth=JSON.parse(fs.readFileSync(path.join(root,'SOURCE-REVIEW-0.13.5.json'),'utf8'));
+assert.equal(sixth.version,'0.13.5');
+assert.equal(sixth.changes.length,15);
+const sixthSeen=new Set();
+for(const change of sixth.changes){
+ const [entryId,blockId]=change.blockId.split('/');
+ const block=entry(entryId,blockId);
+ assert.ok(block,'0.13.5 missing corrected block: '+change.blockId);
+ assert.ok(!sixthSeen.has(change.blockId),'0.13.5 duplicate corrected block');
+ sixthSeen.add(change.blockId);
+ assert.deepEqual(block.paragraphs,change.paragraphs,'0.13.5 wording drift: '+change.blockId);
+ if(change.proof){
+  const proof=change.proof,src=d.sources[proof.sourceId];
+  assert.ok(src,'0.13.5 source record missing: '+proof.sourceId);
+  assert.ok(block.refs.some(ref=>ref.source===proof.sourceId && ref.segments.includes(proof.segment)),
+   '0.13.5 exact cited segment missing: '+change.blockId);
+  assert.ok(normalizeSource(src.segments[proof.segment-1]?.text||'').includes(normalizeSource(proof.sourceQuote)),
+   '0.13.5 source quotation drift: '+change.blockId);
+  assert.ok(normalizeSource(block.paragraphs.join(' ')).includes(normalizeSource(proof.explanationQuote)),
+   '0.13.5 missing explanation anchor: '+change.blockId);
+ }
+}
+// Depth-review expansions are checked against the packaged corpus and citations.
+const depthAudit=JSON.parse(fs.readFileSync(path.join(root,'EDITORIAL-DEPTH-REPORT.json'),'utf8'));
+assert.equal(depthAudit.handbooks.length,6);
+assert.equal(depthAudit.handbooks.reduce((sum,h)=>sum+h.entries,0),98);
+assert.equal(depthAudit.handbooks.reduce((sum,h)=>sum+h.blocks,0),317);
+assert.ok(depthAudit.thin_candidates.every(c=>c.words<60&&c.sources.length>0));
+for(const [source,targets] of Object.entries({
+ 'k-inner-chattat':['k-matanot','pesulim','av-zerikah'],
+ 'k-matanot':['k-inner-chattat','pesulim'],
+ 'pesulim':['k-matanot','av-kabbalah','av-zerikah'],
+ 'av-holachah':['av-kabbalah','av-zerikah']
+})){
+ const found=d.handbooks.flatMap(h=>h.entries).find(e=>e.id===source);
+  assert.ok(found,'Missing route entry: '+source);
+  const blocks=found.blocks;
+ for(const target of targets)assert.ok(blocks.some(b=>b.links.includes(target)),'Missing learning route: '+source+' to '+target);
+}
+const depth=JSON.parse(fs.readFileSync(path.join(root,'DEPTH-REVIEW-0.13.5.json'),'utf8'));
+assert.equal(depth.updates.length,7);
+for(const correction of depth.updates){
+ const [entryId,blockId]=correction.blockId.split('/');
+ const b=entry(entryId,blockId),p=correction.proof;
+ assert.deepEqual(b.paragraphs,correction.paragraphs,'Depth review prose drift: '+correction.blockId);
+ assert.ok(b.paragraphs.join(' ').split(/\s+/).length>=90,'Depth section too short: '+correction.blockId);
+ assert.ok(b.refs.some(r=>r.source===p.sourceId&&r.segments.includes(p.segment)),'Depth citation missing: '+correction.blockId);
+ assert.ok(normalizeSource(d.sources[p.sourceId].segments[p.segment-1].text).includes(normalizeSource(p.sourceQuote)),'Depth source drift: '+correction.blockId);
+}
+assert.match(entry('asham','animals').paragraphs.join(' '),/זכרי הכבשים/);
+assert.match(entry('av-melikah','act').paragraphs.join(' '),/אין מבדילים/);
+assert.deepEqual(errors,[]);assert.deepEqual(remote,[]);console.log('PASS: actual unpacked 0.13.5 package; home search, voluntary resume, continuous reading; all 98 entries and 317 block controls in six areas; new avodot source dialogs and reciprocal offering links; cross-area deep-link search and exact source dialogs; Hebrew search, back/reload/pager, SDK success and failure paths, mobile+desktop no overflow, font persistence. No network requests, JS errors or screenshots.');
 }finally{await browser.close()}
 })().catch(e=>{console.error(e);process.exit(1)});
