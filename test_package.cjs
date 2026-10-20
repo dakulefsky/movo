@@ -82,6 +82,8 @@ assert.match(entry('t-met','source').paragraphs.join(' '),/חלקים ממנו/)
 assert.match(entry('i-kiddushin','meaning').paragraphs.join(' '),/אין הקידושין חלים אלא מרצונה/);
 assert.match(entry('d-nezikin','avot').paragraphs.join(' '),/ארבעה אבות נזיקין/);
 assert.match(entry('a-neder','meaning').paragraphs.join(' '),/בנדרי איסור/);
+assert.match(entry('t-hechsher','conditions').paragraphs.join(' '),/בעוד המשקה על האוכל/);
+assert.match(entry('t-hechsher','conditions').paragraphs.join(' '),/משקין טמאין שהם עצמם אבות הטומאה/);
 assert.match(entry('i-ketubah','source-map').paragraphs.join(' '),/לשנים עשר חלקים/);
 assert.doesNotMatch(entry('i-ketubah','source-map').paragraphs.join(' '),/ענין אחד עשוי להיכנס בגבול חברו/);
 assert.match(entry('a-yadot-kinuyim','names').paragraphs.join(' '),/קונם וקונח וקונז/);
