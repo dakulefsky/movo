@@ -140,3 +140,7 @@ See [SOURCE-REVIEW-0.13.4.md](SOURCE-REVIEW-0.13.4.md) for the exact decisions a
 ## Sixth source-first audit — 0.13.5
 
 A consolidated review of the exact 0.13.4 prose identified one serious ambiguity about inner sin-offering blood applications, several omitted source-specific legal mechanisms, and several false positives. Fifteen existing explanatory blocks were revised after checking the bundled sources; the separate asham species and bird-chattat melikah explanations already covered two alleged omissions, so those blocks were left unchanged. The reviewed changes are in [SOURCE-REVIEW-0.13.5.json](SOURCE-REVIEW-0.13.5.json), with source-text quotation and explanation guards applied at build time. The six approved areas, 98 introductions, 317 blocks and original source records remain intact. Tests check source attachment and wording regressions; they do not constitute independent rabbinic certification.
+
+### Source-first depth additions
+
+Four short introductions were deliberately expanded instead of increasing the index count: inner blood applications (`k-matanot/inner`), the Mishnah's specific standards for unavoidable losses by animal attacks (`d-shomer-ones/wolves`), the five grain species and their related obligations (`z-five-grains/species`), and the Meiri's map of Ketubot (`i-ketubah/source-map`). See `DEPTH-REVIEW-0.13.5.json` for complete prose and passage anchors. The build and packaged regression tests require both directly cited source evidence and minimum meaningful depth in each revised explanation.
