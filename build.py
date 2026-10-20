@@ -9,7 +9,7 @@ from coverage_expansion import additions, issur_handbook
 from index_more import more
 from index_next import next_entries
 from coverage_core import core_additions
-from coverage_013 import apply_expansion
+from coverage_013 import apply_expansion, letters_only
 ROOT=Path(__file__).resolve().parent
 policy={
  'format':'subject-handbook',
@@ -85,6 +85,10 @@ for filename in ('coverage_013_entries.json','coverage_013_details_a.json','cove
  payload=json.loads((ROOT/filename).read_text(encoding='utf-8'))
  new_blocks=[b for e in payload.get('entries',[]) for b in e['blocks']]+[item['block'] for item in payload.get('additions',[])]
  used_sources.update(r['source'] for b in new_blocks for r in b['refs'])
+# Retain directly cited source passages added by the sixth audit.
+for reviewed in json.loads((ROOT/'SOURCE-REVIEW-0.13.5.json').read_text(encoding='utf-8'))['changes']:
+ for r in reviewed.get('addRefs',[]):used_sources.add(r['source'])
+ if reviewed.get('proof'):used_sources.add(reviewed['proof']['sourceId'])
 sources={id:source for id,source in sources.items() if id in used_sources}
 
 # Attribution correction after reading the Mishnah and Rambam passages together.
@@ -121,6 +125,16 @@ for edit in sixth['changes']:
  for ref in edit.get('addRefs',[]):
   assert ref['source'] in sources, ('sixth-audit missing cited source',key,ref)
   if ref not in block['refs']:block['refs'].append(ref)
+ proof=edit.get('proof')
+ if proof:
+  src=sources[proof['sourceId']]
+  segment=proof['segment']
+  assert 1<=segment<=len(src['segments']), (key,'bad source segment')
+  assert letters_only(proof['sourceQuote']) in letters_only(src['segments'][segment-1]['text']), (key,'source passage drift')
+  assert letters_only(proof['explanationQuote']) in letters_only(' '.join(block['paragraphs'])), (key,'explanation drift')
+  proof_ref={'source':proof['sourceId'],'segments':[segment]}
+  if not any(r['source']==proof_ref['source'] and segment in r['segments'] for r in block['refs']):
+   block['refs'].append(proof_ref)
  seen_sixth.add(key)
 
 
