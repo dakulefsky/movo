@@ -257,6 +257,20 @@ for(const change of sixth.changes){
  }
 }
 // Depth-review expansions are checked against the packaged corpus and citations.
+const depthAudit=JSON.parse(fs.readFileSync(path.join(root,'EDITORIAL-DEPTH-REPORT.json'),'utf8'));
+assert.equal(depthAudit.handbooks.length,6);
+assert.equal(depthAudit.handbooks.reduce((sum,h)=>sum+h.entries,0),98);
+assert.equal(depthAudit.handbooks.reduce((sum,h)=>sum+h.blocks,0),317);
+assert.ok(depthAudit.thin_candidates.every(c=>c.words<60&&c.sources.length>0));
+for(const [source,targets] of Object.entries({
+ 'k-inner-chattat':['k-matanot','k-pigul','av-zerikah'],
+ 'k-matanot':['k-inner-chattat','k-pigul'],
+ 'k-pigul':['k-matanot','av-kabbalah','av-zerikah'],
+ 'av-holachah':['av-kabbalah','av-zerikah']
+})){
+ const blocks=entry(source).blocks;
+ for(const target of targets)assert.ok(blocks.some(b=>b.links.includes(target)),'Missing learning route: '+source+' to '+target);
+}
 const depth=JSON.parse(fs.readFileSync(path.join(root,'DEPTH-REVIEW-0.13.5.json'),'utf8'));
 assert.equal(depth.updates.length,5);
 for(const correction of depth.updates){
