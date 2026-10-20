@@ -83,6 +83,8 @@ assert.match(entry('i-kiddushin','meaning').paragraphs.join(' '),/אין הקי�
 assert.match(entry('d-nezikin','avot').paragraphs.join(' '),/ארבעה אבות נזיקין/);
 assert.match(entry('a-neder','meaning').paragraphs.join(' '),/בנדרי איסור/);
 assert.match(entry('t-hechsher','conditions').paragraphs.join(' '),/בעוד המשקה על האוכל/);
+assert.match(entry('k-inner-chattat','place').paragraphs.join(' '),/שיירי הדם נשפכים ליסוד/);
+assert.match(entry('d-chovel','meaning').paragraphs.join(' '),/נתכוון להזיק ולא נתכוון דווקא לבייש/);
 assert.match(entry('t-hechsher','conditions').paragraphs.join(' '),/משקין טמאין שהם עצמם אבות הטומאה/);
 assert.match(entry('i-ketubah','source-map').paragraphs.join(' '),/לשנים עשר חלקים/);
 assert.doesNotMatch(entry('i-ketubah','source-map').paragraphs.join(' '),/ענין אחד עשוי להיכנס בגבול חברו/);
@@ -255,7 +257,11 @@ for(const change of sixth.changes){
  assert.ok(block,'0.13.5 missing corrected block: '+change.blockId);
  assert.ok(!sixthSeen.has(change.blockId),'0.13.5 duplicate corrected block');
  sixthSeen.add(change.blockId);
- if(change.blockId==='d-karka/ways'){
+ if(change.blockId==='a-shechitah/distinction'){
+  assert.equal(block.paragraphs.length,change.paragraphs.length,'Shechitah block structure');
+  assert.equal(block.paragraphs[0],change.paragraphs[0],'Shechitah original basic requirements drift');
+  assert.ok(block.paragraphs.join(' ').includes('גם שחיטת גוי שאינו עובד עבודה זרה נבילה'),'Shechitah scope qualification missing');
+ }else if(change.blockId==='d-karka/ways'){
   assert.equal(block.paragraphs.length,change.paragraphs.length+1,'0.13.5 amended lien-block shape drift');
   assert.ok(block.paragraphs.join(' ').includes('קרקע שהיתה משועבדת כדין לחוב שקדם למכירה'),'Lien qualification removed');
   assert.equal(block.paragraphs[1],change.paragraphs[1],'Unmodified lien section lost source-fidelity wording');
