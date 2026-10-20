@@ -256,6 +256,17 @@ for(const change of sixth.changes){
    '0.13.5 missing explanation anchor: '+change.blockId);
  }
 }
+// Depth-review expansions are checked against the packaged corpus and citations.
+const depth=JSON.parse(fs.readFileSync(path.join(root,'DEPTH-REVIEW-0.13.5.json'),'utf8'));
+assert.equal(depth.updates.length,4);
+for(const correction of depth.updates){
+ const [entryId,blockId]=correction.blockId.split('/');
+ const b=entry(entryId,blockId),p=correction.proof;
+ assert.deepEqual(b.paragraphs,correction.paragraphs,'Depth review prose drift: '+correction.blockId);
+ assert.ok(b.paragraphs.join(' ').split(/\s+/).length>=90,'Depth section too short: '+correction.blockId);
+ assert.ok(b.refs.some(r=>r.source===p.sourceId&&r.segments.includes(p.segment)),'Depth citation missing: '+correction.blockId);
+ assert.ok(normalizeSource(d.sources[p.sourceId].segments[p.segment-1].text).includes(normalizeSource(p.sourceQuote)),'Depth source drift: '+correction.blockId);
+}
 assert.match(entry('asham','animals').paragraphs.join(' '),/זכרי הכבשים/);
 assert.match(entry('av-melikah','act').paragraphs.join(' '),/אין מבדילים/);
 assert.deepEqual(errors,[]);assert.deepEqual(remote,[]);console.log('PASS: actual unpacked 0.13.5 package; home search, voluntary resume, continuous reading; all 98 entries and 317 block controls in six areas; new avodot source dialogs and reciprocal offering links; cross-area deep-link search and exact source dialogs; Hebrew search, back/reload/pager, SDK success and failure paths, mobile+desktop no overflow, font persistence. No network requests, JS errors or screenshots.');
