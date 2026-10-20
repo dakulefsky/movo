@@ -292,7 +292,12 @@ assert.equal(depth.updates.length,7);
 for(const correction of depth.updates){
  const [entryId,blockId]=correction.blockId.split('/');
  const b=entry(entryId,blockId),p=correction.proof;
- if(correction.blockId==='a-yadot-kinuyim/meaning'){
+ if(correction.blockId==='i-ketubah/source-map'){
+  assert.equal(b.paragraphs.length,correction.paragraphs.length,'Meiri paragraph structure');
+  assert.equal(b.paragraphs[0],correction.paragraphs[0],'Meiri first paragraph must retain checked source');
+  assert.ok(b.paragraphs.join(' ').includes('לשנים עשר חלקים'),'Meiri documented division omitted');
+  assert.ok(!b.paragraphs.join(' ').includes('ענין אחד עשוי להיכנס בגבול חברו'),'Meiri unsupported attribution returned');
+ }else if(correction.blockId==='a-yadot-kinuyim/meaning'){
   assert.equal(b.paragraphs.length,correction.paragraphs.length);
   assert.ok(b.paragraphs.join(' ').includes('אין הלשון לבדה אוסרת עליו לאכול ממאכלי חברו'));
  }else assert.deepEqual(b.paragraphs,correction.paragraphs,'Depth review prose drift: '+correction.blockId);
