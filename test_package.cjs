@@ -272,7 +272,7 @@ for(const [source,targets] of Object.entries({
  for(const target of targets)assert.ok(blocks.some(b=>b.links.includes(target)),'Missing learning route: '+source+' to '+target);
 }
 const depth=JSON.parse(fs.readFileSync(path.join(root,'DEPTH-REVIEW-0.13.5.json'),'utf8'));
-assert.equal(depth.updates.length,5);
+assert.equal(depth.updates.length,7);
 for(const correction of depth.updates){
  const [entryId,blockId]=correction.blockId.split('/');
  const b=entry(entryId,blockId),p=correction.proof;
