@@ -258,7 +258,7 @@ for(const change of sixth.changes){
 }
 // Depth-review expansions are checked against the packaged corpus and citations.
 const depth=JSON.parse(fs.readFileSync(path.join(root,'DEPTH-REVIEW-0.13.5.json'),'utf8'));
-assert.equal(depth.updates.length,4);
+assert.equal(depth.updates.length,5);
 for(const correction of depth.updates){
  const [entryId,blockId]=correction.blockId.split('/');
  const b=entry(entryId,blockId),p=correction.proof;
