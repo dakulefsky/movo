@@ -201,9 +201,9 @@ assert.equal(audit4blocks.size,11);
 assert.match(entry('i-maamar','consequence').paragraphs.join(' '),/צרת ערוה/);
 assert.match(entry('z-challah','baker').paragraphs.join(' '),/משתה בנו/);
 assert.match(entry('d-shevuot','hesset').paragraphs.join(' '),/שבועת היסת שונה/);
-// 0.13.5: fifth independent source audit, ten corrected blocks and 15 exact anchors.
-const fifth=JSON.parse(fs.readFileSync(path.join(root,'SOURCE-REVIEW-0.13.5.json'),'utf8'));
-assert.equal(fifth.version,'0.13.5');
+// 0.13.4: fifth independent source audit, ten corrected blocks and 15 exact anchors.
+const fifth=JSON.parse(fs.readFileSync(path.join(root,'SOURCE-REVIEW-0.13.4.json'),'utf8'));
+assert.equal(fifth.version,'0.13.4');
 assert.equal(fifth.reviewFindings,9);
 assert.equal(fifth.reviewedBlocks,10);
 assert.equal(fifth.checks.length,15);
@@ -211,16 +211,16 @@ const checkedFifthBlocks=new Set();
 for(const check of fifth.checks){
  const [entryId,blockId]=check.blockId.split('/');
  const block=entry(entryId,blockId);
- assert.ok(block,'0.13.5 reviewed block missing: '+check.blockId);
+ assert.ok(block,'0.13.4 reviewed block missing: '+check.blockId);
  assert.ok(block.refs.some(ref=>ref.source===check.sourceId&&ref.segments.includes(check.segment)),
-  '0.13.5 exact source segment missing: '+check.blockId+' -> '+check.sourceId);
- const src=d.sources[check.sourceId];assert.ok(src,'0.13.5 source record missing: '+check.sourceId);
- assert.equal(src.filename,check.filename,'0.13.5 source filename mismatch: '+check.blockId);
+  '0.13.4 exact source segment missing: '+check.blockId+' -> '+check.sourceId);
+ const src=d.sources[check.sourceId];assert.ok(src,'0.13.4 source record missing: '+check.sourceId);
+ assert.equal(src.filename,check.filename,'0.13.4 source filename mismatch: '+check.blockId);
  const actualSource=src.segments[check.segment-1]?.text||'';
  assert.ok(normalizeSource(actualSource).includes(normalizeSource(check.sourceQuote)),
-  '0.13.5 cited source wording drift: '+check.blockId+' -> '+check.sourceId);
+  '0.13.4 cited source wording drift: '+check.blockId+' -> '+check.sourceId);
  assert.ok(normalizeSource(block.paragraphs.join(' ')).includes(normalizeSource(check.explanationQuote)),
-  '0.13.5 explanation lost necessary distinction: '+check.blockId);
+  '0.13.4 explanation lost necessary distinction: '+check.blockId);
  checkedFifthBlocks.add(check.blockId);
 }
 assert.equal(checkedFifthBlocks.size,10);
@@ -229,6 +229,31 @@ assert.match(entry('t-ranks','rabbinic').paragraphs.join(' '),/טהור לתרו
 assert.match(entry('a-taam','distinction').paragraphs.join(' '),/אלא ביאור דרך הבדיקה/);
 assert.ok(entry('d-shomer-ones','roles').paragraphs.join(' ').includes('ארבעה שומרים'),
  'Four-guardian introduction must remain distinct from Baalav Imo source discussion');
+// Sixth audit: source-first fixes are preserved without changing index shape.
+const sixth=JSON.parse(fs.readFileSync(path.join(root,'SOURCE-REVIEW-0.13.5.json'),'utf8'));
+assert.equal(sixth.version,'0.13.5');
+assert.equal(sixth.changes.length,15);
+const sixthSeen=new Set();
+for(const change of sixth.changes){
+ const [entryId,blockId]=change.blockId.split('/');
+ const block=entry(entryId,blockId);
+ assert.ok(block,'0.13.5 missing corrected block: '+change.blockId);
+ assert.ok(!sixthSeen.has(change.blockId),'0.13.5 duplicate corrected block');
+ sixthSeen.add(change.blockId);
+ assert.deepEqual(block.paragraphs,change.paragraphs,'0.13.5 wording drift: '+change.blockId);
+ if(change.proof){
+  const proof=change.proof,src=d.sources[proof.sourceId];
+  assert.ok(src,'0.13.5 source record missing: '+proof.sourceId);
+  assert.ok(block.refs.some(ref=>ref.source===proof.sourceId && ref.segments.includes(proof.segment)),
+   '0.13.5 exact cited segment missing: '+change.blockId);
+  assert.ok(normalizeSource(src.segments[proof.segment-1]?.text||'').includes(normalizeSource(proof.sourceQuote)),
+   '0.13.5 source quotation drift: '+change.blockId);
+  assert.ok(normalizeSource(block.paragraphs.join(' ')).includes(normalizeSource(proof.explanationQuote)),
+   '0.13.5 missing explanation anchor: '+change.blockId);
+ }
+}
+assert.match(entry('asham','animals').paragraphs.join(' '),/זכרי הכבשים/);
+assert.match(entry('av-melikah','act').paragraphs.join(' '),/אין מבדילים/);
 assert.deepEqual(errors,[]);assert.deepEqual(remote,[]);console.log('PASS: actual unpacked 0.13.5 package; home search, voluntary resume, continuous reading; all 98 entries and 317 block controls in six areas; new avodot source dialogs and reciprocal offering links; cross-area deep-link search and exact source dialogs; Hebrew search, back/reload/pager, SDK success and failure paths, mobile+desktop no overflow, font persistence. No network requests, JS errors or screenshots.');
 }finally{await browser.close()}
 })().catch(e=>{console.error(e);process.exit(1)});
