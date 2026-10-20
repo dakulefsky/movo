@@ -155,6 +155,43 @@ for edit in depth['updates']:
  depth_seen.add(key)
 
 
+# Guide readers through closely related fundamental sugyot, rather than
+# sending them back to the directory after every introduction.
+reading_paths={
+ 'k-inner-chattat':['chattat','k-matanot','k-pigul','av-kabbalah','av-zerikah'],
+ 'k-matanot':['k-inner-chattat','k-pigul','av-zerikah','chattat'],
+ 'k-pigul':['k-matanot','k-inner-chattat','av-shechitah','av-kabbalah','av-holachah','av-zerikah'],
+ 'av-shechitah':['av-kabbalah','av-holachah','k-pigul'],
+ 'av-kabbalah':['av-shechitah','av-holachah','av-zerikah','k-inner-chattat'],
+ 'av-holachah':['av-kabbalah','av-zerikah','k-pigul'],
+ 'av-zerikah':['av-kabbalah','k-matanot','k-inner-chattat','k-pigul'],
+ 'k-meilah':['k-temurah','asham'],
+ 'i-ketubah':['i-kiddushin','i-gerushin'],
+ 'z-challah':['z-hafrashah']
+}
+entry_by_id={e['id']:e for h in handbooks for e in h['entries']}
+for origin,targets in reading_paths.items():
+ if origin not in entry_by_id: continue
+ valid=[target for target in targets if target in entry_by_id and target!=origin]
+ for block in entry_by_id[origin]['blocks']:
+  if block is entry_by_id[origin]['blocks'][-1]:
+   block['links']=list(dict.fromkeys([*block['links'],*valid]))
+# Source-based editorial depth report. A short specific definition may be
+# sufficient; the report flags candidates for review, not automatic filler.
+depth_report={'edition':'0.13.5','purpose':'Editorial triage, not a claim of full Torah coverage','handbooks':[],'thin_candidates':[]}
+for handbook in handbooks:
+ total=0;short=0
+ for entry_ in handbook['entries']:
+  for block in entry_['blocks']:
+   total+=1
+   words=len(' '.join(block['paragraphs']).split())
+   if words<60:
+    short+=1
+    depth_report['thin_candidates'].append({'handbook':handbook['id'],'entry':entry_['id'],'block':block['id'],'words':words,'sources':[r['source'] for r in block['refs']]})
+ depth_report['handbooks'].append({'id':handbook['id'],'entries':len(handbook['entries']),'blocks':total,'under_60_words':short})
+(ROOT/'EDITORIAL-DEPTH-REPORT.json').write_text(json.dumps(depth_report,ensure_ascii=False,indent=2)+'\\n',encoding='utf-8')
+
+
 all_entries=[e for h in handbooks for e in h['entries']]
 ids=[e['id'] for e in all_entries]
 assert len(ids)==len(set(ids)), 'Entry IDs must be globally unique'
