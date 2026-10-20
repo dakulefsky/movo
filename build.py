@@ -85,6 +85,20 @@ for filename in ('coverage_013_entries.json','coverage_013_details_a.json','cove
  payload=json.loads((ROOT/filename).read_text(encoding='utf-8'))
  new_blocks=[b for e in payload.get('entries',[]) for b in e['blocks']]+[item['block'] for item in payload.get('additions',[])]
  used_sources.update(r['source'] for b in new_blocks for r in b['refs'])
+# Precise citation repairs identified by the independent statement ledger.
+# Keep required records in the runtime catalogue even when the previous
+# content overlays did not cite them.
+AUDIT_EXTRA_REFS={
+ 'av-holachah/act': [('z2-3',1)],
+ 'av-tenufah/act': [('av-mm-9.8',1)],
+ 't-ohel/bib-example': [('v-Oholot-3.7',3)],
+ 'z-peah/measure': [('c-Peah-1.2',1),('c-m-Peah-1.2',1)],
+ 'z-hafrashah/gmar-home': [('a-maasrot-1-5',4)],
+ 'z-five-grains/species': [('a-challah-1-1',1)],
+ 'z-five-grains/new': [('am-challah-1-1',1)],
+ 'd-shomer-ones/roles': [('n-Bava_Metzia-7.8',1)],
+}
+used_sources.update(src for refs in AUDIT_EXTRA_REFS.values() for src,_ in refs)
 # Retain directly cited source passages added by the sixth audit.
 for reviewed in json.loads((ROOT/'SOURCE-REVIEW-0.13.5.json').read_text(encoding='utf-8'))['changes']:
  for r in reviewed.get('addRefs',[]):used_sources.add(r['source'])
@@ -158,6 +172,13 @@ for edit in depth['updates']:
 # Audit 0.13.5: guarded corrections after all earlier content overlays.
 from audit_repairs import apply_audit_repairs
 print('audit corrections:', apply_audit_repairs(handbooks))
+for key, targets in AUDIT_EXTRA_REFS.items():
+ b=block_index[key]
+ for source_id,segment in targets:
+  assert source_id in sources, ('audit citation source missing',key,source_id)
+  assert 1<=segment<=len(sources[source_id]['segments']), ('audit citation segment missing',key,source_id,segment)
+  if not any(r['source']==source_id and segment in r['segments'] for r in b['refs']):
+   b['refs'].append({'source':source_id,'segments':[segment]})
 
 
 # Guide readers through closely related fundamental sugyot, rather than
