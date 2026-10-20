@@ -106,6 +106,8 @@ sources['c-Chullin-3.1']['note']='סוגריים, הצעות הגהה ותוספ
 # Preserve public-domain Sefaria snapshots verbatim, with edition metadata.
 source('c-m-Peah-1.2','next-Mishnah_Peah.1.2.json','משנה')
 source('c-m-Chullin-8.1','next-Mishnah_Chullin.8.1.json','משנה')
+source('audit-m-sheviit-7-1','audit-Mishnah_Sheviit.7.1-excerpt.json','משנה')
+sources['audit-m-sheviit-7-1']['note']='זהו מקטע מדויק מן המשפט הפותח משנה שביעית ז, א, ולא נוסח המשנה בשלמותה. נעזרנו בו להוכחת שלוש המחלקות ותנאי שאינו מתקיים בארץ; ראו מהדורת ויקיטקסט שצוינה בקובץ המקור.'
 sources['c-Peah-1.2']['note']='הרמב״ם מביא שני נוסחים, ״ענוה״ ו״ענבה״, ומפרש את שניהם. שניהם נשמרו ללא הכרעת נוסח חדשה.'
 
 # Supplementary Rambam Mishneh Torah source verifies the distinction between
