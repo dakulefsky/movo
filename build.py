@@ -140,7 +140,7 @@ for edit in sixth['changes']:
 # Source-anchored depth pass: expand thin introductions only where the exact
 # cited source supplies an additional legal distinction or a concrete example.
 depth=json.loads((ROOT/'DEPTH-REVIEW-0.13.5.json').read_text(encoding='utf-8'))
-assert depth['version']=='0.13.5' and len(depth['updates'])==4
+assert depth['version']=='0.13.5' and len(depth['updates'])==5
 depth_seen=set()
 for edit in depth['updates']:
  key=edit['blockId']
