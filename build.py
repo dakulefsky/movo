@@ -189,7 +189,7 @@ for handbook in handbooks:
     short+=1
     depth_report['thin_candidates'].append({'handbook':handbook['id'],'entry':entry_['id'],'block':block['id'],'words':words,'sources':[r['source'] for r in block['refs']]})
  depth_report['handbooks'].append({'id':handbook['id'],'entries':len(handbook['entries']),'blocks':total,'under_60_words':short})
-(ROOT/'EDITORIAL-DEPTH-REPORT.json').write_text(json.dumps(depth_report,ensure_ascii=False,indent=2)+'\\n',encoding='utf-8')
+(ROOT/'EDITORIAL-DEPTH-REPORT.json').write_text(json.dumps(depth_report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 
 
 all_entries=[e for h in handbooks for e in h['entries']]
