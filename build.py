@@ -97,6 +97,7 @@ AUDIT_EXTRA_REFS={
  'z-five-grains/species': [('a-challah-1-1',1)],
  'z-five-grains/new': [('am-challah-1-1',1)],
  'd-shomer-ones/roles': [('n-Bava_Metzia-7.8',1)],
+ 'z-terumah/meaning': [('z-trumat-maaser',1)],
 }
 used_sources.update(src for refs in AUDIT_EXTRA_REFS.values() for src,_ in refs)
 # Retain directly cited source passages added by the sixth audit.
