@@ -4846,12 +4846,52 @@
       "omissions_check": "pending",
       "literary_review": "pending",
       "adversarial_review": "pending",
-      "decision": "not_reviewed",
-      "evidence_urls": [],
-      "findings": [],
+      "decision": "conflict_unresolved",
+      "evidence_urls": [
+        "https://mechon-mamre.org/i/8714.htm",
+        "https://he.wikisource.org/wiki/משנה_מנחות_א_א"
+      ],
+      "findings": [
+        {
+          "defect_type": "partial_external_comparison",
+          "severity": "review_pending",
+          "exact_original_hebrew": "במנחות רגילות שקמצן שלא לשמן מבאר הרמב״ם שהמנחה כשרה, אף שאינה עולה לבעליה כראוי. אולם מנחת קנאות ומנחת חוטא נידונות מתוך זיקתן לחטאת, ולעומר התנופה נזכר בפירוש המשנה דין מיוחד, שלפיו אם קמצו שלא לשמו הוא פסול, מפני שבא להתיר את החדש. אולם במשנה תורה, הלכות פסולי המוקדשין יד, ג, כתב הרמב״ם שמנחת העומר שקמצה שלא לשמה הרי היא כאילו נקמצה לשמה, ושייריה נאכלין. נמצא שאין דיני מחשבת שלא לשמה במנחה נלמדים במשפט אחד בלי בירור מטרתה.",
+          "assessment": "Only the explicitly quoted propositions were externally compared. Other propositions and adversarial second pass remain pending. Previous conflict notices are retained.",
+          "source_locators": [
+            {
+              "id": "m1-1",
+              "segment": 1
+            },
+            {
+              "id": "mt-pesulei-14-3",
+              "segment": 1
+            }
+          ]
+        }
+      ],
       "proposed_revision": "",
-      "reviewer": "",
-      "reviewed_at": ""
+      "reviewer": "Codex",
+      "reviewed_at": "2026-10-20",
+      "external_witness_evidence": [
+        {
+          "url": "https://mechon-mamre.org/i/8714.htm",
+          "edition": "Public Hebrew web transcription; no manuscript/original Arabic verification",
+          "retrieved_at": "2026-10-20",
+          "sha256": "71a8f124eff57297408f157d061949d33ed22bd768b4c400cc66759015be9cc8",
+          "quotation": "מנחת העומר שקמצה שלא לשמה--הרי זו כמי שנעשת לשמה, ושייריה נאכלין",
+          "context_assessment": "Displayed paragraph ד [ג] explains barley is not suitable for the other offerings. Preserve dual numbering and do not infer that the Commentary shares this ruling.",
+          "reviewer": "Codex"
+        },
+        {
+          "url": "https://he.wikisource.org/wiki/משנה_מנחות_א_א",
+          "edition": "Public Hebrew web transcription; no manuscript/original Arabic verification",
+          "retrieved_at": "2026-10-20",
+          "sha256": "f66585b8225c91918aa6d8fa70be51d837a214ffb0e9e442fa0aaf28f88bd594",
+          "quotation": "אבל עומר התנופה אם קמצו שלא לשמו פסול, הואיל ובאת להתיר ולא הותרה",
+          "context_assessment": "Displayed Rambam commentary invalidates; Tosafot Yom Tov commentary states: וכן הר״מ בחבורו חזר בו ולא פסל לעומר שלא לשמו. This is a named commentator’s explanation, not an original-Arabic or manuscript conclusion.",
+          "reviewer": "Codex"
+        }
+      ]
     },
     {
       "claim_id": "minchah/exceptions/paragraph-2",
@@ -4896,12 +4936,57 @@
       "omissions_check": "pending",
       "literary_review": "pending",
       "adversarial_review": "pending",
-      "decision": "not_reviewed",
-      "evidence_urls": [],
-      "findings": [],
-      "proposed_revision": "",
-      "reviewer": "",
-      "reviewed_at": ""
+      "decision": "conflict_unresolved",
+      "evidence_urls": [
+        "https://mechon-mamre.org/i/8714.htm",
+        "https://he.wikisource.org/wiki/משנה_מנחות_א_א"
+      ],
+      "findings": [
+        {
+          "defect_type": "partial_external_comparison",
+          "severity": "review_pending",
+          "exact_original_hebrew": "הערת מקור: שני הנוסחים הנזכרים שונים זה מזה, ואין להציג את פסול העומר כפסיקה מוסכמת ברמב״ם. מקורו של השינוי, יחס המהדורות והאפשרות ליישוב לא הוכרעו בבדיקה זו.",
+          "assessment": "Only the explicitly quoted propositions were externally compared. Other propositions and adversarial second pass remain pending. Previous conflict notices are retained.",
+          "source_locators": [
+            {
+              "id": "m1-1",
+              "segment": 1
+            },
+            {
+              "id": "mt-pesulei-14-3",
+              "segment": 1
+            }
+          ]
+        },
+        {
+          "defect_type": "missing_named_commentary",
+          "severity": "editorial",
+          "assessment": "Proposed attribution to Tosafot Yom Tov avoids leaving the reader unaware of an existing explanation. Not applied to application text; independent recheck required."
+        }
+      ],
+      "proposed_revision": "הערת מקור: בפירוש המשנה נפסלה מנחת העומר שנקמצה שלא לשמה, ואילו במשנה תורה הוכשרה. התוספות יום טוב למנחות א, א כתב שהרמב״ם חזר בו בחיבורו. הדברים מובאים בשם מפרשם; יחס נוסחי פירוש המשנה והמהדורות לא הוכרע בבדיקה זו.",
+      "reviewer": "Codex",
+      "reviewed_at": "2026-10-20",
+      "external_witness_evidence": [
+        {
+          "url": "https://mechon-mamre.org/i/8714.htm",
+          "edition": "Public Hebrew web transcription; no manuscript/original Arabic verification",
+          "retrieved_at": "2026-10-20",
+          "sha256": "71a8f124eff57297408f157d061949d33ed22bd768b4c400cc66759015be9cc8",
+          "quotation": "מנחת העומר שקמצה שלא לשמה--הרי זו כמי שנעשת לשמה, ושייריה נאכלין",
+          "context_assessment": "Displayed paragraph ד [ג] explains barley is not suitable for the other offerings. Preserve dual numbering and do not infer that the Commentary shares this ruling.",
+          "reviewer": "Codex"
+        },
+        {
+          "url": "https://he.wikisource.org/wiki/משנה_מנחות_א_א",
+          "edition": "Public Hebrew web transcription; no manuscript/original Arabic verification",
+          "retrieved_at": "2026-10-20",
+          "sha256": "f66585b8225c91918aa6d8fa70be51d837a214ffb0e9e442fa0aaf28f88bd594",
+          "quotation": "אבל עומר התנופה אם קמצו שלא לשמו פסול, הואיל ובאת להתיר ולא הותרה",
+          "context_assessment": "Displayed Rambam commentary invalidates; Tosafot Yom Tov commentary states: וכן הר״מ בחבורו חזר בו ולא פסל לעומר שלא לשמו. This is a named commentator’s explanation, not an original-Arabic or manuscript conclusion.",
+          "reviewer": "Codex"
+        }
+      ]
     },
     {
       "claim_id": "k-nesachim/meaning/paragraph-1",
@@ -12457,11 +12542,41 @@
       "literary_review": "pending",
       "adversarial_review": "pending",
       "decision": "not_reviewed",
-      "evidence_urls": [],
-      "findings": [],
+      "evidence_urls": [
+        "https://mechon-mamre.org/i/a801.htm"
+      ],
+      "findings": [
+        {
+          "defect_type": "partial_external_comparison",
+          "severity": "review_pending",
+          "exact_original_hebrew": "כלי חרס אינו נטהר בטבילה, אלא בשבירה, על פי דיניה. שאר הכלים אינם שווים בדרכי טהרתם: כלי זכוכית, אף שגזרו עליהם טומאה, אינם נטהרים מטומאתם בטבילה במקווה; ואילו מיני כלים אחרים נטהרים לפי דיניהם. אין ללמוד מן הכלל שבהקדמה שכל כלי שנזכר נטהר בטבילה. בכלי מתכות גזרו חכמים ״טומאה ישנה״: אם נשברו ונטהרו ושבו ונעשו כלים, חוזרת טומאתם הקודמת.",
+          "assessment": "Only the explicitly quoted propositions were externally compared. Other propositions and adversarial second pass remain pending. Previous conflict notices are retained.",
+          "source_locators": [
+            {
+              "id": "t-intro",
+              "segment": 14
+            },
+            {
+              "id": "mt-mikvaot-1-3",
+              "segment": 1
+            }
+          ]
+        }
+      ],
       "proposed_revision": "",
-      "reviewer": "",
-      "reviewed_at": ""
+      "reviewer": "Codex",
+      "reviewed_at": "2026-10-20",
+      "external_witness_evidence": [
+        {
+          "url": "https://mechon-mamre.org/i/a801.htm",
+          "edition": "Public Hebrew web transcription; no manuscript/original Arabic verification",
+          "retrieved_at": "2026-10-20",
+          "sha256": "87a56c2f98a9f4efe82f38403d21b47632c0ba23bb7643303f2fbf4bd5ccc55f",
+          "quotation": "כל הכלים שנטמאו--יש להן טהרה במקוה, חוץ מכלי חרס וכלי זכוכית; וכן המפץ.",
+          "context_assessment": "Chapter 1:3 explicitly excludes glass and earthenware; following paragraph separately treats mats. This supports the corrected glass exception, not every proposition about old metal-vessel impurity in the same paragraph.",
+          "reviewer": "Codex"
+        }
+      ]
     },
     {
       "claim_id": "t-kelim/purification/paragraph-2",
@@ -12507,11 +12622,41 @@
       "literary_review": "pending",
       "adversarial_review": "pending",
       "decision": "not_reviewed",
-      "evidence_urls": [],
-      "findings": [],
+      "evidence_urls": [
+        "https://mechon-mamre.org/i/a801.htm"
+      ],
+      "findings": [
+        {
+          "defect_type": "partial_external_comparison",
+          "severity": "review_pending",
+          "exact_original_hebrew": "הערת מקור: הלשון הכללית שבהקדמה לסדר טהרות טעונה סייג לאור דברי הרמב״ם בהלכות מקוואות א, ג, המוציאים כלי זכוכית מכלל הכלים הנטהרים בטבילה מטומאתם. אין עניין זה נוגע לטבילת כלים הנקנים מן הגוי.",
+          "assessment": "Only the explicitly quoted propositions were externally compared. Other propositions and adversarial second pass remain pending. Previous conflict notices are retained.",
+          "source_locators": [
+            {
+              "id": "t-intro",
+              "segment": 14
+            },
+            {
+              "id": "mt-mikvaot-1-3",
+              "segment": 1
+            }
+          ]
+        }
+      ],
       "proposed_revision": "",
-      "reviewer": "",
-      "reviewed_at": ""
+      "reviewer": "Codex",
+      "reviewed_at": "2026-10-20",
+      "external_witness_evidence": [
+        {
+          "url": "https://mechon-mamre.org/i/a801.htm",
+          "edition": "Public Hebrew web transcription; no manuscript/original Arabic verification",
+          "retrieved_at": "2026-10-20",
+          "sha256": "87a56c2f98a9f4efe82f38403d21b47632c0ba23bb7643303f2fbf4bd5ccc55f",
+          "quotation": "כל הכלים שנטמאו--יש להן טהרה במקוה, חוץ מכלי חרס וכלי זכוכית; וכן המפץ.",
+          "context_assessment": "Chapter 1:3 explicitly excludes glass and earthenware; following paragraph separately treats mats. This supports the corrected glass exception, not every proposition about old metal-vessel impurity in the same paragraph.",
+          "reviewer": "Codex"
+        }
+      ]
     },
     {
       "claim_id": "t-kelim/glass/paragraph-1",
@@ -19707,11 +19852,49 @@
       "literary_review": "pending",
       "adversarial_review": "pending",
       "decision": "not_reviewed",
-      "evidence_urls": [],
-      "findings": [],
+      "evidence_urls": [
+        "https://mechon-mamre.org/i/d206.htm"
+      ],
+      "findings": [
+        {
+          "defect_type": "partial_external_comparison",
+          "severity": "review_pending",
+          "exact_original_hebrew": "ארבעה שומרים נמנו במשנה: שומר חינם, שואל, שומר שכר ושוכר. שומר שכר ושוכר שווים בדינם: חייבים בגניבה ובאבדה, ונשבעים ונפטרים באונס, כגון שבורה, שבויה ומתה. שומר חינם נשבע ונפטר במקרים שנמנו בדינו, ואילו השואל חייב אף באונס, בכפוף לפטוריו, ובהם מתה מחמת מלאכה. גם כשהשואל משלם על החפץ שאבד, עשויה להידרש שבועה שאינו ברשותו, מחשש שנתן בו עיניו. במשנה תורה, הלכות שאלה ופיקדון ו, א, מגדיר הרמב״ם שבועה זו כתקנת חכמים, ומבחין בין חפץ מסוים לבין דבר המצוי לקנות כמותו. נמצא שחובת התשלומין אינה מפקיעה מעצמה את חובת השבועה.",
+          "assessment": "Only the explicitly quoted propositions were externally compared. Other propositions and adversarial second pass remain pending. Previous conflict notices are retained.",
+          "source_locators": [
+            {
+              "id": "n-Bava_Metzia-7.8",
+              "segment": 1
+            },
+            {
+              "id": "n-m-Bava_Metzia-7.8",
+              "segment": 1
+            },
+            {
+              "id": "review-shomrim",
+              "segment": 1
+            },
+            {
+              "id": "mt-sheelah-6-1",
+              "segment": 1
+            }
+          ]
+        }
+      ],
       "proposed_revision": "",
-      "reviewer": "",
-      "reviewed_at": ""
+      "reviewer": "Codex",
+      "reviewed_at": "2026-10-20",
+      "external_witness_evidence": [
+        {
+          "url": "https://mechon-mamre.org/i/d206.htm",
+          "edition": "Public Hebrew web transcription; no manuscript/original Arabic verification",
+          "retrieved_at": "2026-10-20",
+          "sha256": "1596ddabf345eeb29064306dfe2135c2167f134c09b55584d21809bcd1f6e978",
+          "quotation": "משביעין אותו בתקנת חכמים שבועה בנקיטת חפץ שאינו ברשותו; ואחר כך משלם.",
+          "context_assessment": "Opening paragraph exempts interchangeable available objects; following paragraph explicitly extends the rule to borrowers and other guardians. Other propositions about guardian liability still require their own witnesses.",
+          "reviewer": "Codex"
+        }
+      ]
     },
     {
       "claim_id": "d-shomrim/four/paragraph-2",
@@ -19797,11 +19980,49 @@
       "literary_review": "pending",
       "adversarial_review": "pending",
       "decision": "not_reviewed",
-      "evidence_urls": [],
-      "findings": [],
+      "evidence_urls": [
+        "https://mechon-mamre.org/i/d206.htm"
+      ],
+      "findings": [
+        {
+          "defect_type": "partial_external_comparison",
+          "severity": "review_pending",
+          "exact_original_hebrew": "הערת מקור: בנוסח פירוש המשנה המצוטט כאן מופיע הביטוי ״שבועת התורה״, ואילו במשנה תורה נאמר שזו שבועה מתקנת חכמים. אין לטשטש חילוף לשונות זה; טעמו ויחס שני המקורות עדיין טעונים בירור.",
+          "assessment": "Only the explicitly quoted propositions were externally compared. Other propositions and adversarial second pass remain pending. Previous conflict notices are retained.",
+          "source_locators": [
+            {
+              "id": "n-Bava_Metzia-7.8",
+              "segment": 1
+            },
+            {
+              "id": "n-m-Bava_Metzia-7.8",
+              "segment": 1
+            },
+            {
+              "id": "review-shomrim",
+              "segment": 1
+            },
+            {
+              "id": "mt-sheelah-6-1",
+              "segment": 1
+            }
+          ]
+        }
+      ],
       "proposed_revision": "",
-      "reviewer": "",
-      "reviewed_at": ""
+      "reviewer": "Codex",
+      "reviewed_at": "2026-10-20",
+      "external_witness_evidence": [
+        {
+          "url": "https://mechon-mamre.org/i/d206.htm",
+          "edition": "Public Hebrew web transcription; no manuscript/original Arabic verification",
+          "retrieved_at": "2026-10-20",
+          "sha256": "1596ddabf345eeb29064306dfe2135c2167f134c09b55584d21809bcd1f6e978",
+          "quotation": "משביעין אותו בתקנת חכמים שבועה בנקיטת חפץ שאינו ברשותו; ואחר כך משלם.",
+          "context_assessment": "Opening paragraph exempts interchangeable available objects; following paragraph explicitly extends the rule to borrowers and other guardians. Other propositions about guardian liability still require their own witnesses.",
+          "reviewer": "Codex"
+        }
+      ]
     },
     {
       "claim_id": "d-shomrim/ones/paragraph-1",
@@ -23267,7 +23488,7 @@
     "date": "2026-10-20",
     "reviewer": "Codex",
     "verified_claim_units": 0,
-    "external_witness_access": "All three attempted witness domains returned proxy tunnel 403 Forbidden; previous verification document is historical evidence only.",
+    "external_witness_access": "Working with standard browser User-Agent after saved domain changes; four pages retrieved and hashed on 2026-10-20.",
     "validation": {
       "two_consecutive_builds": "passed; identical ZIP SHA-256 8b65e424ef1dc4c1b153aff6b20ba2d60288a1ef6c86cf5bf4524aa28f26daa8",
       "inventory_source_copy_zip_js_syntax": "passed",
@@ -23291,7 +23512,7 @@
       }
     ],
     "next_required_actions": [
-      "Allow external textual witness domains or provide independent editions locally.",
+      "Continue independent full-context comparisons for remaining claims; preserve evidence and obtain adversarial second review.",
       "Provide an authorized browser environment allowing file:// package tests.",
       "Review issue #12 high-risk queue and PR #13 operations against independent full-context texts.",
       "Complete all six gates for every claim; obtain independent adversarial review."

@@ -9,3 +9,7 @@ Two consecutive builds produced identical package hashes. Source-copy/inventory 
 External requests to mechon-mamre.org, he.wikisource.org, and wiki.jewishbooks.org.il all returned proxy tunnel 403 Forbidden. Enable these domains in environment network settings or supply independent editions to continue the required external witness gates. File-based tests require an authorized browser environment permitting local file navigation. The pinned Otzaria source checkout is /workspace/otzaria-audit-host.
 
 Existing Omer, guardian-oath, and asham-talui textual disagreements are recorded explicitly in the master ledger checkpoint. Earlier targeted verification notes have not been treated as newly verified evidence. No merge, push, store publication, or release was performed.
+
+## External access restored — subsequent checkpoint
+
+External witnesses now load with a standard browser User-Agent. The earlier proxy failures describe the initial attempt only. Four retrieved pages, content hashes, quotations and limited context assessments are recorded in the master ledger for glass purification, guardian oaths and the Omer disagreement. The ledger preserves the Omer conflict and proposes explicit attribution to Tosafot Yom Tov; application text has not been changed. Zero claims satisfy all six gates. The CSV reflects the master decisions. Local HTML captures are under /workspace/audit-witnesses; URLs and hashes are committed in the ledger. The full 317-block scholarly review remains incomplete.
