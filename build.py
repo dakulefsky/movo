@@ -158,13 +158,13 @@ for edit in depth['updates']:
 # Guide readers through closely related fundamental sugyot, rather than
 # sending them back to the directory after every introduction.
 reading_paths={
- 'k-inner-chattat':['chattat','k-matanot','k-pigul','av-kabbalah','av-zerikah'],
- 'k-matanot':['k-inner-chattat','k-pigul','av-zerikah','chattat'],
- 'k-pigul':['k-matanot','k-inner-chattat','av-shechitah','av-kabbalah','av-holachah','av-zerikah'],
- 'av-shechitah':['av-kabbalah','av-holachah','k-pigul'],
+ 'k-inner-chattat':['chattat','k-matanot','pesulim','av-kabbalah','av-zerikah'],
+ 'k-matanot':['k-inner-chattat','pesulim','av-zerikah','chattat'],
+ 'pesulim':['k-matanot','k-inner-chattat','av-shechitah','av-kabbalah','av-holachah','av-zerikah'],
+ 'av-shechitah':['av-kabbalah','av-holachah','pesulim'],
  'av-kabbalah':['av-shechitah','av-holachah','av-zerikah','k-inner-chattat'],
- 'av-holachah':['av-kabbalah','av-zerikah','k-pigul'],
- 'av-zerikah':['av-kabbalah','k-matanot','k-inner-chattat','k-pigul'],
+ 'av-holachah':['av-kabbalah','av-zerikah','pesulim'],
+ 'av-zerikah':['av-kabbalah','k-matanot','k-inner-chattat','pesulim'],
  'k-meilah':['k-temurah','asham'],
  'i-ketubah':['i-kiddushin','i-gerushin'],
  'z-challah':['z-hafrashah']
