@@ -104,6 +104,14 @@ AUDIT_EXTRA_REFS={
  'd-shomrim/four': [('mt-sheelah-6-1',1)],
  'minchah/exceptions': [('mt-pesulei-14-3',1)],
  'a-yadot-kinuyim/names': [('mt-nedarim-1-16',1)],
+ 't-kelim/materials': [('mt-kelim-8-1',1)],
+ 'asham/animals': [('mt-pesulei-4-22',1)],
+ 'i-edei-get/distinction': [('mt-gerushin-1-13-18',1),('mt-gerushin-1-13-18',2),('mt-gerushin-1-13-18',3)],
+ 'd-shevuot/distinction': [('mt-toen-1-4-5',1),('mt-toen-1-4-5',2)],
+ 'd-shevuot/hesset': [('mt-toen-1-4-5',1),('mt-toen-1-4-5',2)],
+ 'd-karka/ways': [('mt-malveh-11-4',1)],
+ 'd-chovel/meaning': [('mt-chovel-1-12',1)],
+ 'a-shechitah/distinction': [('mt-shechitah-4-12',1)],
 }
 used_sources.update(src for refs in AUDIT_EXTRA_REFS.values() for src,_ in refs)
 # Retain directly cited source passages added by the sixth audit.
