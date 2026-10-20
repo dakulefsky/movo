@@ -263,9 +263,9 @@ assert.equal(depthAudit.handbooks.reduce((sum,h)=>sum+h.entries,0),98);
 assert.equal(depthAudit.handbooks.reduce((sum,h)=>sum+h.blocks,0),317);
 assert.ok(depthAudit.thin_candidates.every(c=>c.words<60&&c.sources.length>0));
 for(const [source,targets] of Object.entries({
- 'k-inner-chattat':['k-matanot','k-pigul','av-zerikah'],
- 'k-matanot':['k-inner-chattat','k-pigul'],
- 'k-pigul':['k-matanot','av-kabbalah','av-zerikah'],
+ 'k-inner-chattat':['k-matanot','pesulim','av-zerikah'],
+ 'k-matanot':['k-inner-chattat','pesulim'],
+ 'pesulim':['k-matanot','av-kabbalah','av-zerikah'],
  'av-holachah':['av-kabbalah','av-zerikah']
 })){
  const found=d.handbooks.flatMap(h=>h.entries).find(e=>e.id===source);
