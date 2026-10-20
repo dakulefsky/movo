@@ -1,0 +1,16 @@
+{
+  "ref": "Mishneh Torah, Plaintiff and Defendant 1:4-5",
+  "heRef": "רמב״ם, הלכות טוען ונטען א:ד–ה (מובאות נבחרות)",
+  "he": [
+    "ואם לא רצה להישבע, ילך לו.",
+    "היה המחוייב שבועה מדבריהם מן הנשבעין ונפטרין, כגון הנשבעין על טענת ספק, או מן הנשבעין היסת, ולא רצה להישבע--משמתין אותו שלושים יום."
+  ],
+  "versions": [
+    {
+      "language": "he",
+      "versionTitle": "Mishneh Torah (Mechon Mamre)—selected verbatim clauses, not full chapter",
+      "versionSource": "https://mechon-mamre.org/i/d401.htm",
+      "license": "Public Domain"
+    }
+  ]
+}
