@@ -32,7 +32,7 @@ await page.evaluate(()=>{window.__calls=[];window.Otzaria={call(method,payload){
 await page.evaluate(()=>{window.Otzaria.call=(method,payload)=>{window.__calls.push({method,payload});if(method==='search.query')return(async function*(){yield{results:[{id:81,type:'text',book:'פירוש המשנה לרמב״ם — זבחים',index:314,reference:'פרק ה משנה ה',text:payload.query,textStatus:'ok'},{id:82,index:7,text:payload.query,textStatus:'stale'},{id:83,index:8,text:'unrelated',textStatus:'ok'}]}})();return Promise.resolve(true)}});await page.locator('.source-segment button').first().click();await page.locator('#native-results button').waitFor();assert.equal(await page.locator('#native-results button').count(),1);await page.locator('#native-results button').click();await page.waitForFunction(()=>document.getElementById('native-status').textContent.includes('נפתח'));const call=await page.evaluate(()=>window.__calls.at(-1));assert.equal(call.method,'reader.openBook');assert.equal(call.payload.id,81);assert.equal(call.payload.index,314);
 await page.evaluate(()=>{const orig=window.Otzaria.call;window.Otzaria.call=(m,p)=>m==='reader.openBook'?Promise.resolve(false):orig(m,p)});await page.locator('#native-results button').click();await page.waitForFunction(()=>document.getElementById('native-status').textContent.includes('לא ניתן לפתוח'));
 await page.evaluate(()=>{window.Otzaria.call=()=>{throw Error('permission denied')}});await page.locator('.source-segment button').first().click();await page.waitForFunction(()=>document.getElementById('native-status').textContent.includes('לא הצליח'));
-await page.click('#close-source');await page.click('#all-sources');assert.equal(await page.locator('#source-segments>button').count(),220);await page.locator('#source-segments>button').first().click();assert.equal(await page.locator('.source-segment').count(),55);assert.match(await page.locator('#source-note').innerText(),/המעתיק/);await page.click('#close-source');
+await page.click('#close-source');await page.click('#all-sources');assert.equal(await page.locator('#source-segments>button').count(),227);await page.locator('#source-segments>button').first().click();assert.equal(await page.locator('.source-segment').count(),55);assert.match(await page.locator('#source-note').innerText(),/המעתיק/);await page.click('#close-source');
 await chooseEntry('todah');await expandSection('todah--bread');await page.locator('#todah--bread .refs summary').click();await expandSection('todah--bread');await page.locator('#todah--bread .refs button').click();assert.match(await page.locator('#source-title').innerText(),/מנחות/);assert.match(await page.locator('#source-segments').innerText(),/מנין החלות/);await page.click('#close-source');
 // Cross-area navigation, search and exact source locations.
 await chooseSubject('tahorot');assert.equal(await page.locator('#toc a').count(),15);await chooseEntry('t-met');assert.equal(await page.locator('#article h2').innerText(),'טומאת מת');
@@ -96,6 +96,18 @@ for(const [k,sourceId] of [['t-kelim/purification','mt-mikvaot-1-3'],['d-shomrim
 }
 
 assert.equal(entry('i-yuchasin','limits').title,'תפיסת קידושין וייחוס הוולד');
+for(const [k,sourceId] of [
+ ['t-kelim/materials','mt-kelim-8-1'],['asham/animals','mt-pesulei-4-22'],
+ ['i-edei-get/distinction','mt-gerushin-1-13-18'],
+ ['d-shevuot/distinction','mt-toen-1-4-5'],['d-shevuot/hesset','mt-toen-1-4-5'],
+ ['d-karka/ways','mt-malveh-11-4'],['d-chovel/meaning','mt-chovel-1-12'],
+ ['a-shechitah/distinction','mt-shechitah-4-12']
+]){
+ const [eid,bid]=k.split('/'); const b=entry(eid,bid);
+ assert.ok(b.refs.some(r=>r.source===sourceId),'Missing independently checked primary cross-reference '+k);
+ assert.ok(d.sources[sourceId].edition.some(v=>v.versionSource.startsWith('https://mechon-mamre.org/')),'Edition provenance missing '+sourceId);
+}
+
 assert.match(entry('av-shechitah','person').paragraphs.join(' '),/בסכין ארוכה/,'Source-audit long knife must remain visible');
 assert.match(entry('av-shechitah','person').paragraphs.join(' '),/שלא ישחוט לכתחילה/,'Do not claim an unrestricted lechatchila exception');
 assert.match(entry('t-met','scope').paragraphs.join(' '),/אתם קרוין אדם/);
