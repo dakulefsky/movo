@@ -174,8 +174,12 @@ for(const record of audit3.checks){
  assert.equal(src.filename,record.filename);
  assert.ok(normalizeSource(src.segments[record.segment-1]?.text||'').includes(normalizeSource(record.sourceQuote)),
    '0.13.2 source anchor mismatched: '+record.blockId+'/'+record.sourceId);
- assert.ok(normalizeSource(block.paragraphs.join(' ')).includes(normalizeSource(record.explanationQuote)),
-   '0.13.2 reviewed wording missing: '+record.blockId);
+ // The 0.13.5 source-first revision supersedes the old paper-value wording,
+ // while keeping the 0.13.2 Rambam source reference and exact source quotation.
+ const reviewedPhrase=record.blockId==='i-kiddushin/way-of-act'
+   ? 'מקור קידושי שטר הוא ההיקש' : record.explanationQuote;
+ assert.ok(normalizeSource(block.paragraphs.join(' ')).includes(normalizeSource(reviewedPhrase)),
+   '0.13.2/0.13.5 reviewed wording missing: '+record.blockId);
 }
 assert.ok(d.sources['mt-sanhedrin-authority']);
 const newRelated=entry('i-kiddushin','way-of-act').links;
