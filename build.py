@@ -100,6 +100,10 @@ AUDIT_EXTRA_REFS={
  'z-terumah/meaning': [('z-trumat-maaser',1)],
  'a-basar-chalav/distance': [('c-m-Chullin-8.1',1)],
  'z-sheviit/price': [('audit-m-sheviit-7-1',1),('a-sheviit-7-1',1)],
+ 't-kelim/purification': [('mt-mikvaot-1-3',1)],
+ 'd-shomrim/four': [('mt-sheelah-6-1',1)],
+ 'minchah/exceptions': [('mt-pesulei-14-3',1)],
+ 'a-yadot-kinuyim/names': [('mt-nedarim-1-16',1)],
 }
 used_sources.update(src for refs in AUDIT_EXTRA_REFS.values() for src,_ in refs)
 # Retain directly cited source passages added by the sixth audit.
