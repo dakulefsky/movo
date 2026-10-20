@@ -155,6 +155,11 @@ for edit in depth['updates']:
  depth_seen.add(key)
 
 
+# Audit 0.13.5: guarded corrections after all earlier content overlays.
+from audit_repairs import apply_audit_repairs
+print('audit corrections:', apply_audit_repairs(handbooks))
+
+
 # Guide readers through closely related fundamental sugyot, rather than
 # sending them back to the directory after every introduction.
 reading_paths={
