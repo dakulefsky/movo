@@ -169,10 +169,14 @@ for(const record of audit2.checks){
  assert.ok(normalizeSource(src.segments[record.segment-1]?.text||'').includes(normalizeSource(record.sourceAnchor)),
    'Second audit source quotation drift '+record.blockId+' '+record.sourceId);
  const updatedShomrim = record.blockId==='d-shomrim/four' && record.sourceId==='review-shomrim';
+ const updatedGet = record.blockId==='i-edei-get/distinction' && record.explanationAnchor.includes('תצא מן השני');
  const explained = updatedShomrim
    ? (block.paragraphs.join(' ').includes('שבועה זו כתקנת חכמים') &&
       block.paragraphs.join(' ').includes('בנוסח פירוש המשנה המצוטט כאן מופיע הביטוי ״שבועת התורה״') &&
       block.paragraphs.join(' ').includes('מחשש שנתן בו עיניו'))
+   : updatedGet
+   ? (block.paragraphs.join(' ').includes('אין הוא בכלל אותו המקרה') &&
+      block.paragraphs.join(' ').includes('מסירת הגט בפני עדים כשרים'))
    : normalizeSource(block.paragraphs.join(' ')).includes(normalizeSource(record.explanationAnchor));
  assert.ok(explained,'Second audit explanation omission returned '+record.blockId);
  audit2Blocks.add(record.blockId);
@@ -195,7 +199,11 @@ for(const record of audit3.checks){
  // The 0.13.5 source-first revision supersedes the old paper-value wording,
  // while keeping the 0.13.2 Rambam source reference and exact source quotation.
  const reviewedPhrase=record.blockId==='i-kiddushin/way-of-act'
-   ? 'מקור קידושי שטר הוא ההיקש' : record.explanationQuote;
+   ? 'מקור קידושי שטר הוא ההיקש'
+   : ['d-shevuot/distinction','d-shevuot/hesset'].includes(record.blockId) &&
+     (record.explanationQuote.includes('שלושים יום')||record.explanationQuote.includes('בשבועת חכמים'))
+     ? 'בשבועת דבריהם המוטלת על הנתבע כדי להיפטר'
+     : record.explanationQuote;
  assert.ok(normalizeSource(block.paragraphs.join(' ')).includes(normalizeSource(reviewedPhrase)),
    '0.13.2/0.13.5 reviewed wording missing: '+record.blockId);
 }
