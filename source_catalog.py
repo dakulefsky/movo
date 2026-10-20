@@ -102,6 +102,10 @@ for id in sorted(_cited):
  filename=('Mishnah_' if m else 'Rambam_on_Mishnah_')+book+'.'+loc+'.json'
  source(id,('next-'+filename) if (ROOT/'sources'/('next-'+filename)).exists() else filename,'משנה' if m else 'רמב״ם')
 sources['c-Chullin-3.1']['note']='סוגריים, הצעות הגהה ותוספות שבנוסח הדיגיטלי נשמרו. אין כאן הכרעת נוסח או אימות אנטומי מחודש של כל פרט; המבוא אינו מסיק דין מן המקומות המסופקים.'
+# Audited Mishnah witnesses for direct claims about Peah and the eating table.
+# Preserve public-domain Sefaria snapshots verbatim, with edition metadata.
+source('c-m-Peah-1.2','next-Mishnah_Peah.1.2.json','משנה')
+source('c-m-Chullin-8.1','next-Mishnah_Chullin.8.1.json','משנה')
 sources['c-Peah-1.2']['note']='הרמב״ם מביא שני נוסחים, ״ענוה״ ו״ענבה״, ומפרש את שניהם. שניהם נשמרו ללא הכרעת נוסח חדשה.'
 
 # Supplementary Rambam Mishneh Torah source verifies the distinction between
