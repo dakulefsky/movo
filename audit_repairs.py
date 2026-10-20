@@ -38,4 +38,4 @@ def apply_audit_repairs(handbooks):
         'אין הלשון לבדה אוסרת עליו לאכול ממאכלי חברו')
     replacement('i-yibum/house-rule',
         'בלשון הכתוב', 'בדרשת הכתוב')
-    return 7
+    return 6
