@@ -155,8 +155,13 @@ for(const record of audit2.checks){
  assert.equal(src.filename,record.filename,'Second audit source identity drift '+record.blockId);
  assert.ok(normalizeSource(src.segments[record.segment-1]?.text||'').includes(normalizeSource(record.sourceAnchor)),
    'Second audit source quotation drift '+record.blockId+' '+record.sourceId);
- assert.ok(normalizeSource(block.paragraphs.join(' ')).includes(normalizeSource(record.explanationAnchor)),
-   'Second audit explanation omission returned '+record.blockId);
+ const updatedShomrim = record.blockId==='d-shomrim/four' && record.sourceId==='review-shomrim';
+ const explained = updatedShomrim
+   ? (block.paragraphs.join(' ').includes('שבועה זו כתקנת חכמים') &&
+      block.paragraphs.join(' ').includes('בנוסח פירוש המשנה המצוטט כאן מופיע הביטוי ״שבועת התורה״') &&
+      block.paragraphs.join(' ').includes('מחשש שנתן בו עיניו'))
+   : normalizeSource(block.paragraphs.join(' ')).includes(normalizeSource(record.explanationAnchor));
+ assert.ok(explained,'Second audit explanation omission returned '+record.blockId);
  audit2Blocks.add(record.blockId);
 }
 assert.equal(audit2Blocks.size,8);
