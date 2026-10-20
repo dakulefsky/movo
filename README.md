@@ -2,11 +2,11 @@
 
 An offline Hebrew introductory index for Otzaria, by **DanTheMan**.
 
-The plugin introduces the main subjects and essential processes in קדשים, טהרות, אישות, זרעים, דיני ממונות, and איסור והיתר. Entries are short, with expandable headings, search, related entries, and bundled source passages. The current source version is **0.13.4**, incorporating a fifth source-first audit of the Rambam and Meiri while retaining 98 introductions, 317 sections and globally safe cross-handbook links.
+The plugin introduces the main subjects and essential processes in קדשים, טהרות, אישות, זרעים, דיני ממונות, and איסור והיתר. Entries are short, with expandable headings, search, related entries, and bundled source passages. The current source version is **0.13.5**, incorporating a sixth source-first audit with sixteen corrected passages, while retaining 98 introductions, 317 sections and safe cross-handbook navigation.
 
 ## Install
 
-Install the **0.13.4** package once validated from the `Mevoot-Hashas-plugin` artifact of the latest successful [GitHub Actions run](https://github.com/dakulefsky/movo/actions/workflows/release.yml), or from the Otzaria plugin listing once its update is published. The older [0.12.0 package](dist/Mevoot-Shas-0.12.0.otzplugin) remains in the repository for comparison. No internet connection or AI service is required by the installed plugin.
+Install the **0.13.5** package once validated from the `Mevoot-Hashas-plugin` artifact of the latest successful [GitHub Actions run](https://github.com/dakulefsky/movo/actions/workflows/release.yml), or from the Otzaria plugin listing once its update is published. The older [0.12.0 package](dist/Mevoot-Shas-0.12.0.otzplugin) remains in the repository for comparison. No internet connection or AI service is required by the installed plugin.
 
 The manifest declares Otzaria 0.9.97 or later. Package validation was run against 0.9.98. Installation and source opening in a running installed Otzaria application remain unverified; see [VALIDATION.md](VALIDATION.md).
 
@@ -19,7 +19,7 @@ python3 build.py
 python3 package.py
 ```
 
-This generates the content export, editorial data and `plugin/data/library.js`, then creates `dist/Mevoot-Shas-0.13.4.otzplugin`. Build output is reproducible without fetching source texts.
+This generates the content export, editorial data and `plugin/data/library.js`, then creates `dist/Mevoot-Shas-0.13.5.otzplugin`. Build output is reproducible without fetching source texts.
 
 ## Sources and editorial scope
 
@@ -136,3 +136,11 @@ Resolved nine identified omissions in **ten** existing explanatory blocks, cover
 The user's audit attached the Baalav Imo ruling to `d-shomer-ones/roles`, but the actual relevant blocks are `d-shomrim/ones` and `d-shomrim/baalav`; neither the four-guardians introduction nor the legal distinction was discarded. The Taharot revision expressly preserves the Rambam's conclusion that the historically decreed `בשר תאווה` is *טהור לתרומה* while *מטמא את הקודש*. The Chullin account describes the Rambam's example, not universal contemporary kashrut practice.
 
 See [SOURCE-REVIEW-0.13.4.md](SOURCE-REVIEW-0.13.4.md) for the exact decisions and [SOURCE-REVIEW-0.13.4.json](SOURCE-REVIEW-0.13.4.json) for 15 machine-checked source-text quotations and matching explanatory phrases. The release does not change the six broad study areas, 98 entries, 317 blocks or 215 source records; it preserves every previous source-audit regression.
+
+## Sixth source-fidelity review — 0.13.5
+
+A fresh Gemini audit uncovered sixteen introductory explanations missing central legal contrasts, conditions or rationales. We checked all suggestions against the **bundled primary sources** before editing. In particular the old title for `i-yuchasin/limits` wrongly grouped permitted Kiddushin cases under cases in which Kiddushin do not take effect. This is now corrected; Gemini also incorrectly described the offspring of a second-generation Egyptian man and a first-generation Egyptian woman as following the mother, whereas Rambam explicitly says the third-generation child follows the **father**. The source-backed revision corrects both errors.
+
+Other amendments concern a woman's consent to kiddushin versus the cited laws of yibbum; a rabbinic-decree argument in Yadayim; terumah/chullin in Ketubot; the legal rationale of a get reaching the woman's basket; gifts of already-separated maaser sheni; all three criteria of Peah; cooked maaser-sheni food in biur; doubly doubtful tumah and burning terumah; prozbul signatures; Rabbi Yehuda's position on terumah of a minor; thirty days in rabbinic-oath refusal; formal admission as evidence; and conditions of disqualification, appointment and mistaken decisions in monetary courts.
+
+Twenty direct source/explanation checks across **sixteen** blocks are in [SOURCE-REVIEW-0.13.5.json](SOURCE-REVIEW-0.13.5.json) and detailed explanations in [SOURCE-REVIEW-0.13.5.md](SOURCE-REVIEW-0.13.5.md). All earlier audit records, the original 215 source records and 317 explanatory sections are preserved. Original Rambam wording is not a substitute for independent practical halachic review.
