@@ -268,7 +268,9 @@ for(const [source,targets] of Object.entries({
  'k-pigul':['k-matanot','av-kabbalah','av-zerikah'],
  'av-holachah':['av-kabbalah','av-zerikah']
 })){
- const blocks=entry(source).blocks;
+ const found=d.handbooks.flatMap(h=>h.entries).find(e=>e.id===source);
+  assert.ok(found,'Missing route entry: '+source);
+  const blocks=found.blocks;
  for(const target of targets)assert.ok(blocks.some(b=>b.links.includes(target)),'Missing learning route: '+source+' to '+target);
 }
 const depth=JSON.parse(fs.readFileSync(path.join(root,'DEPTH-REVIEW-0.13.5.json'),'utf8'));
