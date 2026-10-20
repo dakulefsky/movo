@@ -137,6 +137,23 @@ for edit in sixth['changes']:
    block['refs'].append(proof_ref)
  seen_sixth.add(key)
 
+# Source-anchored depth pass: expand thin introductions only where the exact
+# cited source supplies an additional legal distinction or a concrete example.
+depth=json.loads((ROOT/'DEPTH-REVIEW-0.13.5.json').read_text(encoding='utf-8'))
+assert depth['version']=='0.13.5' and len(depth['updates'])==4
+depth_seen=set()
+for edit in depth['updates']:
+ key=edit['blockId']
+ assert key in block_index and key not in depth_seen, ('depth block',key)
+ b=block_index[key]
+ proof=edit['proof'];segment=proof['segment'];src=sources[proof['sourceId']]
+ assert any(r['source']==proof['sourceId'] and segment in r['segments'] for r in b['refs']), ('depth cite',key)
+ assert letters_only(proof['sourceQuote']) in letters_only(src['segments'][segment-1]['text']), ('depth source',key)
+ assert letters_only(proof['explanationQuote']) in letters_only(' '.join(edit['paragraphs'])), ('depth prose',key)
+ assert len(' '.join(edit['paragraphs']).split())>=90, ('still too short',key)
+ b['paragraphs']=edit['paragraphs']
+ depth_seen.add(key)
+
 
 all_entries=[e for h in handbooks for e in h['entries']]
 ids=[e['id'] for e in all_entries]
