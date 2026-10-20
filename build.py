@@ -92,7 +92,7 @@ AUDIT_EXTRA_REFS={
  'av-holachah/act': [('z2-3',1)],
  'av-tenufah/act': [('av-mm-9.8',1)],
  't-ohel/bib-example': [('v-Oholot-3.7',3)],
- 'z-peah/measure': [('c-Peah-1.2',1),('c-m-Peah-1.2',1)],
+ 'z-peah/measure': [('c-Peah-1.2',1)],
  'z-hafrashah/gmar-home': [('a-maasrot-1-5',4)],
  'z-five-grains/species': [('a-challah-1-1',1)],
  'z-five-grains/new': [('am-challah-1-1',1)],
