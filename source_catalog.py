@@ -107,6 +107,18 @@ sources['c-Chullin-3.1']['note']='סוגריים, הצעות הגהה ותוספ
 source('c-m-Peah-1.2','next-Mishnah_Peah.1.2.json','משנה')
 source('c-m-Chullin-8.1','next-Mishnah_Chullin.8.1.json','משנה')
 source('audit-m-sheviit-7-1','audit-Mishnah_Sheviit.7.1-excerpt.json','משנה')
+source('mt-mikvaot-1-3','audit-MT-Mikvaot.1.3.json','רמב״ם')
+sources['mt-mikvaot-1-3']['url']='https://mechon-mamre.org/i/a801.htm'
+sources['mt-mikvaot-1-3']['note']='מובא מקטע מדויק מנוסח משנה תורה שבמכון ממרא, לצורך בירור הנקודה הנדונה בלבד; זה אינו הפרק השלם ואין בהבאתו הכרעה בין נוסחאות כתבי היד.'
+source('mt-sheelah-6-1','audit-MT-Sheelah.6.1.json','רמב״ם')
+sources['mt-sheelah-6-1']['url']='https://mechon-mamre.org/i/d206.htm'
+sources['mt-sheelah-6-1']['note']='מובא מקטע מדויק מנוסח משנה תורה שבמכון ממרא, לצורך בירור הנקודה הנדונה בלבד; זה אינו הפרק השלם ואין בהבאתו הכרעה בין נוסחאות כתבי היד.'
+source('mt-pesulei-14-3','audit-MT-Pesulei.14.3.json','רמב״ם')
+sources['mt-pesulei-14-3']['url']='https://mechon-mamre.org/i/8714.htm'
+sources['mt-pesulei-14-3']['note']='מובא מקטע מדויק מנוסח משנה תורה שבמכון ממרא, לצורך בירור הנקודה הנדונה בלבד; זה אינו הפרק השלם ואין בהבאתו הכרעה בין נוסחאות כתבי היד.'
+source('mt-nedarim-1-16','audit-MT-Nedarim.1.16.json','רמב״ם')
+sources['mt-nedarim-1-16']['url']='https://mechon-mamre.org/i/6201.htm'
+sources['mt-nedarim-1-16']['note']='מובא מקטע מדויק מנוסח משנה תורה שבמכון ממרא, לצורך בירור הנקודה הנדונה בלבד; זה אינו הפרק השלם ואין בהבאתו הכרעה בין נוסחאות כתבי היד.'
 sources['audit-m-sheviit-7-1']['note']='זהו מקטע מדויק מן המשפט הפותח משנה שביעית ז, א, ולא נוסח המשנה בשלמותה. נעזרנו בו להוכחת שלוש המחלקות ותנאי שאינו מתקיים בארץ; ראו מהדורת ויקיטקסט שצוינה בקובץ המקור.'
 sources['c-Peah-1.2']['note']='הרמב״ם מביא שני נוסחים, ״ענוה״ ו״ענבה״, ומפרש את שניהם. שניהם נשמרו ללא הכרעת נוסח חדשה.'
 
