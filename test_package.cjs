@@ -319,6 +319,7 @@ for(const correction of depth.updates){
  assert.ok(normalizeSource(d.sources[p.sourceId].segments[p.segment-1].text).includes(normalizeSource(p.sourceQuote)),'Depth source drift: '+correction.blockId);
 }
 assert.match(entry('asham','animals').paragraphs.join(' '),/זכרי הכבשים/);
+assert.match(entry('asham','animals').paragraphs.join(' '),/אף באשם תלוי מפורש בנוסח משנה תורה/);
 assert.match(entry('av-melikah','act').paragraphs.join(' '),/אין מבדילים/);
 assert.deepEqual(errors,[]);assert.deepEqual(remote,[]);console.log('PASS: actual unpacked 0.13.5 package; home search, voluntary resume, continuous reading; all 98 entries and 317 block controls in six areas; new avodot source dialogs and reciprocal offering links; cross-area deep-link search and exact source dialogs; Hebrew search, back/reload/pager, SDK success and failure paths, mobile+desktop no overflow, font persistence. No network requests, JS errors or screenshots.');
 }finally{await browser.close()}
