@@ -104,6 +104,26 @@ apply_prose_revision(handbooks)
 coverage_summary=apply_expansion(handbooks,sources)
 print('source-anchored expansion:',coverage_summary)
 
+# Sixth source-first audit: make the reviewed corrections in the built corpus,
+# preserving the historical source and prose overlays without mutating quotations.
+sixth=json.loads((ROOT/'SOURCE-REVIEW-0.13.5.json').read_text(encoding='utf-8'))
+assert sixth['version']=='0.13.5'
+block_index={e['id']+'/'+b['id']:b for h in handbooks for e in h['entries'] for b in e['blocks']}
+assert len(sixth['changes'])==15
+seen_sixth=set()
+for edit in sixth['changes']:
+ key=edit['blockId']
+ assert key in block_index and key not in seen_sixth, ('sixth-audit block mismatch',key)
+ block=block_index[key]
+ assert edit['oldQuote'] in ' '.join(block['paragraphs']), ('sixth-audit stale original',key)
+ assert edit['paragraphs'] and all(p.strip() for p in edit['paragraphs']), key
+ block['paragraphs']=edit['paragraphs']
+ for ref in edit.get('addRefs',[]):
+  assert ref['source'] in sources, ('sixth-audit missing cited source',key,ref)
+  if ref not in block['refs']:block['refs'].append(ref)
+ seen_sixth.add(key)
+
+
 all_entries=[e for h in handbooks for e in h['entries']]
 ids=[e['id'] for e in all_entries]
 assert len(ids)==len(set(ids)), 'Entry IDs must be globally unique'
@@ -124,7 +144,7 @@ for src in sources.values():
   for key in d['provenance']['jsonPath']:obj=obj[key]
   obj=[obj] if isinstance(obj,str) else obj
   assert obj==d['he'],src['filename']
-data={'schemaVersion':2,'version':'0.13.4','author':'DanTheMan','editorialPolicy':policy,'subjects':[{'id':id,'title':title,'status':status} for id,title,status in [('kodashim','קדשים','available'),('tahorot','טהרות','available'),('ishut','אישות','available'),('zeraim','זרעים','available'),('mammon','דיני ממונות','available'),('issur','איסור והיתר','available')]],'handbooks':handbooks,'sources':sources}
+data={'schemaVersion':2,'version':'0.13.5','author':'DanTheMan','editorialPolicy':policy,'subjects':[{'id':id,'title':title,'status':status} for id,title,status in [('kodashim','קדשים','available'),('tahorot','טהרות','available'),('ishut','אישות','available'),('zeraim','זרעים','available'),('mammon','דיני ממונות','available'),('issur','איסור והיתר','available')]],'handbooks':handbooks,'sources':sources}
 (ROOT/'plugin/data').mkdir(parents=True,exist_ok=True)
 (ROOT/'plugin/data/library.js').write_text('window.MEVOOT='+json.dumps(data,ensure_ascii=False)+';\n')
 (ROOT/'editorial.json').write_text(json.dumps(data,ensure_ascii=False,indent=2))
