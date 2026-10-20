@@ -1398,8 +1398,16 @@
       "evidence_urls": [],
       "findings": [],
       "proposed_revision": "",
-      "reviewer": "",
-      "reviewed_at": ""
+      "reviewer": "Codex",
+      "reviewed_at": "2026-10-20",
+      "high_risk_first_pass": {
+        "queue": "https://github.com/dakulefsky/movo/issues/12",
+        "reviewer": "Codex",
+        "date": "2026-10-20",
+        "assessment": "The repair removes the false implication of external-corner gifts. Mishnah Zevachim 5:1–2 separates inner placements, northward slaughter and pouring of remainders. This paragraph gives that order without adding an external-corner stage.",
+        "evidence": [],
+        "limits": "First reviewer only. Public-transcription comparison does not authenticate an original edition or satisfy independent adversarial review. Unchecked propositions remain pending."
+      }
     },
     {
       "claim_id": "k-inner-chattat/essential/paragraph-1",
@@ -2393,11 +2401,31 @@
       "literary_review": "pending",
       "adversarial_review": "pending",
       "decision": "not_reviewed",
-      "evidence_urls": [],
+      "evidence_urls": [
+        "https://mechon-mamre.org/i/8704.htm"
+      ],
       "findings": [],
       "proposed_revision": "",
-      "reviewer": "",
-      "reviewed_at": ""
+      "reviewer": "Codex",
+      "reviewed_at": "2026-10-20",
+      "high_risk_first_pass": {
+        "queue": "https://github.com/dakulefsky/movo/issues/12",
+        "reviewer": "Codex",
+        "date": "2026-10-20",
+        "assessment": "Mishneh Torah supports male sheep, two-year ordinary guilt offerings and one-year nazir/leper exceptions. The alleged alternative age readings are not identified; do not certify that textual-variant assertion.",
+        "evidence": [
+          {
+            "witness_id": "mt-pesulei-4-22",
+            "url": "https://mechon-mamre.org/i/8704.htm",
+            "sha256": "83362edf669ad302fd8c7fa9f9f5f3293ca0701db305db52f1ca2f058868276f",
+            "quotation": "ד; והשני ירעה עד שייפול בו מום, וייפלו דמיו לנדבה. ואין צריך לומר בוודאי שהוא כן. יט [כב] כל האשמות שבתורה--באין בני שתיים, ובאין בכסף שקלים: חוץ מאשם מצורע ואשם נזיר--שהם בני שנה, ואין לדמיהם קצבה. אשם תלוי, בפירוש שהוא מן הגדולים; ומפי השמועה למדו, שאינו בא אלא בכסף שקלים. [כג] הוזלו אילים, ולא יימצא איל בשתי סלעים--אין לו תקנה, אלא ישהה עד שיוקרו ויביא בשתי סלעים, שהרי הקפידה תורה על דמיו, ונתנה לו קצבה. כ [כד] הפריש אשמו, והיה בשעת הפרשה יפה סלע, ובשעת כפרה יפה שתיים--כשר: שהדחוי מעיקרו אינו דחוי, ועדיין לא נראה עד שנעשה שווה שתיים; ואף על פי שהשביח מאליו, אדם מתכפר בשבח הקדש. כא היה בשעת הפרשה יפה שתיים, ובשעת כפרה יפה סלע--הרי זה פסול. חזר ונעשה יפה שתיים, יחזור לכשרותו--שאין בעלי חיים נדחין, כמו שביארנו: למה הדבר דומה, למום",
+            "quotation_format": "Hebrew combining marks removed; surrounding words preserved",
+            "edition": "Public web transcription; edition/manuscript lineage not independently authenticated",
+            "retrieved_at": "2026-10-20"
+          }
+        ],
+        "limits": "First reviewer only. Public-transcription comparison does not authenticate an original edition or satisfy independent adversarial review. Unchecked propositions remain pending."
+      }
     },
     {
       "claim_id": "asham/service/paragraph-1",
@@ -3721,11 +3749,31 @@
       "literary_review": "pending",
       "adversarial_review": "pending",
       "decision": "not_reviewed",
-      "evidence_urls": [],
+      "evidence_urls": [
+        "https://he.wikisource.org/wiki/משנה_זבחים_ה_ה"
+      ],
       "findings": [],
       "proposed_revision": "",
-      "reviewer": "",
-      "reviewed_at": ""
+      "reviewer": "Codex",
+      "reviewed_at": "2026-10-20",
+      "high_risk_first_pass": {
+        "queue": "https://github.com/dakulefsky/movo/issues/12",
+        "reviewer": "Codex",
+        "date": "2026-10-20",
+        "assessment": "Two Shavuot lambs are the public peace offerings. The earlier private-partnership assertion was removed, so that citation gap no longer applies. Last sentence repeats the opening rather than adding substance.",
+        "evidence": [
+          {
+            "witness_id": "z5-5",
+            "url": "https://he.wikisource.org/wiki/משנה_זבחים_ה_ה",
+            "sha256": "c01ac7799e8a6cc839106ac2ff7e68c1fd8ddf088789b5381176f776ed836c33",
+            "quotation": "ונה - בכל מאכל, ליום ולילה - עד חצות. פירוש הרמב\"ם [עריכה ] כבר ידעת שאין לצבור שלמים אלא שני כבשי עצרת, והן שמניפין אותן על שתי הלחם כמו שיתבאר אחר כך. וסמך אותן הכתוב אל החטאת שנאמר \"ועשיתם שעיר עזים אחד לחטאת, ושני כבשים בני שנה לזבח השלמים\" (ויקרא כג, יט) , לכן היה משפטן כחטאת זולתי מתן ארבע, שאין חייבין במתן ארבע בקרבן בשום פנים אלא בחטאת בלבד. וכבר בארנו אלו האשמות כולן בתחילת דברינו: פירוש רבי עובדיה מברטנורא [עריכה ] זבחי שלמי צבור. כבשי עצרת: אשם גזילות. האמור בשבועת הפקדון: אשם מעילות. הנהנה מן ההקדש: אשם שפחה חרופה. הבא על שפחה שחציה שפחה וחציה בת חורין המיועדת לעבד עברי שמותר בשפחה ובבת חורין: אשם נזיר. שנטמא במת. דכתיב ביה ( במדבר ו ) והזיר לה' את ימי נזרו [וגו']: אשם תלוי. ספק שגג בדבר שחייבין על זדונו כרת, ספק לא שג",
+            "quotation_format": "Hebrew combining marks removed; surrounding words preserved",
+            "edition": "Public web transcription; edition/manuscript lineage not independently authenticated",
+            "retrieved_at": "2026-10-20"
+          }
+        ],
+        "limits": "First reviewer only. Public-transcription comparison does not authenticate an original edition or satisfy independent adversarial review. Unchecked propositions remain pending."
+      }
     },
     {
       "claim_id": "public-shelamim/service/paragraph-1",
@@ -4891,7 +4939,25 @@
           "context_assessment": "Displayed Rambam commentary invalidates; Tosafot Yom Tov commentary states: וכן הר״מ בחבורו חזר בו ולא פסל לעומר שלא לשמו. This is a named commentator’s explanation, not an original-Arabic or manuscript conclusion.",
           "reviewer": "Codex"
         }
-      ]
+      ],
+      "high_risk_first_pass": {
+        "queue": "https://github.com/dakulefsky/movo/issues/12",
+        "reviewer": "Codex",
+        "date": "2026-10-20",
+        "assessment": "Both rulings must remain visible. Commentary invalidates Omer not-for-its-sake; Mishneh Torah permits. Tosafot Yom Tov gives a retraction explanation. Record it as his assessment, not a newly established manuscript history.",
+        "evidence": [
+          {
+            "witness_id": "mt-pesulei-14-3",
+            "url": "https://mechon-mamre.org/i/8714.htm",
+            "sha256": "71a8f124eff57297408f157d061949d33ed22bd768b4c400cc66759015be9cc8",
+            "quotation": " שינוי השם פסל אותם, אלא מפני שהוא פסול לעבודה כמו שביארנו. ד [ג] בדבר הראוי לעבודה כיצד: מנחת העומר שקמצה שלא לשמה--הרי זו כמי שנעשת לשמה, ושייריה נאכלין, מפני שהיא מן השעורים, ואין השעורים דבר הראוי לשאר קרבנות. וכן המחשב במנחת קנאות והלבונה עליה, קודם שילקט הלבונה--אין מחשבתו מועלת, שהרי אינה דבר הראוי לעבודה. וכן כל כיוצא בזה. ה [ד] במקום הראוי לעבודה כיצד: מזבח שנפגם, וחישב מחשבת זמן או מחשבת מקום--לא פסל הזבח במחשבה זו, שהרי אין המקום עתה ראוי לעבודה. קמץ את המנחה בחוץ, וחישב בשעת קמיצה מחשבת זמן או מחשבת מקום--אין מחשבה זו כלום. ו [ה] אלו דברים שאינן ראויין לאכילה מן הקרבנות, וראויין להקטרה--הדם, והאימורין, ובשר העולה, והקומץ והלבונה מן המנחות הנקמצות. [ו] ואלו ראויין לאכילה, ואינן ראויין להקטרה--הבשר הנאכל מכל הזבחים, בין ",
+            "quotation_format": "Hebrew combining marks removed; surrounding words preserved",
+            "edition": "Public web transcription; edition/manuscript lineage not independently authenticated",
+            "retrieved_at": "2026-10-20"
+          }
+        ],
+        "limits": "First reviewer only. Public-transcription comparison does not authenticate an original edition or satisfy independent adversarial review. Unchecked propositions remain pending."
+      }
     },
     {
       "claim_id": "minchah/exceptions/paragraph-2",
@@ -4986,7 +5052,25 @@
           "context_assessment": "Displayed Rambam commentary invalidates; Tosafot Yom Tov commentary states: וכן הר״מ בחבורו חזר בו ולא פסל לעומר שלא לשמו. This is a named commentator’s explanation, not an original-Arabic or manuscript conclusion.",
           "reviewer": "Codex"
         }
-      ]
+      ],
+      "high_risk_first_pass": {
+        "queue": "https://github.com/dakulefsky/movo/issues/12",
+        "reviewer": "Codex",
+        "date": "2026-10-20",
+        "assessment": "Both rulings must remain visible. Commentary invalidates Omer not-for-its-sake; Mishneh Torah permits. Tosafot Yom Tov gives a retraction explanation. Record it as his assessment, not a newly established manuscript history.",
+        "evidence": [
+          {
+            "witness_id": "mt-pesulei-14-3",
+            "url": "https://mechon-mamre.org/i/8714.htm",
+            "sha256": "71a8f124eff57297408f157d061949d33ed22bd768b4c400cc66759015be9cc8",
+            "quotation": " שינוי השם פסל אותם, אלא מפני שהוא פסול לעבודה כמו שביארנו. ד [ג] בדבר הראוי לעבודה כיצד: מנחת העומר שקמצה שלא לשמה--הרי זו כמי שנעשת לשמה, ושייריה נאכלין, מפני שהיא מן השעורים, ואין השעורים דבר הראוי לשאר קרבנות. וכן המחשב במנחת קנאות והלבונה עליה, קודם שילקט הלבונה--אין מחשבתו מועלת, שהרי אינה דבר הראוי לעבודה. וכן כל כיוצא בזה. ה [ד] במקום הראוי לעבודה כיצד: מזבח שנפגם, וחישב מחשבת זמן או מחשבת מקום--לא פסל הזבח במחשבה זו, שהרי אין המקום עתה ראוי לעבודה. קמץ את המנחה בחוץ, וחישב בשעת קמיצה מחשבת זמן או מחשבת מקום--אין מחשבה זו כלום. ו [ה] אלו דברים שאינן ראויין לאכילה מן הקרבנות, וראויין להקטרה--הדם, והאימורין, ובשר העולה, והקומץ והלבונה מן המנחות הנקמצות. [ו] ואלו ראויין לאכילה, ואינן ראויין להקטרה--הבשר הנאכל מכל הזבחים, בין ",
+            "quotation_format": "Hebrew combining marks removed; surrounding words preserved",
+            "edition": "Public web transcription; edition/manuscript lineage not independently authenticated",
+            "retrieved_at": "2026-10-20"
+          }
+        ],
+        "limits": "First reviewer only. Public-transcription comparison does not authenticate an original edition or satisfy independent adversarial review. Unchecked propositions remain pending."
+      }
     },
     {
       "claim_id": "k-nesachim/meaning/paragraph-1",
@@ -6290,11 +6374,31 @@
       "literary_review": "pending",
       "adversarial_review": "pending",
       "decision": "not_reviewed",
-      "evidence_urls": [],
+      "evidence_urls": [
+        "https://he.wikisource.org/wiki/משנה_זבחים_א_ד"
+      ],
       "findings": [],
       "proposed_revision": "",
-      "reviewer": "",
-      "reviewed_at": ""
+      "reviewer": "Codex",
+      "reviewed_at": "2026-10-20",
+      "high_risk_first_pass": {
+        "queue": "https://github.com/dakulefsky/movo/issues/12",
+        "reviewer": "Codex",
+        "date": "2026-10-20",
+        "assessment": "The added Zevachim 2:3 reference addresses blood services and eligibility, and 1:4 addresses invalidating intent. The second paragraph still needs the time qualification for Pesach; not-for-its-sake does not invalidate Pesach outside its time in the same way.",
+        "evidence": [
+          {
+            "witness_id": "av-z-1.4",
+            "url": "https://he.wikisource.org/wiki/משנה_זבחים_א_ד",
+            "sha256": "a0ad5074fe0d2eeae87e13d448951cf9580bdc7a5e72aed3726247bfa45cf10f",
+            "quotation": " נזיקין · קדשים · טהרות << | משנה · סדר קדשים · מסכת זבחים · פרק א · משנה ד | >> [עריכה ] הפסח והחטאת ששחטן שלא לשמן, קיבל, והלך, וזרק, שלא לשמן, או לשמן ושלא לשמן, או שלא לשמן ולשמן, פסולים. כיצד לשמן ושלא לשמן? לשם פסח ולשם שלמים. שלא לשמן ולשמן? לשם שלמים ולשם הפסח. שהזבח נפסל בארבעה דברים, בשחיטה ובקיבול ובהילוך ובזריקה. רבי שמעון מכשיר בהילוך, שהיה רבי שמעון אומר: אי אפשר שלא בשחיטה ושלא בקבלה ושלא בזריקה, אבל אפשר שלא בהילוך – שוחט בצד המזבח וזורק. רבי אליעזר אומר, המהלך במקום שהוא צריך להלך, המחשבה פוסלת. ובמקום שאין צריך להלך, אין המחשבה פוסלת. משנה מנוקדת [עריכה ] הפסח והחטאת ששחטן שלא לשמן, קבל, והלך, וזרק, שלא לשמן, או לשמן ושלא לשמן, או שלא לשמן ולשמן – פסולים. כיצד לשמן ושלא לשמן? לשם פסח ולשם שלמים. שלא לשמן ולשמן? ל",
+            "quotation_format": "Hebrew combining marks removed; surrounding words preserved",
+            "edition": "Public web transcription; edition/manuscript lineage not independently authenticated",
+            "retrieved_at": "2026-10-20"
+          }
+        ],
+        "limits": "First reviewer only. Public-transcription comparison does not authenticate an original edition or satisfy independent adversarial review. Unchecked propositions remain pending."
+      }
     },
     {
       "claim_id": "av-holachah/act/paragraph-2",
@@ -6366,11 +6470,31 @@
       "literary_review": "pending",
       "adversarial_review": "pending",
       "decision": "not_reviewed",
-      "evidence_urls": [],
+      "evidence_urls": [
+        "https://he.wikisource.org/wiki/משנה_זבחים_א_ד"
+      ],
       "findings": [],
       "proposed_revision": "",
-      "reviewer": "",
-      "reviewed_at": ""
+      "reviewer": "Codex",
+      "reviewed_at": "2026-10-20",
+      "high_risk_first_pass": {
+        "queue": "https://github.com/dakulefsky/movo/issues/12",
+        "reviewer": "Codex",
+        "date": "2026-10-20",
+        "assessment": "The added Zevachim 2:3 reference addresses blood services and eligibility, and 1:4 addresses invalidating intent. The second paragraph still needs the time qualification for Pesach; not-for-its-sake does not invalidate Pesach outside its time in the same way.",
+        "evidence": [
+          {
+            "witness_id": "av-z-1.4",
+            "url": "https://he.wikisource.org/wiki/משנה_זבחים_א_ד",
+            "sha256": "a0ad5074fe0d2eeae87e13d448951cf9580bdc7a5e72aed3726247bfa45cf10f",
+            "quotation": " נזיקין · קדשים · טהרות << | משנה · סדר קדשים · מסכת זבחים · פרק א · משנה ד | >> [עריכה ] הפסח והחטאת ששחטן שלא לשמן, קיבל, והלך, וזרק, שלא לשמן, או לשמן ושלא לשמן, או שלא לשמן ולשמן, פסולים. כיצד לשמן ושלא לשמן? לשם פסח ולשם שלמים. שלא לשמן ולשמן? לשם שלמים ולשם הפסח. שהזבח נפסל בארבעה דברים, בשחיטה ובקיבול ובהילוך ובזריקה. רבי שמעון מכשיר בהילוך, שהיה רבי שמעון אומר: אי אפשר שלא בשחיטה ושלא בקבלה ושלא בזריקה, אבל אפשר שלא בהילוך – שוחט בצד המזבח וזורק. רבי אליעזר אומר, המהלך במקום שהוא צריך להלך, המחשבה פוסלת. ובמקום שאין צריך להלך, אין המחשבה פוסלת. משנה מנוקדת [עריכה ] הפסח והחטאת ששחטן שלא לשמן, קבל, והלך, וזרק, שלא לשמן, או לשמן ושלא לשמן, או שלא לשמן ולשמן – פסולים. כיצד לשמן ושלא לשמן? לשם פסח ולשם שלמים. שלא לשמן ולשמן? ל",
+            "quotation_format": "Hebrew combining marks removed; surrounding words preserved",
+            "edition": "Public web transcription; edition/manuscript lineage not independently authenticated",
+            "retrieved_at": "2026-10-20"
+          }
+        ],
+        "limits": "First reviewer only. Public-transcription comparison does not authenticate an original edition or satisfy independent adversarial review. Unchecked propositions remain pending."
+      }
     },
     {
       "claim_id": "av-holachah/possible/paragraph-1",
@@ -9022,11 +9146,31 @@
       "literary_review": "pending",
       "adversarial_review": "pending",
       "decision": "not_reviewed",
-      "evidence_urls": [],
+      "evidence_urls": [
+        "https://he.wikisource.org/wiki/משנה_מנחות_ה_ו"
+      ],
       "findings": [],
       "proposed_revision": "",
-      "reviewer": "",
-      "reviewed_at": ""
+      "reviewer": "Codex",
+      "reviewed_at": "2026-10-20",
+      "high_risk_first_pass": {
+        "queue": "https://github.com/dakulefsky/movo/issues/12",
+        "reviewer": "Codex",
+        "date": "2026-10-20",
+        "assessment": "Menachot 5:6 supports motions, stacking and priest hands beneath owner hands; 9:8 explicitly supports two-hand leaning on the head. Do not generalize owner participation to every disqualified owner category listed in adjacent context.",
+        "evidence": [
+          {
+            "witness_id": "av-m-5.6",
+            "url": "https://he.wikisource.org/wiki/משנה_מנחות_ה_ו",
+            "sha256": "089b5ffdf701e64409153b2e8c00b9455d0df2ba7c27b7172adee1b584b5731f",
+            "quotation": "נו כך היא, מניח האימורים על פס ידו וחזה ושוק למעלה, שנאמר \"על אשי החלבים\" (ויקרא י, טו) , וכהן מניח ידיו תחת ידי הבעלים ומניף. וכבר זכרנו פעמים שאלו שני כבשים הם השלמים הנקרבים בכלל הלחם ביום עצרת. וכבר נתבאר בברייתא שרבי אומר בשתי הלחם עם שני כבשים, מניח זה בצד זה ומניף. וכן היא ההלכה לפי שעיקר בידינו כרבי שהוא אומר \"על בסמוך\" ואינו צריך על גביו על כל פנים, לפי מה שאמר \"על הלחם\", רוצה לומר \"עמו\" אף על פי שהוא לבדו. ושאר העניין מבואר: פירוש רבי עובדיה מברטנורא [עריכה ] לוג ואשם מצורע - כתיב בהו והניף: והבכורים כדברי ר' אליעזר בן יעקב - גרסינן. כלומר, דשמעינן ליה בעלמא דאמר ביכורים טעונים תנופה יג והלכה כמותו: ואימורי שלמי יחיד וחזה ושוק שלהן - בהדיא כתיב בהו (ויקרא י,) שוק התרומה וחוה התנופה על אשי החלבים יביאו להניף: אחד שלמי אנש",
+            "quotation_format": "Hebrew combining marks removed; surrounding words preserved",
+            "edition": "Public web transcription; edition/manuscript lineage not independently authenticated",
+            "retrieved_at": "2026-10-20"
+          }
+        ],
+        "limits": "First reviewer only. Public-transcription comparison does not authenticate an original edition or satisfy independent adversarial review. Unchecked propositions remain pending."
+      }
     },
     {
       "claim_id": "av-tenufah/objects/paragraph-1",
@@ -12206,11 +12350,31 @@
       "literary_review": "pending",
       "adversarial_review": "pending",
       "decision": "not_reviewed",
-      "evidence_urls": [],
+      "evidence_urls": [
+        "https://he.wikisource.org/wiki/משנה_אהלות_ג_ז"
+      ],
       "findings": [],
       "proposed_revision": "",
-      "reviewer": "",
-      "reviewed_at": ""
+      "reviewer": "Codex",
+      "reviewed_at": "2026-10-20",
+      "high_risk_first_pass": {
+        "queue": "https://github.com/dakulefsky/movo/issues/12",
+        "reviewer": "Codex",
+        "date": "2026-10-20",
+        "assessment": "The changed reference targets Commentary segment 3 rather than the introduction. The two outlet-size cases are described correctly but the second result is hidden behind דינו משתנה; state הבית טמא expressly.",
+        "evidence": [
+          {
+            "witness_id": "v-m-Oholot-3.7",
+            "url": "https://he.wikisource.org/wiki/משנה_אהלות_ג_ז",
+            "sha256": "912078c48a40c4a4db84270c54517b09fa41f2998528ccad31bf5b8ce98b44ed",
+            "quotation": "ור, שדרך הטומאה לצאת ואין דרכה להכנס. יש בו פותח טפח ואין ביציאתו פותח טפח, הטומאה בתוכו, הבית טמא. טומאה בבית, מה שבתוכו טהור, שדרך הטומאה לצאת ואין דרכה להכנס. אין בו פותח טפח ואין ביציאתו פותח טפח, טומאה בתוכו, הבית טמא. טומאה בבית, מה שבתוכו טמא. אחד חור שחררוהו מים, או שרצים, או שאכלתו מלחת, וכן מרבך של אבנים, וכן סואר של קורות. רבי יהודה אומר, כל אהל שאינו עשוי בידי אדם, אינו אהל. ומודה בשקיפים ובסלעים. משנה מנוקדת [עריכה ] טפח על טפח על רום טפח מרבע, מביא את הטמאה, וחוצץ בפני הטמאה. כיצד? ביב שהוא קמור תחת הבית, יש בו פותח טפח ויש ביציאתו פותח טפח, טמאה בתוכו, הבית טהור. טמאה בבית, מה שבתוכו טהור; שדרך הטמאה לצאת, ואין דרכה להכנס. יש בו פותח טפח ואין ביציאתו פותח טפח, הטמאה בתוכו, הבית טמא. טמאה בבית, מה שבתוכו טהור; שדרך ה",
+            "quotation_format": "Hebrew combining marks removed; surrounding words preserved",
+            "edition": "Public web transcription; edition/manuscript lineage not independently authenticated",
+            "retrieved_at": "2026-10-20"
+          }
+        ],
+        "limits": "First reviewer only. Public-transcription comparison does not authenticate an original edition or satisfy independent adversarial review. Unchecked propositions remain pending."
+      }
     },
     {
       "claim_id": "t-ranks/rank/paragraph-1",
@@ -12428,11 +12592,31 @@
       "literary_review": "pending",
       "adversarial_review": "pending",
       "decision": "not_reviewed",
-      "evidence_urls": [],
+      "evidence_urls": [
+        "https://mechon-mamre.org/i/a708.htm"
+      ],
       "findings": [],
       "proposed_revision": "",
-      "reviewer": "",
-      "reviewed_at": ""
+      "reviewer": "Codex",
+      "reviewed_at": "2026-10-20",
+      "high_risk_first_pass": {
+        "queue": "https://github.com/dakulefsky/movo/issues/12",
+        "reviewer": "Codex",
+        "date": "2026-10-20",
+        "assessment": "The material list and rabbinic glass impurity agree with the introduction. Kelim 8:1 expressly supports completion of metal vessels; 8:5 distinguishes wood and metal. The repair correctly limits its example instead of projecting one completion rule onto every material.",
+        "evidence": [
+          {
+            "witness_id": "mt-kelim-8-1",
+            "url": "https://mechon-mamre.org/i/a708.htm",
+            "sha256": "de13552859190829657d932bf4ca38b7861b8bf2b36437b18736f7372ed04663",
+            "quotation": "ב ג ד ה ו ז ח ט י יא יב יג יד טו טז יז יח יט כ כא כב כג כד כה כו כז כח הלכות כלים פרק ח א כל כלי מתכות אינן מקבלין טומאה--עד שתיגמר מלאכתן כולה, ולא יהיה הכלי מחוסר מעשה כלל; אבל גולמי כלי מתכות, אינן מקבלות טומאה. [ב] ואלו הן גולמי כלי מתכות: כל שעתיד לשוף אותו, או לשבץ, או לגרד, או לכרנב, או להקיש בקורנס, או שהיה מחוסר אוזן או אוגן--הרי זה אינו מקבל טומאה, עד שיתקנהו, וייפהו, ולא תישאר בו מלאכה כלל. ב כיצד: כגון הסיף שאינו מקבל טומאה עד שישופנו, והסכין עד שישחיזנה, וכן כל כיוצא במעשים אלו. לפיכך העושה כלים מן העשת של ברזל, או מן החררה של מתכת, ומן הסובב של גלגל, ומן הטסין, ומן הציפויין, ומכני הכלים, ומאוגני הכלים, ומאוזני הכלים, ומן השחולת, ומן הגרודת--הרי אלו טהורין: מפני שכל אלו שנעשו, גולמי כלי מתכות הן. ג אבל העושה כלי משברי",
+            "quotation_format": "Hebrew combining marks removed; surrounding words preserved",
+            "edition": "Public web transcription; edition/manuscript lineage not independently authenticated",
+            "retrieved_at": "2026-10-20"
+          }
+        ],
+        "limits": "First reviewer only. Public-transcription comparison does not authenticate an original edition or satisfy independent adversarial review. Unchecked propositions remain pending."
+      }
     },
     {
       "claim_id": "t-kelim/cheres/paragraph-1",
@@ -12576,7 +12760,25 @@
           "context_assessment": "Chapter 1:3 explicitly excludes glass and earthenware; following paragraph separately treats mats. This supports the corrected glass exception, not every proposition about old metal-vessel impurity in the same paragraph.",
           "reviewer": "Codex"
         }
-      ]
+      ],
+      "high_risk_first_pass": {
+        "queue": "https://github.com/dakulefsky/movo/issues/12",
+        "reviewer": "Codex",
+        "date": "2026-10-20",
+        "assessment": "Mikvaot 1:3 excludes earthenware, glass and mat; this is impurity purification, not acquisition immersion. Kelim 12 confirms old impurity of remade metal vessels across impurities. The Introduction/Mishneh Torah broad-wording discrepancy remains disclosed.",
+        "evidence": [
+          {
+            "witness_id": "mt-mikvaot-1-3",
+            "url": "https://mechon-mamre.org/i/a801.htm",
+            "sha256": "87a56c2f98a9f4efe82f38403d21b47632c0ba23bb7643303f2fbf4bd5ccc55f",
+            "quotation": " ( ויקרא יא,לב ): בניין אב לכל הטמאים, שיבואו במים. ג כל הכלים שנטמאו--יש להן טהרה במקוה, חוץ מכלי חרס וכלי זכוכית; וכן המפץ. וכלי חרס, נאמר בו \"ואותו תשבורו\" ( ויקרא יא,לג )--אין לו טהרה אלא שבירה. אפילו חיברו בקרקע, ואפילו קבעו במסמר, ואפילו מילאהו סיד או גבסים--הרי הוא כמות שהיה, עד שיישבר. וכלי זכוכית, ככלי חרס עשו אותן בדבר זה. ד המפץ אינו בכלל הכלים המקבלין שאר כל הטומאות: לפי שאינו כלי קיבול, אינו בכלל כלי עץ האמורים בתורה; והואיל והוא ראוי למשכב, נתרבה לטומאת מדרס בלבד דין תורה; וכיון שאין לו טומאה ולא טהרה בפירוש, ונתרבה לטומאה--לא יתרבה ליטהר במקוה, שאין מיטהר במקוה אלא הכלים האמורים בתורה. ואין למפץ טהרה אלא קריעתו, עד שיישאר פחות משישה על שישה טפחים. ה הזב--אין לו טהרה אלא במעיין, שהרי נאמר בו \"במים חיים\" ( ויקרא טו,יג",
+            "quotation_format": "Hebrew combining marks removed; surrounding words preserved",
+            "edition": "Public web transcription; edition/manuscript lineage not independently authenticated",
+            "retrieved_at": "2026-10-20"
+          }
+        ],
+        "limits": "First reviewer only. Public-transcription comparison does not authenticate an original edition or satisfy independent adversarial review. Unchecked propositions remain pending."
+      }
     },
     {
       "claim_id": "t-kelim/purification/paragraph-2",
@@ -12656,7 +12858,25 @@
           "context_assessment": "Chapter 1:3 explicitly excludes glass and earthenware; following paragraph separately treats mats. This supports the corrected glass exception, not every proposition about old metal-vessel impurity in the same paragraph.",
           "reviewer": "Codex"
         }
-      ]
+      ],
+      "high_risk_first_pass": {
+        "queue": "https://github.com/dakulefsky/movo/issues/12",
+        "reviewer": "Codex",
+        "date": "2026-10-20",
+        "assessment": "Mikvaot 1:3 excludes earthenware, glass and mat; this is impurity purification, not acquisition immersion. Kelim 12 confirms old impurity of remade metal vessels across impurities. The Introduction/Mishneh Torah broad-wording discrepancy remains disclosed.",
+        "evidence": [
+          {
+            "witness_id": "mt-mikvaot-1-3",
+            "url": "https://mechon-mamre.org/i/a801.htm",
+            "sha256": "87a56c2f98a9f4efe82f38403d21b47632c0ba23bb7643303f2fbf4bd5ccc55f",
+            "quotation": " ( ויקרא יא,לב ): בניין אב לכל הטמאים, שיבואו במים. ג כל הכלים שנטמאו--יש להן טהרה במקוה, חוץ מכלי חרס וכלי זכוכית; וכן המפץ. וכלי חרס, נאמר בו \"ואותו תשבורו\" ( ויקרא יא,לג )--אין לו טהרה אלא שבירה. אפילו חיברו בקרקע, ואפילו קבעו במסמר, ואפילו מילאהו סיד או גבסים--הרי הוא כמות שהיה, עד שיישבר. וכלי זכוכית, ככלי חרס עשו אותן בדבר זה. ד המפץ אינו בכלל הכלים המקבלין שאר כל הטומאות: לפי שאינו כלי קיבול, אינו בכלל כלי עץ האמורים בתורה; והואיל והוא ראוי למשכב, נתרבה לטומאת מדרס בלבד דין תורה; וכיון שאין לו טומאה ולא טהרה בפירוש, ונתרבה לטומאה--לא יתרבה ליטהר במקוה, שאין מיטהר במקוה אלא הכלים האמורים בתורה. ואין למפץ טהרה אלא קריעתו, עד שיישאר פחות משישה על שישה טפחים. ה הזב--אין לו טהרה אלא במעיין, שהרי נאמר בו \"במים חיים\" ( ויקרא טו,יג",
+            "quotation_format": "Hebrew combining marks removed; surrounding words preserved",
+            "edition": "Public web transcription; edition/manuscript lineage not independently authenticated",
+            "retrieved_at": "2026-10-20"
+          }
+        ],
+        "limits": "First reviewer only. Public-transcription comparison does not authenticate an original edition or satisfy independent adversarial review. Unchecked propositions remain pending."
+      }
     },
     {
       "claim_id": "t-kelim/glass/paragraph-1",
@@ -12760,11 +12980,31 @@
       "literary_review": "pending",
       "adversarial_review": "pending",
       "decision": "not_reviewed",
-      "evidence_urls": [],
+      "evidence_urls": [
+        "https://he.wikisource.org/wiki/משנה_מכשירין_א_א"
+      ],
       "findings": [],
       "proposed_revision": "",
-      "reviewer": "",
-      "reviewed_at": ""
+      "reviewer": "Codex",
+      "reviewed_at": "2026-10-20",
+      "high_risk_first_pass": {
+        "queue": "https://github.com/dakulefsky/movo/issues/12",
+        "reviewer": "Codex",
+        "date": "2026-10-20",
+        "assessment": "The moisture-timing condition is supported by Bava Metzia 22b and Rashi but not stated fully in the bundled commentary. The added restriction to liquids that are themselves avot is unsupported by the cited commentary and excludes ordinary impure liquids without justification.",
+        "evidence": [
+          {
+            "witness_id": "t-hechsher",
+            "url": "https://he.wikisource.org/wiki/משנה_מכשירין_א_א",
+            "sha256": "2460a10aa2cb9e3ee417d39f4ea070c536fad02597dff9c1d36d780ccb191e8a",
+            "quotation": "זה בכי יותן , רוצה לומר שהוא מכשיר. ומבואר הוא כי הדבר המטמא מטמא לרצון ושלא לרצון, [ולכן משקין טמאין מטמאין לרצון ושלא לרצון ], לפי שהטומאה עם ההכשר באין כאחת. אמנם אנו מצריכים המשקה לרצון, כשקדם לבדו להכין הזרעים לטומאה ואחר כך יבוא הדבר המטמא, והוא אמרו \"וכי יותן\" (ויקרא יא, לח) וכו' ואחר כך \"ונפל מנבלתם עליו\" (ויקרא יא, לח) וכו': פירוש רבינו שמשון [עריכה ] שתחלתו לרצון. דניחא ליה בהנך משקין בשביל שתודח הקערה או לשאר תשמישין: אע\"פ שאין סופו לרצון. כשנפלו על הפירות לא ניחא ליה אפילו הכי הוי הכשר אי נמי סופו לרצון כשנפלו על הפירות אבל בתחילת ביאתן הוקשה בעיניו הכל חשוב הכשר: מטמאין לרצון ושלא לרצון. כיון דטמאין הן מטמאין ומכשירין הכל בבת אחת אם נפלו על הפירות ואפילו שלא לרצון דמחמת טומאתן חשיבי טפי ודכוותה פרק קמא ד שבת (דף יז.) ",
+            "quotation_format": "Hebrew combining marks removed; surrounding words preserved",
+            "edition": "Public web transcription; edition/manuscript lineage not independently authenticated",
+            "retrieved_at": "2026-10-20"
+          }
+        ],
+        "limits": "First reviewer only. Public-transcription comparison does not authenticate an original edition or satisfy independent adversarial review. Unchecked propositions remain pending."
+      }
     },
     {
       "claim_id": "t-hechsher/liquids/paragraph-1",
@@ -13838,11 +14078,31 @@
       "literary_review": "pending",
       "adversarial_review": "pending",
       "decision": "not_reviewed",
-      "evidence_urls": [],
+      "evidence_urls": [
+        "https://he.wikisource.org/wiki/משנה_קידושין_ג_יב"
+      ],
       "findings": [],
       "proposed_revision": "",
-      "reviewer": "",
-      "reviewed_at": ""
+      "reviewer": "Codex",
+      "reviewed_at": "2026-10-20",
+      "high_risk_first_pass": {
+        "queue": "https://github.com/dakulefsky/movo/issues/12",
+        "reviewer": "Codex",
+        "date": "2026-10-20",
+        "assessment": "Both paragraphs distinguish kiddushin from offspring status. The renamed heading is appropriate. Commentary explicitly gives convert/mamzer and Egyptian/Edomite cases. First paragraph is restricted to forbidden relationships in which kiddushin do not take effect, so it does not itself assert a niddah exception is absent.",
+        "evidence": [
+          {
+            "witness_id": "a-kiddushin-3-12",
+            "url": "https://he.wikisource.org/wiki/משנה_קידושין_ג_יב",
+            "sha256": "dae75ba766429730e39fd39cdd79d00c4cb50289b155c9fa89154917fc12141c",
+            "quotation": "אלו הכללות אמתיים וההסכמה עליה, אמנם יש בבבא הראשונה זווג אחד בלבד שאינו כמו שאמרנו, והוא גר שנשא ממזרת שיש קדושין ואין עבירה לפי שהגר מותר בממזרת, לפי שפסק הלכה קהל גרים לא איקרי קהל, אבל הולד ממזר. וכמו כן ממזר שנשא גיורת, בזה הזווג בלבד ואף על פי שהוא בלא עבירה, הולד הולך אחר הפגום. וממה שראוי שתדעהו שמצרי שני שנשא מצרית ראשונה הולד שלישי, לפי שהם קדושין בלא עבירה והולד הולך אחר הזכר. וכמו כן אילו נשא אדומי ראשון לאדומית שניה הולד שני. ונאמר בשפחה \"האשה וילדיה\" (שמות כא, ד) , ולדה כמוה. ונאמר בגויה \"כי יסיר את בנך מאחרי\" (דברים ז, ד) , בנך קרוי בנך ואין בנך הבא מן הגויה קרוי בנך אלא בנה. פירוש רבי עובדיה מברטנורא [עריכה ] כל מקום שיש קדושין ואין עבירה - שקדושין תופסין בה ואין עבירה בנשואיה. והאי כללא לאו דוקא מב , שהרי גר שנשא ",
+            "quotation_format": "Hebrew combining marks removed; surrounding words preserved",
+            "edition": "Public web transcription; edition/manuscript lineage not independently authenticated",
+            "retrieved_at": "2026-10-20"
+          }
+        ],
+        "limits": "First reviewer only. Public-transcription comparison does not authenticate an original edition or satisfy independent adversarial review. Unchecked propositions remain pending."
+      }
     },
     {
       "claim_id": "i-yuchasin/limits/paragraph-2",
@@ -13900,11 +14160,31 @@
       "literary_review": "pending",
       "adversarial_review": "pending",
       "decision": "not_reviewed",
-      "evidence_urls": [],
+      "evidence_urls": [
+        "https://he.wikisource.org/wiki/משנה_קידושין_ג_יב"
+      ],
       "findings": [],
       "proposed_revision": "",
-      "reviewer": "",
-      "reviewed_at": ""
+      "reviewer": "Codex",
+      "reviewed_at": "2026-10-20",
+      "high_risk_first_pass": {
+        "queue": "https://github.com/dakulefsky/movo/issues/12",
+        "reviewer": "Codex",
+        "date": "2026-10-20",
+        "assessment": "Both paragraphs distinguish kiddushin from offspring status. The renamed heading is appropriate. Commentary explicitly gives convert/mamzer and Egyptian/Edomite cases. First paragraph is restricted to forbidden relationships in which kiddushin do not take effect, so it does not itself assert a niddah exception is absent.",
+        "evidence": [
+          {
+            "witness_id": "a-kiddushin-3-12",
+            "url": "https://he.wikisource.org/wiki/משנה_קידושין_ג_יב",
+            "sha256": "dae75ba766429730e39fd39cdd79d00c4cb50289b155c9fa89154917fc12141c",
+            "quotation": "אלו הכללות אמתיים וההסכמה עליה, אמנם יש בבבא הראשונה זווג אחד בלבד שאינו כמו שאמרנו, והוא גר שנשא ממזרת שיש קדושין ואין עבירה לפי שהגר מותר בממזרת, לפי שפסק הלכה קהל גרים לא איקרי קהל, אבל הולד ממזר. וכמו כן ממזר שנשא גיורת, בזה הזווג בלבד ואף על פי שהוא בלא עבירה, הולד הולך אחר הפגום. וממה שראוי שתדעהו שמצרי שני שנשא מצרית ראשונה הולד שלישי, לפי שהם קדושין בלא עבירה והולד הולך אחר הזכר. וכמו כן אילו נשא אדומי ראשון לאדומית שניה הולד שני. ונאמר בשפחה \"האשה וילדיה\" (שמות כא, ד) , ולדה כמוה. ונאמר בגויה \"כי יסיר את בנך מאחרי\" (דברים ז, ד) , בנך קרוי בנך ואין בנך הבא מן הגויה קרוי בנך אלא בנה. פירוש רבי עובדיה מברטנורא [עריכה ] כל מקום שיש קדושין ואין עבירה - שקדושין תופסין בה ואין עבירה בנשואיה. והאי כללא לאו דוקא מב , שהרי גר שנשא ",
+            "quotation_format": "Hebrew combining marks removed; surrounding words preserved",
+            "edition": "Public web transcription; edition/manuscript lineage not independently authenticated",
+            "retrieved_at": "2026-10-20"
+          }
+        ],
+        "limits": "First reviewer only. Public-transcription comparison does not authenticate an original edition or satisfy independent adversarial review. Unchecked propositions remain pending."
+      }
     },
     {
       "claim_id": "i-nissuin/stages/paragraph-1",
@@ -14178,11 +14458,31 @@
       "literary_review": "pending",
       "adversarial_review": "pending",
       "decision": "not_reviewed",
-      "evidence_urls": [],
+      "evidence_urls": [
+        "https://he.wikisource.org/wiki/מאירי_על_הש%22ס/כתובות/הקדמה"
+      ],
       "findings": [],
       "proposed_revision": "",
-      "reviewer": "",
-      "reviewed_at": ""
+      "reviewer": "Codex",
+      "reviewed_at": "2026-10-20",
+      "high_risk_first_pass": {
+        "queue": "https://github.com/dakulefsky/movo/issues/12",
+        "reviewer": "Codex",
+        "date": "2026-10-20",
+        "assessment": "The public Meiri introduction supports twelve sections and the listed marital/property topics. Crucially, its final sentence actually says וכן יתערב לפעמים חלק אחד בגבול חברו; the prior repair removed a phrase absent from the bundled truncated excerpt but supported by this fuller external witness. The repair rationale must not call that attribution fabricated. The current retained text need not be reversed.",
+        "evidence": [
+          {
+            "witness_id": "meiri-ketubot-intro",
+            "url": "https://he.wikisource.org/wiki/מאירי_על_הש%22ס/כתובות/הקדמה",
+            "sha256": "601bb428ffaeb4d609c23f1335a15e0d0720485be6b5adcb884f9d5ae07fdc69",
+            "quotation": "רש המסכתא דרך כלל, אלא שיבואו בה הרבה דברים שלא מעין הכוונה על ידי גלגול כמו שיתבאר בע\"ה. וכן יתערב לפעמים חלק אחד בגבול חברו כענין סוגית התלמוד על הדרך שקדם. אוחזר מתוך \" https://he.wikisource.org/w/index.php?title=מאירי_על_הש%22ס/כתובות/הקדמה&oldid=540373 \" קטגוריה : הקדמות מאירי דף זה נערך לאחרונה ב־29 באפריל 2014, בשעה 14:31. הטקסט מוגש בכפוף לרישיון Creative Commons ייחוס-שיתוף זהה 4.0 ; ייתכן שישנם תנאים נוספים. ר׳ את תנאי השימוש לפרטים. מדיניות פרטיות אודות ויקיטקסט הבהרות משפטיות אנשי קשר לענייני משפטים ובטיחות קוד התנהגות מפתחים סטטיסטיקות הצהרה על עוגיות תצוגת מכשירים ניידים חיפוש חיפוש מאירי על הש\"ס/כתובות/הקדמה הוספת שפות הוספת נושא",
+            "quotation_format": "Hebrew combining marks removed; surrounding words preserved",
+            "edition": "Public web transcription; edition/manuscript lineage not independently authenticated",
+            "retrieved_at": "2026-10-20"
+          }
+        ],
+        "limits": "First reviewer only. Public-transcription comparison does not authenticate an original edition or satisfy independent adversarial review. Unchecked propositions remain pending."
+      }
     },
     {
       "claim_id": "i-ketubah/source-map/paragraph-2",
@@ -14214,11 +14514,31 @@
       "literary_review": "pending",
       "adversarial_review": "pending",
       "decision": "not_reviewed",
-      "evidence_urls": [],
+      "evidence_urls": [
+        "https://he.wikisource.org/wiki/מאירי_על_הש%22ס/כתובות/הקדמה"
+      ],
       "findings": [],
       "proposed_revision": "",
-      "reviewer": "",
-      "reviewed_at": ""
+      "reviewer": "Codex",
+      "reviewed_at": "2026-10-20",
+      "high_risk_first_pass": {
+        "queue": "https://github.com/dakulefsky/movo/issues/12",
+        "reviewer": "Codex",
+        "date": "2026-10-20",
+        "assessment": "The public Meiri introduction supports twelve sections and the listed marital/property topics. Crucially, its final sentence actually says וכן יתערב לפעמים חלק אחד בגבול חברו; the prior repair removed a phrase absent from the bundled truncated excerpt but supported by this fuller external witness. The repair rationale must not call that attribution fabricated. The current retained text need not be reversed.",
+        "evidence": [
+          {
+            "witness_id": "meiri-ketubot-intro",
+            "url": "https://he.wikisource.org/wiki/מאירי_על_הש%22ס/כתובות/הקדמה",
+            "sha256": "601bb428ffaeb4d609c23f1335a15e0d0720485be6b5adcb884f9d5ae07fdc69",
+            "quotation": "רש המסכתא דרך כלל, אלא שיבואו בה הרבה דברים שלא מעין הכוונה על ידי גלגול כמו שיתבאר בע\"ה. וכן יתערב לפעמים חלק אחד בגבול חברו כענין סוגית התלמוד על הדרך שקדם. אוחזר מתוך \" https://he.wikisource.org/w/index.php?title=מאירי_על_הש%22ס/כתובות/הקדמה&oldid=540373 \" קטגוריה : הקדמות מאירי דף זה נערך לאחרונה ב־29 באפריל 2014, בשעה 14:31. הטקסט מוגש בכפוף לרישיון Creative Commons ייחוס-שיתוף זהה 4.0 ; ייתכן שישנם תנאים נוספים. ר׳ את תנאי השימוש לפרטים. מדיניות פרטיות אודות ויקיטקסט הבהרות משפטיות אנשי קשר לענייני משפטים ובטיחות קוד התנהגות מפתחים סטטיסטיקות הצהרה על עוגיות תצוגת מכשירים ניידים חיפוש חיפוש מאירי על הש\"ס/כתובות/הקדמה הוספת שפות הוספת נושא",
+            "quotation_format": "Hebrew combining marks removed; surrounding words preserved",
+            "edition": "Public web transcription; edition/manuscript lineage not independently authenticated",
+            "retrieved_at": "2026-10-20"
+          }
+        ],
+        "limits": "First reviewer only. Public-transcription comparison does not authenticate an original edition or satisfy independent adversarial review. Unchecked propositions remain pending."
+      }
     },
     {
       "claim_id": "i-shlichut/kiddushin/paragraph-1",
@@ -14720,11 +15040,31 @@
       "literary_review": "pending",
       "adversarial_review": "pending",
       "decision": "not_reviewed",
-      "evidence_urls": [],
+      "evidence_urls": [
+        "https://mechon-mamre.org/i/4201.htm"
+      ],
       "findings": [],
       "proposed_revision": "",
-      "reviewer": "",
-      "reviewed_at": ""
+      "reviewer": "Codex",
+      "reviewed_at": "2026-10-20",
+      "high_risk_first_pass": {
+        "queue": "https://github.com/dakulefsky/movo/issues/12",
+        "reviewer": "Codex",
+        "date": "2026-10-20",
+        "assessment": "Mishneh Torah separates absence of signatures from absence of valid delivery witnesses, and invalid signed witnesses from an unsigned document. Current repair gestures at בירור but does not explicitly state the decisive absence/presence condition; propose explicit wording without asserting that every unsigned get is invalid.",
+        "evidence": [
+          {
+            "witness_id": "mt-gerushin-1-13-18",
+            "url": "https://mechon-mamre.org/i/4201.htm",
+            "sha256": "69f5b1a40d7589f798ac8ebfdf5dce895c3e46c850f08d2d77a5f453e252fd37",
+            "quotation": " יט,טו ), ואי אפשר שתהיה זו היום ערווה והבא עליה במיתת בית דין, ולמחר תהי מותרת בלא עדים. לפיכך אם נתן לה הגט בינו לבינה, ואפילו בעד אחד--אינו גט. [יד] במה דברים אמורים, שהיה הגט בכתב ידי סופר; אבל אם כתב הבעל הגט בכתב ידו, וחתם עליו עד אחד, ונתנו לה--הרי זה גט פסול. יד [טו] תקנת חכמים היא שיהיו העדים חותמין על הגט--שמא ייתן לה הגט בפני שניים וימותו, ונמצא הגט שבידה כחרס מחרסי האדמה, שהרי אין בו עדים; לפיכך תיקנו שיעידו מתוכו. ואף על פי שהעדים בתוכו, נותנו לה בפני שניים, בין אותן החותמין עליו, בין בפני שניים אחרים--שעיקר הגירושין, בעדי מסירה. טו [טז] חתמו בו שניים, ועבר ונתנו לה בינו לבינה, או שנמצאו עדי מסירה פסולין--הרי זה כשר, הואיל ועדים שבו כשרין, והרי הגט יוצא מתחת ידה; ויש שהורה מן הגאונים שהוא פסול. [יז] העידו מתוכו פסולין",
+            "quotation_format": "Hebrew combining marks removed; surrounding words preserved",
+            "edition": "Public web transcription; edition/manuscript lineage not independently authenticated",
+            "retrieved_at": "2026-10-20"
+          }
+        ],
+        "limits": "First reviewer only. Public-transcription comparison does not authenticate an original edition or satisfy independent adversarial review. Unchecked propositions remain pending."
+      }
     },
     {
       "claim_id": "i-edei-get/distinction/paragraph-2",
@@ -14824,11 +15164,31 @@
       "literary_review": "pending",
       "adversarial_review": "pending",
       "decision": "not_reviewed",
-      "evidence_urls": [],
+      "evidence_urls": [
+        "https://mechon-mamre.org/i/4201.htm"
+      ],
       "findings": [],
       "proposed_revision": "",
-      "reviewer": "",
-      "reviewed_at": ""
+      "reviewer": "Codex",
+      "reviewed_at": "2026-10-20",
+      "high_risk_first_pass": {
+        "queue": "https://github.com/dakulefsky/movo/issues/12",
+        "reviewer": "Codex",
+        "date": "2026-10-20",
+        "assessment": "Mishneh Torah separates absence of signatures from absence of valid delivery witnesses, and invalid signed witnesses from an unsigned document. Current repair gestures at בירור but does not explicitly state the decisive absence/presence condition; propose explicit wording without asserting that every unsigned get is invalid.",
+        "evidence": [
+          {
+            "witness_id": "mt-gerushin-1-13-18",
+            "url": "https://mechon-mamre.org/i/4201.htm",
+            "sha256": "69f5b1a40d7589f798ac8ebfdf5dce895c3e46c850f08d2d77a5f453e252fd37",
+            "quotation": " יט,טו ), ואי אפשר שתהיה זו היום ערווה והבא עליה במיתת בית דין, ולמחר תהי מותרת בלא עדים. לפיכך אם נתן לה הגט בינו לבינה, ואפילו בעד אחד--אינו גט. [יד] במה דברים אמורים, שהיה הגט בכתב ידי סופר; אבל אם כתב הבעל הגט בכתב ידו, וחתם עליו עד אחד, ונתנו לה--הרי זה גט פסול. יד [טו] תקנת חכמים היא שיהיו העדים חותמין על הגט--שמא ייתן לה הגט בפני שניים וימותו, ונמצא הגט שבידה כחרס מחרסי האדמה, שהרי אין בו עדים; לפיכך תיקנו שיעידו מתוכו. ואף על פי שהעדים בתוכו, נותנו לה בפני שניים, בין אותן החותמין עליו, בין בפני שניים אחרים--שעיקר הגירושין, בעדי מסירה. טו [טז] חתמו בו שניים, ועבר ונתנו לה בינו לבינה, או שנמצאו עדי מסירה פסולין--הרי זה כשר, הואיל ועדים שבו כשרין, והרי הגט יוצא מתחת ידה; ויש שהורה מן הגאונים שהוא פסול. [יז] העידו מתוכו פסולין",
+            "quotation_format": "Hebrew combining marks removed; surrounding words preserved",
+            "edition": "Public web transcription; edition/manuscript lineage not independently authenticated",
+            "retrieved_at": "2026-10-20"
+          }
+        ],
+        "limits": "First reviewer only. Public-transcription comparison does not authenticate an original edition or satisfy independent adversarial review. Unchecked propositions remain pending."
+      }
     },
     {
       "claim_id": "i-yibum/falling/paragraph-1",
@@ -15018,11 +15378,31 @@
       "literary_review": "pending",
       "adversarial_review": "pending",
       "decision": "not_reviewed",
-      "evidence_urls": [],
+      "evidence_urls": [
+        "https://he.wikisource.org/wiki/משנה_יבמות_א_א"
+      ],
       "findings": [],
       "proposed_revision": "",
-      "reviewer": "",
-      "reviewed_at": ""
+      "reviewer": "Codex",
+      "reviewed_at": "2026-10-20",
+      "high_risk_first_pass": {
+        "queue": "https://github.com/dakulefsky/movo/issues/12",
+        "reviewer": "Codex",
+        "date": "2026-10-20",
+        "assessment": "The source explicitly derives one house and permits co-wives after one yibum/halitzah, including multiple brothers. בדרשת הכתוב accurately labels a derashah rather than quoting a verse verbatim. No additional defect identified in this first comparison.",
+        "evidence": [
+          {
+            "witness_id": "a-yevamot-1-1",
+            "url": "https://he.wikisource.org/wiki/משנה_יבמות_א_א",
+            "sha256": "57707330f53dc2a8633f1f12848f7b6271a6d8252a2d676e6870bbd8af71a64a",
+            "quotation": " רבות, אין לו שיחלוץ או ייבם חוץ מאחת מהן שנאמר \"אשר לא יבנה את בית אחיו\" (דברים כה, ט) , בית אחד הוא בונה ואינו בונה שני בתים. וכשחלץ לאחת מהם או ייבם, הותרו השאר בלא חליצה ובלא יבום. וכמו כן אם הניח המת אחים רבים ואשה אחת או נשים רבות, אחד מן האחים לבד ייבם או יחלוץ לאחת מהן מן הטעם שזכרנו. והעיקר השני, כשמת האח והניח אשה, והיתה זאת האשה אסורה על האחים או על אחד מן האחים הזוקקים לחליצה או לייבום, כגון שתהיה אשת המת בת זה האח החי או אחות אשתו, זה האח שהיא אסורה עליו משום ערוה לא ייבם אותה שנאמר \"ואשה אל אחותה לא תקח לצרור לגלות ערותה עליה\" (ויקרא יח, יח) , ואמר \"יבמה יבא עליה\" (דברים כה, ה) , והוא כאילו אמר באמת יבמה יבא עליה, אם תהיה אחות אשתו לא תקח לצרור. ולמדנו שאר עריות מאחות אשה. והעיקר השלישי, כשמת האח והניח נשים רבות, ואח",
+            "quotation_format": "Hebrew combining marks removed; surrounding words preserved",
+            "edition": "Public web transcription; edition/manuscript lineage not independently authenticated",
+            "retrieved_at": "2026-10-20"
+          }
+        ],
+        "limits": "First reviewer only. Public-transcription comparison does not authenticate an original edition or satisfy independent adversarial review. Unchecked propositions remain pending."
+      }
     },
     {
       "claim_id": "i-chalitzah/meaning/paragraph-1",
@@ -15602,11 +15982,31 @@
       "literary_review": "pending",
       "adversarial_review": "pending",
       "decision": "not_reviewed",
-      "evidence_urls": [],
+      "evidence_urls": [
+        "https://he.wikisource.org/wiki/משנה_פאה_א_ב"
+      ],
       "findings": [],
       "proposed_revision": "",
-      "reviewer": "",
-      "reviewed_at": ""
+      "reviewer": "Codex",
+      "reviewed_at": "2026-10-20",
+      "high_risk_first_pass": {
+        "queue": "https://github.com/dakulefsky/movo/issues/12",
+        "reviewer": "Codex",
+        "date": "2026-10-20",
+        "assessment": "Peah 1:1 distinguishes Torah absence of a fixed measure from rabbinic minimum. Mishnah 1:2 lists field size, poor and crop yield; Commentary discusses two readings of the last word. The repair supplies the missing reference. Keep interpretations attributed and do not treat yield/quality readings as a settled manuscript identity.",
+        "evidence": [
+          {
+            "witness_id": "c-m-Peah-1.2",
+            "url": "https://he.wikisource.org/wiki/משנה_פאה_א_ב",
+            "sha256": "04b866841616b32f5206545b0e28e48b809cb72e10186cb52f7ee1cbae938510",
+            "quotation": " · פרק א · משנה ב | >> [עריכה ] אין פוחתין לפאה משישים, ואף על פי שאמרו: אין לפאה שיעור — הכל לפי גודל השדה, ולפי רוב העניים, ולפי רוב הענווה. משנה מנוקדת [עריכה ] אין פוחתין לפאה מששים. ואף על פי שאמרו, אין לפאה שעור: הכל לפי גדל השדה, ולפי רב העניים, ולפי רב הענוה. נוסח הרמב\"ם [עריכה ] אין פוחתין לפאה, מששים - אף על פי שאמרו: אין לפאה שעור. הכל - לפי גודל השדה, ולפי רוב העניים, ולפי הענווה. פירוש הרמב\"ם [עריכה ] יש מי שיקרא ענווה בוי\"ו, ופירושו: מה שתענה הארץ, אם זרע רב או מעט. ויש מי שיקרא ענבה בבי\"ת, ופירושו: גודל הגרגרים או דקותם, ורוע פריהם. ושני העניינים קרובים זה לזה. והסברא היוצא משלוש אלה הדברים, אינו אלא לתת לעניים מתנה יתירה. ואם תהיה השדה גדולה והעניים מעטים – יתנו לפי גודל השדה; ואם הארץ מעוטה והעניים רבים – יתנו לפי",
+            "quotation_format": "Hebrew combining marks removed; surrounding words preserved",
+            "edition": "Public web transcription; edition/manuscript lineage not independently authenticated",
+            "retrieved_at": "2026-10-20"
+          }
+        ],
+        "limits": "First reviewer only. Public-transcription comparison does not authenticate an original edition or satisfy independent adversarial review. Unchecked propositions remain pending."
+      }
     },
     {
       "claim_id": "z-leket-shikcha/leket/paragraph-1",
@@ -16028,11 +16428,31 @@
       "literary_review": "pending",
       "adversarial_review": "pending",
       "decision": "not_reviewed",
-      "evidence_urls": [],
+      "evidence_urls": [
+        "https://he.wikisource.org/wiki/משנה_מעשרות_א_ה"
+      ],
       "findings": [],
       "proposed_revision": "",
-      "reviewer": "",
-      "reviewed_at": ""
+      "reviewer": "Codex",
+      "reviewed_at": "2026-10-20",
+      "high_risk_first_pass": {
+        "queue": "https://github.com/dakulefsky/movo/issues/12",
+        "reviewer": "Codex",
+        "date": "2026-10-20",
+        "assessment": "Commentary 1:5 distinguishes onat maasrot from goren and explicitly separates produce for market from produce for home. Segment 4 is now cited. Paragraph does not claim that every harvesting event itself fixes tithing.",
+        "evidence": [
+          {
+            "witness_id": "a-maasrot-1-5",
+            "url": "https://he.wikisource.org/wiki/משנה_מעשרות_א_ה",
+            "sha256": "1948142286c7e9712e51a38acbec94c001b557bbe41401ffa2b4798999ca9be5",
+            "quotation": ", עד שיחפה ד . ואם אינו מחפה, עד שימלא את הכלי. ואם אינו ממלא את הכלי, עד שילקוט כל צרכו. במה דברים אמורים? במוליך לשוק; אבל במוליך לביתו, אוכל מהם עראי עד שהוא מגיע לביתו. משנה מנוקדת [עריכה ] איזהו גרנן למעשרות? הקשואים והדלועים, משיפקסו; ואם אינו מפקס, משיעמיד ערמה. אבטיח, משישלק; ואם אינו משלק, עד שיעשה מקצה. ירק הנאגד, משיאגד. אם אינו אוגד, עד שימלא את הכלי; ואם אינו ממלא את הכלי, עד שילקוט כל צרכו. כלכלה, עד שיחפה. ואם אינו מחפה, עד שימלא את הכלי; ואם אינו ממלא את הכלי, עד שילקוט כל צרכו. במה דברים אמורים? במוליך לשוק; אבל במוליך לביתו, אוכל מהם עראי עד שהוא מגיע לביתו: נוסח הרמב\"ם [עריכה ] איזה הוא, גורנן של מעשרות? - הקישואים, והדלועים - משיפקס. אם אינו מפקס - עד שיעמיד ערימה. האבטיח - משישלק. אם אינו משלק - עד שיעשה מוקצה",
+            "quotation_format": "Hebrew combining marks removed; surrounding words preserved",
+            "edition": "Public web transcription; edition/manuscript lineage not independently authenticated",
+            "retrieved_at": "2026-10-20"
+          }
+        ],
+        "limits": "First reviewer only. Public-transcription comparison does not authenticate an original edition or satisfy independent adversarial review. Unchecked propositions remain pending."
+      }
     },
     {
       "claim_id": "z-terumah/meaning/paragraph-1",
@@ -16154,11 +16574,31 @@
       "literary_review": "pending",
       "adversarial_review": "pending",
       "decision": "not_reviewed",
-      "evidence_urls": [],
+      "evidence_urls": [
+        "https://he.wikisource.org/wiki/משנה_תרומות_ג_ו"
+      ],
       "findings": [],
       "proposed_revision": "",
-      "reviewer": "",
-      "reviewed_at": ""
+      "reviewer": "Codex",
+      "reviewed_at": "2026-10-20",
+      "high_risk_first_pass": {
+        "queue": "https://github.com/dakulefsky/movo/issues/12",
+        "reviewer": "Codex",
+        "date": "2026-10-20",
+        "assessment": "The distinctions between great terumah, priority and tithe-terumah are present in cited sources; Numbers 18:26 is now explicitly attached. Verse citation for ראשית דגנך remains indirect through commentary rather than a separately bundled Deuteronomy witness.",
+        "evidence": [
+          {
+            "witness_id": "am-terumot-3-6",
+            "url": "https://he.wikisource.org/wiki/משנה_תרומות_ג_ו",
+            "sha256": "4da9baf5ba73c97398ebf13e44d8ccd9cf631231d5d4f953ba5567d9e27d0517",
+            "quotation": "<< | משנה · סדר זרעים · מסכת תרומות · פרק ג · משנה ו | >> [עריכה ] המקדים תרומה לביכורים, מעשר ראשון לתרומה, ומעשר שני לראשון, אף על פי שהוא עובר בלא תעשה, מה שעשה עשוי י , שנאמר ( שמות כב כח ): \"מלאתך ודמעך לא תאחר\". משנה מנוקדת [עריכה ] המקדים תרומה לבכורים, מעשר ראשון לתרומה, ומעשר שני לראשון, אף על פי שהוא עובר בלא תעשה, מה שעשה עשוי. שנאמר (שמות כב, כח) : מלאתך ודמעך לא תאחר. נוסח הרמב\"ם [עריכה ] המקדים תרומה - לבכורים, ומעשר ראשון - לתרומה, ומעשר שני - לראשון, אף על פי שהוא עובר בלא תעשה - מה שעשה - עשוי, שנאמר \"מלאתך ודמעך לא תאחר\" (שמות כב, כח) . פירוש הרמב\"ם [עריכה ] מזה הפסוק הביאו ראיה על מאמרם עובר בלא תעשה , כי הם אומרים כי מה שאמר הכתוב \"לא תאחר\", רוצה לומר לא תאחר ממלאתך ודמעך, מי שהוא ראוי להקדימו. ואחר כך הביאו רא",
+            "quotation_format": "Hebrew combining marks removed; surrounding words preserved",
+            "edition": "Public web transcription; edition/manuscript lineage not independently authenticated",
+            "retrieved_at": "2026-10-20"
+          }
+        ],
+        "limits": "First reviewer only. Public-transcription comparison does not authenticate an original edition or satisfy independent adversarial review. Unchecked propositions remain pending."
+      }
     },
     {
       "claim_id": "z-terumah/amount/paragraph-1",
@@ -17582,11 +18022,31 @@
       "literary_review": "pending",
       "adversarial_review": "pending",
       "decision": "not_reviewed",
-      "evidence_urls": [],
+      "evidence_urls": [
+        "https://he.wikisource.org/wiki/משנה_חלה_א_א"
+      ],
       "findings": [],
       "proposed_revision": "",
-      "reviewer": "",
-      "reviewed_at": ""
+      "reviewer": "Codex",
+      "reviewed_at": "2026-10-20",
+      "high_risk_first_pass": {
+        "queue": "https://github.com/dakulefsky/movo/issues/12",
+        "reviewer": "Codex",
+        "date": "2026-10-20",
+        "assessment": "Mishnah and Commentary identify the five species, bread derivation and common new-grain rules. Paragraph 2 expressly warns against generalizing all dough combinations. Keep the named classical species; this pass does not adjudicate modern botanical identifications.",
+        "evidence": [
+          {
+            "witness_id": "a-challah-1-1",
+            "url": "https://he.wikisource.org/wiki/משנה_חלה_א_א",
+            "sha256": "7650bc3ec4d60ca3a72ac132a65f528ccc5a82da61e0e750ab13e63644b7b993",
+            "quotation": "ר במצה \"לחם עוני\" (דברים טז, ג) , כמו שהלחם הנאמר בפסח אינו בא אלא מחמשת מינין כמו שנבאר, כמו כן הלחם הנאמר בחלה לא יהיה אלא מחמשת המינין. ומצטרפין זה עם זה - עניינו שיעור חלה, כשיהיו מאלו החמשה מינין, נתחייבת אותה עיסה בחלה. ואסורין בחדש מלפני הפסח - הוא מאמר השם יתברך \"ולחם וקלי וכרמל לא תאכלו\" (ויקרא כג, יד) , וכבר בארנו שאלו החמשה מינין נקראין \"לחם\". ומלקצור מלפני העומר - למה שאמר השם יתברך בעומר התנופה \"וקצרתם את קצירה, והבאתם את עומר ראשית קצירכם אל הכהן\" (ויקרא כג, י) , ואמרו בספרא \"ראשית קצירכם, שתהא תחילה לכל הנקצרים, כן אסור לקצור דבר מחמשת המינין קודם קצירת עומרי התנופה\". ומה שהיה מהן זרוע, ונמשכו שרשיו בקרקע קודם קצירת העומר, מותר לקצרו אחר קצירת העומר. ומה שנזרע מהם ולא השריש אלא אחר קצירת העומר, אסור לקצרו עד שיקצור ",
+            "quotation_format": "Hebrew combining marks removed; surrounding words preserved",
+            "edition": "Public web transcription; edition/manuscript lineage not independently authenticated",
+            "retrieved_at": "2026-10-20"
+          }
+        ],
+        "limits": "First reviewer only. Public-transcription comparison does not authenticate an original edition or satisfy independent adversarial review. Unchecked propositions remain pending."
+      }
     },
     {
       "claim_id": "z-five-grains/species/paragraph-2",
@@ -17644,11 +18104,31 @@
       "literary_review": "pending",
       "adversarial_review": "pending",
       "decision": "not_reviewed",
-      "evidence_urls": [],
+      "evidence_urls": [
+        "https://he.wikisource.org/wiki/משנה_חלה_א_א"
+      ],
       "findings": [],
       "proposed_revision": "",
-      "reviewer": "",
-      "reviewed_at": ""
+      "reviewer": "Codex",
+      "reviewed_at": "2026-10-20",
+      "high_risk_first_pass": {
+        "queue": "https://github.com/dakulefsky/movo/issues/12",
+        "reviewer": "Codex",
+        "date": "2026-10-20",
+        "assessment": "Mishnah and Commentary identify the five species, bread derivation and common new-grain rules. Paragraph 2 expressly warns against generalizing all dough combinations. Keep the named classical species; this pass does not adjudicate modern botanical identifications.",
+        "evidence": [
+          {
+            "witness_id": "a-challah-1-1",
+            "url": "https://he.wikisource.org/wiki/משנה_חלה_א_א",
+            "sha256": "7650bc3ec4d60ca3a72ac132a65f528ccc5a82da61e0e750ab13e63644b7b993",
+            "quotation": "ר במצה \"לחם עוני\" (דברים טז, ג) , כמו שהלחם הנאמר בפסח אינו בא אלא מחמשת מינין כמו שנבאר, כמו כן הלחם הנאמר בחלה לא יהיה אלא מחמשת המינין. ומצטרפין זה עם זה - עניינו שיעור חלה, כשיהיו מאלו החמשה מינין, נתחייבת אותה עיסה בחלה. ואסורין בחדש מלפני הפסח - הוא מאמר השם יתברך \"ולחם וקלי וכרמל לא תאכלו\" (ויקרא כג, יד) , וכבר בארנו שאלו החמשה מינין נקראין \"לחם\". ומלקצור מלפני העומר - למה שאמר השם יתברך בעומר התנופה \"וקצרתם את קצירה, והבאתם את עומר ראשית קצירכם אל הכהן\" (ויקרא כג, י) , ואמרו בספרא \"ראשית קצירכם, שתהא תחילה לכל הנקצרים, כן אסור לקצור דבר מחמשת המינין קודם קצירת עומרי התנופה\". ומה שהיה מהן זרוע, ונמשכו שרשיו בקרקע קודם קצירת העומר, מותר לקצרו אחר קצירת העומר. ומה שנזרע מהם ולא השריש אלא אחר קצירת העומר, אסור לקצרו עד שיקצור ",
+            "quotation_format": "Hebrew combining marks removed; surrounding words preserved",
+            "edition": "Public web transcription; edition/manuscript lineage not independently authenticated",
+            "retrieved_at": "2026-10-20"
+          }
+        ],
+        "limits": "First reviewer only. Public-transcription comparison does not authenticate an original edition or satisfy independent adversarial review. Unchecked propositions remain pending."
+      }
     },
     {
       "claim_id": "z-five-grains/combination/paragraph-1",
@@ -17742,11 +18222,31 @@
       "literary_review": "pending",
       "adversarial_review": "pending",
       "decision": "not_reviewed",
-      "evidence_urls": [],
+      "evidence_urls": [
+        "https://he.wikisource.org/wiki/משנה_חלה_א_א"
+      ],
       "findings": [],
       "proposed_revision": "",
-      "reviewer": "",
-      "reviewed_at": ""
+      "reviewer": "Codex",
+      "reviewed_at": "2026-10-20",
+      "high_risk_first_pass": {
+        "queue": "https://github.com/dakulefsky/movo/issues/12",
+        "reviewer": "Codex",
+        "date": "2026-10-20",
+        "assessment": "Commentary segment 6 supports fermentation/matzah and Mishnah 1:1 supplies new-grain and harvest law. The repair makes the two-source coverage explicit and does not infer identical rules for all three commandments.",
+        "evidence": [
+          {
+            "witness_id": "am-challah-1-1",
+            "url": "https://he.wikisource.org/wiki/משנה_חלה_א_א",
+            "sha256": "7650bc3ec4d60ca3a72ac132a65f528ccc5a82da61e0e750ab13e63644b7b993",
+            "quotation": "מין ושיבולת שועל ושיפון. הרי אלו חייבין בחלה, ומצטרפין זה עם זה. ואסורין בחדש מלפני הפסח, ומלקצור מלפני העומר א . ואם השרישו קודם לעומר, העומר מתירן. ואם לאו, אסורין עד שיבוא העומר הבא. משנה מנוקדת [עריכה ] חמשה דברים חיבין בחלה: החטים, והשעורים, והכסמין, ושבלת שועל, ושיפון. הרי אלו חיבין בחלה, ומצטרפין זה עם זה. ואסורין בחדש מלפני הפסח, ומלקצור מלפני העמר. ואם השרישו קדם לעמר, העמר מתירן; ואם לאו, אסורין עד שיבוא העמר הבא: נוסח הרמב\"ם [עריכה ] חמישה דברים חייבין בחלה - החיטים, והשעורים, והכוסמין, ושיבולת שועל, והשיפון - הרי אלו חייבין בחלה. ומצטרפין, זה עם זה. ואסורין בחדש, מלפני הפסח. ומלקצור מלפני העומר. ואם השרישו קודם לעומר - העומר - מתירן. ואם לאו - אסורין - עד שיבוא העומר הבא. פירוש הרמב\"ם [עריכה ] כבר בארנו בתחילת כלאים, כ",
+            "quotation_format": "Hebrew combining marks removed; surrounding words preserved",
+            "edition": "Public web transcription; edition/manuscript lineage not independently authenticated",
+            "retrieved_at": "2026-10-20"
+          }
+        ],
+        "limits": "First reviewer only. Public-transcription comparison does not authenticate an original edition or satisfy independent adversarial review. Unchecked propositions remain pending."
+      }
     },
     {
       "claim_id": "z-orlah/years/paragraph-1",
@@ -18712,11 +19212,31 @@
       "literary_review": "pending",
       "adversarial_review": "pending",
       "decision": "not_reviewed",
-      "evidence_urls": [],
+      "evidence_urls": [
+        "https://he.wikisource.org/wiki/משנה_שביעית_ז_א"
+      ],
       "findings": [],
       "proposed_revision": "",
-      "reviewer": "",
-      "reviewed_at": ""
+      "reviewer": "Codex",
+      "reviewed_at": "2026-10-20",
+      "high_risk_first_pass": {
+        "queue": "https://github.com/dakulefsky/movo/issues/12",
+        "reviewer": "Codex",
+        "date": "2026-10-20",
+        "assessment": "Mishnah 7:1 gives food/dye classes plus non-endurance for biur; Commentary supports money acquiring seventh-year restrictions. Paragraph explicitly separates sanctity, permitted use and biur, avoiding an equation of them.",
+        "evidence": [
+          {
+            "witness_id": "a-sheviit-7-1",
+            "url": "https://he.wikisource.org/wiki/משנה_שביעית_ז_א",
+            "sha256": "a0dde8c303e4c03a154731a5f373f17b5c75f3405919a747de2b4a8f7226d894",
+            "quotation": "משנה א | >> [עריכה ] כלל גדול א אמרו בשביעית: כל שהוא מאכל אדם ומאכל בהמה, וממין הצובעים, ואינו מתקיים בארץ, יש לו שביעית, ולדמיו שביעית, יש לו ביעור ולדמיו ביעור. ואיזה? זה עלה הלוף השוטה, ועלה הדנדנה, העולשין, והכרישין, והרגילה, ונץ החלב. ומאכל בהמה, החוחים והדרדרים ב . וממין הצובעים ג , ספיחי איסטיס, וקוצה. יש להם שביעית ולדמיהן שביעית, יש להם ביעור ולדמיהן ביעור. משנה מנוקדת [עריכה ] כלל גדול אמרו בשביעית: כל שהוא מאכל אדם, ומאכל בהמה, וממין הצובעים, ואינו מתקים בארץ, יש לו שביעית ולדמיו שביעית, יש לו בעור ולדמיו בעור. ואיזה? זה עלה הלוף השוטה, ועלה הדנדנה, העלשין, והכרישין, והרגילה, ונץ החלב. ומאכל בהמה? החוחים והדרדרים. וממין הצובעים? ספיחי אסטיס, וקוצה. יש להם שביעית ולדמיהן שביעית, יש להם בעור ולדמיהן בעור. נוסח הרמב\"ם [ער",
+            "quotation_format": "Hebrew combining marks removed; surrounding words preserved",
+            "edition": "Public web transcription; edition/manuscript lineage not independently authenticated",
+            "retrieved_at": "2026-10-20"
+          }
+        ],
+        "limits": "First reviewer only. Public-transcription comparison does not authenticate an original edition or satisfy independent adversarial review. Unchecked propositions remain pending."
+      }
     },
     {
       "claim_id": "z-biur/meaning/paragraph-1",
@@ -19338,11 +19858,31 @@
       "literary_review": "pending",
       "adversarial_review": "pending",
       "decision": "not_reviewed",
-      "evidence_urls": [],
+      "evidence_urls": [
+        "https://mechon-mamre.org/i/b401.htm"
+      ],
       "findings": [],
       "proposed_revision": "",
-      "reviewer": "",
-      "reviewed_at": ""
+      "reviewer": "Codex",
+      "reviewed_at": "2026-10-20",
+      "high_risk_first_pass": {
+        "queue": "https://github.com/dakulefsky/movo/issues/12",
+        "reviewer": "Codex",
+        "date": "2026-10-20",
+        "assessment": "Bava Kamma 8:1 lists five heads of damage; Mishneh Torah 1:12 explicitly holds intentional injury sufficient for shame liability without specific shame intent. Falling without such intent is distinguished. Current repair supports the central distinction; quantify actual injury intent rather than any deliberate bodily motion.",
+        "evidence": [
+          {
+            "witness_id": "mt-chovel-1-12",
+            "url": "https://mechon-mamre.org/i/b401.htm",
+            "sha256": "0ce58dd0e446a6dd1ca2395d627b139dba62708a081760032a0f2e5c69800770",
+            "quotation": "נפל ברוח שאינה מצויה--חייב בנזק בלבד, ופטור מארבעה דברים. ואם נתהפך--חייב בכול, אף בבושת: שכל המתכוון להזיק--אף על פי שלא נתכוון לבייש, חייב בבושת. יג שניים שחבלו באחד כאחת--שניהם חייבין, ומשלשין ביניהן. היה אחד מתכוון, ואחד שאינו מתכוון--זה שאינו מתכוון, פטור מן הבושת. [יד] המתכוון לבייש את הקטן, ובייש את הגדול--נותן לגדול דמי בושתו של קטן; נתכוון לבייש את העבד, ובייש את בן חורין--נותן לבן חורין דמי בושתו של עבד. יד [טו] הייתה אבן מונחת לו בחיקו, בין שלא הכיר בה מעולם, בין שהכיר בה ושכחה, ועמד ונפלה והזיקה--חייב בנזק בלבד, ופטור מארבעה דברים. וכן אם נתכוון לזרוק שתיים, וזרק ארבע והזיק, או שהזיק כשהוא ישן--חייב בנזק בלבד, ופטור מארבעה דברים. טו [טז] המזיק את חברו בכוונה בכל מקום, חייב בחמישה דברים. ואפילו נכנס לרשות חברו שלא ברשות",
+            "quotation_format": "Hebrew combining marks removed; surrounding words preserved",
+            "edition": "Public web transcription; edition/manuscript lineage not independently authenticated",
+            "retrieved_at": "2026-10-20"
+          }
+        ],
+        "limits": "First reviewer only. Public-transcription comparison does not authenticate an original edition or satisfy independent adversarial review. Unchecked propositions remain pending."
+      }
     },
     {
       "claim_id": "d-chovel/distinction/paragraph-1",
@@ -19894,7 +20434,25 @@
           "context_assessment": "Opening paragraph exempts interchangeable available objects; following paragraph explicitly extends the rule to borrowers and other guardians. Other propositions about guardian liability still require their own witnesses.",
           "reviewer": "Codex"
         }
-      ]
+      ],
+      "high_risk_first_pass": {
+        "queue": "https://github.com/dakulefsky/movo/issues/12",
+        "reviewer": "Codex",
+        "date": "2026-10-20",
+        "assessment": "Four-guardian distribution agrees with Mishnah. Mishneh Torah chapter 6:1 gives a rabbinic oath for distinctive items; the following displayed paragraph explicitly extends it to borrowers. That extension is absent from the bundled single-segment excerpt and should be separately attached. Commentary Torah-oath wording remains an unresolved intertextual conflict.",
+        "evidence": [
+          {
+            "witness_id": "mt-sheelah-6-1",
+            "url": "https://mechon-mamre.org/i/d206.htm",
+            "sha256": "1596ddabf345eeb29064306dfe2135c2167f134c09b55584d21809bcd1f6e978",
+            "quotation": "מא עיניו נתן בו, ומשביעין אותו בתקנת חכמים שבועה בנקיטת חפץ שאינו ברשותו; ואחר כך משלם. ב והוא הדין לשאר השומרין, כגון השואל שאמר מתה או נגנבה, ושומר שכר והשוכר, שאמר נגנבה או אבדה--אף על פי שהן חייבין לשלם--משביעין אותן שבועה שאינה ברשותן, ואחר כך משלמין דמי הבהמה או החפץ: שאנו חוששין לו, שמא עיניו נתן בה. ואם אמרו הבעלים, יתר על זה היה שווה--כולל בשבועתו שאינו שווה אלא כך וכך. ג נמצא כל שומר שנשבע שבועת השומרין, כולל בשבועתו שלושה דברים--ששמר כדרך השומרין, ושאירעו כך וכך והרי אינו ברשותו, ושלא שלח בו יד קודם שאירעו המאורע הפוטר אותו. ואם רצה לשלם--נשבע שאינו ברשותו, וכולל בשבועתו שכך וכך היה שווה. ד [ב] יש לשומר להתנות שאינו שומר כדרך השומרין, אלא מעות אלו שתפקיד אצלי בזווית ביתי אני מניח אותן, וכיוצא בזה. טען השומר שתנאי היה בי",
+            "quotation_format": "Hebrew combining marks removed; surrounding words preserved",
+            "edition": "Public web transcription; edition/manuscript lineage not independently authenticated",
+            "retrieved_at": "2026-10-20"
+          }
+        ],
+        "limits": "First reviewer only. Public-transcription comparison does not authenticate an original edition or satisfy independent adversarial review. Unchecked propositions remain pending."
+      }
     },
     {
       "claim_id": "d-shomrim/four/paragraph-2",
@@ -20022,7 +20580,25 @@
           "context_assessment": "Opening paragraph exempts interchangeable available objects; following paragraph explicitly extends the rule to borrowers and other guardians. Other propositions about guardian liability still require their own witnesses.",
           "reviewer": "Codex"
         }
-      ]
+      ],
+      "high_risk_first_pass": {
+        "queue": "https://github.com/dakulefsky/movo/issues/12",
+        "reviewer": "Codex",
+        "date": "2026-10-20",
+        "assessment": "Four-guardian distribution agrees with Mishnah. Mishneh Torah chapter 6:1 gives a rabbinic oath for distinctive items; the following displayed paragraph explicitly extends it to borrowers. That extension is absent from the bundled single-segment excerpt and should be separately attached. Commentary Torah-oath wording remains an unresolved intertextual conflict.",
+        "evidence": [
+          {
+            "witness_id": "mt-sheelah-6-1",
+            "url": "https://mechon-mamre.org/i/d206.htm",
+            "sha256": "1596ddabf345eeb29064306dfe2135c2167f134c09b55584d21809bcd1f6e978",
+            "quotation": "מא עיניו נתן בו, ומשביעין אותו בתקנת חכמים שבועה בנקיטת חפץ שאינו ברשותו; ואחר כך משלם. ב והוא הדין לשאר השומרין, כגון השואל שאמר מתה או נגנבה, ושומר שכר והשוכר, שאמר נגנבה או אבדה--אף על פי שהן חייבין לשלם--משביעין אותן שבועה שאינה ברשותן, ואחר כך משלמין דמי הבהמה או החפץ: שאנו חוששין לו, שמא עיניו נתן בה. ואם אמרו הבעלים, יתר על זה היה שווה--כולל בשבועתו שאינו שווה אלא כך וכך. ג נמצא כל שומר שנשבע שבועת השומרין, כולל בשבועתו שלושה דברים--ששמר כדרך השומרין, ושאירעו כך וכך והרי אינו ברשותו, ושלא שלח בו יד קודם שאירעו המאורע הפוטר אותו. ואם רצה לשלם--נשבע שאינו ברשותו, וכולל בשבועתו שכך וכך היה שווה. ד [ב] יש לשומר להתנות שאינו שומר כדרך השומרין, אלא מעות אלו שתפקיד אצלי בזווית ביתי אני מניח אותן, וכיוצא בזה. טען השומר שתנאי היה בי",
+            "quotation_format": "Hebrew combining marks removed; surrounding words preserved",
+            "edition": "Public web transcription; edition/manuscript lineage not independently authenticated",
+            "retrieved_at": "2026-10-20"
+          }
+        ],
+        "limits": "First reviewer only. Public-transcription comparison does not authenticate an original edition or satisfy independent adversarial review. Unchecked propositions remain pending."
+      }
     },
     {
       "claim_id": "d-shomrim/ones/paragraph-1",
@@ -20192,11 +20768,31 @@
       "literary_review": "pending",
       "adversarial_review": "pending",
       "decision": "not_reviewed",
-      "evidence_urls": [],
+      "evidence_urls": [
+        "https://he.wikisource.org/wiki/משנה_בבא מציעא_ז_ח"
+      ],
       "findings": [],
       "proposed_revision": "",
-      "reviewer": "",
-      "reviewed_at": ""
+      "reviewer": "Codex",
+      "reviewed_at": "2026-10-20",
+      "high_risk_first_pass": {
+        "queue": "https://github.com/dakulefsky/movo/issues/12",
+        "reviewer": "Codex",
+        "date": "2026-10-20",
+        "assessment": "Both Mishnah and Commentary Bava Metzia 7:8 are now attached. They support four guardians, paid guardian/renter equivalence and the Torah-section mapping. Borrower exemptions are expressly left qualified; no universal liability is asserted.",
+        "evidence": [
+          {
+            "witness_id": "n-Bava_Metzia-7.8",
+            "url": "https://he.wikisource.org/wiki/משנה_בבא מציעא_ז_ח",
+            "sha256": "05c585dc2837d96257d5545deb83ff4da805c36dc7df960f13c75eefedf74519",
+            "quotation": "ר או שור או שה\" (שמות כב, ט) וגו', בזה הקבלה כי הוא בשומר שכר והשוכר לפי שדין שניהם אחד, והפרשה השלישית מבוארת שהיא בשואל שנאמר \"וכי ישאל איש\" (שמות כב, יג) : פירוש רבי עובדיה מברטנורא [עריכה ] שומרי פירות - שומרי גיתות וערימות ופירות תלושים. אבל שומרי גנות ופרדסים, אין אוכלים לא מהלכות מדינה ולא מן התורה, דשומר לאו כעושה מעשה דמי: מהלכות מדינה - שכבר נהגו כן: נשבע על הכל - על כל המאורעות הכתובות בשאר שומרים לחיוב, נשבע שכך עלתה לו ופטור: משלם את הכל - גניבה ואבידה ואונסים: נושא שכר וכו' - וכולהו נפקא לן מקראי פרשת ואלה המשפטים. פרשה ראשונה כי יתן איש אל רעהו וגו' נאמרה בשומר חנם, שכן פטר בו גנבה ואבדה לא . שניה, כי יתן איש אל רעהו חמור או שור או שה נאמרה בשומר שכר, שכן חייב בו גנבה ואבדה, דכתיב בה אם גנב יגנב מעמו ישלם לבעליו, אי",
+            "quotation_format": "Hebrew combining marks removed; surrounding words preserved",
+            "edition": "Public web transcription; edition/manuscript lineage not independently authenticated",
+            "retrieved_at": "2026-10-20"
+          }
+        ],
+        "limits": "First reviewer only. Public-transcription comparison does not authenticate an original edition or satisfy independent adversarial review. Unchecked propositions remain pending."
+      }
     },
     {
       "claim_id": "d-shomer-ones/wolves/paragraph-1",
@@ -20644,11 +21240,31 @@
       "literary_review": "pending",
       "adversarial_review": "pending",
       "decision": "not_reviewed",
-      "evidence_urls": [],
+      "evidence_urls": [
+        "https://mechon-mamre.org/i/d311.htm"
+      ],
       "findings": [],
       "proposed_revision": "",
-      "reviewer": "",
-      "reviewed_at": ""
+      "reviewer": "Codex",
+      "reviewed_at": "2026-10-20",
+      "high_risk_first_pass": {
+        "queue": "https://github.com/dakulefsky/movo/issues/12",
+        "reviewer": "Codex",
+        "date": "2026-10-20",
+        "assessment": "The lien/purchaser qualification is materially better. However the added note says the debt itself does not create a lien, whereas Malveh 11:4 explains no collection from purchasers because the oral loan lacks publicity and says all borrower assets are subject under Torah law. Distinguish lien existence from purchaser collection. Also verify the local-conveyance condition against the exact commentary rather than attributing Bartenura words to Rambam.",
+        "evidence": [
+          {
+            "witness_id": "mt-malveh-11-4",
+            "url": "https://mechon-mamre.org/i/d311.htm",
+            "sha256": "e70e358d7aadf132469192b8e2e9312a2dd3f796d978b67894ebb0df95d541b6",
+            "quotation": "טר, קול יש לה; והלוקח הפסיד על עצמו, שלא שאל עד שידע שנכסיו של זה משועבדין במלווה שעליו, שכל נכסי הלווה תחת שיעבוד המלווה, מן התורה. ח [ה] המוכר שדהו בעדים, ויצאת מתחת ידי הלוקח--אף על פי שאין שם שטר ביד הלוקח, הרי זה חוזר וטורף מנכסים משועבדים כמו שיתבאר: שכל המוכר--בפרהסיה מוכר, וקול יש לו. ט [ו] אין ההלוואה שעל פה נגבית מן היורשין, אלא באחד משלושה דברים אלו: כשהחייב מודה בה, וציווה בחולייו שיש לפלוני עליו חוב עדיין. או שהייתה ההלוואה לזמן, ולא הגיע זמן לפורעה; וחזקה היא שאין אדם פורע בתוך זמנו. או שנידוהו עד שייתן, ומת בנידויו. כל אלו גובין מן היורש, בלא שבועה. י אבל אם באו עדים שהיה אביהן חייב לזה מנה, או בפנינו הלווהו--אינו גובה מן היורש כלום, שמא פרעו: שהמלווה את חברו בעדים, אינו צריך לפורעו בעדים. וכן אם הוציא כתב יד אביהן ",
+            "quotation_format": "Hebrew combining marks removed; surrounding words preserved",
+            "edition": "Public web transcription; edition/manuscript lineage not independently authenticated",
+            "retrieved_at": "2026-10-20"
+          }
+        ],
+        "limits": "First reviewer only. Public-transcription comparison does not authenticate an original edition or satisfy independent adversarial review. Unchecked propositions remain pending."
+      }
     },
     {
       "claim_id": "d-karka/ways/paragraph-2",
@@ -20720,11 +21336,31 @@
       "literary_review": "pending",
       "adversarial_review": "pending",
       "decision": "not_reviewed",
-      "evidence_urls": [],
+      "evidence_urls": [
+        "https://mechon-mamre.org/i/d311.htm"
+      ],
       "findings": [],
       "proposed_revision": "",
-      "reviewer": "",
-      "reviewed_at": ""
+      "reviewer": "Codex",
+      "reviewed_at": "2026-10-20",
+      "high_risk_first_pass": {
+        "queue": "https://github.com/dakulefsky/movo/issues/12",
+        "reviewer": "Codex",
+        "date": "2026-10-20",
+        "assessment": "The lien/purchaser qualification is materially better. However the added note says the debt itself does not create a lien, whereas Malveh 11:4 explains no collection from purchasers because the oral loan lacks publicity and says all borrower assets are subject under Torah law. Distinguish lien existence from purchaser collection. Also verify the local-conveyance condition against the exact commentary rather than attributing Bartenura words to Rambam.",
+        "evidence": [
+          {
+            "witness_id": "mt-malveh-11-4",
+            "url": "https://mechon-mamre.org/i/d311.htm",
+            "sha256": "e70e358d7aadf132469192b8e2e9312a2dd3f796d978b67894ebb0df95d541b6",
+            "quotation": "טר, קול יש לה; והלוקח הפסיד על עצמו, שלא שאל עד שידע שנכסיו של זה משועבדין במלווה שעליו, שכל נכסי הלווה תחת שיעבוד המלווה, מן התורה. ח [ה] המוכר שדהו בעדים, ויצאת מתחת ידי הלוקח--אף על פי שאין שם שטר ביד הלוקח, הרי זה חוזר וטורף מנכסים משועבדים כמו שיתבאר: שכל המוכר--בפרהסיה מוכר, וקול יש לו. ט [ו] אין ההלוואה שעל פה נגבית מן היורשין, אלא באחד משלושה דברים אלו: כשהחייב מודה בה, וציווה בחולייו שיש לפלוני עליו חוב עדיין. או שהייתה ההלוואה לזמן, ולא הגיע זמן לפורעה; וחזקה היא שאין אדם פורע בתוך זמנו. או שנידוהו עד שייתן, ומת בנידויו. כל אלו גובין מן היורש, בלא שבועה. י אבל אם באו עדים שהיה אביהן חייב לזה מנה, או בפנינו הלווהו--אינו גובה מן היורש כלום, שמא פרעו: שהמלווה את חברו בעדים, אינו צריך לפורעו בעדים. וכן אם הוציא כתב יד אביהן ",
+            "quotation_format": "Hebrew combining marks removed; surrounding words preserved",
+            "edition": "Public web transcription; edition/manuscript lineage not independently authenticated",
+            "retrieved_at": "2026-10-20"
+          }
+        ],
+        "limits": "First reviewer only. Public-transcription comparison does not authenticate an original edition or satisfy independent adversarial review. Unchecked propositions remain pending."
+      }
     },
     {
       "claim_id": "d-karka/ways/paragraph-3",
@@ -20796,11 +21432,31 @@
       "literary_review": "pending",
       "adversarial_review": "pending",
       "decision": "not_reviewed",
-      "evidence_urls": [],
+      "evidence_urls": [
+        "https://mechon-mamre.org/i/d311.htm"
+      ],
       "findings": [],
       "proposed_revision": "",
-      "reviewer": "",
-      "reviewed_at": ""
+      "reviewer": "Codex",
+      "reviewed_at": "2026-10-20",
+      "high_risk_first_pass": {
+        "queue": "https://github.com/dakulefsky/movo/issues/12",
+        "reviewer": "Codex",
+        "date": "2026-10-20",
+        "assessment": "The lien/purchaser qualification is materially better. However the added note says the debt itself does not create a lien, whereas Malveh 11:4 explains no collection from purchasers because the oral loan lacks publicity and says all borrower assets are subject under Torah law. Distinguish lien existence from purchaser collection. Also verify the local-conveyance condition against the exact commentary rather than attributing Bartenura words to Rambam.",
+        "evidence": [
+          {
+            "witness_id": "mt-malveh-11-4",
+            "url": "https://mechon-mamre.org/i/d311.htm",
+            "sha256": "e70e358d7aadf132469192b8e2e9312a2dd3f796d978b67894ebb0df95d541b6",
+            "quotation": "טר, קול יש לה; והלוקח הפסיד על עצמו, שלא שאל עד שידע שנכסיו של זה משועבדין במלווה שעליו, שכל נכסי הלווה תחת שיעבוד המלווה, מן התורה. ח [ה] המוכר שדהו בעדים, ויצאת מתחת ידי הלוקח--אף על פי שאין שם שטר ביד הלוקח, הרי זה חוזר וטורף מנכסים משועבדים כמו שיתבאר: שכל המוכר--בפרהסיה מוכר, וקול יש לו. ט [ו] אין ההלוואה שעל פה נגבית מן היורשין, אלא באחד משלושה דברים אלו: כשהחייב מודה בה, וציווה בחולייו שיש לפלוני עליו חוב עדיין. או שהייתה ההלוואה לזמן, ולא הגיע זמן לפורעה; וחזקה היא שאין אדם פורע בתוך זמנו. או שנידוהו עד שייתן, ומת בנידויו. כל אלו גובין מן היורש, בלא שבועה. י אבל אם באו עדים שהיה אביהן חייב לזה מנה, או בפנינו הלווהו--אינו גובה מן היורש כלום, שמא פרעו: שהמלווה את חברו בעדים, אינו צריך לפורעו בעדים. וכן אם הוציא כתב יד אביהן ",
+            "quotation_format": "Hebrew combining marks removed; surrounding words preserved",
+            "edition": "Public web transcription; edition/manuscript lineage not independently authenticated",
+            "retrieved_at": "2026-10-20"
+          }
+        ],
+        "limits": "First reviewer only. Public-transcription comparison does not authenticate an original edition or satisfy independent adversarial review. Unchecked propositions remain pending."
+      }
     },
     {
       "claim_id": "d-karka/chazakah/paragraph-1",
@@ -21742,11 +22398,31 @@
       "literary_review": "pending",
       "adversarial_review": "pending",
       "decision": "not_reviewed",
-      "evidence_urls": [],
+      "evidence_urls": [
+        "https://mechon-mamre.org/i/d401.htm"
+      ],
       "findings": [],
       "proposed_revision": "",
-      "reviewer": "",
-      "reviewed_at": ""
+      "reviewer": "Codex",
+      "reviewed_at": "2026-10-20",
+      "high_risk_first_pass": {
+        "queue": "https://github.com/dakulefsky/movo/issues/12",
+        "reviewer": "Codex",
+        "date": "2026-10-20",
+        "assessment": "Mishneh Torah distinguishes rabbinic oaths for collecting from those for exemption, unlike the broad wording of the bundled commentary. Current note preserves that boundary. The two paragraphs repeat the same rule; consolidation improves Hebrew without dropping the source qualification. Hesseit and holding an object must remain distinguished.",
+        "evidence": [
+          {
+            "witness_id": "mt-toen-1-4-5",
+            "url": "https://mechon-mamre.org/i/d401.htm",
+            "sha256": "53d275f831d0525fab94a0d498cc05795b595aef84cf1c5e43b88a086b9c45f9",
+            "quotation": "יש לו להחרים על מי שטוען עליי דבר שאינו כן, ונותן. ז אבל מי שנתחייב שבועה מדבריהן--אם היה מן הנשבעין ונוטלין, אינו יכול להפוך השבועה: שהרי הנתבע אומר לו, הישבע וטול, כמו שתיקנו לך חכמים. ואם לא רצה להישבע, ילך לו. והורו רבותיי שאם אמר התובע איני רוצה בתקנה זו שתיקנו לי חכמים, אלא הריני כשאר כל התובעים--הרי זה משביע את הנתבע היסת. ואם רצה להופכה על התובע--מחייבין את התובע להישבע היסת וייטול, או ילך לו. ח [ה] היה המחוייב שבועה מדבריהם מן הנשבעין ונפטרין, כגון הנשבעין על טענת ספק, או מן הנשבעין היסת, ולא רצה להישבע--משמתין אותו שלושים יום. אם לא בא, ולא תבע נידויו--מלקין אותו מכת מרדות, ככל מי שחלה עליו שמתא שלושים יום, שמכין אותו, ואחר כך מתירין לזה נידויו. ואין יורדין לנכסיו, לפי שאינו מחוייב שבועה מן התורה. ט [ו] כל המחוייב שבועת ",
+            "quotation_format": "Hebrew combining marks removed; surrounding words preserved",
+            "edition": "Public web transcription; edition/manuscript lineage not independently authenticated",
+            "retrieved_at": "2026-10-20"
+          }
+        ],
+        "limits": "First reviewer only. Public-transcription comparison does not authenticate an original edition or satisfy independent adversarial review. Unchecked propositions remain pending."
+      }
     },
     {
       "claim_id": "d-shevuot/distinction/paragraph-2",
@@ -21806,11 +22482,31 @@
       "literary_review": "pending",
       "adversarial_review": "pending",
       "decision": "not_reviewed",
-      "evidence_urls": [],
+      "evidence_urls": [
+        "https://mechon-mamre.org/i/d401.htm"
+      ],
       "findings": [],
       "proposed_revision": "",
-      "reviewer": "",
-      "reviewed_at": ""
+      "reviewer": "Codex",
+      "reviewed_at": "2026-10-20",
+      "high_risk_first_pass": {
+        "queue": "https://github.com/dakulefsky/movo/issues/12",
+        "reviewer": "Codex",
+        "date": "2026-10-20",
+        "assessment": "Mishneh Torah distinguishes rabbinic oaths for collecting from those for exemption, unlike the broad wording of the bundled commentary. Current note preserves that boundary. The two paragraphs repeat the same rule; consolidation improves Hebrew without dropping the source qualification. Hesseit and holding an object must remain distinguished.",
+        "evidence": [
+          {
+            "witness_id": "mt-toen-1-4-5",
+            "url": "https://mechon-mamre.org/i/d401.htm",
+            "sha256": "53d275f831d0525fab94a0d498cc05795b595aef84cf1c5e43b88a086b9c45f9",
+            "quotation": "יש לו להחרים על מי שטוען עליי דבר שאינו כן, ונותן. ז אבל מי שנתחייב שבועה מדבריהן--אם היה מן הנשבעין ונוטלין, אינו יכול להפוך השבועה: שהרי הנתבע אומר לו, הישבע וטול, כמו שתיקנו לך חכמים. ואם לא רצה להישבע, ילך לו. והורו רבותיי שאם אמר התובע איני רוצה בתקנה זו שתיקנו לי חכמים, אלא הריני כשאר כל התובעים--הרי זה משביע את הנתבע היסת. ואם רצה להופכה על התובע--מחייבין את התובע להישבע היסת וייטול, או ילך לו. ח [ה] היה המחוייב שבועה מדבריהם מן הנשבעין ונפטרין, כגון הנשבעין על טענת ספק, או מן הנשבעין היסת, ולא רצה להישבע--משמתין אותו שלושים יום. אם לא בא, ולא תבע נידויו--מלקין אותו מכת מרדות, ככל מי שחלה עליו שמתא שלושים יום, שמכין אותו, ואחר כך מתירין לזה נידויו. ואין יורדין לנכסיו, לפי שאינו מחוייב שבועה מן התורה. ט [ו] כל המחוייב שבועת ",
+            "quotation_format": "Hebrew combining marks removed; surrounding words preserved",
+            "edition": "Public web transcription; edition/manuscript lineage not independently authenticated",
+            "retrieved_at": "2026-10-20"
+          }
+        ],
+        "limits": "First reviewer only. Public-transcription comparison does not authenticate an original edition or satisfy independent adversarial review. Unchecked propositions remain pending."
+      }
     },
     {
       "claim_id": "d-shevuot/hesset/paragraph-1",
@@ -21870,11 +22566,31 @@
       "literary_review": "pending",
       "adversarial_review": "pending",
       "decision": "not_reviewed",
-      "evidence_urls": [],
+      "evidence_urls": [
+        "https://mechon-mamre.org/i/d401.htm"
+      ],
       "findings": [],
       "proposed_revision": "",
-      "reviewer": "",
-      "reviewed_at": ""
+      "reviewer": "Codex",
+      "reviewed_at": "2026-10-20",
+      "high_risk_first_pass": {
+        "queue": "https://github.com/dakulefsky/movo/issues/12",
+        "reviewer": "Codex",
+        "date": "2026-10-20",
+        "assessment": "Same legal boundary independently checked here: collect only after required oath; exempting defendant refusing rabbinic oath faces prescribed niddui, not property seizure. Hesseit differs in holding an object. Repeat note may be shortened, but no condition should be dropped.",
+        "evidence": [
+          {
+            "witness_id": "mt-toen-1-4-5",
+            "url": "https://mechon-mamre.org/i/d401.htm",
+            "sha256": "53d275f831d0525fab94a0d498cc05795b595aef84cf1c5e43b88a086b9c45f9",
+            "quotation": "על התובע--מחייבין את התובע להישבע היסת וייטול, או ילך לו. ח [ה] היה המחוייב שבועה מדבריהם מן הנשבעין ונפטרין, כגון הנשבעין על טענת ספק, או מן הנשבעין היסת, ולא רצה להישבע--משמתין אותו שלושים יום. אם לא בא, ולא תבע נידויו--מלקין אותו מכת מרדות, ככל מי שחלה עליו שמתא שלושים יום, שמכין אותו, ואחר כך מתירין לזה נידויו. ואין יורדין לנכסיו, לפי שאינו מחוייב שבועה מן התורה. ט [ו] כל המחוייב שבועת היסת--אם רצה להפוך השבועה על התובע, הרי התובע נשבע היסת ונוטל מחברו; ואין לך מי שנשבע היסת ונוטל מחברו, אלא זה שנהפכה עליו שבועת היסת. ואין לך שבועה שתיהפך, אלא שבועת היסת בלבד; אבל שבועה של תורה, או של דבריהם שהיא כעין של תורה--אין הופכין שבועתן. י [ז] אין משביעין שבועת היסת, אלא על טענת ודאי; אבל על הספק, פטור. כיצד: כמדומה לי שיש לי אצלך מנה,",
+            "quotation_format": "Hebrew combining marks removed; surrounding words preserved",
+            "edition": "Public web transcription; edition/manuscript lineage not independently authenticated",
+            "retrieved_at": "2026-10-20"
+          }
+        ],
+        "limits": "First reviewer only. Public-transcription comparison does not authenticate an original edition or satisfy independent adversarial review. Unchecked propositions remain pending."
+      }
     },
     {
       "claim_id": "d-shevuot/hesset/paragraph-2",
@@ -21934,11 +22650,31 @@
       "literary_review": "pending",
       "adversarial_review": "pending",
       "decision": "not_reviewed",
-      "evidence_urls": [],
+      "evidence_urls": [
+        "https://mechon-mamre.org/i/d401.htm"
+      ],
       "findings": [],
       "proposed_revision": "",
-      "reviewer": "",
-      "reviewed_at": ""
+      "reviewer": "Codex",
+      "reviewed_at": "2026-10-20",
+      "high_risk_first_pass": {
+        "queue": "https://github.com/dakulefsky/movo/issues/12",
+        "reviewer": "Codex",
+        "date": "2026-10-20",
+        "assessment": "Same legal boundary independently checked here: collect only after required oath; exempting defendant refusing rabbinic oath faces prescribed niddui, not property seizure. Hesseit differs in holding an object. Repeat note may be shortened, but no condition should be dropped.",
+        "evidence": [
+          {
+            "witness_id": "mt-toen-1-4-5",
+            "url": "https://mechon-mamre.org/i/d401.htm",
+            "sha256": "53d275f831d0525fab94a0d498cc05795b595aef84cf1c5e43b88a086b9c45f9",
+            "quotation": "על התובע--מחייבין את התובע להישבע היסת וייטול, או ילך לו. ח [ה] היה המחוייב שבועה מדבריהם מן הנשבעין ונפטרין, כגון הנשבעין על טענת ספק, או מן הנשבעין היסת, ולא רצה להישבע--משמתין אותו שלושים יום. אם לא בא, ולא תבע נידויו--מלקין אותו מכת מרדות, ככל מי שחלה עליו שמתא שלושים יום, שמכין אותו, ואחר כך מתירין לזה נידויו. ואין יורדין לנכסיו, לפי שאינו מחוייב שבועה מן התורה. ט [ו] כל המחוייב שבועת היסת--אם רצה להפוך השבועה על התובע, הרי התובע נשבע היסת ונוטל מחברו; ואין לך מי שנשבע היסת ונוטל מחברו, אלא זה שנהפכה עליו שבועת היסת. ואין לך שבועה שתיהפך, אלא שבועת היסת בלבד; אבל שבועה של תורה, או של דבריהם שהיא כעין של תורה--אין הופכין שבועתן. י [ז] אין משביעין שבועת היסת, אלא על טענת ודאי; אבל על הספק, פטור. כיצד: כמדומה לי שיש לי אצלך מנה,",
+            "quotation_format": "Hebrew combining marks removed; surrounding words preserved",
+            "edition": "Public web transcription; edition/manuscript lineage not independently authenticated",
+            "retrieved_at": "2026-10-20"
+          }
+        ],
+        "limits": "First reviewer only. Public-transcription comparison does not authenticate an original edition or satisfy independent adversarial review. Unchecked propositions remain pending."
+      }
     },
     {
       "claim_id": "d-edut/meaning/paragraph-1",
@@ -22308,11 +23044,31 @@
       "literary_review": "pending",
       "adversarial_review": "pending",
       "decision": "not_reviewed",
-      "evidence_urls": [],
+      "evidence_urls": [
+        "https://mechon-mamre.org/i/5304.htm"
+      ],
       "findings": [],
       "proposed_revision": "",
-      "reviewer": "",
-      "reviewed_at": ""
+      "reviewer": "Codex",
+      "reviewed_at": "2026-10-20",
+      "high_risk_first_pass": {
+        "queue": "https://github.com/dakulefsky/movo/issues/12",
+        "reviewer": "Codex",
+        "date": "2026-10-20",
+        "assessment": "Commentary explains expertise/inspection and the five disqualifiers; Mishneh Torah expressly includes a non-idolatrous gentile. The repair correctly prevents narrowing to idolaters. Numbering is displayed ט [יא–יב] at Mechon Mamre, so preserve the conventional halakhah number alongside displayed numbering.",
+        "evidence": [
+          {
+            "witness_id": "mt-shechitah-4-12",
+            "url": "https://mechon-mamre.org/i/5304.htm",
+            "sha256": "6587d67b4dc16ac742e7b0224c3a333ec6c8de010ea167c013da0b2d586bdd27",
+            "quotation": "תה למד שזבחו אסור; ואינו דומה לישראל שאינו יודע הלכות שחיטה. [יב] וגדר גדול גדרו בדבר זה--שאפילו גוי שאינו עובד עבודה זרה, שחיטתו נבילה. י [יג] התחיל הגוי לשחוט מיעוט הסימנין, וגמר ישראל, או שהתחיל ישראל, וגמר הגוי--פסולה: ישנה לשחיטה מתחילה ועד סוף. אבל אם שחט הגוי דבר שאינו עושה אותה נבילה, כגון ששחט חצי הגרגרת בלבד, וגמר ישראל--הרי זו כשרה. יא [יד] ישראל משומד לעבירה מן העבירות, שהיה מומחה--הרי זה שוחט לכתחילה; וצריך ישראל כשר לבדוק את הסכין, ואחר כך ייתננה למשומד זה לשחוט בה--מפני שחזקתו שאינו טורח לבדוק. ואם היה משומד לעבודה זרה, או מחלל שבת בפרהסיה, או מין, והוא הכופר בתורה ובמשה רבנו כמו שביארנו בהלכות תשובה--הרי הוא כגוי, ושחיטתו נבילה. יב [טו] מי שהוא פסול לעדות בעבירה מן העבירות של תורה--הרי זה שוחט בינו לבין עצמו, אם הי",
+            "quotation_format": "Hebrew combining marks removed; surrounding words preserved",
+            "edition": "Public web transcription; edition/manuscript lineage not independently authenticated",
+            "retrieved_at": "2026-10-20"
+          }
+        ],
+        "limits": "First reviewer only. Public-transcription comparison does not authenticate an original edition or satisfy independent adversarial review. Unchecked propositions remain pending."
+      }
     },
     {
       "claim_id": "a-shechitah/distinction/paragraph-2",
@@ -22358,11 +23114,31 @@
       "literary_review": "pending",
       "adversarial_review": "pending",
       "decision": "not_reviewed",
-      "evidence_urls": [],
+      "evidence_urls": [
+        "https://mechon-mamre.org/i/5304.htm"
+      ],
       "findings": [],
       "proposed_revision": "",
-      "reviewer": "",
-      "reviewed_at": ""
+      "reviewer": "Codex",
+      "reviewed_at": "2026-10-20",
+      "high_risk_first_pass": {
+        "queue": "https://github.com/dakulefsky/movo/issues/12",
+        "reviewer": "Codex",
+        "date": "2026-10-20",
+        "assessment": "Commentary explains expertise/inspection and the five disqualifiers; Mishneh Torah expressly includes a non-idolatrous gentile. The repair correctly prevents narrowing to idolaters. Numbering is displayed ט [יא–יב] at Mechon Mamre, so preserve the conventional halakhah number alongside displayed numbering.",
+        "evidence": [
+          {
+            "witness_id": "mt-shechitah-4-12",
+            "url": "https://mechon-mamre.org/i/5304.htm",
+            "sha256": "6587d67b4dc16ac742e7b0224c3a333ec6c8de010ea167c013da0b2d586bdd27",
+            "quotation": "תה למד שזבחו אסור; ואינו דומה לישראל שאינו יודע הלכות שחיטה. [יב] וגדר גדול גדרו בדבר זה--שאפילו גוי שאינו עובד עבודה זרה, שחיטתו נבילה. י [יג] התחיל הגוי לשחוט מיעוט הסימנין, וגמר ישראל, או שהתחיל ישראל, וגמר הגוי--פסולה: ישנה לשחיטה מתחילה ועד סוף. אבל אם שחט הגוי דבר שאינו עושה אותה נבילה, כגון ששחט חצי הגרגרת בלבד, וגמר ישראל--הרי זו כשרה. יא [יד] ישראל משומד לעבירה מן העבירות, שהיה מומחה--הרי זה שוחט לכתחילה; וצריך ישראל כשר לבדוק את הסכין, ואחר כך ייתננה למשומד זה לשחוט בה--מפני שחזקתו שאינו טורח לבדוק. ואם היה משומד לעבודה זרה, או מחלל שבת בפרהסיה, או מין, והוא הכופר בתורה ובמשה רבנו כמו שביארנו בהלכות תשובה--הרי הוא כגוי, ושחיטתו נבילה. יב [טו] מי שהוא פסול לעדות בעבירה מן העבירות של תורה--הרי זה שוחט בינו לבין עצמו, אם הי",
+            "quotation_format": "Hebrew combining marks removed; surrounding words preserved",
+            "edition": "Public web transcription; edition/manuscript lineage not independently authenticated",
+            "retrieved_at": "2026-10-20"
+          }
+        ],
+        "limits": "First reviewer only. Public-transcription comparison does not authenticate an original edition or satisfy independent adversarial review. Unchecked propositions remain pending."
+      }
     },
     {
       "claim_id": "a-shechitah/competence/paragraph-1",
@@ -22728,11 +23504,31 @@
       "literary_review": "pending",
       "adversarial_review": "pending",
       "decision": "not_reviewed",
-      "evidence_urls": [],
+      "evidence_urls": [
+        "https://he.wikisource.org/wiki/משנה_חולין_ח_א"
+      ],
       "findings": [],
       "proposed_revision": "",
-      "reviewer": "",
-      "reviewed_at": ""
+      "reviewer": "Codex",
+      "reviewed_at": "2026-10-20",
+      "high_risk_first_pass": {
+        "queue": "https://github.com/dakulefsky/movo/issues/12",
+        "reviewer": "Codex",
+        "date": "2026-10-20",
+        "assessment": "Mishnah Chullin 8:1 now directly supplies table prohibition and Beit Hillel poultry inclusion; Commentary explains habitual transgression. The paragraph specifies eating table and does not claim food was already cooked together. It does not purport to list every table-sharing exception.",
+        "evidence": [
+          {
+            "witness_id": "c-m-Chullin-8.1",
+            "url": "https://he.wikisource.org/wiki/משנה_חולין_ח_א",
+            "sha256": "79442dc0f99213804cd99e254df1939ef94c34312ca8a75cc0ca749c361bccf6",
+            "quotation": " הבשר, מותר בבשר דגים וחגבים. העוף -- עולה עם הגבינה על השלחן ואינו נאכל, דברי בית שמאי. ובית הלל אומרים, לא עולה ולא נאכל ה . אמר רבי יוסי, זו מקולי בית שמאי ומחומרי בית הלל. באיזה שלחן אמרו? בשלחן שאוכל עליו. אבל בשלחן שסודר עליו את התבשיל -- נותן זה בצד זה ואינו חושש ו . משנה מנוקדת [עריכה ] כל הבשר אסור לבשל בחלב, חוץ מבשר דגים וחגבים. ואסור להעלותו עם הגבינה על השלחן, חוץ מבשר דגים וחגבים. הנודר מן הבשר, מתר בבשר דגים וחגבים. העוף, עולה עם הגבינה על השלחן, ואינו נאכל, דברי בית שמאי; ובית הלל אומרים: לא עולה ולא נאכל. אמר רבי יוסי: זו מקלי בית שמאי ומחמרי בית הלל. באיזה שלחן אמרו? בשלחן שאוכל עליו; אבל בשלחן שסודר עליו את התבשיל, נותן זה בצד זה ואינו חושש: נוסח הרמב\"ם [עריכה ] כל הבשר - אסור לבשל בחלב, חוץ מבשר דגים, וחגבים. ו",
+            "quotation_format": "Hebrew combining marks removed; surrounding words preserved",
+            "edition": "Public web transcription; edition/manuscript lineage not independently authenticated",
+            "retrieved_at": "2026-10-20"
+          }
+        ],
+        "limits": "First reviewer only. Public-transcription comparison does not authenticate an original edition or satisfy independent adversarial review. Unchecked propositions remain pending."
+      }
     },
     {
       "claim_id": "a-taam/meaning/paragraph-1",
@@ -22938,11 +23734,31 @@
       "literary_review": "pending",
       "adversarial_review": "pending",
       "decision": "not_reviewed",
-      "evidence_urls": [],
+      "evidence_urls": [
+        "https://he.wikisource.org/wiki/משנה_נדרים_ב_ב"
+      ],
       "findings": [],
       "proposed_revision": "",
-      "reviewer": "",
-      "reviewed_at": ""
+      "reviewer": "Codex",
+      "reviewed_at": "2026-10-20",
+      "high_risk_first_pass": {
+        "queue": "https://github.com/dakulefsky/movo/issues/12",
+        "reviewer": "Codex",
+        "date": "2026-10-20",
+        "assessment": "Grammar repair חל האיסור is sound. Commentary explicitly distinguishes prohibiting the mitzvah-object from conditional korban liability when performing a mitzvah. The quoted formula כל זמן שמניח is the preserved old translation; do not silently normalize its grammatical person inside quotation marks.",
+        "evidence": [
+          {
+            "witness_id": "c-Nedarim-2.2",
+            "url": "https://he.wikisource.org/wiki/משנה_נדרים_ב_ב",
+            "sha256": "db2d3a8463d20e50c921ad05ed0524545b29797f706788bf942137e19f1e2899",
+            "quotation": "ה. וזאת היא הסברא בהיות הנדרים חלים על כל דבר שחייב איסור גוף זה הדבר ביטול מצות עשה. אבל כל זמן שמחייב עצמו קרבן כל זמן שאניח תפילין הרי זה חל, וכל זמן שיניח תפילין יתחייב קרבן. ואמנם החומרא שהוא בשבועות יותר מבנדרים, הוא מה שנקדם ביאורו: פירוש רבי עובדיה מברטנורא [עריכה ] קרבן לא אוכל לך וכו' מותר - דהוי כנשבע בקרבן טז , ונעשה כאומר: \"בחיי הקרבן אם אוכל לך שום דבר\". שבועה שלא אוכל לך - ולא אמרינן \"בחיי שבועה\" קאמר, כדאמרינן בקרבן, דשבועה לית בה מששא, ולא שייך לומר בה \"בחיי שבועה\". שבועה שאוכל לך - זמנין ד\"שבועה שאוכל לך\" - \"דלא אכילנא\" משמע, כגון שהיה חבירו מסרב בו לאכול, ואמר: \"לא אכילנא\", \"לא אכילנא\", ושוב אמר: \"שבועה שאוכל לך\", \"דלא אכילנא\" משמע, והכי קאמר: \"בשבועה יהא עלי אי אכילנא לך\". זה חומר בשבועות - לא מצינן לאוקמה א שב",
+            "quotation_format": "Hebrew combining marks removed; surrounding words preserved",
+            "edition": "Public web transcription; edition/manuscript lineage not independently authenticated",
+            "retrieved_at": "2026-10-20"
+          }
+        ],
+        "limits": "First reviewer only. Public-transcription comparison does not authenticate an original edition or satisfy independent adversarial review. Unchecked propositions remain pending."
+      }
     },
     {
       "claim_id": "a-neder/distinction/paragraph-1",
@@ -23060,11 +23876,31 @@
       "literary_review": "pending",
       "adversarial_review": "pending",
       "decision": "not_reviewed",
-      "evidence_urls": [],
+      "evidence_urls": [
+        "https://mechon-mamre.org/i/6201.htm"
+      ],
       "findings": [],
       "proposed_revision": "",
-      "reviewer": "",
-      "reviewed_at": ""
+      "reviewer": "Codex",
+      "reviewed_at": "2026-10-20",
+      "high_risk_first_pass": {
+        "queue": "https://github.com/dakulefsky/movo/issues/12",
+        "reviewer": "Codex",
+        "date": "2026-10-20",
+        "assessment": "Commentary treats the opening formulae as partial expressions, not kinuyim; Mishneh Torah 1:16 gives konam/konach/konaz as alternate local words. Distinction is sound. Explanation must retain context/completion conditions rather than saying every incomplete utterance automatically binds.",
+        "evidence": [
+          {
+            "witness_id": "mt-nedarim-1-16",
+            "url": "https://mechon-mamre.org/i/6201.htm",
+            "sha256": "1eb11a68554539d1e6e9a57c55fbc3ce86461fa11efbf99de646bab1bef205dd",
+            "quotation": "ין על דבר, בדבר אחר--הולכין שם אחר הכינוי. כיצד--כל כינויי קרבן, כקרבן: האומר הרי הן עליי קונם, קונח, קונז--הרי אלו כינויין לקרבן. חרק, חרף, חרך--הרי אלו כינויין לחרם. וכן כל כיוצא בזה--הולכין אחר לשון כלל העם, באותו מקום ובאותו זמן. [יז] וכשם שאוסר עצמו בכינויין--כך אם הקדיש בכינויין, הרי זה הקדש; וכינויי הכינויין מותרין, בין בנדרי איסר בין בנדרי הקדש. יז [יח] האומר לחברו כל מה שאוכל עימך, לא יהא חולין, או לא יהא כשר, או לא יהא דכי, או לא יהא טהור--הרי זה כמי שאמר לו כל מה שאוכל עימך יהיה קרבן, שהוא אסור; וכן אם אמר לו כל מה שאוכל עימך טמא, או נותר, או פיגול--הרי זה אסור. יח [יט] האומר לחברו, לא חולין לא אוכל לך--הרי זה כמי שאמר לו מה שאוכל לך לא יהיה חולין, אלא קרבן; וכן אם אמר הקרבן שאוכל לך, קרבן שאוכל לך, כקרבן שאוכל לך--הרי ",
+            "quotation_format": "Hebrew combining marks removed; surrounding words preserved",
+            "edition": "Public web transcription; edition/manuscript lineage not independently authenticated",
+            "retrieved_at": "2026-10-20"
+          }
+        ],
+        "limits": "First reviewer only. Public-transcription comparison does not authenticate an original edition or satisfy independent adversarial review. Unchecked propositions remain pending."
+      }
     },
     {
       "claim_id": "a-yadot-kinuyim/meaning/paragraph-1",
@@ -23096,11 +23932,31 @@
       "literary_review": "pending",
       "adversarial_review": "pending",
       "decision": "not_reviewed",
-      "evidence_urls": [],
+      "evidence_urls": [
+        "https://he.wikisource.org/wiki/משנה_נדרים_א_א"
+      ],
       "findings": [],
       "proposed_revision": "",
-      "reviewer": "",
-      "reviewed_at": ""
+      "reviewer": "Codex",
+      "reviewed_at": "2026-10-20",
+      "high_risk_first_pass": {
+        "queue": "https://github.com/dakulefsky/movo/issues/12",
+        "reviewer": "Codex",
+        "date": "2026-10-20",
+        "assessment": "Commentary gives talk/trade/proximity meanings and requires the eating/tasting completion for the stated eating prohibition; Rabbi Akiva is near to prohibition without lashes. Paragraph 2 says הנאה ממאכל, broader than the quoted eat/taste language; prefer אכילה וטעימה ממאכל to avoid unintended generalization.",
+        "evidence": [
+          {
+            "witness_id": "c-Nedarim-1.1",
+            "url": "https://he.wikisource.org/wiki/משנה_נדרים_א_א",
+            "sha256": "e64bc6891eecce415af331bf8299209dbd03e3a8dd677b3ce784b2ad52108901",
+            "quotation": " \"מופרש אני ממך שאיני אוכל לך ושאיני טועם לך\", \"מרוחק אני ממך שאיני אוכל ושאיני טועם לך\", ואז יהיה אסור לאכול לו או לטעום לו. אבל אם אמר לו מודר אני ממך בלבד, אינו אסור עליו לאכול אצלו, לפי שמשמעותו שלא ידבר עמו. וכמו כן מופרש אני ממך - משמעותו שלא ישא ויתן עמו. ומשמעות מרוחק אני ממך - שלא ישב עמו בארבע אמות קרקע. ולכך לא יהיה אסור מלאכול לו באומרו מאלה הדברים, עד שיאמר שאיני אוכל . ועניין אומרו: חוכך בזה להחמיר – שהוא היה קרוב לאסור, אבל לא היה פוסק לגמרי. ומי שאמר: \"מנודה אני לך, שאיני אוכל לך\", או \"שאיני טועם לך\", לרבי עקיבא – אסור לאכול לו או לטעום לו, ואם עבר – אינו חייב מלקות, לפי שהוא אינו פוסק לגמרי לאסור, אבל הוא קרוב לו. ו נדרי רשעים הוא שיאמר: \"כנדרי רשעים עלי אם אוכל לך\", ומפרש באומר שמשמעותם: \"הריני נזיר\", \"הרי עלי קר",
+            "quotation_format": "Hebrew combining marks removed; surrounding words preserved",
+            "edition": "Public web transcription; edition/manuscript lineage not independently authenticated",
+            "retrieved_at": "2026-10-20"
+          }
+        ],
+        "limits": "First reviewer only. Public-transcription comparison does not authenticate an original edition or satisfy independent adversarial review. Unchecked propositions remain pending."
+      }
     },
     {
       "claim_id": "a-yadot-kinuyim/meaning/paragraph-2",
@@ -23132,11 +23988,31 @@
       "literary_review": "pending",
       "adversarial_review": "pending",
       "decision": "not_reviewed",
-      "evidence_urls": [],
+      "evidence_urls": [
+        "https://he.wikisource.org/wiki/משנה_נדרים_א_א"
+      ],
       "findings": [],
       "proposed_revision": "",
-      "reviewer": "",
-      "reviewed_at": ""
+      "reviewer": "Codex",
+      "reviewed_at": "2026-10-20",
+      "high_risk_first_pass": {
+        "queue": "https://github.com/dakulefsky/movo/issues/12",
+        "reviewer": "Codex",
+        "date": "2026-10-20",
+        "assessment": "Commentary gives talk/trade/proximity meanings and requires the eating/tasting completion for the stated eating prohibition; Rabbi Akiva is near to prohibition without lashes. Paragraph 2 says הנאה ממאכל, broader than the quoted eat/taste language; prefer אכילה וטעימה ממאכל to avoid unintended generalization.",
+        "evidence": [
+          {
+            "witness_id": "c-Nedarim-1.1",
+            "url": "https://he.wikisource.org/wiki/משנה_נדרים_א_א",
+            "sha256": "e64bc6891eecce415af331bf8299209dbd03e3a8dd677b3ce784b2ad52108901",
+            "quotation": " \"מופרש אני ממך שאיני אוכל לך ושאיני טועם לך\", \"מרוחק אני ממך שאיני אוכל ושאיני טועם לך\", ואז יהיה אסור לאכול לו או לטעום לו. אבל אם אמר לו מודר אני ממך בלבד, אינו אסור עליו לאכול אצלו, לפי שמשמעותו שלא ידבר עמו. וכמו כן מופרש אני ממך - משמעותו שלא ישא ויתן עמו. ומשמעות מרוחק אני ממך - שלא ישב עמו בארבע אמות קרקע. ולכך לא יהיה אסור מלאכול לו באומרו מאלה הדברים, עד שיאמר שאיני אוכל . ועניין אומרו: חוכך בזה להחמיר – שהוא היה קרוב לאסור, אבל לא היה פוסק לגמרי. ומי שאמר: \"מנודה אני לך, שאיני אוכל לך\", או \"שאיני טועם לך\", לרבי עקיבא – אסור לאכול לו או לטעום לו, ואם עבר – אינו חייב מלקות, לפי שהוא אינו פוסק לגמרי לאסור, אבל הוא קרוב לו. ו נדרי רשעים הוא שיאמר: \"כנדרי רשעים עלי אם אוכל לך\", ומפרש באומר שמשמעותם: \"הריני נזיר\", \"הרי עלי קר",
+            "quotation_format": "Hebrew combining marks removed; surrounding words preserved",
+            "edition": "Public web transcription; edition/manuscript lineage not independently authenticated",
+            "retrieved_at": "2026-10-20"
+          }
+        ],
+        "limits": "First reviewer only. Public-transcription comparison does not authenticate an original edition or satisfy independent adversarial review. Unchecked propositions remain pending."
+      }
     },
     {
       "claim_id": "a-yadot-kinuyim/rashaim/paragraph-1",
@@ -23516,6 +24392,1506 @@
       "Provide an authorized browser environment allowing file:// package tests.",
       "Review issue #12 high-risk queue and PR #13 operations against independent full-context texts.",
       "Complete all six gates for every claim; obtain independent adversarial review."
-    ]
+    ],
+    "high_risk_blocks_first_read": 31,
+    "high_risk_first_read_claim_units": 45,
+    "retrieval_notice": "Witness catalog records retrieval, not verification. Catalog entries with no quotation or only navigation content do not complete gate 2."
+  },
+  "external_witness_catalog": {
+    "z1-1": {
+      "url": "https://he.wikisource.org/wiki/משנה_זבחים_א_א",
+      "sha256": "5688f908d413bfb9b6d796e03a27a8fb669f252c5fb14f115aed0ac643b995e5",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 18456
+    },
+    "z2-1": {
+      "url": "https://he.wikisource.org/wiki/משנה_זבחים_ב_א",
+      "sha256": "c7541964e05c4b2644450816d4f67cf604cd09cd7a3b6c2f8e8676823847649a",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 26294
+    },
+    "z2-2": {
+      "url": "https://he.wikisource.org/wiki/משנה_זבחים_ב_ב",
+      "sha256": "359cc4109950c6b3c5b8690b600082f4a6b93b41e98d71bf556efdd39cbf7d41",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 7602
+    },
+    "z2-3": {
+      "url": "https://he.wikisource.org/wiki/משנה_זבחים_ב_ג",
+      "sha256": "29115e03c0abb02170dabd3b9306375eb2c6771d207769680359366a69e261bc",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 8602
+    },
+    "z5-1": {
+      "url": "https://he.wikisource.org/wiki/משנה_זבחים_ה_א",
+      "sha256": "d5a96a758adf163e95dc50661b77f91c65ab9489a447d84ad52c698008288140",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 13208
+    },
+    "z5-6": {
+      "url": "https://he.wikisource.org/wiki/משנה_זבחים_ה_ו",
+      "sha256": "fda2f1358aa077a6e33ee4643d6d6891cc9d92131aa0954414ba423c32b1a574",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 7310
+    },
+    "z3-1": {
+      "url": "https://he.wikisource.org/wiki/משנה_זבחים_ג_א",
+      "sha256": "467e13408333e8c3eef3481597f7140f5aa44d69f9cbced8199a32459dc545fe",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 11218
+    },
+    "z5-3": {
+      "url": "https://he.wikisource.org/wiki/משנה_זבחים_ה_ג",
+      "sha256": "3e7a6caaf434a39ad597769457a1c9ab13c3d7c1a4b8207360792af7481be704",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 13150
+    },
+    "z5-4": {
+      "url": "https://he.wikisource.org/wiki/משנה_זבחים_ה_ד",
+      "sha256": "43a8b2a526dc752fe419f2aaf3f1db8f41b8d8d803d37498db2d06521dd6500e",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 13039
+    },
+    "z5-5": {
+      "url": "https://he.wikisource.org/wiki/משנה_זבחים_ה_ה",
+      "sha256": "c01ac7799e8a6cc839106ac2ff7e68c1fd8ddf088789b5381176f776ed836c33",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 8770
+    },
+    "z5-7": {
+      "url": "https://he.wikisource.org/wiki/משנה_זבחים_ה_ז",
+      "sha256": "0f5f6e371d1e31159f001ba8b29f1de6cea9a70af87fb4c45de0ea05208120a8",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 6343
+    },
+    "z5-8": {
+      "url": "https://he.wikisource.org/wiki/משנה_זבחים_ה_ח",
+      "sha256": "5907bccc2c269531d5d1be06ca173b5c91b0fa4e8d70fcfac4e6100bef0f1ca2",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 12223
+    },
+    "m1-1": {
+      "url": "https://he.wikisource.org/wiki/משנה_מנחות_א_א",
+      "sha256": "f66585b8225c91918aa6d8fa70be51d837a214ffb0e9e442fa0aaf28f88bd594",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 19033
+    },
+    "m2-1": {
+      "url": "https://he.wikisource.org/wiki/משנה_מנחות_ב_א",
+      "sha256": "3ec23fa683ff1bb276fc6b0f1df54cc7f40ec1ada351cc09f6b18263c23bb55b",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 9040
+    },
+    "m5-1": {
+      "url": "https://he.wikisource.org/wiki/משנה_מנחות_ה_א",
+      "sha256": "ab5d251bf2f6da544b398d9a068e589b4b49f6449bc5f4de106fbbfa22db264e",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 7910
+    },
+    "m6-1": {
+      "url": "https://he.wikisource.org/wiki/משנה_מנחות_ו_א",
+      "sha256": "c7de83664a6c0637488497df4146bbc0d3022ce6a1981e1ef7c73f9d2d7f1ca8",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 6851
+    },
+    "mishnah5": {
+      "url": "https://he.wikisource.org/wiki/משנה_זבחים_ה",
+      "sha256": "b45569d799a06d9843ecce60768578fa90095b562cf7390531afa8a4fcd44b30",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 9105
+    },
+    "z6-4": {
+      "url": "https://he.wikisource.org/wiki/משנה_זבחים_ו_ד",
+      "sha256": "063a01566be8eae99c4fd2fa453fdd2c421dd05f48ac4febf50e2ea671278a82",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 10402
+    },
+    "z6-5": {
+      "url": "https://he.wikisource.org/wiki/משנה_זבחים_ו_ה",
+      "sha256": "13d00f5e25f0099ede7a409bff0fc97134a82dbe8875c37dee9715efadefa6ff",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 11671
+    },
+    "mishnah6": {
+      "url": "https://he.wikisource.org/wiki/משנה_זבחים_ו",
+      "sha256": "e019600f90a4d1bcdec6b7987770b14456e6f60e7b68494c5d282ca791fca010",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 10976
+    },
+    "keritot4": {
+      "url": "https://he.wikisource.org/wiki/משנה_כריתות_ד_א",
+      "sha256": "f0fb0915d0b2b07782a07934cf2edaec57081729fc8ab8a2b4b0c62f541fa682",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 10910
+    },
+    "bekhorot2": {
+      "url": "https://he.wikisource.org/wiki/משנה_בכורות_ב_א",
+      "sha256": "b129acb32ccf4ee201ee56551693fcc33fa2e6abe897eb4ae679a7455b90b4ec",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 5477
+    },
+    "maaser9": {
+      "url": "https://he.wikisource.org/wiki/משנה_בכורות_ט_ז",
+      "sha256": "9ae4e433ead169476af1db3a48b373ec9b8f55c64d6b9a330f2b7196e4d0a95f",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 11805
+    },
+    "maaser-mishnah": {
+      "url": "https://he.wikisource.org/wiki/משנה_בכורות_ט_ז",
+      "sha256": "9ae4e433ead169476af1db3a48b373ec9b8f55c64d6b9a330f2b7196e4d0a95f",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 11805
+    },
+    "bread7": {
+      "url": "https://he.wikisource.org/wiki/משנה_מנחות_ז_א",
+      "sha256": "90e89b14bf895cd2ad35f9f9394cc56686fbb93700862c22559b6a0ba50492e9",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 11072
+    },
+    "pesach5": {
+      "url": "https://he.wikisource.org/wiki/משנה_פסחים_ה_א",
+      "sha256": "f49a9e625b62a9238a999c095f9dc60b53ca9562d9f9f6ee1022bc33bead7bb8",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 7529
+    },
+    "t-kelim-1": {
+      "url": "https://he.wikisource.org/wiki/משנה_כלים_א_א",
+      "sha256": "6b0714550b582bbb6d9e4aa71097b08b168f34a39888ecbff6d3c9369fd277f2",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 19635
+    },
+    "t-kelim-2": {
+      "url": "https://he.wikisource.org/wiki/משנה_כלים_א_ב",
+      "sha256": "eb172d4ec30a2df92e04a035e6e17997c20ef72c11ac7978b2901eed814a156a",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 13396
+    },
+    "t-kelim-3": {
+      "url": "https://he.wikisource.org/wiki/משנה_כלים_א_ג",
+      "sha256": "42231caa45a4ad4d5b1d2774b1be9f1b544829600c69d8b0a2b782488147a045",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 36309
+    },
+    "t-kelim-4": {
+      "url": "https://he.wikisource.org/wiki/משנה_כלים_א_ד",
+      "sha256": "d206119c093d4010b0b9225632aab9c0ad142de0474fb1e0c976f536b5affdb7",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 17783
+    },
+    "t-hechsher": {
+      "url": "https://he.wikisource.org/wiki/משנה_מכשירין_א_א",
+      "sha256": "2460a10aa2cb9e3ee417d39f4ea070c536fad02597dff9c1d36d780ccb191e8a",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 6683
+    },
+    "t-mik-1-7": {
+      "url": "https://he.wikisource.org/wiki/משנה_מקואות_א_ז",
+      "sha256": "4ffcc3be1ce78eff4365d41b3ce0d65231ee809555a462449e463bc73df53d77",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 11273
+    },
+    "t-mik-1-8": {
+      "url": "https://he.wikisource.org/wiki/משנה_מקואות_א_ח",
+      "sha256": "f73e211cd2966a2c37d7d452d3bcd7d3b05926576c81a3a3b9edd3304dfd2d99",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 4928
+    },
+    "t-mik-9-1": {
+      "url": "https://he.wikisource.org/wiki/משנה_מקואות_ט_א",
+      "sha256": "364122900b19cea2dc2328ac27a3811eb2223a4942d3ad8baa26c75a73500276",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 4264
+    },
+    "a-kiddushin-1-1": {
+      "url": "https://he.wikisource.org/wiki/משנה_קידושין_א_א",
+      "sha256": "1cbac37772eebd7edd1076109c21e4ff2b60db51a3cdff810d990231bdcddfa0",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 29054
+    },
+    "a-kiddushin-2-1": {
+      "url": "https://he.wikisource.org/wiki/משנה_קידושין_ב_א",
+      "sha256": "4bb87267d69b4e58c1a741d1afbb5dd4e1270740247823e31a65c4a33f606585",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 14998
+    },
+    "a-kiddushin-3-12": {
+      "url": "https://he.wikisource.org/wiki/משנה_קידושין_ג_יב",
+      "sha256": "dae75ba766429730e39fd39cdd79d00c4cb50289b155c9fa89154917fc12141c",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 17199
+    },
+    "a-yevamot-1-1": {
+      "url": "https://he.wikisource.org/wiki/משנה_יבמות_א_א",
+      "sha256": "57707330f53dc2a8633f1f12848f7b6271a6d8252a2d676e6870bbd8af71a64a",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 30588
+    },
+    "a-yevamot-2-1": {
+      "url": "https://he.wikisource.org/wiki/משנה_יבמות_ב_א",
+      "sha256": "109eda44ab3a8d278d51d03a3e241dbceeb0696bec14f6a7951a9982665e20d2",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 6940
+    },
+    "a-yevamot-12-1": {
+      "url": "https://he.wikisource.org/wiki/משנה_יבמות_יב_א",
+      "sha256": "165fae6a1197eb76defa524630509dba27bff48828bd90ad832d8955e7d17ae0",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 8648
+    },
+    "a-yevamot-12-6": {
+      "url": "https://he.wikisource.org/wiki/משנה_יבמות_יב_ו",
+      "sha256": "e86957d1b84a841225cb911c10cf6b8c96b4cdf582fb67fee482a9f946defda4",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 9844
+    },
+    "a-terumot-1-1": {
+      "url": "https://he.wikisource.org/wiki/משנה_תרומות_א_א",
+      "sha256": "cb595006d6f10d648a324bb9aac81cf476f03d61b42241265702e5eb6d19b9d4",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 13731
+    },
+    "a-terumot-3-6": {
+      "url": "https://he.wikisource.org/wiki/משנה_תרומות_ג_ו",
+      "sha256": "4da9baf5ba73c97398ebf13e44d8ccd9cf631231d5d4f953ba5567d9e27d0517",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 5991
+    },
+    "a-terumot-4-3": {
+      "url": "https://he.wikisource.org/wiki/משנה_תרומות_ד_ג",
+      "sha256": "173b7e0fa940f0daedbf3d6b19290fe88db4954493f027863ef2972fb2134e27",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 9527
+    },
+    "a-maaser_sheni-1-1": {
+      "url": "https://he.wikisource.org/wiki/משנה_מעשר שני_א_א",
+      "sha256": "433c75655a38f3e09546931d4817cf877ee508f1227958245b47b583b250c663",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 8676
+    },
+    "a-maaser_sheni-2-1": {
+      "url": "https://he.wikisource.org/wiki/משנה_מעשר שני_ב_א",
+      "sha256": "b850d0cee72a612fecaabf87ebe8017813e01f9c142471b0b2c110d52c28aaa6",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 13630
+    },
+    "a-maaser_sheni-4-3": {
+      "url": "https://he.wikisource.org/wiki/משנה_מעשר שני_ד_ג",
+      "sha256": "85029c3ba281c20d60c27b3fd7c88f532ac616c8bd235b84fb785612a259eaaa",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 7903
+    },
+    "a-maaser_sheni-5-6": {
+      "url": "https://he.wikisource.org/wiki/משנה_מעשר שני_ה_ו",
+      "sha256": "1d0a6e35c554107ade83dd208a09a60f5210aedd29d2e887d38ac249b69dcd71",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 12145
+    },
+    "a-maaser_sheni-5-10": {
+      "url": "https://he.wikisource.org/wiki/משנה_מעשר שני_ה_י",
+      "sha256": "4069ed33e89c9dcf1f82803948e884b144388d62315dcdd50b6152cd072112aa",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 9665
+    },
+    "a-maasrot-1-1": {
+      "url": "https://he.wikisource.org/wiki/משנה_מעשרות_א_א",
+      "sha256": "269f4a3a339230aa26e5e448dfef94a8c9951eeeafd75bdd9ef3e64c8a9d4e86",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 12651
+    },
+    "a-maasrot-1-5": {
+      "url": "https://he.wikisource.org/wiki/משנה_מעשרות_א_ה",
+      "sha256": "1948142286c7e9712e51a38acbec94c001b557bbe41401ffa2b4798999ca9be5",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 14990
+    },
+    "a-challah-1-1": {
+      "url": "https://he.wikisource.org/wiki/משנה_חלה_א_א",
+      "sha256": "7650bc3ec4d60ca3a72ac132a65f528ccc5a82da61e0e750ab13e63644b7b993",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 15939
+    },
+    "a-challah-2-5": {
+      "url": "https://he.wikisource.org/wiki/משנה_חלה_ב_ה",
+      "sha256": "23878b2f758c8b03cf62c8b4298e29cef42b5e710cd3d1f93e6d40614350a628",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 8104
+    },
+    "a-challah-2-7": {
+      "url": "https://he.wikisource.org/wiki/משנה_חלה_ב_ז",
+      "sha256": "592fe648cbf5eea3a1e29229f8b7cf228985bb92ec378f25b29f3995e5b6926f",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 6871
+    },
+    "a-orlah-1-1": {
+      "url": "https://he.wikisource.org/wiki/משנה_ערלה_א_א",
+      "sha256": "e2c6902f66e5ccc84add2bc9db49b2e33fec1c2df41b223cc050c0967fbda7e5",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 6882
+    },
+    "a-orlah-3-9": {
+      "url": "https://he.wikisource.org/wiki/משנה_ערלה_ג_ט",
+      "sha256": "33aac0ad63b109f185b8d910d747cb4dbe2fe7a6f6f53a17e289f01440f16bbc",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 12379
+    },
+    "a-kilayim-1-7": {
+      "url": "https://he.wikisource.org/wiki/משנה_כלאים_א_ז",
+      "sha256": "851379123adc4501b8db6b508deba0caf9d9a0c495a40488f1f1f002f3a1aee9",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 6858
+    },
+    "a-kilayim-8-1": {
+      "url": "https://he.wikisource.org/wiki/משנה_כלאים_ח_א",
+      "sha256": "528ba4bf87d7f8413c74e3587005497e140e81dc75a713cb81d73c63d1db9726",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 10550
+    },
+    "a-sheviit-7-1": {
+      "url": "https://he.wikisource.org/wiki/משנה_שביעית_ז_א",
+      "sha256": "a0dde8c303e4c03a154731a5f373f17b5c75f3405919a747de2b4a8f7226d894",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 14217
+    },
+    "a-sheviit-8-1": {
+      "url": "https://he.wikisource.org/wiki/משנה_שביעית_ח_א",
+      "sha256": "1ab9498ee8d7447f6c58ed2bafc1a0901450451a894984faa17f0f5710ceb079",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 7969
+    },
+    "a-sheviit-10-1": {
+      "url": "https://he.wikisource.org/wiki/משנה_שביעית_י_א",
+      "sha256": "e310df0118c463ec50ba8b8ade981d6f3ef77d35681a5025c227369064c04890",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 9222
+    },
+    "am-terumot-1-1": {
+      "url": "https://he.wikisource.org/wiki/משנה_תרומות_א_א",
+      "sha256": "cb595006d6f10d648a324bb9aac81cf476f03d61b42241265702e5eb6d19b9d4",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 13731
+    },
+    "am-terumot-3-6": {
+      "url": "https://he.wikisource.org/wiki/משנה_תרומות_ג_ו",
+      "sha256": "4da9baf5ba73c97398ebf13e44d8ccd9cf631231d5d4f953ba5567d9e27d0517",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 5991
+    },
+    "am-terumot-4-3": {
+      "url": "https://he.wikisource.org/wiki/משנה_תרומות_ד_ג",
+      "sha256": "173b7e0fa940f0daedbf3d6b19290fe88db4954493f027863ef2972fb2134e27",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 9527
+    },
+    "am-kiddushin-1-1": {
+      "url": "https://he.wikisource.org/wiki/משנה_קידושין_א_א",
+      "sha256": "1cbac37772eebd7edd1076109c21e4ff2b60db51a3cdff810d990231bdcddfa0",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 29054
+    },
+    "am-kiddushin-3-12": {
+      "url": "https://he.wikisource.org/wiki/משנה_קידושין_ג_יב",
+      "sha256": "dae75ba766429730e39fd39cdd79d00c4cb50289b155c9fa89154917fc12141c",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 17199
+    },
+    "am-yevamot-12-6": {
+      "url": "https://he.wikisource.org/wiki/משנה_יבמות_יב_ו",
+      "sha256": "e86957d1b84a841225cb911c10cf6b8c96b4cdf582fb67fee482a9f946defda4",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 9844
+    },
+    "am-challah-1-1": {
+      "url": "https://he.wikisource.org/wiki/משנה_חלה_א_א",
+      "sha256": "7650bc3ec4d60ca3a72ac132a65f528ccc5a82da61e0e750ab13e63644b7b993",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 15939
+    },
+    "am-challah-2-5": {
+      "url": "https://he.wikisource.org/wiki/משנה_חלה_ב_ה",
+      "sha256": "23878b2f758c8b03cf62c8b4298e29cef42b5e710cd3d1f93e6d40614350a628",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 8104
+    },
+    "am-challah-2-6": {
+      "url": "https://he.wikisource.org/wiki/משנה_חלה_ב_ו",
+      "sha256": "78f38abe988e9eb570eec9638a36c4f40bb8d67baeff0dfe9e6b66b5fd416ae0",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 7758
+    },
+    "am-challah-2-7": {
+      "url": "https://he.wikisource.org/wiki/משנה_חלה_ב_ז",
+      "sha256": "592fe648cbf5eea3a1e29229f8b7cf228985bb92ec378f25b29f3995e5b6926f",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 6871
+    },
+    "am-kilayim-8-1": {
+      "url": "https://he.wikisource.org/wiki/משנה_כלאים_ח_א",
+      "sha256": "528ba4bf87d7f8413c74e3587005497e140e81dc75a713cb81d73c63d1db9726",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 10550
+    },
+    "am-sheviit-10-1": {
+      "url": "https://he.wikisource.org/wiki/משנה_שביעית_י_א",
+      "sha256": "e310df0118c463ec50ba8b8ade981d6f3ef77d35681a5025c227369064c04890",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 9222
+    },
+    "i-ket-5-2": {
+      "url": "https://he.wikisource.org/wiki/משנה_כתובות_ה_ב",
+      "sha256": "9c745bcbe54a52ce1289bc2b4d97c5f265de1c9cc16f6ab2db676ddd4cf18869",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 11442
+    },
+    "i-ket-4-7": {
+      "url": "https://he.wikisource.org/wiki/משנה_כתובות_ד_ז",
+      "sha256": "eaa061ec05a3f96bb619147f5962bb72321946b8aa70de6f3af07ee4fe687ff6",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 7402
+    },
+    "i-get-1-1": {
+      "url": "https://he.wikisource.org/wiki/משנה_גיטין_א_א",
+      "sha256": "5c5ed3b87182089f5d30f64d6c99fcee2f30907d1e86f651eb07242441d7f02c",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 24317
+    },
+    "i-get-8-1": {
+      "url": "https://he.wikisource.org/wiki/משנה_גיטין_ח_א",
+      "sha256": "7ca2770fcaa7a1ca42029f0df40201a2b75ac8f63e746c2d8cd34cd7b50158fb",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 7993
+    },
+    "i-get-9-3": {
+      "url": "https://he.wikisource.org/wiki/משנה_גיטין_ט_ג",
+      "sha256": "7af93d37d3b5dcd4226d2fbc50b6e3c9780d9ade7773c3d5fe69514c4942fc5c",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 12204
+    },
+    "av-z-1.4": {
+      "url": "https://he.wikisource.org/wiki/משנה_זבחים_א_ד",
+      "sha256": "a0ad5074fe0d2eeae87e13d448951cf9580bdc7a5e72aed3726247bfa45cf10f",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 10571
+    },
+    "av-mz-1.4": {
+      "url": "https://he.wikisource.org/wiki/משנה_זבחים_א_ד",
+      "sha256": "a0ad5074fe0d2eeae87e13d448951cf9580bdc7a5e72aed3726247bfa45cf10f",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 10571
+    },
+    "av-z-4.1": {
+      "url": "https://he.wikisource.org/wiki/משנה_זבחים_ד_א",
+      "sha256": "67d7584bd4ea0004b3312bbd80bcbbe869db85f555ebb8c7b1a42bdbed5e1eef",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 8831
+    },
+    "av-mz-4.1": {
+      "url": "https://he.wikisource.org/wiki/משנה_זבחים_ד_א",
+      "sha256": "67d7584bd4ea0004b3312bbd80bcbbe869db85f555ebb8c7b1a42bdbed5e1eef",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 8831
+    },
+    "av-z-4.2": {
+      "url": "https://he.wikisource.org/wiki/משנה_זבחים_ד_ב",
+      "sha256": "1fc5850991b7e036919af469d0bffae6a762c476e000fe97c9145dbc1a16f18b",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 6018
+    },
+    "av-mz-4.2": {
+      "url": "https://he.wikisource.org/wiki/משנה_זבחים_ד_ב",
+      "sha256": "1fc5850991b7e036919af469d0bffae6a762c476e000fe97c9145dbc1a16f18b",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 6018
+    },
+    "av-z-9.1": {
+      "url": "https://he.wikisource.org/wiki/משנה_זבחים_ט_א",
+      "sha256": "1c4ea4bcb176d8e05f9605e1f2f5e868dbe8123a67b56f4fd741cf7489d42049",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 10739
+    },
+    "av-mz-9.1": {
+      "url": "https://he.wikisource.org/wiki/משנה_זבחים_ט_א",
+      "sha256": "1c4ea4bcb176d8e05f9605e1f2f5e868dbe8123a67b56f4fd741cf7489d42049",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 10739
+    },
+    "av-m-9.7": {
+      "url": "https://he.wikisource.org/wiki/משנה_מנחות_ט_ז",
+      "sha256": "6f99c62fa4926a04a8ab3cf061dd43110ce14d3c7189f87715894d814051af68",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 8139
+    },
+    "av-mm-9.7": {
+      "url": "https://he.wikisource.org/wiki/משנה_מנחות_ט_ז",
+      "sha256": "6f99c62fa4926a04a8ab3cf061dd43110ce14d3c7189f87715894d814051af68",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 8139
+    },
+    "av-m-9.8": {
+      "url": "https://he.wikisource.org/wiki/משנה_מנחות_ט_ח",
+      "sha256": "c3335f10d5bcb4a7cc00e4acb9a79b11605aca346634e9ca64762ae270a73290",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 10530
+    },
+    "av-mm-9.8": {
+      "url": "https://he.wikisource.org/wiki/משנה_מנחות_ט_ח",
+      "sha256": "c3335f10d5bcb4a7cc00e4acb9a79b11605aca346634e9ca64762ae270a73290",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 10530
+    },
+    "av-m-9.9": {
+      "url": "https://he.wikisource.org/wiki/משנה_מנחות_ט_ט",
+      "sha256": "6c2198917f7592a1243349c2a6b4733b170c528783c1534368b32f065c31c946",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 5984
+    },
+    "av-mm-9.9": {
+      "url": "https://he.wikisource.org/wiki/משנה_מנחות_ט_ט",
+      "sha256": "6c2198917f7592a1243349c2a6b4733b170c528783c1534368b32f065c31c946",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 5984
+    },
+    "av-m-5.6": {
+      "url": "https://he.wikisource.org/wiki/משנה_מנחות_ה_ו",
+      "sha256": "089b5ffdf701e64409153b2e8c00b9455d0df2ba7c27b7172adee1b584b5731f",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 11769
+    },
+    "av-mm-5.6": {
+      "url": "https://he.wikisource.org/wiki/משנה_מנחות_ה_ו",
+      "sha256": "089b5ffdf701e64409153b2e8c00b9455d0df2ba7c27b7172adee1b584b5731f",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 11769
+    },
+    "av-m-5.7": {
+      "url": "https://he.wikisource.org/wiki/משנה_מנחות_ה_ז",
+      "sha256": "75c6469415839e7399a46016e0dc96ce2cfec71434b6bdd91501f8337ed23288",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 6659
+    },
+    "av-mm-5.7": {
+      "url": "https://he.wikisource.org/wiki/משנה_מנחות_ה_ז",
+      "sha256": "75c6469415839e7399a46016e0dc96ce2cfec71434b6bdd91501f8337ed23288",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 6659
+    },
+    "av-chullin": {
+      "url": "https://he.wikisource.org/wiki/משנה_חולין_ב_א",
+      "sha256": "5ad9f08307fc3a3d646d6fa2a2f2c235de73f246d5e6ca260cc1bbe7b19c12b2",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 9323
+    },
+    "n-Bava_Kamma-1.1": {
+      "url": "https://he.wikisource.org/wiki/משנה_בבא קמא_א_א",
+      "sha256": "50a5a9ffa828d06667d4e9072f1e4ceb4b3cef3de5f765630eaf436756a94dd3",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 22803
+    },
+    "n-m-Bava_Kamma-1.1": {
+      "url": "https://he.wikisource.org/wiki/משנה_בבא קמא_א_א",
+      "sha256": "50a5a9ffa828d06667d4e9072f1e4ceb4b3cef3de5f765630eaf436756a94dd3",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 22803
+    },
+    "n-Bava_Metzia-2.1": {
+      "url": "https://he.wikisource.org/wiki/משנה_בבא מציעא_ב_א",
+      "sha256": "32ecac3079495622a61747cdba364acbe30ba8fe2a33160b516d7540b29689fe",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 15404
+    },
+    "n-m-Bava_Metzia-2.1": {
+      "url": "https://he.wikisource.org/wiki/משנה_בבא מציעא_ב_א",
+      "sha256": "32ecac3079495622a61747cdba364acbe30ba8fe2a33160b516d7540b29689fe",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 15404
+    },
+    "n-Bava_Metzia-7.8": {
+      "url": "https://he.wikisource.org/wiki/משנה_בבא מציעא_ז_ח",
+      "sha256": "05c585dc2837d96257d5545deb83ff4da805c36dc7df960f13c75eefedf74519",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 8421
+    },
+    "n-m-Bava_Metzia-7.8": {
+      "url": "https://he.wikisource.org/wiki/משנה_בבא מציעא_ז_ח",
+      "sha256": "05c585dc2837d96257d5545deb83ff4da805c36dc7df960f13c75eefedf74519",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 8421
+    },
+    "n-Bava_Metzia-7.9": {
+      "url": "https://he.wikisource.org/wiki/משנה_בבא מציעא_ז_ט",
+      "sha256": "f91bd163c7b30e72cccf9be2a2c8517f60344f30d82092be90f56ba19d1f6255",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 5361
+    },
+    "n-m-Bava_Metzia-7.9": {
+      "url": "https://he.wikisource.org/wiki/משנה_בבא מציעא_ז_ט",
+      "sha256": "f91bd163c7b30e72cccf9be2a2c8517f60344f30d82092be90f56ba19d1f6255",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 5361
+    },
+    "n-Bava_Metzia-8.1": {
+      "url": "https://he.wikisource.org/wiki/משנה_בבא מציעא_ח_א",
+      "sha256": "36b5ddc2912813ce40fec5dbee4eddbd5001feb432cf76962b5a94f102b874b9",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 8728
+    },
+    "n-Bava_Metzia-4.1": {
+      "url": "https://he.wikisource.org/wiki/משנה_בבא מציעא_ד_א",
+      "sha256": "d69b2a454e0473e660fdbe1de23c7cad843a02e535ee7c85e6de6cb0a6658831",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 15089
+    },
+    "n-Kiddushin-1.5": {
+      "url": "https://he.wikisource.org/wiki/משנה_קידושין_א_ה",
+      "sha256": "ca7ac970f49931ce7039817e9b64555e9c6dce11de11d19c66002be25630f32f",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 18619
+    },
+    "n-m-Kiddushin-1.5": {
+      "url": "https://he.wikisource.org/wiki/משנה_קידושין_א_ה",
+      "sha256": "ca7ac970f49931ce7039817e9b64555e9c6dce11de11d19c66002be25630f32f",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 18619
+    },
+    "n-Sanhedrin-3.1": {
+      "url": "https://he.wikisource.org/wiki/משנה_סנהדרין_ג_א",
+      "sha256": "b03c215dc4871dfd9e99b0f433eddece6286800563420efe46e0891f205b0dc3",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 24118
+    },
+    "n-m-Sanhedrin-3.1": {
+      "url": "https://he.wikisource.org/wiki/משנה_סנהדרין_ג_א",
+      "sha256": "b03c215dc4871dfd9e99b0f433eddece6286800563420efe46e0891f205b0dc3",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 24118
+    },
+    "c-Bava_Batra-3.1": {
+      "url": "https://he.wikisource.org/wiki/משנה_בבא בתרא_ג_א",
+      "sha256": "67068bf0cc61e13e044edb7d18e596fbc729c2e25d84f425517797c47f768359",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 19434
+    },
+    "c-Bava_Metzia-5.1": {
+      "url": "https://he.wikisource.org/wiki/משנה_בבא מציעא_ה_א",
+      "sha256": "572c523429de81b60d095f0d844d6c80417801dff7f7bbd526e8eeacf31f1a9f",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 11860
+    },
+    "c-Bikkurim-1.1": {
+      "url": "https://he.wikisource.org/wiki/משנה_ביכורים_א_א",
+      "sha256": "61c8a85073824d1d61f0b6cb6bb250207ab3feb602c3318ebb2359b44a5be5e5",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 6783
+    },
+    "c-Bikkurim-3.1": {
+      "url": "https://he.wikisource.org/wiki/משנה_ביכורים_ג_א",
+      "sha256": "540d243a3574ac22d2e5c0fd2135c464a395e269a50fb0a804944f1c825579d2",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 6405
+    },
+    "c-Bikkurim-3.6": {
+      "url": "https://he.wikisource.org/wiki/משנה_ביכורים_ג_ו",
+      "sha256": "ac3125cfd2c493ff8a9a7b8828abb725fb7b6bb8b4a88d0f0b32d3e990a2cc5c",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 14401
+    },
+    "c-Chullin-1.1": {
+      "url": "https://he.wikisource.org/wiki/משנה_חולין_א_א",
+      "sha256": "3f8af22e720376a1a163c8e0bd0e2bc169ea6efe9550368759094f324b5bb3b1",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 23711
+    },
+    "c-Chullin-3.1": {
+      "url": "https://he.wikisource.org/wiki/משנה_חולין_ג_א",
+      "sha256": "6ce0e73b3fd3febe488f8e1dc26b1030f81cdf93bc4ebd722daf5b9055a2c48d",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 47295
+    },
+    "c-Chullin-8.1": {
+      "url": "https://he.wikisource.org/wiki/משנה_חולין_ח_א",
+      "sha256": "79442dc0f99213804cd99e254df1939ef94c34312ca8a75cc0ca749c361bccf6",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 16889
+    },
+    "c-Chullin-8.3": {
+      "url": "https://he.wikisource.org/wiki/משנה_חולין_ח_ג",
+      "sha256": "3ca377f4f6cda6dd47b056f21ec17dd2e783439e5e0fa6b1cdd379031070ce85",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 15105
+    },
+    "c-Chullin-8.4": {
+      "url": "https://he.wikisource.org/wiki/משנה_חולין_ח_ד",
+      "sha256": "9db808c75bee6af23034638a098fe625ded7ade6821ff2f6a3e3b209842cc5cb",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 10449
+    },
+    "c-Demai-1.1": {
+      "url": "https://he.wikisource.org/wiki/משנה_דמאי_א_א",
+      "sha256": "694faa9a3460ee3227f840c24a540794e83d04b7667525261b512cecfa77078b",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 21414
+    },
+    "c-Gittin-3.1": {
+      "url": "https://he.wikisource.org/wiki/משנה_גיטין_ג_א",
+      "sha256": "40043bcdf8b2b3d26b2b3e25c515c3f9c376309c4c0b35b07c900839741635b1",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 10722
+    },
+    "c-Gittin-9.4": {
+      "url": "https://he.wikisource.org/wiki/משנה_גיטין_ט_ד",
+      "sha256": "8fceed7babe70d4fa03af37377be3b902c12c0d08e3bac908225dcda40e74ec5",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 15364
+    },
+    "c-Meilah-1.1": {
+      "url": "https://he.wikisource.org/wiki/משנה_מעילה_א_א",
+      "sha256": "f3c4550d48d83ee6109124d735fdf2619b2bcc9f4724b6174c97af4b3f633be0",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 19986
+    },
+    "c-Menachot-9.6": {
+      "url": "https://he.wikisource.org/wiki/משנה_מנחות_ט_ו",
+      "sha256": "4997332d69dcd8a0256a4a3b430648e3764f27ca70009d3b223fc78847088462",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 6246
+    },
+    "c-Nedarim-1.1": {
+      "url": "https://he.wikisource.org/wiki/משנה_נדרים_א_א",
+      "sha256": "e64bc6891eecce415af331bf8299209dbd03e3a8dd677b3ce784b2ad52108901",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 30846
+    },
+    "c-Nedarim-10.1": {
+      "url": "https://he.wikisource.org/wiki/משנה_נדרים_י_א",
+      "sha256": "d3620165b5ce409c2d4fe6e7363e31aa4e7e4bf0127758a789d0e072337d94ae",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 13592
+    },
+    "c-Nedarim-2.2": {
+      "url": "https://he.wikisource.org/wiki/משנה_נדרים_ב_ב",
+      "sha256": "db2d3a8463d20e50c921ad05ed0524545b29797f706788bf942137e19f1e2899",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 17358
+    },
+    "c-Nedarim-9.1": {
+      "url": "https://he.wikisource.org/wiki/משנה_נדרים_ט_א",
+      "sha256": "9de874e49de3d2954d26dcf7d48d089a73448a2363e97607905c3ed57343315d",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 7554
+    },
+    "c-Peah-1.1": {
+      "url": "https://he.wikisource.org/wiki/משנה_פאה_א_א",
+      "sha256": "6d07c165231148d3547252b11ad1a0110f5dc7f8860dd3d872c5bbafe37486dd",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 36825
+    },
+    "c-Peah-1.2": {
+      "url": "https://he.wikisource.org/wiki/משנה_פאה_א_ב",
+      "sha256": "04b866841616b32f5206545b0e28e48b809cb72e10186cb52f7ee1cbae938510",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 9957
+    },
+    "c-Peah-4.10": {
+      "url": "https://he.wikisource.org/wiki/משנה_פאה_ד_י",
+      "sha256": "332a91a69884d3f4e761b8db90fb9a48a0bbdb6ed69e4ef5d3e0017afd7dd17e",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 8398
+    },
+    "c-Peah-6.6": {
+      "url": "https://he.wikisource.org/wiki/משנה_פאה_ו_ו",
+      "sha256": "b1133b1a0367ed36adb891c8503a34a485e31c477e3014dbdb930abe6fbf7ae1",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 8194
+    },
+    "c-Sheviit-10.3": {
+      "url": "https://he.wikisource.org/wiki/משנה_שביעית_י_ג",
+      "sha256": "6e91b29de32c6a664e7e4f1f146a523b967c69c02c25755a24ec6c2c810a1b19",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 19545
+    },
+    "c-Sheviit-10.4": {
+      "url": "https://he.wikisource.org/wiki/משנה_שביעית_י_ד",
+      "sha256": "fd8e27a471565938627491ef3069a164457b00cbf5c036fe37e0319008d906cd",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 7277
+    },
+    "c-Shevuot-3.1": {
+      "url": "https://he.wikisource.org/wiki/משנה_שבועות_ג_א",
+      "sha256": "4601827130dc2657cd76d3cb2f407faf4f1b4e2bbb70a902646d4677e3598c9f",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 13204
+    },
+    "c-Shevuot-6.1": {
+      "url": "https://he.wikisource.org/wiki/משנה_שבועות_ו_א",
+      "sha256": "52c0cdac1fb8bd25287b9958e5f70296f4b22c34c2c6ca4be74868a2c9ca0292",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 33278
+    },
+    "c-Tahorot-4.11": {
+      "url": "https://he.wikisource.org/wiki/משנה_טהרות_ד_יא",
+      "sha256": "df0904e0a24734c950fcb4c3d926e7312f374660079dc594d5b412bc85c144bc",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 11563
+    },
+    "c-Tahorot-4.7": {
+      "url": "https://he.wikisource.org/wiki/משנה_טהרות_ד_ז",
+      "sha256": "543675f1199fbd15244dad32df938853129c7283eed7526f8afcc96e7b703cd5",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 6936
+    },
+    "c-Temurah-1.1": {
+      "url": "https://he.wikisource.org/wiki/משנה_תמורה_א_א",
+      "sha256": "67e0cf81965873c0d072f18770a04dcfbc2e263f4a16441f9adbca0b7d47bd67",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 17443
+    },
+    "c-Yadayim-3.2": {
+      "url": "https://he.wikisource.org/wiki/משנה_ידים_ג_ב",
+      "sha256": "2c9bbc0e7f5d42be848b775b9ac95a035b5a4fa4caa461f5fd985ece359e08fd",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 12297
+    },
+    "c-m-Bava_Metzia-5.1": {
+      "url": "https://he.wikisource.org/wiki/משנה_בבא מציעא_ה_א",
+      "sha256": "572c523429de81b60d095f0d844d6c80417801dff7f7bbd526e8eeacf31f1a9f",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 11860
+    },
+    "c-m-Bikkurim-1.1": {
+      "url": "https://he.wikisource.org/wiki/משנה_ביכורים_א_א",
+      "sha256": "61c8a85073824d1d61f0b6cb6bb250207ab3feb602c3318ebb2359b44a5be5e5",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 6783
+    },
+    "c-m-Bikkurim-3.1": {
+      "url": "https://he.wikisource.org/wiki/משנה_ביכורים_ג_א",
+      "sha256": "540d243a3574ac22d2e5c0fd2135c464a395e269a50fb0a804944f1c825579d2",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 6405
+    },
+    "c-m-Bikkurim-3.6": {
+      "url": "https://he.wikisource.org/wiki/משנה_ביכורים_ג_ו",
+      "sha256": "ac3125cfd2c493ff8a9a7b8828abb725fb7b6bb8b4a88d0f0b32d3e990a2cc5c",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 14401
+    },
+    "c-m-Chullin-3.1": {
+      "url": "https://he.wikisource.org/wiki/משנה_חולין_ג_א",
+      "sha256": "6ce0e73b3fd3febe488f8e1dc26b1030f81cdf93bc4ebd722daf5b9055a2c48d",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 47295
+    },
+    "c-m-Chullin-8.1": {
+      "url": "https://he.wikisource.org/wiki/משנה_חולין_ח_א",
+      "sha256": "79442dc0f99213804cd99e254df1939ef94c34312ca8a75cc0ca749c361bccf6",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 16889
+    },
+    "c-m-Chullin-8.3": {
+      "url": "https://he.wikisource.org/wiki/משנה_חולין_ח_ג",
+      "sha256": "3ca377f4f6cda6dd47b056f21ec17dd2e783439e5e0fa6b1cdd379031070ce85",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 15105
+    },
+    "c-m-Chullin-8.4": {
+      "url": "https://he.wikisource.org/wiki/משנה_חולין_ח_ד",
+      "sha256": "9db808c75bee6af23034638a098fe625ded7ade6821ff2f6a3e3b209842cc5cb",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 10449
+    },
+    "c-m-Gittin-3.1": {
+      "url": "https://he.wikisource.org/wiki/משנה_גיטין_ג_א",
+      "sha256": "40043bcdf8b2b3d26b2b3e25c515c3f9c376309c4c0b35b07c900839741635b1",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 10722
+    },
+    "c-m-Gittin-9.4": {
+      "url": "https://he.wikisource.org/wiki/משנה_גיטין_ט_ד",
+      "sha256": "8fceed7babe70d4fa03af37377be3b902c12c0d08e3bac908225dcda40e74ec5",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 15364
+    },
+    "c-m-Meilah-1.1": {
+      "url": "https://he.wikisource.org/wiki/משנה_מעילה_א_א",
+      "sha256": "f3c4550d48d83ee6109124d735fdf2619b2bcc9f4724b6174c97af4b3f633be0",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 19986
+    },
+    "c-m-Menachot-9.6": {
+      "url": "https://he.wikisource.org/wiki/משנה_מנחות_ט_ו",
+      "sha256": "4997332d69dcd8a0256a4a3b430648e3764f27ca70009d3b223fc78847088462",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 6246
+    },
+    "c-m-Nedarim-10.1": {
+      "url": "https://he.wikisource.org/wiki/משנה_נדרים_י_א",
+      "sha256": "d3620165b5ce409c2d4fe6e7363e31aa4e7e4bf0127758a789d0e072337d94ae",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 13592
+    },
+    "c-m-Peah-1.2": {
+      "url": "https://he.wikisource.org/wiki/משנה_פאה_א_ב",
+      "sha256": "04b866841616b32f5206545b0e28e48b809cb72e10186cb52f7ee1cbae938510",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 9957
+    },
+    "c-m-Peah-4.10": {
+      "url": "https://he.wikisource.org/wiki/משנה_פאה_ד_י",
+      "sha256": "332a91a69884d3f4e761b8db90fb9a48a0bbdb6ed69e4ef5d3e0017afd7dd17e",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 8398
+    },
+    "c-m-Peah-5.7": {
+      "url": "https://he.wikisource.org/wiki/משנה_פאה_ה_ז",
+      "sha256": "d1b1780867e621dceb24bf05f3b40cf848af0019ea10593de838a8112e58f024",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 4820
+    },
+    "c-m-Peah-6.6": {
+      "url": "https://he.wikisource.org/wiki/משנה_פאה_ו_ו",
+      "sha256": "b1133b1a0367ed36adb891c8503a34a485e31c477e3014dbdb930abe6fbf7ae1",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 8194
+    },
+    "c-m-Sheviit-10.3": {
+      "url": "https://he.wikisource.org/wiki/משנה_שביעית_י_ג",
+      "sha256": "6e91b29de32c6a664e7e4f1f146a523b967c69c02c25755a24ec6c2c810a1b19",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 19545
+    },
+    "c-m-Sheviit-10.4": {
+      "url": "https://he.wikisource.org/wiki/משנה_שביעית_י_ד",
+      "sha256": "fd8e27a471565938627491ef3069a164457b00cbf5c036fe37e0319008d906cd",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 7277
+    },
+    "c-m-Shevuot-3.1": {
+      "url": "https://he.wikisource.org/wiki/משנה_שבועות_ג_א",
+      "sha256": "4601827130dc2657cd76d3cb2f407faf4f1b4e2bbb70a902646d4677e3598c9f",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 13204
+    },
+    "c-m-Shevuot-6.1": {
+      "url": "https://he.wikisource.org/wiki/משנה_שבועות_ו_א",
+      "sha256": "52c0cdac1fb8bd25287b9958e5f70296f4b22c34c2c6ca4be74868a2c9ca0292",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 33278
+    },
+    "c-m-Tahorot-4.7": {
+      "url": "https://he.wikisource.org/wiki/משנה_טהרות_ד_ז",
+      "sha256": "543675f1199fbd15244dad32df938853129c7283eed7526f8afcc96e7b703cd5",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 6936
+    },
+    "c-m-Temurah-1.1": {
+      "url": "https://he.wikisource.org/wiki/משנה_תמורה_א_א",
+      "sha256": "67e0cf81965873c0d072f18770a04dcfbc2e263f4a16441f9adbca0b7d47bd67",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 17443
+    },
+    "audit-m-sheviit-7-1": {
+      "url": "https://he.wikisource.org/wiki/משנה_שביעית_ז_א",
+      "sha256": "a0dde8c303e4c03a154731a5f373f17b5c75f3405919a747de2b4a8f7226d894",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 14217
+    },
+    "mt-mikvaot-1-3": {
+      "url": "https://mechon-mamre.org/i/a801.htm",
+      "sha256": "87a56c2f98a9f4efe82f38403d21b47632c0ba23bb7643303f2fbf4bd5ccc55f",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 3818
+    },
+    "mt-sheelah-6-1": {
+      "url": "https://mechon-mamre.org/i/d206.htm",
+      "sha256": "1596ddabf345eeb29064306dfe2135c2167f134c09b55584d21809bcd1f6e978",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 3557
+    },
+    "mt-pesulei-14-3": {
+      "url": "https://mechon-mamre.org/i/8714.htm",
+      "sha256": "71a8f124eff57297408f157d061949d33ed22bd768b4c400cc66759015be9cc8",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 4683
+    },
+    "mt-nedarim-1-16": {
+      "url": "https://mechon-mamre.org/i/6201.htm",
+      "sha256": "1eb11a68554539d1e6e9a57c55fbc3ce86461fa11efbf99de646bab1bef205dd",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 6957
+    },
+    "mt-kelim-8-1": {
+      "url": "https://mechon-mamre.org/i/a708.htm",
+      "sha256": "de13552859190829657d932bf4ca38b7861b8bf2b36437b18736f7372ed04663",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 4264
+    },
+    "mt-pesulei-4-22": {
+      "url": "https://mechon-mamre.org/i/8704.htm",
+      "sha256": "83362edf669ad302fd8c7fa9f9f5f3293ca0701db305db52f1ca2f058868276f",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 5732
+    },
+    "mt-gerushin-1-13-18": {
+      "url": "https://mechon-mamre.org/i/4201.htm",
+      "sha256": "69f5b1a40d7589f798ac8ebfdf5dce895c3e46c850f08d2d77a5f453e252fd37",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 7714
+    },
+    "mt-toen-1-4-5": {
+      "url": "https://mechon-mamre.org/i/d401.htm",
+      "sha256": "53d275f831d0525fab94a0d498cc05795b595aef84cf1c5e43b88a086b9c45f9",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 6093
+    },
+    "mt-malveh-11-4": {
+      "url": "https://mechon-mamre.org/i/d311.htm",
+      "sha256": "e70e358d7aadf132469192b8e2e9312a2dd3f796d978b67894ebb0df95d541b6",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 4489
+    },
+    "mt-chovel-1-12": {
+      "url": "https://mechon-mamre.org/i/b401.htm",
+      "sha256": "0ce58dd0e446a6dd1ca2395d627b139dba62708a081760032a0f2e5c69800770",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 4619
+    },
+    "mt-shechitah-4-12": {
+      "url": "https://mechon-mamre.org/i/5304.htm",
+      "sha256": "6587d67b4dc16ac742e7b0224c3a333ec6c8de010ea167c013da0b2d586bdd27",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 3841
+    },
+    "mt-sanhedrin-authority": {
+      "url": "https://mechon-mamre.org/i/e104.htm",
+      "sha256": "1ed391e3ac09e253730b45232b7f7dbb1a380e6ba0a7798b0f282e033685db45",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 4312
+    },
+    "review-shomrim": {
+      "url": "https://he.wikisource.org/wiki/משנה_שבועות_ח_א",
+      "sha256": "635f035aae925b4c6821bffb95334d769fc7b396a242e7b779ba246eafdec39c",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 5910
+    },
+    "review-zavim": {
+      "url": "https://he.wikisource.org/wiki/משנה_זבים_א_א",
+      "sha256": "f1ddaf5e7b62e50a72d7beb7c40a4009b229611778e6af944690d2511b2a96b9",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 13737
+    },
+    "review-nissuin-m": {
+      "url": "https://he.wikisource.org/wiki/משנה_כתובות_ד_ד",
+      "sha256": "ac2e7e5e31c45ec60e5be85f4b0e06bed38008b195f233551ebad14a520cb130",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 15499
+    },
+    "p-Bava_Batra-1.1": {
+      "url": "https://he.wikisource.org/wiki/משנה_בבא בתרא_א_א",
+      "sha256": "8df9f9bf4101e41acc276a11fb4acd6e878727b932be06e136c12e1244313560",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 21271
+    },
+    "p-Bava_Batra-2.1": {
+      "url": "https://he.wikisource.org/wiki/משנה_בבא בתרא_ב_א",
+      "sha256": "5f6a5178ddbfc3610b9bdcdfe2d380dfd6b96b0bcd43d39c53353ba299687e2b",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 20574
+    },
+    "p-Bava_Batra-8.1": {
+      "url": "https://he.wikisource.org/wiki/משנה_בבא בתרא_ח_א",
+      "sha256": "a22ecf15deb0ae4de099fc5283eeade70440fed6f5ec60ffc21b0861b58ce913",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 20392
+    },
+    "p-Bava_Batra-8.2": {
+      "url": "https://he.wikisource.org/wiki/משנה_בבא בתרא_ח_ב",
+      "sha256": "8774288bcf1615a266f794afd3617a8d09bb881d4c06e80d77bdc382f65b707c",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 10206
+    },
+    "p-Bava_Kamma-7.1": {
+      "url": "https://he.wikisource.org/wiki/משנה_בבא קמא_ז_א",
+      "sha256": "3b4fc0edebd54b4e8ab26f85b5720b8e930e092ffe64eb7a52db91dc7a1e4649",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 9487
+    },
+    "p-Bava_Kamma-9.1": {
+      "url": "https://he.wikisource.org/wiki/משנה_בבא קמא_ט_א",
+      "sha256": "ba68dac7b0e368689efb004d638dd4d0692196bc7fdb767c6651860830855f82",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 17799
+    },
+    "p-Bava_Kamma-9.2": {
+      "url": "https://he.wikisource.org/wiki/משנה_בבא קמא_ט_ב",
+      "sha256": "60587fe6ce58bbb9011c3e3fe1176bfb6f40bc6039800850918eb4beb5688c9d",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 12572
+    },
+    "p-Bava_Metzia-4.3": {
+      "url": "https://he.wikisource.org/wiki/משנה_בבא מציעא_ד_ג",
+      "sha256": "85270d6c78bd2b38c34bee32d64a34c12f4c8fce48e5cbe9eec2efa16307ce1a",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 8105
+    },
+    "p-Bava_Metzia-4.4": {
+      "url": "https://he.wikisource.org/wiki/משנה_בבא מציעא_ד_ד",
+      "sha256": "eeb47ebf9b92eb5d8c69fbb2fc8a4bd633f4b7379f36a3cfe77328d466fcdd1f",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 5857
+    },
+    "p-m-Bava_Batra-1.1": {
+      "url": "https://he.wikisource.org/wiki/משנה_בבא בתרא_א_א",
+      "sha256": "8df9f9bf4101e41acc276a11fb4acd6e878727b932be06e136c12e1244313560",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 21271
+    },
+    "p-m-Bava_Batra-2.1": {
+      "url": "https://he.wikisource.org/wiki/משנה_בבא בתרא_ב_א",
+      "sha256": "5f6a5178ddbfc3610b9bdcdfe2d380dfd6b96b0bcd43d39c53353ba299687e2b",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 20574
+    },
+    "p-m-Bava_Batra-8.1": {
+      "url": "https://he.wikisource.org/wiki/משנה_בבא בתרא_ח_א",
+      "sha256": "a22ecf15deb0ae4de099fc5283eeade70440fed6f5ec60ffc21b0861b58ce913",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 20392
+    },
+    "p-m-Bava_Batra-8.2": {
+      "url": "https://he.wikisource.org/wiki/משנה_בבא בתרא_ח_ב",
+      "sha256": "8774288bcf1615a266f794afd3617a8d09bb881d4c06e80d77bdc382f65b707c",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 10206
+    },
+    "p-m-Bava_Kamma-7.1": {
+      "url": "https://he.wikisource.org/wiki/משנה_בבא קמא_ז_א",
+      "sha256": "3b4fc0edebd54b4e8ab26f85b5720b8e930e092ffe64eb7a52db91dc7a1e4649",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 9487
+    },
+    "p-m-Bava_Kamma-9.1": {
+      "url": "https://he.wikisource.org/wiki/משנה_בבא קמא_ט_א",
+      "sha256": "ba68dac7b0e368689efb004d638dd4d0692196bc7fdb767c6651860830855f82",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 17799
+    },
+    "p-m-Bava_Kamma-9.2": {
+      "url": "https://he.wikisource.org/wiki/משנה_בבא קמא_ט_ב",
+      "sha256": "60587fe6ce58bbb9011c3e3fe1176bfb6f40bc6039800850918eb4beb5688c9d",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 12572
+    },
+    "p-m-Bava_Metzia-4.4": {
+      "url": "https://he.wikisource.org/wiki/משנה_בבא מציעא_ד_ד",
+      "sha256": "eeb47ebf9b92eb5d8c69fbb2fc8a4bd633f4b7379f36a3cfe77328d466fcdd1f",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 5857
+    },
+    "q-Bava_Kamma-8.1": {
+      "url": "https://he.wikisource.org/wiki/משנה_בבא קמא_ח_א",
+      "sha256": "6c9533633ef7569f3e4204c2e517b57d11d05239846837401892b09eb03c388f",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 31920
+    },
+    "q-m-Bava_Kamma-8.1": {
+      "url": "https://he.wikisource.org/wiki/משנה_בבא קמא_ח_א",
+      "sha256": "6c9533633ef7569f3e4204c2e517b57d11d05239846837401892b09eb03c388f",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 31920
+    },
+    "q-Sanhedrin-3.6": {
+      "url": "https://he.wikisource.org/wiki/משנה_סנהדרין_ג_ו",
+      "sha256": "b3b8c5088abffdd66de2ed7179a6fb04724dbf7ab7cf7b04552ec25fd35e07ff",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 13106
+    },
+    "q-m-Sanhedrin-3.6": {
+      "url": "https://he.wikisource.org/wiki/משנה_סנהדרין_ג_ו",
+      "sha256": "b3b8c5088abffdd66de2ed7179a6fb04724dbf7ab7cf7b04552ec25fd35e07ff",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 13106
+    },
+    "v-Niddah-4.7": {
+      "url": "https://he.wikisource.org/wiki/משנה_נדה_ד_ז",
+      "status": "retrieval_failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "v-Oholot-3.1": {
+      "url": "https://he.wikisource.org/wiki/משנה_אהלות_ג_א",
+      "sha256": "353267182c7d5274c827d1adf6cccfbdd89299ae2d3cafd3dd6f4ed583c5d19d",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 19146
+    },
+    "v-Oholot-3.7": {
+      "url": "https://he.wikisource.org/wiki/משנה_אהלות_ג_ז",
+      "sha256": "912078c48a40c4a4db84270c54517b09fa41f2998528ccad31bf5b8ce98b44ed",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 24283
+    },
+    "v-Sheviit-9.2": {
+      "url": "https://he.wikisource.org/wiki/משנה_שביעית_ט_ב",
+      "sha256": "94cc2832018592e9efb6bc8f2e5ade9b1fb611c916636a21db3651ab9a6ca7dd",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 13469
+    },
+    "v-m-Oholot-3.7": {
+      "url": "https://he.wikisource.org/wiki/משנה_אהלות_ג_ז",
+      "sha256": "912078c48a40c4a4db84270c54517b09fa41f2998528ccad31bf5b8ce98b44ed",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 24283
+    },
+    "v-m-Sheviit-9.2": {
+      "url": "https://he.wikisource.org/wiki/משנה_שביעית_ט_ב",
+      "sha256": "94cc2832018592e9efb6bc8f2e5ade9b1fb611c916636a21db3651ab9a6ca7dd",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed",
+      "characters": 13469
+    },
+    "food-12": {
+      "url": "https://mechon-mamre.org/i/a612.htm",
+      "sha256": "49711ff539e6c57d40167f88a9576b5e08f3e3a9d69e9e37bd36091d718a98af",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed"
+    },
+    "kelim-12": {
+      "url": "https://mechon-mamre.org/i/a712.htm",
+      "sha256": "3533f696e66a58d59d582d55e1c55cdfa3bebcd553cbb782f4310a4e7ef2d026",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed"
+    },
+    "bava-metzia-22b": {
+      "url": "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב",
+      "sha256": "54923107d22aef1d87a790011b190f55e112a38d218c8a4b479d088dc5d95e2e",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed"
+    },
+    "niddah-4-7": {
+      "url": "https://he.wikisource.org/wiki/משנה_נידה_ד_ז",
+      "sha256": "d0abe284696477d71787feb2976fa604b33247d7726d19d03dad50fe5950213e",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed"
+    },
+    "meiri-ketubot-intro": {
+      "url": "https://he.wikisource.org/wiki/מאירי_על_הש%22ס/כתובות/הקדמה",
+      "sha256": "601bb428ffaeb4d609c23f1335a15e0d0720485be6b5adcb884f9d5ae07fdc69",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed"
+    },
+    "intro-kodashim": {
+      "url": "https://he.wikisource.org/wiki/הקדמת_הרמב%22ם_לסדר_קדשים",
+      "sha256": "5c84e4a03776f16a08ffae86afa6a446cf6c1e866dbf9b964415035af4559986",
+      "retrieved_at": "2026-10-20",
+      "status": "retrieved_not_reviewed"
+    },
+    "intro-tahorot": {
+      "url": "https://he.wikisource.org/wiki/הקדמת_הרמב%22ם_לסדר_טהרות",
+      "status": "retrieval_failed",
+      "error": "HTTP Error 404: Not Found"
+    }
   }
 }
