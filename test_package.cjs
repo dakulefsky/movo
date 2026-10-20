@@ -2,8 +2,8 @@ const assert=require('node:assert/strict'),path=require('node:path'),fs=require(
 let pw;try{pw=require('playwright')}catch{pw=require(process.env.CODEX_PRIMARY_RUNTIME_NODE_MODULES+'/playwright')}
 (async()=>{
 const root=__dirname,unpacked=path.join(root,'test-unpacked');fs.rmSync(unpacked,{recursive:true,force:true});fs.mkdirSync(unpacked);
-execFileSync('python',['-c',`import zipfile;zipfile.ZipFile(${JSON.stringify(path.join(root,'dist/Mevoot-Shas-0.13.4.otzplugin'))}).extractall(${JSON.stringify(unpacked)})`]);
-const manifest=JSON.parse(fs.readFileSync(path.join(unpacked,'manifest.json')));assert.equal(manifest.author,'DanTheMan');assert.equal(manifest.version,'0.13.4');assert.equal(manifest.network.enabled,false);
+execFileSync('python',['-c',`import zipfile;zipfile.ZipFile(${JSON.stringify(path.join(root,'dist/Mevoot-Shas-0.13.5.otzplugin'))}).extractall(${JSON.stringify(unpacked)})`]);
+const manifest=JSON.parse(fs.readFileSync(path.join(unpacked,'manifest.json')));assert.equal(manifest.author,'DanTheMan');assert.equal(manifest.version,'0.13.5');assert.equal(manifest.network.enabled,false);
 const browser=await pw.chromium.launch({headless:true,...(process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE?{executablePath:process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE}:{}),args:['--no-sandbox']}),page=await browser.newPage();const errors=[],remote=[];
 try{
 page.on('pageerror',e=>errors.push(e.message));page.on('request',r=>{if(/^https?:/.test(r.url()))remote.push(r.url())});
@@ -229,6 +229,31 @@ assert.match(entry('t-ranks','rabbinic').paragraphs.join(' '),/טהור לתרו
 assert.match(entry('a-taam','distinction').paragraphs.join(' '),/אלא ביאור דרך הבדיקה/);
 assert.ok(entry('d-shomer-ones','roles').paragraphs.join(' ').includes('ארבעה שומרים'),
  'Four-guardian introduction must remain distinct from Baalav Imo source discussion');
-assert.deepEqual(errors,[]);assert.deepEqual(remote,[]);console.log('PASS: actual unpacked 0.13.4 package; home search, voluntary resume, continuous reading; all 98 entries and 317 block controls in six areas; new avodot source dialogs and reciprocal offering links; cross-area deep-link search and exact source dialogs; Hebrew search, back/reload/pager, SDK success and failure paths, mobile+desktop no overflow, font persistence. No network requests, JS errors or screenshots.');
+// 0.13.5 — sixth independent audit, exact evidence for 16 revised blocks.
+const audit6=JSON.parse(fs.readFileSync(path.join(root,'SOURCE-REVIEW-0.13.5.json'),'utf8'));
+assert.equal(audit6.version,'0.13.5');assert.equal(audit6.checks.length,20);
+const audit6Blocks=new Set();
+for(const check of audit6.checks){
+ const [entryId,blockId]=check.blockId.split('/');
+ const block=entry(entryId,blockId);
+ assert.ok(block,'Sixth audit block missing: '+check.blockId);
+ assert.ok(block.refs.some(r=>r.source===check.sourceId&&r.segments.includes(check.segment)),
+  'Sixth audit source reference missing: '+check.blockId+' / '+check.sourceId);
+ const source=d.sources[check.sourceId];
+ assert.ok(source,'Sixth audit unbundled primary source: '+check.sourceId);
+ assert.equal(source.filename,check.filename,'Sixth audit source identity changed: '+check.sourceId);
+ assert.ok(normalizeSource(source.segments[check.segment-1]?.text||'').includes(normalizeSource(check.sourceQuote)),
+  'Sixth audit primary-source quotation not found: '+check.blockId+' '+check.sourceId);
+ assert.ok(normalizeSource(block.paragraphs.join(' ')).includes(normalizeSource(check.explanationQuote)),
+  'Sixth audit missing explanatory distinction: '+check.blockId);
+ audit6Blocks.add(check.blockId);
+}
+assert.equal(audit6Blocks.size,16);
+assert.equal(entry('i-yuchasin','limits').title,'עריות וחריגים בכללי הייחוס');
+assert.ok(entry('i-yuchasin','limits').paragraphs.join(' ').includes('הוולד שלישי והולך אחר הזכר'));
+assert.ok(!entry('i-yuchasin','limits').paragraphs.join(' ').includes('הוולד הולך אחר האם'));
+assert.match(entry('d-shevuot','hesset').paragraphs[0],/שלושים יום/);
+assert.match(entry('d-dayanim','acceptance').paragraphs[0],/פרטים ומחלוקות/);
+assert.deepEqual(errors,[]);assert.deepEqual(remote,[]);console.log('PASS: actual unpacked 0.13.5 package; home search, voluntary resume, continuous reading; all 98 entries and 317 block controls in six areas; new avodot source dialogs and reciprocal offering links; cross-area deep-link search and exact source dialogs; Hebrew search, back/reload/pager, SDK success and failure paths, mobile+desktop no overflow, font persistence. No network requests, JS errors or screenshots.');
 }finally{await browser.close()}
 })().catch(e=>{console.error(e);process.exit(1)});

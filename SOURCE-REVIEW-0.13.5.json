@@ -1,0 +1,166 @@
+{
+  "version": "0.13.5",
+  "scope": "Sixth independently reported Gemini audit checked against the 0.13.4 released corpus. Sixteen explanation blocks and twenty paired quotations. Egyptian second-generation paternal lineage and complex judicial-error rules preserved. Exact quotes are evidence of source traceability, not rabbinic certification.",
+  "checks": [
+    {
+      "blockId": "i-yuchasin/limits",
+      "sourceId": "a-kiddushin-3-12",
+      "filename": "area-kiddushin-3-12.json",
+      "segment": 1,
+      "sourceQuote": "גר שנשא ממזרת שיש קדושין ואין עבירה",
+      "explanationQuote": "גר שנשא ממזרת"
+    },
+    {
+      "blockId": "i-yuchasin/limits",
+      "sourceId": "a-kiddushin-3-12",
+      "filename": "area-kiddushin-3-12.json",
+      "segment": 1,
+      "sourceQuote": "מצרי שני שנשא מצרית ראשונה הולד שלישי",
+      "explanationQuote": "הוולד שלישי והולך אחר הזכר"
+    },
+    {
+      "blockId": "i-kiddushin/meaning",
+      "sourceId": "a-kiddushin-1-1",
+      "filename": "area-kiddushin-1-1.json",
+      "segment": 1,
+      "sourceQuote": "אבל אם קדשה בעל כרחה אינה מקודשת",
+      "explanationQuote": "אם קידשה בעל כורחה, אינה מקודשת"
+    },
+    {
+      "blockId": "i-kiddushin/meaning",
+      "sourceId": "a-kiddushin-1-1",
+      "filename": "area-kiddushin-1-1.json",
+      "segment": 1,
+      "sourceQuote": "האונס יבמתו ובא עליה בלא כוונה שקנאה",
+      "explanationQuote": "אפילו בא עליה היבם באונס ובלא כוונת קניין"
+    },
+    {
+      "blockId": "t-yadayim/distinction",
+      "sourceId": "c-Yadayim-3.2",
+      "filename": "next-Rambam_on_Mishnah_Yadayim.3.2.json",
+      "segment": 1,
+      "sourceQuote": "אין למדין דברי סופרים מדברי סופרים",
+      "explanationQuote": "אין למדין דברי סופרים מדברי סופרים"
+    },
+    {
+      "blockId": "i-nissuin/time",
+      "sourceId": "i-ket-5-2",
+      "filename": "Rambam_on_Mishnah_Ketubot.5.2.json",
+      "segment": 1,
+      "sourceQuote": "מחצה חולין ומחצה תרומה",
+      "explanationQuote": "מחצה חולין ומחצה תרומה"
+    },
+    {
+      "blockId": "i-nissuin/time",
+      "sourceId": "i-ket-5-2",
+      "filename": "Rambam_on_Mishnah_Ketubot.5.2.json",
+      "segment": 1,
+      "sourceQuote": "אינה אוכלת בתרומה עד שתכנס לחופה",
+      "explanationQuote": "אינה אוכלת בתרומה עד שתיכנס לחופה"
+    },
+    {
+      "blockId": "i-gerushin/delivery",
+      "sourceId": "i-get-8-1",
+      "filename": "sefaria-foundation-rambam-gittin-8-1.json",
+      "segment": 1,
+      "sourceQuote": "אין הבעל מקפיד לו על מקום חיקה ולא על מקום קלתה",
+      "explanationQuote": "אין הבעל מקפיד על מקום חיקה ועל מקום קלתה"
+    },
+    {
+      "blockId": "z-maaser-sheni/fifth",
+      "sourceId": "a-maaser_sheni-4-3",
+      "filename": "area-maaser_sheni-4-3.json",
+      "segment": 1,
+      "sourceQuote": "מעשר שני ממון גבוה הוא",
+      "explanationQuote": "מעשר שני הוא ״ממון גבוה״"
+    },
+    {
+      "blockId": "z-peah/meaning",
+      "sourceId": "c-Peah-1.2",
+      "filename": "next-Rambam_on_Mishnah_Peah.1.2.json",
+      "segment": 1,
+      "sourceQuote": "הסברא היוצא משלש אלה הדרכים",
+      "explanationQuote": "רוב הענווה"
+    },
+    {
+      "blockId": "z-maaser-ani/biur",
+      "sourceId": "a-maaser_sheni-5-6",
+      "filename": "area-maaser_sheni-5-6.json",
+      "segment": 1,
+      "sourceQuote": "ואם היה אצלו תבשיל ממעשר שני",
+      "explanationQuote": "תבשיל העשוי ממעשר שני"
+    },
+    {
+      "blockId": "t-safek/distinction",
+      "sourceId": "c-Tahorot-4.11",
+      "filename": "next-Rambam_on_Mishnah_Tahorot.4.11.json",
+      "segment": 1,
+      "sourceQuote": "אין שורפים עליו את התרומה לפי שהוא ספק ספיקא",
+      "explanationQuote": "ואין שורפים עליו את התרומה"
+    },
+    {
+      "blockId": "z-prozbul/meaning",
+      "sourceId": "c-Sheviit-10.4",
+      "filename": "next-Rambam_on_Mishnah_Sheviit.10.4.json",
+      "segment": 1,
+      "sourceQuote": "להיות הדיין עד והעד דיין",
+      "explanationQuote": "הדיין ישמש כעד והעד כדיין"
+    },
+    {
+      "blockId": "z-terumah/who",
+      "sourceId": "a-terumot-1-1",
+      "filename": "area-terumot-1-1.json",
+      "segment": 1,
+      "sourceQuote": "ואמרו חמשה למעוטי דר' יהודה",
+      "explanationQuote": "המניין ״חמישה״ בא למעט את דעת רבי יהודה"
+    },
+    {
+      "blockId": "d-shevuot/hesset",
+      "sourceId": "c-Shevuot-6.1",
+      "filename": "next-Rambam_on_Mishnah_Shevuot.6.1.json",
+      "segment": 1,
+      "sourceQuote": "ואם עמד בנדויו שלשים יום ולא פרע ולא נשבע",
+      "explanationQuote": "ואם עמד בנידויו שלושים יום"
+    },
+    {
+      "blockId": "d-edut/meaning",
+      "sourceId": "q-m-Sanhedrin-3.6",
+      "filename": "index8-Mishnah_Sanhedrin.3.6.json",
+      "segment": 1,
+      "sourceQuote": "הוא אמר לי",
+      "explanationQuote": "הוא אמר לי שאני חייב לו"
+    },
+    {
+      "blockId": "d-edut/distinction",
+      "sourceId": "q-Sanhedrin-3.6",
+      "filename": "index8-Rambam_on_Mishnah_Sanhedrin.3.6.json",
+      "segment": 1,
+      "sourceQuote": "בדרך ספור דברים",
+      "explanationQuote": "בדרך סיפור דברים"
+    },
+    {
+      "blockId": "d-dayanim/three",
+      "sourceId": "n-Sanhedrin-3.1",
+      "filename": "Rambam_on_Mishnah_Sanhedrin.3.1.json",
+      "segment": 1,
+      "sourceQuote": "אינו בדיינין מומחין אלא בדיינין שאינן מומחין",
+      "explanationQuote": "עוסקת בדיינים שאינם מומחים"
+    },
+    {
+      "blockId": "d-dayanim/acceptance",
+      "sourceId": "n-Sanhedrin-3.1",
+      "filename": "Rambam_on_Mishnah_Sanhedrin.3.1.json",
+      "segment": 1,
+      "sourceQuote": "אלא אם כן טעו בדין שחוזר",
+      "explanationQuote": "אם טעו בדין, הדין חוזר"
+    },
+    {
+      "blockId": "d-dayanim/acceptance",
+      "sourceId": "n-Sanhedrin-3.1",
+      "filename": "Rambam_on_Mishnah_Sanhedrin.3.1.json",
+      "segment": 1,
+      "sourceQuote": "ובטעות הדיינין בדין יש דרכים ומחלוקת",
+      "explanationQuote": "בגדרי טעות הדיינים יש פרטים ומחלוקות"
+    }
+  ]
+}
