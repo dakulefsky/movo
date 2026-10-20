@@ -82,6 +82,10 @@ assert.match(entry('t-met','source').paragraphs.join(' '),/חלקים ממנו/)
 assert.match(entry('i-kiddushin','meaning').paragraphs.join(' '),/אין הקידושין חלים אלא מרצונה/);
 assert.match(entry('d-nezikin','avot').paragraphs.join(' '),/ארבעה אבות נזיקין/);
 assert.match(entry('a-neder','meaning').paragraphs.join(' '),/בנדרי איסור/);
+assert.match(entry('i-ketubah','source-map').paragraphs.join(' '),/לשנים עשר חלקים/);
+assert.doesNotMatch(entry('i-ketubah','source-map').paragraphs.join(' '),/ענין אחד עשוי להיכנס בגבול חברו/);
+assert.match(entry('a-yadot-kinuyim','names').paragraphs.join(' '),/קונם וקונח וקונז/);
+assert.equal(entry('i-yuchasin','limits').title,'תפיסת קידושין וייחוס הוולד');
 assert.match(entry('av-shechitah','person').paragraphs.join(' '),/בסכין ארוכה/,'Source-audit long knife must remain visible');
 assert.match(entry('av-shechitah','person').paragraphs.join(' '),/שלא ישחוט לכתחילה/,'Do not claim an unrestricted lechatchila exception');
 assert.match(entry('t-met','scope').paragraphs.join(' '),/אתם קרוין אדם/);
