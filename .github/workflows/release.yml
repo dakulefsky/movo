@@ -24,6 +24,10 @@ jobs:
         run: |
           python3 build.py
           python3 package.py
+      - name: Generate full source audit baseline
+        run: |
+          python3 generate_audit_ledger.py
+          python3 -c "import json; d=json.load(open('audit/master-ledger.json')); assert d['block_count']==317 and d['claim_units']>=317 and all(r['decision']=='not_reviewed' for r in d['rows'])"
       - name: Verify generated content exports are committed
         run: git diff --exit-code -- Mevoot-Shas-Content.md EDITORIAL-FORMAT.json
       - name: Test the packaged reading interface
