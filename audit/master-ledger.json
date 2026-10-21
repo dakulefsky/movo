@@ -120316,5 +120316,23 @@
       "validation/teaching-native.log": "58fb67769bdf15923a6630a5795ac23bcded24e23d0535073886d7f84ec800f1",
       "validation/teaching-validator.log": "42871dc4edded56226d4352496e1f42be52613cdf0e1a26acb883c271c82ac78"
     }
+  },
+  "teaching_additions_store_distribution": {
+    "version": "0.13.15",
+    "status": "published_review_distribution",
+    "workflow_run_id": 39693316957,
+    "workflow_url": "https://github.com/dakulefsky/movo/actions/runs/39693316957",
+    "application_commit": "a47025750aafa6c152a7dd4ea7fbaf5c6ca75bf5",
+    "published_at_utc": "2026-10-21T23:26:33.5291801Z",
+    "publisher_confirmation": "✓ העדכון פורסם בחנות בגרסה 0.13.15",
+    "server_http_status": 200,
+    "server_success": true,
+    "pending_approval": false,
+    "previous_store_version": "0.13.14",
+    "workflow_log_sha256": "cf28d96491cefe639be46b10b9d0f3b43b626cc97d99161d81e276623fb01783",
+    "scope": "Five sourced teaching additions, five separate prooftexts and two source attribution labels.",
+    "scholarly_clearance": false,
+    "publication_route": "Manual workflow on audit-0135-repairs; no main merge.",
+    "accuracy_notice_retained": true
   }
 }
