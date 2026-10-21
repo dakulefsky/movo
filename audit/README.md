@@ -69,3 +69,11 @@ A focused pass smooths 14 explanatory paragraphs: it replaces stiff construction
 For 0.13.9, two clean builds have identical ten-file payloads and valid ZIP CRCs (ZIP timestamps differ). Both full packaged browser suites, pinned SDK host checks, native packager payload comparison and official validation pass. The official validator uses its bundled SDK fallback and reports zero errors/warnings with local `published=false`. All four evidence/scope checkers pass. The accuracy-under-review notice remains visible.
 
 The 0.13.9 review update is published in the Otzaria store, confirmed by [workflow39600059331](https://github.com/dakulefsky/movo/actions/runs/39600059331) at 2026-10-21 12:30:57 UTC. The server returned success and no pending approval, updating 0.13.8 to 0.13.9. All workflow checks passed. No main merge or scholarly certification.
+
+## Sentence-flow pass — 0.13.10
+
+The additional pass splits long sentences in eight paragraphs concerning מאמר, חלה, תמורה, internal חטאת offerings, ספקות, מנחת כהן and court authority. Only sentence boundaries change; every word remains in its original order, including attributions and legal qualifications. The selected operations are recorded in `sentence_flow_01310.json`. `polish_revision.py` now applies both explicitly guarded sentence passes; the earlier manifests and row-level records remain unchanged.
+
+`check_polish.py` compares the entire current corpus with committed 0.13.9 after exactly those eight operations. It requires identical word sequences in each changed paragraph and preserves all other corpus fields and every historical ledger-row field. The earlier repair, readability and reading-structure comparisons account for the full overlay chain. No source snapshots, source notes, claim statuses, examples, source references or reading stages change. Native installation/rendering and independent scholarly review remain unverified beyond the already recorded checks.
+
+For 0.13.10, all four preservation checkers, the full packaged browser suite, pinned SDK host suite, native packaging payload comparison and official validation pass. Two clean builds have identical ten-file payloads and valid CRCs; ZIP timestamps differ. Local official validation reports zero errors/warnings with bundled SDK fallback and `published=false`. The accuracy-under-review notice remains visible.

@@ -17,7 +17,7 @@ with tempfile.TemporaryDirectory(prefix='structure-baseline-',dir=ROOT/'work') a
         tar.extractall(directory,filter='data')
     subprocess.run(['python3','build.py'],cwd=directory,check=True,stdout=subprocess.DEVNULL)
     baseline = json.loads((Path(directory)/'editorial.json').read_text())
-assert current['version'] == '0.13.9'
+assert current['version'] == '0.13.10'
 from polish_revision import apply_polish
 apply_polish(baseline['handbooks'])
 assert current['sources'] == baseline['sources'], 'Source text/edition/note changed'
@@ -40,4 +40,4 @@ ledger=json.loads((ROOT/'audit/master-ledger.json').read_text())
 for row in ledger['rows']:
     section=next(s for s in plan['entries'][row['entry_id']]['sections'] if row['block_id'] in s['blocks'])
     assert row['reading_structure']['stage']==section['id'],row['claim_id']
-print('PASS reading structure: all 98 entries / 317 blocks classified exactly once; every paragraph, item, source, source note, citation, title and related link identical to 0.13.7 after the separately guarded 14 sentence polishes. No scholarly certification.')
+print('PASS reading structure: all 98 entries / 317 blocks classified exactly once; every paragraph, item, source, source note, citation, title and related link identical to 0.13.7 after the separately guarded 22 sentence polishes. No scholarly certification.')

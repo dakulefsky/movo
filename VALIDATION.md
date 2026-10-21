@@ -1,3 +1,7 @@
+# Current sentence-flow pass — 0.13.10
+
+Eight paragraphs receive clearer sentence breaks. The checked word sequences are identical before and after; source texts, reading stages and all other corpus fields are unchanged from committed 0.13.9. Current runtime validation and store receipts are recorded in `audit/master-ledger.json`; earlier reports below are historical.
+
 # Current sentence polish — 0.13.9
 
 Exactly 14 explanatory paragraphs receive small wording changes. Full comparison against committed 0.13.8 preserves every other corpus field and all previously reviewed ledger-row fields. Quotations, numbers and all 0.13.8 reading stages remain intact. Runtime validation and store receipts are recorded in `audit/master-ledger.json`; the earlier reports below are historical.

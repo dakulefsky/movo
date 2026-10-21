@@ -4118,6 +4118,13 @@
         "version": "0.13.8",
         "stage": "distinctions",
         "scope": "Presentation only; complete audited paragraph/item and its attached sources unchanged."
+      },
+      "sentence_flow_review": {
+        "version": "0.13.10",
+        "before": "סדר מתנות הדם חלוק ביניהם: בפר ושעיר של יום הכפורים מזים בין הבדים, על הפרוכת ועל מזבח הזהב; בפרים ובשעירים הנשרפים מזים על הפרוכת ועל מזבח הזהב.",
+        "after": "סדר מתנות הדם חלוק ביניהם: בפר ושעיר של יום הכפורים מזים בין הבדים, על הפרוכת ועל מזבח הזהב. בפרים ובשעירים הנשרפים מזים על הפרוכת ועל מזבח הזהב.",
+        "scope": "Sentence boundaries only; every word retained in its original order.",
+        "review": "Same-editor readability pass; no scholarly status change."
       }
     },
     {
@@ -17095,6 +17102,13 @@
         "version": "0.13.8",
         "stage": "distinctions",
         "scope": "Presentation only; complete audited paragraph/item and its attached sources unchanged."
+      },
+      "sentence_flow_review": {
+        "version": "0.13.10",
+        "before": "מנחת כהן מוקטרת כולה ואינה נאכלת. במנחת כהן חוטא נחלקו רבי שמעון וחכמים אם יש לקמוץ: רבי שמעון מצריך קמיצה אף שהכול נשרף, ואילו חכמים סוברים שמנחה שאין שייריה נאכלים אינה נקמצת. הרמב״ם פוסק כחכמים.",
+        "after": "מנחת כהן מוקטרת כולה ואינה נאכלת. במנחת כהן חוטא נחלקו רבי שמעון וחכמים אם יש לקמוץ. רבי שמעון מצריך קמיצה אף שהכול נשרף, ואילו חכמים סוברים שמנחה שאין שייריה נאכלים אינה נקמצת. הרמב״ם פוסק כחכמים.",
+        "scope": "Sentence boundaries only; every word retained in its original order.",
+        "review": "Same-editor readability pass; no scholarly status change."
       }
     },
     {
@@ -36005,6 +36019,13 @@
         "version": "0.13.8",
         "stage": "meaning",
         "scope": "Presentation only; complete audited paragraph/item and its attached sources unchanged."
+      },
+      "sentence_flow_review": {
+        "version": "0.13.10",
+        "before": "אסור להמיר בהמת קרבן בבהמה אחרת. כשהתמורה חלה, גם הבהמה הראשונה נשארת קדושה, ושתיהן קדושות. הרמב״ם מסביר מדוע לוקים על האיסור אף שהתורה צירפה אליו את העשה ״והיה הוא ותמורתו יהיה קדש״. בדרך כלל אין לוקים על לאו הניתק לעשה, אך כאן היקף הלאו והעשה אינו שווה: האיסור ״ולא ימירנו״ חל גם במקרים שבהם אין התמורה חלה, כגון בקרבן ציבור או של שותפים. זהו הכלל ״כל המימר לוקה, ואין כל מימר עושה תמורה״. מעשה ההמרה וחלות הקדושה בבהמה האחרת הם אפוא שני דינים נפרדים.",
+        "after": "אסור להמיר בהמת קרבן בבהמה אחרת. כשהתמורה חלה, גם הבהמה הראשונה נשארת קדושה, ושתיהן קדושות. הרמב״ם מסביר מדוע לוקים על האיסור אף שהתורה צירפה אליו את העשה ״והיה הוא ותמורתו יהיה קדש״. בדרך כלל אין לוקים על לאו הניתק לעשה. אך כאן היקף הלאו והעשה אינו שווה. האיסור ״ולא ימירנו״ חל גם במקרים שבהם אין התמורה חלה, כגון בקרבן ציבור או של שותפים. זהו הכלל ״כל המימר לוקה, ואין כל מימר עושה תמורה״. מעשה ההמרה וחלות הקדושה בבהמה האחרת הם אפוא שני דינים נפרדים.",
+        "scope": "Sentence boundaries only; every word retained in its original order.",
+        "review": "Same-editor readability pass; no scholarly status change."
       }
     },
     {
@@ -47368,6 +47389,13 @@
         "version": "0.13.8",
         "stage": "meaning",
         "scope": "Presentation only; complete audited paragraph/item and its attached sources unchanged."
+      },
+      "sentence_flow_review": {
+        "version": "0.13.10",
+        "before": "חכמים טיהרו ספקות מסוימים בטומאה, ובהם ספק מים שאובים למקווה, ספק ידיים וספק רשות הרבים. בדוגמת המים השאובים מתאר הרמב״ם מקווה החסר מארבעים סאה: ייתכן שהספק הוא אם נפלו לתוכו שלושה לוגים מים שאובים, וייתכן שהוא בשיעור המים שנפלו — אם הגיע לשיעור הפוסל.",
+        "after": "חכמים טיהרו ספקות מסוימים בטומאה, ובהם ספק מים שאובים למקווה, ספק ידיים וספק רשות הרבים. בדוגמת המים השאובים מתאר הרמב״ם מקווה החסר מארבעים סאה: ייתכן שהספק הוא אם נפלו לתוכו שלושה לוגים מים שאובים. וייתכן שהוא בשיעור המים שנפלו — אם הגיע לשיעור הפוסל.",
+        "scope": "Sentence boundaries only; every word retained in its original order.",
+        "review": "Same-editor readability pass; no scholarly status change."
       }
     },
     {
@@ -55337,6 +55365,13 @@
         "version": "0.13.8",
         "stage": "distinctions",
         "scope": "Presentation only; complete audited paragraph/item and its attached sources unchanged."
+      },
+      "sentence_flow_review": {
+        "version": "0.13.10",
+        "before": "הרמב״ם מדגים את כוחו החלקי של המאמר במעשה של שלושה אחים. ראובן נשוי ללאה; שמעון מת והניח את רחל לייבום, ורק לאחר מיתתו נולד לוי. ראובן עשה מאמר ברחל, ולאחר מכן מת. רחל אסורה על לוי משום אשת אחיו שלא היה בעולמו. דינה של לאה תלוי במעשה שעשה ראובן: אילו כנס את רחל לגמרי, היתה לאה פטורה גם מחליצה מדין צרת ערוה; אילו לא עשה ברחל מאמר כלל, היתה לאה ראויה לייבום או לחליצה. בפועל עשה מאמר בלבד, ויש בו מקצת קידושין. לכן לאה אינה מתייבמת מחמת צד צרת ערוה, אך גם אינה נפטרת בלא חליצה. היא צריכה לחלוץ ללוי, מפני שהמאמר לא גמר את הנישואין. כך נוצרת החומרא משני הצדדים.",
+        "after": "הרמב״ם מדגים את כוחו החלקי של המאמר במעשה של שלושה אחים. ראובן נשוי ללאה; שמעון מת והניח את רחל לייבום, ורק לאחר מיתתו נולד לוי. ראובן עשה מאמר ברחל, ולאחר מכן מת. רחל אסורה על לוי משום אשת אחיו שלא היה בעולמו. דינה של לאה תלוי במעשה שעשה ראובן: אילו כנס את רחל לגמרי, היתה לאה פטורה גם מחליצה מדין צרת ערוה. אילו לא עשה ברחל מאמר כלל, היתה לאה ראויה לייבום או לחליצה. בפועל עשה מאמר בלבד, ויש בו מקצת קידושין. לכן לאה אינה מתייבמת מחמת צד צרת ערוה, אך גם אינה נפטרת בלא חליצה. היא צריכה לחלוץ ללוי, מפני שהמאמר לא גמר את הנישואין. כך נוצרת החומרא משני הצדדים.",
+        "scope": "Sentence boundaries only; every word retained in its original order.",
+        "review": "Same-editor readability pass; no scholarly status change."
       }
     },
     {
@@ -62024,6 +62059,13 @@
         "version": "0.13.8",
         "stage": "distinctions",
         "scope": "Presentation only; complete audited paragraph/item and its attached sources unchanged."
+      },
+      "sentence_flow_review": {
+        "version": "0.13.10",
+        "before": "בעל הבית מפריש חלה בשיעור אחד מעשרים וארבעה, ואילו הנחתום מפריש אחד מארבעים ושמונה. הרמב״ם מביא לכך שני טעמים. ראשית, עיסתו של בעל הבית קטנה, וצריך שיהיה בחלק המופרש כדי נתינה לכהן; הנחתום, לעומתו, לש עיסה מרובה. נוסף על כך הוא מביא את לשון חכמים שההפרשה מסורה לאשה ו״האשה עינה רעה״, ולפיכך חייבו בה שיעור גדול יותר. החלוקה היא בין חלת בעל הבית לחלת הנחתום, ולא רק בין עיסה קטנה לגדולה: גם העושה עיסה גדולה למשתה בנו מפריש אחד מעשרים וארבעה, כדי שלא לשנות מדין חלת בעל הבית.",
+        "after": "בעל הבית מפריש חלה בשיעור אחד מעשרים וארבעה, ואילו הנחתום מפריש אחד מארבעים ושמונה. הרמב״ם מביא לכך שני טעמים. ראשית, עיסתו של בעל הבית קטנה, וצריך שיהיה בחלק המופרש כדי נתינה לכהן; הנחתום, לעומתו, לש עיסה מרובה. נוסף על כך הוא מביא את לשון חכמים שההפרשה מסורה לאשה ו״האשה עינה רעה״, ולפיכך חייבו בה שיעור גדול יותר. החלוקה היא בין חלת בעל הבית לחלת הנחתום, ולא רק בין עיסה קטנה לגדולה. גם העושה עיסה גדולה למשתה בנו מפריש אחד מעשרים וארבעה, כדי שלא לשנות מדין חלת בעל הבית.",
+        "scope": "Sentence boundaries only; every word retained in its original order.",
+        "review": "Same-editor readability pass; no scholarly status change."
       }
     },
     {
@@ -77733,6 +77775,13 @@
         "version": "0.13.8",
         "stage": "distinctions",
         "scope": "Presentation only; complete audited paragraph/item and its attached sources unchanged."
+      },
+      "sentence_flow_review": {
+        "version": "0.13.10",
+        "before": "הרמב״ם מבחין בין דיין שבעלי הדין קיבלו עליהם לבין מומחה המבקש לדון בלא קבלתם. מומחה לרבים רשאי לדון יחידי, אך כדי לכפות על בעלי הדין להיזקק לו נדרשת רשות מתאימה. בפירוש המשנה נזכרות רשות ראש הגולה ורשות ראש ישיבה בארץ ישראל. בהלכות סנהדרין ד, יד–טו הוא מבאר שרשות ראש הגולה מועילה לכפייה גם בחוץ לארץ, ואילו רשות בית דין שבארץ ישראל מוגבלת לעניין זה לארץ ישראל ולעיירות שעל הגבול. כשרות הדיין, קבלת בעלי הדין והסמכות לכפות עליהם הן אפוא שאלות נפרדות.",
+        "after": "הרמב״ם מבחין בין דיין שבעלי הדין קיבלו עליהם לבין מומחה המבקש לדון בלא קבלתם. מומחה לרבים רשאי לדון יחידי, אך כדי לכפות על בעלי הדין להיזקק לו נדרשת רשות מתאימה. בפירוש המשנה נזכרות רשות ראש הגולה ורשות ראש ישיבה בארץ ישראל. בהלכות סנהדרין ד, יד–טו הוא מבאר שרשות ראש הגולה מועילה לכפייה גם בחוץ לארץ. ואילו רשות בית דין שבארץ ישראל מוגבלת לעניין זה לארץ ישראל ולעיירות שעל הגבול. כשרות הדיין, קבלת בעלי הדין והסמכות לכפות עליהם הן אפוא שאלות נפרדות.",
+        "scope": "Sentence boundaries only; every word retained in its original order.",
+        "review": "Same-editor readability pass; no scholarly status change."
       }
     },
     {
@@ -77929,6 +77978,13 @@
         "version": "0.13.8",
         "stage": "distinctions",
         "scope": "Presentation only; complete audited paragraph/item and its attached sources unchanged."
+      },
+      "sentence_flow_review": {
+        "version": "0.13.10",
+        "before": "בעלי הדין יכולים לקבל עליהם גם דיין שאינו מומחה, בגדרים שפירט הרמב״ם. מומחה לרבים רשאי לדון יחידי, אך מומחיותו כשלעצמה אינה מקנה לו סמכות כפייה. בפירוש המשנה נזכרות רשות ראש הגולה ורשות ראש ישיבה בארץ ישראל; בהלכות סנהדרין מבואר שרשות ראש הגולה מועילה לכפייה בכל העולם, ואילו רשות בית דין שבארץ ישראל מועילה לכך בארץ ובעיירות שעל גבולה. הסמכות לדון והסמכות לכפות על בעלי הדין אינן אפוא אותו דבר.",
+        "after": "בעלי הדין יכולים לקבל עליהם גם דיין שאינו מומחה, בגדרים שפירט הרמב״ם. מומחה לרבים רשאי לדון יחידי, אך מומחיותו כשלעצמה אינה מקנה לו סמכות כפייה. בפירוש המשנה נזכרות רשות ראש הגולה ורשות ראש ישיבה בארץ ישראל. בהלכות סנהדרין מבואר שרשות ראש הגולה מועילה לכפייה בכל העולם, ואילו רשות בית דין שבארץ ישראל מועילה לכך בארץ ובעיירות שעל גבולה. הסמכות לדון והסמכות לכפות על בעלי הדין אינן אפוא אותו דבר.",
+        "scope": "Sentence boundaries only; every word retained in its original order.",
+        "review": "Same-editor readability pass; no scholarly status change."
       }
     },
     {
@@ -85264,5 +85320,54 @@
     "workflow_log_sha256": "14ef31642fbbe31471651c989314ff4373c4c857060740e1d7d957b22323a086",
     "publication_route": "Manual release.yml on audit-0135-repairs; no main merge.",
     "content_status": "Fourteen guarded sentence polishes only; all prior scholarly decisions, source conflicts and review notice retained."
+  },
+  "sentence_flow_checkpoint": {
+    "version": "0.13.10",
+    "basis_commit": "5ee1e31",
+    "changed_paragraphs": 8,
+    "manifest": "sentence_flow_01310.json",
+    "scope": "Split long sentences only. Preserve every word and word order, all source quotations, conditions and reading stages.",
+    "validation": "PASS exactly eight paragraph revisions against committed 0.13.9, with identical word sequences and unchanged quotations, digits, sources, reading stages, other corpus fields and previously reviewed ledger fields. All four evidence checkers pass. Two clean builds have identical ten-file payloads and valid ZIP CRC; timestamps differ. Full packaged browser suite and pinned SDK host suite pass over authorized HTTP. Native packaging matches the tested payload; official validator passes with bundled SDK fallback, zero errors/warnings, local published=false. Previously recorded native installation/rendering limitation remains unresolved.",
+    "scholarly_status": "No claim promoted; all source conflicts retained.",
+    "clean_builds": [
+      {
+        "build": 1,
+        "zip_sha256": "550da4adf6d791b8b8d645e5d68160d71a74a5eb22901b8b0e3cc90f23807d75",
+        "files": {
+          "app.js": "8a1b2f848bce7cdb27f784d769f158bd42977d82321495145005897e1e068343",
+          "data/library.js": "b01c03eae8c45c906d45b8b76a17f99a7c39604d2586c62f67f9cb847e6fcf6f",
+          "fonts/NotoSerifHebrew.ttf": "4a76d07f2f671273d0219e51dc63459323be0c7b7d8106267f0f68af4227a3b5",
+          "fonts/Rubik.ttf": "7604615c681d3594432cb7f1b592657d1cac98acdb60c7e95619cddda19b265f",
+          "fonts/notoserifhebrew-OFL.txt": "9b9fe028b5ba74d231659a1bbaf0ed09b11e759d1ca6a070999e16d151616b47",
+          "fonts/rubik-OFL.txt": "472cbe7c25441df63e9c7864b43eb3c0f4b3df950c66a76224e6cfe1eae843fb",
+          "index.html": "2654bbd7642c67f135b2453d36979928774627ecf13684c48252e9cb0965d2b5",
+          "manifest.json": "0a83e854c2d24df1b9e0561df64f84c3db5123e7832b57439fbd3fd8f25089df",
+          "style.css": "1f9fa4c2f4f5c1ffe597bdfec63e0ba4c98ced5a1c25bb5cbbb4bc7bc782c6c1",
+          "theme-start.js": "8196bd063e270c287accace6dc102392e8fef835f14d100215881cc5b8d86034"
+        }
+      },
+      {
+        "build": 2,
+        "zip_sha256": "f00a5bad35bd0ac3cb8c879301d3de544e85e565f918d0c4e54cad28d2aebd5a",
+        "files": {
+          "app.js": "8a1b2f848bce7cdb27f784d769f158bd42977d82321495145005897e1e068343",
+          "data/library.js": "b01c03eae8c45c906d45b8b76a17f99a7c39604d2586c62f67f9cb847e6fcf6f",
+          "fonts/NotoSerifHebrew.ttf": "4a76d07f2f671273d0219e51dc63459323be0c7b7d8106267f0f68af4227a3b5",
+          "fonts/Rubik.ttf": "7604615c681d3594432cb7f1b592657d1cac98acdb60c7e95619cddda19b265f",
+          "fonts/notoserifhebrew-OFL.txt": "9b9fe028b5ba74d231659a1bbaf0ed09b11e759d1ca6a070999e16d151616b47",
+          "fonts/rubik-OFL.txt": "472cbe7c25441df63e9c7864b43eb3c0f4b3df950c66a76224e6cfe1eae843fb",
+          "index.html": "2654bbd7642c67f135b2453d36979928774627ecf13684c48252e9cb0965d2b5",
+          "manifest.json": "0a83e854c2d24df1b9e0561df64f84c3db5123e7832b57439fbd3fd8f25089df",
+          "style.css": "1f9fa4c2f4f5c1ffe597bdfec63e0ba4c98ced5a1c25bb5cbbb4bc7bc782c6c1",
+          "theme-start.js": "8196bd063e270c287accace6dc102392e8fef835f14d100215881cc5b8d86034"
+        }
+      }
+    ]
+  },
+  "sentence_flow_store_distribution": {
+    "version": "0.13.10",
+    "status": "prepared_for_user_requested_review_distribution",
+    "accuracy_notice": "דיוק התוכן נמצא בבדיקה.",
+    "scholarly_clearance": false
   }
 }

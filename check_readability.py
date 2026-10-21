@@ -30,7 +30,7 @@ from copy import deepcopy
 from polish_revision import polish_edits
 comparison=deepcopy(current)
 comparison_blocks=blocks(comparison)
-for edit in polish_edits():
+for edit in reversed(polish_edits()):
     key,unit=edit['claim_id'].rsplit('/',1)
     index=int(unit.removeprefix('paragraph-'))-1
     assert comparison_blocks[key]['paragraphs'][index]==edit['after'],edit['claim_id']

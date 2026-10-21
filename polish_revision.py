@@ -4,13 +4,17 @@ from pathlib import Path
 
 
 def polish_edits():
-    return json.loads(Path(__file__).with_name('polish_0139.json').read_text())['edits']
+    edits=[]
+    for name in ('polish_0139.json','sentence_flow_01310.json'):
+        manifest=json.loads(Path(__file__).with_name(name).read_text())
+        assert len(manifest['edits'])==len({e['claim_id'] for e in manifest['edits']})==manifest['changed_paragraphs']
+        edits.extend(manifest['edits'])
+    return edits
 
 
-def apply_polish(handbooks):
+def apply_polish(handbooks, edits=None):
     blocks={e['id']+'/'+b['id']:b for h in handbooks for e in h['entries'] for b in e['blocks']}
-    edits=polish_edits()
-    assert len(edits)==len({e['claim_id'] for e in edits})==14
+    edits=polish_edits() if edits is None else edits
     for edit in edits:
         entry,block,unit=edit['claim_id'].split('/')
         assert unit.startswith('paragraph-'),edit['claim_id']
