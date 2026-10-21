@@ -39,3 +39,11 @@ The host suite now extracts **0.13.5**, asserts its manifest version, and uses a
 The repair branch is pushed to GitHub. The user-requested **0.13.6 review distribution is published in the Otzaria store**, confirmed by [workflow39529142768](https://github.com/dakulefsky/movo/actions/runs/39529142768). The plugin and store short description state that accuracy is under review. No scholarly status was promoted and nothing was merged into main.
 
 Repeat native packaging with `python3 validate_native.py` (first run downloads pinned packages into `work/`). Use `python3 validate_native.py --open` for an isolated manual GUI session on a virtual display; the display number and receipt location are recorded locally. This does not install system packages, merge or publish.
+
+## Readability review — 0.13.7
+
+All 317 blocks / 360 claim units were read for flow. The guarded overlay in `readability_0137.json` revises 203 explanatory paragraphs in 185 blocks, using shorter sentences and clearer order. It leaves all 241 source records, headings, lists, references and links intact. `check_readability.py` builds the committed 0.13.6 baseline in a temporary directory and checks the exact changes, direct quotations and 47 explicit explanatory-anchor crosswalks. Historical evidence is preserved; row-level `readability_edit` records supplement the ledger rather than replacing adjudications. This is a same-editor wording pass, with independent scholarly review still pending.
+
+Run `python3 check_readability.py` after building, alongside the adjudicated-repair checker. The persistent accuracy-under-review notice remains in the plugin and store description.
+
+For 0.13.7, two clean builds have identical ten-file payloads and valid ZIP CRCs. Both packaged browser suites pass using the authorized HTTP preview. The pinned native Otzaria packager produces the same payload, and the official validator reports zero errors/warnings with its bundled SDK fallback (`published=false` for local validation). Full source/quotation/overlay checks pass. No scholarly claim status changes.

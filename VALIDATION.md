@@ -1,3 +1,11 @@
+# Current review build — 0.13.7
+
+The readability pass changes 203 explanatory paragraphs in 185 of the existing 317 blocks. Exact source-preservation and guarded-overlay checks pass for all 241 source records and 360 claim units. Two clean builds produce identical ten-file package payloads; ZIP timestamps may differ. Host SDK tests, native Otzaria packaging and official validation pass (zero errors/warnings, local validation `published=false`, bundled SDK fallback). The full packaged browser suite passes using the authorized loopback HTTP preview transport, checking all 98 entries and 317 block controls with no external requests or JavaScript errors. Store receipts are recorded separately in `audit/master-ledger.json`.
+
+Native 0.13.6 installation and selected WebView/permission checks passed in an isolated profile. Successful indexed-source opening still needs a populated catalogue. The current native packager validates the 0.13.7 payload. Independent scholarly review remains pending; the plugin visibly says accuracy is under review. See [audit/README.md](audit/README.md) for the current audit and reproducible commands.
+
+The following 0.9.3 report is historical and does not describe the current corpus.
+
 # Validation — 0.9.3, 18 October 2026
 
 ## Content and package

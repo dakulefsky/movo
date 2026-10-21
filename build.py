@@ -191,6 +191,8 @@ from adjudicated_repairs import apply_adjudicated_repairs
 print('adjudicated corrections:', apply_adjudicated_repairs(handbooks, sources))
 from adjudicated_repairs import attach_adjudicated_prooftexts
 print('separate audit prooftexts:', attach_adjudicated_prooftexts(handbooks, sources))
+from readability_revision import apply_readability_revision
+print('readability revisions:', apply_readability_revision(handbooks))
 for key, targets in AUDIT_EXTRA_REFS.items():
  b=block_index[key]
  for source_id,segment in targets:
@@ -257,7 +259,7 @@ for src in sources.values():
   for key in d['provenance']['jsonPath']:obj=obj[key]
   obj=[obj] if isinstance(obj,str) else obj
   assert obj==d['he'],src['filename']
-data={'schemaVersion':2,'version':'0.13.6','author':'DanTheMan','editorialPolicy':policy,'subjects':[{'id':id,'title':title,'status':status} for id,title,status in [('kodashim','קדשים','available'),('tahorot','טהרות','available'),('ishut','אישות','available'),('zeraim','זרעים','available'),('mammon','דיני ממונות','available'),('issur','איסור והיתר','available')]],'handbooks':handbooks,'sources':sources}
+data={'schemaVersion':2,'version':'0.13.7','author':'DanTheMan','editorialPolicy':policy,'subjects':[{'id':id,'title':title,'status':status} for id,title,status in [('kodashim','קדשים','available'),('tahorot','טהרות','available'),('ishut','אישות','available'),('zeraim','זרעים','available'),('mammon','דיני ממונות','available'),('issur','איסור והיתר','available')]],'handbooks':handbooks,'sources':sources}
 (ROOT/'plugin/data').mkdir(parents=True,exist_ok=True)
 (ROOT/'plugin/data/library.js').write_text('window.MEVOOT='+json.dumps(data,ensure_ascii=False)+';\n')
 (ROOT/'editorial.json').write_text(json.dumps(data,ensure_ascii=False,indent=2))

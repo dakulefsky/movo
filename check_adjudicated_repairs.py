@@ -23,6 +23,11 @@ ledger = read('audit/master-ledger.json')
 assert len(ledger['rows']) == 360 and ledger['block_count'] == 317
 edits = {e['claim_id']: e for e in read('adjudicated_repairs.json')['edits']}
 assert len(edits) == 32
+readability = read('readability_0137.json')['edits']
+final_texts = {r['claim_id']: r['claim_text'] for r in original['rows']}
+for edit in [*edits.values(), *readability]:
+    assert final_texts[edit['claim_id']] == edit['before'], ('overlay chain drift',edit['claim_id'])
+    final_texts[edit['claim_id']] = edit['after']
 # Immutable historical fields, including rejected proposals and all review evidence.
 for before, after in zip(original['rows'], ledger['rows']):
     assert all(after[k] == v for k,v in before.items()), before['claim_id']
@@ -42,7 +47,7 @@ with tempfile.TemporaryDirectory(prefix='comparison-', dir=ROOT / 'work') as tem
     for old, current in zip(original['rows'], generated['rows']):
         id = old['claim_id']
         assert current['claim_id'] == id
-        assert current['claim_text'] == edits.get(id,{}).get('after',old['claim_text']), id
+        assert current['claim_text'] == final_texts[id], id
         # All earlier source words and local locators remain attached.
         for source in old['source_refs']:
             assert source in current['source_refs'], (id,source['source_id'])
@@ -66,5 +71,5 @@ assert 'בהרכב שהורחב לחמישה' in prose('d-edut/meaning')
 assert 'יש הבדל בין המקורות' in prose('d-edut/meaning')
 assert 'ובעיקר תוספות יום טוב נתפרש' in prose('minchah/exceptions')
 assert len(blocks['minchah/exceptions']['paragraphs']) == 2
-assert 'במנחות רגילות' in blocks['minchah/exceptions']['paragraphs'][0]
-print('PASS: 32 authorized paragraph repairs; 317 blocks / 360 claims; all historical sources and reviewed evidence preserved. No scholarly certification.')
+assert 'מנחה רגילה' in blocks['minchah/exceptions']['paragraphs'][0]
+print('PASS: 32 adjudicated repairs + 203 guarded readability revisions; 317 blocks / 360 claims; all historical sources and reviewed evidence preserved. No scholarly certification.')
