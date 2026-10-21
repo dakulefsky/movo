@@ -3,10 +3,10 @@ const assert=require('node:assert/strict'),path=require('node:path'),fs=require(
 let pw;try{pw=require('playwright')}catch{pw=require(process.env.CODEX_PRIMARY_RUNTIME_NODE_MODULES+'/playwright')}
 (async()=>{
 const root=__dirname,unpacked=path.join(root,'test-unpacked');fs.rmSync(unpacked,{recursive:true,force:true});fs.mkdirSync(unpacked);
-execFileSync('python',['-c',`import zipfile;zipfile.ZipFile(${JSON.stringify(path.join(root,'dist/Mevoot-Shas-0.13.14.otzplugin'))}).extractall(${JSON.stringify(unpacked)})`]);
-const manifest=JSON.parse(fs.readFileSync(path.join(unpacked,'manifest.json')));assert.equal(manifest.author,'DanTheMan');assert.equal(manifest.version,'0.13.14');assert.equal(manifest.network.enabled,false);
+execFileSync('python',['-c',`import zipfile;zipfile.ZipFile(${JSON.stringify(path.join(root,'dist/Mevoot-Shas-0.13.15.otzplugin'))}).extractall(${JSON.stringify(unpacked)})`]);
+const manifest=JSON.parse(fs.readFileSync(path.join(unpacked,'manifest.json')));assert.equal(manifest.author,'DanTheMan');assert.equal(manifest.version,'0.13.15');assert.equal(manifest.network.enabled,false);
 const literary=JSON.parse(fs.readFileSync(path.join(root,'readability_0137.json'),'utf8'));
-const polish={edits:['polish_0139.json','sentence_flow_01310.json','refinement_01313.json','refinement_01314.json'].flatMap(name=>JSON.parse(fs.readFileSync(path.join(root,name),'utf8')).edits)};
+const polish={edits:['polish_0139.json','sentence_flow_01310.json','refinement_01313.json','refinement_01314.json','teaching_additions_01315.json'].flatMap(name=>JSON.parse(fs.readFileSync(path.join(root,name),'utf8')).edits)};
 const readabilityParagraph=(p,id)=>{const revised=literary.edits.find(e=>e.before===p&&e.claim_id===id)?.after||p;return polish.edits.reduce((text,e)=>e.before===text&&e.claim_id===id?e.after:text,revised);};
 const explanationAnchor=(block,text)=>literary.explanation_anchor_crosswalk.find(e=>e.block_id===block&&e.before===text)?.after||text;
 const runtime=await packageRuntime(unpacked);
@@ -371,6 +371,20 @@ for(const correction of depth.updates){
 assert.match(entry('asham','animals').paragraphs.join(' '),/זכרי הכבשים/);
 assert.match(entry('asham','animals').paragraphs.join(' '),/גם באשם תלוי מפורש בהלכות פסולי המוקדשין ד, כב/);
 assert.match(entry('av-melikah','act').paragraphs.join(' '),/אין מבדילים/);
-assert.deepEqual(errors,[]);assert.deepEqual(remote,[]);console.log(`PASS: actual unpacked 0.13.14 package; home search, voluntary resume, continuous reading; all 98 entries and 317 block controls in six areas; new avodot source dialogs and reciprocal offering links; cross-area deep-link search and exact source dialogs; Hebrew search, back/reload/pager, SDK success and failure paths, mobile+desktop no overflow, font persistence. No external network requests, JS errors or screenshots. Transport: ${process.env.MOVO_TEST_TRANSPORT||'file'}.`);
+// The five teaching bridges and their new prooftexts must survive actual packaging/rendering.
+const teaching=JSON.parse(fs.readFileSync(path.join(root,'teaching_additions_01315.json'),'utf8'));
+const teachingSubject={'i-nissuin':'ishut','i-ketubah':'ishut','a-neder':'issur','minchah':'kodashim','z-demai':'zeraim'};
+for(const edit of teaching.edits){
+ const [eid,bid]=edit.claim_id.split('/');const key=eid+'--'+bid;
+ await chooseSubject(teachingSubject[eid]);await chooseEntry(eid);await expandSection(key);
+ assert.ok((await page.locator('#'+key).innerText()).includes(edit.after),'Teaching bridge absent from rendered entry '+eid);
+ const proof=teaching.prooftexts.find(p=>p.block_id===eid+'/'+bid);
+ assert.deepEqual(entry(eid,bid).refs.at(-1),{source:proof.id,segments:proof.segments});
+ await page.locator('#'+key+' .refs summary').click();await page.locator('#'+key+' .refs button').last().click();
+ assert.ok((await page.locator('#source-segments').innerText()).includes(d.sources[proof.id].segments[0].text),'New prooftext missing from source reader '+proof.id);
+ assert.match(await page.locator('#source-note').innerText(),/המקטעים המקומיים/);
+ await page.click('#close-source');
+}
+assert.deepEqual(errors,[]);assert.deepEqual(remote,[]);console.log(`PASS: actual unpacked 0.13.15 package; home search, voluntary resume, continuous reading; all 98 entries and 317 block controls in six areas; new avodot source dialogs and reciprocal offering links; cross-area deep-link search and exact source dialogs; Hebrew search, back/reload/pager, SDK success and failure paths, mobile+desktop no overflow, font persistence. No external network requests, JS errors or screenshots. Transport: ${process.env.MOVO_TEST_TRANSPORT||'file'}.`);
 }finally{await browser.close();await runtime.close()}
 })().catch(e=>{console.error(e);process.exit(1)});

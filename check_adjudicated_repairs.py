@@ -14,7 +14,11 @@ import tempfile
 ROOT = Path(__file__).resolve().parent
 BASIS = 'aa8d284e6e0b72844850408e3f47d311949b3cc2'
 def read(name):
-    return json.loads((ROOT / name).read_text())
+    value=json.loads((ROOT / name).read_text())
+    if name=='editorial.json':
+        from teaching_additions import pre_teaching_corpus
+        value=pre_teaching_corpus(value)
+    return value
 def git(*args):
     return subprocess.check_output(['git', *args], cwd=ROOT)
 
@@ -40,8 +44,9 @@ for line in git('ls-tree','-r',BASIS,'--','sources').decode().splitlines():
 (ROOT / 'work').mkdir(exist_ok=True)
 with tempfile.TemporaryDirectory(prefix='comparison-', dir=ROOT / 'work') as temporary:
     folder = Path(temporary)
-    for filename in ('generate_audit_ledger.py', 'editorial.json'):
+    for filename in ('generate_audit_ledger.py',):
         shutil.copy2(ROOT / filename, folder / filename)
+    (folder/'editorial.json').write_text(json.dumps(read('editorial.json'),ensure_ascii=False))
     subprocess.run(['python3',str(folder / 'generate_audit_ledger.py')],check=True)
     generated = json.loads((folder / 'audit/master-ledger.json').read_text())
     assert generated['claim_units'] == 360 and generated['block_count'] == 317

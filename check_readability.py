@@ -15,6 +15,8 @@ import tempfile
 ROOT = Path(__file__).resolve().parent
 manifest = json.loads((ROOT/'readability_0137.json').read_text())
 current = json.loads((ROOT/'editorial.json').read_text())
+from teaching_additions import pre_teaching_corpus
+current=pre_teaching_corpus(current)  # exact later overlay checked in check_teaching_additions.py
 (ROOT/'work').mkdir(exist_ok=True)
 with tempfile.TemporaryDirectory(prefix='literary-baseline-',dir=ROOT/'work') as directory:
     archive = subprocess.check_output(['git','archive',manifest['basis_commit']],cwd=ROOT)

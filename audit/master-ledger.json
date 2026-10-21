@@ -120005,5 +120005,316 @@
     "human_scholarly_approval": false,
     "new_store_release": false,
     "coordinator_disposition": "Five narrow source-supported conceptual bridges should form a future guarded repair batch; the supported identification of the two shechitah organs and the checked maveh alternative remain optional. Bikkurim identity is an explicitly unresolved source-check candidate. Consolidation must preserve all distinct qualifications and existing source conflicts. All27 earlier top-level fields and historical rows remain intact. This entry review adds no new paragraph/item claim units and does not certify full subject or Shas coverage."
+  },
+  "teaching_additions_checkpoint": {
+    "version": "0.13.15",
+    "basis_commit": "af88cd893f4436b8a439d77cbe1eae325b3b8a01",
+    "status": "five_applied_draft_rechecked_final_independent_recheck_pending",
+    "manifest": {
+      "basis_commit": "af88cd893f4436b8a439d77cbe1eae325b3b8a01",
+      "basis_version": "0.13.14",
+      "version": "0.13.15",
+      "scope": "Five supported teaching bridges within existing paragraphs, with five separate prooftexts. No optional breadth, new entries, blocks, paragraphs, simple Aramaic glosses, or conflict resolutions.",
+      "changed_paragraphs": 5,
+      "edits": [
+        {
+          "claim_id": "i-nissuin/stages/paragraph-1",
+          "before": "הקידושין קודמים לנישואין ולכניסה לחופה. עם הנישואין נוספים חיובים וזכויות שבין האיש לאשתו: הבעל חייב במזונותיה וזוכה באכילת פירות נכסיה. המאירי מונה בכלל ענייני האישות גם את הכתובה ותוספתה, ושאר הזכויות והחיובים שבין בני הזוג.",
+          "after": "לפי הרמב״ם, כניסה לחופה היא הבאת הארוסה לביתו וייחוד עמה לשם נישואין; בכך היא נעשית נשואה אף שלא נבעלה, ובלבד שהיא ראויה לביאה. ברכת חתנים לבדה אינה עושה נישואין. עם הנישואין נוספים חיובים וזכויות שבין האיש לאשתו: הבעל חייב במזונותיה וזוכה באכילת פירות נכסיה. המאירי מונה בכלל ענייני האישות גם את הכתובה ותוספתה, ושאר הזכויות והחיובים שבין בני הזוג.",
+          "refs_before": [
+            {
+              "source": "i-meiri",
+              "segments": [
+                1
+              ]
+            },
+            {
+              "source": "review-nissuin-m",
+              "segments": [
+                1
+              ]
+            }
+          ],
+          "finding_id": "CQ-01",
+          "reason": "Apply the reviewed narrow conceptual bridge, preserving existing legal qualifications and attached historical sources.",
+          "by_before": "ביאור ערוך על פי המשנה והמאירי",
+          "by_after": "ביאור ערוך על פי המשנה, המאירי והרמב״ם"
+        },
+        {
+          "claim_id": "a-neder/meaning/paragraph-1",
+          "before": "בנדרי איסור חל האיסור על גוף הדבר שנאסר. לכן מי שאסר על עצמו סוכה מסוימת אינו יכול לקיים בה את מצוות הישיבה בסוכה. באמצעות מקרה זה מבאר הרמב״ם את ההבדל בין נדר לשבועה. לצד איסור החפץ הוא מתאר אפשרות אחרת: אדם יכול להתחייב בקרבן בכל פעם שיעשה מצווה. כך, האומר ״קרבן עלי כל זמן שמניח תפילין״ רשאי להניח תפילין, אך בכל פעם שיניחן יתחייב בקרבן מחמת נדרו. במקרה זה לא נאסרו התפילין או הנחתן; עשיית המצווה היא התנאי המחייב אותו בקרבן.",
+          "after": "בנדרי איסור חל האיסור על גוף הדבר שנאסר. לכן מי שאסר על עצמו סוכה מסוימת אינו יכול לקיים בה את מצוות הישיבה בסוכה. באמצעות מקרה זה מבאר הרמב״ם את ההבדל בין נדר לשבועה. בשבועה, לעומת זאת, האדם אוסר את עצמו. לכן שבועה לבטל את מצוות הישיבה בסוכה אינה חלה כשבועת ביטוי, שהרי האדם כבר מושבע לקיימה. לצד איסור החפץ הוא מתאר אפשרות אחרת: אדם יכול להתחייב בקרבן בכל פעם שיעשה מצווה. כך, האומר ״קרבן עלי כל זמן שמניח תפילין״ רשאי להניח תפילין, אך בכל פעם שיניחן יתחייב בקרבן מחמת נדרו. במקרה זה לא נאסרו התפילין או הנחתן; עשיית המצווה היא התנאי המחייב אותו בקרבן.",
+          "refs_before": [
+            {
+              "source": "c-Nedarim-2.2",
+              "segments": [
+                1
+              ]
+            },
+            {
+              "source": "intro",
+              "segments": [
+                41
+              ]
+            }
+          ],
+          "finding_id": "CQ-02",
+          "reason": "Apply the reviewed narrow conceptual bridge, preserving existing legal qualifications and attached historical sources.",
+          "by_before": "ביאור ערוך על פי הרמב״ם",
+          "by_after": "ביאור ערוך על פי הרמב״ם"
+        },
+        {
+          "claim_id": "minchah/nature/paragraph-1",
+          "before": "במנחה הטעונה קמיצה מפרישים קומץ ונותנים אותו בכלי שרת. את הקומץ מקטירים על המזבח, ואת שיירי המנחה אוכלים הכהנים. בביאור מחשבת שלא לשמה משווה הרמב״ם את הקמיצה לשחיטת הזבח, ואת הקומץ והלבונה לאימורים, לעניינים המפורטים בפירושו.",
+          "after": "המנחות באות מן הדגן: בדרך כלל מסולת חיטים; מנחת סוטה ומנחת העומר באות מן השעורים. במנחה הטעונה קמיצה מפרישים קומץ ונותנים אותו בכלי שרת. את הקומץ מקטירים על המזבח, ואת שיירי המנחה אוכלים הכהנים. בביאור מחשבת שלא לשמה משווה הרמב״ם את הקמיצה לשחיטת הזבח, ואת הקומץ והלבונה לאימורים, לעניינים המפורטים בפירושו.",
+          "refs_before": [
+            {
+              "source": "m1-1",
+              "segments": [
+                1
+              ]
+            },
+            {
+              "source": "m2-1",
+              "segments": [
+                1
+              ]
+            },
+            {
+              "source": "m6-1",
+              "segments": [
+                1
+              ]
+            },
+            {
+              "source": "z5-8",
+              "segments": [
+                1
+              ]
+            }
+          ],
+          "finding_id": "CQ-03",
+          "reason": "Apply the reviewed narrow conceptual bridge, preserving existing legal qualifications and attached historical sources.",
+          "by_before": "ביאור ערוך על פי הרמב״ם",
+          "by_after": "ביאור ערוך על פי הרמב״ם"
+        },
+        {
+          "claim_id": "i-ketubah/scope/paragraph-1",
+          "before": "המאירי מבחין בין עיקר הכתובה, תוספת הכתובה ושאר התנאים שבין האיש לאשתו. חלק מן התנאים חלים מכוח תקנת בית דין, גם אם לא נכתבו בפירוש. אחרים תלויים במה שהתנו בני הזוג ובכללים הקובעים את תוקפו של תנאי.",
+          "after": "עיקר הכתובה ותוספתה הם חיוב ממוני של הבעל לאשתו. הרמב״ם מבאר שאין הכתובה חוב הנגבה בכל עת שתרצה, אלא גבייתה לאחר מיתת הבעל או בגירושין, לפי דיניה. המאירי מבחין בין עיקר הכתובה, תוספת הכתובה ושאר התנאים שבין האיש לאשתו. חלק מן התנאים חלים מכוח תקנת בית דין, גם אם לא נכתבו בפירוש. אחרים תלויים במה שהתנו בני הזוג ובכללים הקובעים את תוקפו של תנאי.",
+          "refs_before": [
+            {
+              "source": "i-meiri",
+              "segments": [
+                1
+              ]
+            }
+          ],
+          "finding_id": "CQ-04",
+          "reason": "Apply the reviewed narrow conceptual bridge, preserving existing legal qualifications and attached historical sources.",
+          "by_before": "ביאור ערוך על פי המאירי",
+          "by_after": "ביאור ערוך על פי המאירי והרמב״ם"
+        },
+        {
+          "claim_id": "z-demai/distinction/paragraph-1",
+          "before": "בדמאי יש להפריד בין איסור הפירות לבין זכותו הממונית של מקבל המתנה. כדי לתקן את חשש איסור הטבל, החמירו בתרומת מעשר. אבל לוי או עני המבקשים לקבל את מתנתם צריכים להוכיח שלא ניתנה, שהרי ״המוציא מחברו עליו הראיה״. כך מסביר הרמב״ם מדוע חשש האיסור אינו יוצר בהכרח חיוב לתת ממון לתובע. בפירות שחזקתם מן ההפקר נוהגות קולות נוספות.",
+          "after": "בדמאי יש להפריד בין איסור הפירות לבין זכותו הממונית של מקבל המתנה. כדי לתקן את חשש איסור הטבל, החמירו בתרומת מעשר. אבל לוי או עני המבקשים לקבל את מתנתם צריכים להוכיח שלא ניתנה, שהרי ״המוציא מחברו עליו הראיה״. כך מסביר הרמב״ם מדוע חשש האיסור אינו יוצר בהכרח חיוב לתת ממון לתובע. בדמאי יש להבחין גם בין קביעת שם מעשר ראשון לבין נתינתו ללוי. הרמב״ם מתאר קביעת מעשר ראשון בדיבור כדי להפריש ממנו תרומת מעשר, אף שאין מוציאים את המעשר ללוי מכוח הספק. בפירות שחזקתם מן ההפקר נוהגות קולות נוספות.",
+          "refs_before": [
+            {
+              "source": "c-Demai-1.1",
+              "segments": [
+                1
+              ]
+            }
+          ],
+          "finding_id": "CQ-05",
+          "reason": "Apply the reviewed narrow conceptual bridge, preserving existing legal qualifications and attached historical sources.",
+          "by_before": "ביאור ערוך על פי הרמב״ם",
+          "by_after": "ביאור ערוך על פי הרמב״ם"
+        }
+      ],
+      "prooftexts": [
+        {
+          "id": "teaching-ishut-10",
+          "filename": "teaching-ishut-10.json",
+          "author": "רמב״ם",
+          "url": "https://mechon-mamre.org/i/4110.htm",
+          "note": "מקור משלים נפרד להגדרה המבואית. המקטעים המקומיים הם פסקאות נבחרות שלמות, ולא מספרי ההלכות. ההפניה בכותרת היא למספרי ההלכות המקובלים; זו עדות תעתיק ציבורית ולא בדיקת כתב יד או הסכמת כל הפוסקים. הלכה ו במספור המקובל מופיעה בעמוד מכון ממרא כראש ה ובסוגריים [ו]; ההגדרה מוצגת כשיטת הרמב״ם, לרבות תנאי ראויה לביאה.",
+          "block_id": "i-nissuin/stages",
+          "segments": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "teaching-nedarim-3",
+          "filename": "teaching-nedarim-3.json",
+          "author": "רמב״ם",
+          "url": "https://he.wikisource.org/wiki/רמב%22ם_הלכות_נדרים_ג",
+          "note": "מקור משלים נפרד להגדרה המבואית. המקטעים המקומיים הם פסקאות נבחרות שלמות, ולא מספרי ההלכות. ההפניה בכותרת היא למספרי ההלכות המקובלים; זו עדות תעתיק ציבורית ולא בדיקת כתב יד או הסכמת כל הפוסקים.",
+          "block_id": "a-neder/meaning",
+          "segments": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "id": "teaching-minchah-12",
+          "filename": "teaching-minchah-12.json",
+          "author": "רמב״ם",
+          "url": "https://he.wikisource.org/wiki/רמב%22ם_הלכות_מעשה_הקרבנות_יב",
+          "note": "מקור משלים נפרד להגדרה המבואית. המקטעים המקומיים הם פסקאות נבחרות שלמות, ולא מספרי ההלכות. ההפניה בכותרת היא למספרי ההלכות המקובלים; זו עדות תעתיק ציבורית ולא בדיקת כתב יד או הסכמת כל הפוסקים.",
+          "block_id": "minchah/nature",
+          "segments": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "teaching-ishut-16",
+          "filename": "teaching-ishut-16.json",
+          "author": "רמב״ם",
+          "url": "https://he.wikisource.org/wiki/רמב%22ם_הלכות_אישות_טז",
+          "note": "מקור משלים נפרד להגדרה המבואית. המקטעים המקומיים הם פסקאות נבחרות שלמות, ולא מספרי ההלכות. ההפניה בכותרת היא למספרי ההלכות המקובלים; זו עדות תעתיק ציבורית ולא בדיקת כתב יד או הסכמת כל הפוסקים.",
+          "block_id": "i-ketubah/scope",
+          "segments": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "teaching-maaser-9",
+          "filename": "teaching-maaser-9.json",
+          "author": "רמב״ם",
+          "url": "https://mechon-mamre.org/i/7409.htm",
+          "note": "מקור משלים נפרד להגדרה המבואית. המקטעים המקומיים הם פסקאות נבחרות שלמות, ולא מספרי ההלכות. ההפניה בכותרת היא למספרי ההלכות המקובלים; זו עדות תעתיק ציבורית ולא בדיקת כתב יד או הסכמת כל הפוסקים.",
+          "block_id": "z-demai/distinction",
+          "segments": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ]
+    },
+    "draft_independent_recheck": {
+      "reviewer": "Separate AI reviewer /root/scholarly_reviewer",
+      "recorded_by": "Coordinator from actual collaboration messages; no completed standalone report was produced by reviewer",
+      "scope": "The exact five before/after drafts in teaching_additions_01315.json before attribution-label metadata was added.",
+      "finding": "The exact five overlay after-texts are source-supported on this recheck; I have not found a substantive scope/qualifier defect.",
+      "contexts_read": [
+        "Ishut10:1-2,6; fitness and blessing conditions",
+        "Nedarim3:1,6-12; personal/object and immaterial-vow boundaries",
+        "Maaser9:2-5; designation/delivery",
+        "Ishut16:1-9; debt and collection context",
+        "MaasehHaKorbanot12:1-9; grain and exceptions"
+      ],
+      "requested_followup": "Mixed-source by labels for i-nissuin/stages and i-ketubah/scope should include Rambam alongside retained Meiri/Mishnah basis.",
+      "followup_applied": true,
+      "final_generated_corpus_independently_rechecked": false,
+      "limitation": "Reviewer hit its usage limit before final generated-version recheck. No claim of that recheck, completed scholarly gates, or human approval is made. Coordinator checked generated output and corrected attribution labels.",
+      "human_scholarly_approval": false
+    },
+    "coordinator_generated_check": {
+      "all_five_after_texts_present": true,
+      "new_source_count": 5,
+      "current_source_count": 246,
+      "two_mixed_source_labels_corrected": true,
+      "entry_count": 98,
+      "block_count": 317,
+      "paragraph_item_units": 360,
+      "no_extra_glosses": true,
+      "source_conflicts_preserved": true
+    },
+    "source_files": {
+      "sources/teaching-ishut-10-witness.json": "958c8bc24fb0382d37299f88ae1ab667abbe0d5279c47953f9ec620de8794f8c",
+      "sources/teaching-ishut-10.json": "602e674343a0173b126fce97a77e24b10103a22b973e5b9fd1e7852fb777bae1",
+      "sources/teaching-ishut-16-witness.json": "839c69da5e3847cd0924acf0ed719fb8540a877d2911a2f36407a6c040c7ef6d",
+      "sources/teaching-ishut-16.json": "1d6ec48fdbb9897b14ce3aaf6670ed4757cc32f31492a0c22104bfd358f1d414",
+      "sources/teaching-maaser-9-witness.json": "87ca99e96f58029126e557a68c8535ffe6804e5542ec50b3be9f8b83afbbf9c4",
+      "sources/teaching-maaser-9.json": "7454c19022ba6fee7f0844ef275643754157a3c2f24d7f151c9107a4d80b0103",
+      "sources/teaching-minchah-12-witness.json": "836e0a3b7430ede3d198481af58672176b6a34d4c9c8b94576f2cc66e7a2e482",
+      "sources/teaching-minchah-12.json": "13abcbacbf01c9199a3fbe3c7245de0297222bcf65a8ecb55e998fa03aea3c90",
+      "sources/teaching-nedarim-3-witness.json": "f6166a30914efbe2751a87428f09b0248c9ee11604dfd02f69ee8f628aa767da",
+      "sources/teaching-nedarim-3.json": "fa007371470746acb3cb513e76568214190d459a158a0d1fda1de370edb91d41"
+    },
+    "report": "audit/reviews/teaching-01315/report.md",
+    "application_sha256": "2149c4b044dace52b74c63ed8395bb2e01695a1adc8bfdebf1c153ed5d2d5044",
+    "historical_decisions_unchanged": true,
+    "human_scholarly_approval": false,
+    "validation_status": "passed_local_preservation_browser_host_native_packager_official_validator_two_clean_builds",
+    "limits": [
+      "Independent reviewer checked drafts, not final generated-version output; usage limit prevented the latter.",
+      "Public transcriptions do not establish independent physical edition lineage.",
+      "Previously recorded human scholarly, source-conflict and native installation/rendering gates remain incomplete.",
+      "Accuracy-under-review notice retained; review distribution is not scholarly certification."
+    ],
+    "validation": {
+      "preservation_checks": 7,
+      "packaged_browser": "PASS all existing interface checks plus five rendered additions and five source dialogs",
+      "sdk_host": "PASS pinned9f11690b80bf37703a3d1477a32c677c889dab7b; FlutterRPC boundary remains a double",
+      "transport": "Authorized HTTP loopback; no change to managed file:// policy",
+      "native_packager": "PASS identical ten-file payload; does not certify native installation/rendering of0.13.15",
+      "official_validator": {
+        "passed": true,
+        "errors": 0,
+        "warnings": 0,
+        "bundled_sdk_fallback": true,
+        "published": false
+      },
+      "clean_builds": [
+        {
+          "build": 1,
+          "zip_sha256": "a29b259ccb20a299efa4d0d0f30ff703682d9ede742a499a827e2388beeba377",
+          "files": {
+            "app.js": "952110f04591cc12656faae4deea70da3d5ba1711721efe5f116d8997c9df889",
+            "data/library.js": "9ad9abbc57bdde46e00d033a9087483bd4451b5ca596c31ddc2f6f14b53e0d2a",
+            "fonts/NotoSerifHebrew.ttf": "4a76d07f2f671273d0219e51dc63459323be0c7b7d8106267f0f68af4227a3b5",
+            "fonts/Rubik.ttf": "7604615c681d3594432cb7f1b592657d1cac98acdb60c7e95619cddda19b265f",
+            "fonts/notoserifhebrew-OFL.txt": "9b9fe028b5ba74d231659a1bbaf0ed09b11e759d1ca6a070999e16d151616b47",
+            "fonts/rubik-OFL.txt": "472cbe7c25441df63e9c7864b43eb3c0f4b3df950c66a76224e6cfe1eae843fb",
+            "index.html": "2654bbd7642c67f135b2453d36979928774627ecf13684c48252e9cb0965d2b5",
+            "manifest.json": "be5d6fc2ebc743cc5f435cbecc0b91682dfb9eb9699b64a7873e8b2fd7ff3d11",
+            "style.css": "7633758a8b50cf74431c1381addb867f04c5f13e3cf994239cffb9b2dd79ebc2",
+            "theme-start.js": "8196bd063e270c287accace6dc102392e8fef835f14d100215881cc5b8d86034"
+          }
+        },
+        {
+          "build": 2,
+          "zip_sha256": "ed18ca8fdfab6c27f509b9e66379c20e5a60a70ea13c2d4e2db78f3738d065cb",
+          "files": {
+            "app.js": "952110f04591cc12656faae4deea70da3d5ba1711721efe5f116d8997c9df889",
+            "data/library.js": "9ad9abbc57bdde46e00d033a9087483bd4451b5ca596c31ddc2f6f14b53e0d2a",
+            "fonts/NotoSerifHebrew.ttf": "4a76d07f2f671273d0219e51dc63459323be0c7b7d8106267f0f68af4227a3b5",
+            "fonts/Rubik.ttf": "7604615c681d3594432cb7f1b592657d1cac98acdb60c7e95619cddda19b265f",
+            "fonts/notoserifhebrew-OFL.txt": "9b9fe028b5ba74d231659a1bbaf0ed09b11e759d1ca6a070999e16d151616b47",
+            "fonts/rubik-OFL.txt": "472cbe7c25441df63e9c7864b43eb3c0f4b3df950c66a76224e6cfe1eae843fb",
+            "index.html": "2654bbd7642c67f135b2453d36979928774627ecf13684c48252e9cb0965d2b5",
+            "manifest.json": "be5d6fc2ebc743cc5f435cbecc0b91682dfb9eb9699b64a7873e8b2fd7ff3d11",
+            "style.css": "7633758a8b50cf74431c1381addb867f04c5f13e3cf994239cffb9b2dd79ebc2",
+            "theme-start.js": "8196bd063e270c287accace6dc102392e8fef835f14d100215881cc5b8d86034"
+          }
+        }
+      ],
+      "receipts": "audit/reviews/teaching-01315/validation"
+    },
+    "artifact_sha256": {
+      "draft-recheck.json": "a00d9acf95e81bce74fab3064734b517518bfbd3ee3c862d993fa6364b9d5fc5",
+      "report.md": "67610d2a0a348032053c306bfe7d443f2c449ba7032a5268ab3c99745aae1f1b",
+      "validation/native-receipt.json": "67fb553093f4f8c07cebb73f0dd00d7cea5f87dbb83393b1e47f903b2fafb84c",
+      "validation/teaching-browser.log": "4148ef7815d32e166a5c971bdcbccc43fb20e79702eb3f81dac47579a5a54594",
+      "validation/teaching-clean-build-1.log": "9d0d6b407089c94a6b18e30649aaa8171ebc9a1657bddea08196ce98286586d1",
+      "validation/teaching-clean-build-2.log": "9d0d6b407089c94a6b18e30649aaa8171ebc9a1657bddea08196ce98286586d1",
+      "validation/teaching-clean-builds.json": "7c1463565cdba5bf028f4b8cb2367f7a85ffba8ea9e25a1307a0fb626e86ae97",
+      "validation/teaching-host.log": "0c1d2a1629c3a1782b0a53d09f02cf825db1c79f79e5b3dc689613698084a8c5",
+      "validation/teaching-native.log": "58fb67769bdf15923a6630a5795ac23bcded24e23d0535073886d7f84ec800f1",
+      "validation/teaching-validator.log": "42871dc4edded56226d4352496e1f42be52613cdf0e1a26acb883c271c82ac78"
+    }
   }
 }

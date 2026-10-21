@@ -12,6 +12,8 @@ from polish_revision import apply_polish
 ROOT=Path(__file__).resolve().parent
 manifest=json.loads((ROOT/'refinement_01314.json').read_text())
 current=json.loads((ROOT/'editorial.json').read_text())
+from teaching_additions import pre_teaching_corpus
+current=pre_teaching_corpus(current)  # exact later overlay checked in check_teaching_additions.py
 ledger=json.loads((ROOT/'audit/master-ledger.json').read_text())
 (ROOT/'work').mkdir(exist_ok=True)
 with tempfile.TemporaryDirectory(prefix='polish-baseline-',dir=ROOT/'work') as directory:

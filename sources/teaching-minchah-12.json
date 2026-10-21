@@ -1,0 +1,23 @@
+{
+  "ref": "Mishneh Torah, Sacrificial Procedure 12:1-3",
+  "heRef": "רמב״ם, מעשה הקרבנות יב, א–ג",
+  "he": [
+    "המנחות הם מן הקרבנות והמנחות הבאות בפני עצמן ואינן באות משום נסכים מהם מנחת צבור ומהם מנחת יחיד:",
+    "וכל המנחות סולת חיטין חוץ ממנחת סוטה ועומר התנופה שהם מן השעורים:",
+    "שלש מנחות לצבור עומר התנופה והוא קרב למזבח כמו שיתבאר ושתי הלחם שמביאין ביום עצרת ואלו נקראו מנחה ואינן קריבין לגבי המזבח והן חמץ ועליהם נאמר קרבן ראשית תקריבו אותם לה' ואל המזבח לא יעלו והמנחה השלישית הוא לחם הפנים שעושין בכל שבת ואינו קרב לגבי המזבח אלא כולו נאכל לכהנים כמו שיתבאר:"
+  ],
+  "versions": [
+    {
+      "versionTitle": "Public Hebrew transcription; contextual excerpt",
+      "versionSource": "https://he.wikisource.org/wiki/רמב%22ם_הלכות_מעשה_הקרבנות_יב",
+      "license": "Public Domain",
+      "language": "he"
+    }
+  ],
+  "witness": {
+    "capture": "teaching-minchah-12-witness.json",
+    "url": "https://he.wikisource.org/wiki/רמב%22ם_הלכות_מעשה_הקרבנות_יב",
+    "page_sha256": "ec518648cdbf8986bde0bcd89110e4d37c6ed49ed3355473c61e46ccc9dc5f97"
+  },
+  "scope_note": "Separately attached public-text prooftext; local segment numbers enumerate selected complete paragraphs, not canonical halakhah numbers. Public transcription, no manuscript or physical edition collation."
+}

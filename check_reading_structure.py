@@ -10,6 +10,8 @@ import tempfile
 ROOT = Path(__file__).resolve().parent
 plan = json.loads((ROOT/'reading_structure_0138.json').read_text())
 current = json.loads((ROOT/'editorial.json').read_text())
+from teaching_additions import pre_teaching_corpus
+current=pre_teaching_corpus(current)  # exact later overlay checked in check_teaching_additions.py
 (ROOT/'work').mkdir(exist_ok=True)
 with tempfile.TemporaryDirectory(prefix='structure-baseline-',dir=ROOT/'work') as directory:
     archive = subprocess.check_output(['git','archive',plan['basis_commit']],cwd=ROOT)

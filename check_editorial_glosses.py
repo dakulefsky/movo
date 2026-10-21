@@ -12,6 +12,8 @@ ROOT=Path(__file__).resolve().parent
 manifest=json.loads((ROOT/'editorial_glosses_01311.json').read_text())
 selection=json.loads((ROOT/'editorial_gloss_scope_01312.json').read_text())
 current=json.loads((ROOT/'editorial.json').read_text())
+from teaching_additions import pre_teaching_corpus
+current=pre_teaching_corpus(current)  # exact later overlay checked in check_teaching_additions.py
 ledger=json.loads((ROOT/'audit/master-ledger.json').read_text())
 with tempfile.TemporaryDirectory(prefix='gloss-baseline-',dir=ROOT/'work') as directory:
     archive=subprocess.check_output(['git','archive',selection['basis_commit']],cwd=ROOT)
