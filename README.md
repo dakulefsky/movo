@@ -6,7 +6,7 @@ The plugin introduces the main subjects and essential processes in קדשים, �
 
 ## Install
 
-Install the **0.13.5** package once validated from the `Mevoot-Hashas-plugin` artifact of the latest successful [GitHub Actions run](https://github.com/dakulefsky/movo/actions/workflows/release.yml), or from the Otzaria plugin listing once its update is published. The older [0.12.0 package](dist/Mevoot-Shas-0.12.0.otzplugin) remains in the repository for comparison. No internet connection or AI service is required by the installed plugin.
+Install the **0.13.6** review package once validated from the `Mevoot-Hashas-plugin` artifact of the latest successful [GitHub Actions run](https://github.com/dakulefsky/movo/actions/workflows/release.yml), or from the Otzaria plugin listing once its update is published. The older [0.12.0 package](dist/Mevoot-Shas-0.12.0.otzplugin) remains in the repository for comparison. No internet connection or AI service is required by the installed plugin.
 
 The manifest declares Otzaria 0.9.97 or later. Package validation was run against 0.9.98. Installation and source opening in a running installed Otzaria application remain unverified; see [VALIDATION.md](VALIDATION.md).
 
@@ -144,3 +144,7 @@ A consolidated review of the exact 0.13.4 prose identified one serious ambiguity
 ### Source-first depth additions
 
 Five short introductions were deliberately expanded instead of increasing the index count: inner blood applications (`k-matanot/inner`), the Mishnah's specific standards for unavoidable losses by animal attacks (`d-shomer-ones/wolves`), the five grain species and their related obligations (`z-five-grains/species`), the Meiri's map of Ketubot (`i-ketubah/source-map`), and the distinction between invalid slaughter, retained meilah and the three formulae of the Mishnah (`k-meilah/invalid-service`). See `DEPTH-REVIEW-0.13.5.json` for complete prose and passage anchors. The build and packaged regression tests require both directly cited source evidence and minimum meaningful depth in each revised explanation.
+
+## 0.13.6 review distribution
+
+The plugin and store short description explicitly state that content accuracy is under review. This version carries the adjudicated repairs without declaring scholarly clearance. It can be published from `audit-0135-repairs` by manually running the existing release workflow; no merge into main is required. The workflow checks reviewed evidence preservation instead of overwriting the master ledger. Historical review files retain their 0.13.5 audit basis.

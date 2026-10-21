@@ -60,4 +60,4 @@ html[data-theme-wait] body{visibility:hidden;background:transparent}html[data-th
 @media(max-width:480px){.home-heading h1{font-size:2.35rem}.home-heading{padding-top:6px}.subject-grid{gap:10px}.subject-card{padding:17px 18px;min-height:0}.subject-card .subject-title{font-size:1.4rem}.subject-card small{min-height:0}.section-heading{display:block}.section-heading h2{margin-bottom:4px}.topic-directory{grid-template-columns:1fr;row-gap:22px}.reading-toolbar #read-all{margin-inline-end:0}.continue-panel{align-items:flex-start;flex-direction:column}.pager button{max-width:100%}}
 @media(prefers-reduced-motion:reduce){.subject-card{transition:none}.subject-card:hover{transform:none}}
 
-.accuracy-notice{flex-shrink:0;margin:0;padding:8px 20px;border-bottom:1px solid var(--border);color:var(--muted);font-size:13px;line-height:1.5}
+.accuracy-notice{flex-shrink:0;margin:0;padding:8px 20px;border-bottom:1px solid var(--border);color:var(--muted);font-size:.8125rem;line-height:1.5}

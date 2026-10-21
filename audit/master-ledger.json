@@ -81764,5 +81764,16 @@
         }
       ]
     }
+  },
+  "review_store_distribution": {
+    "version": "0.13.6",
+    "status": "publishing_requested_not_yet_confirmed",
+    "audit_basis": "0.13.5, aa8d284e6e0b72844850408e3f47d311949b3cc2",
+    "accuracy_notice": "דיוק התוכן נמצא בבדיקה.",
+    "authorization_context": "User requested store availability for reviewing accuracy and explicitly requested the accuracy-under-review notice inside the plugin. This is a review distribution, not scholarly certification.",
+    "content_status": "No scholarly status changed; original source snapshots and all historical review evidence remain intact.",
+    "publication_route": "Manual release.yml workflow on audit-0135-repairs; no merge into main.",
+    "package_sha256": "08834fa7ddd5f2e0f12d2e91af4c5f8980f32cfc46ee2263b4dc63eac8d19cbe",
+    "local_validation": "Two content builds and evidence-preservation check passed; packaged browser and pinned-host SDK suites passed over authorized HTTP; final native packaging passed with matching payload; official validator passed with zero errors/warnings/design notices. Review notice font uses relative units."
   }
 }

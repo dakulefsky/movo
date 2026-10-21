@@ -14,6 +14,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -24,10 +26,8 @@ jobs:
         run: |
           python3 build.py
           python3 package.py
-      - name: Generate full source audit baseline
-        run: |
-          python3 generate_audit_ledger.py
-          python3 -c "import json; d=json.load(open('audit/master-ledger.json')); assert d['block_count']==317 and d['claim_units']>=317 and all(r['decision']=='not_reviewed' for r in d['rows'])"
+      - name: Check repairs without overwriting reviewed audit evidence
+        run: python3 check_adjudicated_repairs.py
       - name: Verify generated content exports are committed
         run: git diff --exit-code -- Mevoot-Shas-Content.md EDITORIAL-FORMAT.json
       - name: Test the packaged reading interface

@@ -3,8 +3,8 @@ const assert=require('node:assert/strict'),path=require('node:path'),fs=require(
 let pw;try{pw=require('playwright')}catch{pw=require(process.env.CODEX_PRIMARY_RUNTIME_NODE_MODULES+'/playwright')}
 (async()=>{
 const root=__dirname,unpacked=path.join(root,'test-unpacked');fs.rmSync(unpacked,{recursive:true,force:true});fs.mkdirSync(unpacked);
-execFileSync('python',['-c',`import zipfile;zipfile.ZipFile(${JSON.stringify(path.join(root,'dist/Mevoot-Shas-0.13.5.otzplugin'))}).extractall(${JSON.stringify(unpacked)})`]);
-const manifest=JSON.parse(fs.readFileSync(path.join(unpacked,'manifest.json')));assert.equal(manifest.author,'DanTheMan');assert.equal(manifest.version,'0.13.5');assert.equal(manifest.network.enabled,false);
+execFileSync('python',['-c',`import zipfile;zipfile.ZipFile(${JSON.stringify(path.join(root,'dist/Mevoot-Shas-0.13.6.otzplugin'))}).extractall(${JSON.stringify(unpacked)})`]);
+const manifest=JSON.parse(fs.readFileSync(path.join(unpacked,'manifest.json')));assert.equal(manifest.author,'DanTheMan');assert.equal(manifest.version,'0.13.6');assert.equal(manifest.network.enabled,false);
 const runtime=await packageRuntime(unpacked);
 const browser=await pw.chromium.launch({headless:true,...(process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE?{executablePath:process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE}:{}),args:['--no-sandbox']}),page=await browser.newPage();const errors=[],remote=[];
 try{
@@ -354,6 +354,6 @@ for(const correction of depth.updates){
 assert.match(entry('asham','animals').paragraphs.join(' '),/זכרי הכבשים/);
 assert.match(entry('asham','animals').paragraphs.join(' '),/אף באשם תלוי מפורש בנוסח משנה תורה/);
 assert.match(entry('av-melikah','act').paragraphs.join(' '),/אין מבדילים/);
-assert.deepEqual(errors,[]);assert.deepEqual(remote,[]);console.log(`PASS: actual unpacked 0.13.5 package; home search, voluntary resume, continuous reading; all 98 entries and 317 block controls in six areas; new avodot source dialogs and reciprocal offering links; cross-area deep-link search and exact source dialogs; Hebrew search, back/reload/pager, SDK success and failure paths, mobile+desktop no overflow, font persistence. No external network requests, JS errors or screenshots. Transport: ${process.env.MOVO_TEST_TRANSPORT||'file'}.`);
+assert.deepEqual(errors,[]);assert.deepEqual(remote,[]);console.log(`PASS: actual unpacked 0.13.6 package; home search, voluntary resume, continuous reading; all 98 entries and 317 block controls in six areas; new avodot source dialogs and reciprocal offering links; cross-area deep-link search and exact source dialogs; Hebrew search, back/reload/pager, SDK success and failure paths, mobile+desktop no overflow, font persistence. No external network requests, JS errors or screenshots. Transport: ${process.env.MOVO_TEST_TRANSPORT||'file'}.`);
 }finally{await browser.close();await runtime.close()}
 })().catch(e=>{console.error(e);process.exit(1)});
