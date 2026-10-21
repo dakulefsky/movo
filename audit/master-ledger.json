@@ -85823,5 +85823,17 @@
         }
       }
     ]
+  },
+  "final_readability_store_distribution": {
+    "version": "0.13.14",
+    "status": "published_review_distribution",
+    "workflow_run_id": 39637382648,
+    "workflow_url": "https://github.com/dakulefsky/movo/actions/runs/39637382648",
+    "published_at_utc": "2026-10-21T16:44:55.3942906Z",
+    "publisher_confirmation": "✓ העדכון פורסם בחנות בגרסה 0.13.14",
+    "workflow_log_sha256": "3c10c156c153e47500f0f4e90bbadc40fa5526124f5db8c0afb5935a8be9e7b5",
+    "scope": "Two guarded wording fixes only. Source quotations, legal qualifications, sparse gloss selection and prior scholarly decisions retained.",
+    "scholarly_clearance": false,
+    "publication_route": "Manual workflow on audit-0135-repairs; no main merge."
   }
 }
