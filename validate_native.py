@@ -70,19 +70,19 @@ def main():
             number = display.stdout.readline().decode().strip()
             assert number.isdigit(), ('virtual display startup', number)
             env['DISPLAY'] = ':' + number
-            output = work / 'Mevoot-Shas-0.13.7.otzplugin'
+            output = work / 'Mevoot-Shas-0.13.8.otzplugin'
             command = [str(app / 'otzaria.bin'), 'pack-plugin', str(ROOT / 'plugin'), '--output', str(output), '--force']
             result = subprocess.run(command, cwd=work, env=env, capture_output=True, text=True, timeout=60)
             (work / 'packager.log').write_text(result.stdout + result.stderr)
             assert result.returncode == 0, ('native packager failed', result.returncode, result.stderr)
             actual = payload(output)
-            assert actual == payload(ROOT / 'dist/Mevoot-Shas-0.13.7.otzplugin'), 'Native package payload differs from tested Python package'
-            receipt = {'official_release':'0.9.98+801', 'plugin_version':'0.13.7', 'native_packager_exit':result.returncode, 'package_sha256':hashlib.sha256(output.read_bytes()).hexdigest(), 'package_file_hashes':actual, 'same_payload_as_tested_package':True, 'runtime_package_sha256':{name:digest for name,_,digest in PACKAGES}, 'limits':'Native packaging only. --open permits manual GUI installation/reading checks; indexed reader opening and scholarly approval are separate.'}
+            assert actual == payload(ROOT / 'dist/Mevoot-Shas-0.13.8.otzplugin'), 'Native package payload differs from tested Python package'
+            receipt = {'official_release':'0.9.98+801', 'plugin_version':'0.13.8', 'native_packager_exit':result.returncode, 'package_sha256':hashlib.sha256(output.read_bytes()).hexdigest(), 'package_file_hashes':actual, 'same_payload_as_tested_package':True, 'runtime_package_sha256':{name:digest for name,_,digest in PACKAGES}, 'limits':'Native packaging only. --open permits manual GUI installation/reading checks; indexed reader opening and scholarly approval are separate.'}
             (work / 'receipt.json').write_text(json.dumps(receipt, indent=2)+'\n')
-            print('PASS native Otzaria packager: 10 files, CRC valid, payload identical to tested 0.13.7 package.')
+            print('PASS native Otzaria packager: 10 files, CRC valid, payload identical to tested 0.13.8 package.')
             if args.open:
                 print('Opening isolated native test profile on display '+env['DISPLAY']+'. Close Otzaria to finish; no release or publication occurs.', flush=True)
-                subprocess.run(['dbus-run-session', '--', str(app / 'otzaria.bin'), str(ROOT / 'dist/Mevoot-Shas-0.13.7.otzplugin')], cwd=work, env=env, check=True)
+                subprocess.run(['dbus-run-session', '--', str(app / 'otzaria.bin'), str(ROOT / 'dist/Mevoot-Shas-0.13.8.otzplugin')], cwd=work, env=env, check=True)
         finally:
             display.terminate()
             display.wait(timeout=10)

@@ -1,3 +1,7 @@
+# Current reading structure — 0.13.8
+
+All 98 introductions have explicit nonempty reading stages and linked outlines. All 317 complete blocks, 360 claims and 241 sources are preserved exactly against the committed 0.13.7 build. No new legal explanations or quotations are introduced. Current build, browser, SDK, native and store results are recorded in `audit/master-ledger.json`; earlier results below remain historical.
+
 # Current review build — 0.13.7
 
 The readability pass changes 203 explanatory paragraphs in 185 of the existing 317 blocks. Exact source-preservation and guarded-overlay checks pass for all 241 source records and 360 claim units. Two clean builds produce identical ten-file package payloads; ZIP timestamps may differ. Host SDK tests, native Otzaria packaging and official validation pass (zero errors/warnings, local validation `published=false`, bundled SDK fallback). The full packaged browser suite passes using the authorized loopback HTTP preview transport, checking all 98 entries and 317 block controls with no external requests or JavaScript errors. Store receipts are recorded separately in `audit/master-ledger.json`.

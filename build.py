@@ -239,6 +239,9 @@ for handbook in handbooks:
 (ROOT/'EDITORIAL-DEPTH-REPORT.json').write_text(json.dumps(depth_report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 
 
+from reading_structure import apply_reading_structure
+print('structured introductions:', apply_reading_structure(handbooks))
+
 all_entries=[e for h in handbooks for e in h['entries']]
 ids=[e['id'] for e in all_entries]
 assert len(ids)==len(set(ids)), 'Entry IDs must be globally unique'
@@ -259,7 +262,7 @@ for src in sources.values():
   for key in d['provenance']['jsonPath']:obj=obj[key]
   obj=[obj] if isinstance(obj,str) else obj
   assert obj==d['he'],src['filename']
-data={'schemaVersion':2,'version':'0.13.7','author':'DanTheMan','editorialPolicy':policy,'subjects':[{'id':id,'title':title,'status':status} for id,title,status in [('kodashim','קדשים','available'),('tahorot','טהרות','available'),('ishut','אישות','available'),('zeraim','זרעים','available'),('mammon','דיני ממונות','available'),('issur','איסור והיתר','available')]],'handbooks':handbooks,'sources':sources}
+data={'schemaVersion':2,'version':'0.13.8','author':'DanTheMan','editorialPolicy':policy,'subjects':[{'id':id,'title':title,'status':status} for id,title,status in [('kodashim','קדשים','available'),('tahorot','טהרות','available'),('ishut','אישות','available'),('zeraim','זרעים','available'),('mammon','דיני ממונות','available'),('issur','איסור והיתר','available')]],'handbooks':handbooks,'sources':sources}
 (ROOT/'plugin/data').mkdir(parents=True,exist_ok=True)
 (ROOT/'plugin/data/library.js').write_text('window.MEVOOT='+json.dumps(data,ensure_ascii=False)+';\n')
 (ROOT/'editorial.json').write_text(json.dumps(data,ensure_ascii=False,indent=2))
@@ -268,12 +271,15 @@ def export(h):
  lines=['# '+h['title']+' — '+h['subtitle'],'',h['method'],'']
  for e in h['entries']:
   lines+=['## '+e['title'],'']
-  for b in e['blocks']:
-   lines+=['### '+b['title'],'']
-   for text in b['paragraphs']:lines+=[text,'']
-   for item in b['items']:lines+=['**'+item['label']+'** — '+item['text'],'']
-   lines+=['מקורות: '+'; '.join(sources[r['source']]['citation']+' — מקטעים '+','.join(map(str,r['segments'])) for r in b['refs']),'']
-   if b['by']!='ביאור ערוך על פי הרמב״ם':lines+=[b['by'],'']
+  for section in e['readingSections']:
+   lines+=['### '+section['title'],'']
+   for block_id in section['blocks']:
+    b=next(b for b in e['blocks'] if b['id']==block_id)
+    lines+=['#### '+b['title'],'']
+    for text in b['paragraphs']:lines+=[text,'']
+    for item in b['items']:lines+=['**'+item['label']+'** — '+item['text'],'']
+    lines+=['מקורות: '+'; '.join(sources[r['source']]['citation']+' — מקטעים '+','.join(map(str,r['segments'])) for r in b['refs']),'']
+    if b['by']!='ביאור ערוך על פי הרמב״ם':lines+=[b['by'],'']
  lines+=['## היקף ההסברים','',h['limits']]
  return '\n'.join(lines)
 (ROOT/'Mevoot-Shas-Content.md').write_text('\n\n---\n\n'.join(export(h) for h in handbooks))

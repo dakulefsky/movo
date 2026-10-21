@@ -61,6 +61,7 @@ $('search-toggle').onclick=()=>{const open=$('search-panel').hidden;$('search-pa
 $('home-search').onclick=()=>{$('search-toggle').click();if(!$('search-panel').hidden)$('scroll-content').scrollTop=0;};
 $('read-all').onclick=()=>document.querySelectorAll('.chapter').forEach(x=>x.open=true);
 function refControls(refs){const d=el('details');d.className='refs';d.append(el('summary','לעיון במקורות'));for(const r of refs){const src=D.sources[r.source];d.append(btn(src.citation+' · מקטעים '+r.segments.join(', '),()=>showSource(src.id,r.segments)));}return d;}
+function renderBlock(e,b,container){const d=el('details');d.className='chapter';d.id=e.id+'--'+b.id;d.open=e.blocks.indexOf(b)===0;d.append(el('summary',b.title));for(const p of b.paragraphs)d.append(el('p',p));if(b.items.length){const list=el('dl');list.className='fact-list';for(const i of b.items){list.append(el('dt',i.label),el('dd',i.text));}d.append(list);}const by=el('div',b.by);by.className='by';d.append(by);d.append(refControls(b.refs));if(b.links.length){const related=el('nav');related.className='related';related.setAttribute('aria-label','ענינים קשורים');for(const id of b.links){const next=allEntriesById.get(id);if(next)related.append(btn(next.title,()=>navigate(id)));}d.append(related);}container.append(d);}
 function render(id,blockId){
  H=D.handbooks.find(h=>h.entries.some(e=>e.id===id));if(!H){showHome();return;}
  const e=H.entries.find(x=>x.id===id);current=e.id;showView('entry');$('subject-switch').value=H.id;
@@ -68,7 +69,20 @@ function render(id,blockId){
  try{localStorage.setItem('mevoot-last-entry',JSON.stringify({id:e.id}));}catch{}
  $('article').replaceChildren(el('h2',e.title));$('entry-label').textContent=e.title;$('back-subject').textContent=H.title;
  document.querySelectorAll('[data-subject]').forEach(b=>{if(b.dataset.subject===H.id)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');});
-for(const b of e.blocks){const d=el('details');d.className='chapter';d.id=e.id+'--'+b.id;d.open=e.blocks.indexOf(b)===0;d.append(el('summary',b.title));for(const p of b.paragraphs)d.append(el('p',p));if(b.items.length){const list=el('dl');list.className='fact-list';for(const i of b.items){list.append(el('dt',i.label),el('dd',i.text));}d.append(list);}const by=el('div',b.by);by.className='by';d.append(by);d.append(refControls(b.refs));if(b.links.length){const related=el('nav');related.className='related';related.setAttribute('aria-label','ענינים קשורים');for(const id of b.links){const next=allEntriesById.get(id);if(next)related.append(btn(next.title,()=>navigate(id)));}d.append(related);}$('article').append(d);}
+const outline=el('nav');outline.className='entry-outline';outline.setAttribute('aria-label','מה נלמד במבוא');
+const outlineTitle=el('p','מה נלמד במבוא');outlineTitle.className='outline-title';outline.append(outlineTitle);
+const outlineGroups=el('div');outlineGroups.className='outline-groups';outline.append(outlineGroups);
+for(const section of e.readingSections){
+ const group=el('div');group.append(el('p',section.title));
+ const list=el('ul');for(const blockId of section.blocks){const b=e.blocks.find(b=>b.id===blockId),item=el('li'),link=el('a',b.title);link.href='#'+e.id+'--'+b.id;link.onclick=event=>{event.preventDefault();navigate(e.id,b.id);};item.append(link);list.append(item);}group.append(list);outlineGroups.append(group);
+}
+$('article').append(outline);
+for(const section of e.readingSections){
+ const group=el('section');group.className='reading-stage';group.dataset.stage=section.id;
+ const heading=el('h3',section.title);heading.id=e.id+'--stage-'+section.id;group.setAttribute('aria-labelledby',heading.id);group.append(heading);
+ for(const blockId of section.blocks)renderBlock(e,e.blocks.find(b=>b.id===blockId),group);
+ $('article').append(group);
+}
 const n=H.entries.indexOf(e),pager=el('nav');pager.className='pager';pager.setAttribute('aria-label','מעבר בין הענינים');if(n>0)pager.append(btn('הקודם: '+H.entries[n-1].title,()=>navigate(H.entries[n-1].id)));if(n<H.entries.length-1)pager.append(btn('הבא: '+H.entries[n+1].title,()=>navigate(H.entries[n+1].id)));$('article').append(pager);
 fillDirectory(H);
 if(blockId){const b=$(e.id+'--'+blockId);if(b){b.open=true;requestAnimationFrame(()=>b.scrollIntoView({block:'start'}));}}
