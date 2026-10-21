@@ -72,3 +72,5 @@ html[data-theme-wait] body{visibility:hidden;background:transparent}html[data-th
 .reading-stage{margin:28px 0}
 .reading-stage>h3{font-family:var(--font-ui);font-size:1.15rem;font-weight:600;margin:0 0 10px;line-height:1.7}
 @media(max-width:480px){.outline-groups{grid-template-columns:1fr;gap:14px}.entry-outline{padding:15px}.reading-stage{margin:24px 0}}
+
+.editorial-gloss{font-size:.9em;color:var(--muted);font-style:normal;overflow-wrap:break-word}

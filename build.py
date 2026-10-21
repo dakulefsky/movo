@@ -264,7 +264,10 @@ for src in sources.values():
   for key in d['provenance']['jsonPath']:obj=obj[key]
   obj=[obj] if isinstance(obj,str) else obj
   assert obj==d['he'],src['filename']
-data={'schemaVersion':2,'version':'0.13.10','author':'DanTheMan','editorialPolicy':policy,'subjects':[{'id':id,'title':title,'status':status} for id,title,status in [('kodashim','קדשים','available'),('tahorot','טהרות','available'),('ishut','אישות','available'),('zeraim','זרעים','available'),('mammon','דיני ממונות','available'),('issur','איסור והיתר','available')]],'handbooks':handbooks,'sources':sources}
+from editorial_glosses import compile_glosses, explained_text
+editorial_glosses=compile_glosses(handbooks)
+print('editorial glosses:',sum(map(len,editorial_glosses.values())))
+data={'editorialGlosses':editorial_glosses,'schemaVersion':2,'version':'0.13.11','author':'DanTheMan','editorialPolicy':policy,'subjects':[{'id':id,'title':title,'status':status} for id,title,status in [('kodashim','קדשים','available'),('tahorot','טהרות','available'),('ishut','אישות','available'),('zeraim','זרעים','available'),('mammon','דיני ממונות','available'),('issur','איסור והיתר','available')]],'handbooks':handbooks,'sources':sources}
 (ROOT/'plugin/data').mkdir(parents=True,exist_ok=True)
 (ROOT/'plugin/data/library.js').write_text('window.MEVOOT='+json.dumps(data,ensure_ascii=False)+';\n')
 (ROOT/'editorial.json').write_text(json.dumps(data,ensure_ascii=False,indent=2))
@@ -278,7 +281,9 @@ def export(h):
    for block_id in section['blocks']:
     b=next(b for b in e['blocks'] if b['id']==block_id)
     lines+=['#### '+b['title'],'']
-    for text in b['paragraphs']:lines+=[text,'']
+    for index,text in enumerate(b['paragraphs'],1):
+     key=e['id']+'/'+b['id']+'/paragraph-'+str(index)
+     lines+=[explained_text(text,editorial_glosses.get(key,[])),'']
     for item in b['items']:lines+=['**'+item['label']+'** — '+item['text'],'']
     lines+=['מקורות: '+'; '.join(sources[r['source']]['citation']+' — מקטעים '+','.join(map(str,r['segments'])) for r in b['refs']),'']
     if b['by']!='ביאור ערוך על פי הרמב״ם':lines+=[b['by'],'']

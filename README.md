@@ -12,9 +12,11 @@ The 0.13.9 final wording polish smooths 14 remaining sentences without changing 
 
 The 0.13.10 pass splits long sentences in eight passages. Every word and its order are preserved; only sentence punctuation changes.
 
+The 0.13.11 reader edition adds short Hebrew glosses for selected unfamiliar terms, explicitly labeled **תרגום העורך** or **ביאור העורך** in parentheses. These are separate editorial annotations; original paragraphs and all source text remain unchanged.
+
 ## Install
 
-Install the **0.13.10** review package from the `Mevoot-Hashas-plugin` artifact of the latest successful [GitHub Actions run](https://github.com/dakulefsky/movo/actions/workflows/release.yml), or update it from the Otzaria plugin store. The older [0.12.0 package](dist/Mevoot-Shas-0.12.0.otzplugin) remains in the repository for comparison. No internet connection or AI service is required by the installed plugin.
+Install the **0.13.11** review package from the `Mevoot-Hashas-plugin` artifact of the latest successful [GitHub Actions run](https://github.com/dakulefsky/movo/actions/workflows/release.yml), or update it from the Otzaria plugin store. The older [0.12.0 package](dist/Mevoot-Shas-0.12.0.otzplugin) remains in the repository for comparison. No internet connection or AI service is required by the installed plugin.
 
 The manifest declares Otzaria 0.9.97 or later. Package validation was run against 0.9.98. Selected installation and reading checks passed in native Otzaria; successful indexed-source opening still needs a real library catalogue. See [audit/README.md](audit/README.md) for current validation and scholarly limitations.
 
@@ -27,7 +29,7 @@ python3 build.py
 python3 package.py
 ```
 
-This generates the content export, editorial data and `plugin/data/library.js`, then creates `dist/Mevoot-Shas-0.13.10.otzplugin`. Build output is reproducible without fetching source texts.
+This generates the content export, editorial data and `plugin/data/library.js`, then creates `dist/Mevoot-Shas-0.13.11.otzplugin`. Build output is reproducible without fetching source texts.
 
 ## Sources and editorial scope
 

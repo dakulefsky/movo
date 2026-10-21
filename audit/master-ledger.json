@@ -85380,5 +85380,215 @@
     "workflow_log_sha256": "eac9947747e37967c1ba9d2f21b98e1adc16f44823b33848b4d6e542f4fa42aa",
     "publication_route": "Manual release.yml on audit-0135-repairs; no main merge.",
     "content_status": "Sentence boundaries only in eight paragraphs; every word retained in original order. Earlier scholarly decisions and source conflicts unchanged."
+  },
+  "editorial_gloss_checkpoint": {
+    "version": "0.13.11",
+    "basis_commit": "88d568d",
+    "manifest": "editorial_glosses_01311.json",
+    "annotations": [
+      {
+        "claim_id": "av-shechitah/act/paragraph-1",
+        "paragraph_sha256": "2a8503274829e8bbb12c06dae5b61baf2e40e61235812cbdc62bee859bbc8da1",
+        "anchor": "לכתחילה",
+        "occurrence": 1,
+        "term": "לכתחילה",
+        "explanation": "הדין מראש, לפני שהמעשה נעשה",
+        "label": "ביאור העורך",
+        "review": "Short editorial lexical gloss; independent scholarly recheck pending."
+      },
+      {
+        "claim_id": "av-shechitah/act/paragraph-1",
+        "paragraph_sha256": "2a8503274829e8bbb12c06dae5b61baf2e40e61235812cbdc62bee859bbc8da1",
+        "anchor": "בדיעבד",
+        "occurrence": 1,
+        "term": "בדיעבד",
+        "explanation": "לאחר שהמעשה כבר נעשה",
+        "label": "ביאור העורך",
+        "review": "Short editorial lexical gloss; independent scholarly recheck pending."
+      },
+      {
+        "claim_id": "av-zerikah/meakev/paragraph-1",
+        "paragraph_sha256": "924b3c4054c636ab36839aded97bf80871caaa89b49ace851b7ea3dc19de8984",
+        "anchor": "בדיעבד",
+        "occurrence": 1,
+        "term": "בדיעבד",
+        "explanation": "לאחר שהמעשה כבר נעשה",
+        "label": "ביאור העורך",
+        "review": "Short editorial lexical gloss; independent scholarly recheck pending."
+      },
+      {
+        "claim_id": "k-matanot/outer/paragraph-1",
+        "paragraph_sha256": "ab136a3ee74ed1a28056e4377e91f4669d9bb51b9ed1046ec209810ecd85d6db",
+        "anchor": "לכתחילה",
+        "occurrence": 1,
+        "term": "לכתחילה",
+        "explanation": "הדין מראש, לפני שהמעשה נעשה",
+        "label": "ביאור העורך",
+        "review": "Short editorial lexical gloss; independent scholarly recheck pending."
+      },
+      {
+        "claim_id": "k-matanot/outer/paragraph-1",
+        "paragraph_sha256": "ab136a3ee74ed1a28056e4377e91f4669d9bb51b9ed1046ec209810ecd85d6db",
+        "anchor": "בדיעבד",
+        "occurrence": 1,
+        "term": "בדיעבד",
+        "explanation": "לאחר שהמעשה כבר נעשה",
+        "label": "ביאור העורך",
+        "review": "Short editorial lexical gloss; independent scholarly recheck pending."
+      },
+      {
+        "claim_id": "avodot/worker/paragraph-1",
+        "paragraph_sha256": "1df5ff0b10dc53be3c8951fcf522b5529145dd138be90dbed2b4c1cf32e2239c",
+        "anchor": "לכתחילה",
+        "occurrence": 1,
+        "term": "לכתחילה",
+        "explanation": "הדין מראש, לפני שהמעשה נעשה",
+        "label": "ביאור העורך",
+        "review": "Short editorial lexical gloss; independent scholarly recheck pending."
+      },
+      {
+        "claim_id": "z-orlah/chutz/paragraph-1",
+        "paragraph_sha256": "2473406eec76f449862ca9d3f6ae5fbeeff188e3c8219dc7edc08b71394a06fb",
+        "anchor": "סיפא",
+        "occurrence": 1,
+        "term": "סיפא",
+        "explanation": "החלק האחרון של המשנה",
+        "label": "תרגום העורך",
+        "review": "Short editorial lexical gloss; independent scholarly recheck pending."
+      },
+      {
+        "claim_id": "z-orlah/chutz/paragraph-1",
+        "paragraph_sha256": "2473406eec76f449862ca9d3f6ae5fbeeff188e3c8219dc7edc08b71394a06fb",
+        "anchor": "רישא",
+        "occurrence": 1,
+        "term": "רישא",
+        "explanation": "החלק הראשון של המשנה",
+        "label": "תרגום העורך",
+        "review": "Short editorial lexical gloss; independent scholarly recheck pending."
+      },
+      {
+        "claim_id": "z-kilayim/grafting/paragraph-1",
+        "paragraph_sha256": "890ecdee2215dcd58eec96f1e9278d15e8f63526895343f6444d8606aef3ad2e",
+        "anchor": "לכתחילה",
+        "occurrence": 1,
+        "term": "לכתחילה",
+        "explanation": "הדין מראש, לפני שהמעשה נעשה",
+        "label": "ביאור העורך",
+        "review": "Short editorial lexical gloss; independent scholarly recheck pending."
+      },
+      {
+        "claim_id": "z-shemittat-kesafim/debt/paragraph-1",
+        "paragraph_sha256": "5cfcd1ca33b20f071e6da610cb6720801c050523db3fbb653694c537fcee1a4f",
+        "anchor": "לכתחילה",
+        "occurrence": 1,
+        "term": "לכתחילה",
+        "explanation": "הדין מראש, לפני שהמעשה נעשה",
+        "label": "ביאור העורך",
+        "review": "Short editorial lexical gloss; independent scholarly recheck pending."
+      },
+      {
+        "claim_id": "d-shevuot/distinction/paragraph-1",
+        "paragraph_sha256": "7f933bca9cff8e1fb1472d6b8447644a56a5e2c1d510d6d327a9f190e4a5782c",
+        "anchor": "דאורייתא",
+        "occurrence": 1,
+        "term": "דאורייתא",
+        "explanation": "מן התורה",
+        "label": "תרגום העורך",
+        "review": "Short editorial lexical gloss; independent scholarly recheck pending."
+      },
+      {
+        "claim_id": "d-edut/distinction/paragraph-1",
+        "paragraph_sha256": "e3f2a94c2e6c443b82db102889e40a9de289e1ca649f5e6df2c57167e6fe0760",
+        "anchor": "״הוו עלי עדים״",
+        "occurrence": 1,
+        "term": "הוו עלי עדים",
+        "explanation": "הֱיוּ עָלַי עֵדִים",
+        "label": "תרגום העורך",
+        "review": "Short editorial lexical gloss; independent scholarly recheck pending."
+      },
+      {
+        "claim_id": "a-shechitah/meaning/paragraph-1",
+        "paragraph_sha256": "44d719dc87b38df6adb04cfd25352c4c4ef39ef105e8032d387831838952dec5",
+        "anchor": "לכתחילה",
+        "occurrence": 1,
+        "term": "לכתחילה",
+        "explanation": "הדין מראש, לפני שהמעשה נעשה",
+        "label": "ביאור העורך",
+        "review": "Short editorial lexical gloss; independent scholarly recheck pending."
+      },
+      {
+        "claim_id": "a-shechitah/meaning/paragraph-1",
+        "paragraph_sha256": "44d719dc87b38df6adb04cfd25352c4c4ef39ef105e8032d387831838952dec5",
+        "anchor": "בדיעבד",
+        "occurrence": 1,
+        "term": "בדיעבד",
+        "explanation": "לאחר שהמעשה כבר נעשה",
+        "label": "ביאור העורך",
+        "review": "Short editorial lexical gloss; independent scholarly recheck pending."
+      },
+      {
+        "claim_id": "a-taam/distinction/paragraph-1",
+        "paragraph_sha256": "d0c28facb4d9af8f02dac4f89bfa2a5850f5396d98421ca981449464b4d9d644",
+        "anchor": "כחל",
+        "occurrence": 1,
+        "term": "כחל",
+        "explanation": "עטין הבהמה",
+        "label": "ביאור העורך",
+        "review": "Short editorial lexical gloss; independent scholarly recheck pending."
+      },
+      {
+        "claim_id": "a-taam/udder/paragraph-1",
+        "paragraph_sha256": "e7acd8f0e44833cbf33f83f68dd4376c03d2f4e835e6f3015a9607025ee00498",
+        "anchor": "כחל",
+        "occurrence": 1,
+        "term": "כחל",
+        "explanation": "עטין הבהמה",
+        "label": "ביאור העורך",
+        "review": "Repeat the short lexical gloss in the separately accessible udder block; independent scholarly recheck pending."
+      }
+    ],
+    "scope": "Separate labeled Hebrew lexical annotations in editorial explanations only; preserve every original paragraph, quote, source, source note and reading stage. First occurrence per entry for repeated procedural terms; skip proper names and already-explained terms.",
+    "validation": "PASS full corpus and complete prior ledger comparison against committed 0.13.10; exact paragraph hashes/anchors and separate gloss offsets; all five evidence checks. Two clean builds have identical ten-file payloads and valid ZIP CRC; ZIP timestamps differ. Full packaged browser tests check all 98 entries, removal of labeled spans restores every original rendered paragraph, glosses follow closing quotation marks, original source viewer has exact saved text and no gloss spans, Hebrew gloss search and mobile/desktop layout pass. Pinned SDK host suite and native packager matching payload pass. Official validator zero errors/warnings with bundled SDK fallback, local published=false. Desktop/mobile previews visually checked; existing native installation/rendering limitation remains.",
+    "scholarly_status": "Editorial lexical annotations only; earlier source conflicts and claim statuses unchanged.",
+    "clean_builds": [
+      {
+        "build": 1,
+        "zip_sha256": "52a2eef5066c9fbf9587d6fffd96c3af87eb7ce67ad7e549afcc4c944e39516a",
+        "files": {
+          "app.js": "952110f04591cc12656faae4deea70da3d5ba1711721efe5f116d8997c9df889",
+          "data/library.js": "8e18afd94c21eeffb298168288022084f5bff0b91fd136b3962603750a01fe76",
+          "fonts/NotoSerifHebrew.ttf": "4a76d07f2f671273d0219e51dc63459323be0c7b7d8106267f0f68af4227a3b5",
+          "fonts/Rubik.ttf": "7604615c681d3594432cb7f1b592657d1cac98acdb60c7e95619cddda19b265f",
+          "fonts/notoserifhebrew-OFL.txt": "9b9fe028b5ba74d231659a1bbaf0ed09b11e759d1ca6a070999e16d151616b47",
+          "fonts/rubik-OFL.txt": "472cbe7c25441df63e9c7864b43eb3c0f4b3df950c66a76224e6cfe1eae843fb",
+          "index.html": "2654bbd7642c67f135b2453d36979928774627ecf13684c48252e9cb0965d2b5",
+          "manifest.json": "a5bedd15a88d8558c7b21489c215d66c91dee51a4f0d87e1bb0227f3565f3643",
+          "style.css": "7633758a8b50cf74431c1381addb867f04c5f13e3cf994239cffb9b2dd79ebc2",
+          "theme-start.js": "8196bd063e270c287accace6dc102392e8fef835f14d100215881cc5b8d86034"
+        }
+      },
+      {
+        "build": 2,
+        "zip_sha256": "b085e47ae25d29829c49089257df06de40535e20437469943f3c1a8643e79c51",
+        "files": {
+          "app.js": "952110f04591cc12656faae4deea70da3d5ba1711721efe5f116d8997c9df889",
+          "data/library.js": "8e18afd94c21eeffb298168288022084f5bff0b91fd136b3962603750a01fe76",
+          "fonts/NotoSerifHebrew.ttf": "4a76d07f2f671273d0219e51dc63459323be0c7b7d8106267f0f68af4227a3b5",
+          "fonts/Rubik.ttf": "7604615c681d3594432cb7f1b592657d1cac98acdb60c7e95619cddda19b265f",
+          "fonts/notoserifhebrew-OFL.txt": "9b9fe028b5ba74d231659a1bbaf0ed09b11e759d1ca6a070999e16d151616b47",
+          "fonts/rubik-OFL.txt": "472cbe7c25441df63e9c7864b43eb3c0f4b3df950c66a76224e6cfe1eae843fb",
+          "index.html": "2654bbd7642c67f135b2453d36979928774627ecf13684c48252e9cb0965d2b5",
+          "manifest.json": "a5bedd15a88d8558c7b21489c215d66c91dee51a4f0d87e1bb0227f3565f3643",
+          "style.css": "7633758a8b50cf74431c1381addb867f04c5f13e3cf994239cffb9b2dd79ebc2",
+          "theme-start.js": "8196bd063e270c287accace6dc102392e8fef835f14d100215881cc5b8d86034"
+        }
+      }
+    ]
+  },
+  "editorial_gloss_store_distribution": {
+    "version": "0.13.11",
+    "status": "prepared_for_user_requested_review_distribution",
+    "accuracy_notice": "דיוק התוכן נמצא בבדיקה.",
+    "scholarly_clearance": false
   }
 }

@@ -1,3 +1,7 @@
+# Current labeled glosses — 0.13.11
+
+Sixteen separate editorial annotations clarify seven terms in twelve explanation paragraphs. Raw explanations, quotations, all 241 sources, source notes and reading stages remain byte-identical to committed 0.13.10. Original source text is displayed without annotations. The current check suite validates the separation, rendered attribution labels and Hebrew-gloss search; runtime results and store receipts are recorded in `audit/master-ledger.json`. Earlier reports below are historical.
+
 # Current sentence-flow pass — 0.13.10
 
 Eight paragraphs receive clearer sentence breaks. The checked word sequences are identical before and after; source texts, reading stages and all other corpus fields are unchanged from committed 0.13.9. Current runtime validation and store receipts are recorded in `audit/master-ledger.json`; earlier reports below are historical.
