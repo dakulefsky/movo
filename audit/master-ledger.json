@@ -81631,7 +81631,7 @@
       "Independent post-application scholarly recheck, particularly refined stirring wording and explicit expanded-five description.",
       "Unresolved Omer, guardian-oath, glass, rank and court source differences remain disclosed.",
       "No identified alternative asham-age edition is claimed. Missing independent Meiri Pesachim/Bava Kamma witnesses remain missing.",
-      "Native Otzaria installation/catalogue/live reader opening remains unverified. Official release0.9.98+801 pack-plugin attempt exits127 on missing libharfbuzz-icu.so.0; dependency inspection also finds bundled/system libmount version mismatch. Managed file navigation is still blocked.",
+      "Native packager, installation, revised Orlah navigation and prooftext rendering, permission-denial and empty-library no-match handling now pass. Successful indexed-source reader opening still needs a real catalogue. Managed Chromium file navigation remains blocked; no policy bypass was used. Full package/SDK suites pass over authorized HTTP.",
       "Human scholarly/release approval remains outstanding; no merge or publication."
     ],
     "proposal_dispositions": {
@@ -81657,17 +81657,112 @@
       "default_file_transport": "both attempted; blocked before assertions with ERR_BLOCKED_BY_ADMINISTRATOR. No policy modification or bypass. HTTP passes do not establish native file loading.",
       "official_validator": "Final0.13.5 ZIP passed0errors/0warnings; bundled SDK fallback after live fetch failure; published=false.",
       "native_otzaria": {
-        "result": "attempted, blocked; no native packaging, installation or reader-opening pass",
+        "result": "Native packager, installation and selected native-WebView GUI checks passed; real indexed-source reader opening still unverified.",
         "official_release": "0.9.98+801",
-        "asset": "otzaria-0.9.98+99800-linux.deb",
-        "download_sha256": "cb2cef903b165f1e38a557a23bcc2819ae1af3a05b1e206d416dc62e61880d7f",
-        "command": "work/otzaria-native/opt/otzaria/otzaria pack-plugin /workspace/movo-audit/plugin --output /workspace/movo-audit/work/native-0.13.5.otzplugin",
-        "exit_code": 127,
-        "stderr": "error while loading shared libraries: libharfbuzz-icu.so.0: cannot open shared object file: No such file or directory",
-        "dependency_inspection": "With official launcher library path: bundled libmount.so.1 lacks MOUNT_2_40 required by system libgio-2.0.so.0. Flutter is also unavailable. No host/source-catalogue window reached."
+        "reproduction": "python3 validate_native.py; optional --open for isolated GUI profile",
+        "runtime_fix": "SHA-256-pinned official executable and Debian harfbuzz-ICU/GLES/Xvfb packages extracted under work/; workspace-local selector uses system libmount before older bundled libmount. Virtual display has TCP disabled. No system installation or managed browser policy changes.",
+        "packager_receipt": {
+          "official_release": "0.9.98+801",
+          "plugin_version": "0.13.5",
+          "native_packager_exit": 0,
+          "package_sha256": "71659f4cc355e6bc160f75338c9773a20f9eb4ea99a54e9b72563b0397d89551",
+          "package_file_hashes": {
+            "app.js": "72b946493a4cb6405765d03e2fd2a67727f9e5c04c672b50ab76d52c0d5bbdf1",
+            "data/library.js": "e27a9b6e0f620cf66b81a1e341832721e95eb51a7a0df44caa9bc047177fe3ce",
+            "fonts/NotoSerifHebrew.ttf": "4a76d07f2f671273d0219e51dc63459323be0c7b7d8106267f0f68af4227a3b5",
+            "fonts/Rubik.ttf": "7604615c681d3594432cb7f1b592657d1cac98acdb60c7e95619cddda19b265f",
+            "fonts/notoserifhebrew-OFL.txt": "9b9fe028b5ba74d231659a1bbaf0ed09b11e759d1ca6a070999e16d151616b47",
+            "fonts/rubik-OFL.txt": "472cbe7c25441df63e9c7864b43eb3c0f4b3df950c66a76224e6cfe1eae843fb",
+            "index.html": "eaf8ae7e537a325d9d071fbbe20fa0170e38e095aaa48ce13132e7dad08cffde",
+            "manifest.json": "aa261dc89d504f7d5cf66d57e0159bc563e3f9d342d3ba1bc3b219772cdf3a55",
+            "style.css": "eccbdbe0e6e80b6ea70cc156f491168441160bd59e12cb200082f4216fc6faf8",
+            "theme-start.js": "8196bd063e270c287accace6dc102392e8fef835f14d100215881cc5b8d86034"
+          },
+          "same_payload_as_tested_package": true,
+          "runtime_package_sha256": {
+            "otzaria": "cb2cef903b165f1e38a557a23bcc2819ae1af3a05b1e206d416dc62e61880d7f",
+            "harfbuzz-icu": "0b45d951629e98673c0da73b2bcd0886a467d833bb3b7499892a168f247165d2",
+            "gles": "e12c18aa77939d122ee1dea520ba0440b97dc19200b7396e03dff03a3ece74c1",
+            "xvfb": "893d87bf159b6de077a929fc796a73c39f837d45310b2076e3eeebebb80552b6"
+          },
+          "limits": "Native packaging only. --open permits manual GUI installation/reading checks; indexed reader opening and scholarly approval are separate."
+        },
+        "native_gui": {
+          "profile": "Isolated workspace native test profile; no source library installed",
+          "package": "dist/Mevoot-Shas-0.13.5.otzplugin",
+          "checks": [
+            "Installed0.13.5 through the actual Otzaria package install dialog.",
+            "Opened plugin from actual Tools & Plugins menu; home page rendered in native WebKit.",
+            "Searched Hebrew ערלה; selected the outside-Israel result and visually checked repaired no-seeing-harvest clause and kilayim distinction.",
+            "Opened separately attached MT10:11 prooftext in source dialog; source quotation rendered.",
+            "With local search permission denied, actual native SDK showed the handled permission/error message.",
+            "Granted declared local search/reader permissions through native Manage Permissions; lookup in empty catalogue showed expected no-match message."
+          ],
+          "screenshots": {
+            "native-installed.png": {
+              "sha256": "bf782a2669fcf312c0b156ac92d1aee1d82cf055eaa6cb95077bd68e52687e86",
+              "path": "work/validation/native-installed.png"
+            },
+            "native-plugin.png": {
+              "sha256": "78bd2f64929b45f0198cf614ca3160405f6a931c3111ee9625ae96b77b202038",
+              "path": "work/validation/native-plugin.png"
+            },
+            "native-orlah.png": {
+              "sha256": "816df517903ae49dc66339c5835b746c277857cce016f003ca305365535d47e3",
+              "path": "work/validation/native-orlah.png"
+            },
+            "native-prooftext.png": {
+              "sha256": "67fcf157da1d8e16b0d2d91f8620783c0e24e4a7f707872340d7005340853d56",
+              "path": "work/validation/native-prooftext.png"
+            },
+            "native-lookup.png": {
+              "sha256": "9ba78b598c5b1e9915f1b52443126d389a8cc8854a53dee622f9459c390a958f",
+              "path": "work/validation/native-lookup.png"
+            },
+            "native-lookup-granted.png": {
+              "sha256": "fce4cbc25a0a2c1e2720bdfd298387ecd33b656bf2b4c262d87e96bef3a0a1e0",
+              "path": "work/validation/native-lookup-granted.png"
+            },
+            "native-install.png": {
+              "sha256": "bff4c00c6799e8d62b8f7147787f9aa5b18ac1ea4c23ce29e9c4e62d10c92adb",
+              "path": "work/validation/native-install.png"
+            }
+          },
+          "limits": "Selected manual native GUI smoke tests, not all317 native-WebView controls. No source catalogue supplied; successful indexed-book opening not certified. No scholarly gate promoted."
+        },
+        "prior_failed_attempt": {
+          "result": "attempted, blocked; no native packaging, installation or reader-opening pass",
+          "official_release": "0.9.98+801",
+          "asset": "otzaria-0.9.98+99800-linux.deb",
+          "download_sha256": "cb2cef903b165f1e38a557a23bcc2819ae1af3a05b1e206d416dc62e61880d7f",
+          "command": "work/otzaria-native/opt/otzaria/otzaria pack-plugin /workspace/movo-audit/plugin --output /workspace/movo-audit/work/native-0.13.5.otzplugin",
+          "exit_code": 127,
+          "stderr": "error while loading shared libraries: libharfbuzz-icu.so.0: cannot open shared object file: No such file or directory",
+          "dependency_inspection": "With official launcher library path: bundled libmount.so.1 lacks MOUNT_2_40 required by system libgio-2.0.so.0. Flutter is also unavailable. No host/source-catalogue window reached."
+        }
       },
       "javascript_syntax": "node --check passed for plugin/app.js, test_runtime.cjs, test_package.cjs and test_host_sdk.cjs",
       "release": "blocked; no claim promoted to verified, no scholarly clearance, no merge/push/publication"
+    },
+    "native_followup": {
+      "reviewer": "Codex",
+      "date": "2026-10-20",
+      "source_corpus": "unchanged since72891d8; historical sources/317 blocks/360 claim units retained",
+      "scholarly_status": "Independent applied-text scholarly recheck and disclosed source-conflict resolutions remain pending. This followup resolves runtime validation failures only.",
+      "external_witness_attempts": [
+        {
+          "url": "https://shas.alhatorah.org/Meiri/Bava_Kamma/79b.1",
+          "http_status": 200,
+          "sha256": "31e229cb4f1c02b7784526ab6e6f98d5bb4666cae0b337712725b31323075c36",
+          "assessment": "Returned the same generic reader/navigation HTML for both candidate locations, without the named substantive Meiri passage. Not counted as independent textual evidence; missing witnesses remain pending."
+        },
+        {
+          "url": "https://shas.alhatorah.org/Meiri/Pesachim/2a.1",
+          "http_status": 200,
+          "sha256": "31e229cb4f1c02b7784526ab6e6f98d5bb4666cae0b337712725b31323075c36",
+          "assessment": "Returned the same generic reader/navigation HTML for both candidate locations, without the named substantive Meiri passage. Not counted as independent textual evidence; missing witnesses remain pending."
+        }
+      ]
     }
   }
 }
