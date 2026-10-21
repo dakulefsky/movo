@@ -85250,8 +85250,19 @@
   },
   "sentence_polish_store_distribution": {
     "version": "0.13.9",
-    "status": "prepared_for_user_requested_review_distribution",
+    "status": "published_review_distribution",
     "accuracy_notice": "דיוק התוכן נמצא בבדיקה.",
-    "scholarly_clearance": false
+    "scholarly_clearance": false,
+    "workflow_run_id": 39600059331,
+    "workflow_url": "https://github.com/dakulefsky/movo/actions/runs/39600059331",
+    "published_at_utc": "2026-10-21T12:30:57Z",
+    "store_previous_version": "0.13.8",
+    "store_version": "0.13.9",
+    "success": true,
+    "pending_approval": false,
+    "publisher_confirmation": "✓ העדכון פורסם בחנות בגרסה 0.13.9",
+    "workflow_log_sha256": "14ef31642fbbe31471651c989314ff4373c4c857060740e1d7d957b22323a086",
+    "publication_route": "Manual release.yml on audit-0135-repairs; no main merge.",
+    "content_status": "Fourteen guarded sentence polishes only; all prior scholarly decisions, source conflicts and review notice retained."
   }
 }
