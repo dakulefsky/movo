@@ -8,7 +8,7 @@ The 0.13.7 readability pass clarifies 203 explanatory paragraphs across all six 
 
 ## Install
 
-Install the **0.13.7** review package once validated from the `Mevoot-Hashas-plugin` artifact of the latest successful [GitHub Actions run](https://github.com/dakulefsky/movo/actions/workflows/release.yml), or from the Otzaria plugin listing once its update is published. The older [0.12.0 package](dist/Mevoot-Shas-0.12.0.otzplugin) remains in the repository for comparison. No internet connection or AI service is required by the installed plugin.
+Install the **0.13.7** review package from the `Mevoot-Hashas-plugin` artifact of the latest successful [GitHub Actions run](https://github.com/dakulefsky/movo/actions/workflows/release.yml), or update it from the Otzaria plugin store. The older [0.12.0 package](dist/Mevoot-Shas-0.12.0.otzplugin) remains in the repository for comparison. No internet connection or AI service is required by the installed plugin.
 
 The manifest declares Otzaria 0.9.97 or later. Package validation was run against 0.9.98. Selected installation and reading checks passed in native Otzaria; successful indexed-source opening still needs a real library catalogue. See [audit/README.md](audit/README.md) for current validation and scholarly limitations.
 

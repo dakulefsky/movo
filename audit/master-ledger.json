@@ -83228,8 +83228,19 @@
   },
   "readability_store_distribution": {
     "version": "0.13.7",
-    "status": "prepared_for_user_requested_review_distribution",
+    "status": "published_review_distribution",
     "accuracy_notice": "דיוק התוכן נמצא בבדיקה.",
-    "scholarly_clearance": false
+    "scholarly_clearance": false,
+    "workflow_run_id": 39533946991,
+    "workflow_url": "https://github.com/dakulefsky/movo/actions/runs/39533946991",
+    "published_at_utc": "2026-10-21T02:37:22Z",
+    "store_previous_version": "0.13.6",
+    "store_version": "0.13.7",
+    "success": true,
+    "pending_approval": false,
+    "publisher_confirmation": "✓ העדכון פורסם בחנות בגרסה 0.13.7",
+    "workflow_log_sha256": "190c68dbb2bb31cf2e9c936f99279a5c7f7c64ac5cd89fba74ac54264efcbfc7",
+    "content_status": "Sources, historical reports and adjudications unchanged; independent scholarly recheck pending.",
+    "publication_route": "Manual release.yml on audit-0135-repairs; no main merge."
   }
 }

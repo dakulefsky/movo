@@ -47,3 +47,5 @@ All 317 blocks / 360 claim units were read for flow. The guarded overlay in `rea
 Run `python3 check_readability.py` after building, alongside the adjudicated-repair checker. The persistent accuracy-under-review notice remains in the plugin and store description.
 
 For 0.13.7, two clean builds have identical ten-file payloads and valid ZIP CRCs. Both packaged browser suites pass using the authorized HTTP preview. The pinned native Otzaria packager produces the same payload, and the official validator reports zero errors/warnings with its bundled SDK fallback (`published=false` for local validation). Full source/quotation/overlay checks pass. No scholarly claim status changes.
+
+The user-requested 0.13.7 readability review update is published in the Otzaria store, confirmed by [workflow39533946991](https://github.com/dakulefsky/movo/actions/runs/39533946991) on 2026-10-21 UTC (2026-10-20 New York). The server returned success with no pending approval, replacing 0.13.6. The workflow's packaged browser suite and official validation also passed. Accuracy remains under review; nothing was merged into main.
