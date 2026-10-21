@@ -1,0 +1,1114 @@
+{
+  "version": "0.13.14",
+  "commit": "e701a4006c23215449e7d53bb2f0cf0b5b6bc93b",
+  "editorial_sha256": "9049de9b3be00871daba93a0b4f1e477b1e04aeeac13a52e72d3c390698ee973",
+  "ledger_sha256": "d183c8409e8779dec21b12cf403a1cf4f852bc8f6264e8355ee1abba8b69e17e",
+  "entry_count": 98,
+  "block_count": 317,
+  "claim_units": 360,
+  "entry_hash_convention": "SHA256 of each entire current entry serialized as UTF8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+  "entries": [
+    {
+      "entry_id": "olah",
+      "handbook": "kodashim",
+      "title": "עולה",
+      "block_ids": [
+        "olah/purpose",
+        "olah/animals",
+        "olah/service",
+        "olah/portions",
+        "olah/bird",
+        "olah/neder",
+        "olah/analysis"
+      ],
+      "entry_sha256": "0818efd9dc2d0966e8504f44e7b3cd6d90a3436d20afedf59fb4fdda2c313265"
+    },
+    {
+      "entry_id": "chattat",
+      "handbook": "kodashim",
+      "title": "חטאת",
+      "block_ids": [
+        "chattat/purpose",
+        "chattat/animals",
+        "chattat/variable",
+        "chattat/outer",
+        "chattat/inner",
+        "chattat/bird",
+        "chattat/shem"
+      ],
+      "entry_sha256": "bb4c184ab2a8972b09299c29eb2f4f12b55a5291d1b1bd202924de3dc8fdb6dc"
+    },
+    {
+      "entry_id": "k-inner-chattat",
+      "handbook": "kodashim",
+      "title": "חטאות הפנימיות",
+      "block_ids": [
+        "k-inner-chattat/place",
+        "k-inner-chattat/essential",
+        "k-inner-chattat/remainder"
+      ],
+      "entry_sha256": "7b956d71d075133efac93d306e1106fc9f3ff51fcb5ad1d20b2c356353a570c4"
+    },
+    {
+      "entry_id": "asham",
+      "handbook": "kodashim",
+      "title": "אשם",
+      "block_ids": [
+        "asham/nature",
+        "asham/types",
+        "asham/animals",
+        "asham/service",
+        "asham/eating",
+        "asham/talui-depth"
+      ],
+      "entry_sha256": "be952e6d4e693a3748234fab4cb6e0c27a9c80fc288ad4df6581301440335c36"
+    },
+    {
+      "entry_id": "shelamim",
+      "handbook": "kodashim",
+      "title": "שלמים",
+      "block_ids": [
+        "shelamim/purpose",
+        "shelamim/animals",
+        "shelamim/service",
+        "shelamim/portions",
+        "shelamim/time",
+        "shelamim/tenufa-depth"
+      ],
+      "entry_sha256": "2f3151a6ded2f3624d4c672e0dcabc0bbaa3db242ac7af37afa066ea864a70cb"
+    },
+    {
+      "entry_id": "todah",
+      "handbook": "kodashim",
+      "title": "תודה",
+      "block_ids": [
+        "todah/nature",
+        "todah/bread",
+        "todah/portions",
+        "todah/service",
+        "todah/bread-ratio"
+      ],
+      "entry_sha256": "44a15da8c86a54fcd3d0115c39868f9b0e7b601889b380bef327e8e76edaa4cc"
+    },
+    {
+      "entry_id": "nazir",
+      "handbook": "kodashim",
+      "title": "איל נזיר",
+      "block_ids": [
+        "nazir/purpose",
+        "nazir/service",
+        "nazir/portions",
+        "nazir/time"
+      ],
+      "entry_sha256": "8384b4aff8c516dc1380173a9956342a5ef7a6dcf0a13ed12420b317e556a1fb"
+    },
+    {
+      "entry_id": "public-shelamim",
+      "handbook": "kodashim",
+      "title": "שלמי ציבור",
+      "block_ids": [
+        "public-shelamim/purpose",
+        "public-shelamim/service",
+        "public-shelamim/portions"
+      ],
+      "entry_sha256": "d9ba19ae237711a85b7ca93b8471e1a1d60af7284ce4cfa99556b8ca4190c292"
+    },
+    {
+      "entry_id": "bekhor",
+      "handbook": "kodashim",
+      "title": "בכור בהמה טהורה",
+      "block_ids": [
+        "bekhor/nature",
+        "bekhor/service",
+        "bekhor/eating"
+      ],
+      "entry_sha256": "36e93cd0ef7a04901b8949e02ea4241a579dc278d1e6b46d70a5562ccf5b3b71"
+    },
+    {
+      "entry_id": "maaser",
+      "handbook": "kodashim",
+      "title": "מעשר בהמה",
+      "block_ids": [
+        "maaser/nature",
+        "maaser/service",
+        "maaser/eating"
+      ],
+      "entry_sha256": "21a628caf5d859d83ad25c6fd3ae8a84249d0169b9ba54716d0c2d379bc7db70"
+    },
+    {
+      "entry_id": "pesach",
+      "handbook": "kodashim",
+      "title": "פסח",
+      "block_ids": [
+        "pesach/purpose",
+        "pesach/service",
+        "pesach/eating",
+        "pesach/shem",
+        "pesach/scope"
+      ],
+      "entry_sha256": "1d1c153db3e7c2131d1cf016a2e18b7c96036cf9623eb5667a502e84c38938d3"
+    },
+    {
+      "entry_id": "minchah",
+      "handbook": "kodashim",
+      "title": "מנחות",
+      "block_ids": [
+        "minchah/nature",
+        "minchah/eating",
+        "minchah/cohen",
+        "minchah/matzah",
+        "minchah/exceptions"
+      ],
+      "entry_sha256": "dcf0583d2e37cf559709af5ba7bb72bcc4e3d639df26118f4058722caf472fa2"
+    },
+    {
+      "entry_id": "k-nesachim",
+      "handbook": "kodashim",
+      "title": "מנחת נסכים ויין",
+      "block_ids": [
+        "k-nesachim/meaning",
+        "k-nesachim/distinction"
+      ],
+      "entry_sha256": "8a4e65ab7539156f856477f4e2b5ccda86b4cecc934029abfc4987084bfcfb31"
+    },
+    {
+      "entry_id": "av-semichah",
+      "handbook": "kodashim",
+      "title": "סמיכה",
+      "block_ids": [
+        "av-semichah/act",
+        "av-semichah/offerings",
+        "av-semichah/person",
+        "av-semichah/effect"
+      ],
+      "entry_sha256": "786759695a328b7e5dd5b5ec93cce2f00978d6968aaccb60048632ef2941230e"
+    },
+    {
+      "entry_id": "av-shechitah",
+      "handbook": "kodashim",
+      "title": "שחיטה",
+      "block_ids": [
+        "av-shechitah/act",
+        "av-shechitah/person",
+        "av-shechitah/place",
+        "av-shechitah/thought"
+      ],
+      "entry_sha256": "5971c7c70e4684b865261a61cb293b98e38ba183d46d49a62bfc392331daf622"
+    },
+    {
+      "entry_id": "av-kabbalah",
+      "handbook": "kodashim",
+      "title": "קבלת הדם",
+      "block_ids": [
+        "av-kabbalah/act",
+        "av-kabbalah/person",
+        "av-kabbalah/place",
+        "av-kabbalah/repair"
+      ],
+      "entry_sha256": "324b1dff40cb168834dc38cd2aad83a5d034b1f70411339323639120ce16d262"
+    },
+    {
+      "entry_id": "av-holachah",
+      "handbook": "kodashim",
+      "title": "הולכת הדם",
+      "block_ids": [
+        "av-holachah/act",
+        "av-holachah/possible",
+        "av-holachah/thought"
+      ],
+      "entry_sha256": "f4cbc762acbc08baa5108fde265ba502c55a06c6d663759b765360fecee5c279"
+    },
+    {
+      "entry_id": "av-zerikah",
+      "handbook": "kodashim",
+      "title": "זריקה ומתנות הדם",
+      "block_ids": [
+        "av-zerikah/act",
+        "av-zerikah/outer",
+        "av-zerikah/height",
+        "av-zerikah/inner",
+        "av-zerikah/meakev",
+        "av-zerikah/shirayim"
+      ],
+      "entry_sha256": "6a3736139224e975554f7811cb0bd0adc2ce6a79f7545fd09837cb5463eaedec"
+    },
+    {
+      "entry_id": "k-matanot",
+      "handbook": "kodashim",
+      "title": "מתנות הדם: מצוה ועיכוב",
+      "block_ids": [
+        "k-matanot/outer",
+        "k-matanot/shammai",
+        "k-matanot/inner"
+      ],
+      "entry_sha256": "fe17ffaf2b3b0292288f46fc81066390d28eded39c1cdd89f7c07957661d9018"
+    },
+    {
+      "entry_id": "av-haktarah",
+      "handbook": "kodashim",
+      "title": "הקטרה",
+      "block_ids": [
+        "av-haktarah/act",
+        "av-haktarah/order",
+        "av-haktarah/burning",
+        "av-haktarah/altar"
+      ],
+      "entry_sha256": "66499cc56c7b3eb85a1a9a276c3d9ed6cea3f093733e6dcf860e31ff516ff3e5"
+    },
+    {
+      "entry_id": "av-melikah",
+      "handbook": "kodashim",
+      "title": "מליקה ועבודת דם העוף",
+      "block_ids": [
+        "av-melikah/act",
+        "av-melikah/blood",
+        "av-melikah/portions"
+      ],
+      "entry_sha256": "2234bdd996c5dd2d4e059f3b3726a170563b7ca32d7d667a1590c87b4dd92b36"
+    },
+    {
+      "entry_id": "av-tenufah",
+      "handbook": "kodashim",
+      "title": "תנופה",
+      "block_ids": [
+        "av-tenufah/act",
+        "av-tenufah/objects",
+        "av-tenufah/when",
+        "av-tenufah/person"
+      ],
+      "entry_sha256": "a69dd5d1a197f7c088dae5f0167a0272dae7804cad75bf01f5471f5f044c3ee1"
+    },
+    {
+      "entry_id": "avodot",
+      "handbook": "kodashim",
+      "title": "שחיטה ועבודת הדם",
+      "block_ids": [
+        "avodot/sequence",
+        "avodot/worker",
+        "avodot/place"
+      ],
+      "entry_sha256": "a3cd20d18964de5f2d26dd17f8fe11b5641b5101c26a55a8d1c36f61cc58c96b"
+    },
+    {
+      "entry_id": "imurim",
+      "handbook": "kodashim",
+      "title": "אימורים וחלקי הקרבן",
+      "block_ids": [
+        "imurim/parts",
+        "imurim/boundaries"
+      ],
+      "entry_sha256": "d285b5055228241a552b342d765a4b93d6cea71eee63a1d2c155f9dd51aa9c26"
+    },
+    {
+      "entry_id": "pesulim",
+      "handbook": "kodashim",
+      "title": "פסולי מחשבה ונותר",
+      "block_ids": [
+        "pesulim/shem",
+        "pesulim/place",
+        "pesulim/time",
+        "pesulim/notar",
+        "pesulim/example",
+        "pesulim/essential-parts"
+      ],
+      "entry_sha256": "55b41d3a99402e7e403678441168e8eb468e0fd117f3faec1b8f4db758015b6c"
+    },
+    {
+      "entry_id": "k-meilah",
+      "handbook": "kodashim",
+      "title": "מעילה",
+      "block_ids": [
+        "k-meilah/meaning",
+        "k-meilah/distinction",
+        "k-meilah/invalid-service"
+      ],
+      "entry_sha256": "705d8eae176b9959bacb7673dc8ef3eacde78288d708c0b782bcb87935063abc"
+    },
+    {
+      "entry_id": "k-temurah",
+      "handbook": "kodashim",
+      "title": "תמורה",
+      "block_ids": [
+        "k-temurah/meaning",
+        "k-temurah/distinction",
+        "k-temurah/ownership"
+      ],
+      "entry_sha256": "26fe2b8ff695eff6d1802d59902da5058e22e412e2d0bfef3b649aeb991d7fca"
+    },
+    {
+      "entry_id": "public",
+      "handbook": "kodashim",
+      "title": "ציבור, יחיד וזמן קבוע",
+      "block_ids": [
+        "public/public",
+        "public/time"
+      ],
+      "entry_sha256": "13da80cd897df20587d325ecae7410fce7c6a3cbaade1bdc5669cc31a9ec0d62"
+    },
+    {
+      "entry_id": "t-met",
+      "handbook": "tahorot",
+      "title": "טומאת מת",
+      "block_ids": [
+        "t-met/source",
+        "t-met/chain",
+        "t-met/scope",
+        "t-met/kli-cheres"
+      ],
+      "entry_sha256": "ff62ea47dbf4cc08fa90a86a310b75baa97b767536270cd9793f377db1ca07ac"
+    },
+    {
+      "entry_id": "t-sheretz",
+      "handbook": "tahorot",
+      "title": "שרץ",
+      "block_ids": [
+        "t-sheretz/species",
+        "t-sheretz/contact",
+        "t-sheretz/example"
+      ],
+      "entry_sha256": "8dea2eb5a9d87c1ec0a8c3d801ebc318ee88f7df7bb27f9b8d622f202156b6ac"
+    },
+    {
+      "entry_id": "t-nevelah",
+      "handbook": "tahorot",
+      "title": "נבילה",
+      "block_ids": [
+        "t-nevelah/source",
+        "t-nevelah/ways",
+        "t-nevelah/bird"
+      ],
+      "entry_sha256": "e1733169b1dc1d42997d8b49e8d243d01f275cd749a7be0f4951a3e4bee12a4f"
+    },
+    {
+      "entry_id": "t-zav",
+      "handbook": "tahorot",
+      "title": "זב, משכב ומושב",
+      "block_ids": [
+        "t-zav/source",
+        "t-zav/midras",
+        "t-zav/rank"
+      ],
+      "entry_sha256": "ae37287b964120913f4fa1ce3c4a016134efb7a29639dc23f708f088166dc096"
+    },
+    {
+      "entry_id": "t-niddah",
+      "handbook": "tahorot",
+      "title": "נדה, זבה ושומרת יום",
+      "block_ids": [
+        "t-niddah/meaning",
+        "t-niddah/distinction",
+        "t-niddah/day-watch"
+      ],
+      "entry_sha256": "e004d0170d62afa6dbb576adb33c142524fd6fd8ea103d198d89efba7f885c0e"
+    },
+    {
+      "entry_id": "t-contact",
+      "handbook": "tahorot",
+      "title": "מגע ומשא",
+      "block_ids": [
+        "t-contact/maga",
+        "t-contact/masa",
+        "t-contact/heset",
+        "t-contact/tilt"
+      ],
+      "entry_sha256": "154f1acf6b54f1cfd506643d30de67d266808495ce4af5fd703a47654d8d4ff6"
+    },
+    {
+      "entry_id": "t-ohel",
+      "handbook": "tahorot",
+      "title": "טומאת אהל",
+      "block_ids": [
+        "t-ohel/meaning",
+        "t-ohel/distinction",
+        "t-ohel/bib-example"
+      ],
+      "entry_sha256": "9dc1e80931c1c21b171b6ec98c1612af0636e4c30389c242a6e4d776fff40b93"
+    },
+    {
+      "entry_id": "t-ranks",
+      "handbook": "tahorot",
+      "title": "אב, ראשון ושני",
+      "block_ids": [
+        "t-ranks/rank",
+        "t-ranks/food",
+        "t-ranks/rabbinic",
+        "t-ranks/levels"
+      ],
+      "entry_sha256": "60974fa01476de687b9ad8146bde6b0679c1f87763236f7ce23f973f4d3a5717"
+    },
+    {
+      "entry_id": "t-kelim",
+      "handbook": "tahorot",
+      "title": "טומאת כלים",
+      "block_ids": [
+        "t-kelim/materials",
+        "t-kelim/cheres",
+        "t-kelim/purification",
+        "t-kelim/glass"
+      ],
+      "entry_sha256": "8b6e1594b053c8e683f673ebd3efab68f3effd8fd5137957eb25581dfcb1832c"
+    },
+    {
+      "entry_id": "t-hechsher",
+      "handbook": "tahorot",
+      "title": "הכשר אוכלין ומשקין",
+      "block_ids": [
+        "t-hechsher/meaning",
+        "t-hechsher/conditions",
+        "t-hechsher/liquids"
+      ],
+      "entry_sha256": "0208e22821c231f935078c62a4e172d70f2b9576dde05f8aae80f6b9b94aa90a"
+    },
+    {
+      "entry_id": "t-mashkin",
+      "handbook": "tahorot",
+      "title": "טומאת משקין",
+      "block_ids": [
+        "t-mashkin/seven",
+        "t-mashkin/first",
+        "t-mashkin/tvul"
+      ],
+      "entry_sha256": "e67324a9b3def0a5e7b7a013260e6de919ca87f2846792fac59dd6976e54ebfb"
+    },
+    {
+      "entry_id": "t-yadayim",
+      "handbook": "tahorot",
+      "title": "טומאת ידיים",
+      "block_ids": [
+        "t-yadayim/meaning",
+        "t-yadayim/distinction"
+      ],
+      "entry_sha256": "2b7836b06e56a0f7e85a36d260b1b8c600b493f09ee562601c8535451e7c5f74"
+    },
+    {
+      "entry_id": "t-tevilah",
+      "handbook": "tahorot",
+      "title": "טבילה, חציצה והערב שמש",
+      "block_ids": [
+        "t-tevilah/water",
+        "t-tevilah/chatzitzah",
+        "t-tevilah/sunset",
+        "t-tevilah/tvul-explanation"
+      ],
+      "entry_sha256": "c25d602fabffdf8793fdb58209dfe77577a0efc13e141f15473eb4ceb83555e2"
+    },
+    {
+      "entry_id": "t-hazaah",
+      "handbook": "tahorot",
+      "title": "הזאה ומי חטאת",
+      "block_ids": [
+        "t-hazaah/water",
+        "t-hazaah/days",
+        "t-hazaah/mazzeh"
+      ],
+      "entry_sha256": "ae3d3a14aede3cbf1db700a526a6ed251970bac5c92d53012455a51a3f9b9991"
+    },
+    {
+      "entry_id": "t-safek",
+      "handbook": "tahorot",
+      "title": "ספקות טומאה",
+      "block_ids": [
+        "t-safek/meaning",
+        "t-safek/distinction"
+      ],
+      "entry_sha256": "476657e0f834f0282c8d2ec91d316fc8a8512c641ff8b29a986796873d419f83"
+    },
+    {
+      "entry_id": "i-kiddushin",
+      "handbook": "ishut",
+      "title": "קידושין",
+      "block_ids": [
+        "i-kiddushin/meaning",
+        "i-kiddushin/ways",
+        "i-kiddushin/issur",
+        "i-kiddushin/way-of-act"
+      ],
+      "entry_sha256": "c5554fee4535616711b7fe7fd596c45c70bbc8fd278cfe785a86d98c0f84c9a0"
+    },
+    {
+      "entry_id": "i-yuchasin",
+      "handbook": "ishut",
+      "title": "תפיסת קידושין וייחוס הוולד",
+      "block_ids": [
+        "i-yuchasin/map",
+        "i-yuchasin/chalal",
+        "i-yuchasin/limits"
+      ],
+      "entry_sha256": "7164f4ec6f324b65e518c0797345efa04619b10a212799c3f7dc979b839caad0"
+    },
+    {
+      "entry_id": "i-nissuin",
+      "handbook": "ishut",
+      "title": "נישואין וחופה",
+      "block_ids": [
+        "i-nissuin/stages",
+        "i-nissuin/time",
+        "i-nissuin/example"
+      ],
+      "entry_sha256": "c96764f73bc29f92243b776ebc5833466e8a2c91f5b747a1bfa7c038fa4819fd"
+    },
+    {
+      "entry_id": "i-ketubah",
+      "handbook": "ishut",
+      "title": "כתובה ותנאי האישות",
+      "block_ids": [
+        "i-ketubah/scope",
+        "i-ketubah/shiabud",
+        "i-ketubah/rights",
+        "i-ketubah/source-map"
+      ],
+      "entry_sha256": "c4bc2e730f503e367e0a354c5aa9d6b5f5cfdc2cd570dbdaa8e0492894423e9f"
+    },
+    {
+      "entry_id": "i-shlichut",
+      "handbook": "ishut",
+      "title": "שליחות בקידושין ובגט",
+      "block_ids": [
+        "i-shlichut/kiddushin",
+        "i-shlichut/get"
+      ],
+      "entry_sha256": "89dd71d56ca463f58c7b5a9337bfe4ebe9079f0f974901f52eaceccc64076c46"
+    },
+    {
+      "entry_id": "i-gerushin",
+      "handbook": "ishut",
+      "title": "גירושין ונתינת הגט",
+      "block_ids": [
+        "i-gerushin/meaning",
+        "i-gerushin/writing",
+        "i-gerushin/delivery",
+        "i-gerushin/written-gist"
+      ],
+      "entry_sha256": "c04c90a66dbe39529640175c9324a248704e22aab004dbf596e33100563b83eb"
+    },
+    {
+      "entry_id": "i-lishmah",
+      "handbook": "ishut",
+      "title": "כתיבת הגט לשמה",
+      "block_ids": [
+        "i-lishmah/meaning",
+        "i-lishmah/distinction"
+      ],
+      "entry_sha256": "1f48bb0b03c094dc0c800701de58d9c9484b794d32c7b31fa6e1a9e947f72388"
+    },
+    {
+      "entry_id": "i-edei-get",
+      "handbook": "ishut",
+      "title": "עדי חתימה ועדי מסירה",
+      "block_ids": [
+        "i-edei-get/meaning",
+        "i-edei-get/distinction"
+      ],
+      "entry_sha256": "2f1c59da6c82fd0d81a1e6bf78ba264dffee0ab832b55e63f0c44d2f63a9d717"
+    },
+    {
+      "entry_id": "i-yibum",
+      "handbook": "ishut",
+      "title": "יבום וזיקה",
+      "block_ids": [
+        "i-yibum/falling",
+        "i-yibum/one",
+        "i-yibum/ervah",
+        "i-yibum/house-rule"
+      ],
+      "entry_sha256": "a792d58c13dea5ac8ed9b64ff4a8c28d1ac5903107282fbc1687611912842a21"
+    },
+    {
+      "entry_id": "i-chalitzah",
+      "handbook": "ishut",
+      "title": "חליצה",
+      "block_ids": [
+        "i-chalitzah/meaning",
+        "i-chalitzah/seder",
+        "i-chalitzah/advice",
+        "i-chalitzah/publicity"
+      ],
+      "entry_sha256": "9d3d829d7b8c8659b0346448187f5e390822dba1a9819492f1546153379c8d3b"
+    },
+    {
+      "entry_id": "i-maamar",
+      "handbook": "ishut",
+      "title": "מאמר ביבמה",
+      "block_ids": [
+        "i-maamar/meaning",
+        "i-maamar/consequence",
+        "i-maamar/two-sides"
+      ],
+      "entry_sha256": "3a00d27770cfdbbb8fc46c270babbe65fc933e3a59d06c3d95d7ad7773ef08a9"
+    },
+    {
+      "entry_id": "z-peah",
+      "handbook": "zeraim",
+      "title": "לקט, שכחה ופאה",
+      "block_ids": [
+        "z-peah/meaning",
+        "z-peah/distinction",
+        "z-peah/measure"
+      ],
+      "entry_sha256": "44d3389a4a0a72fabbad84c6bfcc25fdc939e03fecd2424a6571fb03855017f0"
+    },
+    {
+      "entry_id": "z-leket-shikcha",
+      "handbook": "zeraim",
+      "title": "לקט ושכחה בשעת הקציר",
+      "block_ids": [
+        "z-leket-shikcha/leket",
+        "z-leket-shikcha/edge",
+        "z-leket-shikcha/omer"
+      ],
+      "entry_sha256": "bc730039a7368bba2f7aa4245f8a83211ce3b0967d035a83be4f11cd14c85fcd"
+    },
+    {
+      "entry_id": "z-hafrashah",
+      "handbook": "zeraim",
+      "title": "חיוב המעשרות וסדר ההפרשה",
+      "block_ids": [
+        "z-hafrashah/produce",
+        "z-hafrashah/gmar",
+        "z-hafrashah/order",
+        "z-hafrashah/gmar-home"
+      ],
+      "entry_sha256": "1af5c942905eb1d301339144d74af97791144ea17f8bfb01761ffd4f7d7d119f"
+    },
+    {
+      "entry_id": "z-terumah",
+      "handbook": "zeraim",
+      "title": "תרומה גדולה",
+      "block_ids": [
+        "z-terumah/meaning",
+        "z-terumah/amount",
+        "z-terumah/who",
+        "z-terumah/cohen"
+      ],
+      "entry_sha256": "24956cc23859fcbfd9f83eee953a83066bc566b4931cfa2e208263ff1c0fcf1f"
+    },
+    {
+      "entry_id": "z-maaser-rishon",
+      "handbook": "zeraim",
+      "title": "מעשר ראשון ותרומת מעשר",
+      "block_ids": [
+        "z-maaser-rishon/gift",
+        "z-maaser-rishon/tenth",
+        "z-maaser-rishon/distinction"
+      ],
+      "entry_sha256": "3627ea905038bf6768d1b7c3f8d7e5e3d7d0d6177df0d382a6fdb4285a446554"
+    },
+    {
+      "entry_id": "z-maaser-sheni",
+      "handbook": "zeraim",
+      "title": "מעשר שני ופדיונו",
+      "block_ids": [
+        "z-maaser-sheni/meaning",
+        "z-maaser-sheni/pidyon",
+        "z-maaser-sheni/use",
+        "z-maaser-sheni/fifth",
+        "z-maaser-sheni/fourth"
+      ],
+      "entry_sha256": "a415a49ea7b2934a39ee310b865accd858aacfe75d9d13f1e945f5a7e52c6b9b"
+    },
+    {
+      "entry_id": "z-maaser-ani",
+      "handbook": "zeraim",
+      "title": "מעשר עני וביעור",
+      "block_ids": [
+        "z-maaser-ani/years",
+        "z-maaser-ani/biur"
+      ],
+      "entry_sha256": "489e41c2564a20750713c0cc1587bb5e1f9bfae6e478b69a17c47d7b7ef401f1"
+    },
+    {
+      "entry_id": "z-demai",
+      "handbook": "zeraim",
+      "title": "דמאי",
+      "block_ids": [
+        "z-demai/meaning",
+        "z-demai/distinction"
+      ],
+      "entry_sha256": "3e9a036a6912d22fc9f08a130736d0a50958f540db3cce1b011ff4e616446242"
+    },
+    {
+      "entry_id": "z-challah",
+      "handbook": "zeraim",
+      "title": "חלה והפרשתה",
+      "block_ids": [
+        "z-challah/grains",
+        "z-challah/dough",
+        "z-challah/amount",
+        "z-challah/baker"
+      ],
+      "entry_sha256": "6b82e1a9dba78e4541aa9ab3317430224085a4f4d59623d0b1f5bfa42673c0ff"
+    },
+    {
+      "entry_id": "z-five-grains",
+      "handbook": "zeraim",
+      "title": "חמשת מיני דגן וחיוב עיסה",
+      "block_ids": [
+        "z-five-grains/species",
+        "z-five-grains/combination",
+        "z-five-grains/new"
+      ],
+      "entry_sha256": "a74984144bc5c5b44cad22131bf687dd00bd42b98d6f4b2f51bcf366b20af61c"
+    },
+    {
+      "entry_id": "z-orlah",
+      "handbook": "zeraim",
+      "title": "ערלה ונטע רבעי",
+      "block_ids": [
+        "z-orlah/years",
+        "z-orlah/intent",
+        "z-orlah/chutz"
+      ],
+      "entry_sha256": "f735e0bf567cd8054585d86adc0f76246ff2905c062c01d537c489cf2348d4d5"
+    },
+    {
+      "entry_id": "z-bikkurim",
+      "handbook": "zeraim",
+      "title": "הבאת ביכורים ומקרא ביכורים",
+      "block_ids": [
+        "z-bikkurim/meaning",
+        "z-bikkurim/distinction"
+      ],
+      "entry_sha256": "9f9e04f9df8c79df9e0ad3a31674cf4df7855e94913efccfc85be66e88d4d41a"
+    },
+    {
+      "entry_id": "z-kilayim",
+      "handbook": "zeraim",
+      "title": "כלאים",
+      "block_ids": [
+        "z-kilayim/kinds",
+        "z-kilayim/crops",
+        "z-kilayim/grafting"
+      ],
+      "entry_sha256": "90eccbcb71ae44720945c9f8b26480b4bece6efe77a9f0a5284af082c4e231ef"
+    },
+    {
+      "entry_id": "z-sheviit",
+      "handbook": "zeraim",
+      "title": "שביעית ופירותיה",
+      "block_ids": [
+        "z-sheviit/work",
+        "z-sheviit/fruit",
+        "z-sheviit/use",
+        "z-sheviit/price"
+      ],
+      "entry_sha256": "1846aeb953266ec4446923008c62c72538c26984f567c674990c513aad957999"
+    },
+    {
+      "entry_id": "z-biur",
+      "handbook": "zeraim",
+      "title": "ביעור פירות שביעית",
+      "block_ids": [
+        "z-biur/meaning",
+        "z-biur/distinction",
+        "z-biur/regions"
+      ],
+      "entry_sha256": "88d40e68bc8d288bbc3d2d2dd8efb6160bad4b00a16cfa6b260f21a9a214c84a"
+    },
+    {
+      "entry_id": "z-shemittat-kesafim",
+      "handbook": "zeraim",
+      "title": "שמיטת כספים",
+      "block_ids": [
+        "z-shemittat-kesafim/debt",
+        "z-shemittat-kesafim/disputes"
+      ],
+      "entry_sha256": "c19ec97281bb00ef4a6c154d253f9aedc115252ea817709e066bb99788add9f9"
+    },
+    {
+      "entry_id": "z-prozbul",
+      "handbook": "zeraim",
+      "title": "פרוזבול",
+      "block_ids": [
+        "z-prozbul/meaning",
+        "z-prozbul/distinction"
+      ],
+      "entry_sha256": "fbd2645658e290e2b492be8504c2c3bc1a8e1495730c3ffce23bec3d08d0545a"
+    },
+    {
+      "entry_id": "d-nezikin",
+      "handbook": "mammon",
+      "title": "אבות נזיקין",
+      "block_ids": [
+        "d-nezikin/avot",
+        "d-nezikin/difference",
+        "d-nezikin/features"
+      ],
+      "entry_sha256": "109a07486650e5f46489cdda592bb2a5c6d59cc6939086f9bc4a3bcb9a919197"
+    },
+    {
+      "entry_id": "d-chovel",
+      "handbook": "mammon",
+      "title": "חובל בחברו וחמשת התשלומים",
+      "block_ids": [
+        "d-chovel/meaning",
+        "d-chovel/distinction"
+      ],
+      "entry_sha256": "6419543801f21a39d6fcda4f47cac12091f96e0a5535b364c78b496d6c07df05"
+    },
+    {
+      "entry_id": "d-geneivah",
+      "handbook": "mammon",
+      "title": "גניבה ותשלומיה",
+      "block_ids": [
+        "d-geneivah/meaning",
+        "d-geneivah/distinction"
+      ],
+      "entry_sha256": "b95b304f5afd8ad390420ac8830a6d0737a2c0f27f026c5151ee50707eb1d4fb"
+    },
+    {
+      "entry_id": "d-gezel",
+      "handbook": "mammon",
+      "title": "השבת גזלה ושינוי",
+      "block_ids": [
+        "d-gezel/meaning",
+        "d-gezel/distinction"
+      ],
+      "entry_sha256": "4bd6835f29914d4920b8c98dc7e956a7e8260913cd2d0b240789cf0fcec7efcf"
+    },
+    {
+      "entry_id": "d-shomrim",
+      "handbook": "mammon",
+      "title": "ארבעה שומרים",
+      "block_ids": [
+        "d-shomrim/four",
+        "d-shomrim/ones",
+        "d-shomrim/baalav"
+      ],
+      "entry_sha256": "198a55408895aa25ebd407c05a6a271abada0b93ae7e1f2e16e4107e04ef39b9"
+    },
+    {
+      "entry_id": "d-shomer-ones",
+      "handbook": "mammon",
+      "title": "אונס ושמירת הבהמה",
+      "block_ids": [
+        "d-shomer-ones/roles",
+        "d-shomer-ones/wolves",
+        "d-shomer-ones/exposure"
+      ],
+      "entry_sha256": "8b2f27192b5e3e9097401816201d6e57165f0b7500f2723fed6ffe2ea058a306"
+    },
+    {
+      "entry_id": "d-ribit",
+      "handbook": "mammon",
+      "title": "נשך ורבית",
+      "block_ids": [
+        "d-ribit/meaning",
+        "d-ribit/distinction"
+      ],
+      "entry_sha256": "0ccadbd34b02badd42ca5af450fb68db074604e1a7be1201f0cb274c983440d9"
+    },
+    {
+      "entry_id": "d-avedah",
+      "handbook": "mammon",
+      "title": "מציאה והכרזה",
+      "block_ids": [
+        "d-avedah/siman",
+        "d-avedah/recognition"
+      ],
+      "entry_sha256": "1b07e449c7bdcece6cc1c5bb30e06abba5064745f41da1f15e8985ca1be8dca2"
+    },
+    {
+      "entry_id": "d-karka",
+      "handbook": "mammon",
+      "title": "קנין קרקע",
+      "block_ids": [
+        "d-karka/ways",
+        "d-karka/chazakah"
+      ],
+      "entry_sha256": "cf3e85a9b359c914f919a8f032a3932413d7b689013b0e18a23828938efb2e5e"
+    },
+    {
+      "entry_id": "d-mitaltelin",
+      "handbook": "mammon",
+      "title": "קנין מטלטלין ואגב",
+      "block_ids": [
+        "d-mitaltelin/meshichah",
+        "d-mitaltelin/agav"
+      ],
+      "entry_sha256": "be054471aefb8019c69f4fa2ae9513439b9ca22d59d7395f04daec7966c239fa"
+    },
+    {
+      "entry_id": "d-onaah",
+      "handbook": "mammon",
+      "title": "אונאה וביטול מקח",
+      "block_ids": [
+        "d-onaah/meaning",
+        "d-onaah/distinction",
+        "d-onaah/seller-buyer"
+      ],
+      "entry_sha256": "2d1d814e6c7e257f9a30ead8cafe72296d7b7ff27548a207c1e08f845e2cd6d9"
+    },
+    {
+      "entry_id": "d-shutfin",
+      "handbook": "mammon",
+      "title": "חלוקת חצר ומחיצה",
+      "block_ids": [
+        "d-shutfin/meaning",
+        "d-shutfin/distinction"
+      ],
+      "entry_sha256": "61f44b3dabda098ce8293ba738222ae67ce91598071e40ed18471605ccf76548"
+    },
+    {
+      "entry_id": "d-harchakah",
+      "handbook": "mammon",
+      "title": "הרחקת נזקי שכנים",
+      "block_ids": [
+        "d-harchakah/meaning",
+        "d-harchakah/distinction"
+      ],
+      "entry_sha256": "adb9f49f285b5e4d6fde55f924113848cd6749233b1dad8284a247c9f41ab69d"
+    },
+    {
+      "entry_id": "d-yerushah",
+      "handbook": "mammon",
+      "title": "סדר נחלות",
+      "block_ids": [
+        "d-yerushah/meaning",
+        "d-yerushah/distinction",
+        "d-yerushah/three-laws"
+      ],
+      "entry_sha256": "0804562246343fbb134c35dcd10980722da75e93db18a8c9052127e2399b0fb6"
+    },
+    {
+      "entry_id": "d-chazakah",
+      "handbook": "mammon",
+      "title": "חזקת שלוש שנים",
+      "block_ids": [
+        "d-chazakah/meaning",
+        "d-chazakah/distinction"
+      ],
+      "entry_sha256": "40fd33326a2ae378a73652f9721508c774374fc6f7194c36247ca6cd38146786"
+    },
+    {
+      "entry_id": "d-two-chazakot",
+      "handbook": "mammon",
+      "title": "חזקת קניין וחזקת שלוש שנים",
+      "block_ids": [
+        "d-two-chazakot/action",
+        "d-two-chazakot/proof",
+        "d-two-chazakot/owner"
+      ],
+      "entry_sha256": "b15a818f51ac481a24146c86502ca596b0b14c00d7afab16bb447b58f176c75d"
+    },
+    {
+      "entry_id": "d-shevuot",
+      "handbook": "mammon",
+      "title": "שבועת הדיינים",
+      "block_ids": [
+        "d-shevuot/meaning",
+        "d-shevuot/distinction",
+        "d-shevuot/hesset"
+      ],
+      "entry_sha256": "ed1eb228faffdbf0aed8a3e93864d2d0778757193015ce77632ec0f61b2cad0a"
+    },
+    {
+      "entry_id": "d-edut",
+      "handbook": "mammon",
+      "title": "בדיקת עדים בדיני ממונות",
+      "block_ids": [
+        "d-edut/meaning",
+        "d-edut/distinction"
+      ],
+      "entry_sha256": "f4e3c88c39318e590433815d748604e9da722a88fd61849fb78b7bdcc40c15ac"
+    },
+    {
+      "entry_id": "d-dayanim",
+      "handbook": "mammon",
+      "title": "בית דין בדיני ממונות",
+      "block_ids": [
+        "d-dayanim/three",
+        "d-dayanim/acceptance",
+        "d-dayanim/permission"
+      ],
+      "entry_sha256": "eb8811527a6a05f64b04a452e42479f88bd87ebf6a335f97ace0affbeb27e530"
+    },
+    {
+      "entry_id": "a-shechitah",
+      "handbook": "issur",
+      "title": "שחיטת חולין",
+      "block_ids": [
+        "a-shechitah/meaning",
+        "a-shechitah/distinction",
+        "a-shechitah/competence"
+      ],
+      "entry_sha256": "9e51749137d96cc8027cc25ffe7e0f89666c8403385d7b77a5caa163020a36c5"
+    },
+    {
+      "entry_id": "a-terefah",
+      "handbook": "issur",
+      "title": "טרפה",
+      "block_ids": [
+        "a-terefah/meaning",
+        "a-terefah/distinction",
+        "a-terefah/internal"
+      ],
+      "entry_sha256": "fde03c9c4e809a5053d1e71ec2e5f57a67b848c4c72cfec7d50b54383924dac2"
+    },
+    {
+      "entry_id": "a-basar-chalav",
+      "handbook": "issur",
+      "title": "בשר בחלב",
+      "block_ids": [
+        "a-basar-chalav/meaning",
+        "a-basar-chalav/distinction",
+        "a-basar-chalav/distance"
+      ],
+      "entry_sha256": "9d1abf8d36e3cd9a22659b4042e56c319b68adb5346ad70801b03998eb373ad1"
+    },
+    {
+      "entry_id": "a-taam",
+      "handbook": "issur",
+      "title": "נותן טעם בתערובת",
+      "block_ids": [
+        "a-taam/meaning",
+        "a-taam/distinction",
+        "a-taam/udder"
+      ],
+      "entry_sha256": "fe35ab71b1892a03f6885b196856627bc9c47ba95d4489b18729cabedbf498bb"
+    },
+    {
+      "entry_id": "a-neder",
+      "handbook": "issur",
+      "title": "נדרי איסור ולשונותיהם",
+      "block_ids": [
+        "a-neder/meaning",
+        "a-neder/distinction",
+        "a-neder/sukkah"
+      ],
+      "entry_sha256": "afaad414d43548636c7e8e4ad669e318cf7ecd21591f391792e00024b1ca9853"
+    },
+    {
+      "entry_id": "a-yadot-kinuyim",
+      "handbook": "issur",
+      "title": "ידות וכינויים בנדרים",
+      "block_ids": [
+        "a-yadot-kinuyim/names",
+        "a-yadot-kinuyim/meaning",
+        "a-yadot-kinuyim/rashaim"
+      ],
+      "entry_sha256": "5089d799469b9cd5fcb5d29b1b949dd00ac6ef9362ce75e6dbaebf71ac776eef"
+    },
+    {
+      "entry_id": "a-hatarah",
+      "handbook": "issur",
+      "title": "התרת נדרים והפרתם",
+      "block_ids": [
+        "a-hatarah/meaning",
+        "a-hatarah/distinction"
+      ],
+      "entry_sha256": "e5eb7efa2dec3de660bfd6a936d885655a858885cf7fa557c340901be67791d0"
+    },
+    {
+      "entry_id": "a-shevuah",
+      "handbook": "issur",
+      "title": "שבועת ביטוי",
+      "block_ids": [
+        "a-shevuah/meaning",
+        "a-shevuah/distinction",
+        "a-shevuah/speech"
+      ],
+      "entry_sha256": "eeff670e30274567b826a3a76fad187000f71497fef44aad557d1330ba48e163"
+    }
+  ],
+  "note": "Comparison inventory only; not generated over reviewed ledger and not evidence entries have been read."
+}
