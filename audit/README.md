@@ -109,3 +109,9 @@ Five guarded changes in `refinement_01313.json` clarify which quantity is doubtf
 `check_refinement.py` compares committed 0.13.12 with exactly those five changes and preserves all other corpus data and prior ledger rows. Earlier checkers account for the explicit later overlay; no reviewed ledger data is regenerated. Same-editor wording review does not complete independent scholarly review. Existing native-installation limitations remain.
 
 All six evidence checks, full packaged browser and SDK host suites, native packaging and official validation passed locally. Two clean builds have identical ten-file payloads; ZIP timestamps differ. The 0.13.13 review update is published in the store, confirmed by [workflow39636336622](https://github.com/dakulefsky/movo/actions/runs/39636336622) at 2026-10-21T16:38:14.1200054Z. All workflow checks passed. No scholarly certification or main merge.
+
+## Final focused reading pass — 0.13.14
+
+Two exact edits in `refinement_01314.json` improve the distinction between the two kinds of חזקה: remove a repeated purchase claim while retaining both the claim and the evidence of use, and identify the owner explicitly in the reference to silence. The evidence period, conditions for protest, source references and all other content remain unchanged. No new glosses or legal explanations are introduced.
+
+The explicit overlay chain and all preservation checkers account for this pass. `check_refinement.py` compares committed 0.13.13 with exactly those two edits; previous manifests and reviewed ledger data remain intact. Scholarly approval and the previously recorded native-installation limitations are unaffected.

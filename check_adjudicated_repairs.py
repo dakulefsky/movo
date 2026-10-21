@@ -73,4 +73,4 @@ assert 'יש הבדל בין המקורות' in prose('d-edut/meaning')
 assert 'ובעיקר תוספות יום טוב נתפרש' in prose('minchah/exceptions')
 assert len(blocks['minchah/exceptions']['paragraphs']) == 2
 assert 'מנחה רגילה' in blocks['minchah/exceptions']['paragraphs'][0]
-print('PASS: 32 adjudicated repairs + 203 guarded readability revisions + 27 sentence refinements; 317 blocks / 360 claims; all historical sources and reviewed evidence preserved. No scholarly certification.')
+print('PASS: 32 adjudicated repairs + 203 guarded readability revisions + 29 sentence refinements; 317 blocks / 360 claims; all historical sources and reviewed evidence preserved. No scholarly certification.')

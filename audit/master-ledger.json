@@ -85763,5 +85763,65 @@
     "scope": "Five guarded phrasing refinements; original quotations, all legal qualifications, sparse gloss policy and historical scholarly decisions retained.",
     "scholarly_clearance": false,
     "publication_route": "Manual workflow on audit-0135-repairs; no main merge."
+  },
+  "final_readability_checkpoint": {
+    "version": "0.13.14",
+    "manifest": {
+      "basis_commit": "f055a81",
+      "basis_version": "0.13.13",
+      "version": "0.13.14",
+      "changed_paragraphs": 2,
+      "scope": "Two final reading fixes only: repetition and a pronoun referent. No source, legal condition, quotation, number or gloss changes.",
+      "edits": [
+        {
+          "claim_id": "d-two-chazakot/proof/paragraph-1",
+          "before": "בחזקת שלוש שנים, המחזיק מבקש להוכיח שקנה את השדה. הוא טוען שקנה את השדה, ומראה שאכל את פירותיה במשך הזמן הנדרש. הרמב״ם מסביר שאין אדם שומר שטרו לעולם, ולכן החזקה עשויה לשמש ראיה לבעלותו. היא אינה מקנה לו את השדה בסוף השנה השלישית מכוח אכילת הפירות בלבד. זו חזקת ראיה, בשונה מחזקה המשמשת למעשה קניין.",
+          "after": "בחזקת שלוש שנים, המחזיק טוען שקנה את השדה. כדי להוכיח זאת הוא מראה שאכל את פירותיה במשך הזמן הנדרש. הרמב״ם מסביר שאין אדם שומר שטרו לעולם, ולכן החזקה עשויה לשמש ראיה לבעלותו. היא אינה מקנה לו את השדה בסוף השנה השלישית מכוח אכילת הפירות בלבד. זו חזקת ראיה, בשונה מחזקה המשמשת למעשה קניין.",
+          "reason": "Remove repeated phrasing or identify the owner explicitly; retain the purchase claim, evidence period and conditions."
+        },
+        {
+          "claim_id": "d-two-chazakot/owner/paragraph-1",
+          "before": "מי שחולק על טענת המחזיק יכול למחות. הרמב״ם מבאר שמחאה מועילה גם שלא בפני המחזיק, מפני שהיא עשויה להגיע לאוזניו. אך כשנפסקות הדרכים מחמת מלחמה וכיוצא בה, משתבשת האפשרות לדעת מה נעשה בשדה. לכן אין די למנות שלוש שנים; יש לבדוק אם היו תנאים שבהם היה על הבעלים לדעת ולמחות. חזקת הראיה נשענת על משמעות שתיקתו, בשונה מחזקת המעשה הקונה.",
+          "after": "מי שחולק על טענת המחזיק יכול למחות. הרמב״ם מבאר שמחאה מועילה גם שלא בפני המחזיק, מפני שהיא עשויה להגיע לאוזניו. אך כשנפסקות הדרכים מחמת מלחמה וכיוצא בה, משתבשת האפשרות לדעת מה נעשה בשדה. לכן אין די למנות שלוש שנים; יש לבדוק אם היו תנאים שבהם היה על הבעלים לדעת ולמחות. חזקת הראיה נשענת על משמעות שתיקת הבעלים, בשונה מחזקת המעשה הקונה.",
+          "reason": "Remove repeated phrasing or identify the owner explicitly; retain the purchase claim, evidence period and conditions."
+        }
+      ]
+    },
+    "validation": "PASS all six preservation checkers; exactly two guarded paragraph changes against committed 0.13.13; all other corpus content, quotations, numbers, sparse glosses and prior ledger rows unchanged. Two clean builds have identical ten-file payloads and valid ZIP CRCs; timestamps differ. Full packaged Chromium and pinned SDK host tests pass over authorized HTTP. Native packaging matches tested payload; official validator passes with zero errors/warnings and bundled SDK fallback, local published=false. Existing scholarly-review and native-installation limitations remain.",
+    "scholarly_status": "Wording only; all prior scholarly decisions and source conflicts retained.",
+    "clean_builds": [
+      {
+        "build": 1,
+        "zip_sha256": "fbfdb39b6f234c71f40d9b914fef7b10c4e9df54c836e272e1538892f6bc6659",
+        "files": {
+          "app.js": "952110f04591cc12656faae4deea70da3d5ba1711721efe5f116d8997c9df889",
+          "data/library.js": "16c3719d030f183c3b4ad6163e1cbde177cae32f5283981148eb63cd9133a81b",
+          "fonts/NotoSerifHebrew.ttf": "4a76d07f2f671273d0219e51dc63459323be0c7b7d8106267f0f68af4227a3b5",
+          "fonts/Rubik.ttf": "7604615c681d3594432cb7f1b592657d1cac98acdb60c7e95619cddda19b265f",
+          "fonts/notoserifhebrew-OFL.txt": "9b9fe028b5ba74d231659a1bbaf0ed09b11e759d1ca6a070999e16d151616b47",
+          "fonts/rubik-OFL.txt": "472cbe7c25441df63e9c7864b43eb3c0f4b3df950c66a76224e6cfe1eae843fb",
+          "index.html": "2654bbd7642c67f135b2453d36979928774627ecf13684c48252e9cb0965d2b5",
+          "manifest.json": "f1c828a36e6b3dc1e232ff4e152fded1b7b405983d7f3557dcb5fabd5decd963",
+          "style.css": "7633758a8b50cf74431c1381addb867f04c5f13e3cf994239cffb9b2dd79ebc2",
+          "theme-start.js": "8196bd063e270c287accace6dc102392e8fef835f14d100215881cc5b8d86034"
+        }
+      },
+      {
+        "build": 2,
+        "zip_sha256": "da6543b4cb05c3fe0ec63d73ebc6236916f46a6db938b2b58e2b72ae0ccef694",
+        "files": {
+          "app.js": "952110f04591cc12656faae4deea70da3d5ba1711721efe5f116d8997c9df889",
+          "data/library.js": "16c3719d030f183c3b4ad6163e1cbde177cae32f5283981148eb63cd9133a81b",
+          "fonts/NotoSerifHebrew.ttf": "4a76d07f2f671273d0219e51dc63459323be0c7b7d8106267f0f68af4227a3b5",
+          "fonts/Rubik.ttf": "7604615c681d3594432cb7f1b592657d1cac98acdb60c7e95619cddda19b265f",
+          "fonts/notoserifhebrew-OFL.txt": "9b9fe028b5ba74d231659a1bbaf0ed09b11e759d1ca6a070999e16d151616b47",
+          "fonts/rubik-OFL.txt": "472cbe7c25441df63e9c7864b43eb3c0f4b3df950c66a76224e6cfe1eae843fb",
+          "index.html": "2654bbd7642c67f135b2453d36979928774627ecf13684c48252e9cb0965d2b5",
+          "manifest.json": "f1c828a36e6b3dc1e232ff4e152fded1b7b405983d7f3557dcb5fabd5decd963",
+          "style.css": "7633758a8b50cf74431c1381addb867f04c5f13e3cf994239cffb9b2dd79ebc2",
+          "theme-start.js": "8196bd063e270c287accace6dc102392e8fef835f14d100215881cc5b8d86034"
+        }
+      }
+    ]
   }
 }

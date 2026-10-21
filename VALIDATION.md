@@ -1,3 +1,7 @@
+# Current focused reading pass — 0.13.14
+
+Two guarded wording edits remove repetition and clarify the reference to the owner. All other corpus content, quotations, numbers, legal qualifications and sparse glosses are unchanged from 0.13.13. Current results and store receipt are recorded in `audit/master-ledger.json`; older reports below remain historical.
+
 # Current phrasing refinement — 0.13.13
 
 Five guarded paragraph edits clarify references and compressed phrasing. All other explanations, source quotations, reading stages and the sparse gloss selection remain unchanged from 0.13.12. Results and store receipt are recorded in `audit/master-ledger.json`; earlier reports below are historical.
