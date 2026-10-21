@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "reviewed_commit": "e701a4006c23215449e7d53bb2f0cf0b5b6bc93b",
+  "editorial_sha256": "9049de9b3be00871daba93a0b4f1e477b1e04aeeac13a52e72d3c390698ee973",
+  "entries": 98,
+  "blocks": 317,
+  "paragraph_item_units": 360,
+  "separate_framing_texts": 6,
+  "short_public_quote_receipt_checks": 8,
+  "historical_top_level_fields_preserved": 27,
+  "checks": [
+    "All98 authored entry notes and questions present",
+    "Exact current entry hashes, blocks, claims, reading sections and link targets",
+    "All current finding excerpts match corpus",
+    "Public short quotations and URLs present in saved receipts",
+    "Six framing statements match corpus and add no claim units",
+    "Every historical ledger top-level field unchanged",
+    "No application/source changes or scholarly status promotion"
+  ]
+}

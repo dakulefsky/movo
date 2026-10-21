@@ -1,0 +1,22 @@
+{
+  "ref": "משנה ערלה ג, ט",
+  "heRef": "משנה ערלה ג, ט — הפרדת ערלה מכלאי הכרם",
+  "he": [
+    "ספק ערלה, בארץ ישראל אסור, ובסוריא מותר, ובחוצה לארץ יורד ולוקח, ובלבד שלא יראנו לוקט. כרם נטוע טז ירק, וירק נמכר חוצה לו, בארץ ישראל אסור, ובסוריא מותר, ובחוצה לארץ יורד ולוקט, ובלבד שלא ילקוט ביד. החדש, אסור מן התורה בכל מקום. והערלה, הלכה. והכלאים, מדברי סופרים."
+  ],
+  "versions": [
+    {
+      "language": "he",
+      "versionTitle": "Wikisource public Hebrew transcription",
+      "versionSource": "https://he.wikisource.org/wiki/משנה_ערלה_ג_ט",
+      "license": "CC BY-SA"
+    }
+  ],
+  "witness": {
+    "url": "https://he.wikisource.org/wiki/משנה_ערלה_ג_ט",
+    "retrieved_at": "2026-10-21",
+    "page_sha256": "23b3f179429bfb728b5c3d98a78d001b5c4ab98ee8eb56eb60edb0bec4f6bb9e",
+    "capture": "audit-witness-orlah.json",
+    "normalization": "HTML text nodes joined, whitespace collapsed; passages extracted without rewriting"
+  }
+}

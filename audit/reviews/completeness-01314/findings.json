@@ -1,0 +1,1336 @@
+{
+  "metadata": {
+    "review_type": "independent_AI_completeness_and_teaching_quality_review",
+    "reviewer_role": "AI textual reviewer; no claim of human talmid-chacham/rabbinic approval",
+    "status": "COMPLETED_CURRENT_ENTRY_READING",
+    "reviewed_at": "2026-10-21",
+    "version": "0.13.14",
+    "commit": "e701a4006c23215449e7d53bb2f0cf0b5b6bc93b",
+    "editorial_sha256": "9049de9b3be00871daba93a0b4f1e477b1e04aeeac13a52e72d3c390698ee973",
+    "ledger_sha256_at_pin": "d183c8409e8779dec21b12cf403a1cf4f852bc8f6264e8355ee1abba8b69e17e",
+    "input_manifest": "input-manifest.json",
+    "audience": "Mature Hebrew/beis-midrash reader entering an unfamiliar subject; no routine elementary Aramaic glosses.",
+    "scope": "98 selected introductions and six framing texts. Original317 blocks/360 paragraph-item units remain fixed; six framing texts are separate.",
+    "source_method": "Full current-entry teaching reread; prior all-corpus source-fidelity evidence retained; targeted full contextual public text for proposed substantive additions. Bundled quote agreement alone is not interpretive proof.",
+    "limits": [
+      "No human scholarly certification, full-Shas completeness claim, practical pesak or promotion of historical ledger statuses.",
+      "No exhaustive search for every major alternative across every sugya. No additional mandatory alternative omission was established in this bounded pass.",
+      "Online witnesses are transcriptions; no independent physical/manuscript collation. Failed fetches are not treated as witnesses.",
+      "The separate source-fidelity pass’s unresolved conflicts/qualified wording concerns are not resolved by this pedagogical pass."
+    ]
+  },
+  "summary_counts": {
+    "concrete_addition": 5,
+    "optional_enrichment": 2,
+    "teaching_quality": 2,
+    "source_check_needed": 1
+  },
+  "findings": [
+    {
+      "id": "CQ-01",
+      "category": "concrete_addition",
+      "priority": "high",
+      "entry_ids": [
+        "i-nissuin"
+      ],
+      "block_ids": [
+        "i-nissuin/stages",
+        "i-nissuin/time",
+        "i-nissuin/example"
+      ],
+      "title": "Define the חופה promised in the entry title within Rambam’s framework",
+      "current_evidence": [
+        {
+          "block_id": "i-nissuin/stages",
+          "title": "קידושין ונישואין",
+          "current_paragraphs": [
+            "הקידושין קודמים לנישואין ולכניסה לחופה. עם הנישואין נוספים חיובים וזכויות שבין האיש לאשתו: הבעל חייב במזונותיה וזוכה באכילת פירות נכסיה. המאירי מונה בכלל ענייני האישות גם את הכתובה ותוספתה, ושאר הזכויות והחיובים שבין בני הזוג."
+          ],
+          "current_items": [],
+          "bundled_refs": [
+            {
+              "source": "i-meiri",
+              "segments": [
+                1
+              ]
+            },
+            {
+              "source": "review-nissuin-m",
+              "segments": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "block_id": "i-nissuin/time",
+          "title": "הזמן שנותנים לנישואין",
+          "current_paragraphs": [
+            "לאחר הקידושין נותנים לאשה זמן להכין עצמה לנישואין. הרמב״ם מבאר שמונים זמן זה מן התביעה להינשא, ולא מעצם הקידושין. משך ההמתנה אינו שווה בכל מקרה: הוא משתנה בין בתולה לאלמנה, ותלוי גם בזמן שבו בגרה האשה."
+          ],
+          "current_items": [],
+          "bundled_refs": [
+            {
+              "source": "i-ket-5-2",
+              "segments": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "block_id": "i-nissuin/example",
+          "title": "אירוסין לכהן",
+          "current_paragraphs": [
+            "מן ההבדלים שבין אירוסין לנישואין: בת ישראל שנתארסה לכהן עדיין אינה אוכלת בתרומה, עד שתיכנס לחופה."
+          ],
+          "current_items": [],
+          "bundled_refs": [
+            {
+              "source": "i-ket-5-2",
+              "segments": [
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "reasoning": "The entry explains consequences, preparation time and terumah, but never identifies the transition called חופה. Excluding competing forms of huppah does not prevent a bounded definition of the framework being taught. This is a missing core concept, not a false existing sentence or a demand for a practical marriage manual.",
+      "minimal_proposed_hebrew": "לפי הרמב״ם, כניסה לחופה היא הבאת הארוסה לביתו וייחוד עמה לשם נישואין; בכך היא נעשית נשואה אף שלא נבעלה, ובלבד שהיא ראויה לביאה. ברכת חתנים לבדה אינה עושה נישואין.",
+      "public_witnesses": [
+        {
+          "url": "https://he.wikisource.org/wiki/רמב%22ם_הלכות_אישות_י",
+          "citation": "משנה תורה, אישות י, א–ב; ו",
+          "exact_short_quote": "וייחוד זה הוא הנקרא כניסה לחופה והוא הנקרא נישואין בכל מקום",
+          "fetched_at": "2026-10-21",
+          "fetched_by": "coordinator; receipt and relevant text reread by reviewer",
+          "edition": "Public online Hebrew transcription; no physical edition or manuscript independently collated",
+          "receipt": "root-checks/chuppah-public-witnesses.json",
+          "surrounding_context_read": "10:1–2 and 10:6; ביתו, ייחוד, ראויה לבעילה and distinction from blessing read",
+          "provenance": "newly accessed public text for this teaching review; not merely an existing bundled quote"
+        },
+        {
+          "url": "https://mechon-mamre.org/i/4110.htm",
+          "citation": "אישות י, א–ב; ראש ה [ו]",
+          "exact_short_quote": "שאין ברכת חתנים עושה הנישואין, אלא כניסה לחופה.",
+          "fetched_at": "2026-10-21",
+          "fetched_by": "coordinator; receipt and relevant text reread by reviewer",
+          "edition": "Public online Hebrew transcription; no physical edition or manuscript independently collated",
+          "receipt": "root-checks/chuppah-public-witnesses.json",
+          "surrounding_context_read": "Same surrounding rules; main/bracket numbering differs",
+          "provenance": "newly accessed public text for this teaching review; not merely an existing bundled quote"
+        }
+      ],
+      "bundled_support_limit": "Current i-meiri/review-nissuin-m/i-ket-5-2 support consequences and preparation, not this complete definition. Ishut10 would be a newly attached source.",
+      "alternatives_decision": "Explicit לפי הרמב״ם is necessary. The current handbook consciously excludes surveying forms of huppah; no universal definition or competing-view inventory is proposed.",
+      "preservation_conditions": [
+        "Retain ראויה לביאה; do not turn this into modern ceremony instructions.",
+        "Retain the explicit scope exclusion of other approaches."
+      ]
+    },
+    {
+      "id": "CQ-02",
+      "category": "concrete_addition",
+      "priority": "high",
+      "entry_ids": [
+        "a-neder"
+      ],
+      "block_ids": [
+        "a-neder/meaning",
+        "a-neder/sukkah"
+      ],
+      "title": "Supply the oath half of the comparison the entry itself promises",
+      "current_evidence": [
+        {
+          "block_id": "a-neder/meaning",
+          "title": "איסור הדבר בנדר",
+          "current_paragraphs": [
+            "בנדרי איסור חל האיסור על גוף הדבר שנאסר. לכן מי שאסר על עצמו סוכה מסוימת אינו יכול לקיים בה את מצוות הישיבה בסוכה. באמצעות מקרה זה מבאר הרמב״ם את ההבדל בין נדר לשבועה. לצד איסור החפץ הוא מתאר אפשרות אחרת: אדם יכול להתחייב בקרבן בכל פעם שיעשה מצווה. כך, האומר ״קרבן עלי כל זמן שמניח תפילין״ רשאי להניח תפילין, אך בכל פעם שיניחן יתחייב בקרבן מחמת נדרו. במקרה זה לא נאסרו התפילין או הנחתן; עשיית המצווה היא התנאי המחייב אותו בקרבן."
+          ],
+          "current_items": [],
+          "bundled_refs": [
+            {
+              "source": "c-Nedarim-2.2",
+              "segments": [
+                1
+              ]
+            },
+            {
+              "source": "intro",
+              "segments": [
+                41
+              ]
+            }
+          ]
+        },
+        {
+          "block_id": "a-neder/sukkah",
+          "title": "דבר הנאסר בנדר אף במקום מצווה",
+          "current_paragraphs": [
+            "מי שאסר על עצמו סוכה מסוימת בנדר אינו רשאי לשבת בה, אף כדי לקיים מצווה: בנדר חל האיסור על גוף הדבר. בדוגמה זו מסביר הרמב״ם את החילוק בין נדר לשבועה. לצד זאת הוא מבחין בנדר שבו האדם מתחייב בקרבן בכל פעם שיעשה מצווה. כאן ההבחנה היא בין איסור חפצא, כלומר איסור החל על הדבר, לבין התחייבות המוטלת על האדם. אלו שני סוגים שונים של נדר, ואין להוסיף להם טעם שלא נאמר במקור."
+          ],
+          "current_items": [],
+          "bundled_refs": [
+            {
+              "source": "c-Nedarim-2.2",
+              "segments": [
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "reasoning": "Both blocks say the sukkah example explains neder versus shevuah, but both explain only the object-bound vow. The linked a-shevuah covers past/future and wording counts rather than the missing personal obligation/mitzvah contrast. This leaves an explicitly announced distinction unfinished.",
+      "minimal_proposed_hebrew": "הרמב״ם מבאר: בנדר האדם אוסר את הדבר על עצמו, ואילו בשבועה הוא אוסר את עצמו. לכן נדר האוסר סוכה מסוימת חל גם במקום מצווה, ואילו שבועה לבטל את מצוות הישיבה בסוכה אינה חלה כשבועת ביטוי, שהרי האדם כבר מושבע לקיימה.",
+      "public_witnesses": [
+        {
+          "url": "https://he.wikisource.org/wiki/רמב%22ם_הלכות_נדרים_ג",
+          "citation": "משנה תורה, נדרים ג, א; ו–ח",
+          "exact_short_quote": "שהנשבע אוסר עצמו על דבר שנשבע עליו והנודר אוסר הדבר הנדור על עצמו",
+          "fetched_at": "2026-10-21",
+          "fetched_by": "reviewer",
+          "edition": "Public online Hebrew transcription; no physical edition or manuscript independently collated",
+          "receipt": "core-public-witnesses.json",
+          "surrounding_context_read": "3:1,6–8 read together; later qualifications about non-substantive vows also observed",
+          "provenance": "newly accessed public text for this teaching review; not merely an existing bundled quote"
+        }
+      ],
+      "bundled_support_limit": "c-Nedarim-2.2 gives the object-vow and conditional offering examples; the explicit mitzvah-oath rationale is newly sourced from Nedarim3:7.",
+      "alternatives_decision": "The missing half is in Rambam himself; this is not an invitation to import every neder/shevuah controversy.",
+      "preservation_conditions": [
+        "Do not say every possible שבועה is simply void or consequence-free.",
+        "The conditional obligation to bring a korban remains a different case; do not relabel it an ordinary personal oath."
+      ]
+    },
+    {
+      "id": "CQ-03",
+      "category": "concrete_addition",
+      "priority": "medium",
+      "entry_ids": [
+        "minchah"
+      ],
+      "block_ids": [
+        "minchah/nature",
+        "minchah/matzah"
+      ],
+      "title": "Identify the material of a מנחה before teaching קמיצה",
+      "current_evidence": [
+        {
+          "block_id": "minchah/nature",
+          "title": "הקומץ והשיריים",
+          "current_paragraphs": [
+            "במנחה הטעונה קמיצה מפרישים קומץ ונותנים אותו בכלי שרת. את הקומץ מקטירים על המזבח, ואת שיירי המנחה אוכלים הכהנים. בביאור מחשבת שלא לשמה משווה הרמב״ם את הקמיצה לשחיטת הזבח, ואת הקומץ והלבונה לאימורים, לעניינים המפורטים בפירושו."
+          ],
+          "current_items": [],
+          "bundled_refs": [
+            {
+              "source": "m1-1",
+              "segments": [
+                1
+              ]
+            },
+            {
+              "source": "m2-1",
+              "segments": [
+                1
+              ]
+            },
+            {
+              "source": "m6-1",
+              "segments": [
+                1
+              ]
+            },
+            {
+              "source": "z5-8",
+              "segments": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "block_id": "minchah/matzah",
+          "title": "מצה וחמץ",
+          "current_paragraphs": [
+            "המנחות הקרבות על המזבח באות מצה. חמץ שבתודה ושתי הלחם באים חמץ, אך אינם קרבים על המזבח."
+          ],
+          "current_items": [],
+          "bundled_refs": [
+            {
+              "source": "m5-1",
+              "segments": [
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "reasoning": "All five blocks were read. The first begins with a מנחה already requiring kemitzah; later blocks distinguish eating, a priest’s minchah, matzah and intent. None identifies the basic offering material. A grain definition with its important barley exceptions supplies a prerequisite without expanding the intentionally incomplete typology of menachot.",
+      "minimal_proposed_hebrew": "המנחות באות מן הדגן: בדרך כלל מסולת חיטים; מנחת סוטה ומנחת העומר באות מן השעורים.",
+      "public_witnesses": [
+        {
+          "url": "https://he.wikisource.org/wiki/רמב%22ם_הלכות_מעשה_הקרבנות_יב",
+          "citation": "משנה תורה, מעשה הקרבנות יב, א–ד; ב בפרט",
+          "exact_short_quote": "וכל המנחות סולת חיטין חוץ ממנחת סוטה ועומר התנופה שהם מן השעורים",
+          "fetched_at": "2026-10-21",
+          "fetched_by": "reviewer",
+          "edition": "Public online Hebrew transcription; no physical edition or manuscript independently collated",
+          "receipt": "definition-public-witnesses.json",
+          "surrounding_context_read": "12:1–4,7,9 read; distinction of public breads, oil/incense exceptions and kemitzah exceptions preserved",
+          "provenance": "newly accessed public text for this teaching review; not merely an existing bundled quote"
+        }
+      ],
+      "bundled_support_limit": "The attached Menachot commentaries explain kemitzah and its exceptions. MaasehKorbanot12:2 is a new supporting source proposed for the opening definition.",
+      "preservation_conditions": [
+        "Do not add an all-menachot oil/incense or all-menachot altar-burning rule.",
+        "Do not resolve or erase the explicitly disclosed Omer conflict between PHM and Mishneh Torah."
+      ]
+    },
+    {
+      "id": "CQ-04",
+      "category": "concrete_addition",
+      "priority": "medium",
+      "entry_ids": [
+        "i-ketubah"
+      ],
+      "block_ids": [
+        "i-ketubah/scope",
+        "i-ketubah/rights"
+      ],
+      "title": "Name the ketubah debt and its ordinary collection events before its components",
+      "current_evidence": [
+        {
+          "block_id": "i-ketubah/scope",
+          "title": "עיקר, תוספת ותנאים",
+          "current_paragraphs": [
+            "המאירי מבחין בין עיקר הכתובה, תוספת הכתובה ושאר התנאים שבין האיש לאשתו. חלק מן התנאים חלים מכוח תקנת בית דין, גם אם לא נכתבו בפירוש. אחרים תלויים במה שהתנו בני הזוג ובכללים הקובעים את תוקפו של תנאי."
+          ],
+          "current_items": [],
+          "bundled_refs": [
+            {
+              "source": "i-meiri",
+              "segments": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "block_id": "i-ketubah/rights",
+          "title": "שאר זכויות וחיובים",
+          "current_paragraphs": [
+            "המאירי מונה בין חיובי האישות וזכויותיה מזונות, מעשה ידיים, נכסי מלוג וירושה. מקצת הדינים נוהגים בחיי בני הזוג, ואחרים לאחר מיתה, כגון מזונות האלמנה וגביית כתובתה."
+          ],
+          "current_items": [],
+          "bundled_refs": [
+            {
+              "source": "i-meiri",
+              "segments": [
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "reasoning": "The entry distinguishes principal, addition, conditions, lien and other marital rights, but does not first say what monetary obligation the principal/addition constitute. The rights block mentions collection after death, leaving divorce and the time-bound debt as unstated prerequisites. This is an orienting sentence, not a demand for all financial conditions or every case where a wife loses ketubah.",
+      "minimal_proposed_hebrew": "עיקר הכתובה ותוספתה הם חיוב ממוני של הבעל לאשתו. הרמב״ם מבאר שאין הכתובה חוב הנגבה בכל עת שתרצה, אלא גבייתה לאחר מיתת הבעל או בגירושין, לפי דיניה.",
+      "public_witnesses": [
+        {
+          "url": "https://he.wikisource.org/wiki/רמב%22ם_הלכות_אישות_טז",
+          "citation": "משנה תורה, אישות טז, א–ג",
+          "exact_short_quote": "ואין הכתובה נגבית אלא לאחר מיתת הבעל או אם גירשה",
+          "fetched_at": "2026-10-21",
+          "fetched_by": "reviewer",
+          "edition": "Public online Hebrew transcription; no physical edition or manuscript independently collated",
+          "receipt": "definition-public-witnesses.json",
+          "surrounding_context_read": "16:1–3 read, including exclusion of dowry from narrow ketubah terminology; later land/movables distinctions observed",
+          "provenance": "newly accessed public text for this teaching review; not merely an existing bundled quote"
+        }
+      ],
+      "bundled_support_limit": "The Meiri overview already supports principal/addition/conditions and some claims after death; Ishut16:2–3 would newly support the opening debt/collection distinction.",
+      "preservation_conditions": [
+        "Keep לפי דיניה; do not promise every wife a payment in every termination case.",
+        "Do not merge all marital conditions into principal/addition or disturb the carefully scoped lien/land passage."
+      ]
+    },
+    {
+      "id": "CQ-05",
+      "category": "concrete_addition",
+      "priority": "medium",
+      "entry_ids": [
+        "z-demai"
+      ],
+      "block_ids": [
+        "z-demai/meaning",
+        "z-demai/distinction"
+      ],
+      "title": "Bridge first-tithe designation and physical delivery in the demai explanation",
+      "current_evidence": [
+        {
+          "block_id": "z-demai/meaning",
+          "title": "ספק הפרשת המתנות",
+          "current_paragraphs": [
+            "דמאי הוא פירות שנקנו מעם הארץ, ויש ספק אם הופרשו מהם המתנות כראוי. חכמים לא חייבו להפריש מהם תרומה גדולה, משום שהכול היו מפרישים אותה. לעומת זאת חייבו בתרומת מעשר ובמעשר שני, כל אחד כדינו. משום כך דמאי קל מטבל שידוע שלא הופרשו ממנו המתנות."
+          ],
+          "current_items": [],
+          "bundled_refs": [
+            {
+              "source": "c-Demai-1.1",
+              "segments": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "block_id": "z-demai/distinction",
+          "title": "איסור הפירות וזכות המקבל",
+          "current_paragraphs": [
+            "בדמאי יש להפריד בין איסור הפירות לבין זכותו הממונית של מקבל המתנה. כדי לתקן את חשש איסור הטבל, החמירו בתרומת מעשר. אבל לוי או עני המבקשים לקבל את מתנתם צריכים להוכיח שלא ניתנה, שהרי ״המוציא מחברו עליו הראיה״. כך מסביר הרמב״ם מדוע חשש האיסור אינו יוצר בהכרח חיוב לתת ממון לתובע. בפירות שחזקתם מן ההפקר נוהגות קולות נוספות."
+          ],
+          "current_items": [],
+          "bundled_refs": [
+            {
+              "source": "c-Demai-1.1",
+              "segments": [
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "reasoning": "The present entry correctly separates prohibition from a claimant’s monetary right. A reader who also read z-maaser-rishon can nevertheless ask how terumat maaser is removed from first tithe that is not delivered. An explicit designation/delivery bridge completes the selected contrast; the existing text is not a claim that no designation occurs.",
+      "minimal_proposed_hebrew": "בדמאי יש להבחין גם בין קביעת שם מעשר ראשון לבין נתינתו ללוי. הרמב״ם מתאר קביעת מעשר ראשון בדיבור כדי להפריש ממנו תרומת מעשר, אף שאין מוציאים את המעשר ללוי מכוח הספק.",
+      "public_witnesses": [
+        {
+          "url": "https://mechon-mamre.org/i/7409.htm",
+          "citation": "משנה תורה, מעשר ט, ב–ה; ה בפרט",
+          "exact_short_quote": "ואומר, זה מעשר, ושאר מעשר סמוך לו.",
+          "fetched_at": "2026-10-21",
+          "fetched_by": "reviewer",
+          "edition": "Public online Hebrew transcription; no physical edition or manuscript independently collated",
+          "receipt": "definition-public-witnesses.json",
+          "surrounding_context_read": "Entire rendered chapter read, including9:2 monetary proof,9:3 poor-tithe naming and9:5 first-tithe/terumat-maaser order",
+          "provenance": "newly accessed public text for this teaching review; not merely an existing bundled quote"
+        }
+      ],
+      "bundled_support_limit": "c-Demai-1.1 supports no compelled monetary delivery; it alone does not explicitly explain designation. The new supporting witness is MTMaaser9:5, not an inference from PHM’s אינו חייב להוציא.",
+      "preservation_conditions": [
+        "Do not supply a practical separation formula.",
+        "Do not replace existing uncertainty and monetary-proof conditions with a blanket exemption."
+      ]
+    },
+    {
+      "id": "O-01",
+      "category": "optional_enrichment",
+      "priority": "low",
+      "entry_ids": [
+        "a-shechitah"
+      ],
+      "block_ids": [
+        "a-shechitah/meaning"
+      ],
+      "title": "Identify the two organs presupposed by the ratio explanation",
+      "current_evidence": [
+        {
+          "block_id": "a-shechitah/meaning",
+          "title": "מעשה השחיטה",
+          "current_paragraphs": [
+            "השחיטה נעשית בסימני הצוואר. לכתחילה שוחטים את שני הסימנים בשלמותם, גם בעוף; בדיעבד די ברוב סימן אחד בעוף וברוב שניים בבהמה. הרמב״ם מבאר ששיעורים אלו נוהגים הן בחולין והן בקדשים. רבי יהודה דורש לשחוט גם את הוורידין, אך הרמב״ם פוסק שאין הלכה כמותו. דרישה נוספת זו נפרדת מן השאלה איזה חלק מן הסימנים צריך להישחט."
+          ],
+          "current_items": [],
+          "bundled_refs": [
+            {
+              "source": "av-chullin",
+              "segments": [
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "reasoning": "The passage teaches רוב אחד/רוב שניים but never names the two סימנים. A minimal subject-specific identification is useful for a mature reader new to the subject. It is a smaller priority than the unfinished conceptual distinctions above and requires no anatomical guide or elementary Aramaic glosses.",
+      "minimal_proposed_hebrew": "שני הסימנים הם הקנה והוושט.",
+      "public_witnesses": [
+        {
+          "url": "https://he.wikisource.org/wiki/רמב%22ם_הלכות_שחיטה_א",
+          "citation": "משנה תורה, שחיטה א, ט",
+          "exact_short_quote": "שני הסימנין שהן הקנה והושט",
+          "fetched_at": "2026-10-21",
+          "fetched_by": "reviewer",
+          "edition": "Public online Hebrew transcription; no physical edition or manuscript independently collated",
+          "receipt": "core-public-witnesses.json",
+          "surrounding_context_read": "1:5–11 read, including locations, ideal complete cutting and majority conditions",
+          "provenance": "newly accessed public text for this teaching review; not merely an existing bundled quote"
+        }
+      ],
+      "bundled_support_limit": "Current av-chullin gives the fractions and anatomy context; c-Chullin-1.1 also later names ושט והגרגרת. This precise identification was independently supported with Shechitah1:9.",
+      "suggested_cross_link": "Link av-shechitah to a-shechitah rather than duplicate an anatomical introduction.",
+      "preservation_conditions": [
+        "Keep the current לכתחילה/בדיעבד and bird/animal distinctions; this addition changes none of them."
+      ]
+    },
+    {
+      "id": "O-02",
+      "category": "teaching_quality",
+      "priority": "medium",
+      "title": "Repeated separately headed stages sometimes do not advance the learner",
+      "entry_ids": [
+        "a-basar-chalav",
+        "t-tevilah",
+        "t-ranks",
+        "z-sheviit",
+        "d-nezikin",
+        "d-shevuot",
+        "d-dayanim",
+        "k-temurah",
+        "a-shevuah",
+        "a-neder",
+        "todah",
+        "t-niddah"
+      ],
+      "block_ids": [
+        "a-basar-chalav/distinction",
+        "a-basar-chalav/distance",
+        "t-tevilah/sunset",
+        "t-tevilah/tvul-explanation",
+        "t-ranks/food",
+        "t-ranks/levels",
+        "z-sheviit/fruit",
+        "z-sheviit/price",
+        "d-nezikin/difference",
+        "d-nezikin/features",
+        "d-shevuot/distinction",
+        "d-shevuot/hesset",
+        "d-dayanim/acceptance",
+        "d-dayanim/permission",
+        "k-temurah/distinction",
+        "k-temurah/ownership",
+        "a-shevuah/distinction",
+        "a-shevuah/speech",
+        "a-neder/meaning",
+        "a-neder/sukkah",
+        "todah/bread",
+        "todah/bread-ratio",
+        "t-niddah/distinction",
+        "t-niddah/day-watch"
+      ],
+      "reasoning": "Recap can help, but the named meaning/practice/distinctions stages should add a step. These are editorial judgments about actual current paragraphs, not legal errors and not a word-count score. Merge repeated exposition; replace it only when a specific supported gap or connection is available. No mandatory padding.",
+      "examples": [
+        {
+          "entry_id": "a-basar-chalav",
+          "block_ids": [
+            "a-basar-chalav/distinction",
+            "a-basar-chalav/distance"
+          ],
+          "current_evidence": [
+            {
+              "block_id": "a-basar-chalav/distinction",
+              "title": "הרחקה מן האכילה",
+              "current_paragraphs": [
+                "מלבד איסור האכילה אסרו חכמים להעלות בשר עם גבינה על שולחן שאוכלים עליו. לדעת בית הלל גם עוף בכלל הגזרה, והרמב״ם מבאר שחששו להרגל עבירה. איסור זה נוהג אף כשהבשר והגבינה לא נתבשלו יחד."
+              ],
+              "current_items": [],
+              "bundled_refs": [
+                {
+                  "source": "c-Chullin-8.1",
+                  "segments": [
+                    1
+                  ]
+                },
+                {
+                  "source": "c-m-Chullin-8.1",
+                  "segments": [
+                    1
+                  ]
+                }
+              ]
+            },
+            {
+              "block_id": "a-basar-chalav/distance",
+              "title": "גזירת העלאה על השולחן",
+              "current_paragraphs": [
+                "לצד דיני בישול בשר בחלב, המשנה מביאה גזרה נוספת: אין להעלות בשר עם גבינה על שולחן שאוכלים עליו. לבית הלל גם עוף בכלל האיסור. הרמב״ם מבאר שהגזרה נועדה למנוע הרגל עבירה, ולכן היא נוהגת גם כשהבשר והגבינה לא נתבשלו יחד. סייג זה קבעו חכמים לקראת האכילה. הוא נבדל מאיסור הבישול עצמו שבתורה."
+              ],
+              "current_items": [],
+              "bundled_refs": [
+                {
+                  "source": "c-Chullin-8.1",
+                  "segments": [
+                    1
+                  ]
+                },
+                {
+                  "source": "c-m-Chullin-8.1",
+                  "segments": [
+                    1
+                  ]
+                }
+              ]
+            }
+          ],
+          "judgment": "Both repeat the table decree, poultry, habitual sin and absence of joint cooking."
+        },
+        {
+          "entry_id": "t-tevilah",
+          "block_ids": [
+            "t-tevilah/sunset",
+            "t-tevilah/tvul-explanation"
+          ],
+          "current_evidence": [
+            {
+              "block_id": "t-tevilah/sunset",
+              "title": "טבול יום",
+              "current_paragraphs": [
+                "טבול יום הוא מי שטבל וטרם העריב שמשו. אף שכבר טבל, הוא פוסל תרומה וקדש בדינים שפירט הרמב״ם, ואינו מטמא משקה חולין. בטומאות קלות מסוימות מדברי סופרים אין צורך בהערב שמש, והטבילה מטהרת בו ביום."
+              ],
+              "current_items": [],
+              "bundled_refs": [
+                {
+                  "source": "t-intro",
+                  "segments": [
+                    25,
+                    33
+                  ]
+                }
+              ]
+            },
+            {
+              "block_id": "t-tevilah/tvul-explanation",
+              "title": "טבול יום אינו טהור לכל דבר",
+              "current_paragraphs": [
+                "מי שטבל ועדיין לא העריב שמשו נקרא ״טבול יום״. הטבילה כבר הועילה לו, אך עדיין לא הושלמה טהרתו לכל דבר: הוא פוסל תרומה וקדשים לפי דיניהם. הרמב״ם מדגים זאת במשקים שבקדרה. משקה תרומה שנגע בו טבול יום נפסל, ואילו משקה חולין אינו נטמא באותה דרך. לכן יש להבחין בין עצם הטבילה לבין השלמת הטהרה לאחר הערב שמש."
+              ],
+              "current_items": [],
+              "bundled_refs": [
+                {
+                  "source": "t-intro",
+                  "segments": [
+                    25
+                  ]
+                }
+              ]
+            }
+          ],
+          "judgment": "The second chiefly repeats the definition and terumah/chullin difference; the first uniquely retains light rabbinic impurity exceptions."
+        },
+        {
+          "entry_id": "t-ranks",
+          "block_ids": [
+            "t-ranks/food",
+            "t-ranks/levels"
+          ],
+          "current_evidence": [
+            {
+              "block_id": "t-ranks/food",
+              "title": "חולין, תרומה וקדש",
+              "current_paragraphs": [
+                "בחולין הטומאה מגיעה עד שני, בתרומה עד שלישי ובקדש עד רביעי. המדרגה האחרונה בכל אחד מהם נקראת ״פסול״: הדבר עצמו טמא או פסול לאכילה, אך אינו ממשיך לטמא באותה שרשרת."
+              ],
+              "current_items": [],
+              "bundled_refs": [
+                {
+                  "source": "t-intro",
+                  "segments": [
+                    23
+                  ]
+                }
+              ]
+            },
+            {
+              "block_id": "t-ranks/levels",
+              "title": "חולין, תרומה וקודש: היכן נפסקת השרשרת",
+              "current_paragraphs": [
+                "אותה מדרגת טומאה אינה פועלת באותה דרך בחולין, בתרומה ובקודש. בחולין הראשון מטמא, ואילו השני אינו ממשיך את הטומאה בדרך המתוארת ברמב״ם. בתרומה יש גם שלישי הפוסל, ובקודש גם רביעי. לכן לצד השם ״ראשון״, ״שני״ או ״שלישי״ יש לברר באיזה סוג מאכל מדובר, ובאיזו מדרגה נפסקת בו שרשרת הטומאה."
+              ],
+              "current_items": [],
+              "bundled_refs": [
+                {
+                  "source": "t-intro",
+                  "segments": [
+                    23
+                  ]
+                }
+              ]
+            }
+          ],
+          "judgment": "Both teach the same stopping points; retain the explicit terminal פסול explanation."
+        },
+        {
+          "entry_id": "z-sheviit",
+          "block_ids": [
+            "z-sheviit/fruit",
+            "z-sheviit/price"
+          ],
+          "current_evidence": [
+            {
+              "block_id": "z-sheviit/fruit",
+              "title": "שביעית בפירות ובדמים",
+              "current_paragraphs": [
+                "דיני שביעית נוהגים לא רק בפירות אלא אף בדמיהם. כך מפרש הרמב״ם את לשון המשנה ״יש לו שביעית ולדמיו שביעית״: כשנמכרו הפירות, חלים דיני שביעית גם על המעות שהתקבלו. בכלל הדברים הנידונים כאן מאכל אדם, מאכל בהמה ומיני צבעונים."
+              ],
+              "current_items": [],
+              "bundled_refs": [
+                {
+                  "source": "a-sheviit-7-1",
+                  "segments": [
+                    1,
+                    2
+                  ]
+                },
+                {
+                  "source": "a-sheviit-8-1",
+                  "segments": [
+                    1,
+                    2,
+                    3
+                  ]
+                }
+              ]
+            },
+            {
+              "block_id": "z-sheviit/price",
+              "title": "הפירות והדמים שבמכירתם",
+              "current_paragraphs": [
+                "״יש לו שביעית ולדמיו שביעית״ פירושו שדיני שביעית חלים לא רק על הפרי אלא גם על המעות שהתקבלו במכירתו, כפי שמבאר הרמב״ם. קדושת הדמים היא שאלה נפרדת מן השימוש המותר בפרי, כגון אכילה או רפואה. המשנה דנה במאכל אדם, במאכל בהמה ובמיני צבעונין, ומוסיפה את התנאי שאינם מתקיימים בארץ לעניין דין הביעור האמור בה. יש אפוא להבחין בין קדושת הפירות ודמיהם לבין הזמן והחיוב לבערם."
+              ],
+              "current_items": [],
+              "bundled_refs": [
+                {
+                  "source": "a-sheviit-7-1",
+                  "segments": [
+                    2
+                  ]
+                },
+                {
+                  "source": "audit-m-sheviit-7-1",
+                  "segments": [
+                    1
+                  ]
+                },
+                {
+                  "source": "a-sheviit-7-1",
+                  "segments": [
+                    1
+                  ]
+                }
+              ]
+            }
+          ],
+          "judgment": "The second adds the decisive non-endurance-in-ground/biur condition and must not simply be deleted."
+        },
+        {
+          "entry_id": "d-nezikin",
+          "block_ids": [
+            "d-nezikin/difference",
+            "d-nezikin/features"
+          ],
+          "current_evidence": [
+            {
+              "block_id": "d-nezikin/difference",
+              "title": "לכל אב דיניו",
+              "current_paragraphs": [
+                "הצד השווה שבאבות הנזיקין הוא שדרכם להזיק וחובת שמירתם מוטלת על בעליהם. עם זאת, לכל אב דינים המיוחדים לו: שן ורגל פטורות ברשות הרבים, בור פטור על הכלים, ואש על הטמון. אף תולדות יש לאבות, כגון בהמה המזיקה בגופה בדרך הילוכה, שהיא תולדת רגל."
+              ],
+              "current_items": [],
+              "bundled_refs": [
+                {
+                  "source": "n-Bava_Kamma-1.1",
+                  "segments": [
+                    1
+                  ]
+                },
+                {
+                  "source": "n-m-Bava_Kamma-1.1",
+                  "segments": [
+                    1
+                  ]
+                }
+              ]
+            },
+            {
+              "block_id": "d-nezikin/features",
+              "title": "מדוע אין אחד מאבות הנזיקין מלמד על כולם",
+              "current_paragraphs": [
+                "לכל אחד מארבעת אבות הנזיקין אופי מיוחד. הרמב״ם מסביר שרגל מזיקה בדרך הילוכה, ושן באכילתה, כשיש לה הנאה מן ההיזק; אש מזיקה אף שאין בה רוח חיים, ובור מזיק אף שאינו נע ממקומו. כולם בכלל חובת שמירת ממונו, אך דיניהם שונים: שן ורגל פטורות ברשות הרבים, בור פטור על כלים ואש על טמון. הבדלים אלו הם הבסיס גם ללימוד תולדותיהם."
+              ],
+              "current_items": [],
+              "bundled_refs": [
+                {
+                  "source": "n-Bava_Kamma-1.1",
+                  "segments": [
+                    1
+                  ]
+                }
+              ]
+            }
+          ],
+          "judgment": "Exemptions are repeated; features adds causal distinctions and difference has the concrete bodily-motion derivative."
+        },
+        {
+          "entry_id": "d-shevuot",
+          "block_ids": [
+            "d-shevuot/distinction",
+            "d-shevuot/hesset"
+          ],
+          "current_evidence": [
+            {
+              "block_id": "d-shevuot/distinction",
+              "title": "שבועת התורה ושבועות מדברי סופרים",
+              "current_paragraphs": [
+                "״פטור״ במשנה עשוי להתפרש כפטור משבועת התורה, אף שעדיין חייבים בשבועת היסת. הרמב״ם מבחין בין שבועת התורה לבין שבועות שתיקנו חכמים כעין דאורייתא בנקיטת חפץ. הבדל מרכזי מתגלה כשהחייב מסרב להישבע: בשבועת התורה יורדים לנכסיו וגובים את הממון שעליו סירב להישבע. בשבועת דבריהם המוטלת על הנתבע כדי להיפטר, כגון שבועת היסת, אין יורדים לנכסיו, אלא נוהגים בדין הנידוי שביאר הרמב״ם. לעומת זאת, תובע שהוטלה עליו שבועה כדי ליטול ואינו נשבע, אינו נוטל מכוח אותה תקנה. שבועת היסת נבדלת גם באופן נקיטת החפץ, ועניין זה נידון בנפרד.",
+                "יש להפריד בין שבועה שעל הנתבע להישבע כדי להיפטר, לבין שבועה שעל התובע להישבע כדי לקבל ממון. בסירוב לשבועת דבריהם מן הסוג הראשון עשוי לחול דין נידוי, לפי גדר השבועה. בסוג השני, אם התובע אינו נשבע, אינו נוטל מכוח אותה תקנה. ראה הלכות טוען ונטען א, ד–ה."
+              ],
+              "current_items": [],
+              "bundled_refs": [
+                {
+                  "source": "c-Shevuot-6.1",
+                  "segments": [
+                    1
+                  ]
+                },
+                {
+                  "source": "mt-toen-1-4-5",
+                  "segments": [
+                    1
+                  ]
+                },
+                {
+                  "source": "mt-toen-1-4-5",
+                  "segments": [
+                    2
+                  ]
+                }
+              ]
+            },
+            {
+              "block_id": "d-shevuot/hesset",
+              "title": "שבועת התורה ושבועת היסת",
+              "current_paragraphs": [
+                "שלוש שבועות מן התורה נוהגות בדיני ממונות: מודה במקצת, עד אחד ושומרים. הרמב״ם מבאר שגם השבועות שתיקנו חכמים ונזכרו במשנה נעשות כעין של תורה, בנקיטת חפץ. ההבדל שהוא מציין ביניהן נוגע למסרב להישבע. בשבועת התורה בית דין יורדים לנכסיו וגובים את החוב. בשבועת דבריהם המוטלת על הנתבע כדי להיפטר, כגון שבועת היסת, אין יורדים לנכסיו, אלא נוהגים בדין הנידוי. תובע שנדרש להישבע כדי ליטול ואינו נשבע, לעומת זאת, אינו נוטל מכוח אותה תקנה. שבועת היסת שונה לענין נקיטת חפץ, כפי שמבהיר הרמב״ם בסוף דבריו.",
+                "גם בין שבועות מדברי חכמים יש הבדל בתוצאת הסירוב. נתבע שצריך להישבע ולהיפטר עשוי להתחייב בנידוי לפי גדר השבועה. תובע שצריך להישבע כדי ליטול ואינו נשבע, אינו נוטל מכוח אותה תקנה. דיני שני המצבים מפורטים בהלכות טוען ונטען א, ד–ה."
+              ],
+              "current_items": [],
+              "bundled_refs": [
+                {
+                  "source": "c-Shevuot-6.1",
+                  "segments": [
+                    1
+                  ]
+                },
+                {
+                  "source": "mt-toen-1-4-5",
+                  "segments": [
+                    1
+                  ]
+                },
+                {
+                  "source": "mt-toen-1-4-5",
+                  "segments": [
+                    2
+                  ]
+                }
+              ]
+            }
+          ],
+          "judgment": "Two long passages, including both second paragraphs, repeat claimant/defendant refusal consequences; preserve the repaired distinction."
+        },
+        {
+          "entry_id": "d-dayanim",
+          "block_ids": [
+            "d-dayanim/acceptance",
+            "d-dayanim/permission"
+          ],
+          "current_evidence": [
+            {
+              "block_id": "d-dayanim/acceptance",
+              "title": "קבלה ומומחיות",
+              "current_paragraphs": [
+                "הרמב״ם מבחין בין דיין שבעלי הדין קיבלו עליהם לבין מומחה המבקש לדון בלא קבלתם. מומחה לרבים רשאי לדון יחידי, אך כדי לכפות על בעלי הדין להיזקק לו נדרשת רשות מתאימה. בפירוש המשנה נזכרות רשות ראש הגולה ורשות ראש ישיבה בארץ ישראל. בהלכות סנהדרין ד, יד–טו הוא מבאר שרשות ראש הגולה מועילה לכפייה גם בחוץ לארץ. ואילו רשות בית דין שבארץ ישראל מוגבלת לעניין זה לארץ ישראל ולעיירות שעל הגבול. כשרות הדיין, קבלת בעלי הדין והסמכות לכפות עליהם הן אפוא שאלות נפרדות."
+              ],
+              "current_items": [],
+              "bundled_refs": [
+                {
+                  "source": "n-Sanhedrin-3.1",
+                  "segments": [
+                    1
+                  ]
+                },
+                {
+                  "source": "mt-sanhedrin-authority",
+                  "segments": [
+                    1,
+                    2
+                  ]
+                }
+              ]
+            },
+            {
+              "block_id": "d-dayanim/permission",
+              "title": "קבלת דיינים וכוח הכפייה",
+              "current_paragraphs": [
+                "בעלי הדין יכולים לקבל עליהם גם דיין שאינו מומחה, בגדרים שפירט הרמב״ם. מומחה לרבים רשאי לדון יחידי, אך מומחיותו כשלעצמה אינה מקנה לו סמכות כפייה. בפירוש המשנה נזכרות רשות ראש הגולה ורשות ראש ישיבה בארץ ישראל. בהלכות סנהדרין מבואר שרשות ראש הגולה מועילה לכפייה בכל העולם, ואילו רשות בית דין שבארץ ישראל מועילה לכך בארץ ובעיירות שעל גבולה. הסמכות לדון והסמכות לכפות על בעלי הדין אינן אפוא אותו דבר."
+              ],
+              "current_items": [],
+              "bundled_refs": [
+                {
+                  "source": "n-Sanhedrin-3.1",
+                  "segments": [
+                    1
+                  ]
+                },
+                {
+                  "source": "mt-sanhedrin-authority",
+                  "segments": [
+                    1,
+                    2
+                  ]
+                }
+              ]
+            }
+          ],
+          "judgment": "Acceptance, authorization and coercion distinctions substantially repeat rather than introduce a next learning step."
+        },
+        {
+          "entry_id": "k-temurah",
+          "block_ids": [
+            "k-temurah/distinction",
+            "k-temurah/ownership"
+          ],
+          "current_evidence": [
+            {
+              "block_id": "k-temurah/distinction",
+              "title": "איסור המעשה וחלות התמורה",
+              "current_paragraphs": [
+                "האיסור להמיר רחב מחלות התמורה. הרמב״ם מבאר שקרבנות ציבור וקרבנות שותפים אינם עושים תמורה, אף שהלאו חל גם במקום שאין התמורה חלה. כמו כן, קבלת קרבן במתנת כהונה אינה מקנה לכהן בכל מקרה דין בעלים לעניין תמורה."
+              ],
+              "current_items": [],
+              "bundled_refs": [
+                {
+                  "source": "c-Temurah-1.1",
+                  "segments": [
+                    1
+                  ]
+                }
+              ]
+            },
+            {
+              "block_id": "k-temurah/ownership",
+              "title": "ציבור, שותפים ותוקף התמורה",
+              "current_paragraphs": [
+                "לא בכל מקרה של המרה נוצרת תמורה קדושה. הרמב״ם מבאר שקרבנות ציבור ושל שותפים אינם עושים תמורה, אף שאיסור ההמרה רחב יותר מן המקרים שבהם התמורה חלה. לכן יש לשאול בנפרד אם האדם עבר באיסור, ואם הבהמה שהעמיד במקום הקרבן אכן נתקדשה. המשנה דנה בשתי התוצאות יחד, אך אינה משווה ביניהן."
+              ],
+              "current_items": [],
+              "bundled_refs": [
+                {
+                  "source": "c-Temurah-1.1",
+                  "segments": [
+                    1
+                  ]
+                }
+              ]
+            }
+          ],
+          "judgment": "The same public/partnership distinction repeats; the priest-ownership observation is distinct and must remain."
+        },
+        {
+          "entry_id": "a-shevuah",
+          "block_ids": [
+            "a-shevuah/distinction",
+            "a-shevuah/speech"
+          ],
+          "current_evidence": [
+            {
+              "block_id": "a-shevuah/distinction",
+              "title": "היקף הדיבור",
+              "current_paragraphs": [
+                "לשון השבועה קובעת גם את מספר החיובים. הנשבע ״שלא אוכל״ ואכל ושתה חייב אחת; אמר ״שלא אוכל ושלא אשתה״ ואכל ושתה, חייב שתיים. הרמב״ם מבאר שבנוסח השני גילה בדעתו להפריד בין האכילה לשתייה."
+              ],
+              "current_items": [],
+              "bundled_refs": [
+                {
+                  "source": "c-Shevuot-3.1",
+                  "segments": [
+                    1
+                  ]
+                },
+                {
+                  "source": "c-m-Shevuot-3.1",
+                  "segments": [
+                    1
+                  ]
+                }
+              ]
+            },
+            {
+              "block_id": "a-shevuah/speech",
+              "title": "אכילה ושתייה בלשון השבועה",
+              "current_paragraphs": [
+                "בשבועת ביטוי אין מספר המעשים לבדו קובע את מספר החיובים. הרמב״ם משווה בין מי שנשבע שלא יאכל ואחר כך אכל ושתה, לבין מי שנשבע במפורש שלא יאכל ושלא ישתה, ואחר כך אכל ושתה. בנוסח השני הפריד בדבריו בין איסור האכילה לאיסור השתייה, ולכן מתחייב שתיים במקרה שבמשנה. לשון השבועה היא המפתח להבנת ההבדל."
+              ],
+              "current_items": [],
+              "bundled_refs": [
+                {
+                  "source": "c-Shevuot-3.1",
+                  "segments": [
+                    1
+                  ]
+                }
+              ]
+            }
+          ],
+          "judgment": "Both use the same eating/drinking case and count contrast."
+        },
+        {
+          "entry_id": "a-neder",
+          "block_ids": [
+            "a-neder/meaning",
+            "a-neder/sukkah"
+          ],
+          "current_evidence": [
+            {
+              "block_id": "a-neder/meaning",
+              "title": "איסור הדבר בנדר",
+              "current_paragraphs": [
+                "בנדרי איסור חל האיסור על גוף הדבר שנאסר. לכן מי שאסר על עצמו סוכה מסוימת אינו יכול לקיים בה את מצוות הישיבה בסוכה. באמצעות מקרה זה מבאר הרמב״ם את ההבדל בין נדר לשבועה. לצד איסור החפץ הוא מתאר אפשרות אחרת: אדם יכול להתחייב בקרבן בכל פעם שיעשה מצווה. כך, האומר ״קרבן עלי כל זמן שמניח תפילין״ רשאי להניח תפילין, אך בכל פעם שיניחן יתחייב בקרבן מחמת נדרו. במקרה זה לא נאסרו התפילין או הנחתן; עשיית המצווה היא התנאי המחייב אותו בקרבן."
+              ],
+              "current_items": [],
+              "bundled_refs": [
+                {
+                  "source": "c-Nedarim-2.2",
+                  "segments": [
+                    1
+                  ]
+                },
+                {
+                  "source": "intro",
+                  "segments": [
+                    41
+                  ]
+                }
+              ]
+            },
+            {
+              "block_id": "a-neder/sukkah",
+              "title": "דבר הנאסר בנדר אף במקום מצווה",
+              "current_paragraphs": [
+                "מי שאסר על עצמו סוכה מסוימת בנדר אינו רשאי לשבת בה, אף כדי לקיים מצווה: בנדר חל האיסור על גוף הדבר. בדוגמה זו מסביר הרמב״ם את החילוק בין נדר לשבועה. לצד זאת הוא מבחין בנדר שבו האדם מתחייב בקרבן בכל פעם שיעשה מצווה. כאן ההבחנה היא בין איסור חפצא, כלומר איסור החל על הדבר, לבין התחייבות המוטלת על האדם. אלו שני סוגים שונים של נדר, ואין להוסיף להם טעם שלא נאמר במקור."
+              ],
+              "current_items": [],
+              "bundled_refs": [
+                {
+                  "source": "c-Nedarim-2.2",
+                  "segments": [
+                    1
+                  ]
+                }
+              ]
+            }
+          ],
+          "judgment": "Both state the missing comparison; CQ-02 could occupy the redundant space."
+        },
+        {
+          "entry_id": "todah",
+          "block_ids": [
+            "todah/bread",
+            "todah/bread-ratio"
+          ],
+          "current_evidence": [
+            {
+              "block_id": "todah/bread",
+              "title": "לחמי תודה",
+              "current_paragraphs": [
+                "עם התודה מביאים ארבעים חלות מארבעה מינים: עשר חלות חמץ, ועשר מכל אחד משלושת מיני המצה — חלות, רקיקים ורבוכה. כמות הסולת של עשר חלות החמץ שווה לכמות הסולת של שלושים חלות המצה יחד. מכל מין ומין מפרישים חלה אחת לכהן."
+              ],
+              "current_items": [],
+              "bundled_refs": [
+                {
+                  "source": "bread7",
+                  "segments": [
+                    1
+                  ]
+                }
+              ]
+            },
+            {
+              "block_id": "todah/bread-ratio",
+              "title": "ארבעים חלות ויחס המינים",
+              "current_paragraphs": [
+                "עם התודה מביאים ארבעים חלות, עשר מכל אחד מארבעה מינים: מין אחד של חמץ ושלושה מיני מצה. אף שמספר חלות החמץ קטן, כמות הסולת שבהן שווה לכמות הסולת שבשלושים חלות המצה יחד, כפי שמדגיש הרמב״ם. מכל מין נותנים חלה אחת לכהן, ובסך הכול ארבע חלות. יש אפוא שני חשבונות נפרדים: מספר החלות וכמות הסולת שבכל מין."
+              ],
+              "current_items": [],
+              "bundled_refs": [
+                {
+                  "source": "bread7",
+                  "segments": [
+                    1
+                  ]
+                }
+              ]
+            }
+          ],
+          "judgment": "The flour-count insight is already in bread; preserve the distinction between number and mass when merging."
+        },
+        {
+          "entry_id": "t-niddah",
+          "block_ids": [
+            "t-niddah/distinction",
+            "t-niddah/day-watch"
+          ],
+          "current_evidence": [
+            {
+              "block_id": "t-niddah/distinction",
+              "title": "שומרת יום כנגד יום",
+              "current_paragraphs": [
+                "הרואה יום אחד או שניים בימי זיבה היא זבה קטנה, הנקראת ״שומרת יום כנגד יום״. אף היא אסורה לבעלה ומטמאה משכב ומושב, אך אינה טעונה שבעה נקיים וקרבן כזבה גדולה. אלו גדרי היסוד שבסוגיות; חשבון הימים וסדר הטהרה למעשה אינם נידונים כאן."
+              ],
+              "current_items": [],
+              "bundled_refs": [
+                {
+                  "source": "v-Niddah-4.7",
+                  "segments": [
+                    1
+                  ]
+                }
+              ]
+            },
+            {
+              "block_id": "t-niddah/day-watch",
+              "title": "שומרת יום לעומת זבה גדולה",
+              "current_paragraphs": [
+                "ראייה של יום אחד או שניים בימי זיבה מביאה לדין ״שומרת יום כנגד יום״. לעומתה, הרואה בשלושה ימים רצופים שלא בעת נדתה נעשית זבה גדולה וטעונה שבעה נקיים. גם שומרת יום מטמאה משכב ומושב, אך אינה טעונה את הספירה והקרבן של זבה גדולה. זהו ההבדל היסודי בין שני המצבים, לפני העיון בפרטי המשניות."
+              ],
+              "current_items": [],
+              "bundled_refs": [
+                {
+                  "source": "v-Niddah-4.7",
+                  "segments": [
+                    1
+                  ]
+                }
+              ]
+            }
+          ],
+          "judgment": "The one/two versus three day and clean-days contrast repeats; do not replace it with modern practical calendar instructions."
+        }
+      ],
+      "minimal_proposed_hebrew": null,
+      "public_witnesses": [],
+      "source_requirement": "Consolidating existing text needs no invented law. Any replacement adding substance must retain current cited support or use the newly documented source for the particular addition."
+    },
+    {
+      "id": "O-03",
+      "category": "optional_enrichment",
+      "priority": "low",
+      "entry_ids": [
+        "d-nezikin"
+      ],
+      "block_ids": [
+        "d-nezikin/avot"
+      ],
+      "title": "Optional gateway from Rambam’s chosen פירוש to the opening Gemara",
+      "current_evidence": [
+        {
+          "block_id": "d-nezikin/avot",
+          "title": "מיני הנזק",
+          "current_paragraphs": [
+            "הרמב״ם מפרש שבמשנת ״ארבעה אבות נזיקין״, ״שור״ הוא רגל ו״מבעה״ הוא שן. רגל מזיקה בדרך הילוכה, ושן בדרך אכילתה. שני האבות האחרים הם בור ואש. קרן נידונה בנפרד, ובה מבחינים בין תם למועד. מניין ארבעת האבות אינו אפוא רשימה של כל חיובי הנזק."
+          ],
+          "current_items": [],
+          "bundled_refs": [
+            {
+              "source": "n-Bava_Kamma-1.1",
+              "segments": [
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "reasoning": "The current attribution הרמב״ם מפרש and the statement that the four are not exhaustive already prevent a universal-reading error. Mentioning Rav’s alternative can help a reader entering BK3b, but its omission is not a demonstrated defect within this bounded Rambam-based introduction.",
+      "minimal_proposed_hebrew": "בסוגיית הגמרא נחלקו בפירוש ״מבעה״: רב מפרשו אדם ושמואל מפרשו שן; כאן הוצג פירוש הרמב״ם למשנה.",
+      "public_witnesses": [
+        {
+          "url": "https://he.wikisource.org/wiki/בבא_קמא_ג_ב",
+          "citation": "בבלי בבא קמא ג ע״ב",
+          "exact_short_quote": "רב אמר מבעה זה אדם ושמואל אמר מבעה זה השן",
+          "fetched_at": "2026-10-21",
+          "fetched_by": "coordinator; receipt and relevant text reread by reviewer",
+          "edition": "Public online Hebrew transcription; no physical edition or manuscript independently collated",
+          "receipt": "root-checks/maveh-public-witness.json",
+          "surrounding_context_read": "Gemara122–124 and adjacent Rashi; source is Amoraic disagreement, not a newly invented Rishon’s view",
+          "provenance": "newly accessed public text for this teaching review; not merely an existing bundled quote"
+        }
+      ],
+      "alternatives_decision": "Optional breadth, not required correction; do not imply the whole current fourfold list is a simple verbatim presentation of Shmuel’s entire discussion."
+    },
+    {
+      "id": "U-01",
+      "category": "source_check_needed",
+      "priority": "candidate_only",
+      "entry_ids": [
+        "z-bikkurim"
+      ],
+      "block_ids": [
+        "z-bikkurim/meaning",
+        "z-bikkurim/distinction"
+      ],
+      "title": "Consider an initial identity sentence before designation and recitation",
+      "current_evidence": [
+        {
+          "block_id": "z-bikkurim/meaning",
+          "title": "הפרשה והבאה",
+          "current_paragraphs": [
+            "הפרשת ביכורים מתחילה בסימון הפרי שביכר ובאמירה ״הרי אלו ביכורים״. בשלב זה הפרי אינו צריך להיות בשל לגמרי, אך כשמביאים אותו הוא צריך להיות בשל. לאחר התלישה אין צורך לחזור ולקרוא עליו שם, כך פוסק הרמב״ם שלא כדעת רבי שמעון."
+          ],
+          "current_items": [],
+          "bundled_refs": [
+            {
+              "source": "c-Bikkurim-3.1",
+              "segments": [
+                1
+              ]
+            },
+            {
+              "source": "c-m-Bikkurim-3.1",
+              "segments": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "block_id": "z-bikkurim/distinction",
+          "title": "מביא וקורא, ומביא ואינו קורא",
+          "current_paragraphs": [
+            "הבאת ביכורים ומקרא ביכורים אינם חיוב אחד. יש שמביאים וקוראים את הפרשה, יש שמביאים בלי לקרוא, ויש שאינם מביאים כלל. ״מקרא ביכורים״ הוא קריאת פרשת הביכורים שב״והיה כי תבוא״. בסדר ההבאה נכללות גם תנופה והנחה בצד המזבח."
+          ],
+          "current_items": [],
+          "bundled_refs": [
+            {
+              "source": "c-Bikkurim-1.1",
+              "segments": [
+                1
+              ]
+            },
+            {
+              "source": "c-m-Bikkurim-1.1",
+              "segments": [
+                1
+              ]
+            },
+            {
+              "source": "c-Bikkurim-3.6",
+              "segments": [
+                1
+              ]
+            },
+            {
+              "source": "c-m-Bikkurim-3.6",
+              "segments": [
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "reasoning": "The passage begins with marking fruit and assumes the reader already knows what the gift is. It does identify recitation of כי תבוא and altar placement. Whether a further opening sentence on the eligible produce/recipient/destination is essential for this audience remains a candidate, not an established omission of a binding legal rule.",
+      "minimal_proposed_hebrew": null,
+      "public_witnesses": [],
+      "evidence_gap": "The attempted Wikisource Rambam Bikkurim2 page returned an internal error. No seven-species/land/recipient formula was independently established here; no Hebrew addition from memory is supplied.",
+      "failed_public_url": "https://he.wikisource.org/wiki/רמב%22ם_הלכות_ביכורים_ב",
+      "failed_receipt": "definition-public-witnesses.json",
+      "disposition": "Do not implement a substantive addition until exact supporting context and scope are checked."
+    },
+    {
+      "id": "O-04",
+      "category": "teaching_quality",
+      "priority": "low",
+      "title": "Make a few existing foundation connections visible",
+      "entry_ids": [
+        "i-nissuin",
+        "minchah",
+        "avodot",
+        "t-met",
+        "t-sheretz",
+        "t-nevelah",
+        "t-hechsher",
+        "t-tevilah",
+        "z-hafrashah",
+        "z-orlah"
+      ],
+      "block_ids": [
+        "i-nissuin/stages",
+        "minchah/nature",
+        "avodot/sequence",
+        "t-met/chain",
+        "t-sheretz/example",
+        "t-nevelah/ways",
+        "t-hechsher/meaning",
+        "t-tevilah/sunset",
+        "z-hafrashah/order",
+        "z-orlah/years"
+      ],
+      "reasoning": "Many Kodashim entries already link individual services, so this is not a claim links are absent throughout. More consequential missing bridges are stage links i-nissuin↔i-kiddushin, minchah↔k-nesachim/av-haktarah, impurity examples→t-ranks/t-hechsher, and t-tevilah→t-hazaah. Link existing explanations instead of repeating them or expanding full doctrine.",
+      "minimal_proposed_hebrew": null,
+      "public_witnesses": [],
+      "reading_stage_note": "pesulim currently stages the example before the definitions of חוץ למקומו/חוץ לזמנו. Optional: expose those definitions before the comparison, or label the example as a forward reference. avodot/imurim can serve as an optional entry route before the offering catalog; no mandatory reorganization is inferred."
+    }
+  ],
+  "alternative_approaches_assessment": {
+    "criterion": "A counterview is essential when omitting it would make the included concept misleadingly universal or prevent understanding its central selected distinction. Explicit Rambam attribution and transparent scope can make broader comparison optional.",
+    "existing_essential_alternative": {
+      "entry_id": "z-biur",
+      "block_id": "z-biur/distinction",
+      "current_evidence": [
+        {
+          "block_id": "z-biur/distinction",
+          "title": "גדר הביעור ומחלוקת הראשונים",
+          "current_paragraphs": [
+            "הראשונים נחלקו מהו ביעור פירות שביעית. לדעת הרמב״ם בפירוש המשנה, כשכלה המין מן השדה יש לסלק את הפירות שברשותו באכילה או באיבוד, כגון שרפה או השלכה לים. גם דמי הפירות החייבים בביעור טעונים סילוק בדרך זו. הרמב״ן חולק: לשיטתו הביעור הוא הוצאת הפירות מן הרשות והפקרתם לכל אדם, ולא איבודם. לאחר ההפקר אפשר לשוב ולזכות בהם. עם זאת, אם השהה את הפירות בביתו לאחר הביעור כדי לאכלם, הם נאסרים באכילה לשיטתו."
+          ],
+          "current_items": [],
+          "bundled_refs": [
+            {
+              "source": "v-Sheviit-9.2",
+              "segments": [
+                1
+              ]
+            },
+            {
+              "source": "v-ramban-biur",
+              "segments": [
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "judgment": "The Ramban/Rambam difference about destruction versus public renunciation is already included with the retention-condition caveat; preserve it."
+    },
+    "optional_checked_alternative": "O-03: Rav/Shmuel on מבעה; current Rambam attribution is adequate.",
+    "selected_framework_definition": "CQ-01: explain huppah with Rambam attribution, not as an agreed universal definition.",
+    "conclusion": "No additional mandatory alternative-view omission established in this pass; this is a bounded negative finding, not proof no other important view exists."
+  },
+  "unsupported_or_unprioritized_candidates": [
+    {
+      "entry_id": "z-bikkurim",
+      "status": "source_check_needed",
+      "finding": "U-01",
+      "proposed_hebrew": null
+    },
+    {
+      "entry_id": "d-onaah",
+      "status": "unverified_optional_candidate",
+      "candidate": "Whether a below-one-sixth branch should complete the threshold map",
+      "limit": "Not newly checked against an exact source; not asserted as a confirmed gap, law or proposed Hebrew addition."
+    },
+    {
+      "entry_id": "a-shechitah",
+      "status": "not_required_expansion",
+      "candidate": "Full definitions of all five named disqualifications",
+      "limit": "No new anatomy/practical instruction is required for the intended audience; the only supported suggested gloss is O-01."
+    }
+  ]
+}

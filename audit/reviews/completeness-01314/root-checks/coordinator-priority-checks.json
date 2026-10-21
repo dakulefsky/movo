@@ -1,0 +1,92 @@
+{
+  "scope": "Independent coordinator checks of six prioritized candidate teaching gaps; not a second full98-entry review. No proposed application text approved merely by this record.",
+  "checks": [
+    {
+      "entry_id": "i-nissuin",
+      "finding": "The current titled entry does not define חופה.",
+      "new_public_support": [
+        {
+          "url": "https://mechon-mamre.org/i/4110.htm",
+          "reference": "Ishut10:1-2; conventional10:6 is main5 [6]",
+          "context_read": "Full rendered chapter; definition, fitness qualification and distinction from wedding blessing.",
+          "receipt": "root-checks/chuppah-public-witnesses.json"
+        }
+      ],
+      "judgment": "Support exists for a narrowly Rambam-attributed introductory definition, retaining relevant qualifications. Surveying every excluded chuppah view is a separate optional expansion."
+    },
+    {
+      "entry_id": "a-neder",
+      "finding": "Current meaning/sukkah invoke a contrast with שבועה but never state its other half; current a-shevuah does not fill it.",
+      "new_public_support": [
+        {
+          "url": "https://he.wikisource.org/wiki/רמב%22ם_הלכות_נדרים_ג",
+          "reference": "Nedarim3:1,6-8, especially3:7",
+          "short_quote": "שהנשבע אוסר עצמו על דבר שנשבע עליו והנודר אוסר הדבר הנדור על עצמו",
+          "receipt": "core-public-witnesses.json"
+        }
+      ],
+      "judgment": "The explicit Rambam source supports completing this comparison. Current text is not thereby proven false, and an addition must distinguish this rule from blanket claims about all oath consequences."
+    },
+    {
+      "entry_id": "z-demai",
+      "finding": "Current account explains nonpayment but not calling a name to the tithe; a learner can conflate these.",
+      "new_public_support": [
+        {
+          "url": "https://mechon-mamre.org/i/7409.htm",
+          "reference": "Maaser9:2-5; formula9:5",
+          "short_quote": "זה מעשר, ושאר מעשר סמוך לו",
+          "context_read": "Rendered chapter lines9-28, including9:3 on poor tithe designation and9:5 first-tithe designation before terumat maaser.",
+          "receipt": "definition-public-witnesses.json"
+        }
+      ],
+      "judgment": "Need distinguish designation from delivery, rather than calling the current monetary explanation an outright error. Do not turn a conceptual addition into a practical separation formula."
+    },
+    {
+      "entry_id": "i-ketubah",
+      "finding": "Current entry distinguishes principal/addition/conditions/security but never plainly identifies principal ketubah debt and both collection events.",
+      "new_public_support": [
+        {
+          "url": "https://he.wikisource.org/wiki/רמב%22ם_הלכות_אישות_טז",
+          "reference": "Ishut16:1-3,5,7-9",
+          "short_quote": "ואין הכתובה נגבית אלא לאחר מיתת הבעל או אם גירשה",
+          "context_read": "Rendered115-155; also distinction from dowry and later movable-property enactments.",
+          "receipt": "definition-public-witnesses.json"
+        }
+      ],
+      "judgment": "A narrow basic debt/event definition is supported; do not erase repaired land-source context or imply no qualifications/loss-of-ketubah cases."
+    },
+    {
+      "entry_id": "a-shechitah",
+      "finding": "Current entry gives ratios for two unnamed neck signs.",
+      "new_public_support": [
+        {
+          "url": "https://he.wikisource.org/wiki/רמב%22ם_הלכות_שחיטה_א",
+          "reference": "Shechitah1:9; adjacent1:5-11",
+          "short_quote": "שני הסימנין שהן הקנה והושט",
+          "context_read": "Rendered136-169 including names, site and ratio qualifiers.",
+          "receipt": "core-public-witnesses.json"
+        }
+      ],
+      "judgment": "Identifying the paired organs is supported; no need add an unverified anatomy translation or procedural instructions."
+    },
+    {
+      "entry_id": "minchah",
+      "finding": "Current entry begins with kometz/service without stating what material the offering is made from.",
+      "new_public_support": [
+        {
+          "url": "https://he.wikisource.org/wiki/רמב%22ם_הלכות_מעשה_הקרבנות_יב",
+          "reference": "MaasehHaKorbanot12:1-5",
+          "short_quote": "וכל המנחות סולת חיטין חוץ ממנחת סוטה ועומר התנופה שהם מן השעורים",
+          "context_read": "Rendered118-148; distinguishes independent offerings/public types and barley exceptions.",
+          "receipt": "definition-public-witnesses.json"
+        }
+      ],
+      "judgment": "Minimal physical identity is supported. Preserve barley exceptions and distinction from accompanying nesachim; no blanket assertion every minchah has same oil/incense/preparation."
+    }
+  ],
+  "limits": [
+    "Public transcriptions do not authenticate physical-edition independence.",
+    "Existing historical statuses and source snapshots untouched.",
+    "No application edits or release in this review."
+  ]
+}

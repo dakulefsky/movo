@@ -1,0 +1,20 @@
+{
+  "reviewer": "Independent AI source-fidelity reviewer /root/scholarly_reviewer",
+  "review_style": "Rigorous talmid-chacham-style source analysis; no claim of human rabbinic identity or approval",
+  "reviewed_at": "2026-10-21",
+  "git_commit": "d6ee91672c76355f8b189a702b8504741e8fb69f",
+  "version": "0.13.14",
+  "editorial_sha256": "9049de9b3be00871daba93a0b4f1e477b1e04aeeac13a52e72d3c390698ee973",
+  "reviewed_ledger_sha256": "dfeff78bc336da883b4fe0291d8a6cf53b9fdfb1d47c33849f7f640b49c6f0ae",
+  "source_records_sha256": "f56f44d7a5949c2a992fa0da4eaca05656dc2ae28c806a033dcbbb11f337aba4",
+  "overlay_hashes": {
+    "adjudicated_repairs.json": "044f9241aef0d9de63f13d2e78f771341a5b43dc7a4b6aa5469c7577f0038982",
+    "readability_0137.json": "6403b90c9e32e5d5b4cdb55fc693a7844ec5dae00875fea3ade17e3b329b1ec6",
+    "polish_0139.json": "0a75a338fffd13667f95b76e1487686556bf33bb9e4860d21aeae83dc2b4486d",
+    "sentence_flow_01310.json": "90ae97a820e85983d91d12e0afb6266c34b640fa57b5a56a6c3a022a13d0fc22",
+    "refinement_01313.json": "8c12221ca04b5ded4b84ac28fa69dd16a4b19c230b95e3ab7c271023371749e9",
+    "refinement_01314.json": "907521c2b55cb72940e9ccb3686eb7410ffaf70ac0c89837aa52e8c43a40744d"
+  },
+  "status": "FULL_CORPUS_SOURCE_PAIRED_READING_COMPLETED_GATES_INCOMPLETE",
+  "protocol_status": "No claim marked verified; six-gate completion is not asserted"
+}

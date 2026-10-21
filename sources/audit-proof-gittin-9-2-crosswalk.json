@@ -1,0 +1,22 @@
+{
+  "ref": "רמב״ם על משנה גיטין ט, ב",
+  "heRef": "רמב״ם על משנה גיטין ט, ב — מקביל לקובץ המקומי ט, ג",
+  "he": [
+    "רבי יהודה אומר, אף על פי שגוף הגט הרי את מותרת לכל אדם, צריך שיכתוב בו ודין דיהוי ליך מנאי. והלכה כרבי יהודה. ומותר לכתוב הגט באיזה לשון שיהיה ובאיזו כתיבה שיהיה וזה בשני תנאין, תנאי בלשון ותנאי בכתיבה, ואמנם תנאי בלשון בהזהרת אלו העניינים המיוחדים בלשון הגט אצלנו, ואמנם התנאי בכתיבה שלא יהיה בו ספק בשום דבר שיובן בעניין הקריאה, אחד מחסרון התיבות או מהפסד צורת האותיות המוסכמות עליהם אצל זאת האומה:"
+  ],
+  "versions": [
+    {
+      "language": "he",
+      "versionTitle": "Wikisource public Hebrew transcription",
+      "versionSource": "https://he.wikisource.org/wiki/משנה_גיטין_ט_ב",
+      "license": "CC BY-SA"
+    }
+  ],
+  "witness": {
+    "url": "https://he.wikisource.org/wiki/משנה_גיטין_ט_ב",
+    "retrieved_at": "2026-10-21",
+    "page_sha256": "10a49140ea4a39e97a749a95502b6a5cb0150804c57d9da6c16bbd22c315270a",
+    "capture": "audit-witness-gittin.json",
+    "normalization": "HTML text nodes joined, whitespace collapsed; passages extracted without rewriting"
+  }
+}

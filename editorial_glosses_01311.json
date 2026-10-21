@@ -1,0 +1,169 @@
+{
+  "basis_commit": "88d568d",
+  "basis_version": "0.13.10",
+  "version": "0.13.11",
+  "scope": "Separate labeled Hebrew lexical annotations in editorial explanations only; preserve every original paragraph, quote, source, source note and reading stage. First occurrence per entry for repeated procedural terms; skip proper names and already-explained terms.",
+  "scholarly_status": "Same-editor glosses; no historical claim promoted or source conflict resolved.",
+  "annotations": [
+    {
+      "claim_id": "av-shechitah/act/paragraph-1",
+      "paragraph_sha256": "2a8503274829e8bbb12c06dae5b61baf2e40e61235812cbdc62bee859bbc8da1",
+      "anchor": "לכתחילה",
+      "occurrence": 1,
+      "term": "לכתחילה",
+      "explanation": "הדין מראש, לפני שהמעשה נעשה",
+      "label": "ביאור העורך",
+      "review": "Short editorial lexical gloss; independent scholarly recheck pending."
+    },
+    {
+      "claim_id": "av-shechitah/act/paragraph-1",
+      "paragraph_sha256": "2a8503274829e8bbb12c06dae5b61baf2e40e61235812cbdc62bee859bbc8da1",
+      "anchor": "בדיעבד",
+      "occurrence": 1,
+      "term": "בדיעבד",
+      "explanation": "לאחר שהמעשה כבר נעשה",
+      "label": "ביאור העורך",
+      "review": "Short editorial lexical gloss; independent scholarly recheck pending."
+    },
+    {
+      "claim_id": "av-zerikah/meakev/paragraph-1",
+      "paragraph_sha256": "924b3c4054c636ab36839aded97bf80871caaa89b49ace851b7ea3dc19de8984",
+      "anchor": "בדיעבד",
+      "occurrence": 1,
+      "term": "בדיעבד",
+      "explanation": "לאחר שהמעשה כבר נעשה",
+      "label": "ביאור העורך",
+      "review": "Short editorial lexical gloss; independent scholarly recheck pending."
+    },
+    {
+      "claim_id": "k-matanot/outer/paragraph-1",
+      "paragraph_sha256": "ab136a3ee74ed1a28056e4377e91f4669d9bb51b9ed1046ec209810ecd85d6db",
+      "anchor": "לכתחילה",
+      "occurrence": 1,
+      "term": "לכתחילה",
+      "explanation": "הדין מראש, לפני שהמעשה נעשה",
+      "label": "ביאור העורך",
+      "review": "Short editorial lexical gloss; independent scholarly recheck pending."
+    },
+    {
+      "claim_id": "k-matanot/outer/paragraph-1",
+      "paragraph_sha256": "ab136a3ee74ed1a28056e4377e91f4669d9bb51b9ed1046ec209810ecd85d6db",
+      "anchor": "בדיעבד",
+      "occurrence": 1,
+      "term": "בדיעבד",
+      "explanation": "לאחר שהמעשה כבר נעשה",
+      "label": "ביאור העורך",
+      "review": "Short editorial lexical gloss; independent scholarly recheck pending."
+    },
+    {
+      "claim_id": "avodot/worker/paragraph-1",
+      "paragraph_sha256": "1df5ff0b10dc53be3c8951fcf522b5529145dd138be90dbed2b4c1cf32e2239c",
+      "anchor": "לכתחילה",
+      "occurrence": 1,
+      "term": "לכתחילה",
+      "explanation": "הדין מראש, לפני שהמעשה נעשה",
+      "label": "ביאור העורך",
+      "review": "Short editorial lexical gloss; independent scholarly recheck pending."
+    },
+    {
+      "claim_id": "z-orlah/chutz/paragraph-1",
+      "paragraph_sha256": "2473406eec76f449862ca9d3f6ae5fbeeff188e3c8219dc7edc08b71394a06fb",
+      "anchor": "סיפא",
+      "occurrence": 1,
+      "term": "סיפא",
+      "explanation": "החלק האחרון של המשנה",
+      "label": "תרגום העורך",
+      "review": "Short editorial lexical gloss; independent scholarly recheck pending."
+    },
+    {
+      "claim_id": "z-orlah/chutz/paragraph-1",
+      "paragraph_sha256": "2473406eec76f449862ca9d3f6ae5fbeeff188e3c8219dc7edc08b71394a06fb",
+      "anchor": "רישא",
+      "occurrence": 1,
+      "term": "רישא",
+      "explanation": "החלק הראשון של המשנה",
+      "label": "תרגום העורך",
+      "review": "Short editorial lexical gloss; independent scholarly recheck pending."
+    },
+    {
+      "claim_id": "z-kilayim/grafting/paragraph-1",
+      "paragraph_sha256": "890ecdee2215dcd58eec96f1e9278d15e8f63526895343f6444d8606aef3ad2e",
+      "anchor": "לכתחילה",
+      "occurrence": 1,
+      "term": "לכתחילה",
+      "explanation": "הדין מראש, לפני שהמעשה נעשה",
+      "label": "ביאור העורך",
+      "review": "Short editorial lexical gloss; independent scholarly recheck pending."
+    },
+    {
+      "claim_id": "z-shemittat-kesafim/debt/paragraph-1",
+      "paragraph_sha256": "5cfcd1ca33b20f071e6da610cb6720801c050523db3fbb653694c537fcee1a4f",
+      "anchor": "לכתחילה",
+      "occurrence": 1,
+      "term": "לכתחילה",
+      "explanation": "הדין מראש, לפני שהמעשה נעשה",
+      "label": "ביאור העורך",
+      "review": "Short editorial lexical gloss; independent scholarly recheck pending."
+    },
+    {
+      "claim_id": "d-shevuot/distinction/paragraph-1",
+      "paragraph_sha256": "7f933bca9cff8e1fb1472d6b8447644a56a5e2c1d510d6d327a9f190e4a5782c",
+      "anchor": "דאורייתא",
+      "occurrence": 1,
+      "term": "דאורייתא",
+      "explanation": "מן התורה",
+      "label": "תרגום העורך",
+      "review": "Short editorial lexical gloss; independent scholarly recheck pending."
+    },
+    {
+      "claim_id": "d-edut/distinction/paragraph-1",
+      "paragraph_sha256": "e3f2a94c2e6c443b82db102889e40a9de289e1ca649f5e6df2c57167e6fe0760",
+      "anchor": "״הוו עלי עדים״",
+      "occurrence": 1,
+      "term": "הוו עלי עדים",
+      "explanation": "הֱיוּ עָלַי עֵדִים",
+      "label": "תרגום העורך",
+      "review": "Short editorial lexical gloss; independent scholarly recheck pending."
+    },
+    {
+      "claim_id": "a-shechitah/meaning/paragraph-1",
+      "paragraph_sha256": "44d719dc87b38df6adb04cfd25352c4c4ef39ef105e8032d387831838952dec5",
+      "anchor": "לכתחילה",
+      "occurrence": 1,
+      "term": "לכתחילה",
+      "explanation": "הדין מראש, לפני שהמעשה נעשה",
+      "label": "ביאור העורך",
+      "review": "Short editorial lexical gloss; independent scholarly recheck pending."
+    },
+    {
+      "claim_id": "a-shechitah/meaning/paragraph-1",
+      "paragraph_sha256": "44d719dc87b38df6adb04cfd25352c4c4ef39ef105e8032d387831838952dec5",
+      "anchor": "בדיעבד",
+      "occurrence": 1,
+      "term": "בדיעבד",
+      "explanation": "לאחר שהמעשה כבר נעשה",
+      "label": "ביאור העורך",
+      "review": "Short editorial lexical gloss; independent scholarly recheck pending."
+    },
+    {
+      "claim_id": "a-taam/distinction/paragraph-1",
+      "paragraph_sha256": "d0c28facb4d9af8f02dac4f89bfa2a5850f5396d98421ca981449464b4d9d644",
+      "anchor": "כחל",
+      "occurrence": 1,
+      "term": "כחל",
+      "explanation": "עטין הבהמה",
+      "label": "ביאור העורך",
+      "review": "Short editorial lexical gloss; independent scholarly recheck pending."
+    },
+    {
+      "claim_id": "a-taam/udder/paragraph-1",
+      "paragraph_sha256": "e7acd8f0e44833cbf33f83f68dd4376c03d2f4e835e6f3015a9607025ee00498",
+      "anchor": "כחל",
+      "occurrence": 1,
+      "term": "כחל",
+      "explanation": "עטין הבהמה",
+      "label": "ביאור העורך",
+      "review": "Repeat the short lexical gloss in the separately accessible udder block; independent scholarly recheck pending."
+    }
+  ]
+}

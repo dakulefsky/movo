@@ -85,6 +85,35 @@ for filename in ('coverage_013_entries.json','coverage_013_details_a.json','cove
  payload=json.loads((ROOT/filename).read_text(encoding='utf-8'))
  new_blocks=[b for e in payload.get('entries',[]) for b in e['blocks']]+[item['block'] for item in payload.get('additions',[])]
  used_sources.update(r['source'] for b in new_blocks for r in b['refs'])
+# Precise citation repairs identified by the independent statement ledger.
+# Keep required records in the runtime catalogue even when the previous
+# content overlays did not cite them.
+AUDIT_EXTRA_REFS={
+ 'av-holachah/act': [('z2-3',1)],
+ 'av-tenufah/act': [('av-mm-9.8',1)],
+ 't-ohel/bib-example': [('v-Oholot-3.7',3)],
+ 'z-peah/measure': [('c-Peah-1.2',1),('c-m-Peah-1.2',1)],
+ 'z-hafrashah/gmar-home': [('a-maasrot-1-5',4)],
+ 'z-five-grains/species': [('a-challah-1-1',1)],
+ 'z-five-grains/new': [('am-challah-1-1',1)],
+ 'd-shomer-ones/roles': [('n-Bava_Metzia-7.8',1)],
+ 'z-terumah/meaning': [('z-trumat-maaser',1)],
+ 'a-basar-chalav/distance': [('c-m-Chullin-8.1',1)],
+ 'z-sheviit/price': [('audit-m-sheviit-7-1',1),('a-sheviit-7-1',1)],
+ 't-kelim/purification': [('mt-mikvaot-1-3',1)],
+ 'd-shomrim/four': [('mt-sheelah-6-1',1)],
+ 'minchah/exceptions': [('mt-pesulei-14-3',1)],
+ 'a-yadot-kinuyim/names': [('mt-nedarim-1-16',1)],
+ 't-kelim/materials': [('mt-kelim-8-1',1)],
+ 'asham/animals': [('mt-pesulei-4-22',1)],
+ 'i-edei-get/distinction': [('mt-gerushin-1-13-18',1),('mt-gerushin-1-13-18',2),('mt-gerushin-1-13-18',3)],
+ 'd-shevuot/distinction': [('mt-toen-1-4-5',1),('mt-toen-1-4-5',2)],
+ 'd-shevuot/hesset': [('mt-toen-1-4-5',1),('mt-toen-1-4-5',2)],
+ 'd-karka/ways': [('mt-malveh-11-4',1)],
+ 'd-chovel/meaning': [('mt-chovel-1-12',1)],
+ 'a-shechitah/distinction': [('mt-shechitah-4-12',1)],
+}
+used_sources.update(src for refs in AUDIT_EXTRA_REFS.values() for src,_ in refs)
 # Retain directly cited source passages added by the sixth audit.
 for reviewed in json.loads((ROOT/'SOURCE-REVIEW-0.13.5.json').read_text(encoding='utf-8'))['changes']:
  for r in reviewed.get('addRefs',[]):used_sources.add(r['source'])
@@ -155,6 +184,24 @@ for edit in depth['updates']:
  depth_seen.add(key)
 
 
+# Audit 0.13.5: guarded corrections after all earlier content overlays.
+from audit_repairs import apply_audit_repairs
+print('audit corrections:', apply_audit_repairs(handbooks))
+from adjudicated_repairs import apply_adjudicated_repairs
+print('adjudicated corrections:', apply_adjudicated_repairs(handbooks, sources))
+from adjudicated_repairs import attach_adjudicated_prooftexts
+print('separate audit prooftexts:', attach_adjudicated_prooftexts(handbooks, sources))
+from readability_revision import apply_readability_revision
+print('readability revisions:', apply_readability_revision(handbooks))
+for key, targets in AUDIT_EXTRA_REFS.items():
+ b=block_index[key]
+ for source_id,segment in targets:
+  assert source_id in sources, ('audit citation source missing',key,source_id)
+  assert 1<=segment<=len(sources[source_id]['segments']), ('audit citation segment missing',key,source_id,segment)
+  if not any(r['source']==source_id and segment in r['segments'] for r in b['refs']):
+   b['refs'].append({'source':source_id,'segments':[segment]})
+
+
 # Guide readers through closely related fundamental sugyot, rather than
 # sending them back to the directory after every introduction.
 reading_paths={
@@ -192,6 +239,13 @@ for handbook in handbooks:
 (ROOT/'EDITORIAL-DEPTH-REPORT.json').write_text(json.dumps(depth_report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 
 
+from reading_structure import apply_reading_structure
+print('structured introductions:', apply_reading_structure(handbooks))
+from polish_revision import apply_polish
+print('final wording polish:', apply_polish(handbooks))
+from teaching_additions import apply_teaching
+print('sourced teaching bridges:', apply_teaching(handbooks, sources))
+
 all_entries=[e for h in handbooks for e in h['entries']]
 ids=[e['id'] for e in all_entries]
 assert len(ids)==len(set(ids)), 'Entry IDs must be globally unique'
@@ -212,7 +266,10 @@ for src in sources.values():
   for key in d['provenance']['jsonPath']:obj=obj[key]
   obj=[obj] if isinstance(obj,str) else obj
   assert obj==d['he'],src['filename']
-data={'schemaVersion':2,'version':'0.13.5','author':'DanTheMan','editorialPolicy':policy,'subjects':[{'id':id,'title':title,'status':status} for id,title,status in [('kodashim','קדשים','available'),('tahorot','טהרות','available'),('ishut','אישות','available'),('zeraim','זרעים','available'),('mammon','דיני ממונות','available'),('issur','איסור והיתר','available')]],'handbooks':handbooks,'sources':sources}
+from editorial_glosses import compile_glosses, explained_text
+editorial_glosses=compile_glosses(handbooks)
+print('editorial glosses:',sum(map(len,editorial_glosses.values())))
+data={'editorialGlosses':editorial_glosses,'schemaVersion':2,'version':'0.13.15','author':'DanTheMan','editorialPolicy':policy,'subjects':[{'id':id,'title':title,'status':status} for id,title,status in [('kodashim','קדשים','available'),('tahorot','טהרות','available'),('ishut','אישות','available'),('zeraim','זרעים','available'),('mammon','דיני ממונות','available'),('issur','איסור והיתר','available')]],'handbooks':handbooks,'sources':sources}
 (ROOT/'plugin/data').mkdir(parents=True,exist_ok=True)
 (ROOT/'plugin/data/library.js').write_text('window.MEVOOT='+json.dumps(data,ensure_ascii=False)+';\n')
 (ROOT/'editorial.json').write_text(json.dumps(data,ensure_ascii=False,indent=2))
@@ -221,12 +278,17 @@ def export(h):
  lines=['# '+h['title']+' — '+h['subtitle'],'',h['method'],'']
  for e in h['entries']:
   lines+=['## '+e['title'],'']
-  for b in e['blocks']:
-   lines+=['### '+b['title'],'']
-   for text in b['paragraphs']:lines+=[text,'']
-   for item in b['items']:lines+=['**'+item['label']+'** — '+item['text'],'']
-   lines+=['מקורות: '+'; '.join(sources[r['source']]['citation']+' — מקטעים '+','.join(map(str,r['segments'])) for r in b['refs']),'']
-   if b['by']!='ביאור ערוך על פי הרמב״ם':lines+=[b['by'],'']
+  for section in e['readingSections']:
+   lines+=['### '+section['title'],'']
+   for block_id in section['blocks']:
+    b=next(b for b in e['blocks'] if b['id']==block_id)
+    lines+=['#### '+b['title'],'']
+    for index,text in enumerate(b['paragraphs'],1):
+     key=e['id']+'/'+b['id']+'/paragraph-'+str(index)
+     lines+=[explained_text(text,editorial_glosses.get(key,[])),'']
+    for item in b['items']:lines+=['**'+item['label']+'** — '+item['text'],'']
+    lines+=['מקורות: '+'; '.join(sources[r['source']]['citation']+' — מקטעים '+','.join(map(str,r['segments'])) for r in b['refs']),'']
+    if b['by']!='ביאור ערוך על פי הרמב״ם':lines+=[b['by'],'']
  lines+=['## היקף ההסברים','',h['limits']]
  return '\n'.join(lines)
 (ROOT/'Mevoot-Shas-Content.md').write_text('\n\n---\n\n'.join(export(h) for h in handbooks))

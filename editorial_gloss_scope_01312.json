@@ -1,0 +1,16 @@
+{
+  "basis_commit": "94d3e65",
+  "basis_version": "0.13.11",
+  "version": "0.13.12",
+  "scope": "User correction: gloss only genuinely unfamiliar vocabulary. Remove elementary Aramaic and routine study terminology. Preserve original gloss inventory as history; retain only the uncommon anatomical term כחל in its two separately accessible passages.",
+  "retained_annotations": [
+    {
+      "claim_id": "a-taam/distinction/paragraph-1",
+      "term": "כחל"
+    },
+    {
+      "claim_id": "a-taam/udder/paragraph-1",
+      "term": "כחל"
+    }
+  ]
+}

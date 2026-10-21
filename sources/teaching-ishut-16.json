@@ -1,0 +1,23 @@
+{
+  "ref": "Mishneh Torah, Marriage 16:1-3",
+  "heRef": "רמב״ם, אישות טז, א–ג",
+  "he": [
+    "הנכסים שמכנסת האשה לבעלה בין קרקע בין מטלטלין בין עבדים אע\"פ שהן נכתבין בשטר הכתובה אין נקראין כתובה אלא נדוניא שמם. ואם קיבל הבעל אחריות הנדוניא עליו ונעשית ברשותו אם פחתה פחתה לו ואם הותירה הותירה לו הרי זו נקראת נכסי צאן ברזל. ואם לא קיבל אחריות הנדוניא עליו אלא הרי היא ברשות האשה אם פחתה פחתה לה ואם הותירה הותירה לה הרי זו נקראת נכסי מלוג.",
+    "וכן כל נכסים שיש לאשה שלא הכניסה אותן לבעלה ולא כתבו אותן בכתובה אלא נשארו לעצמה. או נפלו לה בירושה אחר שנתארסה או נתנו לה במתנה הכל נקראין נכסי מלוג שכולן ברשותה הן. ואין נקראין כתובה אלא עיקר כתובה שהוא מאה או מאתים עם התוספת בלבד.",
+    "כבר הודענו שחכמים תקנו כתובה לאשה ודין התוספת כדין העיקר. ולא תקנו לגבותה כל זמן שתרצה אלא הרי היא כחוב שיש לו זמן ואין הכתובה נגבית אלא לאחר מיתת הבעל או אם גירשה. וכן התקינו שאם היו לבעל שדות טובות ורעות ובינוניות ובאה האשה לגבות כתובתה ממנו שלא תגבה אלא מן הרעה שבנכסיו והיא הנקראת זיבורית."
+  ],
+  "versions": [
+    {
+      "versionTitle": "Public Hebrew transcription; contextual excerpt",
+      "versionSource": "https://he.wikisource.org/wiki/רמב%22ם_הלכות_אישות_טז",
+      "license": "Public Domain",
+      "language": "he"
+    }
+  ],
+  "witness": {
+    "capture": "teaching-ishut-16-witness.json",
+    "url": "https://he.wikisource.org/wiki/רמב%22ם_הלכות_אישות_טז",
+    "page_sha256": "6920027b05f01814d108b2b920d154cd582515405235bc8de37b1a52eba3c401"
+  },
+  "scope_note": "Separately attached public-text prooftext; local segment numbers enumerate selected complete paragraphs, not canonical halakhah numbers. Public transcription, no manuscript or physical edition collation."
+}

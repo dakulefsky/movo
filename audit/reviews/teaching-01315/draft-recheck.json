@@ -1,0 +1,18 @@
+{
+  "reviewer": "Separate AI reviewer /root/scholarly_reviewer",
+  "recorded_by": "Coordinator from actual collaboration messages; no completed standalone report was produced by reviewer",
+  "scope": "The exact five before/after drafts in teaching_additions_01315.json before attribution-label metadata was added.",
+  "finding": "The exact five overlay after-texts are source-supported on this recheck; I have not found a substantive scope/qualifier defect.",
+  "contexts_read": [
+    "Ishut10:1-2,6; fitness and blessing conditions",
+    "Nedarim3:1,6-12; personal/object and immaterial-vow boundaries",
+    "Maaser9:2-5; designation/delivery",
+    "Ishut16:1-9; debt and collection context",
+    "MaasehHaKorbanot12:1-9; grain and exceptions"
+  ],
+  "requested_followup": "Mixed-source by labels for i-nissuin/stages and i-ketubah/scope should include Rambam alongside retained Meiri/Mishnah basis.",
+  "followup_applied": true,
+  "final_generated_corpus_independently_rechecked": false,
+  "limitation": "Reviewer hit its usage limit before final generated-version recheck. No claim of that recheck, completed scholarly gates, or human approval is made. Coordinator checked generated output and corrected attribution labels.",
+  "human_scholarly_approval": false
+}
