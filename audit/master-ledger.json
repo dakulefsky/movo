@@ -85587,8 +85587,19 @@
   },
   "editorial_gloss_store_distribution": {
     "version": "0.13.11",
-    "status": "prepared_for_user_requested_review_distribution",
+    "status": "published_review_distribution",
     "accuracy_notice": "דיוק התוכן נמצא בבדיקה.",
-    "scholarly_clearance": false
+    "scholarly_clearance": false,
+    "workflow_run_id": 39602678465,
+    "workflow_url": "https://github.com/dakulefsky/movo/actions/runs/39602678465",
+    "published_at_utc": "2026-10-21T12:50:14Z",
+    "store_previous_version": "0.13.10",
+    "store_version": "0.13.11",
+    "success": true,
+    "pending_approval": false,
+    "publisher_confirmation": "✓ העדכון פורסם בחנות בגרסה 0.13.11",
+    "workflow_log_sha256": "9ff752bfab848f7171423d28824459104cd2a38eac4a18795c23e979b29a31d1",
+    "publication_route": "Manual release.yml on audit-0135-repairs; no main merge.",
+    "content_status": "Sixteen separate labeled editorial glosses only; all underlying explanations, sources, full historical ledger, source conflicts and accuracy-under-review notice retained."
   }
 }
