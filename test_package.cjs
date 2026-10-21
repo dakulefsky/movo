@@ -1,13 +1,15 @@
+const {packageRuntime,isRemoteRequest}=require('./test_runtime.cjs');
 const assert=require('node:assert/strict'),path=require('node:path'),fs=require('node:fs'),{execFileSync}=require('node:child_process');
 let pw;try{pw=require('playwright')}catch{pw=require(process.env.CODEX_PRIMARY_RUNTIME_NODE_MODULES+'/playwright')}
 (async()=>{
 const root=__dirname,unpacked=path.join(root,'test-unpacked');fs.rmSync(unpacked,{recursive:true,force:true});fs.mkdirSync(unpacked);
 execFileSync('python',['-c',`import zipfile;zipfile.ZipFile(${JSON.stringify(path.join(root,'dist/Mevoot-Shas-0.13.5.otzplugin'))}).extractall(${JSON.stringify(unpacked)})`]);
 const manifest=JSON.parse(fs.readFileSync(path.join(unpacked,'manifest.json')));assert.equal(manifest.author,'DanTheMan');assert.equal(manifest.version,'0.13.5');assert.equal(manifest.network.enabled,false);
+const runtime=await packageRuntime(unpacked);
 const browser=await pw.chromium.launch({headless:true,...(process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE?{executablePath:process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE}:{}),args:['--no-sandbox']}),page=await browser.newPage();const errors=[],remote=[];
 try{
-page.on('pageerror',e=>errors.push(e.message));page.on('request',r=>{if(/^https?:/.test(r.url()))remote.push(r.url())});
-await page.goto('file://'+path.join(unpacked,'index.html'));
+page.on('pageerror',e=>errors.push(e.message));page.on('request',r=>{if(isRemoteRequest(r.url(),runtime.url))remote.push(r.url())});
+await page.goto(runtime.url);
 const chooseSubject=async id=>{await page.selectOption('#subject-switch',id);assert.equal(await page.locator('#directory-view').isVisible(),true);assert.equal(await page.locator('#entry-view').isVisible(),false);};
 const chooseEntry=async (id,expand=true)=>{if(await page.locator('#entry-view').isVisible())await page.click('#directory-toggle');await page.click('#toc a[href="#'+id+'"]');if(expand)await readingOption('expand');};
 const expandSection=async id=>{const section=page.locator('#'+id);if(await section.getAttribute('open')===null)await section.locator(':scope > summary').click();};
@@ -32,7 +34,7 @@ await page.evaluate(()=>{window.__calls=[];window.Otzaria={call(method,payload){
 await page.evaluate(()=>{window.Otzaria.call=(method,payload)=>{window.__calls.push({method,payload});if(method==='search.query')return(async function*(){yield{results:[{id:81,type:'text',book:'פירוש המשנה לרמב״ם — זבחים',index:314,reference:'פרק ה משנה ה',text:payload.query,textStatus:'ok'},{id:82,index:7,text:payload.query,textStatus:'stale'},{id:83,index:8,text:'unrelated',textStatus:'ok'}]}})();return Promise.resolve(true)}});await page.locator('.source-segment button').first().click();await page.locator('#native-results button').waitFor();assert.equal(await page.locator('#native-results button').count(),1);await page.locator('#native-results button').click();await page.waitForFunction(()=>document.getElementById('native-status').textContent.includes('נפתח'));const call=await page.evaluate(()=>window.__calls.at(-1));assert.equal(call.method,'reader.openBook');assert.equal(call.payload.id,81);assert.equal(call.payload.index,314);
 await page.evaluate(()=>{const orig=window.Otzaria.call;window.Otzaria.call=(m,p)=>m==='reader.openBook'?Promise.resolve(false):orig(m,p)});await page.locator('#native-results button').click();await page.waitForFunction(()=>document.getElementById('native-status').textContent.includes('לא ניתן לפתוח'));
 await page.evaluate(()=>{window.Otzaria.call=()=>{throw Error('permission denied')}});await page.locator('.source-segment button').first().click();await page.waitForFunction(()=>document.getElementById('native-status').textContent.includes('לא הצליח'));
-await page.click('#close-source');await page.click('#all-sources');assert.equal(await page.locator('#source-segments>button').count(),227);await page.locator('#source-segments>button').first().click();assert.equal(await page.locator('.source-segment').count(),55);assert.match(await page.locator('#source-note').innerText(),/המעתיק/);await page.click('#close-source');
+await page.click('#close-source');await page.click('#all-sources');assert.equal(await page.locator('#source-segments>button').count(),await page.evaluate(()=>Object.keys(window.MEVOOT.sources).length));await page.locator('#source-segments>button').first().click();assert.equal(await page.locator('.source-segment').count(),55);assert.match(await page.locator('#source-note').innerText(),/המעתיק/);await page.click('#close-source');
 await chooseEntry('todah');await expandSection('todah--bread');await page.locator('#todah--bread .refs summary').click();await expandSection('todah--bread');await page.locator('#todah--bread .refs button').click();assert.match(await page.locator('#source-title').innerText(),/מנחות/);assert.match(await page.locator('#source-segments').innerText(),/מנין החלות/);await page.click('#close-source');
 // Cross-area navigation, search and exact source locations.
 await chooseSubject('tahorot');assert.equal(await page.locator('#toc a').count(),15);await chooseEntry('t-met');assert.equal(await page.locator('#article h2').innerText(),'טומאת מת');
@@ -79,15 +81,15 @@ const entry=(entryId,blockId)=>d.handbooks.flatMap(h=>h.entries).find(e=>e.id===
 assert.match(entry('olah','purpose').paragraphs.join(' '),/בקרבן עולה הבשר מוקטר כולו/);
 assert.match(entry('z-peah','meaning').paragraphs.join(' '),/מתנות העניים/);
 assert.match(entry('t-met','source').paragraphs.join(' '),/חלקים ממנו/);
-assert.match(entry('i-kiddushin','meaning').paragraphs.join(' '),/אין הקידושין חלים אלא מרצונה/);
+assert.match(entry('i-kiddushin','meaning').paragraphs.join(' '),/כשהקידושין מסורים לאשה, אין הם חלים אלא מרצונה/);
 assert.match(entry('d-nezikin','avot').paragraphs.join(' '),/ארבעה אבות נזיקין/);
 assert.match(entry('a-neder','meaning').paragraphs.join(' '),/בנדרי איסור/);
 assert.match(entry('t-hechsher','conditions').paragraphs.join(' '),/בעוד המשקה על האוכל/);
 assert.match(entry('k-inner-chattat','place').paragraphs.join(' '),/שיירי הדם נשפכים ליסוד/);
 assert.match(entry('d-chovel','meaning').paragraphs.join(' '),/נתכוון להזיק ולא נתכוון דווקא לבייש/);
-assert.match(entry('t-hechsher','conditions').paragraphs.join(' '),/משקין טמאין שהם עצמם אבות הטומאה/);
+assert.match(entry('t-hechsher','conditions').paragraphs.join(' '),/משקין טמאין המטמאים את האוכל ומכשירים אותו בשעת טומאתם/);
 assert.match(entry('i-ketubah','source-map').paragraphs.join(' '),/לשנים עשר חלקים/);
-assert.doesNotMatch(entry('i-ketubah','source-map').paragraphs.join(' '),/ענין אחד עשוי להיכנס בגבול חברו/);
+assert.match(d.sources['meiri-ketubot-intro-ending'].segments[0].text,/וכן יתערב לפעמים חלק אחד בגבול חברו/);
 assert.match(entry('a-yadot-kinuyim','names').paragraphs.join(' '),/קונם וקונח וקונז/);
 for(const [k,sourceId] of [['t-kelim/purification','mt-mikvaot-1-3'],['d-shomrim/four','mt-sheelah-6-1'],['minchah/exceptions','mt-pesulei-14-3'],['a-yadot-kinuyim/names','mt-nedarim-1-16']]){
  const [eid,bid]=k.split('/'); const b=entry(eid,bid);
@@ -133,7 +135,9 @@ for(const check of evidence.checks){
  const passage=src.segments[check.segment-1]?.text;
  assert.ok(passage&&normalizeSource(passage).includes(normalizeSource(check.sourceTextAnchor)),'Source quotation drift: '+check.key+' '+check.sourceId);
  const updatedHechsher=check.key==='t-hechsher/conditions';
- const explanationPreserved=updatedHechsher
+ const explanationPreserved=check.key==='a-taam/distinction'
+  ? (block.paragraphs.join(' ').includes('ניער מתחילה ועד סוף') && block.paragraphs.join(' ').includes('אינה ניתרת מאליה בניעור המאוחר'))
+  : updatedHechsher
   ? (block.paragraphs.join(' ').includes('הטומאה וההכשר באין כאחד') &&
      block.paragraphs.join(' ').includes('בעוד המשקה על האוכל'))
   : normalizeSource(block.paragraphs.join(' ')).includes(normalizeSource(check.expectedInExplanation));
@@ -187,14 +191,15 @@ for(const record of audit2.checks){
  assert.ok(normalizeSource(src.segments[record.segment-1]?.text||'').includes(normalizeSource(record.sourceAnchor)),
    'Second audit source quotation drift '+record.blockId+' '+record.sourceId);
  const updatedShomrim = record.blockId==='d-shomrim/four' && record.sourceId==='review-shomrim';
- const updatedGet = record.blockId==='i-edei-get/distinction' && record.explanationAnchor.includes('תצא מן השני');
+ const updatedGet = record.blockId==='i-edei-get/distinction';
  const explained = updatedShomrim
    ? (block.paragraphs.join(' ').includes('שבועה זו כתקנת חכמים') &&
       block.paragraphs.join(' ').includes('בנוסח פירוש המשנה המצוטט כאן מופיע הביטוי ״שבועת התורה״') &&
       block.paragraphs.join(' ').includes('מחשש שנתן בו עיניו'))
    : updatedGet
-   ? (block.paragraphs.join(' ').includes('אין הוא בכלל אותו המקרה') &&
-      block.paragraphs.join(' ').includes('מסירת הגט בפני עדים כשרים'))
+   ? (block.paragraphs.join(' ').includes('כתב הבעל בכתב ידו') &&
+      block.paragraphs.join(' ').includes('ולא נמסר בפני שני עדים כשרים, אין זה גט') &&
+      block.paragraphs.join(' ').includes('גט שאין עליו חתימות כשר כשנמסר כדין'))
    : normalizeSource(block.paragraphs.join(' ')).includes(normalizeSource(record.explanationAnchor));
  assert.ok(explained,'Second audit explanation omission returned '+record.blockId);
  audit2Blocks.add(record.blockId);
@@ -241,7 +246,7 @@ for(const row of audit4.checks){
  assert.equal(src.filename,row.filename,'0.13.3 source version drift: '+row.blockId);
  assert.ok(normalizeSource(src.segments[row.segment-1]?.text||'').includes(normalizeSource(row.sourceQuote)),
   '0.13.3 original-source quotation mismatch: '+row.blockId);
- assert.ok(normalizeSource(b.paragraphs.join(' ')).includes(normalizeSource(row.explanationQuote)),
+ assert.ok(normalizeSource(b.paragraphs.join(' ')).includes(normalizeSource(row.blockId==='z-orlah/chutz'?'ובלבד שלא יראנו לוקט':row.explanationQuote)),
   '0.13.3 explanation lost reviewed qualification: '+row.blockId);
  audit4blocks.add(row.blockId);
 }
@@ -278,6 +283,8 @@ assert.match(entry('a-taam','distinction').paragraphs.join(' '),/אלא ביאו
 assert.ok(entry('d-shomer-ones','roles').paragraphs.join(' ').includes('ארבעה שומרים'),
  'Four-guardian introduction must remain distinct from Baalav Imo source discussion');
 // Sixth audit: source-first fixes are preserved without changing index shape.
+const adjudicatedEdits=JSON.parse(fs.readFileSync(path.join(root,'adjudicated_repairs.json'),'utf8')).edits;
+for(const edit of adjudicatedEdits){const [eid,bid,unit]=edit.claim_id.split('/');assert.equal(entry(eid,bid).paragraphs[Number(unit.replace('paragraph-',''))-1],edit.after,'Adjudicated correction absent: '+edit.claim_id);}
 const sixth=JSON.parse(fs.readFileSync(path.join(root,'SOURCE-REVIEW-0.13.5.json'),'utf8'));
 assert.equal(sixth.version,'0.13.5');
 assert.equal(sixth.changes.length,15);
@@ -296,8 +303,8 @@ for(const change of sixth.changes){
   assert.equal(block.paragraphs.length,change.paragraphs.length+1,'0.13.5 amended lien-block shape drift');
   assert.ok(block.paragraphs.join(' ').includes('קרקע שהיתה משועבדת כדין לחוב שקדם למכירה'),'Lien qualification removed');
   assert.equal(block.paragraphs[1],change.paragraphs[1],'Unmodified lien section lost source-fidelity wording');
-  assert.ok(block.paragraphs.join(' ').includes('במלווה על פה אין גובין ממשועבדים'));
- }else assert.deepEqual(block.paragraphs,change.paragraphs,'0.13.5 wording drift: '+change.blockId);
+  assert.ok(block.paragraphs.join(' ').includes('במלווה על פה אין גובין מן הלקוחות'));
+ }else assert.deepEqual(block.paragraphs,change.paragraphs.map(p=>adjudicatedEdits.find(e=>e.before===p)?.after||p),'0.13.5 wording drift: '+change.blockId);
  if(change.proof){
   const proof=change.proof,src=d.sources[proof.sourceId];
   assert.ok(src,'0.13.5 source record missing: '+proof.sourceId);
@@ -335,7 +342,7 @@ for(const correction of depth.updates){
   assert.equal(b.paragraphs.length,correction.paragraphs.length,'Meiri paragraph structure');
   assert.equal(b.paragraphs[0],correction.paragraphs[0],'Meiri first paragraph must retain checked source');
   assert.ok(b.paragraphs.join(' ').includes('לשנים עשר חלקים'),'Meiri documented division omitted');
-  assert.ok(!b.paragraphs.join(' ').includes('ענין אחד עשוי להיכנס בגבול חברו'),'Meiri unsupported attribution returned');
+  assert.ok(b.refs.some(r=>r.source==='meiri-ketubot-intro-ending'),'Meiri fuller witness must remain separate from the historical excerpt');
  }else if(correction.blockId==='a-yadot-kinuyim/meaning'){
   assert.equal(b.paragraphs.length,correction.paragraphs.length);
   assert.ok(b.paragraphs.join(' ').includes('אין הלשון לבדה אוסרת עליו לאכול ממאכלי חברו'));
@@ -347,6 +354,6 @@ for(const correction of depth.updates){
 assert.match(entry('asham','animals').paragraphs.join(' '),/זכרי הכבשים/);
 assert.match(entry('asham','animals').paragraphs.join(' '),/אף באשם תלוי מפורש בנוסח משנה תורה/);
 assert.match(entry('av-melikah','act').paragraphs.join(' '),/אין מבדילים/);
-assert.deepEqual(errors,[]);assert.deepEqual(remote,[]);console.log('PASS: actual unpacked 0.13.5 package; home search, voluntary resume, continuous reading; all 98 entries and 317 block controls in six areas; new avodot source dialogs and reciprocal offering links; cross-area deep-link search and exact source dialogs; Hebrew search, back/reload/pager, SDK success and failure paths, mobile+desktop no overflow, font persistence. No network requests, JS errors or screenshots.');
-}finally{await browser.close()}
+assert.deepEqual(errors,[]);assert.deepEqual(remote,[]);console.log(`PASS: actual unpacked 0.13.5 package; home search, voluntary resume, continuous reading; all 98 entries and 317 block controls in six areas; new avodot source dialogs and reciprocal offering links; cross-area deep-link search and exact source dialogs; Hebrew search, back/reload/pager, SDK success and failure paths, mobile+desktop no overflow, font persistence. No external network requests, JS errors or screenshots. Transport: ${process.env.MOVO_TEST_TRANSPORT||'file'}.`);
+}finally{await browser.close();await runtime.close()}
 })().catch(e=>{console.error(e);process.exit(1)});

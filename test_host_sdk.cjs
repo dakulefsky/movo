@@ -1,8 +1,9 @@
+const {packageRuntime,isRemoteRequest}=require('./test_runtime.cjs');
 // Uses the actual injected JavaScript SDK from a pinned external Otzaria checkout.
 // Flutter RPC boundary is a test double: this is not an installed-app E2E test.
 const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),{execFileSync}=require('node:child_process');
 let pw;try{pw=require('playwright')}catch{pw=require(process.env.CODEX_PRIMARY_RUNTIME_NODE_MODULES+'/playwright')}
-const root=__dirname,host=process.env.OTZARIA_HOST_SOURCE||'/tmp/mevoot-otzaria-host';
+const root=__dirname,host=process.env.OTZARIA_HOST_SOURCE||'/workspace/otzaria-audit-host';
 const commit=execFileSync('git',['rev-parse','HEAD'],{cwd:host,encoding:'utf8'}).trim();
 assert.equal(commit,'9f11690b80bf37703a3d1477a32c677c889dab7b','Use the reviewed SDK revision; review before changing the pin');
 const dart=fs.readFileSync(path.join(host,'lib/plugins/view/plugin_sdk_scripts.dart'),'utf8');
@@ -11,12 +12,16 @@ const boot=dart.split('String buildPluginBootScript')[1].split("'''")[1]
  .replace("${fontFaceJson == null ? '' : _fontFaceJs(fontFaceJson)}",'')
  .replaceAll('$nonceJson','"mevoot-contract-test"').replaceAll('$payloadJson',JSON.stringify({theme:{mode:'light',colorScheme:{primary:'#345678',onPrimary:'#ffffff',surface:'#fdfdfd',onSurface:'#101010',onSurfaceVariant:'#505050',surfaceContainerLow:'#eeeeee',outline:'#999999',scrim:'#000000'},typography:{fontFamily:'serif',uiFontFamily:'sans-serif',fontSize:24}}}));
 (async()=>{
- execFileSync('python3',['-c',`import zipfile; zipfile.ZipFile(${JSON.stringify(path.join(root,'dist/Mevoot-Shas-0.12.0.otzplugin'))}).extractall(${JSON.stringify(path.join(root,'test-unpacked'))})`]);
+ fs.mkdirSync(path.join(root,'work'),{recursive:true});
+ const unpacked=fs.mkdtempSync(path.join(root,'work/host-package-'));
+ execFileSync('python3',['-c',`import zipfile; zipfile.ZipFile(${JSON.stringify(path.join(root,'dist/Mevoot-Shas-0.13.5.otzplugin'))}).extractall(${JSON.stringify(unpacked)})`]);
+ const runtime=await packageRuntime(unpacked);
+ const packagedManifest=JSON.parse(fs.readFileSync(path.join(unpacked,'manifest.json')));assert.equal(packagedManifest.version,'0.13.5');
  const browser=await pw.chromium.launch({headless:true,executablePath:process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE,args:['--no-sandbox']});
  try{
   const page=await browser.newPage(),errors=[],remote=[];
-  page.on('pageerror',e=>errors.push(e.message));page.on('request',r=>{if(/^https?:/.test(r.url()))remote.push(r.url())});
-  await page.addInitScript(stub);await page.goto('file://'+path.join(root,'test-unpacked/index.html')+'#olah');
+  page.on('pageerror',e=>errors.push(e.message));page.on('request',r=>{if(isRemoteRequest(r.url(),runtime.url))remote.push(r.url())});
+  await page.addInitScript(stub);await page.goto(runtime.url+'#olah');
   await page.evaluate(()=>{
    window.rpcCalls=[];window.hostCase='success';window.openOK=true;
    window.flutter_inappwebview={callHandler:async(name,request)=>{
@@ -69,5 +74,5 @@ const boot=dart.split('String buildPluginBootScript')[1].split("'''")[1]
   assert.equal(await page.evaluate(()=>getComputedStyle(document.documentElement).getPropertyValue('--color-primary')),'#345678');
   assert.deepEqual(errors,[]);assert.deepEqual(remote,[]);
   console.log('PASS actual Otzaria SDK '+commit+': streamed chunks, highlighted text, envelope true/false, source identity, no-match, permission failure, cancellation, boot/change theme. Flutter RPC remains a double; no screenshots.');
- }finally{await browser.close()}
+ }finally{await browser.close();await runtime.close();fs.rmSync(unpacked,{recursive:true,force:true})}
 })().catch(e=>{console.error(e);process.exit(1)});

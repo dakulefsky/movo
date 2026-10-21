@@ -1,0 +1,22 @@
+{
+  "ref": "רמב״ם על משנה חלה א, ב",
+  "heRef": "רמב״ם על משנה חלה א, ב — מקביל למקטע המקומי שבקובץ א, א",
+  "he": [
+    "והדבר שהוא אסור משום חמץ, אדם יוצא בו ידי חובתו משום מצה, רוצה לומר אם אכל ממנו כזית מצה בליל הפסח יצא ידי חובתו. ושאר שבעת ימים, רצה אוכל מצה, רצה אוכל קטנית וכיוצא בהן, ועוד יתבאר זה במקומו. ואלו החמשה מינין הם שמתחמצים ובאין לידי חמוץ, אבל השאר אינן מתחמצין אבל מתעפשים ומסריחין, והוא אמרם ( פסחים דף לה. ) \"יצא אורז ודוחן ופרגין ושומשמין, שאין באים לידי חמוץ אלא לידי סרחון\"."
+  ],
+  "versions": [
+    {
+      "language": "he",
+      "versionTitle": "Wikisource public Hebrew transcription",
+      "versionSource": "https://he.wikisource.org/wiki/משנה_חלה_א_ב",
+      "license": "CC BY-SA"
+    }
+  ],
+  "witness": {
+    "url": "https://he.wikisource.org/wiki/משנה_חלה_א_ב",
+    "retrieved_at": "2026-10-21",
+    "page_sha256": "02170cfd43c5e85b56632f85144f903e840710f5bdb56a618bcf9d629f1a2a93",
+    "capture": "audit-witness-challah.json",
+    "normalization": "HTML text nodes joined, whitespace collapsed; passages extracted without rewriting"
+  }
+}

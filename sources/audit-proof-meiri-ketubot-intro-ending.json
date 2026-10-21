@@ -1,0 +1,22 @@
+{
+  "ref": "מאירי כתובות, סוף ההקדמה",
+  "heRef": "מאירי כתובות, סוף ההקדמה — השלמה נפרדת למקטע המקוצר",
+  "he": [
+    "וכן יתערב לפעמים חלק אחד בגבול חברו כענין סוגית התלמוד על הדרך שקדם."
+  ],
+  "versions": [
+    {
+      "language": "he",
+      "versionTitle": "Wikisource public Hebrew transcription",
+      "versionSource": "https://he.wikisource.org/wiki/מאירי_על_הש%22ס/כתובות/הקדמה",
+      "license": "CC BY-SA"
+    }
+  ],
+  "witness": {
+    "url": "https://he.wikisource.org/wiki/מאירי_על_הש%22ס/כתובות/הקדמה",
+    "retrieved_at": "2026-10-21",
+    "page_sha256": "03d3d8f50d15fa3d303d01ccc60b8afce0ce64bde160a9c9d2dbb121294204be",
+    "capture": "audit-witness-meiri-ketubot.json",
+    "normalization": "HTML text nodes joined, whitespace collapsed; passages extracted without rewriting"
+  }
+}

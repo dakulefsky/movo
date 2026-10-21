@@ -8040,6 +8040,21 @@
         "status": "two_review_passes_recorded_not_scholarly_certification",
         "implementation": "No application or source-snapshot changes applied",
         "limits": "Detailed proposition/evidence and gate limitations remain in the two reports. No decision is promoted to verified by matching quotes or reviewer agreement."
+      },
+      "application_repair": {
+        "date": "2026-10-20",
+        "reviewer": "Codex implementation pass",
+        "basis_commit": "aa8d284e6e0b72844850408e3f47d311949b3cc2",
+        "disposition": "guarded_prose_repair_applied",
+        "prooftext_ids": [],
+        "recheck": "Generated 360-claim comparison in a temporary directory; all original source passages, local refs and historical review fields retained. Applied wording compared with recorded independent review and adjudication.",
+        "independent_review_basis": [
+          "kodashim-second"
+        ],
+        "post_application_independent_scholarly_recheck": "pending; implementation self-check is not a new independent reviewer",
+        "release_status": "blocked; original decision retained, not promoted to verified",
+        "applied_text": "כל האשמות באים מזכרי הכבשים. אשם נזיר ואשם מצורע באים כבש בן שנתו; באשם גזלות, באשם מעילות ובאשם שפחה חרופה מפרט הרמב״ם איל; אף באשם תלוי מפורש בנוסח משנה תורה, הלכות פסולי המוקדשין ד, כב, שבא מן הגדולים, בני שתי שנים. דין אשם תלוי מובא כאן על פי הלשון המפורשת במשנה תורה; אם יימצא נוסח אחר, יש לזהות את מהדורתו ואת לשונו לפני השוואתו לנוסח זה.",
+        "applied_text_sha256": "c230169b0617253ae080965dc03444296255abec6897f590864ee1bbeadd2bbd"
       }
     },
     {
@@ -8578,6 +8593,21 @@
         "status": "two_review_passes_recorded_not_scholarly_certification",
         "implementation": "No application or source-snapshot changes applied",
         "limits": "Detailed proposition/evidence and gate limitations remain in the two reports. No decision is promoted to verified by matching quotes or reviewer agreement."
+      },
+      "application_repair": {
+        "date": "2026-10-20",
+        "reviewer": "Codex implementation pass",
+        "basis_commit": "aa8d284e6e0b72844850408e3f47d311949b3cc2",
+        "disposition": "guarded_prose_repair_applied",
+        "prooftext_ids": [],
+        "recheck": "Generated 360-claim comparison in a temporary directory; all original source passages, local refs and historical review fields retained. Applied wording compared with recorded independent review and adjudication.",
+        "independent_review_basis": [
+          "kodashim-second"
+        ],
+        "post_application_independent_scholarly_recheck": "pending; implementation self-check is not a new independent reviewer",
+        "release_status": "blocked; original decision retained, not promoted to verified",
+        "applied_text": "דם האשם ניתן בשתי מתנות שהן ארבע. באשם מצורע נתחדש דין בקבלה: מקצת הדם מקבל הכהן בידו למתן הבהונות, ומקצתו בכלי שרת למתן דמו על המזבח.",
+        "applied_text_sha256": "508525bf73e5c4ecfc9281b24bd97e0fc086a5ffa991aabad0813ad516073c26"
       }
     },
     {
@@ -12940,6 +12970,21 @@
         "status": "two_review_passes_recorded_not_scholarly_certification",
         "implementation": "No application or source-snapshot changes applied",
         "limits": "Detailed proposition/evidence and gate limitations remain in the two reports. No decision is promoted to verified by matching quotes or reviewer agreement."
+      },
+      "application_repair": {
+        "date": "2026-10-20",
+        "reviewer": "Codex implementation pass",
+        "basis_commit": "aa8d284e6e0b72844850408e3f47d311949b3cc2",
+        "disposition": "guarded_prose_repair_applied",
+        "prooftext_ids": [],
+        "recheck": "Generated 360-claim comparison in a temporary directory; all original source passages, local refs and historical review fields retained. Applied wording compared with recorded independent review and adjudication.",
+        "independent_review_basis": [
+          "kodashim-second"
+        ],
+        "post_application_independent_scholarly_recheck": "pending; implementation self-check is not a new independent reviewer",
+        "release_status": "blocked; original decision retained, not promoted to verified",
+        "applied_text": "שלמי הציבור הם שני כבשי עצרת הבאים עם שתי הלחם בחג השבועות; אין בציבור קרבן שלמים אחר.",
+        "applied_text_sha256": "53c15197f1a3aa6f43575c6fd404bc01d2ac5eb6346f3b0b47a5e38a0a2c6012"
       }
     },
     {
@@ -17061,6 +17106,22 @@
         "status": "two_review_passes_recorded_not_scholarly_certification",
         "implementation": "No application or source-snapshot changes applied",
         "limits": "Detailed proposition/evidence and gate limitations remain in the two reports. No decision is promoted to verified by matching quotes or reviewer agreement."
+      },
+      "application_repair": {
+        "date": "2026-10-20",
+        "reviewer": "Codex implementation pass",
+        "basis_commit": "aa8d284e6e0b72844850408e3f47d311949b3cc2",
+        "disposition": "context_paragraph_preserved_selected_note_applied_to_paragraph_2_only",
+        "prooftext_ids": [
+          "full-tyt-menachot-1-1",
+          "ikkar-tyt-menachot-1-1"
+        ],
+        "recheck": "Generated 360-claim comparison in a temporary directory; all original source passages, local refs and historical review fields retained. Applied wording compared with recorded independent review and adjudication.",
+        "independent_review_basis": [
+          "kodashim-second"
+        ],
+        "post_application_independent_scholarly_recheck": "pending; implementation self-check is not a new independent reviewer",
+        "release_status": "blocked; original decision retained, not promoted to verified"
       }
     },
     {
@@ -17549,6 +17610,24 @@
         "implementation": "No application or source-snapshot changes applied",
         "limits": "Detailed proposition/evidence and gate limitations remain in the two reports. No decision is promoted to verified by matching quotes or reviewer agreement.",
         "selected_proposal_basis": "Explicit חזר בו is Ikkar Tosafot Yom Tov. Full Tosafot Yom Tov compares the code. Earlier direct attribution is superseded, not approved."
+      },
+      "application_repair": {
+        "date": "2026-10-20",
+        "reviewer": "Codex implementation pass",
+        "basis_commit": "aa8d284e6e0b72844850408e3f47d311949b3cc2",
+        "disposition": "guarded_prose_repair_applied",
+        "prooftext_ids": [
+          "full-tyt-menachot-1-1",
+          "ikkar-tyt-menachot-1-1"
+        ],
+        "recheck": "Generated 360-claim comparison in a temporary directory; all original source passages, local refs and historical review fields retained. Applied wording compared with recorded independent review and adjudication.",
+        "independent_review_basis": [
+          "kodashim-second"
+        ],
+        "post_application_independent_scholarly_recheck": "pending; implementation self-check is not a new independent reviewer",
+        "release_status": "blocked; original decision retained, not promoted to verified",
+        "applied_text": "הערת מקור: בפירוש המשנה נפסלה מנחת העומר שנקמצה שלא לשמה, ואילו במשנה תורה הוכשרה. בתוספות יום טוב למנחות א, א הועמדו הדברים מול פסקי הרמב״ם בחיבורו, ובעיקר תוספות יום טוב נתפרש שהרמב״ם חזר בו. הסבר זה מובא בשם מפרשו; יחס נוסחי פירוש המשנה והמהדורות לא הוכרע בבדיקה זו.",
+        "applied_text_sha256": "7b54d40f4d8aecb665b6692ffb92e9ac33684ec6bafbccecdd93ea2430b0f43d"
       }
     },
     {
@@ -21899,6 +21978,21 @@
         "status": "two_review_passes_recorded_not_scholarly_certification",
         "implementation": "No application or source-snapshot changes applied",
         "limits": "Detailed proposition/evidence and gate limitations remain in the two reports. No decision is promoted to verified by matching quotes or reviewer agreement."
+      },
+      "application_repair": {
+        "date": "2026-10-20",
+        "reviewer": "Codex implementation pass",
+        "basis_commit": "aa8d284e6e0b72844850408e3f47d311949b3cc2",
+        "disposition": "guarded_prose_repair_applied",
+        "prooftext_ids": [],
+        "recheck": "Generated 360-claim comparison in a temporary directory; all original source passages, local refs and historical review fields retained. Applied wording compared with recorded independent review and adjudication.",
+        "independent_review_basis": [
+          "kodashim-second"
+        ],
+        "post_application_independent_scholarly_recheck": "pending; implementation self-check is not a new independent reviewer",
+        "release_status": "blocked; original decision retained, not promoted to verified",
+        "applied_text": "בהיותה עבודה, גם מחשבה בשעת ההולכה נידונה בדיני מחשבות הקרבנות. שינוי השם בחטאת ובפסח בזמנו פוסל, ואילו בשאר הזבחים אינו פוסל את הקרבן, אלא אינו עולה לבעלים לשם חובה. מחשבת חוץ לזמנו בשעת הולכה עשויה להביא לדין פיגול, בכפוף לתנאי הפיגול המבוארים בסוגיה.",
+        "applied_text_sha256": "12d8632f0c7aef8f441af2c5059dd1d4732b9f1dae1bff1a45943560f9096616"
       }
     },
     {
@@ -36621,6 +36715,23 @@
         "implementation": "No application or source-snapshot changes applied",
         "limits": "Detailed proposition/evidence and gate limitations remain in the two reports. No decision is promoted to verified by matching quotes or reviewer agreement.",
         "selected_proposal_basis": "Explicit dead-sheretz qualifier follows Leviticus11:31 במתם; preserves eight-species scope and exceptions. New proposed wording still unapplied."
+      },
+      "application_repair": {
+        "date": "2026-10-20",
+        "reviewer": "Codex implementation pass",
+        "basis_commit": "aa8d284e6e0b72844850408e3f47d311949b3cc2",
+        "disposition": "guarded_prose_repair_applied",
+        "prooftext_ids": [
+          "leviticus-11-31-death"
+        ],
+        "recheck": "Generated 360-claim comparison in a temporary directory; all original source passages, local refs and historical review fields retained. Applied wording compared with recorded independent review and adjudication.",
+        "independent_review_basis": [
+          "tahorot-second"
+        ],
+        "post_application_independent_scholarly_recheck": "pending; implementation self-check is not a new independent reviewer",
+        "release_status": "blocked; original decision retained, not promoted to verified",
+        "applied_text": "לא כל בעל חיים קטן מטמא בטומאת שרץ: טומאה זו נוהגת בנבלות שמונת השרצים המפורשים בתורה. הרמב״ם מביא כדוגמה לבעלי חיים שאינם בכלל זה את הצפרדע והנחשים.",
+        "applied_text_sha256": "5a3cfe7a513f4d692f0b429d55e9e60dd0f80a59edf117185015eb29e17a6723"
       }
     },
     {
@@ -40928,6 +41039,21 @@
         "status": "two_review_passes_recorded_not_scholarly_certification",
         "implementation": "No application or source-snapshot changes applied",
         "limits": "Detailed proposition/evidence and gate limitations remain in the two reports. No decision is promoted to verified by matching quotes or reviewer agreement."
+      },
+      "application_repair": {
+        "date": "2026-10-20",
+        "reviewer": "Codex implementation pass",
+        "basis_commit": "aa8d284e6e0b72844850408e3f47d311949b3cc2",
+        "disposition": "guarded_prose_repair_applied",
+        "prooftext_ids": [],
+        "recheck": "Generated 360-claim comparison in a temporary directory; all original source passages, local refs and historical review fields retained. Applied wording compared with recorded independent review and adjudication.",
+        "independent_review_basis": [
+          "tahorot-second"
+        ],
+        "post_application_independent_scholarly_recheck": "pending; implementation self-check is not a new independent reviewer",
+        "release_status": "blocked; original decision retained, not promoted to verified",
+        "applied_text": "במשנת אהלות נידון ביב חלול העובר מתחת לבית, ודינו משתנה לפי קיום פותח טפח בחלל וביציאתו. כשיש בו וביציאתו פותח טפח, טומאה שבביב אינה מטמאת את הבית; כשפתח הביב טפח אך יציאתו קטנה מטפח, הטומאה שבביב מטמאת את הבית. הרמב״ם מבאר את החילוק לפי דרך יציאת הטומאה. אין לומר בפשטות שכל אהל חוצץ תמיד או שכל חלל תחת הבית מביא את הטומאה.",
+        "applied_text_sha256": "bc69f041635c70e9464d9438ddf2299389b352bdd50ab81d89f57be6f021be5b"
       }
     },
     {
@@ -42860,6 +42986,21 @@
         "status": "two_review_passes_recorded_not_scholarly_certification",
         "implementation": "No application or source-snapshot changes applied",
         "limits": "Detailed proposition/evidence and gate limitations remain in the two reports. No decision is promoted to verified by matching quotes or reviewer agreement."
+      },
+      "application_repair": {
+        "date": "2026-10-20",
+        "reviewer": "Codex implementation pass",
+        "basis_commit": "aa8d284e6e0b72844850408e3f47d311949b3cc2",
+        "disposition": "guarded_prose_repair_applied",
+        "prooftext_ids": [],
+        "recheck": "Generated 360-claim comparison in a temporary directory; all original source passages, local refs and historical review fields retained. Applied wording compared with recorded independent review and adjudication.",
+        "independent_review_basis": [
+          "tahorot-second"
+        ],
+        "post_application_independent_scholarly_recheck": "pending; implementation self-check is not a new independent reviewer",
+        "release_status": "blocked; original decision retained, not promoted to verified",
+        "applied_text": "הכשר הוא הכנת האוכל לקבלת טומאה, על ידי שנבלל באחד משבעת המשקים בתנאים שנאמרו בדין זה. בלילת האוכל במשקה טהור אינה מטמאת אותו מעצמה; משנעשה מוכשר, הוא עשוי להיטמא בנגיעה בדבר המטמאו.",
+        "applied_text_sha256": "629922cc88fc7de0801946688f929b53976bd5d70e5e26e01b18682b1e04a641"
       }
     },
     {
@@ -43112,6 +43253,23 @@
         "status": "two_review_passes_recorded_not_scholarly_certification",
         "implementation": "No application or source-snapshot changes applied",
         "limits": "Detailed proposition/evidence and gate limitations remain in the two reports. No decision is promoted to verified by matching quotes or reviewer agreement."
+      },
+      "application_repair": {
+        "date": "2026-10-20",
+        "reviewer": "Codex implementation pass",
+        "basis_commit": "aa8d284e6e0b72844850408e3f47d311949b3cc2",
+        "disposition": "guarded_prose_repair_applied",
+        "prooftext_ids": [
+          "rashi-bm-22b-wet"
+        ],
+        "recheck": "Generated 360-claim comparison in a temporary directory; all original source passages, local refs and historical review fields retained. Applied wording compared with recorded independent review and adjudication.",
+        "independent_review_basis": [
+          "tahorot-second"
+        ],
+        "post_application_independent_scholarly_recheck": "pending; implementation self-check is not a new independent reviewer",
+        "release_status": "blocked; original decision retained, not promoted to verified",
+        "applied_text": "הכשר האוכל לקבלת טומאה תלוי בכך שנרטב באחד משבעת המשקים לאחר שנעקר מן הקרקע, וברצון. אף רטיבות שבאה בתחילה שלא לרצון עשויה להכשיר אם נתרצה בה לאחר מכן, ובלבד שנתרצה בעוד המשקה על האוכל; אם כבר נתייבש קודם שנתרצה, אין ההסכמה המאוחרת מכשירתו מכוח אותה הרטבה. אולם במשקין טמאין המטמאים את האוכל ומכשירים אותו בשעת טומאתם, אין צורך ברצון להכשר זה, מפני שהטומאה וההכשר באין כאחד; אין ללמוד מכאן שסתם הרטבה במשקה טהור מועילה בלא רצון.",
+        "applied_text_sha256": "cbf4c9e45d6bd79e240cd17135feba6d8dca31bc2015c72447d0f1c58d8d919a"
       }
     },
     {
@@ -45297,6 +45455,21 @@
         "status": "two_review_passes_recorded_not_scholarly_certification",
         "implementation": "No application or source-snapshot changes applied",
         "limits": "Detailed proposition/evidence and gate limitations remain in the two reports. No decision is promoted to verified by matching quotes or reviewer agreement."
+      },
+      "application_repair": {
+        "date": "2026-10-20",
+        "reviewer": "Codex implementation pass",
+        "basis_commit": "aa8d284e6e0b72844850408e3f47d311949b3cc2",
+        "disposition": "guarded_prose_repair_applied",
+        "prooftext_ids": [],
+        "recheck": "Generated 360-claim comparison in a temporary directory; all original source passages, local refs and historical review fields retained. Applied wording compared with recorded independent review and adjudication.",
+        "independent_review_basis": [
+          "tahorot-second"
+        ],
+        "post_application_independent_scholarly_recheck": "pending; implementation self-check is not a new independent reviewer",
+        "release_status": "blocked; original decision retained, not promoted to verified",
+        "applied_text": "המזה מי חטאת כמצוותם טהור. הרמב״ם מתנה את טהרת הנושא לצורך הזאה בכך שאכן הִזה; אם נשא כדי הזאה ולא הִזה, הוא עשוי להיטמא. אף הנוגע בהם שלא לצורך עשוי להיטמא, ובטומאת משא נצרך שיעור שיש בו כדי הזאה.",
+        "applied_text_sha256": "6619d7f2032530a04c1767d9b7aaa212601d575c26c3a0918e0c45f4b5dc895c"
       }
     },
     {
@@ -45576,6 +45749,23 @@
         "status": "two_review_passes_recorded_not_scholarly_certification",
         "implementation": "No application or source-snapshot changes applied",
         "limits": "Detailed proposition/evidence and gate limitations remain in the two reports. No decision is promoted to verified by matching quotes or reviewer agreement."
+      },
+      "application_repair": {
+        "date": "2026-10-20",
+        "reviewer": "Codex implementation pass",
+        "basis_commit": "aa8d284e6e0b72844850408e3f47d311949b3cc2",
+        "disposition": "guarded_prose_repair_applied",
+        "prooftext_ids": [
+          "mt-mikvaot-4-6"
+        ],
+        "recheck": "Generated 360-claim comparison in a temporary directory; all original source passages, local refs and historical review fields retained. Applied wording compared with recorded independent review and adjudication.",
+        "independent_review_basis": [
+          "tahorot-second"
+        ],
+        "post_application_independent_scholarly_recheck": "pending; implementation self-check is not a new independent reviewer",
+        "release_status": "blocked; original decision retained, not promoted to verified",
+        "applied_text": "יש ספקות בטומאה שטיהרו חכמים, ובכללם ספק מים שאובים למקווה, ספק ידיים וספק רשות הרבים. בדוגמת המים השאובים מבאר הרמב״ם שהספק עשוי להיות אם נפלו למקווה החסר מארבעים סאה שלושה לוגים, או אם היה במים שנפלו השיעור הפוסל.",
+        "applied_text_sha256": "3de0a91486d589d3297a40eb119ad36fb526608a912e053c1197288570f8cc56"
       }
     },
     {
@@ -45775,6 +45965,21 @@
         "status": "two_review_passes_recorded_not_scholarly_certification",
         "implementation": "No application or source-snapshot changes applied",
         "limits": "Detailed proposition/evidence and gate limitations remain in the two reports. No decision is promoted to verified by matching quotes or reviewer agreement."
+      },
+      "application_repair": {
+        "date": "2026-10-20",
+        "reviewer": "Codex implementation pass",
+        "basis_commit": "aa8d284e6e0b72844850408e3f47d311949b3cc2",
+        "disposition": "guarded_prose_repair_applied",
+        "prooftext_ids": [],
+        "recheck": "Generated 360-claim comparison in a temporary directory; all original source passages, local refs and historical review fields retained. Applied wording compared with recorded independent review and adjudication.",
+        "independent_review_basis": [
+          "tahorot-second"
+        ],
+        "post_application_independent_scholarly_recheck": "pending; implementation self-check is not a new independent reviewer",
+        "release_status": "blocked; original decision retained, not promoted to verified",
+        "applied_text": "ספק בטומאה מדברי סופרים אינו נידון תמיד בדרך אחת. הרמב״ם מבחין בין ספק אם אכל אוכלין טמאים או שתה משקין טמאים, שטומאת גופו מכוח גזרה, לבין ספק אם נטמא באב הטומאה מדברי סופרים. כשהאב עצמו ספק, כגון בית הפרס, אין שורפים את התרומה מחמת ספק זה, כפי שמבאר הרמב״ם.",
+        "applied_text_sha256": "d7876f7e49fe6be54202fa899138c10a60cdb284270892447e3f938fa0a2d109"
       }
     },
     {
@@ -46001,6 +46206,21 @@
         "implementation": "No application or source-snapshot changes applied",
         "limits": "Detailed proposition/evidence and gate limitations remain in the two reports. No decision is promoted to verified by matching quotes or reviewer agreement.",
         "selected_proposal_basis": "Second reviewer recommended explicit scope, first reviewer independently supported it using father authority even while נערה. This is a scope recommendation, not proof the ordinary consent rule is false."
+      },
+      "application_repair": {
+        "date": "2026-10-20",
+        "reviewer": "Codex implementation pass",
+        "basis_commit": "aa8d284e6e0b72844850408e3f47d311949b3cc2",
+        "disposition": "guarded_prose_repair_applied",
+        "prooftext_ids": [],
+        "recheck": "Generated 360-claim comparison in a temporary directory; all original source passages, local refs and historical review fields retained. Applied wording compared with recorded independent review and adjudication.",
+        "independent_review_basis": [
+          "ishut-second"
+        ],
+        "post_application_independent_scholarly_recheck": "pending; implementation self-check is not a new independent reviewer",
+        "release_status": "blocked; original decision retained, not promoted to verified",
+        "applied_text": "משנתקדשה האשה חל עליה דין אשת איש, אף שעדיין לא נכנסה לחופה. כשהקידושין מסורים לאשה, אין הם חלים אלא מרצונה, והמתקדשת בעל כרחה אינה מקודשת. קידושי בת בידי אביה הם דין בפני עצמו, המבואר להלן. הנישואין והכניסה לחופה באים לאחר הקידושין, ועמם מתבררים חיובים וזכויות נוספים שבין איש לאשתו, כפי שמבואר בפתיחת המאירי לכתובות.",
+        "applied_text_sha256": "2f4373106f126eeaa638b0c540c10e9a7296f4ddf36d79f061a19cf67e9d749b"
       }
     },
     {
@@ -48218,6 +48438,21 @@
         "status": "two_review_passes_recorded_not_scholarly_certification",
         "implementation": "No application or source-snapshot changes applied",
         "limits": "Detailed proposition/evidence and gate limitations remain in the two reports. No decision is promoted to verified by matching quotes or reviewer agreement."
+      },
+      "application_repair": {
+        "date": "2026-10-20",
+        "reviewer": "Codex implementation pass",
+        "basis_commit": "aa8d284e6e0b72844850408e3f47d311949b3cc2",
+        "disposition": "guarded_prose_repair_applied",
+        "prooftext_ids": [],
+        "recheck": "Generated 360-claim comparison in a temporary directory; all original source passages, local refs and historical review fields retained. Applied wording compared with recorded independent review and adjudication.",
+        "independent_review_basis": [
+          "ishut-second"
+        ],
+        "post_application_independent_scholarly_recheck": "pending; implementation self-check is not a new independent reviewer",
+        "release_status": "blocked; original decision retained, not promoted to verified",
+        "applied_text": "קרקעות הבעל משועבדות לכתובת אשתו. הרמב״ם מבאר שמכוח שעבוד זה היא עשויה לטרוף גם קרקעות שמכר או נתן, אם לא סילקה את שעבודה. את תקנת השעבוד הוא מייחס לשמעון בן שטח.",
+        "applied_text_sha256": "b9debc8fd471acf73c7ac43e00144cf71d3cba1e14d40962ede9aca821973f19"
       }
     },
     {
@@ -48564,6 +48799,21 @@
         "status": "two_review_passes_recorded_not_scholarly_certification",
         "implementation": "No application or source-snapshot changes applied",
         "limits": "Detailed proposition/evidence and gate limitations remain in the two reports. No decision is promoted to verified by matching quotes or reviewer agreement."
+      },
+      "application_repair": {
+        "date": "2026-10-20",
+        "reviewer": "Codex implementation pass",
+        "basis_commit": "aa8d284e6e0b72844850408e3f47d311949b3cc2",
+        "disposition": "separate_prooftext_or_crosswalk_attached_prose_preserved",
+        "prooftext_ids": [
+          "meiri-ketubot-intro-ending"
+        ],
+        "recheck": "Generated 360-claim comparison in a temporary directory; all original source passages, local refs and historical review fields retained. Applied wording compared with recorded independent review and adjudication.",
+        "independent_review_basis": [
+          "ishut-second"
+        ],
+        "post_application_independent_scholarly_recheck": "pending; implementation self-check is not a new independent reviewer",
+        "release_status": "blocked; original decision retained, not promoted to verified"
       }
     },
     {
@@ -48793,6 +49043,21 @@
         "status": "two_review_passes_recorded_not_scholarly_certification",
         "implementation": "No application or source-snapshot changes applied",
         "limits": "Detailed proposition/evidence and gate limitations remain in the two reports. No decision is promoted to verified by matching quotes or reviewer agreement."
+      },
+      "application_repair": {
+        "date": "2026-10-20",
+        "reviewer": "Codex implementation pass",
+        "basis_commit": "aa8d284e6e0b72844850408e3f47d311949b3cc2",
+        "disposition": "separate_prooftext_or_crosswalk_attached_prose_preserved",
+        "prooftext_ids": [
+          "meiri-ketubot-intro-ending"
+        ],
+        "recheck": "Generated 360-claim comparison in a temporary directory; all original source passages, local refs and historical review fields retained. Applied wording compared with recorded independent review and adjudication.",
+        "independent_review_basis": [
+          "ishut-second"
+        ],
+        "post_application_independent_scholarly_recheck": "pending; implementation self-check is not a new independent reviewer",
+        "release_status": "blocked; original decision retained, not promoted to verified"
       }
     },
     {
@@ -49325,6 +49590,21 @@
         "status": "two_review_passes_recorded_not_scholarly_certification",
         "implementation": "No application or source-snapshot changes applied",
         "limits": "Detailed proposition/evidence and gate limitations remain in the two reports. No decision is promoted to verified by matching quotes or reviewer agreement."
+      },
+      "application_repair": {
+        "date": "2026-10-20",
+        "reviewer": "Codex implementation pass",
+        "basis_commit": "aa8d284e6e0b72844850408e3f47d311949b3cc2",
+        "disposition": "separate_prooftext_or_crosswalk_attached_prose_preserved",
+        "prooftext_ids": [
+          "gittin-9-2-crosswalk"
+        ],
+        "recheck": "Generated 360-claim comparison in a temporary directory; all original source passages, local refs and historical review fields retained. Applied wording compared with recorded independent review and adjudication.",
+        "independent_review_basis": [
+          "ishut-second"
+        ],
+        "post_application_independent_scholarly_recheck": "pending; implementation self-check is not a new independent reviewer",
+        "release_status": "blocked; original decision retained, not promoted to verified"
       }
     },
     {
@@ -49460,6 +49740,21 @@
         "status": "two_review_passes_recorded_not_scholarly_certification",
         "implementation": "No application or source-snapshot changes applied",
         "limits": "Detailed proposition/evidence and gate limitations remain in the two reports. No decision is promoted to verified by matching quotes or reviewer agreement."
+      },
+      "application_repair": {
+        "date": "2026-10-20",
+        "reviewer": "Codex implementation pass",
+        "basis_commit": "aa8d284e6e0b72844850408e3f47d311949b3cc2",
+        "disposition": "separate_prooftext_or_crosswalk_attached_prose_preserved",
+        "prooftext_ids": [
+          "gittin-9-2-crosswalk"
+        ],
+        "recheck": "Generated 360-claim comparison in a temporary directory; all original source passages, local refs and historical review fields retained. Applied wording compared with recorded independent review and adjudication.",
+        "independent_review_basis": [
+          "ishut-second"
+        ],
+        "post_application_independent_scholarly_recheck": "pending; implementation self-check is not a new independent reviewer",
+        "release_status": "blocked; original decision retained, not promoted to verified"
       }
     },
     {
@@ -49790,6 +50085,21 @@
         "status": "two_review_passes_recorded_not_scholarly_certification",
         "implementation": "No application or source-snapshot changes applied",
         "limits": "Detailed proposition/evidence and gate limitations remain in the two reports. No decision is promoted to verified by matching quotes or reviewer agreement."
+      },
+      "application_repair": {
+        "date": "2026-10-20",
+        "reviewer": "Codex implementation pass",
+        "basis_commit": "aa8d284e6e0b72844850408e3f47d311949b3cc2",
+        "disposition": "separate_prooftext_or_crosswalk_attached_prose_preserved",
+        "prooftext_ids": [
+          "gittin-9-2-crosswalk"
+        ],
+        "recheck": "Generated 360-claim comparison in a temporary directory; all original source passages, local refs and historical review fields retained. Applied wording compared with recorded independent review and adjudication.",
+        "independent_review_basis": [
+          "ishut-second"
+        ],
+        "post_application_independent_scholarly_recheck": "pending; implementation self-check is not a new independent reviewer",
+        "release_status": "blocked; original decision retained, not promoted to verified"
       }
     },
     {
@@ -50745,6 +51055,21 @@
         "status": "two_review_passes_recorded_not_scholarly_certification",
         "implementation": "No application or source-snapshot changes applied",
         "limits": "Detailed proposition/evidence and gate limitations remain in the two reports. No decision is promoted to verified by matching quotes or reviewer agreement."
+      },
+      "application_repair": {
+        "date": "2026-10-20",
+        "reviewer": "Codex implementation pass",
+        "basis_commit": "aa8d284e6e0b72844850408e3f47d311949b3cc2",
+        "disposition": "guarded_prose_repair_applied",
+        "prooftext_ids": [],
+        "recheck": "Generated 360-claim comparison in a temporary directory; all original source passages, local refs and historical review fields retained. Applied wording compared with recorded independent review and adjudication.",
+        "independent_review_basis": [
+          "ishut-second"
+        ],
+        "post_application_independent_scholarly_recheck": "pending; implementation self-check is not a new independent reviewer",
+        "release_status": "blocked; original decision retained, not promoted to verified",
+        "applied_text": "במשנה נמנו שלושה גיטין פסולים שאם נישאת בהם האשה, הוולד כשר. אחד מהם הוא גט שאין עליו אלא עד אחד, והרמב״ם מעמידו בגט שכתב הבעל בכתב ידו. אם כתבו סופר ואין עליו אלא עד אחד, ולא נמסר בפני שני עדים כשרים, אין זה גט. אין להסיק דין זה מחסרון חתימות בלבד: גט שאין עליו חתימות כשר כשנמסר כדין בפני שני עדים כשרים, כמבואר בהלכות גירושין א.",
+        "applied_text_sha256": "6f28840212f5b520cca52c60e47e6bb47a0e2dd68ee9aeb0e7a98924127a4e07"
       }
     },
     {
@@ -51132,6 +51457,21 @@
         "status": "two_review_passes_recorded_not_scholarly_certification",
         "implementation": "No application or source-snapshot changes applied",
         "limits": "Detailed proposition/evidence and gate limitations remain in the two reports. No decision is promoted to verified by matching quotes or reviewer agreement."
+      },
+      "application_repair": {
+        "date": "2026-10-20",
+        "reviewer": "Codex implementation pass",
+        "basis_commit": "aa8d284e6e0b72844850408e3f47d311949b3cc2",
+        "disposition": "guarded_prose_repair_applied",
+        "prooftext_ids": [],
+        "recheck": "Generated 360-claim comparison in a temporary directory; all original source passages, local refs and historical review fields retained. Applied wording compared with recorded independent review and adjudication.",
+        "independent_review_basis": [
+          "ishut-second"
+        ],
+        "post_application_independent_scholarly_recheck": "pending; implementation self-check is not a new independent reviewer",
+        "release_status": "blocked; original decision retained, not promoted to verified",
+        "applied_text": "יש להבחין בין גט שחסרות בו חתימות ובין גט שחתם עליו עד פסול. הרמב״ם פוסק שעיקר הגירושין בעדי מסירה, ואף גט שאין עליו חתימות כשר כשנמסר כדין בפני שני עדים כשרים. לעומת זאת, אם חתומים בו עד פסול ועד כשר, הוא פסול אף כשנמסר בפני שני עדים כשרים, משום מזויף מתוכו. ראה הלכות גירושין א, יג–יח.",
+        "applied_text_sha256": "e9a8be07c1ddb944cb8b4bdd9ae148f29432ba5c65bd9ae4c019549233bd163b"
       }
     },
     {
@@ -53949,6 +54289,21 @@
         "status": "two_review_passes_recorded_not_scholarly_certification",
         "implementation": "No application or source-snapshot changes applied",
         "limits": "Detailed proposition/evidence and gate limitations remain in the two reports. No decision is promoted to verified by matching quotes or reviewer agreement."
+      },
+      "application_repair": {
+        "date": "2026-10-20",
+        "reviewer": "Codex implementation pass",
+        "basis_commit": "aa8d284e6e0b72844850408e3f47d311949b3cc2",
+        "disposition": "guarded_prose_repair_applied",
+        "prooftext_ids": [],
+        "recheck": "Generated 360-claim comparison in a temporary directory; all original source passages, local refs and historical review fields retained. Applied wording compared with recorded independent review and adjudication.",
+        "independent_review_basis": [
+          "zeraim-second"
+        ],
+        "post_application_independent_scholarly_recheck": "pending; implementation self-check is not a new independent reviewer",
+        "release_status": "blocked; original decision retained, not promoted to verified",
+        "applied_text": "על השיעור המזערי מוסיפים לפי גודל השדה, ריבוי העניים ושיעור היבול, כפי שביאר הרמב״ם.",
+        "applied_text_sha256": "7f144633282d5eb8c5dd772cafce6ee7a65b20730d0175d8299deb2ba7eb1f66"
       }
     },
     {
@@ -54298,6 +54653,21 @@
         "status": "two_review_passes_recorded_not_scholarly_certification",
         "implementation": "No application or source-snapshot changes applied",
         "limits": "Detailed proposition/evidence and gate limitations remain in the two reports. No decision is promoted to verified by matching quotes or reviewer agreement."
+      },
+      "application_repair": {
+        "date": "2026-10-20",
+        "reviewer": "Codex implementation pass",
+        "basis_commit": "aa8d284e6e0b72844850408e3f47d311949b3cc2",
+        "disposition": "guarded_prose_repair_applied",
+        "prooftext_ids": [],
+        "recheck": "Generated 360-claim comparison in a temporary directory; all original source passages, local refs and historical review fields retained. Applied wording compared with recorded independent review and adjudication.",
+        "independent_review_basis": [
+          "zeraim-second"
+        ],
+        "post_application_independent_scholarly_recheck": "pending; implementation self-check is not a new independent reviewer",
+        "release_status": "blocked; original decision retained, not promoted to verified",
+        "applied_text": "בנפילה מקצה היד או מקצה המגל, שאינה בכלל תוך היד ואף לא בכלל אחורי היד, נחלקו רבי ישמעאל ורבי עקיבא: רבי ישמעאל אומר לעניים, ורבי עקיבא אומר לבעל הבית. הרמב״ם פוסק כרבי עקיבא. נמצא שגם בגבול שבין דרכי הנפילה יש דין מפורש.",
+        "applied_text_sha256": "ecef8021bcf711d1d523f4809533a6edb7a51103a152ae97c3d06f09fb45e44c"
       }
     },
     {
@@ -54524,6 +54894,21 @@
         "status": "two_review_passes_recorded_not_scholarly_certification",
         "implementation": "No application or source-snapshot changes applied",
         "limits": "Detailed proposition/evidence and gate limitations remain in the two reports. No decision is promoted to verified by matching quotes or reviewer agreement."
+      },
+      "application_repair": {
+        "date": "2026-10-20",
+        "reviewer": "Codex implementation pass",
+        "basis_commit": "aa8d284e6e0b72844850408e3f47d311949b3cc2",
+        "disposition": "guarded_prose_repair_applied",
+        "prooftext_ids": [],
+        "recheck": "Generated 360-claim comparison in a temporary directory; all original source passages, local refs and historical review fields retained. Applied wording compared with recorded independent review and adjudication.",
+        "independent_review_basis": [
+          "zeraim-second"
+        ],
+        "post_application_independent_scholarly_recheck": "pending; implementation self-check is not a new independent reviewer",
+        "release_status": "blocked; original decision retained, not promoted to verified",
+        "applied_text": "עומר שיש בו סאתיים ונשכח אינו שכחה, מפני שהוא כגדיש, והכתוב אמר ״ושכחת עומר״ ולא גדיש. בשני עומרים שיש בשניהם סאתיים נחלקו: רבן גמליאל אומר לבעל הבית, וחכמים אומרים לעניים. הרמב״ם פוסק כחכמים; אין ללמוד מן העומר הגדול היחיד לפטור שני עומרים קטנים שהצטרפו לאותו שיעור.",
+        "applied_text_sha256": "499b27b7db668ac60724fe583839a7c07240da5659d614822bf7c80a794c17a2"
       }
     },
     {
@@ -58251,6 +58636,21 @@
         "status": "two_review_passes_recorded_not_scholarly_certification",
         "implementation": "No application or source-snapshot changes applied",
         "limits": "Detailed proposition/evidence and gate limitations remain in the two reports. No decision is promoted to verified by matching quotes or reviewer agreement."
+      },
+      "application_repair": {
+        "date": "2026-10-20",
+        "reviewer": "Codex implementation pass",
+        "basis_commit": "aa8d284e6e0b72844850408e3f47d311949b3cc2",
+        "disposition": "guarded_prose_repair_applied",
+        "prooftext_ids": [],
+        "recheck": "Generated 360-claim comparison in a temporary directory; all original source passages, local refs and historical review fields retained. Applied wording compared with recorded independent review and adjudication.",
+        "independent_review_basis": [
+          "zeraim-second"
+        ],
+        "post_application_independent_scholarly_recheck": "pending; implementation self-check is not a new independent reviewer",
+        "release_status": "blocked; original decision retained, not promoted to verified",
+        "applied_text": "בביעור המתנות, בפסח של השנה הרביעית ושל השנה השביעית, נותנים כל מתנה לבעליה. מעשר שני ונטע רבעי הטעונים אכילה יש לאוכלם כדינם, ומה שנותר מהם מתבער בדרך שביאר הרמב״ם. אין כל המתנות מתבערות באותה דרך: נתינה לזכאי להן אינה כאיבוד מה שטעון ביעור.",
+        "applied_text_sha256": "8d3ade8d339d83fb4594809f5fb189769d1ca3c770d97b3947121304cd1070ae"
       }
     },
     {
@@ -60128,6 +60528,21 @@
         "status": "two_review_passes_recorded_not_scholarly_certification",
         "implementation": "No application or source-snapshot changes applied",
         "limits": "Detailed proposition/evidence and gate limitations remain in the two reports. No decision is promoted to verified by matching quotes or reviewer agreement."
+      },
+      "application_repair": {
+        "date": "2026-10-20",
+        "reviewer": "Codex implementation pass",
+        "basis_commit": "aa8d284e6e0b72844850408e3f47d311949b3cc2",
+        "disposition": "separate_prooftext_or_crosswalk_attached_prose_preserved",
+        "prooftext_ids": [
+          "challah-1-2-crosswalk"
+        ],
+        "recheck": "Generated 360-claim comparison in a temporary directory; all original source passages, local refs and historical review fields retained. Applied wording compared with recorded independent review and adjudication.",
+        "independent_review_basis": [
+          "zeraim-second"
+        ],
+        "post_application_independent_scholarly_recheck": "pending; implementation self-check is not a new independent reviewer",
+        "release_status": "blocked; original decision retained, not promoted to verified"
       }
     },
     {
@@ -60855,6 +61270,24 @@
         "status": "two_review_passes_recorded_not_scholarly_certification",
         "implementation": "No application or source-snapshot changes applied",
         "limits": "Detailed proposition/evidence and gate limitations remain in the two reports. No decision is promoted to verified by matching quotes or reviewer agreement."
+      },
+      "application_repair": {
+        "date": "2026-10-20",
+        "reviewer": "Codex implementation pass",
+        "basis_commit": "aa8d284e6e0b72844850408e3f47d311949b3cc2",
+        "disposition": "guarded_prose_repair_applied",
+        "prooftext_ids": [
+          "orlah-3-9-harvest",
+          "mt-orlah-10-11"
+        ],
+        "recheck": "Generated 360-claim comparison in a temporary directory; all original source passages, local refs and historical review fields retained. Applied wording compared with recorded independent review and adjudication.",
+        "independent_review_basis": [
+          "zeraim-second"
+        ],
+        "post_application_independent_scholarly_recheck": "pending; implementation self-check is not a new independent reviewer",
+        "release_status": "blocked; original decision retained, not promoted to verified",
+        "applied_text": "איסור ערלה בחוץ לארץ הוא הלכה למשה מסיני. במשנת ערלה ג, ט נידון ספק מקורם של פירות, ונאמר שבחוץ לארץ יורד ולוקח, ״ובלבד שלא יראנו לוקט״; כך כתב הרמב״ם גם בהלכות מאכלות אסורות י, יא: ״והוא שלא יראה אותו בוצר מן העורלה״. אין די בכך שאחר בוצר עבורו, אם הוא עצמו רואה את הבצירה מן הערלה. הערת מקור: בהמשך אותה משנה, בדין כלאי הכרם, נאמר ״ובלבד שלא ילקוט ביד״, ובנוסח פירוש המשנה השמור נתבארה לשון זו. אין להעביר את הסייג שבסיפא אל דין הערלה שברישא בלא הבחנה.",
+        "applied_text_sha256": "0c1f299ab44cd83c3e5aacc2d6f5d6e4ababc826eec009da2a912bc4be993b5f"
       }
     },
     {
@@ -64671,6 +65104,21 @@
         "status": "two_review_passes_recorded_not_scholarly_certification",
         "implementation": "No application or source-snapshot changes applied",
         "limits": "Detailed proposition/evidence and gate limitations remain in the two reports. No decision is promoted to verified by matching quotes or reviewer agreement."
+      },
+      "application_repair": {
+        "date": "2026-10-20",
+        "reviewer": "Codex implementation pass",
+        "basis_commit": "aa8d284e6e0b72844850408e3f47d311949b3cc2",
+        "disposition": "guarded_prose_repair_applied",
+        "prooftext_ids": [],
+        "recheck": "Generated 360-claim comparison in a temporary directory; all original source passages, local refs and historical review fields retained. Applied wording compared with recorded independent review and adjudication.",
+        "independent_review_basis": [
+          "mammon-second"
+        ],
+        "post_application_independent_scholarly_recheck": "pending; implementation self-check is not a new independent reviewer",
+        "release_status": "blocked; original decision retained, not promoted to verified",
+        "applied_text": "החובל בחברו עשוי להתחייב בחמישה תשלומים: נזק, צער, ריפוי, שבת ובושת. נזק הוא פחת ערכו של הנחבל, צער נישום בפני עצמו, ריפוי כנגד הוצאות רפואת המכה, ושבת כנגד הפסד המלאכה; בושת נישומה לפי המבייש והמתבייש. ואולם בבושת נאמר תנאי מיוחד: אין חיוב בושת בלא כוונה; ואף אם נתכוון להזיק ולא נתכוון דווקא לבייש, מתחייב בבושת, כדברי הרמב״ם בהלכות חובל ומזיק א, יב. לפיכך שנינו שהנופל מן הגג והזיק ובייש חייב בנזק ופטור מן הבושת. לא כל חבלה המחייבת בנזק מחייבת ממילא גם בבושת.",
+        "applied_text_sha256": "0e1549562dd7e523494b911ebce403da82ad840eb41e583cd6813c81894acb3b"
       }
     },
     {
@@ -65486,6 +65934,21 @@
         "status": "two_review_passes_recorded_not_scholarly_certification",
         "implementation": "No application or source-snapshot changes applied",
         "limits": "Detailed proposition/evidence and gate limitations remain in the two reports. No decision is promoted to verified by matching quotes or reviewer agreement."
+      },
+      "application_repair": {
+        "date": "2026-10-20",
+        "reviewer": "Codex implementation pass",
+        "basis_commit": "aa8d284e6e0b72844850408e3f47d311949b3cc2",
+        "disposition": "separate_prooftext_or_crosswalk_attached_prose_preserved",
+        "prooftext_ids": [
+          "shevuot-8-4-crosswalk"
+        ],
+        "recheck": "Generated 360-claim comparison in a temporary directory; all original source passages, local refs and historical review fields retained. Applied wording compared with recorded independent review and adjudication.",
+        "independent_review_basis": [
+          "mammon-second"
+        ],
+        "post_application_independent_scholarly_recheck": "pending; implementation self-check is not a new independent reviewer",
+        "release_status": "blocked; original decision retained, not promoted to verified"
       }
     },
     {
@@ -66328,6 +66791,21 @@
         "status": "two_review_passes_recorded_not_scholarly_certification",
         "implementation": "No application or source-snapshot changes applied",
         "limits": "Detailed proposition/evidence and gate limitations remain in the two reports. No decision is promoted to verified by matching quotes or reviewer agreement."
+      },
+      "application_repair": {
+        "date": "2026-10-20",
+        "reviewer": "Codex implementation pass",
+        "basis_commit": "aa8d284e6e0b72844850408e3f47d311949b3cc2",
+        "disposition": "separate_prooftext_or_crosswalk_attached_prose_preserved",
+        "prooftext_ids": [
+          "mt-sheelah-6-1-extension"
+        ],
+        "recheck": "Generated 360-claim comparison in a temporary directory; all original source passages, local refs and historical review fields retained. Applied wording compared with recorded independent review and adjudication.",
+        "independent_review_basis": [
+          "mammon-second"
+        ],
+        "post_application_independent_scholarly_recheck": "pending; implementation self-check is not a new independent reviewer",
+        "release_status": "blocked; original decision retained, not promoted to verified"
       }
     },
     {
@@ -66676,6 +67154,21 @@
         "status": "two_review_passes_recorded_not_scholarly_certification",
         "implementation": "No application or source-snapshot changes applied",
         "limits": "Detailed proposition/evidence and gate limitations remain in the two reports. No decision is promoted to verified by matching quotes or reviewer agreement."
+      },
+      "application_repair": {
+        "date": "2026-10-20",
+        "reviewer": "Codex implementation pass",
+        "basis_commit": "aa8d284e6e0b72844850408e3f47d311949b3cc2",
+        "disposition": "separate_prooftext_or_crosswalk_attached_prose_preserved",
+        "prooftext_ids": [
+          "mt-sheelah-6-1-extension"
+        ],
+        "recheck": "Generated 360-claim comparison in a temporary directory; all original source passages, local refs and historical review fields retained. Applied wording compared with recorded independent review and adjudication.",
+        "independent_review_basis": [
+          "mammon-second"
+        ],
+        "post_application_independent_scholarly_recheck": "pending; implementation self-check is not a new independent reviewer",
+        "release_status": "blocked; original decision retained, not promoted to verified"
       }
     },
     {
@@ -69267,6 +69760,21 @@
         "status": "two_review_passes_recorded_not_scholarly_certification",
         "implementation": "No application or source-snapshot changes applied",
         "limits": "Detailed proposition/evidence and gate limitations remain in the two reports. No decision is promoted to verified by matching quotes or reviewer agreement."
+      },
+      "application_repair": {
+        "date": "2026-10-20",
+        "reviewer": "Codex implementation pass",
+        "basis_commit": "aa8d284e6e0b72844850408e3f47d311949b3cc2",
+        "disposition": "guarded_prose_repair_applied",
+        "prooftext_ids": [],
+        "recheck": "Generated 360-claim comparison in a temporary directory; all original source passages, local refs and historical review fields retained. Applied wording compared with recorded independent review and adjudication.",
+        "independent_review_basis": [
+          "mammon-second"
+        ],
+        "post_application_independent_scholarly_recheck": "pending; implementation self-check is not a new independent reviewer",
+        "release_status": "blocked; original decision retained, not promoted to verified",
+        "applied_text": "סייג בגבייה מן הלקוחות: לא בכל חוב מוקדם רשאי בעל החוב לטרוף קרקע מן הלוקח. במלווה על פה אין גובין מן הלקוחות, לפי שאין לה קול; במלווה בשטר עשוי בעל החוב לגבות מן הלקוחות על פי דיני הגבייה. אין לערב בין שעבוד נכסי הלווה לבין הזכות להיפרע מן הלקוחות; ראה הלכות מלווה ולווה יא, ד.",
+        "applied_text_sha256": "583a534df3271ff51bdfa1b58628cb35734be51c7c68da3481c8b801fecb9aad"
       }
     },
     {
@@ -72385,6 +72893,21 @@
         "status": "two_review_passes_recorded_not_scholarly_certification",
         "implementation": "No application or source-snapshot changes applied",
         "limits": "Detailed proposition/evidence and gate limitations remain in the two reports. No decision is promoted to verified by matching quotes or reviewer agreement."
+      },
+      "application_repair": {
+        "date": "2026-10-20",
+        "reviewer": "Codex implementation pass",
+        "basis_commit": "aa8d284e6e0b72844850408e3f47d311949b3cc2",
+        "disposition": "guarded_prose_repair_applied",
+        "prooftext_ids": [],
+        "recheck": "Generated 360-claim comparison in a temporary directory; all original source passages, local refs and historical review fields retained. Applied wording compared with recorded independent review and adjudication.",
+        "independent_review_basis": [
+          "mammon-second"
+        ],
+        "post_application_independent_scholarly_recheck": "pending; implementation self-check is not a new independent reviewer",
+        "release_status": "blocked; original decision retained, not promoted to verified",
+        "applied_text": "לשון ״פטור״ שבמשנה עשויה לומר שהוא פטור משבועת התורה, אף שעדיין מוטלת עליו שבועת היסת. הרמב״ם מחלק בין שבועת התורה לבין שבועות שתיקנו חכמים כעין דאורייתא בנקיטת חפץ, ועיקר החילוק ניכר בדין המסרב להישבע: בשבועת התורה יורדים לנכסיו וגובים את הממון שעליו סירב להישבע. בשבועת דבריהם המוטלת על הנתבע כדי להיפטר, כגון שבועת היסת, אין יורדים לנכסיו אם סירב, אלא נוהגים בו בדין הנידוי המבואר ברמב״ם; ואילו התובע שהוטלה עליו שבועה כדי ליטול ואינו נשבע, אינו נוטל מכוח אותה תקנה. אין דין המסרב בשתי הקבוצות שווה. שבועת היסת נידונה בנפרד גם לענין אופן נקיטת החפץ.",
+        "applied_text_sha256": "dea9cd2629daa2f4cbd9285d98e97c6d519484576e82c03a731434dbc2ca7e9d"
       }
     },
     {
@@ -72701,6 +73224,21 @@
         "status": "two_review_passes_recorded_not_scholarly_certification",
         "implementation": "No application or source-snapshot changes applied",
         "limits": "Detailed proposition/evidence and gate limitations remain in the two reports. No decision is promoted to verified by matching quotes or reviewer agreement."
+      },
+      "application_repair": {
+        "date": "2026-10-20",
+        "reviewer": "Codex implementation pass",
+        "basis_commit": "aa8d284e6e0b72844850408e3f47d311949b3cc2",
+        "disposition": "guarded_prose_repair_applied",
+        "prooftext_ids": [],
+        "recheck": "Generated 360-claim comparison in a temporary directory; all original source passages, local refs and historical review fields retained. Applied wording compared with recorded independent review and adjudication.",
+        "independent_review_basis": [
+          "mammon-second"
+        ],
+        "post_application_independent_scholarly_recheck": "pending; implementation self-check is not a new independent reviewer",
+        "release_status": "blocked; original decision retained, not promoted to verified",
+        "applied_text": "יש להבחין בין שבועת דבריהם שעל הנתבע להישבע ולהיפטר, שסירובו עלול להביא לנידוי על פי גדרה, ובין שבועה שהטילו על התובע כדי ליטול: אם אינו נשבע, אינו נוטל מכוח אותה תקנה. אין להחיל דין אחד על שני המצבים; ראה הלכות טוען ונטען א, ד–ה.",
+        "applied_text_sha256": "ff11349c4a78f5fa0c3683ab36b4dfc58e4101dfee140695ab766b7cd187de3a"
       }
     },
     {
@@ -72975,6 +73513,21 @@
         "status": "two_review_passes_recorded_not_scholarly_certification",
         "implementation": "No application or source-snapshot changes applied",
         "limits": "Detailed proposition/evidence and gate limitations remain in the two reports. No decision is promoted to verified by matching quotes or reviewer agreement."
+      },
+      "application_repair": {
+        "date": "2026-10-20",
+        "reviewer": "Codex implementation pass",
+        "basis_commit": "aa8d284e6e0b72844850408e3f47d311949b3cc2",
+        "disposition": "guarded_prose_repair_applied",
+        "prooftext_ids": [],
+        "recheck": "Generated 360-claim comparison in a temporary directory; all original source passages, local refs and historical review fields retained. Applied wording compared with recorded independent review and adjudication.",
+        "independent_review_basis": [
+          "mammon-second"
+        ],
+        "post_application_independent_scholarly_recheck": "pending; implementation self-check is not a new independent reviewer",
+        "release_status": "blocked; original decision retained, not promoted to verified",
+        "applied_text": "הרמב״ם מונה שלושה מיני שבועת התורה בדיני ממונות: מודה במקצת, עד אחד ושומרים. גם השבועות שתיקנו חכמים ונזכרו במשנה נעשות כעין של תורה בנקיטת חפץ; ולגביהן הוא כותב שאין ביניהן הבדל באופן השבועה, אלא בדין המסרב להישבע. המסרב לשבועת התורה — בית דין יורדים לנכסיו וגובים את החוב; בשבועת דבריהם המוטלת על הנתבע כדי להיפטר, כגון שבועת היסת, אין יורדים לנכסיו אם סירב, אלא נוהגים בו בדין הנידוי המבואר ברמב״ם; ואילו התובע שהוטלה עליו שבועה כדי ליטול ואינו נשבע, אינו נוטל מכוח אותה תקנה. אין דין המסרב בשתי הקבוצות שווה. שבועת היסת שונה לענין נקיטת חפץ, כפי שביאר הרמב״ם בסוף דבריו.",
+        "applied_text_sha256": "8759e7dafe2bbc7dae5dc2a5d19ea1eeb9c6efea5f76beb7f284410a9873fe5a"
       }
     },
     {
@@ -73301,6 +73854,21 @@
         "status": "two_review_passes_recorded_not_scholarly_certification",
         "implementation": "No application or source-snapshot changes applied",
         "limits": "Detailed proposition/evidence and gate limitations remain in the two reports. No decision is promoted to verified by matching quotes or reviewer agreement."
+      },
+      "application_repair": {
+        "date": "2026-10-20",
+        "reviewer": "Codex implementation pass",
+        "basis_commit": "aa8d284e6e0b72844850408e3f47d311949b3cc2",
+        "disposition": "guarded_prose_repair_applied",
+        "prooftext_ids": [],
+        "recheck": "Generated 360-claim comparison in a temporary directory; all original source passages, local refs and historical review fields retained. Applied wording compared with recorded independent review and adjudication.",
+        "independent_review_basis": [
+          "mammon-second"
+        ],
+        "post_application_independent_scholarly_recheck": "pending; implementation self-check is not a new independent reviewer",
+        "release_status": "blocked; original decision retained, not promoted to verified",
+        "applied_text": "יש להבחין בין שבועת דבריהם שעל הנתבע להישבע ולהיפטר, שסירובו עלול להביא לנידוי על פי גדרה, ובין שבועה שהטילו על התובע כדי ליטול: אם אינו נשבע, אינו נוטל מכוח אותה תקנה. אין להחיל דין אחד על שני המצבים; ראה הלכות טוען ונטען א, ד–ה.",
+        "applied_text_sha256": "ff11349c4a78f5fa0c3683ab36b4dfc58e4101dfee140695ab766b7cd187de3a"
       }
     },
     {
@@ -73653,6 +74221,24 @@
         "implementation": "No application or source-snapshot changes applied",
         "limits": "Detailed proposition/evidence and gate limitations remain in the two reports. No decision is promoted to verified by matching quotes or reviewer agreement.",
         "selected_proposal_basis": "Root read MT Sanhedrin8:2/displayedד-ה-ו; second reviewer checked bounded original3 and expanded5 cases. Earlier general4:0:1-add proposal is superseded, preserved only as review history."
+      },
+      "application_repair": {
+        "date": "2026-10-20",
+        "reviewer": "Codex implementation pass",
+        "basis_commit": "aa8d284e6e0b72844850408e3f47d311949b3cc2",
+        "disposition": "guarded_prose_repair_applied",
+        "prooftext_ids": [
+          "mt-sanhedrin-8-2"
+        ],
+        "recheck": "Generated 360-claim comparison in a temporary directory; all original source passages, local refs and historical review fields retained. Applied wording compared with recorded independent review and adjudication.",
+        "independent_review_basis": [
+          "mammon-second"
+        ],
+        "post_application_independent_scholarly_recheck": "pending; implementation self-check is not a new independent reviewer",
+        "release_status": "blocked; original decision retained, not promoted to verified",
+        "applied_text": "בית דין מזהיר את העדים על חומרת עדות שקר, ובודק כל אחד מהם בפני עצמו כיצד ידע על החוב; עד ששמע את הדברים מאדם אחר בלבד אינו מעיד על עצם ההודאה. נמצאו דברי העדים מכוונים, נושאים הדיינים ונותנים בדין, וההכרעה תלויה ברוב הדעות. בהרכב הראשון של שלושה מוסיפים שני דיינים אם אחד אומר ״איני יודע״, אף כששני האחרים מסכימים. גם בהרכב שהורחב לחמישה, כששניים מזכים ושניים מחייבים ואחד אינו יודע, מוסיפים שניים. ואולם בדין ארבעה המסכימים ואחד שאינו יודע יש הבדל בין המקורות: בפירוש המשנה נאמר שמוסיפים, ובמשנה תורה, הלכות סנהדרין ח, ב, נאמר שהולכים אחר הרוב. יש להבחין אפוא בין בירור העדות, הרכב הדיינים ודין ההכרעה, ולשמור את חילוק המקורות.",
+        "applied_text_sha256": "47c71cae515eb04f46f182c9ef12e654b7fecc95a87d3de95d78b4e500091b6a",
+        "wording_refinement": "Made the expanded panel size explicit as five; original-three/expanded-five source distinction retained."
       }
     },
     {
@@ -76636,6 +77222,24 @@
         "implementation": "No application or source-snapshot changes applied",
         "limits": "Detailed proposition/evidence and gate limitations remain in the two reports. No decision is promoted to verified by matching quotes or reviewer agreement.",
         "selected_proposal_basis": "Root independently read MaachalotAsurot9:9–10: late stirring and stirring/covering from initial fall are distinct; a piece already forbidden remains forbidden even where the rest is permitted at sixty. Attach this new witness separately before applying."
+      },
+      "application_repair": {
+        "date": "2026-10-20",
+        "reviewer": "Codex implementation pass",
+        "basis_commit": "aa8d284e6e0b72844850408e3f47d311949b3cc2",
+        "disposition": "guarded_prose_repair_applied",
+        "prooftext_ids": [
+          "mt-maachalot-9-9-10"
+        ],
+        "recheck": "Generated 360-claim comparison in a temporary directory; all original source passages, local refs and historical review fields retained. Applied wording compared with recorded independent review and adjudication.",
+        "independent_review_basis": [
+          "issur-second"
+        ],
+        "post_application_independent_scholarly_recheck": "pending; implementation self-check is not a new independent reviewer",
+        "release_status": "blocked; original decision retained, not promoted to verified",
+        "applied_text": "המשנה מבחינה בין טיפת חלב שנפלה על חתיכת בשר, שהטעם נידון תחילה באותה חתיכה, ובין חלב שנתערב בקדרה מתחילת נפילתו, שטעמו נידון בכלל התבשיל. במשנה תורה, הלכות מאכלות אסורות ט, ט–י, מבאר הרמב״ם שיש להבחין בין מי שלא ניער בתחילה אלא לבסוף ובין מי שניער מתחילה ועד סוף או כיסה משעת הנפילה עד סוף: חתיכה שנאסרה תחילה אינה ניתרת מאליה בניעור המאוחר. בדין בשר בחלב, שהוא מין בשאינו מינו, העיקר הוא אם ניכר טעם האיסור. הרמב״ם מבאר שהטעם נבדק באמצעות טעימה של עובד כוכבים במקום שהדבר אפשרי; ואם אין עובד כוכבים מצוי ואין אפשרות לברר את הטעם בדרך זו, כגון בדין כחל שנתבשל עם בשר, משערים בשישים לפי הכללים שביאר. אין זו הוראה למעשה לסמוך על טעימת נכרי בכל תערובת ובכל זמן, אלא ביאור דרך הבדיקה המתוארת במקור זה.",
+        "applied_text_sha256": "90378cb13388e22601622635655fc6c78c2640317a4bfd90975930f7b6145291",
+        "wording_refinement": "Added עד סוף after כיסה משעת הנפילה to retain the full express condition in MT9:10. This refinement remains pending independent recheck."
       }
     },
     {
@@ -76899,6 +77503,21 @@
         "status": "two_review_passes_recorded_not_scholarly_certification",
         "implementation": "No application or source-snapshot changes applied",
         "limits": "Detailed proposition/evidence and gate limitations remain in the two reports. No decision is promoted to verified by matching quotes or reviewer agreement."
+      },
+      "application_repair": {
+        "date": "2026-10-20",
+        "reviewer": "Codex implementation pass",
+        "basis_commit": "aa8d284e6e0b72844850408e3f47d311949b3cc2",
+        "disposition": "guarded_prose_repair_applied",
+        "prooftext_ids": [],
+        "recheck": "Generated 360-claim comparison in a temporary directory; all original source passages, local refs and historical review fields retained. Applied wording compared with recorded independent review and adjudication.",
+        "independent_review_basis": [
+          "issur-second"
+        ],
+        "post_application_independent_scholarly_recheck": "pending; implementation self-check is not a new independent reviewer",
+        "release_status": "blocked; original decision retained, not promoted to verified",
+        "applied_text": "הרמב״ם מביא בדיני כחל מקרה שבו בישלוהו עם בשר אחר בלא שקרעוהו, ומשערים אותו בשישים. הכחל עצמו מצטרף למניין השישים, אך הוא עצמו אסור באכילה. מכאן שאין די באמירה הכללית שהתערובת נידונה בנותן טעם, אלא יש לברר גם את דינו המיוחד של הדבר שנתבשל בה.",
+        "applied_text_sha256": "d0e60a9cfad2d8c3888cc570d5214a0cfa85387b22feef733327d9a5a44bbbae"
       }
     },
     {
@@ -78123,6 +78742,21 @@
         "status": "two_review_passes_recorded_not_scholarly_certification",
         "implementation": "No application or source-snapshot changes applied",
         "limits": "Detailed proposition/evidence and gate limitations remain in the two reports. No decision is promoted to verified by matching quotes or reviewer agreement."
+      },
+      "application_repair": {
+        "date": "2026-10-20",
+        "reviewer": "Codex implementation pass",
+        "basis_commit": "aa8d284e6e0b72844850408e3f47d311949b3cc2",
+        "disposition": "guarded_prose_repair_applied",
+        "prooftext_ids": [],
+        "recheck": "Generated 360-claim comparison in a temporary directory; all original source passages, local refs and historical review fields retained. Applied wording compared with recorded independent review and adjudication.",
+        "independent_review_basis": [
+          "issur-second"
+        ],
+        "post_application_independent_scholarly_recheck": "pending; implementation self-check is not a new independent reviewer",
+        "release_status": "blocked; original decision retained, not promoted to verified",
+        "applied_text": "כאשר מצרף להן ״שאיני אוכל לך״ או ״שאיני טועם לך״ נעשה פירוש הדיבור ברור לענין אכילה וטעימה ממאכלי חברו. עוד מזכיר הרמב״ם את לשון ״מנודה אני לך״ ואת הסתפקותו של רבי עקיבא בהחמרה בדין זה, ומבחין בין צד האיסור לבין חיוב מלקות. נמצא שבסוגיית ידות אין די בזיהוי תיבה הדומה לנדר; יש לברר את המשך המשפט, את הדבר שאליו כוונה הלשון, ואת מידת הבירור הנדרשת לחלות האיסור.",
+        "applied_text_sha256": "88a7556986bc0a7c99ab3a04418cf10f21aab688f0e206239976bfae46716d90"
       }
     },
     {
@@ -79384,6 +80018,21 @@
         "status": "two_review_passes_recorded_not_scholarly_certification",
         "implementation": "No application or source-snapshot changes applied",
         "limits": "Detailed proposition/evidence and gate limitations remain in the two reports. No decision is promoted to verified by matching quotes or reviewer agreement."
+      },
+      "application_repair": {
+        "date": "2026-10-20",
+        "reviewer": "Codex implementation pass",
+        "basis_commit": "aa8d284e6e0b72844850408e3f47d311949b3cc2",
+        "disposition": "guarded_prose_repair_applied",
+        "prooftext_ids": [],
+        "recheck": "Generated 360-claim comparison in a temporary directory; all original source passages, local refs and historical review fields retained. Applied wording compared with recorded independent review and adjudication.",
+        "independent_review_basis": [
+          "issur-second"
+        ],
+        "post_application_independent_scholarly_recheck": "pending; implementation self-check is not a new independent reviewer",
+        "release_status": "blocked; original decision retained, not promoted to verified",
+        "applied_text": "בדין שבועת ביטוי מחלק הרמב״ם בין הנשבע שלא יאכל ואחר כך אכל ושתה, לבין הנשבע שלא יאכל ושלא ישתה בלשון מפורשת. בנוסח השני גילה דעתו להפריד את איסור האכילה מאיסור השתייה, ולכן מתחייב שתיים במקרה שבמשנה. נמצא שאין מספר הפעולות בלבד קובע את מספר חיובי השבועה; צריך לברר תחילה את הלשון שבה נשבע.",
+        "applied_text_sha256": "de3f173bade2a3bc34bcb8e90350cdf8125f1e5b89581c6a23ae076f64713c99"
       }
     }
   ],
@@ -80966,6 +81615,31 @@
       "url": "https://he.wikisource.org/wiki/הקדמת_הרמב%22ם_לסדר_טהרות",
       "status": "retrieval_failed",
       "error": "HTTP Error 404: Not Found"
+    }
+  },
+  "repair_checkpoint": {
+    "date": "2026-10-20",
+    "audit_basis": "aa8d284e6e0b72844850408e3f47d311949b3cc2",
+    "applied_prose_claims": 32,
+    "separate_prooftexts": 14,
+    "application_sources": 241,
+    "blocks": 317,
+    "claim_units": 360,
+    "implementation": "Explicit selection in adjudicated_repairs.json, guarded after earlier overlays; historical claim_text and source snapshots are immutable. New prooftexts and numbering crosswalks are separate records.",
+    "unchanged_decisions": "320 not_reviewed; 32 corrected_pending_recheck; 8 conflict_unresolved; zero verified",
+    "remaining_gates": [
+      "Independent post-application scholarly recheck, particularly refined stirring wording and explicit expanded-five description.",
+      "Unresolved Omer, guardian-oath, glass, rank and court source differences remain disclosed.",
+      "No identified alternative asham-age edition is claimed. Missing independent Meiri Pesachim/Bava Kamma witnesses remain missing.",
+      "Native Otzaria installation/opening is unverified; Flutter executable is unavailable. Managed file navigation remains blocked.",
+      "Human scholarly/release approval remains outstanding; no merge or publication."
+    ],
+    "proposal_dispositions": {
+      "minchah/exceptions/paragraph-1": "The selected text is a source note, not a replacement for the whole contextual paragraph. Applied only to paragraph2.",
+      "d-geneivah/distinction/paragraph-1": "English metadata instruction implemented as separate Hebrew8:4 prooftext and local8:1/segment4 crosswalk, not inserted as prose.",
+      "d-shomrim/four/paragraph-1": "Kept qualified prose and conflict; attached MT6:1 opening and explicit borrower extension as a separate witness.",
+      "i-ketubah/source-map/paragraph-2": "No false correction to currently valid prose; added full-Meiri ending and explained excerpt truncation.",
+      "d-shomer-ones/wolves": "Second reviewer found optional completeness, not false attribution; original minority-view attributions retained without duplication."
     }
   }
 }

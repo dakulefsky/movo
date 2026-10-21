@@ -187,6 +187,10 @@ for edit in depth['updates']:
 # Audit 0.13.5: guarded corrections after all earlier content overlays.
 from audit_repairs import apply_audit_repairs
 print('audit corrections:', apply_audit_repairs(handbooks))
+from adjudicated_repairs import apply_adjudicated_repairs
+print('adjudicated corrections:', apply_adjudicated_repairs(handbooks, sources))
+from adjudicated_repairs import attach_adjudicated_prooftexts
+print('separate audit prooftexts:', attach_adjudicated_prooftexts(handbooks, sources))
 for key, targets in AUDIT_EXTRA_REFS.items():
  b=block_index[key]
  for source_id,segment in targets:
