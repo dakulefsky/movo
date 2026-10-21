@@ -85751,5 +85751,17 @@
         }
       }
     ]
+  },
+  "refinement_store_distribution": {
+    "version": "0.13.13",
+    "status": "published_review_distribution",
+    "workflow_run_id": 39636336622,
+    "workflow_url": "https://github.com/dakulefsky/movo/actions/runs/39636336622",
+    "published_at_utc": "2026-10-21T16:38:14.1200054Z",
+    "publisher_confirmation": "✓ העדכון פורסם בחנות בגרסה 0.13.13",
+    "workflow_log_sha256": "076df14381930cc9bcf0440dae45be5f85fe162bcea746ba371e3bae7312f76b",
+    "scope": "Five guarded phrasing refinements; original quotations, all legal qualifications, sparse gloss policy and historical scholarly decisions retained.",
+    "scholarly_clearance": false,
+    "publication_route": "Manual workflow on audit-0135-repairs; no main merge."
   }
 }
