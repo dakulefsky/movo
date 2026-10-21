@@ -81631,7 +81631,7 @@
       "Independent post-application scholarly recheck, particularly refined stirring wording and explicit expanded-five description.",
       "Unresolved Omer, guardian-oath, glass, rank and court source differences remain disclosed.",
       "No identified alternative asham-age edition is claimed. Missing independent Meiri Pesachim/Bava Kamma witnesses remain missing.",
-      "Native Otzaria installation/opening is unverified; Flutter executable is unavailable. Managed file navigation remains blocked.",
+      "Native Otzaria installation/catalogue/live reader opening remains unverified. Official release0.9.98+801 pack-plugin attempt exits127 on missing libharfbuzz-icu.so.0; dependency inspection also finds bundled/system libmount version mismatch. Managed file navigation is still blocked.",
       "Human scholarly/release approval remains outstanding; no merge or publication."
     ],
     "proposal_dispositions": {
@@ -81640,6 +81640,34 @@
       "d-shomrim/four/paragraph-1": "Kept qualified prose and conflict; attached MT6:1 opening and explicit borrower extension as a separate witness.",
       "i-ketubah/source-map/paragraph-2": "No false correction to currently valid prose; added full-Meiri ending and explained excerpt truncation.",
       "d-shomer-ones/wolves": "Second reviewer found optional completeness, not false attribution; original minority-view attributions retained without duplication."
+    },
+    "implementation_commit": "72891d8",
+    "validation": {
+      "clean_builds": {
+        "result": "passed; two clean builds, identical ZIPs and package payloads, CRC passed",
+        "zip_sha256": [
+          "a0e578f1f9fd9a5092656a0ebeabe1844024ace0dc94d42e853ea71bf0c871cb",
+          "a0e578f1f9fd9a5092656a0ebeabe1844024ace0dc94d42e853ea71bf0c871cb"
+        ],
+        "artifact": "dist/Mevoot-Shas-0.13.5.otzplugin"
+      },
+      "scope_and_evidence": "passed check_adjudicated_repairs.py: 317 blocks/360 claims, 32 selected prose edits, all earlier source files and review data unchanged; comparison generator used a disposable directory.",
+      "package_browser_http": "passed full packaged0.13.5 suite in managed Chromium over authorized127.0.0.1 HTTP preview; all98 entries/317 blocks, navigation/search/source dialogs/reader SDK branches/layout/font persistence; no external requests or JavaScript errors.",
+      "host_sdk_http": "passed packaged0.13.5 manifest assertion, fresh temporary extraction and actual pinned9f11690b80bf37703a3d1477a32c677c889dab7b SDK; streaming, envelopes, source identity, no-match, permissions, cancellation and themes. Flutter RPC boundary remains doubled.",
+      "default_file_transport": "both attempted; blocked before assertions with ERR_BLOCKED_BY_ADMINISTRATOR. No policy modification or bypass. HTTP passes do not establish native file loading.",
+      "official_validator": "Final0.13.5 ZIP passed0errors/0warnings; bundled SDK fallback after live fetch failure; published=false.",
+      "native_otzaria": {
+        "result": "attempted, blocked; no native packaging, installation or reader-opening pass",
+        "official_release": "0.9.98+801",
+        "asset": "otzaria-0.9.98+99800-linux.deb",
+        "download_sha256": "cb2cef903b165f1e38a557a23bcc2819ae1af3a05b1e206d416dc62e61880d7f",
+        "command": "work/otzaria-native/opt/otzaria/otzaria pack-plugin /workspace/movo-audit/plugin --output /workspace/movo-audit/work/native-0.13.5.otzplugin",
+        "exit_code": 127,
+        "stderr": "error while loading shared libraries: libharfbuzz-icu.so.0: cannot open shared object file: No such file or directory",
+        "dependency_inspection": "With official launcher library path: bundled libmount.so.1 lacks MOUNT_2_40 required by system libgio-2.0.so.0. Flutter is also unavailable. No host/source-catalogue window reached."
+      },
+      "javascript_syntax": "node --check passed for plugin/app.js, test_runtime.cjs, test_package.cjs and test_host_sdk.cjs",
+      "release": "blocked; no claim promoted to verified, no scholarly clearance, no merge/push/publication"
     }
   }
 }
