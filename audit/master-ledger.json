@@ -85366,8 +85366,19 @@
   },
   "sentence_flow_store_distribution": {
     "version": "0.13.10",
-    "status": "prepared_for_user_requested_review_distribution",
+    "status": "published_review_distribution",
     "accuracy_notice": "דיוק התוכן נמצא בבדיקה.",
-    "scholarly_clearance": false
+    "scholarly_clearance": false,
+    "workflow_run_id": 39600903892,
+    "workflow_url": "https://github.com/dakulefsky/movo/actions/runs/39600903892",
+    "published_at_utc": "2026-10-21T12:37:08Z",
+    "store_previous_version": "0.13.9",
+    "store_version": "0.13.10",
+    "success": true,
+    "pending_approval": false,
+    "publisher_confirmation": "✓ העדכון פורסם בחנות בגרסה 0.13.10",
+    "workflow_log_sha256": "eac9947747e37967c1ba9d2f21b98e1adc16f44823b33848b4d6e542f4fa42aa",
+    "publication_route": "Manual release.yml on audit-0135-repairs; no main merge.",
+    "content_status": "Sentence boundaries only in eight paragraphs; every word retained in original order. Earlier scholarly decisions and source conflicts unchanged."
   }
 }
