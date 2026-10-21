@@ -1,3 +1,7 @@
+# Current phrasing refinement — 0.13.13
+
+Five guarded paragraph edits clarify references and compressed phrasing. All other explanations, source quotations, reading stages and the sparse gloss selection remain unchanged from 0.13.12. Results and store receipt are recorded in `audit/master-ledger.json`; earlier reports below are historical.
+
 # Current sparse gloss selection — 0.13.12
 
 Fourteen elementary translations are removed; only the two existing כחל glosses remain. Original explanations, quotations, all sources, reading stages and the complete reviewed ledger history are unchanged from 0.13.11. Current checks and store receipts are recorded in `audit/master-ledger.json`; older reports below remain historical.

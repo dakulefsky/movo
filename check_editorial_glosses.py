@@ -20,7 +20,11 @@ with tempfile.TemporaryDirectory(prefix='gloss-baseline-',dir=ROOT/'work') as di
     baseline=json.loads((Path(directory)/'editorial.json').read_text())
     previous_ledger=json.loads((Path(directory)/'audit/master-ledger.json').read_text())
 assert baseline['version']==selection['basis_version']=='0.13.11'
-assert current['version']==selection['version']=='0.13.12'
+assert selection['version']=='0.13.12'
+assert current['version']=='0.13.13'
+from polish_revision import apply_polish
+latest=json.loads((ROOT/'refinement_01313.json').read_text())
+apply_polish(baseline['handbooks'],latest['edits'])
 baseline.pop('editorialGlosses')
 baseline['version']=current['version']
 assert baseline=={k:v for k,v in current.items() if k!='editorialGlosses'},'Original corpus changed'

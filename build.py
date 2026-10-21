@@ -267,7 +267,7 @@ for src in sources.values():
 from editorial_glosses import compile_glosses, explained_text
 editorial_glosses=compile_glosses(handbooks)
 print('editorial glosses:',sum(map(len,editorial_glosses.values())))
-data={'editorialGlosses':editorial_glosses,'schemaVersion':2,'version':'0.13.12','author':'DanTheMan','editorialPolicy':policy,'subjects':[{'id':id,'title':title,'status':status} for id,title,status in [('kodashim','קדשים','available'),('tahorot','טהרות','available'),('ishut','אישות','available'),('zeraim','זרעים','available'),('mammon','דיני ממונות','available'),('issur','איסור והיתר','available')]],'handbooks':handbooks,'sources':sources}
+data={'editorialGlosses':editorial_glosses,'schemaVersion':2,'version':'0.13.13','author':'DanTheMan','editorialPolicy':policy,'subjects':[{'id':id,'title':title,'status':status} for id,title,status in [('kodashim','קדשים','available'),('tahorot','טהרות','available'),('ishut','אישות','available'),('zeraim','זרעים','available'),('mammon','דיני ממונות','available'),('issur','איסור והיתר','available')]],'handbooks':handbooks,'sources':sources}
 (ROOT/'plugin/data').mkdir(parents=True,exist_ok=True)
 (ROOT/'plugin/data/library.js').write_text('window.MEVOOT='+json.dumps(data,ensure_ascii=False)+';\n')
 (ROOT/'editorial.json').write_text(json.dumps(data,ensure_ascii=False,indent=2))

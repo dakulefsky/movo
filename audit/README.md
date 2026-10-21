@@ -101,3 +101,9 @@ The existing full preservation checker compares with committed 0.13.11, requires
 For 0.13.12, all five preservation checks, full packaged browser suite, pinned SDK host suite, native packager payload comparison and official validation pass. Two clean builds have identical ten-file payloads and valid CRCs; timestamps differ. Local official validation uses its bundled SDK fallback and reports zero errors/warnings with `published=false`. The accuracy-under-review notice remains.
 
 The 0.13.12 review update is published in the Otzaria store, confirmed by [workflow39603524176](https://github.com/dakulefsky/movo/actions/runs/39603524176) at 2026-10-21 12:56:29 UTC. The server returned success and no pending approval, replacing 0.13.11. All workflow checks passed; a transient CLI authentication error while fetching results was resolved before recording this receipt. No main merge or scholarly certification.
+
+## Referent and phrasing refinements — 0.13.13
+
+Five guarded changes in `refinement_01313.json` clarify which quantity is doubtful, name the actor in the maamar example, replace compressed inheritance wording, spell out the claim of a prior purchase and clarify the reference to Egyptian/Edomite distinctions. No example, legal qualification, quotation, number or gloss is added. The sparse כחל-only gloss selection is retained.
+
+`check_refinement.py` compares committed 0.13.12 with exactly those five changes and preserves all other corpus data and prior ledger rows. Earlier checkers account for the explicit later overlay; no reviewed ledger data is regenerated. Same-editor wording review does not complete independent scholarly review. Existing native-installation limitations remain.

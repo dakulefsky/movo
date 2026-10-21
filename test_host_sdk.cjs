@@ -14,9 +14,9 @@ const boot=dart.split('String buildPluginBootScript')[1].split("'''")[1]
 (async()=>{
  fs.mkdirSync(path.join(root,'work'),{recursive:true});
  const unpacked=fs.mkdtempSync(path.join(root,'work/host-package-'));
- execFileSync('python3',['-c',`import zipfile; zipfile.ZipFile(${JSON.stringify(path.join(root,'dist/Mevoot-Shas-0.13.12.otzplugin'))}).extractall(${JSON.stringify(unpacked)})`]);
+ execFileSync('python3',['-c',`import zipfile; zipfile.ZipFile(${JSON.stringify(path.join(root,'dist/Mevoot-Shas-0.13.13.otzplugin'))}).extractall(${JSON.stringify(unpacked)})`]);
  const runtime=await packageRuntime(unpacked);
- const packagedManifest=JSON.parse(fs.readFileSync(path.join(unpacked,'manifest.json')));assert.equal(packagedManifest.version,'0.13.12');
+ const packagedManifest=JSON.parse(fs.readFileSync(path.join(unpacked,'manifest.json')));assert.equal(packagedManifest.version,'0.13.13');
  const browser=await pw.chromium.launch({headless:true,executablePath:process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE,args:['--no-sandbox']});
  try{
   const page=await browser.newPage(),errors=[],remote=[];

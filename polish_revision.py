@@ -5,7 +5,7 @@ from pathlib import Path
 
 def polish_edits():
     edits=[]
-    for name in ('polish_0139.json','sentence_flow_01310.json'):
+    for name in ('polish_0139.json','sentence_flow_01310.json','refinement_01313.json'):
         manifest=json.loads(Path(__file__).with_name(name).read_text())
         assert len(manifest['edits'])==len({e['claim_id'] for e in manifest['edits']})==manifest['changed_paragraphs']
         edits.extend(manifest['edits'])

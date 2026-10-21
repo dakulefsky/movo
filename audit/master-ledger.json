@@ -85673,5 +85673,83 @@
     "workflow_log_sha256": "c26ce3c4e047365e571bf4e00aa86834c13442eb7cbf8431ec94722ce54fd532",
     "publication_route": "Manual release.yml on audit-0135-repairs; no main merge.",
     "content_status": "Fourteen elementary translations removed from display; only the two existing כחל annotations remain. Original corpus and full historical ledger preserved."
+  },
+  "refinement_checkpoint": {
+    "version": "0.13.13",
+    "manifest": {
+      "basis_commit": "e5fa15d",
+      "basis_version": "0.13.12",
+      "version": "0.13.13",
+      "changed_paragraphs": 5,
+      "scope": "Clarify referents and compressed phrasing only; no new examples, legal claims, quotations or glosses.",
+      "edits": [
+        {
+          "claim_id": "t-safek/meaning/paragraph-1",
+          "before": "חכמים טיהרו ספקות מסוימים בטומאה, ובהם ספק מים שאובים למקווה, ספק ידיים וספק רשות הרבים. בדוגמת המים השאובים מתאר הרמב״ם מקווה החסר מארבעים סאה: ייתכן שהספק הוא אם נפלו לתוכו שלושה לוגים מים שאובים. וייתכן שהוא בשיעור המים שנפלו — אם הגיע לשיעור הפוסל.",
+          "after": "חכמים טיהרו ספקות מסוימים בטומאה, ובהם ספק מים שאובים למקווה, ספק ידיים וספק רשות הרבים. בדוגמת המים השאובים מתאר הרמב״ם מקווה החסר מארבעים סאה: ייתכן שהספק הוא אם נפלו לתוכו שלושה לוגים מים שאובים. וייתכן שהספק נוגע לכמות המים שנפלו — אם הגיעה לשיעור הפוסל.",
+          "reason": "Clarify the referent or replace compressed wording; retain all cases, conditions and attribution."
+        },
+        {
+          "claim_id": "i-maamar/consequence/paragraph-1",
+          "before": "הרמב״ם מדגים את כוחו החלקי של המאמר במעשה של שלושה אחים. ראובן נשוי ללאה; שמעון מת והניח את רחל לייבום, ורק לאחר מיתתו נולד לוי. ראובן עשה מאמר ברחל, ולאחר מכן מת. רחל אסורה על לוי משום אשת אחיו שלא היה בעולמו. דינה של לאה תלוי במעשה שעשה ראובן: אילו כנס את רחל לגמרי, היתה לאה פטורה גם מחליצה מדין צרת ערוה. אילו לא עשה ברחל מאמר כלל, היתה לאה ראויה לייבום או לחליצה. בפועל עשה מאמר בלבד, ויש בו מקצת קידושין. לכן לאה אינה מתייבמת מחמת צד צרת ערוה, אך גם אינה נפטרת בלא חליצה. היא צריכה לחלוץ ללוי, מפני שהמאמר לא גמר את הנישואין. כך נוצרת החומרא משני הצדדים.",
+          "after": "הרמב״ם מדגים את כוחו החלקי של המאמר במעשה של שלושה אחים. ראובן נשוי ללאה; שמעון מת והניח את רחל לייבום, ורק לאחר מיתתו נולד לוי. ראובן עשה מאמר ברחל, ולאחר מכן מת. רחל אסורה על לוי משום אשת אחיו שלא היה בעולמו. דינה של לאה תלוי במעשה שעשה ראובן: אילו כנס את רחל לגמרי, היתה לאה פטורה גם מחליצה מדין צרת ערוה. אילו לא עשה ברחל מאמר כלל, היתה לאה ראויה לייבום או לחליצה. במקרה המתואר, ראובן עשה מאמר בלבד, ויש בו מקצת קידושין. לכן לאה אינה מתייבמת מחמת צד צרת ערוה, אך גם אינה נפטרת בלא חליצה. היא צריכה לחלוץ ללוי, מפני שהמאמר לא גמר את הנישואין. כך נוצרת החומרא משני הצדדים.",
+          "reason": "Clarify the referent or replace compressed wording; retain all cases, conditions and attribution."
+        },
+        {
+          "claim_id": "d-yerushah/distinction/paragraph-1",
+          "before": "יש קרובים היורשים זה את זה, ויש שהאחד יורש את חברו אך אינו מנחיל לו. כך הבעל יורש את אשתו והיא אינה יורשת אותו, והבן יורש את אמו והיא אינה יורשת אותו. הרמב״ם מבאר שירושת האב והבעל נלמדה מפי השמועה.",
+          "after": "יש קרובים היורשים זה את זה, ויש קרובים שבהם רק צד אחד יורש את האחר. כך הבעל יורש את אשתו והיא אינה יורשת אותו, והבן יורש את אמו והיא אינה יורשת אותו. הרמב״ם מבאר שירושת האב והבעל נלמדה מפי השמועה.",
+          "reason": "Clarify the referent or replace compressed wording; retain all cases, conditions and attribution."
+        },
+        {
+          "claim_id": "d-two-chazakot/proof/paragraph-1",
+          "before": "בחזקת שלוש שנים, המחזיק מבקש להוכיח שקנה את השדה. הוא טוען למכר ומראה שאכל את פירותיה במשך הזמן הנדרש. הרמב״ם מסביר שאין אדם שומר שטרו לעולם, ולכן החזקה עשויה לשמש ראיה לבעלותו. היא אינה מקנה לו את השדה בסוף השנה השלישית מכוח אכילת הפירות בלבד. זו חזקת ראיה, בשונה מחזקה המשמשת למעשה קניין.",
+          "after": "בחזקת שלוש שנים, המחזיק מבקש להוכיח שקנה את השדה. הוא טוען שקנה את השדה, ומראה שאכל את פירותיה במשך הזמן הנדרש. הרמב״ם מסביר שאין אדם שומר שטרו לעולם, ולכן החזקה עשויה לשמש ראיה לבעלותו. היא אינה מקנה לו את השדה בסוף השנה השלישית מכוח אכילת הפירות בלבד. זו חזקת ראיה, בשונה מחזקה המשמשת למעשה קניין.",
+          "reason": "Clarify the referent or replace compressed wording; retain all cases, conditions and attribution."
+        },
+        {
+          "claim_id": "i-yuchasin/limits/paragraph-2",
+          "before": "הרמב״ם מבאר גם מקרים שאינם משתלבים בחלוקה זו בפשטות. כך, בגר שנשא ממזרת הקידושין תופסים ואין עבירה, ואף על פי כן הוולד ממזר; הוא מפרט גם את חילוקי המצרי והאדומי. עצם חלות הקידושין וייחוס הוולד הן אפוא שאלות נפרדות, ואת פרטי המקרים יש ללמוד כל אחד במקומו.",
+          "after": "הרמב״ם מבאר גם מקרים שאינם משתלבים בחלוקה זו בפשטות. כך, בגר שנשא ממזרת הקידושין תופסים ואין עבירה, ואף על פי כן הוולד ממזר; הוא מפרט גם את ההבדלים בדיני המצרי והאדומי. עצם חלות הקידושין וייחוס הוולד הן אפוא שאלות נפרדות, ואת פרטי המקרים יש ללמוד כל אחד במקומו.",
+          "reason": "Clarify the referent or replace compressed wording; retain all cases, conditions and attribution."
+        }
+      ]
+    },
+    "validation": "PASS all six preservation checks, exact five-paragraph comparison against 0.13.12, unchanged quotations/numbers/all other corpus fields/prior ledger rows. Two clean builds have identical ten-file payloads and valid CRC. Full packaged browser and pinned SDK host suites pass over authorized HTTP; native packager payload matches. Official validator passes with zero errors/warnings, bundled SDK fallback, local published=false. Prior native-installation and scholarly-review limitations remain.",
+    "scholarly_status": "Same-editor wording refinements; all source conflicts and prior scholarly decisions preserved.",
+    "clean_builds": [
+      {
+        "build": 1,
+        "zip_sha256": "24ff1c33bbf481b43955e1c9494f989525c960d08e142b69cc5d8f8bd2be1459",
+        "files": {
+          "app.js": "952110f04591cc12656faae4deea70da3d5ba1711721efe5f116d8997c9df889",
+          "data/library.js": "a79e5248b23f4518285ed9a1e8909174c9e3e1b24dd492c58f8cceaf2b02c22f",
+          "fonts/NotoSerifHebrew.ttf": "4a76d07f2f671273d0219e51dc63459323be0c7b7d8106267f0f68af4227a3b5",
+          "fonts/Rubik.ttf": "7604615c681d3594432cb7f1b592657d1cac98acdb60c7e95619cddda19b265f",
+          "fonts/notoserifhebrew-OFL.txt": "9b9fe028b5ba74d231659a1bbaf0ed09b11e759d1ca6a070999e16d151616b47",
+          "fonts/rubik-OFL.txt": "472cbe7c25441df63e9c7864b43eb3c0f4b3df950c66a76224e6cfe1eae843fb",
+          "index.html": "2654bbd7642c67f135b2453d36979928774627ecf13684c48252e9cb0965d2b5",
+          "manifest.json": "95d3567fe36b88c883d6ce5f57a8690543b5a8c1009e35f21d9558ae64674468",
+          "style.css": "7633758a8b50cf74431c1381addb867f04c5f13e3cf994239cffb9b2dd79ebc2",
+          "theme-start.js": "8196bd063e270c287accace6dc102392e8fef835f14d100215881cc5b8d86034"
+        }
+      },
+      {
+        "build": 2,
+        "zip_sha256": "e1717217703f181bdc79f339c1247c2f3b11c1bc34080bd33a7bc7ddd9025662",
+        "files": {
+          "app.js": "952110f04591cc12656faae4deea70da3d5ba1711721efe5f116d8997c9df889",
+          "data/library.js": "a79e5248b23f4518285ed9a1e8909174c9e3e1b24dd492c58f8cceaf2b02c22f",
+          "fonts/NotoSerifHebrew.ttf": "4a76d07f2f671273d0219e51dc63459323be0c7b7d8106267f0f68af4227a3b5",
+          "fonts/Rubik.ttf": "7604615c681d3594432cb7f1b592657d1cac98acdb60c7e95619cddda19b265f",
+          "fonts/notoserifhebrew-OFL.txt": "9b9fe028b5ba74d231659a1bbaf0ed09b11e759d1ca6a070999e16d151616b47",
+          "fonts/rubik-OFL.txt": "472cbe7c25441df63e9c7864b43eb3c0f4b3df950c66a76224e6cfe1eae843fb",
+          "index.html": "2654bbd7642c67f135b2453d36979928774627ecf13684c48252e9cb0965d2b5",
+          "manifest.json": "95d3567fe36b88c883d6ce5f57a8690543b5a8c1009e35f21d9558ae64674468",
+          "style.css": "7633758a8b50cf74431c1381addb867f04c5f13e3cf994239cffb9b2dd79ebc2",
+          "theme-start.js": "8196bd063e270c287accace6dc102392e8fef835f14d100215881cc5b8d86034"
+        }
+      }
+    ]
   }
 }

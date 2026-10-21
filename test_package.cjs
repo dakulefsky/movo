@@ -3,10 +3,10 @@ const assert=require('node:assert/strict'),path=require('node:path'),fs=require(
 let pw;try{pw=require('playwright')}catch{pw=require(process.env.CODEX_PRIMARY_RUNTIME_NODE_MODULES+'/playwright')}
 (async()=>{
 const root=__dirname,unpacked=path.join(root,'test-unpacked');fs.rmSync(unpacked,{recursive:true,force:true});fs.mkdirSync(unpacked);
-execFileSync('python',['-c',`import zipfile;zipfile.ZipFile(${JSON.stringify(path.join(root,'dist/Mevoot-Shas-0.13.12.otzplugin'))}).extractall(${JSON.stringify(unpacked)})`]);
-const manifest=JSON.parse(fs.readFileSync(path.join(unpacked,'manifest.json')));assert.equal(manifest.author,'DanTheMan');assert.equal(manifest.version,'0.13.12');assert.equal(manifest.network.enabled,false);
+execFileSync('python',['-c',`import zipfile;zipfile.ZipFile(${JSON.stringify(path.join(root,'dist/Mevoot-Shas-0.13.13.otzplugin'))}).extractall(${JSON.stringify(unpacked)})`]);
+const manifest=JSON.parse(fs.readFileSync(path.join(unpacked,'manifest.json')));assert.equal(manifest.author,'DanTheMan');assert.equal(manifest.version,'0.13.13');assert.equal(manifest.network.enabled,false);
 const literary=JSON.parse(fs.readFileSync(path.join(root,'readability_0137.json'),'utf8'));
-const polish={edits:['polish_0139.json','sentence_flow_01310.json'].flatMap(name=>JSON.parse(fs.readFileSync(path.join(root,name),'utf8')).edits)};
+const polish={edits:['polish_0139.json','sentence_flow_01310.json','refinement_01313.json'].flatMap(name=>JSON.parse(fs.readFileSync(path.join(root,name),'utf8')).edits)};
 const readabilityParagraph=(p,id)=>{const revised=literary.edits.find(e=>e.before===p&&e.claim_id===id)?.after||p;return polish.edits.reduce((text,e)=>e.before===text&&e.claim_id===id?e.after:text,revised);};
 const explanationAnchor=(block,text)=>literary.explanation_anchor_crosswalk.find(e=>e.block_id===block&&e.before===text)?.after||text;
 const runtime=await packageRuntime(unpacked);
@@ -371,6 +371,6 @@ for(const correction of depth.updates){
 assert.match(entry('asham','animals').paragraphs.join(' '),/זכרי הכבשים/);
 assert.match(entry('asham','animals').paragraphs.join(' '),/גם באשם תלוי מפורש בהלכות פסולי המוקדשין ד, כב/);
 assert.match(entry('av-melikah','act').paragraphs.join(' '),/אין מבדילים/);
-assert.deepEqual(errors,[]);assert.deepEqual(remote,[]);console.log(`PASS: actual unpacked 0.13.12 package; home search, voluntary resume, continuous reading; all 98 entries and 317 block controls in six areas; new avodot source dialogs and reciprocal offering links; cross-area deep-link search and exact source dialogs; Hebrew search, back/reload/pager, SDK success and failure paths, mobile+desktop no overflow, font persistence. No external network requests, JS errors or screenshots. Transport: ${process.env.MOVO_TEST_TRANSPORT||'file'}.`);
+assert.deepEqual(errors,[]);assert.deepEqual(remote,[]);console.log(`PASS: actual unpacked 0.13.13 package; home search, voluntary resume, continuous reading; all 98 entries and 317 block controls in six areas; new avodot source dialogs and reciprocal offering links; cross-area deep-link search and exact source dialogs; Hebrew search, back/reload/pager, SDK success and failure paths, mobile+desktop no overflow, font persistence. No external network requests, JS errors or screenshots. Transport: ${process.env.MOVO_TEST_TRANSPORT||'file'}.`);
 }finally{await browser.close();await runtime.close()}
 })().catch(e=>{console.error(e);process.exit(1)});
