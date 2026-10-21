@@ -81767,13 +81767,21 @@
   },
   "review_store_distribution": {
     "version": "0.13.6",
-    "status": "publishing_requested_not_yet_confirmed",
+    "status": "published_review_distribution",
     "audit_basis": "0.13.5, aa8d284e6e0b72844850408e3f47d311949b3cc2",
     "accuracy_notice": "דיוק התוכן נמצא בבדיקה.",
     "authorization_context": "User requested store availability for reviewing accuracy and explicitly requested the accuracy-under-review notice inside the plugin. This is a review distribution, not scholarly certification.",
     "content_status": "No scholarly status changed; original source snapshots and all historical review evidence remain intact.",
     "publication_route": "Manual release.yml workflow on audit-0135-repairs; no merge into main.",
     "package_sha256": "08834fa7ddd5f2e0f12d2e91af4c5f8980f32cfc46ee2263b4dc63eac8d19cbe",
-    "local_validation": "Two content builds and evidence-preservation check passed; packaged browser and pinned-host SDK suites passed over authorized HTTP; final native packaging passed with matching payload; official validator passed with zero errors/warnings/design notices. Review notice font uses relative units."
+    "local_validation": "Two content builds and evidence-preservation check passed; packaged browser and pinned-host SDK suites passed over authorized HTTP; final native packaging passed with matching payload; official validator passed with zero errors/warnings/design notices. Review notice font uses relative units.",
+    "workflow_run_id": 39529142768,
+    "workflow_url": "https://github.com/dakulefsky/movo/actions/runs/39529142768",
+    "published_at_utc": "2026-10-21T01:46:25Z",
+    "store_previous_version": "0.13.5",
+    "store_version": "0.13.6",
+    "publisher_confirmation": "✓ העדכון פורסם בחנות בגרסה 0.13.6",
+    "scholarly_status": "Accuracy remains under review; no verified counts or scholarly approvals changed. User-requested review distribution does not resolve the recorded textual conflicts.",
+    "workflow_log_sha256": "b97eec2cb1564e6ab066e96ec290b0200b21679b840beae400d6894a7b04542d"
   }
 }
