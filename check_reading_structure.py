@@ -17,7 +17,7 @@ with tempfile.TemporaryDirectory(prefix='structure-baseline-',dir=ROOT/'work') a
         tar.extractall(directory,filter='data')
     subprocess.run(['python3','build.py'],cwd=directory,check=True,stdout=subprocess.DEVNULL)
     baseline = json.loads((Path(directory)/'editorial.json').read_text())
-assert current['version'] == '0.13.11'
+assert current['version'] == '0.13.12'
 from polish_revision import apply_polish
 apply_polish(baseline['handbooks'])
 assert current['sources'] == baseline['sources'], 'Source text/edition/note changed'

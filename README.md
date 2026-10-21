@@ -14,9 +14,11 @@ The 0.13.10 pass splits long sentences in eight passages. Every word and its ord
 
 The 0.13.11 reader edition adds short Hebrew glosses for selected unfamiliar terms, explicitly labeled **תרגום העורך** or **ביאור העורך** in parentheses. These are separate editorial annotations; original paragraphs and all source text remain unchanged.
 
+The current 0.13.12 policy is deliberately sparse: elementary Aramaic and routine study terms receive no gloss. Only the less familiar **כחל** retains a short marked explanation in its two passages.
+
 ## Install
 
-Install the **0.13.11** review package from the `Mevoot-Hashas-plugin` artifact of the latest successful [GitHub Actions run](https://github.com/dakulefsky/movo/actions/workflows/release.yml), or update it from the Otzaria plugin store. The older [0.12.0 package](dist/Mevoot-Shas-0.12.0.otzplugin) remains in the repository for comparison. No internet connection or AI service is required by the installed plugin.
+Install the **0.13.12** review package from the `Mevoot-Hashas-plugin` artifact of the latest successful [GitHub Actions run](https://github.com/dakulefsky/movo/actions/workflows/release.yml), or update it from the Otzaria plugin store. The older [0.12.0 package](dist/Mevoot-Shas-0.12.0.otzplugin) remains in the repository for comparison. No internet connection or AI service is required by the installed plugin.
 
 The manifest declares Otzaria 0.9.97 or later. Package validation was run against 0.9.98. Selected installation and reading checks passed in native Otzaria; successful indexed-source opening still needs a real library catalogue. See [audit/README.md](audit/README.md) for current validation and scholarly limitations.
 
@@ -29,7 +31,7 @@ python3 build.py
 python3 package.py
 ```
 
-This generates the content export, editorial data and `plugin/data/library.js`, then creates `dist/Mevoot-Shas-0.13.11.otzplugin`. Build output is reproducible without fetching source texts.
+This generates the content export, editorial data and `plugin/data/library.js`, then creates `dist/Mevoot-Shas-0.13.12.otzplugin`. Build output is reproducible without fetching source texts.
 
 ## Sources and editorial scope
 

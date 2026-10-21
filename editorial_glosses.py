@@ -9,6 +9,9 @@ def compile_glosses(handbooks):
     manifest=json.loads(Path(__file__).with_name('editorial_glosses_01311.json').read_text())
     paragraphs={e['id']+'/'+b['id']+'/paragraph-'+str(i):p
                 for h in handbooks for e in h['entries'] for b in e['blocks'] for i,p in enumerate(b['paragraphs'],1)}
+    selection=json.loads(Path(__file__).with_name('editorial_gloss_scope_01312.json').read_text())
+    allowed={(a['claim_id'],a['term']) for a in selection['retained_annotations']}
+    retained=set()
     compiled={}
     seen=set()
     for annotation in manifest['annotations']:
@@ -24,7 +27,10 @@ def compile_glosses(handbooks):
         assert not any(q.start()<end<q.end() for q in quotations),('Gloss inside quotation',key,anchor)
         identity=(key,end);assert identity not in seen;seen.add(identity)
         assert annotation['label'] in ('תרגום העורך','ביאור העורך')
+        if (key,annotation['term']) not in allowed:continue
+        retained.add((key,annotation['term']))
         compiled.setdefault(key,[]).append({'end':end,'term':annotation['term'],'text':annotation['explanation'],'label':annotation['label']})
+    assert retained==allowed,'Selected gloss missing from original inventory'
     for annotations in compiled.values():annotations.sort(key=lambda a:a['end'])
     return compiled
 

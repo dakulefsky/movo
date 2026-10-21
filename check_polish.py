@@ -23,7 +23,7 @@ with tempfile.TemporaryDirectory(prefix='polish-baseline-',dir=ROOT/'work') as d
     previous_ledger=json.loads((Path(directory)/'audit/master-ledger.json').read_text())
 assert baseline['version']==manifest['basis_version']=='0.13.9'
 assert manifest['version']=='0.13.10'
-assert current['version']=='0.13.11'
+assert current['version']=='0.13.12'
 for edit in manifest['edits']:
     assert re.findall(r'\w+',edit['before'])==re.findall(r'\w+',edit['after']),('Words changed',edit['claim_id'])
     for quote in re.findall(r'(?<![א-ת])״([^״]+)״(?![א-ת])',edit['before']):

@@ -1,3 +1,7 @@
+# Current sparse gloss selection — 0.13.12
+
+Fourteen elementary translations are removed; only the two existing כחל glosses remain. Original explanations, quotations, all sources, reading stages and the complete reviewed ledger history are unchanged from 0.13.11. Current checks and store receipts are recorded in `audit/master-ledger.json`; older reports below remain historical.
+
 # Current labeled glosses — 0.13.11
 
 Sixteen separate editorial annotations clarify seven terms in twelve explanation paragraphs. Raw explanations, quotations, all 241 sources, source notes and reading stages remain byte-identical to committed 0.13.10. Original source text is displayed without annotations. The current check suite validates the separation, rendered attribution labels and Hebrew-gloss search; runtime results and store receipts are recorded in `audit/master-ledger.json`. Earlier reports below are historical.

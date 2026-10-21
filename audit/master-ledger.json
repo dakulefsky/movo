@@ -85601,5 +85601,66 @@
     "workflow_log_sha256": "9ff752bfab848f7171423d28824459104cd2a38eac4a18795c23e979b29a31d1",
     "publication_route": "Manual release.yml on audit-0135-repairs; no main merge.",
     "content_status": "Sixteen separate labeled editorial glosses only; all underlying explanations, sources, full historical ledger, source conflicts and accuracy-under-review notice retained."
+  },
+  "editorial_gloss_scope_checkpoint": {
+    "version": "0.13.12",
+    "selection": {
+      "basis_commit": "94d3e65",
+      "basis_version": "0.13.11",
+      "version": "0.13.12",
+      "scope": "User correction: gloss only genuinely unfamiliar vocabulary. Remove elementary Aramaic and routine study terminology. Preserve original gloss inventory as history; retain only the uncommon anatomical term כחל in its two separately accessible passages.",
+      "retained_annotations": [
+        {
+          "claim_id": "a-taam/distinction/paragraph-1",
+          "term": "כחל"
+        },
+        {
+          "claim_id": "a-taam/udder/paragraph-1",
+          "term": "כחל"
+        }
+      ]
+    },
+    "validation": "PASS full corpus and complete prior ledger comparison against committed 0.13.11; exactly two selected כחל annotations and no elementary translations. All five preservation checkers pass. Full packaged browser tests preserve original paragraphs/source text, require common-phrase example without glosses, retain Hebrew-search and layout checks; actual SDK host suite passes over authorized HTTP. Two clean builds have identical ten-file payloads and valid CRC, with differing timestamps. Native packaging matches; official validator zero errors/warnings using bundled SDK fallback, local published=false. Earlier native installation/rendering limitation remains.",
+    "scholarly_status": "Gloss display selection only; no prior claim or lexical definition changed.",
+    "clean_builds": [
+      {
+        "build": 1,
+        "zip_sha256": "00caf2de48a7fa2a18cdf73bc115d34b2f92727c97c23fc56abce78ee9fc30fe",
+        "files": {
+          "app.js": "952110f04591cc12656faae4deea70da3d5ba1711721efe5f116d8997c9df889",
+          "data/library.js": "e8ba46029e6b7734ee52029e47e5d2a9a38c9fb76cfd49ad6afb123c64d5d42d",
+          "fonts/NotoSerifHebrew.ttf": "4a76d07f2f671273d0219e51dc63459323be0c7b7d8106267f0f68af4227a3b5",
+          "fonts/Rubik.ttf": "7604615c681d3594432cb7f1b592657d1cac98acdb60c7e95619cddda19b265f",
+          "fonts/notoserifhebrew-OFL.txt": "9b9fe028b5ba74d231659a1bbaf0ed09b11e759d1ca6a070999e16d151616b47",
+          "fonts/rubik-OFL.txt": "472cbe7c25441df63e9c7864b43eb3c0f4b3df950c66a76224e6cfe1eae843fb",
+          "index.html": "2654bbd7642c67f135b2453d36979928774627ecf13684c48252e9cb0965d2b5",
+          "manifest.json": "0bdd2c9c256573d12d254c5d5b4bdafa432f453ef9c44552d23d512f2b9a4069",
+          "style.css": "7633758a8b50cf74431c1381addb867f04c5f13e3cf994239cffb9b2dd79ebc2",
+          "theme-start.js": "8196bd063e270c287accace6dc102392e8fef835f14d100215881cc5b8d86034"
+        }
+      },
+      {
+        "build": 2,
+        "zip_sha256": "1998b7a0e9cbdca6419e6bd9c3edc98d62b584137d8dfb6c329823bd449fd831",
+        "files": {
+          "app.js": "952110f04591cc12656faae4deea70da3d5ba1711721efe5f116d8997c9df889",
+          "data/library.js": "e8ba46029e6b7734ee52029e47e5d2a9a38c9fb76cfd49ad6afb123c64d5d42d",
+          "fonts/NotoSerifHebrew.ttf": "4a76d07f2f671273d0219e51dc63459323be0c7b7d8106267f0f68af4227a3b5",
+          "fonts/Rubik.ttf": "7604615c681d3594432cb7f1b592657d1cac98acdb60c7e95619cddda19b265f",
+          "fonts/notoserifhebrew-OFL.txt": "9b9fe028b5ba74d231659a1bbaf0ed09b11e759d1ca6a070999e16d151616b47",
+          "fonts/rubik-OFL.txt": "472cbe7c25441df63e9c7864b43eb3c0f4b3df950c66a76224e6cfe1eae843fb",
+          "index.html": "2654bbd7642c67f135b2453d36979928774627ecf13684c48252e9cb0965d2b5",
+          "manifest.json": "0bdd2c9c256573d12d254c5d5b4bdafa432f453ef9c44552d23d512f2b9a4069",
+          "style.css": "7633758a8b50cf74431c1381addb867f04c5f13e3cf994239cffb9b2dd79ebc2",
+          "theme-start.js": "8196bd063e270c287accace6dc102392e8fef835f14d100215881cc5b8d86034"
+        }
+      }
+    ]
+  },
+  "editorial_gloss_scope_store_distribution": {
+    "version": "0.13.12",
+    "status": "prepared_for_user_requested_review_distribution",
+    "accuracy_notice": "דיוק התוכן נמצא בבדיקה.",
+    "scholarly_clearance": false
   }
 }
