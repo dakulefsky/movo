@@ -1,3 +1,7 @@
+# Current sentence polish — 0.13.9
+
+Exactly 14 explanatory paragraphs receive small wording changes. Full comparison against committed 0.13.8 preserves every other corpus field and all previously reviewed ledger-row fields. Quotations, numbers and all 0.13.8 reading stages remain intact. Runtime validation and store receipts are recorded in `audit/master-ledger.json`; the earlier reports below are historical.
+
 # Current reading structure — 0.13.8
 
 All 98 introductions have explicit nonempty reading stages and linked outlines. All 317 complete blocks, 360 claims and 241 sources are preserved exactly against the committed 0.13.7 build. No new legal explanations or quotations are introduced. Current build, browser, SDK, native and store results are recorded in `audit/master-ledger.json`; earlier results below remain historical.

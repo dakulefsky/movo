@@ -8,9 +8,11 @@ The 0.13.7 readability pass clarifies 203 explanatory paragraphs across all six 
 
 Each introduction now follows a reading plan: **what the subject means**, **its main rules and process**, then **distinctions and exceptions**. A linked outline lets readers jump to each passage. Shorter entries omit stages they do not need. Sources remain attached to the passages they support. This presentation change preserves all 98 entries, 317 audited blocks and their full wording.
 
+The 0.13.9 final wording polish smooths 14 remaining sentences without changing sources, legal conditions or the reading plan. Accuracy remains under review.
+
 ## Install
 
-Install the **0.13.8** review package from the `Mevoot-Hashas-plugin` artifact of the latest successful [GitHub Actions run](https://github.com/dakulefsky/movo/actions/workflows/release.yml), or update it from the Otzaria plugin store. The older [0.12.0 package](dist/Mevoot-Shas-0.12.0.otzplugin) remains in the repository for comparison. No internet connection or AI service is required by the installed plugin.
+Install the **0.13.9** review package from the `Mevoot-Hashas-plugin` artifact of the latest successful [GitHub Actions run](https://github.com/dakulefsky/movo/actions/workflows/release.yml), or update it from the Otzaria plugin store. The older [0.12.0 package](dist/Mevoot-Shas-0.12.0.otzplugin) remains in the repository for comparison. No internet connection or AI service is required by the installed plugin.
 
 The manifest declares Otzaria 0.9.97 or later. Package validation was run against 0.9.98. Selected installation and reading checks passed in native Otzaria; successful indexed-source opening still needs a real library catalogue. See [audit/README.md](audit/README.md) for current validation and scholarly limitations.
 
@@ -23,7 +25,7 @@ python3 build.py
 python3 package.py
 ```
 
-This generates the content export, editorial data and `plugin/data/library.js`, then creates `dist/Mevoot-Shas-0.13.8.otzplugin`. Build output is reproducible without fetching source texts.
+This generates the content export, editorial data and `plugin/data/library.js`, then creates `dist/Mevoot-Shas-0.13.9.otzplugin`. Build output is reproducible without fetching source texts.
 
 ## Sources and editorial scope
 

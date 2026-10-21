@@ -26,7 +26,16 @@ assert baseline['sources'] == current['sources'], 'Original source words/edition
 
 def blocks(data):
     return {entry['id']+'/'+block['id']:block for handbook in data['handbooks'] for entry in handbook['entries'] for block in entry['blocks']}
-before,after = blocks(baseline),blocks(current)
+from copy import deepcopy
+from polish_revision import polish_edits
+comparison=deepcopy(current)
+comparison_blocks=blocks(comparison)
+for edit in polish_edits():
+    key,unit=edit['claim_id'].rsplit('/',1)
+    index=int(unit.removeprefix('paragraph-'))-1
+    assert comparison_blocks[key]['paragraphs'][index]==edit['after'],edit['claim_id']
+    comparison_blocks[key]['paragraphs'][index]=edit['before']
+before,after = blocks(baseline),blocks(comparison)
 assert set(before)==set(after) and len(after)==317
 edits = {e['claim_id']:e for e in manifest['edits']}
 assert len(edits)==manifest['changed_paragraphs']==203

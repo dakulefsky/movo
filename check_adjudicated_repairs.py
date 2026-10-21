@@ -25,7 +25,7 @@ edits = {e['claim_id']: e for e in read('adjudicated_repairs.json')['edits']}
 assert len(edits) == 32
 readability = read('readability_0137.json')['edits']
 final_texts = {r['claim_id']: r['claim_text'] for r in original['rows']}
-for edit in [*edits.values(), *readability]:
+for edit in [*edits.values(), *readability, *read('polish_0139.json')['edits']]:
     assert final_texts[edit['claim_id']] == edit['before'], ('overlay chain drift',edit['claim_id'])
     final_texts[edit['claim_id']] = edit['after']
 # Immutable historical fields, including rejected proposals and all review evidence.
@@ -72,4 +72,4 @@ assert 'יש הבדל בין המקורות' in prose('d-edut/meaning')
 assert 'ובעיקר תוספות יום טוב נתפרש' in prose('minchah/exceptions')
 assert len(blocks['minchah/exceptions']['paragraphs']) == 2
 assert 'מנחה רגילה' in blocks['minchah/exceptions']['paragraphs'][0]
-print('PASS: 32 adjudicated repairs + 203 guarded readability revisions; 317 blocks / 360 claims; all historical sources and reviewed evidence preserved. No scholarly certification.')
+print('PASS: 32 adjudicated repairs + 203 guarded readability revisions + 14 sentence polishes; 317 blocks / 360 claims; all historical sources and reviewed evidence preserved. No scholarly certification.')

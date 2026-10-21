@@ -10162,6 +10162,13 @@
         "version": "0.13.8",
         "stage": "practice",
         "scope": "Presentation only; complete audited paragraph/item and its attached sources unchanged."
+      },
+      "sentence_polish": {
+        "version": "0.13.9",
+        "before": "שלמי יחיד הם קדשים קלים, ולכן אפשר לשוחטם בכל מקום בעזרה. דמם ניתן על המזבח החיצון בשתי מתנות שהן ארבע. את בשרם אוכלים בכל ירושלים, אך אין בכך היתר לשוחטם מחוץ לעזרה: מקום השחיטה ומקום האכילה נקבעים בנפרד.",
+        "after": "שלמי יחיד הם קדשים קלים, ולכן אפשר לשוחטם בכל מקום בעזרה. דמם ניתן על המזבח החיצון בשתי מתנות שהן ארבע. את בשרם אוכלים בכל ירושלים, אך אין בכך היתר לשוחטם מחוץ לעזרה: מקום השחיטה ומקום האכילה הם שני דינים נפרדים.",
+        "scope": "Sentence flow and ordinary Hebrew phrasing; preserve the existing claim, qualifications and attribution.",
+        "review": "Same-editor sentence polish; independent scholarly recheck pending."
       }
     },
     {
@@ -13903,6 +13910,13 @@
         "version": "0.13.8",
         "stage": "practice",
         "scope": "Presentation only; complete audited paragraph/item and its attached sources unchanged."
+      },
+      "sentence_polish": {
+        "version": "0.13.9",
+        "before": "אימורי שלמי הציבור מוקטרים, ובשרם נאכל לזכרי כהונה בעזרה ליום ולילה עד חצות. בכך נבדלים הם משלמי יחיד, שבשרם נאכל לבעלים בירושלים.",
+        "after": "אימורי שלמי הציבור מוקטרים, ובשרם נאכל לזכרי כהונה בעזרה ליום ולילה עד חצות. זאת לעומת שלמי יחיד, שבשרם נאכל לבעלים בירושלים.",
+        "scope": "Sentence flow and ordinary Hebrew phrasing; preserve the existing claim, qualifications and attribution.",
+        "review": "Same-editor sentence polish; independent scholarly recheck pending."
       }
     },
     {
@@ -28747,6 +28761,13 @@
         "version": "0.13.8",
         "stage": "distinctions",
         "scope": "Presentation only; complete audited paragraph/item and its attached sources unchanged."
+      },
+      "sentence_polish": {
+        "version": "0.13.9",
+        "before": "בחטאות הנשרפות יש להבחין בין הקטרת האימורים על המזבח לבין שרפת שאר הבשר בבית הדשן. במנחה מוקטרים הקומץ והלבונה, ודינם נידון גם לענין מחשבת פיגול.",
+        "after": "בחטאות הנשרפות מקטירים את האימורים על המזבח, ואת שאר הבשר שורפים בבית הדשן. במנחה מוקטרים הקומץ והלבונה, ודינם נידון גם לענין מחשבת פיגול.",
+        "scope": "Sentence flow and ordinary Hebrew phrasing; preserve the existing claim, qualifications and attribution.",
+        "review": "Same-editor sentence polish; independent scholarly recheck pending."
       }
     },
     {
@@ -39634,6 +39655,13 @@
         "version": "0.13.8",
         "stage": "practice",
         "scope": "Presentation only; complete audited paragraph/item and its attached sources unchanged."
+      },
+      "sentence_polish": {
+        "version": "0.13.9",
+        "before": "משכב הזב נעשה אב הטומאה ומטמא אדם וכלים, אך אינו יכול לעשות כלי אחר למשכב. זהו פירוש הכלל שהביא הרמב״ם: ״הזב עושה משכב ואין משכב עושה משכב״. טומאת מדרס נוצרת כשכובד הזב מונח על כלי הראוי לכך; מי שנוגע לאחר מכן במשכב הטמא נטמא כנוגע באב הטומאה, ואינו יוצר בכך מדרס חדש.",
+        "after": "משכב הזב נעשה אב הטומאה ומטמא אדם וכלים, אך אינו יכול לעשות כלי אחר למשכב. זהו פירוש הכלל שהביא הרמב״ם: ״הזב עושה משכב ואין משכב עושה משכב״. טומאת מדרס נוצרת כשכובד הזב מונח על כלי הראוי לכך; הנוגע לאחר מכן במשכב הטמא נטמא כנוגע באב הטומאה. מגע זה אינו יוצר מדרס חדש.",
+        "scope": "Split a compound sentence; retain the distinction between contact impurity and a new midras.",
+        "review": "Same-editor sentence polish; independent scholarly recheck pending."
       }
     },
     {
@@ -50557,6 +50585,13 @@
         "version": "0.13.8",
         "stage": "practice",
         "scope": "Presentation only; complete audited paragraph/item and its attached sources unchanged."
+      },
+      "sentence_polish": {
+        "version": "0.13.9",
+        "before": "המאירי פותח את לימוד המסכת בסידור הדינים שבין איש לאשתו, מן הנישואין והחופה ועד לזכויות הנוהגות בחייהם ולאחר מיתה. הוא מונה את עיקר הכתובה ותוספתה, טענת בתולים, מזונות, מעשי ידיה, מציאתה ונכסי מלוג. לצדם הוא מבאר תנאי בית דין החלים גם כשלא נכתבו בפירוש. בתוך מכלול זה יש להבחין בין עיקר חיוב הכתובה, חיובים נוספים שנתקבלו וזכויות שמקורן בתנאי בית דין.",
+        "after": "המאירי פותח את לימוד המסכת בסידור הדינים שבין איש לאשתו, מן הנישואין והחופה ועד לזכויות הנוהגות בחייהם ולאחר מיתה. הוא מונה את עיקר הכתובה ותוספתה, טענת בתולים, מזונות, מעשי ידיה, מציאתה ונכסי מלוג. לצדם הוא מבאר תנאי בית דין החלים גם כשלא נכתבו בפירוש. בתוך מכלול זה עיקר חיוב הכתובה נבדל מחיובים נוספים שנתקבלו ומזכויות שמקורן בתנאי בית דין.",
+        "scope": "Sentence flow and ordinary Hebrew phrasing; preserve the existing claim, qualifications and attribution.",
+        "review": "Same-editor sentence polish; independent scholarly recheck pending."
       }
     },
     {
@@ -62193,6 +62228,13 @@
         "version": "0.13.8",
         "stage": "meaning",
         "scope": "Presentation only; complete audited paragraph/item and its attached sources unchanged."
+      },
+      "sentence_polish": {
+        "version": "0.13.9",
+        "before": "חמשת המינים החייבים בחלה הם חיטים, שעורים, כוסמין, שיבולת שועל ושיפון. הרמב״ם קושר את החיוב להגדרת ״לחם״. אין די אפוא בכך שמאכל מסוים נקרא פת; לחיוב חלה נדרשת גם שייכותו למיני הדגן שנמנו.",
+        "after": "חמשת המינים החייבים בחלה הם חיטים, שעורים, כוסמין, שיבולת שועל ושיפון. הרמב״ם קושר את החיוב להגדרת ״לחם״. השם פת לבדו אינו מספיק לחיוב חלה; נדרש גם שהמאכל יהיה ממיני הדגן שנמנו.",
+        "scope": "Sentence flow and ordinary Hebrew phrasing; preserve the existing claim, qualifications and attribution.",
+        "review": "Same-editor sentence polish; independent scholarly recheck pending."
       }
     },
     {
@@ -62835,6 +62877,13 @@
         "version": "0.13.8",
         "stage": "distinctions",
         "scope": "Presentation only; complete audited paragraph/item and its attached sources unchanged."
+      },
+      "sentence_polish": {
+        "version": "0.13.9",
+        "before": "חמשת המינים שבמשנה משותפים לדיני חלה, חדש ומצה. הם נזכרים לעניין איסור חדש ולקצירה קודם העומר, והרמב״ם מבאר שדווקא הם ראויים לבוא לידי חימוץ. לכן מהם יוצאים ידי חובת מצה בליל הפסח, ולא ממינים שאינם באים לידי חימוץ זה. זוהי נקודת השיתוף בין הדינים; התנאים והפרטים של כל מצווה אינם נעשים בכך זהים.",
+        "after": "חמשת המינים שבמשנה משותפים לדיני חלה, חדש ומצה. הם נזכרים לעניין איסור חדש ולקצירה קודם העומר, והרמב״ם מבאר שדווקא הם ראויים לבוא לידי חימוץ. לכן מהם יוצאים ידי חובת מצה בליל הפסח, ולא ממינים שאינם באים לידי חימוץ זה. השיתוף במיני הדגן אינו משווה את התנאים והפרטים של המצוות.",
+        "scope": "Sentence flow and ordinary Hebrew phrasing; preserve the existing claim, qualifications and attribution.",
+        "review": "Same-editor sentence polish; independent scholarly recheck pending."
       }
     },
     {
@@ -71244,6 +71293,13 @@
         "version": "0.13.8",
         "stage": "distinctions",
         "scope": "Presentation only; complete audited paragraph/item and its attached sources unchanged."
+      },
+      "sentence_polish": {
+        "version": "0.13.9",
+        "before": "יש להבחין בין העמדת חוב קיים על פירות ובין קניית פירות במעות הניתנות עתה. בהעמדת החוב על החיטים צריך שיהיו החיטים מצויות אצל החייב, כפי התנאים שביאר הרמב״ם.",
+        "after": "דין העמדת חוב קיים על פירות שונה מדין קניית פירות במעות הניתנות עתה. בהעמדת החוב על החיטים צריך שיהיו החיטים מצויות אצל החייב, כפי התנאים שביאר הרמב״ם.",
+        "scope": "Sentence flow and ordinary Hebrew phrasing; preserve the existing claim, qualifications and attribution.",
+        "review": "Same-editor sentence polish; independent scholarly recheck pending."
       }
     },
     {
@@ -72774,6 +72830,13 @@
         "version": "0.13.8",
         "stage": "meaning",
         "scope": "Presentation only; complete audited paragraph/item and its attached sources unchanged."
+      },
+      "sentence_polish": {
+        "version": "0.13.9",
+        "before": "לפי ביאור הרמב״ם, קניין המטלטלין נעשה במשיכת הסחורה ולא בנתינת דמיה. מתוך כך יש להבחין בפרק הזהב בין מה שנחשב לסחורה לבין מה שמשמש מטבע לתשלום, לפי המקום והזמן.",
+        "after": "לפי ביאור הרמב״ם, קניין המטלטלין נעשה במשיכת הסחורה ולא בנתינת דמיה. לכן בפרק הזהב מבחינים בין מה שנחשב לסחורה לבין מה שמשמש מטבע לתשלום, לפי המקום והזמן.",
+        "scope": "Sentence flow and ordinary Hebrew phrasing; preserve the existing claim, qualifications and attribution.",
+        "review": "Same-editor sentence polish; independent scholarly recheck pending."
       }
     },
     {
@@ -75159,6 +75222,13 @@
         "version": "0.13.8",
         "stage": "distinctions",
         "scope": "Presentation only; complete audited paragraph/item and its attached sources unchanged."
+      },
+      "sentence_polish": {
+        "version": "0.13.9",
+        "before": "בחזקת שלוש שנים, המחזיק מבקש להוכיח שקנה את השדה. הוא טוען למכר ומראה שאכל את פירותיה במשך הזמן הנדרש. הרמב״ם מסביר שאין אדם שומר שטרו לעולם, ולכן החזקה עשויה לשמש ראיה לבעלותו. היא אינה מקנה לו את השדה בסוף השנה השלישית מכוח אכילת הפירות בלבד. בכך נבדלת חזקת הראיה מחזקת הקניין.",
+        "after": "בחזקת שלוש שנים, המחזיק מבקש להוכיח שקנה את השדה. הוא טוען למכר ומראה שאכל את פירותיה במשך הזמן הנדרש. הרמב״ם מסביר שאין אדם שומר שטרו לעולם, ולכן החזקה עשויה לשמש ראיה לבעלותו. היא אינה מקנה לו את השדה בסוף השנה השלישית מכוח אכילת הפירות בלבד. זו חזקת ראיה, בשונה מחזקה המשמשת למעשה קניין.",
+        "scope": "Sentence flow and ordinary Hebrew phrasing; preserve the existing claim, qualifications and attribution.",
+        "review": "Same-editor sentence polish; independent scholarly recheck pending."
       }
     },
     {
@@ -79850,6 +79920,13 @@
         "version": "0.13.8",
         "stage": "practice",
         "scope": "Presentation only; complete audited paragraph/item and its attached sources unchanged."
+      },
+      "sentence_polish": {
+        "version": "0.13.9",
+        "before": "לצד דיני בישול בשר בחלב, המשנה מביאה גזרה נוספת: אין להעלות בשר עם גבינה על שולחן שאוכלים עליו. לבית הלל גם עוף בכלל האיסור. הרמב״ם מבאר שהגזרה נועדה למנוע הרגל עבירה, ולכן היא נוהגת גם כשהבשר והגבינה לא נתבשלו יחד. זהו סייג שקבעו חכמים לקראת האכילה, ויש להבחין בינו לבין מה שאסרה התורה בבישול עצמו.",
+        "after": "לצד דיני בישול בשר בחלב, המשנה מביאה גזרה נוספת: אין להעלות בשר עם גבינה על שולחן שאוכלים עליו. לבית הלל גם עוף בכלל האיסור. הרמב״ם מבאר שהגזרה נועדה למנוע הרגל עבירה, ולכן היא נוהגת גם כשהבשר והגבינה לא נתבשלו יחד. סייג זה קבעו חכמים לקראת האכילה. הוא נבדל מאיסור הבישול עצמו שבתורה.",
+        "scope": "Sentence flow and ordinary Hebrew phrasing; preserve the existing claim, qualifications and attribution.",
+        "review": "Same-editor sentence polish; independent scholarly recheck pending."
       }
     },
     {
@@ -81016,6 +81093,13 @@
         "version": "0.13.8",
         "stage": "distinctions",
         "scope": "Presentation only; complete audited paragraph/item and its attached sources unchanged."
+      },
+      "sentence_polish": {
+        "version": "0.13.9",
+        "before": "״יד״ לנדר היא לשון שאינה נדר שלם, אך יש בה משמעות של נדר. לדברי הרמב״ם, האומר רק ״מודר אני ממך״ אינו אוסר על עצמו בכך את אכילת מאכלי חברו. לשם איסור האכילה הוא מצרף לשון כגון ״שאיני אוכל לך״. משמעות הנדר מתבררת אפוא מן המשפט כולו, ולא מן התיבה הפותחת בלבד.",
+        "after": "״יד״ לנדר היא לשון שאינה נדר שלם, אך יש בה משמעות של נדר. לדברי הרמב״ם, האומר רק ״מודר אני ממך״ אינו אוסר על עצמו בכך את אכילת מאכלי חברו. לשם איסור האכילה הוא מצרף לשון כגון ״שאיני אוכל לך״. משמעות הנדר מתבררת אפוא מן המשפט כולו, ולא רק מן המילה הפותחת.",
+        "scope": "Sentence flow and ordinary Hebrew phrasing; preserve the existing claim, qualifications and attribution.",
+        "review": "Same-editor sentence polish; independent scholarly recheck pending."
       }
     },
     {
@@ -82440,6 +82524,13 @@
         "version": "0.13.8",
         "stage": "meaning",
         "scope": "Presentation only; complete audited paragraph/item and its attached sources unchanged."
+      },
+      "sentence_polish": {
+        "version": "0.13.9",
+        "before": "גם אם אדם מכיר בכך שאין ראוי לכעוס או לנדור, נדרו אינו ניתר מעצמו. לשם התרתו נדרשות שאלה לחכם והתרתו, כפי שפוסק הרמב״ם כחכמים. דרך אחרת היא הפרה: התורה מסרה לאב ולבעל סמכות להפר נדרי אשה, כל אחד בגבולות שקבעה לו.",
+        "after": "גם אם אדם מכיר בכך שאין ראוי לכעוס או לנדור, נדרו אינו ניתר מעצמו. לשם התרתו נדרשות שאלה לחכם והתרה על ידו, כפי שפוסק הרמב״ם כחכמים. דרך אחרת היא הפרה: התורה מסרה לאב ולבעל סמכות להפר נדרי אשה, כל אחד בגבולות שקבעה לו.",
+        "scope": "Sentence flow and ordinary Hebrew phrasing; preserve the existing claim, qualifications and attribution.",
+        "review": "Same-editor sentence polish; independent scholarly recheck pending."
       }
     },
     {
@@ -82833,6 +82924,13 @@
         "version": "0.13.8",
         "stage": "meaning",
         "scope": "Presentation only; complete audited paragraph/item and its attached sources unchanged."
+      },
+      "sentence_polish": {
+        "version": "0.13.9",
+        "before": "שבועת ביטוי שייכת הן על העתיד, כגון ״שאוכל״ ו״שלא אוכל״, והן על העבר, כגון ״שאכלתי״ ו״שלא אכלתי״. אלו הן ה״שתיים שהן ארבע״ שבמשנה. אין זו שבועת הדיינים, שחיובה בא מתוך בירור תביעת ממון.",
+        "after": "שבועת ביטוי נוגעת הן לעתיד, כגון ״שאוכל״ ו״שלא אוכל״, והן לעבר, כגון ״שאכלתי״ ו״שלא אכלתי״. אלו הן ה״שתיים שהן ארבע״ שבמשנה. אין זו שבועת הדיינים, שחיובה בא מתוך בירור תביעת ממון.",
+        "scope": "Sentence flow and ordinary Hebrew phrasing; preserve the existing claim, qualifications and attribution.",
+        "review": "Same-editor sentence polish; independent scholarly recheck pending."
       }
     },
     {
@@ -85106,5 +85204,54 @@
     "workflow_log_sha256": "aec395bb3c48bab4de91c02162957c25eb729d74dd0d3f4806f7380e966134ea",
     "publication_route": "Manual release.yml on audit-0135-repairs; no main merge.",
     "content_status": "Reading structure only; all previous content, scholarly decisions and source conflicts preserved."
+  },
+  "sentence_polish_checkpoint": {
+    "version": "0.13.9",
+    "basis_commit": "890bcbb",
+    "changed_paragraphs": 14,
+    "manifest": "polish_0139.json",
+    "scope": "Sentence flow only; retain all 98 entries / 317 blocks / 360 claim units / 241 sources and the 0.13.8 reading plan.",
+    "validation": "PASS exact 14-paragraph comparison against committed 0.13.8; all prior reviewed row fields, source records, direct quotations, numbers, structure and all other corpus fields preserved. Two clean builds with identical ten-file payloads and valid CRC. Full packaged Chromium browser suite and pinned SDK host suite pass over authorized HTTP. Native packager payload matches; official validator passes with bundled SDK fallback, zero errors/warnings, published=false. Native installation/rendering limitation remains historical and unresolved.",
+    "scholarly_status": "No claim status promoted; all recorded source conflicts remain explicit.",
+    "clean_builds": [
+      {
+        "build": 1,
+        "zip_sha256": "9c671eecab90c317dcc75a808168529f4e3badc5d22fa609a2654dfc0a4210cb",
+        "files": {
+          "app.js": "8a1b2f848bce7cdb27f784d769f158bd42977d82321495145005897e1e068343",
+          "data/library.js": "7c01596ffeaa1b0fc8e83220095a3726b0655d95de5acf9ef12f1afa1b193358",
+          "fonts/NotoSerifHebrew.ttf": "4a76d07f2f671273d0219e51dc63459323be0c7b7d8106267f0f68af4227a3b5",
+          "fonts/Rubik.ttf": "7604615c681d3594432cb7f1b592657d1cac98acdb60c7e95619cddda19b265f",
+          "fonts/notoserifhebrew-OFL.txt": "9b9fe028b5ba74d231659a1bbaf0ed09b11e759d1ca6a070999e16d151616b47",
+          "fonts/rubik-OFL.txt": "472cbe7c25441df63e9c7864b43eb3c0f4b3df950c66a76224e6cfe1eae843fb",
+          "index.html": "2654bbd7642c67f135b2453d36979928774627ecf13684c48252e9cb0965d2b5",
+          "manifest.json": "a97d5b9b5dfa411c572d46fdbabd60ee94ef815feb6c025c80755f08070167fe",
+          "style.css": "1f9fa4c2f4f5c1ffe597bdfec63e0ba4c98ced5a1c25bb5cbbb4bc7bc782c6c1",
+          "theme-start.js": "8196bd063e270c287accace6dc102392e8fef835f14d100215881cc5b8d86034"
+        }
+      },
+      {
+        "build": 2,
+        "zip_sha256": "4df16ff3175be3c4cefba5f9735a44e5c10306de66c2a9bed8d1b55e611f0411",
+        "files": {
+          "app.js": "8a1b2f848bce7cdb27f784d769f158bd42977d82321495145005897e1e068343",
+          "data/library.js": "7c01596ffeaa1b0fc8e83220095a3726b0655d95de5acf9ef12f1afa1b193358",
+          "fonts/NotoSerifHebrew.ttf": "4a76d07f2f671273d0219e51dc63459323be0c7b7d8106267f0f68af4227a3b5",
+          "fonts/Rubik.ttf": "7604615c681d3594432cb7f1b592657d1cac98acdb60c7e95619cddda19b265f",
+          "fonts/notoserifhebrew-OFL.txt": "9b9fe028b5ba74d231659a1bbaf0ed09b11e759d1ca6a070999e16d151616b47",
+          "fonts/rubik-OFL.txt": "472cbe7c25441df63e9c7864b43eb3c0f4b3df950c66a76224e6cfe1eae843fb",
+          "index.html": "2654bbd7642c67f135b2453d36979928774627ecf13684c48252e9cb0965d2b5",
+          "manifest.json": "a97d5b9b5dfa411c572d46fdbabd60ee94ef815feb6c025c80755f08070167fe",
+          "style.css": "1f9fa4c2f4f5c1ffe597bdfec63e0ba4c98ced5a1c25bb5cbbb4bc7bc782c6c1",
+          "theme-start.js": "8196bd063e270c287accace6dc102392e8fef835f14d100215881cc5b8d86034"
+        }
+      }
+    ]
+  },
+  "sentence_polish_store_distribution": {
+    "version": "0.13.9",
+    "status": "prepared_for_user_requested_review_distribution",
+    "accuracy_notice": "דיוק התוכן נמצא בבדיקה.",
+    "scholarly_clearance": false
   }
 }

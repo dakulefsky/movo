@@ -241,6 +241,8 @@ for handbook in handbooks:
 
 from reading_structure import apply_reading_structure
 print('structured introductions:', apply_reading_structure(handbooks))
+from polish_revision import apply_polish
+print('final wording polish:', apply_polish(handbooks))
 
 all_entries=[e for h in handbooks for e in h['entries']]
 ids=[e['id'] for e in all_entries]
@@ -262,7 +264,7 @@ for src in sources.values():
   for key in d['provenance']['jsonPath']:obj=obj[key]
   obj=[obj] if isinstance(obj,str) else obj
   assert obj==d['he'],src['filename']
-data={'schemaVersion':2,'version':'0.13.8','author':'DanTheMan','editorialPolicy':policy,'subjects':[{'id':id,'title':title,'status':status} for id,title,status in [('kodashim','קדשים','available'),('tahorot','טהרות','available'),('ishut','אישות','available'),('zeraim','זרעים','available'),('mammon','דיני ממונות','available'),('issur','איסור והיתר','available')]],'handbooks':handbooks,'sources':sources}
+data={'schemaVersion':2,'version':'0.13.9','author':'DanTheMan','editorialPolicy':policy,'subjects':[{'id':id,'title':title,'status':status} for id,title,status in [('kodashim','קדשים','available'),('tahorot','טהרות','available'),('ishut','אישות','available'),('zeraim','זרעים','available'),('mammon','דיני ממונות','available'),('issur','איסור והיתר','available')]],'handbooks':handbooks,'sources':sources}
 (ROOT/'plugin/data').mkdir(parents=True,exist_ok=True)
 (ROOT/'plugin/data/library.js').write_text('window.MEVOOT='+json.dumps(data,ensure_ascii=False)+';\n')
 (ROOT/'editorial.json').write_text(json.dumps(data,ensure_ascii=False,indent=2))
