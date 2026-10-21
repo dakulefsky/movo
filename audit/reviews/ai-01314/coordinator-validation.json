@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "blocks": 317,
+  "claim_units": 360,
+  "source_segment_hash_checks": 732,
+  "finding_records": 7,
+  "historical_top_level_fields_preserved": 26,
+  "application_sha256": "9049de9b3be00871daba93a0b4f1e477b1e04aeeac13a52e72d3c390698ee973",
+  "checks": [
+    "Exact block/claim coverage without duplicates",
+    "Current text and source segment hashes match corpus",
+    "Finding quotations/citations/editions match bundled sources",
+    "Witness receipts present",
+    "Two glosses and 98 reading plans match",
+    "Every previous ledger top-level field unchanged",
+    "No six-gate status promotion"
+  ]
+}
