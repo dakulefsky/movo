@@ -1,13 +1,15 @@
 const assert=require('node:assert/strict'),path=require('node:path'),fs=require('node:fs'),{execFileSync}=require('node:child_process');
+const http=require('node:http');
 let pw;try{pw=require('playwright')}catch{pw=require(process.env.CODEX_PRIMARY_RUNTIME_NODE_MODULES+'/playwright')}
 (async()=>{
 const root=__dirname,unpacked=path.join(root,'test-unpacked');fs.rmSync(unpacked,{recursive:true,force:true});fs.mkdirSync(unpacked);
-execFileSync('python',['-c',`import zipfile;zipfile.ZipFile(${JSON.stringify(path.join(root,'dist/Mevoot-Shas-0.13.5.otzplugin'))}).extractall(${JSON.stringify(unpacked)})`]);
-const manifest=JSON.parse(fs.readFileSync(path.join(unpacked,'manifest.json')));assert.equal(manifest.author,'DanTheMan');assert.equal(manifest.version,'0.13.5');assert.equal(manifest.network.enabled,false);
+execFileSync('python',['-c',`import zipfile;zipfile.ZipFile(${JSON.stringify(path.join(root,'dist/Mevoot-Shas-0.13.6.otzplugin'))}).extractall(${JSON.stringify(unpacked)})`]);
+const manifest=JSON.parse(fs.readFileSync(path.join(unpacked,'manifest.json')));assert.equal(manifest.author,'DanTheMan');assert.equal(manifest.version,'0.13.6');assert.equal(manifest.network.enabled,false);
+const server=http.createServer((req,res)=>{const file=path.join(unpacked,decodeURIComponent(req.url.split('?')[0]));try{res.setHeader('Content-Type',file.endsWith('.js')?'text/javascript':file.endsWith('.css')?'text/css':file.endsWith('.woff2')?'font/woff2':'text/html');res.end(fs.readFileSync(file));}catch{res.statusCode=404;res.end();}});await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));const base='http://127.0.0.1:'+server.address().port;
 const browser=await pw.chromium.launch({headless:true,...(process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE?{executablePath:process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE}:{}),args:['--no-sandbox']}),page=await browser.newPage();const errors=[],remote=[];
 try{
-page.on('pageerror',e=>errors.push(e.message));page.on('request',r=>{if(/^https?:/.test(r.url()))remote.push(r.url())});
-await page.goto('file://'+path.join(unpacked,'index.html'));
+page.on('pageerror',e=>errors.push(e.message));page.on('request',r=>{if(/^https?:/.test(r.url())&&!r.url().startsWith(base+'/'))remote.push(r.url())});
+await page.goto(base+'/index.html');
 const chooseSubject=async id=>{await page.selectOption('#subject-switch',id);assert.equal(await page.locator('#directory-view').isVisible(),true);assert.equal(await page.locator('#entry-view').isVisible(),false);};
 const chooseEntry=async (id,expand=true)=>{if(await page.locator('#entry-view').isVisible())await page.click('#directory-toggle');await page.click('#toc a[href="#'+id+'"]');if(expand)await readingOption('expand');};
 const expandSection=async id=>{const section=page.locator('#'+id);if(await section.getAttribute('open')===null)await section.locator(':scope > summary').click();};
@@ -285,6 +287,6 @@ for(const correction of depth.updates){
 }
 assert.match(entry('asham','animals').paragraphs.join(' '),/זכרי הכבשים/);
 assert.match(entry('av-melikah','act').paragraphs.join(' '),/אין מבדילים/);
-assert.deepEqual(errors,[]);assert.deepEqual(remote,[]);console.log('PASS: actual unpacked 0.13.5 package; home search, voluntary resume, continuous reading; all 98 entries and 317 block controls in six areas; new avodot source dialogs and reciprocal offering links; cross-area deep-link search and exact source dialogs; Hebrew search, back/reload/pager, SDK success and failure paths, mobile+desktop no overflow, font persistence. No network requests, JS errors or screenshots.');
-}finally{await browser.close()}
+assert.deepEqual(errors,[]);assert.deepEqual(remote,[]);console.log('PASS: actual unpacked 0.13.6 package; home search, voluntary resume, continuous reading; all 98 entries and 317 block controls in six areas; new avodot source dialogs and reciprocal offering links; cross-area deep-link search and exact source dialogs; Hebrew search, back/reload/pager, SDK success and failure paths, mobile+desktop no overflow, font persistence. No network requests, JS errors or screenshots.');
+}finally{await browser.close();await new Promise(resolve=>server.close(resolve))}
 })().catch(e=>{console.error(e);process.exit(1)});

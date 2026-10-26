@@ -9,7 +9,7 @@ const norm=s=>String(s).normalize('NFKD').replace(/[\u0591-\u05bd\u05bf-\u05c7]/
 let activeSource=null,activeSegments=[],serial=0,nativeIterator=null,font=24,current=null;
 let hasFontPreference=false;
 try{const saved=Number(localStorage.getItem('mevoot-v2-font'));if(saved){font=saved;hasFontPreference=true;}}catch{}
-function setFont(n,persist=false){font=Math.min(36,Math.max(16,n));document.documentElement.style.setProperty('--reader-size',font+'px');if(persist)try{localStorage.setItem('mevoot-v2-font',font);}catch{}}
+function setFont(n,persist=false){font=Math.min(36,Math.max(16,n));document.documentElement.style.setProperty('--reader-size',font+'px');$('font-size').textContent=font+'px';$('smaller').disabled=font<=16;$('larger').disabled=font>=36;if(persist)try{localStorage.setItem('mevoot-v2-font',font);}catch{}}
 setFont(font);
 $('smaller').onclick=()=>{hasFontPreference=true;setFont(font-1,true)};$('larger').onclick=()=>{hasFontPreference=true;setFont(font+1,true)};
 function applyTheme(theme){
@@ -58,6 +58,11 @@ for(const id of ['home-button','directory-home','entry-home'])$(id).onclick=()=>
 $('subject-switch').onchange=()=>{if($('subject-switch').value)openSubject($('subject-switch').value);else $('home-button').click();};
 $('directory-toggle').onclick=$('back-subject').onclick=()=>openSubject(H.id);
 $('search-toggle').onclick=()=>{const open=$('search-panel').hidden;$('search-panel').hidden=!open;$('search-toggle').setAttribute('aria-expanded',String(open));if(open)$('search').focus();};
+document.addEventListener('keydown',event=>{
+ if(document.querySelector('dialog[open]')||event.ctrlKey||event.metaKey||event.altKey||event.isComposing)return;
+ if(event.key==='Escape'&&!$('search-panel').hidden){event.preventDefault();$('search-panel').hidden=true;$('search-toggle').setAttribute('aria-expanded','false');$('search-toggle').focus();return;}
+ if(event.key==='/'&&!event.target.closest('input,textarea,select,[contenteditable]')){event.preventDefault();if($('search-panel').hidden)$('search-toggle').click();else $('search').focus();$('scroll-content').scrollTop=0;}
+});
 $('home-search').onclick=()=>{$('search-toggle').click();if(!$('search-panel').hidden)$('scroll-content').scrollTop=0;};
 $('read-all').onclick=()=>document.querySelectorAll('.chapter').forEach(x=>x.open=true);
 function refControls(refs){const d=el('details');d.className='refs';d.append(el('summary','לעיון במקורות'));for(const r of refs){const src=D.sources[r.source];d.append(btn(src.citation+' · מקטעים '+r.segments.join(', '),()=>showSource(src.id,r.segments)));}return d;}
