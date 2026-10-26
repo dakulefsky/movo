@@ -1,0 +1,22 @@
+{
+  "ref": "mt-meilah-1",
+  "heRef": "רמב״ם, הלכות מעילה א, ג; ו",
+  "he": [
+    "ד  מעל בשגגה--משלם מה שנהנה, ותוספת חומש, ומביא איל בשני סלעים ומקריבו אשם, ומתכפר לו; וזה הוא הנקרא אשם מעילות, שנאמר \"וחטאה בשגגה, מקודשי ה':  והביא את אשמו . . . ואת אשר חטא מן הקודש ישלם, ואת חמישיתו . . .\" (ויקרא ה,טו-טז).  ושילום הקרן בתוספת חומש, עם הבאת הקרבן--מצות עשה.",
+    "ו  יש דברים שאין חייבין עליהן מעילה מדברי תורה, אבל אסור ליהנות בהן מדברי סופרים; והנהנה בהן, משלם קרן בלבד, ואינו מוסיף חומש, ואינו מביא אשם."
+  ],
+  "versions": [
+    {
+      "versionTitle": "Public Hebrew transcription accessed 2026-10-26",
+      "versionSource": "https://mechon-mamre.org/i/8901.htm",
+      "language": "he",
+      "license": "Public Domain"
+    }
+  ],
+  "witness": {
+    "receipt": "audit/reviews/continuation-2026-10-26/witness26.json",
+    "url": "https://mechon-mamre.org/i/8901.htm",
+    "retrieved_at": "2026-10-26",
+    "transcription": "Rendered lines; link markup expanded to its original visible text; no words silently emended."
+  }
+}

@@ -6,7 +6,7 @@ const root=__dirname,unpacked=path.join(root,'test-unpacked');fs.rmSync(unpacked
 execFileSync('python',['-c',`import zipfile;zipfile.ZipFile(${JSON.stringify(path.join(root,'dist/Mevoot-Shas-0.13.15.otzplugin'))}).extractall(${JSON.stringify(unpacked)})`]);
 const manifest=JSON.parse(fs.readFileSync(path.join(unpacked,'manifest.json')));assert.equal(manifest.author,'DanTheMan');assert.equal(manifest.version,'0.13.15');assert.equal(manifest.network.enabled,false);
 const literary=JSON.parse(fs.readFileSync(path.join(root,'readability_0137.json'),'utf8'));
-const polish={edits:['polish_0139.json','sentence_flow_01310.json','refinement_01313.json','refinement_01314.json','teaching_additions_01315.json'].flatMap(name=>JSON.parse(fs.readFileSync(path.join(root,name),'utf8')).edits)};
+const polish={edits:['polish_0139.json','sentence_flow_01310.json','refinement_01313.json','refinement_01314.json','teaching_additions_01315.json','source_overhaul_20261026.json'].flatMap(name=>JSON.parse(fs.readFileSync(path.join(root,name),'utf8')).edits)};
 const readabilityParagraph=(p,id)=>{const revised=literary.edits.find(e=>e.before===p&&e.claim_id===id)?.after||p;return polish.edits.reduce((text,e)=>e.before===text&&e.claim_id===id?e.after:text,revised);};
 const explanationAnchor=(block,text)=>literary.explanation_anchor_crosswalk.find(e=>e.block_id===block&&e.before===text)?.after||text;
 const runtime=await packageRuntime(unpacked);
@@ -385,6 +385,23 @@ for(const edit of teaching.edits){
  assert.match(await page.locator('#source-note').innerText(),/המקטעים המקומיים/);
  await page.click('#close-source');
 }
-assert.deepEqual(errors,[]);assert.deepEqual(remote,[]);console.log(`PASS: actual unpacked 0.13.15 package; home search, voluntary resume, continuous reading; all 98 entries and 317 block controls in six areas; new avodot source dialogs and reciprocal offering links; cross-area deep-link search and exact source dialogs; Hebrew search, back/reload/pager, SDK success and failure paths, mobile+desktop no overflow, font persistence. No external network requests, JS errors or screenshots. Transport: ${process.env.MOVO_TEST_TRANSPORT||'file'}.`);
+// Read the new distinctions from the packaged interface and open each actual prooftext.
+const overhaul=JSON.parse(fs.readFileSync(path.join(root,'source_overhaul_20261026.json'),'utf8'));
+for(const edit of overhaul.edits){
+ const [eid,bid,unit]=edit.claim_id.split('/');const key=eid+'--'+bid;
+ const subject=corpus.handbooks.find(h=>h.entries.some(e=>e.id===eid)).id;
+ await chooseSubject(subject);await chooseEntry(eid);await expandSection(key);
+ assert.ok((await page.locator('#'+key).innerText()).includes(edit.after),edit.claim_id);
+}
+for(const proof of overhaul.prooftexts){
+ const [eid,bid]=Object.keys(proof.targets)[0].split('/');const key=eid+'--'+bid;
+ await chooseSubject(corpus.handbooks.find(h=>h.entries.some(e=>e.id===eid)).id);await chooseEntry(eid);await expandSection(key);
+ await page.locator('#'+key+' .refs summary').click();
+ const index=entry(eid,bid).refs.findIndex(r=>r.source===proof.id);
+ await page.locator('#'+key+' .refs button').nth(index).click();
+ for(const segment of d.sources[proof.id].segments)assert.ok((await page.locator('#source-segments').innerText()).includes(segment.text),proof.id);
+ await page.click('#close-source');
+}
+assert.deepEqual(errors,[]);assert.deepEqual(remote,[]);console.log(`PASS: actual unpacked 0.13.15 package; home search, voluntary resume, continuous reading; all 98 entries and 317 block controls in six areas; new avodot source dialogs and reciprocal offering links; cross-area deep-link search and exact source dialogs; Hebrew search, back/reload/pager, SDK success and failure paths, mobile+desktop no overflow, font persistence; eight continuation paragraphs and five prooftexts rendered. No external network requests, JS errors or screenshots. Transport: ${process.env.MOVO_TEST_TRANSPORT||'file'}.`);
 }finally{await browser.close();await runtime.close()}
 })().catch(e=>{console.error(e);process.exit(1)});

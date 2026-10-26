@@ -268,6 +268,8 @@ for src in sources.values():
   assert obj==d['he'],src['filename']
 from editorial_glosses import compile_glosses, explained_text
 editorial_glosses=compile_glosses(handbooks)
+from source_overhaul import apply_overhaul
+print('source-fidelity continuation:', apply_overhaul(handbooks, sources))
 print('editorial glosses:',sum(map(len,editorial_glosses.values())))
 data={'editorialGlosses':editorial_glosses,'schemaVersion':2,'version':'0.13.15','author':'DanTheMan','editorialPolicy':policy,'subjects':[{'id':id,'title':title,'status':status} for id,title,status in [('kodashim','קדשים','available'),('tahorot','טהרות','available'),('ishut','אישות','available'),('zeraim','זרעים','available'),('mammon','דיני ממונות','available'),('issur','איסור והיתר','available')]],'handbooks':handbooks,'sources':sources}
 (ROOT/'plugin/data').mkdir(parents=True,exist_ok=True)

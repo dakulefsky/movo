@@ -25,6 +25,7 @@ for line in subprocess.check_output(['git','ls-tree','-r',plan['basis_commit'],'
     metadata,name=line.split('\t');actual=subprocess.check_output(['git','hash-object',name],cwd=ROOT,text=True).strip();assert actual==metadata.split()[2],name
 entries=[e for h in current['handbooks'] for e in h['entries']];blocks=[b for e in entries for b in e['blocks']]
 assert len(entries)==98 and len(blocks)==317 and sum(len(b['paragraphs'])+len(b['items']) for b in blocks)==360
-assert len(baseline['sources'])==241 and len(current['sources'])==246
+from source_overhaul import pre_overhaul_corpus
+assert len(baseline['sources'])==241 and len(pre_overhaul_corpus(current)['sources'])==246
 assert baseline['editorialGlosses']==current['editorialGlosses']
 print('PASS five source-supported teaching bridges, five separate prooftexts, two attribution labels; exact whole-corpus scope, all historical sources and ledger fields preserved; 98 entries /317 blocks /360 units. No scholarly certification.')

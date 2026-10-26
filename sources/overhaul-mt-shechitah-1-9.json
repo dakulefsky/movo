@@ -1,0 +1,21 @@
+{
+  "ref": "mt-shechitah-1-9",
+  "heRef": "רמב״ם, הלכות שחיטה א, ט",
+  "he": [
+    "ט  וכמה הוא שיעור השחיטה:  שני הסימנין שהן הקנה והוושט--השחיטה המעולה שייחתכו שניהן בין בבהמה בין בעוף, ולזה יתכוון השוחט; ואם שחט רוב אחד מהן בעוף, ורוב שניים בבהמה ובחיה--שחיטתו כשרה."
+  ],
+  "versions": [
+    {
+      "versionTitle": "Public Hebrew transcription accessed 2026-10-26",
+      "versionSource": "https://mechon-mamre.org/i/5301.htm",
+      "language": "he",
+      "license": "Public Domain"
+    }
+  ],
+  "witness": {
+    "receipt": "audit/reviews/continuation-2026-10-26/witness26c.json",
+    "url": "https://mechon-mamre.org/i/5301.htm",
+    "retrieved_at": "2026-10-26",
+    "transcription": "Rendered lines; link markup expanded to its original visible text; no words silently emended."
+  }
+}

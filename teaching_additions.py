@@ -44,7 +44,8 @@ def apply_teaching(handbooks,sources):
 
 def pre_teaching_corpus(data):
     """Strict inverse for earlier-layer checks; the new checker checks the full delta."""
-    result=deepcopy(data);plan=manifest()
+    from source_overhaul import pre_overhaul_corpus
+    result=pre_overhaul_corpus(data);plan=manifest()
     assert result['version']==plan['version']=='0.13.15'
     blocks={e['id']+'/'+b['id']:b for h in result['handbooks'] for e in h['entries'] for b in e['blocks']}
     by_block={item['block_id']:item for item in plan['prooftexts']}

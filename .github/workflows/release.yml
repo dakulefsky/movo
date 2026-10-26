@@ -35,6 +35,7 @@ jobs:
           python3 check_editorial_glosses.py
           python3 check_refinement.py
           python3 check_teaching_additions.py
+          python3 check_source_overhaul.py
       - name: Verify generated content exports are committed
         run: git diff --exit-code -- Mevoot-Shas-Content.md EDITORIAL-FORMAT.json
       - name: Test the packaged reading interface

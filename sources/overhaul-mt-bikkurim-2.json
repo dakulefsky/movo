@@ -1,0 +1,22 @@
+{
+  "ref": "mt-bikkurim-2",
+  "heRef": "רמב״ם, הלכות ביכורים ב, א–ב",
+  "he": [
+    "א  מצות עשה להביא ביכורים למקדש; ואין הביכורים נוהגין אלא בפני הבית ובארץ ישראל בלבד, שנאמר \"ראשית, ביכורי אדמתך, תביא, בית ה' אלוהיך\" (שמות כג,יט; שמות לד,כו).  ומביאין ביכורים מדבריהם מערי סיחון ועוג ומסוריה, שהקונה בסוריה כקונה בירושלים.",
+    "ג  [ב] אין מביאין ביכורים אלא משבעת המינין האמורים בשבח הארץ, והם החיטים והשעורים והענבים והתאנים והרימונים והזיתים והתמרים; ואם הביא חוץ משבעת המינין, לא נתקדשו."
+  ],
+  "versions": [
+    {
+      "versionTitle": "Public Hebrew transcription accessed 2026-10-26",
+      "versionSource": "https://mechon-mamre.org/i/7602.htm",
+      "language": "he",
+      "license": "Public Domain"
+    }
+  ],
+  "witness": {
+    "receipt": "audit/reviews/continuation-2026-10-26/witness26e.json",
+    "url": "https://mechon-mamre.org/i/7602.htm",
+    "retrieved_at": "2026-10-26",
+    "transcription": "Rendered lines; link markup expanded to its original visible text; no words silently emended."
+  }
+}
