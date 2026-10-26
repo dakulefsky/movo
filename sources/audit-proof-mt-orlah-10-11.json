@@ -1,0 +1,22 @@
+{
+  "ref": "רמב״ם הלכות מאכלות אסורות י, יא",
+  "heRef": "רמב״ם הלכות מאכלות אסורות י, יא",
+  "he": [
+    "ובחוצה לארץ, אפילו ראה הענבים יוצאות מכרם עורלה, או ירק יוצא מן הכרם--לוקח מהן: והוא שלא יראה אותו בוצר מן העורלה, או לוקט הירק בידו."
+  ],
+  "versions": [
+    {
+      "language": "he",
+      "versionTitle": "Mechon Mamre public Hebrew text",
+      "versionSource": "https://mechon-mamre.org/i/5210.htm",
+      "license": "Public Domain"
+    }
+  ],
+  "witness": {
+    "url": "https://mechon-mamre.org/i/5210.htm",
+    "retrieved_at": "2026-10-21",
+    "page_sha256": "df8bd5c07db836a278a90f35bb8cfc6ad6e20f609e89bf75cd50996f81a8cc3e",
+    "capture": "audit-witness-maachalot-10.json",
+    "normalization": "HTML text nodes joined, whitespace collapsed; passages extracted without rewriting"
+  }
+}

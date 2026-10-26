@@ -1,0 +1,2668 @@
+{
+  "basis_commit": "81a13bf",
+  "basis_version": "0.13.7",
+  "scope": "Reading structure only: all 98 entries and 317 complete blocks remain. No paragraph, item, source quotation, note, reference, heading or link is edited. First understand the subject, then read its operation and distinctions. Omit empty stages instead of inventing material.",
+  "categories": {
+    "meaning": "Definition, core obligation or primary case; relevant kinds or materials.",
+    "practice": "Process, requirements, timings, quantities or worked illustration.",
+    "distinctions": "Exceptions, comparisons, disputes or boundary conditions; complete attached source notes remain with the block."
+  },
+  "entries": {
+    "olah": {
+      "block_order": [
+        "purpose",
+        "animals",
+        "service",
+        "portions",
+        "bird",
+        "neder",
+        "analysis"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "purpose",
+            "animals"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "service",
+            "portions",
+            "neder"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "bird",
+            "analysis"
+          ]
+        }
+      ]
+    },
+    "chattat": {
+      "block_order": [
+        "purpose",
+        "animals",
+        "variable",
+        "outer",
+        "inner",
+        "bird",
+        "shem"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "purpose",
+            "animals"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "outer"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "variable",
+            "inner",
+            "bird",
+            "shem"
+          ]
+        }
+      ]
+    },
+    "k-inner-chattat": {
+      "block_order": [
+        "place",
+        "essential",
+        "remainder"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "place"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "remainder"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "essential"
+          ]
+        }
+      ]
+    },
+    "asham": {
+      "block_order": [
+        "nature",
+        "types",
+        "animals",
+        "service",
+        "eating",
+        "talui-depth"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "nature",
+            "types",
+            "animals"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "service",
+            "eating"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "talui-depth"
+          ]
+        }
+      ]
+    },
+    "shelamim": {
+      "block_order": [
+        "purpose",
+        "animals",
+        "service",
+        "portions",
+        "time",
+        "tenufa-depth"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "purpose",
+            "animals"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "service",
+            "portions",
+            "time"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "tenufa-depth"
+          ]
+        }
+      ]
+    },
+    "todah": {
+      "block_order": [
+        "nature",
+        "bread",
+        "portions",
+        "service",
+        "bread-ratio"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "nature"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "bread",
+            "portions",
+            "service"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "bread-ratio"
+          ]
+        }
+      ]
+    },
+    "nazir": {
+      "block_order": [
+        "purpose",
+        "service",
+        "portions",
+        "time"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "purpose"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "service",
+            "portions",
+            "time"
+          ]
+        }
+      ]
+    },
+    "public-shelamim": {
+      "block_order": [
+        "purpose",
+        "service",
+        "portions"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "purpose"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "service",
+            "portions"
+          ]
+        }
+      ]
+    },
+    "bekhor": {
+      "block_order": [
+        "nature",
+        "service",
+        "eating"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "nature"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "service",
+            "eating"
+          ]
+        }
+      ]
+    },
+    "maaser": {
+      "block_order": [
+        "nature",
+        "service",
+        "eating"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "nature"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "service",
+            "eating"
+          ]
+        }
+      ]
+    },
+    "pesach": {
+      "block_order": [
+        "purpose",
+        "service",
+        "eating",
+        "shem",
+        "scope"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "purpose"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "service",
+            "eating"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "shem",
+            "scope"
+          ]
+        }
+      ]
+    },
+    "minchah": {
+      "block_order": [
+        "nature",
+        "eating",
+        "cohen",
+        "matzah",
+        "exceptions"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "nature"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "eating"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "cohen",
+            "matzah",
+            "exceptions"
+          ]
+        }
+      ]
+    },
+    "k-nesachim": {
+      "block_order": [
+        "meaning",
+        "distinction"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "meaning"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "distinction"
+          ]
+        }
+      ]
+    },
+    "av-semichah": {
+      "block_order": [
+        "act",
+        "offerings",
+        "person",
+        "effect"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "act"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "offerings"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "person",
+            "effect"
+          ]
+        }
+      ]
+    },
+    "av-shechitah": {
+      "block_order": [
+        "act",
+        "person",
+        "place",
+        "thought"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "act"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "person"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "place",
+            "thought"
+          ]
+        }
+      ]
+    },
+    "av-kabbalah": {
+      "block_order": [
+        "act",
+        "person",
+        "place",
+        "repair"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "act"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "person",
+            "place"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "repair"
+          ]
+        }
+      ]
+    },
+    "av-holachah": {
+      "block_order": [
+        "act",
+        "possible",
+        "thought"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "act"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "possible",
+            "thought"
+          ]
+        }
+      ]
+    },
+    "av-zerikah": {
+      "block_order": [
+        "act",
+        "outer",
+        "height",
+        "inner",
+        "meakev",
+        "shirayim"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "act"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "outer",
+            "height",
+            "inner",
+            "shirayim"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "meakev"
+          ]
+        }
+      ]
+    },
+    "k-matanot": {
+      "block_order": [
+        "outer",
+        "shammai",
+        "inner"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "outer"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "shammai",
+            "inner"
+          ]
+        }
+      ]
+    },
+    "av-haktarah": {
+      "block_order": [
+        "act",
+        "order",
+        "burning",
+        "altar"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "act"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "order"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "burning",
+            "altar"
+          ]
+        }
+      ]
+    },
+    "av-melikah": {
+      "block_order": [
+        "act",
+        "blood",
+        "portions"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "act"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "blood",
+            "portions"
+          ]
+        }
+      ]
+    },
+    "av-tenufah": {
+      "block_order": [
+        "act",
+        "objects",
+        "when",
+        "person"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "act"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "objects",
+            "when"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "person"
+          ]
+        }
+      ]
+    },
+    "avodot": {
+      "block_order": [
+        "sequence",
+        "worker",
+        "place"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "sequence"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "worker"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "place"
+          ]
+        }
+      ]
+    },
+    "imurim": {
+      "block_order": [
+        "parts",
+        "boundaries"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "parts"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "boundaries"
+          ]
+        }
+      ]
+    },
+    "pesulim": {
+      "block_order": [
+        "shem",
+        "place",
+        "time",
+        "notar",
+        "example",
+        "essential-parts"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "shem"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "example"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "place",
+            "time",
+            "notar",
+            "essential-parts"
+          ]
+        }
+      ]
+    },
+    "k-meilah": {
+      "block_order": [
+        "meaning",
+        "distinction",
+        "invalid-service"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "meaning"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "distinction",
+            "invalid-service"
+          ]
+        }
+      ]
+    },
+    "k-temurah": {
+      "block_order": [
+        "meaning",
+        "distinction",
+        "ownership"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "meaning"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "distinction",
+            "ownership"
+          ]
+        }
+      ]
+    },
+    "public": {
+      "block_order": [
+        "public",
+        "time"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "public"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "time"
+          ]
+        }
+      ]
+    },
+    "t-met": {
+      "block_order": [
+        "source",
+        "chain",
+        "scope",
+        "kli-cheres"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "source"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "chain"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "scope",
+            "kli-cheres"
+          ]
+        }
+      ]
+    },
+    "t-sheretz": {
+      "block_order": [
+        "species",
+        "contact",
+        "example"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "species"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "contact",
+            "example"
+          ]
+        }
+      ]
+    },
+    "t-nevelah": {
+      "block_order": [
+        "source",
+        "ways",
+        "bird"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "source"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "ways"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "bird"
+          ]
+        }
+      ]
+    },
+    "t-zav": {
+      "block_order": [
+        "source",
+        "midras",
+        "rank"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "source"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "midras",
+            "rank"
+          ]
+        }
+      ]
+    },
+    "t-niddah": {
+      "block_order": [
+        "meaning",
+        "distinction",
+        "day-watch"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "meaning"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "distinction",
+            "day-watch"
+          ]
+        }
+      ]
+    },
+    "t-contact": {
+      "block_order": [
+        "maga",
+        "masa",
+        "heset",
+        "tilt"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "maga"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "masa"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "heset",
+            "tilt"
+          ]
+        }
+      ]
+    },
+    "t-ohel": {
+      "block_order": [
+        "meaning",
+        "distinction",
+        "bib-example"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "meaning"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "bib-example"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "distinction"
+          ]
+        }
+      ]
+    },
+    "t-ranks": {
+      "block_order": [
+        "rank",
+        "food",
+        "rabbinic",
+        "levels"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "rank"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "food"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "rabbinic",
+            "levels"
+          ]
+        }
+      ]
+    },
+    "t-kelim": {
+      "block_order": [
+        "materials",
+        "cheres",
+        "purification",
+        "glass"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "materials"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "cheres"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "purification",
+            "glass"
+          ]
+        }
+      ]
+    },
+    "t-hechsher": {
+      "block_order": [
+        "meaning",
+        "conditions",
+        "liquids"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "meaning",
+            "liquids"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "conditions"
+          ]
+        }
+      ]
+    },
+    "t-mashkin": {
+      "block_order": [
+        "seven",
+        "first",
+        "tvul"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "seven"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "first"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "tvul"
+          ]
+        }
+      ]
+    },
+    "t-yadayim": {
+      "block_order": [
+        "meaning",
+        "distinction"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "meaning"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "distinction"
+          ]
+        }
+      ]
+    },
+    "t-tevilah": {
+      "block_order": [
+        "water",
+        "chatzitzah",
+        "sunset",
+        "tvul-explanation"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "water"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "chatzitzah",
+            "sunset"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "tvul-explanation"
+          ]
+        }
+      ]
+    },
+    "t-hazaah": {
+      "block_order": [
+        "water",
+        "days",
+        "mazzeh"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "water"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "days",
+            "mazzeh"
+          ]
+        }
+      ]
+    },
+    "t-safek": {
+      "block_order": [
+        "meaning",
+        "distinction"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "meaning"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "distinction"
+          ]
+        }
+      ]
+    },
+    "i-kiddushin": {
+      "block_order": [
+        "meaning",
+        "ways",
+        "issur",
+        "way-of-act"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "meaning"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "ways",
+            "way-of-act"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "issur"
+          ]
+        }
+      ]
+    },
+    "i-yuchasin": {
+      "block_order": [
+        "map",
+        "chalal",
+        "limits"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "map"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "chalal",
+            "limits"
+          ]
+        }
+      ]
+    },
+    "i-nissuin": {
+      "block_order": [
+        "stages",
+        "time",
+        "example"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "stages"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "time",
+            "example"
+          ]
+        }
+      ]
+    },
+    "i-ketubah": {
+      "block_order": [
+        "scope",
+        "shiabud",
+        "rights",
+        "source-map"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "scope"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "shiabud",
+            "source-map"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "rights"
+          ]
+        }
+      ]
+    },
+    "i-shlichut": {
+      "block_order": [
+        "kiddushin",
+        "get"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "kiddushin"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "get"
+          ]
+        }
+      ]
+    },
+    "i-gerushin": {
+      "block_order": [
+        "meaning",
+        "writing",
+        "delivery",
+        "written-gist"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "meaning"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "writing",
+            "delivery"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "written-gist"
+          ]
+        }
+      ]
+    },
+    "i-lishmah": {
+      "block_order": [
+        "meaning",
+        "distinction"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "meaning"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "distinction"
+          ]
+        }
+      ]
+    },
+    "i-edei-get": {
+      "block_order": [
+        "meaning",
+        "distinction"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "meaning"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "distinction"
+          ]
+        }
+      ]
+    },
+    "i-yibum": {
+      "block_order": [
+        "falling",
+        "one",
+        "ervah",
+        "house-rule"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "falling"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "one"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "ervah",
+            "house-rule"
+          ]
+        }
+      ]
+    },
+    "i-chalitzah": {
+      "block_order": [
+        "meaning",
+        "seder",
+        "advice",
+        "publicity"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "meaning"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "seder",
+            "advice"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "publicity"
+          ]
+        }
+      ]
+    },
+    "i-maamar": {
+      "block_order": [
+        "meaning",
+        "consequence",
+        "two-sides"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "meaning"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "consequence",
+            "two-sides"
+          ]
+        }
+      ]
+    },
+    "z-peah": {
+      "block_order": [
+        "meaning",
+        "distinction",
+        "measure"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "meaning"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "measure"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "distinction"
+          ]
+        }
+      ]
+    },
+    "z-leket-shikcha": {
+      "block_order": [
+        "leket",
+        "edge",
+        "omer"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "leket"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "omer"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "edge"
+          ]
+        }
+      ]
+    },
+    "z-hafrashah": {
+      "block_order": [
+        "produce",
+        "gmar",
+        "order",
+        "gmar-home"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "produce"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "gmar",
+            "order"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "gmar-home"
+          ]
+        }
+      ]
+    },
+    "z-terumah": {
+      "block_order": [
+        "meaning",
+        "amount",
+        "who",
+        "cohen"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "meaning"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "amount",
+            "who"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "cohen"
+          ]
+        }
+      ]
+    },
+    "z-maaser-rishon": {
+      "block_order": [
+        "gift",
+        "tenth",
+        "distinction"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "gift"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "tenth"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "distinction"
+          ]
+        }
+      ]
+    },
+    "z-maaser-sheni": {
+      "block_order": [
+        "meaning",
+        "pidyon",
+        "use",
+        "fifth",
+        "fourth"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "meaning"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "pidyon",
+            "use"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "fifth",
+            "fourth"
+          ]
+        }
+      ]
+    },
+    "z-maaser-ani": {
+      "block_order": [
+        "years",
+        "biur"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "years"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "biur"
+          ]
+        }
+      ]
+    },
+    "z-demai": {
+      "block_order": [
+        "meaning",
+        "distinction"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "meaning"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "distinction"
+          ]
+        }
+      ]
+    },
+    "z-challah": {
+      "block_order": [
+        "grains",
+        "dough",
+        "amount",
+        "baker"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "grains"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "dough"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "amount",
+            "baker"
+          ]
+        }
+      ]
+    },
+    "z-five-grains": {
+      "block_order": [
+        "species",
+        "combination",
+        "new"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "species"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "combination"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "new"
+          ]
+        }
+      ]
+    },
+    "z-orlah": {
+      "block_order": [
+        "years",
+        "intent",
+        "chutz"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "years"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "intent"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "chutz"
+          ]
+        }
+      ]
+    },
+    "z-bikkurim": {
+      "block_order": [
+        "meaning",
+        "distinction"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "meaning"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "distinction"
+          ]
+        }
+      ]
+    },
+    "z-kilayim": {
+      "block_order": [
+        "kinds",
+        "crops",
+        "grafting"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "kinds"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "crops",
+            "grafting"
+          ]
+        }
+      ]
+    },
+    "z-sheviit": {
+      "block_order": [
+        "work",
+        "fruit",
+        "use",
+        "price"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "work"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "fruit"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "use",
+            "price"
+          ]
+        }
+      ]
+    },
+    "z-biur": {
+      "block_order": [
+        "meaning",
+        "distinction",
+        "regions"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "meaning"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "regions"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "distinction"
+          ]
+        }
+      ]
+    },
+    "z-shemittat-kesafim": {
+      "block_order": [
+        "debt",
+        "disputes"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "debt"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "disputes"
+          ]
+        }
+      ]
+    },
+    "z-prozbul": {
+      "block_order": [
+        "meaning",
+        "distinction"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "meaning"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "distinction"
+          ]
+        }
+      ]
+    },
+    "d-nezikin": {
+      "block_order": [
+        "avot",
+        "difference",
+        "features"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "avot"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "difference",
+            "features"
+          ]
+        }
+      ]
+    },
+    "d-chovel": {
+      "block_order": [
+        "meaning",
+        "distinction"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "meaning"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "distinction"
+          ]
+        }
+      ]
+    },
+    "d-geneivah": {
+      "block_order": [
+        "meaning",
+        "distinction"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "meaning"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "distinction"
+          ]
+        }
+      ]
+    },
+    "d-gezel": {
+      "block_order": [
+        "meaning",
+        "distinction"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "meaning"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "distinction"
+          ]
+        }
+      ]
+    },
+    "d-shomrim": {
+      "block_order": [
+        "four",
+        "ones",
+        "baalav"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "four"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "ones",
+            "baalav"
+          ]
+        }
+      ]
+    },
+    "d-shomer-ones": {
+      "block_order": [
+        "roles",
+        "wolves",
+        "exposure"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "roles"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "wolves",
+            "exposure"
+          ]
+        }
+      ]
+    },
+    "d-ribit": {
+      "block_order": [
+        "meaning",
+        "distinction"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "meaning"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "distinction"
+          ]
+        }
+      ]
+    },
+    "d-avedah": {
+      "block_order": [
+        "siman",
+        "recognition"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "siman"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "recognition"
+          ]
+        }
+      ]
+    },
+    "d-karka": {
+      "block_order": [
+        "ways",
+        "chazakah"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "ways"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "chazakah"
+          ]
+        }
+      ]
+    },
+    "d-mitaltelin": {
+      "block_order": [
+        "meshichah",
+        "agav"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "meshichah"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "agav"
+          ]
+        }
+      ]
+    },
+    "d-onaah": {
+      "block_order": [
+        "meaning",
+        "distinction",
+        "seller-buyer"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "meaning"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "distinction"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "seller-buyer"
+          ]
+        }
+      ]
+    },
+    "d-shutfin": {
+      "block_order": [
+        "meaning",
+        "distinction"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "meaning"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "distinction"
+          ]
+        }
+      ]
+    },
+    "d-harchakah": {
+      "block_order": [
+        "meaning",
+        "distinction"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "meaning"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "distinction"
+          ]
+        }
+      ]
+    },
+    "d-yerushah": {
+      "block_order": [
+        "meaning",
+        "distinction",
+        "three-laws"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "meaning"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "three-laws"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "distinction"
+          ]
+        }
+      ]
+    },
+    "d-chazakah": {
+      "block_order": [
+        "meaning",
+        "distinction"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "meaning"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "distinction"
+          ]
+        }
+      ]
+    },
+    "d-two-chazakot": {
+      "block_order": [
+        "action",
+        "proof",
+        "owner"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "action"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "proof",
+            "owner"
+          ]
+        }
+      ]
+    },
+    "d-shevuot": {
+      "block_order": [
+        "meaning",
+        "distinction",
+        "hesset"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "meaning"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "distinction",
+            "hesset"
+          ]
+        }
+      ]
+    },
+    "d-edut": {
+      "block_order": [
+        "meaning",
+        "distinction"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "meaning"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "distinction"
+          ]
+        }
+      ]
+    },
+    "d-dayanim": {
+      "block_order": [
+        "three",
+        "acceptance",
+        "permission"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "three"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "acceptance",
+            "permission"
+          ]
+        }
+      ]
+    },
+    "a-shechitah": {
+      "block_order": [
+        "meaning",
+        "distinction",
+        "competence"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "meaning"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "distinction"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "competence"
+          ]
+        }
+      ]
+    },
+    "a-terefah": {
+      "block_order": [
+        "meaning",
+        "distinction",
+        "internal"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "meaning"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "distinction",
+            "internal"
+          ]
+        }
+      ]
+    },
+    "a-basar-chalav": {
+      "block_order": [
+        "meaning",
+        "distinction",
+        "distance"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "meaning"
+          ]
+        },
+        {
+          "id": "practice",
+          "title": "עיקרי הדין והמעשה",
+          "blocks": [
+            "distinction",
+            "distance"
+          ]
+        }
+      ]
+    },
+    "a-taam": {
+      "block_order": [
+        "meaning",
+        "distinction",
+        "udder"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "meaning"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "distinction",
+            "udder"
+          ]
+        }
+      ]
+    },
+    "a-neder": {
+      "block_order": [
+        "meaning",
+        "distinction",
+        "sukkah"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "meaning"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "distinction",
+            "sukkah"
+          ]
+        }
+      ]
+    },
+    "a-yadot-kinuyim": {
+      "block_order": [
+        "names",
+        "meaning",
+        "rashaim"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "names"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "meaning",
+            "rashaim"
+          ]
+        }
+      ]
+    },
+    "a-hatarah": {
+      "block_order": [
+        "meaning",
+        "distinction"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "meaning"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "distinction"
+          ]
+        }
+      ]
+    },
+    "a-shevuah": {
+      "block_order": [
+        "meaning",
+        "distinction",
+        "speech"
+      ],
+      "sections": [
+        {
+          "id": "meaning",
+          "title": "מהו העניין",
+          "blocks": [
+            "meaning"
+          ]
+        },
+        {
+          "id": "distinctions",
+          "title": "חילוקים וחריגים",
+          "blocks": [
+            "distinction",
+            "speech"
+          ]
+        }
+      ]
+    }
+  }
+}

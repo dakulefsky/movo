@@ -1,0 +1,15 @@
+{
+  "ref": "Mishneh Torah, Vessels 8:1",
+  "heRef": "רמב״ם, הלכות כלים ח:א",
+  "he": [
+    "כל כלי מתכות אינן מקבלין טומאה--עד שתיגמר מלאכתן כולה, ולא יהיה הכלי מחוסר מעשה כלל; אבל גולמי כלי מתכות, אינן מקבלות טומאה."
+  ],
+  "versions": [
+    {
+      "language": "he",
+      "versionTitle": "Mishneh Torah (Mechon Mamre)—selected verbatim clauses, not full chapter",
+      "versionSource": "https://mechon-mamre.org/i/a708.htm",
+      "license": "Public Domain"
+    }
+  ]
+}

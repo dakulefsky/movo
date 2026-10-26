@@ -1,0 +1,22 @@
+{
+  "ref": "ויקרא יא, לא",
+  "heRef": "ויקרא יא, לא — במתם",
+  "he": [
+    "אלה הטמאים לכם בכל השרץ כל הנגע בהם במתם יטמא עד הערב."
+  ],
+  "versions": [
+    {
+      "language": "he",
+      "versionTitle": "Wikisource public Hebrew transcription",
+      "versionSource": "https://he.wikisource.org/wiki/ויקרא_יא_לא",
+      "license": "CC BY-SA"
+    }
+  ],
+  "witness": {
+    "url": "https://he.wikisource.org/wiki/ויקרא_יא_לא",
+    "retrieved_at": "2026-10-21",
+    "page_sha256": "2e145dc42b1dbbb619a340dd963da6a437137faa438734feaf8a33db9eb3d3ee",
+    "capture": "audit-witness-leviticus-11.json",
+    "normalization": "HTML text nodes joined, whitespace collapsed; passages extracted without rewriting"
+  }
+}

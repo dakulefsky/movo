@@ -1,0 +1,26 @@
+{
+  "official_release": "0.9.98+801",
+  "plugin_version": "0.13.15",
+  "native_packager_exit": 0,
+  "package_sha256": "07b982c25e36ae442cd595cee2dfba558e5611d70e233b0f5580601d091ffa4a",
+  "package_file_hashes": {
+    "app.js": "952110f04591cc12656faae4deea70da3d5ba1711721efe5f116d8997c9df889",
+    "data/library.js": "9ad9abbc57bdde46e00d033a9087483bd4451b5ca596c31ddc2f6f14b53e0d2a",
+    "fonts/NotoSerifHebrew.ttf": "4a76d07f2f671273d0219e51dc63459323be0c7b7d8106267f0f68af4227a3b5",
+    "fonts/Rubik.ttf": "7604615c681d3594432cb7f1b592657d1cac98acdb60c7e95619cddda19b265f",
+    "fonts/notoserifhebrew-OFL.txt": "9b9fe028b5ba74d231659a1bbaf0ed09b11e759d1ca6a070999e16d151616b47",
+    "fonts/rubik-OFL.txt": "472cbe7c25441df63e9c7864b43eb3c0f4b3df950c66a76224e6cfe1eae843fb",
+    "index.html": "2654bbd7642c67f135b2453d36979928774627ecf13684c48252e9cb0965d2b5",
+    "manifest.json": "be5d6fc2ebc743cc5f435cbecc0b91682dfb9eb9699b64a7873e8b2fd7ff3d11",
+    "style.css": "7633758a8b50cf74431c1381addb867f04c5f13e3cf994239cffb9b2dd79ebc2",
+    "theme-start.js": "8196bd063e270c287accace6dc102392e8fef835f14d100215881cc5b8d86034"
+  },
+  "same_payload_as_tested_package": true,
+  "runtime_package_sha256": {
+    "otzaria": "cb2cef903b165f1e38a557a23bcc2819ae1af3a05b1e206d416dc62e61880d7f",
+    "harfbuzz-icu": "0b45d951629e98673c0da73b2bcd0886a467d833bb3b7499892a168f247165d2",
+    "gles": "e12c18aa77939d122ee1dea520ba0440b97dc19200b7396e03dff03a3ece74c1",
+    "xvfb": "893d87bf159b6de077a929fc796a73c39f837d45310b2076e3eeebebb80552b6"
+  },
+  "limits": "Native packaging only. --open permits manual GUI installation/reading checks; indexed reader opening and scholarly approval are separate."
+}

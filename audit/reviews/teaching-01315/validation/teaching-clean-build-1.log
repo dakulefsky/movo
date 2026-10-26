@@ -1,0 +1,33 @@
+source-anchored expansion: {'new_entries': 9, 'new_blocks': 66, 'source_anchor_checks': 66}
+audit corrections: 21
+adjudicated corrections: 32
+separate audit prooftexts: 14
+readability revisions: 203
+structured introductions: 98
+final wording polish: 29
+sourced teaching bridges: 5
+editorial glosses: 2
+kodashim 28 entries 113 blocks 4824 Hebrew words
+tahorot 15 entries 48 blocks 2238 Hebrew words
+ishut 11 entries 35 blocks 1938 Hebrew words
+zeraim 17 entries 52 blocks 2323 Hebrew words
+mammon 19 entries 46 blocks 2850 Hebrew words
+issur 8 entries 23 blocks 1418 Hebrew words
+246 bundled sources
+
+/workspace/movo-audit/dist/Mevoot-Shas-0.13.15.otzplugin
+
+BASELINE ONLY: 317 blocks, 360 paragraph/item claim units; zero independently certified.
+PASS: 32 adjudicated repairs + 203 guarded readability revisions + 29 sentence refinements; 317 blocks / 360 claims; all historical sources and reviewed evidence preserved. No scholarly certification.
+
+PASS readability scope: 203 paragraphs / 185 blocks; all 317 blocks, headings, lists, refs, links and 241 source records preserved. Explanation-anchor crosswalks and direct quotations checked; independent scholarly recheck remains pending.
+
+PASS reading structure: all 98 entries / 317 blocks classified exactly once; every paragraph, item, source, source note, citation, title and related link identical to 0.13.7 after the separately guarded 29 sentence refinements. No scholarly certification.
+
+PASS final polish: exactly 8 sentence-boundary revisions; every word and word order retained; all other corpus data, all source quotations, reading stages, numbers and prior reviewed ledger fields preserved. Independent scholarly recheck remains pending.
+
+PASS only two glosses for uncommon כחל retained; elementary translations removed. All underlying explanations, quotations, 241 sources, source notes, references, reading stages and complete historical ledger unchanged from 0.13.11. Glosses are editorial, not scholarly certification.
+
+PASS two guarded refinements; all other corpus content, quotes, numbers, glosses, reading stages and prior ledger rows preserved. No scholarly certification.
+
+PASS five source-supported teaching bridges, five separate prooftexts, two attribution labels; exact whole-corpus scope, all historical sources and ledger fields preserved; 98 entries /317 blocks /360 units. No scholarly certification.

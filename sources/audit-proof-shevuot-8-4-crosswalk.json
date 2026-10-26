@@ -1,0 +1,22 @@
+{
+  "ref": "רמב״ם על משנה שבועות ח, ד",
+  "heRef": "רמב״ם על משנה שבועות ח, ד — מקטע 4 בקובץ המקומי ח, א",
+  "he": [
+    "כבר בארנו פעמים הרבה, שתשלומי כפל ותשלומי ארבעה וחמשה הוא קנס, ומן העיקרים שהמודה בקנס פטור, ובפירוש אמרו שאין אדם משלם קנס על פי עצמו:"
+  ],
+  "versions": [
+    {
+      "language": "he",
+      "versionTitle": "Wikisource public Hebrew transcription",
+      "versionSource": "https://he.wikisource.org/wiki/רמב%22ם_על_שבועות_ח",
+      "license": "CC BY-SA"
+    }
+  ],
+  "witness": {
+    "url": "https://he.wikisource.org/wiki/רמב%22ם_על_שבועות_ח",
+    "retrieved_at": "2026-10-21",
+    "page_sha256": "807dee5a70ea1ae3ee8e288b57adc463890a9fb3f08dc41e48270713835d8c97",
+    "capture": "audit-witness-shevuot.json",
+    "normalization": "HTML text nodes joined, whitespace collapsed; passages extracted without rewriting"
+  }
+}

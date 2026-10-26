@@ -1,0 +1,44 @@
+[
+  {
+    "id": "mt-sanhedrin-8",
+    "url": "https://mechon-mamre.org/i/e108.htm",
+    "error": "HTTP Error 403: Forbidden",
+    "fresh_fetch": true
+  },
+  {
+    "id": "mt-orlah-10",
+    "url": "https://mechon-mamre.org/i/5210.htm",
+    "error": "HTTP Error 403: Forbidden",
+    "fresh_fetch": true
+  },
+  {
+    "id": "mt-gerushin-1",
+    "url": "https://mechon-mamre.org/i/4201.htm",
+    "error": "HTTP Error 403: Forbidden",
+    "fresh_fetch": true
+  },
+  {
+    "id": "mt-maachalot-9",
+    "url": "https://he.wikisource.org/wiki/רמב%22ם_הלכות_מאכלות_אסורות_ט",
+    "error": "HTTP Error 403: Forbidden",
+    "fresh_fetch": true
+  },
+  {
+    "id": "commentary-sanhedrin-3-6",
+    "url": "https://he.wikisource.org/wiki/משנה_סנהדרין_ג_ו",
+    "error": "HTTP Error 403: Forbidden",
+    "fresh_fetch": true
+  },
+  {
+    "id": "commentary-makhshirin-1-1",
+    "url": "https://he.wikisource.org/wiki/משנה_מכשירין_א_א",
+    "error": "HTTP Error 403: Forbidden",
+    "fresh_fetch": true
+  },
+  {
+    "id": "commentary-ketubot-4-7",
+    "url": "https://he.wikisource.org/wiki/משנה_כתובות_ד_ז",
+    "error": "HTTP Error 403: Forbidden",
+    "fresh_fetch": true
+  }
+]

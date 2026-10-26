@@ -1,0 +1,515 @@
+{
+  "asham": {
+    "nature": "Obligatory private offering, edible priestly remainder, six types and bounded doubtful-offence scope follow Intro18/35/36/41 and Mishnah5:5.",
+    "types": "Inspected all six labeled items, including oath prerequisite for theft, inadvertent misuse, nazir impurity versus completion, poor metzora, and doubtful-offence exception.",
+    "animals": "Yearlings for nazir/metzora and explicit two-year asham talui follow the identified MT4:22 witness. No unnamed alternative edition is asserted.",
+    "service": "North requirement and boundaries follow Z5:1; split hand/vessel reception is preserved without calling altar application hazaah.",
+    "eating": "Burned emurim and male-priest courtyard consumption until midnight follow the attached introduction and Mishnah.",
+    "talui-depth": "Examples reproduce the Mishnah's listed doubts; final qualification prevents treating every doubtful prohibition as an asham obligation."
+  },
+  "public-shelamim": {
+    "purpose": "Exclusive identification as two Shavuot lambs follows Intro25 and Z5:5.",
+    "service": "North and two applications/four sides are retained; comparison to chattat expressly excludes its four applications.",
+    "portions": "Priestly courtyard/time limits are distinguished from private shelamim owner consumption in Jerusalem."
+  },
+  "minchah": {
+    "nature": "Kometz, vessel and remainder are restricted to a minchah requiring kemitzah; analogy to slaughter/emurim is bounded.",
+    "eating": "All-courtyard kemitzah and male-priest eating limits follow Mishnah6:1; uneaten menachot are separated.",
+    "cohen": "Rabbi Shimon's kemitzah position and sages' uneaten-remainder criterion remain distinct; Rambam's ruling is stated.",
+    "matzah": "Matzah requirement is limited to altar offerings; chametz todah bread and two loaves are correctly excluded from altar burning.",
+    "exceptions": "Read both current paragraphs and all four witnesses. Omer contradiction remains explicit; full TYT comparison and Ikkar's explicit retraction wording are accurately separated."
+  },
+  "av-holachah": {
+    "act": "Both paragraphs distinguish shelo-lishmah effects by offering type and bind piggul to its additional conditions.",
+    "possible": "The possibility of omitting transport explains Rabbi Shimon's view; sages still classify performed transport as service.",
+    "thought": "Rabbi Eliezer's required-versus-unneeded route distinction is reported as his view, which Rambam rejects; no route is reconstructed from difficult text."
+  },
+  "t-met": {
+    "source": "Source lists different corpse components and cemetery; prose does not give every component the same threshold.",
+    "chain": "Corpse-mediated av chains are preserved; earthenware exception is explicit.",
+    "scope": "Gentile corpse contact versus tent rule is expressly attributed to Rambam; sanctuary/nazir consequences are not inferred from the av inventory.",
+    "kli-cheres": "Both paragraphs distinguish metal examples from earthenware's rishon status and require material/mode/rank to be checked separately."
+  },
+  "t-sheretz": {
+    "species": "Death qualification is supplied by separately attached Leviticus11:31; frogs/snakes remain outside the named eight.",
+    "contact": "Lentil threshold, no carrying transmission, stripped bones and four skin-as-flesh cases follow attached text.",
+    "example": "Bread rishon deoraita and food-to-food sheni derabbanan reproduce Rambam's explicit example; difficult general sentence is not used."
+  },
+  "t-nevelah": {
+    "source": "Clean-slaughter distinction and exclusion of blood/stripped bones follow Intro5; marrow remains flesh.",
+    "ways": "Contact versus carrying and cessation of clothing transmission after separation follow the explicit source clauses; source's difficult contrary sentence stays noted.",
+    "bird": "Read Intro21 in full: swallowing threshold, no nevelah-contact transmission, separate food-impurity conditions and Rambam's eventual Torah-level conclusion remain distinct."
+  },
+  "t-zav": {
+    "source": "Two versus three male sightings and female three-day rule are distinguished; named bodily fluids and bedding are actually listed.",
+    "midras": "Bedding/seating share midras while riding is distinct; stacked supports need no direct contact. No ruling is inferred from contradictory boel-zavah text.",
+    "rank": "A zav makes midras; an existing midras does not create another midras. Ordinary av transmission is separated from this special creation."
+  },
+  "t-niddah": {
+    "meaning": "Seven niddah days and three-day out-of-period zavah requiring seven clean days follow verses and Niddah4:7.",
+    "distinction": "Small zavah's one/two days, intercourse restriction, bedding impurity, and absence of large-zavah counting/sacrifice remain linked.",
+    "day-watch": "Repeated distinction between one/two days and three consecutive days is faithful; no practical calendar is supplied."
+  },
+  "t-contact": {
+    "maga": "Visible-body direct contact is distinguished from swallowing; source itself supplies that contrast.",
+    "masa": "Human carrying is distinguished from the vessel touching nevelah and from other vessels' mere participation in the load.",
+    "heset": "Nevelah tilting is treated as carrying, with sheretz exclusion and explicit warning that zav heset needs separate treatment.",
+    "tilt": "Beam example preserves actual lifting of the load; it does not generalize impurity to all nearby vessels."
+  },
+  "t-ohel": {
+    "meaning": "Both paragraphs preserve half-measure nonjoining and the less-than-tefach compressed-impurity exception, including Rambam's ruling.",
+    "distinction": "Read cited segments plus preceding definition of bib. Square tefach dimensions, naturally formed tents and outlet distinction remain source-bounded.",
+    "bib-example": "Both bib outcomes are retained. A possible geometry concern was resolved by the source's explicit opening-in-house wording, so it is not an error finding."
+  },
+  "t-ranks": {
+    "rank": "Av versus derivative rule follows the clear quoted maxim; difficult opposite introductory sentence remains disclosed in source note.",
+    "food": "Terminal levels differ for hullin/terumah/kodesh; wording limits nontransmission to that chain rather than every possible liquid rule.",
+    "rabbinic": "Torah origin of av is not confused with third/fourth levels; historical basar-taavah decree and its later form are both retained.",
+    "levels": "Names of levels do not replace the hullin/terumah/kodesh distinction. No universal food-to-food Torah chain is introduced."
+  },
+  "t-kelim": {
+    "materials": "Eight categories are listed, glass is rabbinic, and the completed-work rule is explicitly limited to the attached metal-vessel prooftext.",
+    "cheres": "Airspace example and absence of av status follow Kelim1:1 and Intro14/31.",
+    "purification": "Both paragraphs disclose the introductory generalization versus MT1:3 glass exception; no reconciliation or ruling about purchased-vessel immersion is invented.",
+    "glass": "Glass's rabbinic origin is retained without transferring all metal/earthenware details to it."
+  },
+  "t-hechsher": {
+    "meaning": "Pure preparatory wetting is distinguished from imparting impurity; no exclusive limitation to primary-source impure liquids remains.",
+    "conditions": "Detachment, consent, wet-at-later-consent, and impure-liquid simultaneous transmission are preserved. Rashi is separately attached and not quoted as Rambam.",
+    "liquids": "Seven liquids and excluded fruit juices follow Intro24; tevul-yom exception is expressly retained."
+  },
+  "t-mashkin": {
+    "seven": "The named seven, rather than every physical liquid, govern this Rambam presentation.",
+    "first": "Serial liquid transmission keeps rishon status exactly as Intro24 describes; food ranks are not imported.",
+    "tvul": "Tevul-yom liquid exception and terumah versus hullin distinction remain explicit."
+  },
+  "t-yadayim": {
+    "meaning": "Rabbinic hand decree, sheni status, and holy-writings example are bounded rather than making the whole body tamei.",
+    "distinction": "Rabbi Yehoshua's generalization is distinguished from sages' rejection; doubtful-hand cases have their separate attached source."
+  },
+  "t-tevilah": {
+    "water": "Forty seah pooled-water requirement, flowing/sitting distinction and living-water requirements follow both Mikvaot passages.",
+    "chatzitzah": "Body and attached hair must be reached, with qualification that obstruction law has its conditions; no every-speck rule is claimed.",
+    "sunset": "Tevul-yom effects and certain rabbinic impurities needing no sunset are both stated.",
+    "tvul-explanation": "Terumah-pot versus hullin-pot example accurately separates immersion from sunset completion."
+  },
+  "t-hazaah": {
+    "water": "Spring-water qualification follows Mikvaot1:8, not merely the broad term mayim; possible handling impurity is not universalized.",
+    "days": "Third/seventh-day requirement is directly in Numbers19:12; counting details remain deferred.",
+    "mazzeh": "Actual sprinkling condition is retained for the carrier; carrying threshold and unnecessary touching remain separate."
+  },
+  "t-safek": {
+    "meaning": "Incomplete mikveh condition has separate MT4:6 prooftext; uncertainty whether three log fell differs from uncertainty about amount.",
+    "distinction": "Decree-based bodily impurity differs from contact with a rabbinic av; uncertain av such as beit-hapras has the no-burning exception."
+  },
+  "i-kiddushin": {
+    "meaning": "Woman's consent is scoped to kiddushin in her authority; father's separate authority has its own prooftext and later explanation.",
+    "ways": "Inspected species of kiddushin, coin threshold, document wording/witnesses, and penalized-but-effective intercourse kiddushin.",
+    "issur": "Valid prohibited unions are distinguished from arayot without kiddushin; statement uses bounded examples rather than all prohibited unions.",
+    "way-of-act": "Both paragraphs follow document medium/witness and vekyatzah-vehayetah analogy; no paper-only requirement is introduced."
+  },
+  "i-yuchasin": {
+    "map": "Four Mishnah categories are distinguished by kiddushin validity and prohibited status without conflating those questions.",
+    "chalal": "Chalal offspring in priestly prohibitions is distinguished from mamzer offspring, despite shared hapagum wording.",
+    "limits": "Both paragraphs preserve slave/gentile mother result, ger-mamzer exception and bounded Egyptian/Edomite reference."
+  },
+  "i-nissuin": {
+    "stages": "Meiri overview is supplemented by Ketubot4:4 for nourishment and usufruct after marriage.",
+    "time": "Clock starts with demand, with virgin/widow and maturity distinctions; no single universal waiting period is stated.",
+    "example": "Betrothed Israelite woman's terumah exclusion until huppah is explicit in Ketubot5:2."
+  },
+  "i-ketubah": {
+    "scope": "Meiri distinguishes principal/addition and automatic versus stipulated terms; not all terms are treated as contractual additions.",
+    "shiabud": "Land is specified throughout, with possible purchaser recovery and wife's release; no extension to all movables is made.",
+    "rights": "Meiri's living/posthumous rights and widow examples are accurately summarized.",
+    "source-map": "Both paragraphs were read against the full introduction and separately attached ending; the shortened snapshot's omission is not treated as disproof."
+  },
+  "i-shlichut": {
+    "kiddushin": "Agency validity differs from preference for personal kiddushin; father's authority is distinguished from the prohibition/advice on child marriage.",
+    "get": "Authenticated signatures versus messenger's bifnai statement, two delivery witnesses and prior reading are retained."
+  },
+  "i-gerushin": {
+    "meaning": "Divorce/death and additional Rabbi Yehudah wording follow sources; local9:3 versus canonical9:2 numbering remains explicit.",
+    "writing": "Other languages/scripts are permitted subject to textual clarity; no unconditional any-writing permission is inferred.",
+    "delivery": "Woman's presence beside home/courtyard is retained; garment/basket details remain bounded by Rambam's account.",
+    "written-gist": "Content and script clarity are both preserved; repeated paragraph does not imply a bare formula is a complete valid get."
+  },
+  "i-lishmah": {
+    "meaning": "Learning text, other couple and other wife cases all require specified husband and wife at writing.",
+    "distinction": "Undecided wife at writing invalidates get; subsequent priestly disqualification is preserved without calling it valid divorce."
+  },
+  "i-edei-get": {
+    "meaning": "Rabbi Elazar follows quoted Mishnah spelling; Rambam spelling variant stays noted. No-signature delivery validity is actually stated.",
+    "distinction": "Both paragraphs distinguish absent delivery witnesses, missing signatures, and invalid signed witness producing mezuyaf-mitocho even with proper delivery."
+  },
+  "i-yibum": {
+    "falling": "Both paragraphs preserve paternal brother/seed requirement, Torah-ervah exemption and limitations of the yibum/halitzah maxim.",
+    "one": "One house/one wife/one brother operation follows Rambam's first principle.",
+    "ervah": "Ervah exemption and co-wife conditions differ from partial maamar obstruction requiring halitzah.",
+    "house-rule": "Multiple wives and brothers do not each require separate operations; wording remains within the one-house example."
+  },
+  "i-chalitzah": {
+    "meaning": "Release from yibum bond and co-wife consequence follow attached Mishnah and Rambam; comparison with get is limited to release.",
+    "seder": "Readings, visible spitting, shoe removal and three-plus-two publicity are retained; no sufficiency claim about abbreviated procedure.",
+    "advice": "Age-matched advice is expressly attributed to Rambam and not presented as current practical practice.",
+    "publicity": "Three judges and two publicity participants remain distinct; lay competence at need is not generalized."
+  },
+  "i-maamar": {
+    "meaning": "Maamar is incomplete kiddushin in the cited yibum framework, not completed yibum.",
+    "consequence": "Actors and order were checked: Shimon dies, Levi is born, Reuven makes maamar, Reuven dies. Leah needs halitzah while Rachel remains ervah.",
+    "two-sides": "Both stringent effects follow the explicit conclusion despite parenthesized difficult source word; no emendation is claimed."
+  },
+  "z-peah": {
+    "meaning": "Peah minimum, enlarged gift and leket at harvest are distinguished from later tithing; examples remain within cited cases.",
+    "distinction": "Owner/worker memory and two-seah single sheaf exclusions remain stated.",
+    "measure": "Increase above minimum follows field size, poor population and yield; no unmentioned factor is supplied."
+  },
+  "z-leket-shikcha": {
+    "leket": "Inside versus behind hand/sickle follows Rambam's explicit explanation; not every fallen stalk becomes poor property.",
+    "edge": "Edge case's actual outcomes and Rambam's ruling for Rabbi Akiva are retained.",
+    "omer": "Single two-seah sheaf differs from two sheaves totaling two seah; Rabbi Gamliel/sages and Rambam's ruling remain distinct."
+  },
+  "z-hafrashah": {
+    "produce": "Edibility, guarded ownership and earth growth with ownerless/fungi exclusions follow all four segments.",
+    "gmar": "Ripeness versus finishing and market/home distinctions remain separate; picking alone is not treated as universal fixation.",
+    "order": "Bikkurim/terumah/first/second order and effective-but-prohibited reversal follow Mishnah; terumat-maaser has separate verse.",
+    "gmar-home": "Ripeness, finishing and fixation are not collapsed; house/market difference remains the actual cited explanation."
+  },
+  "z-terumah": {
+    "meaning": "Great terumah and terumat-maaser origins/order are distinguished; unstated Torah quantity is accurately reported.",
+    "amount": "One-fortieth/fiftieth/sixtieth are the Mishnah's main scale; Beit Shammai's beautiful-eye disagreement is not conflated.",
+    "who": "Owner/agent authority and invalid minor/incapable/nonowner contributions follow Mishnah/Rambam.",
+    "cohen": "Same-location requirement and additional terumah's tithe liability precede priestly consumption; no blanket exemption of additions."
+  },
+  "z-maaser-rishon": {
+    "gift": "Levitical gift and order follow explicit verse, Rambam terminology and Terumot3:6.",
+    "tenth": "Tenth of first tithe has its own verse and is distinguished from initial great terumah.",
+    "distinction": "Levitical gift differs from sacred second-tithe Jerusalem consumption; one does not discharge the other."
+  },
+  "z-maaser-sheni": {
+    "meaning": "Sale/pledge/exchange and weighing restrictions follow sacred status in source.",
+    "pidyon": "Distance, money transported to Jerusalem and food use follow verses; purchased food's rules have attached commentary.",
+    "use": "Normal consumption, flavor-damaging perfuming prohibition and permitted anointing are all in source.",
+    "fifth": "Quarter-of-principal computation is correct; competing offers and evadable added fifth explain preference for larger principal.",
+    "fourth": "Repeated computation does not turn the example into permission for every redemption method."
+  },
+  "z-maaser-ani": {
+    "years": "Third/sixth years replace second tithe, and poor-gift grouping follows attached source.",
+    "biur": "Fourth/seventh-year Pesach and gift-to-recipient versus destruction of edible second-tithe/revai remainder remain distinct."
+  },
+  "z-demai": {
+    "meaning": "Uncertainty from am-haaretz differs from definite tevel; great terumah assumed given and two remaining obligations are stated.",
+    "distinction": "Prohibition correction differs from monetary claim; Levi/poor burden of proof and ownerless-fruit leniency follow source."
+  },
+  "z-challah": {
+    "grains": "Five species and bread analogy follow Mishnah/Rambam; no modern botanical equivalence is newly asserted.",
+    "dough": "Flour separation is invalid; both resulting kneaded amounts can require challah. Forbidden-to-stranger refers to actual separated challah.",
+    "amount": "Threshold versus gift fraction remain distinct; impure-dough cases are explicitly deferred rather than universalized.",
+    "baker": "Both recorded reasons remain attributed. Large wedding dough retains household rate, so size alone is not made decisive."
+  },
+  "z-five-grains": {
+    "species": "Both paragraphs distinguish species identity, combination conditions and rooting-before-Omer rule.",
+    "combination": "Combination completes required quantity; prose explicitly avoids making every dough attachment equivalent.",
+    "new": "Chametz/matzah explanation follows local segment6 with separately identified canonical Challah1:2 crosswalk."
+  },
+  "z-orlah": {
+    "years": "Three forbidden years and fourth-year sacred revai are distinguished by verses and Rambam's terminology.",
+    "intent": "Food versus fence/wood intent and rejected Rabbi Yosei split-tree rule follow source.",
+    "chutz": "No seeing Orlah harvesting differs from no personally harvesting kilayim; Mishnah and separate MT10:11 witnesses are kept distinct."
+  },
+  "z-bikkurim": {
+    "meaning": "Unripe designation versus ripe bringing and rejected Rabbi Shimon re-designation are preserved.",
+    "distinction": "Bringing and recitation categories differ; waving/placement has its separate attached Mishnah."
+  },
+  "z-kilayim": {
+    "kinds": "Different prohibition categories are not equated with prohibited benefit from every result.",
+    "crops": "Seed mixture's permitted food differs from vineyard mixture's burned/prohibited-benefit result.",
+    "grafting": "Diaspora Torah versus rabbinic rules follow Orlah3:9; no content is invented for truncated Kilayim8:1 segment2."
+  },
+  "z-sheviit": {
+    "work": "Concise biblical inventory reports the named prohibitions; it does not give practical harvest procedure.",
+    "fruit": "Money shares the source's sheviit consequences; human/animal food and dye categories are actually identified.",
+    "use": "Human-food medicinal-use restriction differs from other plant use, matching both source clauses.",
+    "price": "Source's nonpersistent-in-ground condition is retained for biur; sanctity is not collapsed into biur timing."
+  },
+  "z-biur": {
+    "meaning": "Field availability, dried-fig example and regional distinction follow the actual commentary.",
+    "distinction": "Rambam destruction and Ramban abandonment views remain separate; Ramban's delayed-private-retention eating prohibition is retained.",
+    "regions": "Timing in relevant region differs from disagreement over the act of biur; source's difficult detailed map is not reconstructed."
+  },
+  "z-shemittat-kesafim": {
+    "debt": "Rambam's unusual document/responsibility explanation is openly attributed; shop account/wages become loans only upon fixation.",
+    "disputes": "Rabbi Yehudah's prior accounts and Rabbi Yosei's seasonal work positions are stated as rejected views."
+  },
+  "z-prozbul": {
+    "meaning": "Hillel's reason and declaration follow Mishnah; included debts are not equated with every possible claim.",
+    "distinction": "Rambam's rabbinic-era limitation and court pleading for heir are explicit in source."
+  },
+  "d-nezikin": {
+    "avot": "Rambam's shor=regel/maveh=shen reading is attributed; keren is not silently omitted from all liabilities.",
+    "difference": "Public-domain shen/regel, vessel bor and hidden-fire exclusions follow named distinctions.",
+    "features": "Characteristic harm and specific exemptions remain connected without making the four examples exhaustive."
+  },
+  "d-chovel": {
+    "meaning": "Five payments and injury intent sufficient for boshet are preserved; no intent-to-shame-only test remains.",
+    "distinction": "Both paragraphs distinguish individual payments, doctor-disobedience loss and outside-Israel collection jurisdiction without making all five fines."
+  },
+  "d-geneivah": {
+    "meaning": "Full saved Meiri segments1/3 distinguish hiding due to fear from ambush to stop escape; source rationale is attributed, not called a Mishnah quote.",
+    "distinction": "Movable/body-value double payment and ox/sheep slaughter/sale fines retain exclusions and confession exemption; local/canonical oath numbering is disclosed."
+  },
+  "d-gezel": {
+    "meaning": "Read against both attached sources. Pre-existing partial-versus-total rot wording remains a tentative lexical-scope concern, not a demonstrated legal contradiction.",
+    "distinction": "Changed wood/wool and grown animal ownership examples follow source; underlying restitution is not erased."
+  },
+  "d-shomrim": {
+    "four": "Both paragraphs distinguish paid guardians, borrower exemptions and specific-object oath. Torah/rabbinic oath wording conflict remains disclosed.",
+    "ones": "Unavoidable event differs from deliberate exposure; owner's presence at borrowing and negligence exception are preserved.",
+    "baalav": "Timing at borrowing and breadth including negligence are separately stated, not inferred from presence at loss."
+  },
+  "d-shomer-ones": {
+    "roles": "Four custodians but three responsibility patterns follow Mishnah and verse assignments.",
+    "wolves": "Both paragraphs were read. Single/two wolves and named dissenting dog/wolf rules are reports of Mishnah opinions; no fresh ruling is inserted.",
+    "exposure": "Self-introduction to dangerous bands differs from animals arriving themselves, as source states."
+  },
+  "d-ribit": {
+    "meaning": "Example-specific Torah interest versus rabbinic fruit-debt arrangement is not universalized to every usage of neshech/tarbit.",
+    "distinction": "Both paragraphs distinguish pre-existing debt with stock from current-money purchase at known market price, including mi-shepara."
+  },
+  "d-avedah": {
+    "siman": "Count can identify two needles; this is a possible identifying sign, not an unconditional all-locations return rule.",
+    "recognition": "Honest scholar recognition and location/population limits remain alongside the identifying-sign paragraph."
+  },
+  "d-karka": {
+    "ways": "All three paragraphs distinguish underlying lien from recovery from purchasers, oral versus documented debt, and local document custom.",
+    "chazakah": "Owner authorization, absent-owner lek-hazak instruction and sale-document payment conditions remain distinct."
+  },
+  "d-mitaltelin": {
+    "meshichah": "Goods/currency classification varies by actual circulating use; prose follows Rambam's stated meshichah principle.",
+    "agav": "House/pepper example preserves explicit agav instruction and remote goods without drawing physical co-location requirement."
+  },
+  "d-onaah": {
+    "meaning": "All three numeric examples match Rambam despite distinct denominators; buyer and seller both can be aggrieved.",
+    "distinction": "One-sixth restitution differs from greater-than-sixth cancellation; seller's missing merchandise explains time difference.",
+    "seller-buyer": "Buyer's inspection window differs from seller's later comparison opportunity; no universal fixed duration is invented."
+  },
+  "d-shutfin": {
+    "meaning": "Divisible courtyard differs from voluntary division; binding allocation precedes wall compulsion.",
+    "distinction": "Seeing through gaps is prohibited harm; local material custom does not eliminate opacity requirement."
+  },
+  "d-harchakah": {
+    "meaning": "Different hazard mechanisms and separation measures are summarized without giving one common distance.",
+    "distinction": "Preexisting-wall exception and non-bor-designated adjoining field condition are preserved."
+  },
+  "d-yerushah": {
+    "meaning": "Read the entire Amram family example: descendants exhaust priority before ascending through paternal ancestors.",
+    "distinction": "Husband/wife and son/mother are stated in the correct direction; oral-tradition attribution follows Rambam.",
+    "three-laws": "Representation by deceased potential heir's successors differs from a list of living relatives alone."
+  },
+  "d-chazakah": {
+    "meaning": "Three-year possession requires purchase claim; it is evidence, not an acquiring act at year three.",
+    "distinction": "Protest before two, absent possessor and war/interrupted communications qualification are retained."
+  },
+  "d-two-chazakot": {
+    "action": "Acquiring act requires seller authorization; no three-year evidentiary use is confused with that act.",
+    "proof": "Current final refinement retains both purchase claim and fruit-use evidence, with no automatic year-three acquisition.",
+    "owner": "Final refinement explicitly identifies owner's silence; knowledge/protest opportunity still qualifies inference."
+  },
+  "d-shevuot": {
+    "meaning": "Three Torah oaths, partial acknowledgment, minimum values and same-kind condition remain source-bounded.",
+    "distinction": "Both paragraphs distinguish defendant's exonerating oath from claimant's oath to collect; refusal does not universally authorize seizure.",
+    "hesset": "Both paragraphs preserve claimant/defendant distinction and hesset's different object-holding mode, despite repetition."
+  },
+  "d-edut": {
+    "meaning": "Original three-judge panel is separated from expanded five. PHM four-agree/one-unsure addition conflicts with MT majority and remains disclosed.",
+    "distinction": "Formal admission/instruction differs from casual narrative; source does not require only the literal hevu-alai-edim formula."
+  },
+  "d-dayanim": {
+    "three": "Chosen third judge's impartiality and sages' choice method follow source.",
+    "acceptance": "Expertise, party acceptance and authority to compel are separate; diaspora/specific border-town distinction follows MT4:14-15.",
+    "permission": "Accepted lay adjudication differs from lone public expert and geographical coercive authorization."
+  },
+  "a-shechitah": {
+    "meaning": "Full two simanim initially versus majority after fact is preserved for bird/beast; vein rule is not confused with siman proportions.",
+    "distinction": "Both paragraphs preserve expertise/testing and gentile slaughter, including explicit nonidolater extension from separate MT witness.",
+    "competence": "Legal eligibility differs from practical expertise and five disqualifying acts; not a practical slaughter manual."
+  },
+  "a-terefah": {
+    "meaning": "Read the full long anatomical source. Defect examples remain subject to their specific criteria; no fresh anatomical correction is made.",
+    "distinction": "Two esophageal membranes differ from penetrating heart cavity; fall/claw cases require their own examination.",
+    "internal": "Organ/location/number-of-membranes distinctions are actually in source; visible illness alone is not made decisive."
+  },
+  "a-basar-chalav": {
+    "meaning": "Pure domestic mammal differs from wild animal/bird; Rambam's cooking permission and rabbinic eating prohibition remain separate.",
+    "distinction": "Dining-table decree and Beit Hillel bird inclusion follow explicit habit-of-transgression explanation.",
+    "distance": "Same eating-table protection is distinguished from Torah cooking prohibition; uncooked juxtaposition is the Mishnah's actual case."
+  },
+  "a-taam": {
+    "meaning": "Milk-drop taste case and unlike-kind treatment follow Mishnah/Rambam.",
+    "distinction": "Initial versus later stirring, covering through end and continuing piece prohibition are retained; tasting/sixty discussion is context-bounded.",
+    "udder": "No-tearing-with-other-meat case retains both inclusion toward sixty and udder's own continuing prohibition."
+  },
+  "a-neder": {
+    "meaning": "Object prohibition differs from conditional sacrifice obligation upon performing mitzvah; tefillin are not made forbidden.",
+    "distinction": "Incomplete modar formula needs eating-language continuation to prohibit eating, as Rambam explains.",
+    "sukkah": "Specific sukkah prohibition and separate contingent sacrifice model follow source without inventing a new rationale."
+  },
+  "a-yadot-kinuyim": {
+    "names": "Incomplete phrase differs from alternate local terminology; kinuy examples have separate MT1:16 prooftext.",
+    "meaning": "Both paragraphs preserve no eating prohibition without continuation and distinguish Akiva's tentative prohibition from lashes.",
+    "rashaim": "Both paragraphs preserve explicit continuation requirement; bare knidrei-reshaim does not itself impose all three obligations."
+  },
+  "a-hatarah": {
+    "meaning": "Knowledge that anger/vowing is wrong does not itself release vow; sage release differs from bounded paternal/husband annulment.",
+    "distinction": "Betrothed girl's father and husband act jointly; neither alone is made sufficient."
+  },
+  "a-shevuah": {
+    "meaning": "Future/past oath fourfold inventory differs from court monetary oath.",
+    "distinction": "One implicit eating/drinking oath differs from two expressly divided prohibitions.",
+    "speech": "Current paragraph follows explicit wording's role in number of liabilities; no reversed causal phrasing remains."
+  },
+  "olah": {
+    "purpose": "Burned flesh, obligatory/voluntary distinction and named daily/festival/pilgrimage/childbirth/nazir offerings follow the cited Introduction body, not translator preface.",
+    "animals": "Male livestock versus either-sex specified-age birds and fixed daily lambs match Intro14/16/22; no free substitution across obligations.",
+    "service": "North reception, diagonal two/four applications and stripping/cutting follow Mishnah5:4 and Rambam's explicit explanation.",
+    "portions": "All flesh burned does not include skin; Intro37 explicitly assigns animal-olah skin to priests.",
+    "bird": "Read entire procedural sequence: head salted/burned before body preparation; lower animal versus upper bird blood is explicit. Described nonseparation of body is the prescribed procedure, not a claim that accidental separation invalidates.",
+    "neder": "Both paragraphs retain personal obligation versus designated animal and obligation not discharged by unlike-offering intent; remaining service is still completed as olah.",
+    "analysis": "Distinct blood/skin/cutting operations follow actual Mishnah sequence; no whole-animal-burning rule is inferred."
+  },
+  "chattat": {
+    "purpose": "Main inadvertent-karet rule is bounded and explicitly excludes Pesach/milah; childbirth/zav/metzora/nazir obligations do not invent a niddah offering from difficult Intro36.",
+    "animals": "Individual/ruler/anointed-priest distinction is bounded to ordinary fixed chattat; idolatry is separated and public species are not generalized.",
+    "variable": "Livestock/bird/flour economic scale follows Intro35 for sanctuary impurity; no claim every chattat has a poverty substitution.",
+    "outer": "North, four corners, south remainder, male-priest courtyard/time and midnight fence follow Mishnah and Z5:3.",
+    "inner": "Both paragraphs preserve emurim versus burned body and distinguish Yom-Kippur between-poles applications from other internal offerings.",
+    "bird": "No head separation, lower-wall sprinkling/remainder and all-priest flesh follow Mishnah6:4; upper bird-olah contrast is accurate.",
+    "shem": "Other sacred offering versus hullin intention and unstated intention have their distinct outcomes in Z1:1; no all-unlike-intent invalidation remains."
+  },
+  "k-inner-chattat": {
+    "place": "Between-poles versus curtain/gold altar applications and north slaughter are separately stated; upper external blood is not confused with inside.",
+    "essential": "Both paragraphs follow all-required inner applications and partial-time-thought no-karet treatment in Z4:2; not every defective thought is called piggul.",
+    "remainder": "West remainder is explicitly nonessential, while inside applications are essential; body burning is separately described."
+  },
+  "shelamim": {
+    "purpose": "Private altar/priest/owner portions and voluntary versus pilgrimage duty follow sources; public holiness/eating differs.",
+    "animals": "Livestock either sex versus no birds is explicit; specified nazir ram limits free species choice.",
+    "service": "All-courtyard slaughter and city consumption remain different places; blood two/four applications follow source.",
+    "portions": "Priests' household eating is bounded to eligible recipients; owner flesh and emurim remain distinct.",
+    "time": "Two days/one night is contrasted with todah/nazir's shorter duration, including raised priestly portions.",
+    "tenufa-depth": "Living semichah versus postslaughter waving and owner/priest hand positions follow Menachot. General procedural account is qualified by separate person blocks excluding women's own acts."
+  },
+  "todah": {
+    "nature": "Todah is a special shelamim with bread and shorter eating period; vow wording is actually in Intro41.",
+    "bread": "All four types and forty loaves counted; ten chametz equal thirty matzah by flour amount, not number; one each to priest.",
+    "portions": "Emurim burned, breast/thigh plus four loaves to priest, remaining flesh/bread to owners; priestly loaves are eaten rather than a kometz.",
+    "service": "Two/four blood, Jerusalem and midnight rabbinic fence follow Z5:6; dawn is the stated Torah endpoint.",
+    "bread-ratio": "Repeated comparison correctly separates number of loaves from aggregate flour."
+  },
+  "nazir": {
+    "purpose": "Completion's yearling olah/ewe chattat and ram shelamim differ from impurity asham; correct sexes and species retained.",
+    "service": "Nazir ram follows light-holy shelamim slaughter/blood/emurim rules.",
+    "portions": "Cooked foreleg, breast/thigh and two specified loaves follow Z5:6; remainder belongs to owner.",
+    "time": "Jerusalem/day-night-midnight and eligible priestly recipients follow todah analogy, without using ordinary two-day shelamim period."
+  },
+  "bekhor": {
+    "nature": "Male first-womb and unblemished offering follow verse/Intro38; obligation is not introduced as a personal vow.",
+    "service": "Single application toward foundation differs from ordinary shelamim despite shared light holiness.",
+    "eating": "Priestly Jerusalem two-day/one-night consumption and duty to offer/eat sacredly follow actual witnesses."
+  },
+  "maaser": {
+    "nature": "Counted tenth differs from selecting one of ten; rejected Rabbi Yosei bar-Yehudah position remains identified. Prescribed red-marking procedure is not said to invalidate when omitted.",
+    "service": "Light holiness, one foundation-facing application and emurim follow Mishnah5:8/Z5:8.",
+    "eating": "Owner's two-day/one-night meat includes breast/thigh; no priestly special share is invented."
+  },
+  "pesach": {
+    "purpose": "Fourteenth after afternoon tamid and private-like-public scheduled-offering category follow both attached sources.",
+    "service": "Courtyard/single foundation-facing application and enrolled-group consumption follow Mishnah5:8.",
+    "eating": "Midnight is expressly attached to the Mishnah and Rambam's local Torah-language presentation; unresolved end-time dispute is acknowledged rather than explained by importing todah's fence.",
+    "shem": "At-time versus other-times reversal is exactly the saved Z1:1 explanation, with practical qualifications left to its context.",
+    "scope": "Read full saved Meiri introduction segment2; hametz checking/removal, matzah/maror and seder-night subjects are actually listed. New independent Meiri edition remains unavailable."
+  },
+  "k-nesachim": {
+    "meaning": "All seven verse segments read; lamb quarter, ram third and cattle half-hin oil/wine accompany one/two/three flour measures.",
+    "distinction": "Five excluded offering categories and metzora chattat/asham exception are explicit; non-sin rationale is attributed to source."
+  },
+  "av-semichah": {
+    "act": "Two hands, head, same slaughter place and no intervening act follow Mishnah/Rambam.",
+    "offerings": "Private exclusions and two public exceptions are distinguished; rejected Rabbi Shimon idolatry-goat extension is not adopted.",
+    "person": "Owner not agent, every partner separately, and named personal exemptions follow both Mishnayot.",
+    "effect": "Already-effected atonement differs from missing command; source's as-if-not-atoned phrase is not turned into actual invalidity."
+  },
+  "av-shechitah": {
+    "act": "Both simanim initially versus majority after fact applies in kodashim; neck/vessel arrangement does not merge reception with slaughter.",
+    "person": "Lay/woman/slave initial validity differs from impure-person decree. Long knife or unlawful entry explains physical possibility and is not a permission to ignore decree.",
+    "place": "Animal most-holy north differs from light-holy all courtyard; semichah proximity applies where required, as separate exceptions state.",
+    "thought": "Eligibility for the performed service governs disqualifying thought; lack of priesthood alone does not exclude slaughter thoughts."
+  },
+  "av-kabbalah": {
+    "act": "Direct neck life-blood, not skin/residual blood or pre-vessel floor collection, is preserved.",
+    "person": "Both paragraphs retain fit priest, standing, hand/foot noninterposition and right-hand ruling; source's conflicting purification-parenthesis is not resolved here.",
+    "place": "North reception and metzora's partly-hand reception exception are both stated.",
+    "repair": "Still-remaining life-blood condition and fit priest's new valid reception remain explicit; invalid worker's thought is not equated with fit worker's."
+  },
+  "av-zerikah": {
+    "act": "Four-service label does not impose one physical blood method; corners/walls/inside and bird/beast differ.",
+    "outer": "All three labeled items inspected: chattat four, olah/asham/shelamim two/four, bekhor/maaser/pesach one toward foundation.",
+    "height": "Animal chattat/olah versus bird reversal and upper versus inside distinction follow actual sources.",
+    "inner": "Yom-Kippur between-poles exception is retained rather than generalized to all inner offerings.",
+    "meakev": "Beit Hillel's one essential outer application differs from full initial obligation and all-essential inner gifts.",
+    "shirayim": "West inner/south outer remainders and nonessential inner pouring follow source's principal-versus-remainder explanation."
+  },
+  "k-matanot": {
+    "outer": "Both paragraphs distinguish initial obligations from essential atonement and first versus later thought consequences.",
+    "shammai": "Beit Shammai two essential chattat gifts versus Beit Hillel one is preserved; no four independently essential outer gifts asserted.",
+    "inner": "Both paragraphs keep all-required inner gifts and invalid-but-no-karet mixed-thought case without relabeling it complete piggul."
+  },
+  "av-haktarah": {
+    "act": "Animal olah burned flesh after stripping/cutting differs from edible-offering emurim and remainder.",
+    "order": "Fire/wood/parts layering and washing entrails/legs before burning follow all three verses.",
+    "burning": "Both paragraphs distinguish off-altar body burning and minchah kometz/levonah; common-vessel condition and Rabbi Yosei/sages dispute remain.",
+    "altar": "Fit-for-altar qualification prevents treating ascent as cure-all; unvessel-sanctified kometz and Rabbi Yehoshua ruling follow source."
+  },
+  "av-melikah": {
+    "act": "Nape and head separation differ for bird chattat/olah; difficult grip description is attributed, not reconstructed.",
+    "blood": "Lower bird chattat is linked to foundation remainder, upper olah to omitted foundation, and animal reversal remains distinct.",
+    "portions": "Full paragraph read. Grouped head/body preparation compresses Mishnah6:5's separate sequence and warrants low-severity clarification; detailed olah/bird already states correct order."
+  },
+  "av-tenufah": {
+    "act": "Moving/lifting directions and emurim/breast/thigh hand arrangement match source; semichah remains a separate act.",
+    "objects": "Living and nonliving objects are both actually listed; bikkurim attribution/Rambam adoption is preserved.",
+    "when": "All three labeled items read: private, public and metzora each have the correct two-of-three semichah/living/postslaughter operations.",
+    "person": "Woman's offering needs waving but she does not wave; one partner can wave for all, and two loaves/lambs lie beside each other."
+  },
+  "avodot": {
+    "sequence": "All four labeled service items inspected; direct neck reception and variable physical application remain distinct.",
+    "worker": "Initial lay/woman/slave slaughter validity differs from priestly reception onward; right-hand dispute is retained.",
+    "place": "Moriah sanctuary exclusivity differs from within-courtyard slaughter zones and Jerusalem eating; no citywide slaughter permission."
+  },
+  "imurim": {
+    "parts": "Named fats/kidneys/liver appendage and sheep tail follow Intro20/21; remaining meat has offering-dependent treatment.",
+    "boundaries": "Mishkan curtains correspond to courtyard, city to Jerusalem; recipient/place/time are not collapsed."
+  },
+  "pesulim": {
+    "shem": "Known private-owner scope, chattat/pesach exceptions, hullin and unstated intent follow Z1:1.",
+    "place": "Usual eating/burning object condition and invalid/no-piggul-karet outcome follow Z2:2/3.",
+    "time": "Proper completion of permissive service and fit thinker restrict piggul; any other invalidity is not casually called piggul.",
+    "notar": "Later leftover meat after valid service differs from service-time bad intention and does not undo original owner's discharge.",
+    "example": "Next-day ordinary shelamim eating differs from expired todah window; remaining piggul conditions are expressly retained.",
+    "essential-parts": "Outer first essential versus subsequent gifts differs from all-required inner gifts, following both commentaries."
+  },
+  "k-meilah": {
+    "meaning": "Inadvertence/value conditions are retained; no-meilah does not automatically grant ordinary use, and not-enjoy/no-meilah remains prohibited.",
+    "distinction": "South-slaughter invalidity does not extinguish meilah; prior permitted-to-priest time is the separate dividing criterion.",
+    "invalid-service": "Both paragraphs retain possible meilah despite invalid service and distinguish terminology from prohibition. Return by fit priests may establish permission only in source's available-blood setting."
+  },
+  "k-temurah": {
+    "meaning": "Prohibited act differs from effective transfer; both animals remain holy when effective. Unequal negative/positive-command scope explains lashes in this saved Commentary.",
+    "distinction": "Public/partnership non-effect and priestly gift ownership do not collapse into permission to exchange.",
+    "ownership": "Separate questions of violation and new-animal holiness follow explicit not-every-exchanger-effects-exchange rule."
+  },
+  "public": {
+    "public": "Daily/additional offerings, two Shavuot peace lambs and absence of public asham follow Intro18/22/25.",
+    "time": "Scheduled time rather than public label governs; unappointed public sins and compensable pilgrimage offerings retain their exceptions."
+  }
+}

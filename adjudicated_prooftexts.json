@@ -1,0 +1,130 @@
+[
+  {
+    "id": "mt-sanhedrin-8-2",
+    "filename": "audit-proof-mt-sanhedrin-8-2.json",
+    "author": "רמב״ם",
+    "blocks": [
+      "d-edut/meaning"
+    ],
+    "note": "מספור ההלכה ח, ב; באתר מכון ממרא הקטעים הרציפים ד–ו. שלושה בראשונה וחמישה לאחר התוספת הם הרכבים שונים. חילוף הדין מול פירוש המשנה נשמר בביאור."
+  },
+  {
+    "id": "mt-maachalot-9-9-10",
+    "filename": "audit-proof-mt-maachalot-9-9-10.json",
+    "author": "רמב״ם",
+    "blocks": [
+      "a-taam/distinction"
+    ],
+    "note": ""
+  },
+  {
+    "id": "mt-sheelah-6-1-extension",
+    "filename": "audit-proof-mt-sheelah-6-1-extension.json",
+    "author": "רמב״ם",
+    "blocks": [
+      "d-shomrim/four"
+    ],
+    "note": "הקטע הנפרד כולל את ההחלה המפורשת על השואל, בסעיף ב של המספור הרציף. אין הוא משנה את צילום המקור הקודם; חילוף שבועת התורה/תקנת חכמים נשמר."
+  },
+  {
+    "id": "rashi-bm-22b-wet",
+    "filename": "audit-proof-rashi-bm-22b-wet.json",
+    "author": "רש״י",
+    "blocks": [
+      "t-hechsher/conditions"
+    ],
+    "note": "זהו פירוש רש״י לתנאי הרצון בעוד הטל עליו, ולא ציטוט מלשון הרמב״ם."
+  },
+  {
+    "id": "mt-mikvaot-4-6",
+    "filename": "audit-proof-mt-mikvaot-4-6.json",
+    "author": "רמב״ם",
+    "blocks": [
+      "t-safek/meaning"
+    ],
+    "note": ""
+  },
+  {
+    "id": "full-tyt-menachot-1-1",
+    "filename": "audit-proof-full-tyt-menachot-1-1.json",
+    "author": "תוספות יום טוב",
+    "blocks": [
+      "minchah/exceptions"
+    ],
+    "note": "הפירוש המלא משווה לפסקי החיבור; לשון חזר בו מפורשת בעיקר תוספות יום טוב, המובא כמקור נפרד."
+  },
+  {
+    "id": "ikkar-tyt-menachot-1-1",
+    "filename": "audit-proof-ikkar-tyt-menachot-1-1.json",
+    "author": "עיקר תוספות יום טוב",
+    "blocks": [
+      "minchah/exceptions"
+    ],
+    "note": ""
+  },
+  {
+    "id": "challah-1-2-crosswalk",
+    "filename": "audit-proof-challah-1-2-crosswalk.json",
+    "author": "רמב״ם",
+    "blocks": [
+      "z-five-grains/new"
+    ],
+    "note": "הקובץ ההיסטורי a-challah-1-1 מכיל גם את הפירוש למשנה א, ב. מספור המקטעים בקובץ אינו מספור משניות; הנוסח המקורי נשמר."
+  },
+  {
+    "id": "gittin-9-2-crosswalk",
+    "filename": "audit-proof-gittin-9-2-crosswalk.json",
+    "author": "רמב״ם",
+    "blocks": [
+      "i-gerushin/meaning",
+      "i-gerushin/writing",
+      "i-gerushin/written-gist"
+    ],
+    "note": "המקור המקומי i-get-9-3 נקרא ט, ג; העדות הציבורית מציבה את הפירוש בט, ב. זהו מיפוי מספור דיגיטלי ולא המצאת מהדורה חלופית."
+  },
+  {
+    "id": "shevuot-8-4-crosswalk",
+    "filename": "audit-proof-shevuot-8-4-crosswalk.json",
+    "author": "רמב״ם",
+    "blocks": [
+      "d-geneivah/distinction"
+    ],
+    "note": "הקובץ ההיסטורי review-shomrim מכיל כמה משניות תחת התווית ח, א. דין מודה בקנס שבמקטע 4 מקביל למשנה ח, ד; אין המספר המקומי משנה את מקום המשנה."
+  },
+  {
+    "id": "orlah-3-9-harvest",
+    "filename": "audit-proof-orlah-3-9-harvest.json",
+    "author": "משנה",
+    "blocks": [
+      "z-orlah/chutz"
+    ],
+    "note": "בערלה: שלא יראנו לוקט; בכלאי הכרם: שלא ילקוט ביד. אין להעביר סייג מענין לענין."
+  },
+  {
+    "id": "mt-orlah-10-11",
+    "filename": "audit-proof-mt-orlah-10-11.json",
+    "author": "רמב״ם",
+    "blocks": [
+      "z-orlah/chutz"
+    ],
+    "note": ""
+  },
+  {
+    "id": "meiri-ketubot-intro-ending",
+    "filename": "audit-proof-meiri-ketubot-intro-ending.json",
+    "author": "מאירי",
+    "blocks": [
+      "i-ketubah/source-map"
+    ],
+    "note": "המשפט קיים בסוף ההקדמה המלאה, אף שאינו כלול בסוף המקטע ההיסטורי המקוצר. אין להסיק מחסרונו במקטע שלא נאמר בידי המאירי."
+  },
+  {
+    "id": "leviticus-11-31-death",
+    "filename": "audit-proof-leviticus-11-31-death.json",
+    "author": "תורה",
+    "blocks": [
+      "t-sheretz/species"
+    ],
+    "note": ""
+  }
+]

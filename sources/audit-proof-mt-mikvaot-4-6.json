@@ -1,0 +1,22 @@
+{
+  "ref": "רמב״ם הלכות מקוות ד, ו",
+  "heRef": "רמב״ם הלכות מקוות ד, ו — חסר מארבעים סאה",
+  "he": [
+    "כיצד פוסלין המים השאובין את המקוה בשלושת לוגין: שאם היה במקוה פחות מארבעים סאה, ונפלו לו שלושת לוגין והשלימוהו לארבעים סאה--הרי הכול פסול. אבל מקוה שיש בו ארבעים סאה מים שאינן שאובין, ושאב בכד, ושפך לתוכו כל היום כולו--הרי זה כשר."
+  ],
+  "versions": [
+    {
+      "language": "he",
+      "versionTitle": "Mechon Mamre public Hebrew text",
+      "versionSource": "https://mechon-mamre.org/i/a804.htm",
+      "license": "Public Domain"
+    }
+  ],
+  "witness": {
+    "url": "https://mechon-mamre.org/i/a804.htm",
+    "retrieved_at": "2026-10-21",
+    "page_sha256": "c9892b446a65e7b53216fd33edf5d3bbb49308a653c9f342d41e512c0adeee83",
+    "capture": "audit-witness-mikvaot.json",
+    "normalization": "HTML text nodes joined, whitespace collapsed; passages extracted without rewriting"
+  }
+}

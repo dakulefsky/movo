@@ -1,0 +1,22 @@
+{
+  "ref": "רש״י בבא מציעא כב ע״ב, ד״ה לדעת",
+  "heRef": "רש״י בבא מציעא כב ע״ב, ד״ה לדעת",
+  "he": [
+    "לדעת - שידע בנתינה והוכשר בעיניו ועודהו הטל עליהן עדיין הן בנתינתו:"
+  ],
+  "versions": [
+    {
+      "language": "he",
+      "versionTitle": "Wikisource public Hebrew transcription",
+      "versionSource": "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב",
+      "license": "CC BY-SA"
+    }
+  ],
+  "witness": {
+    "url": "https://he.wikisource.org/wiki/בבא_מציעא_כב_ב",
+    "retrieved_at": "2026-10-21",
+    "page_sha256": "54923107d22aef1d87a790011b190f55e112a38d218c8a4b479d088dc5d95e2e",
+    "capture": "audit-witness-bava-metzia.json",
+    "normalization": "HTML text nodes joined, whitespace collapsed; passages extracted without rewriting"
+  }
+}

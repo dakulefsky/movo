@@ -1,0 +1,662 @@
+{
+  "manifest": {
+    "reviewer": "Independent AI source-fidelity reviewer /root/scholarly_reviewer",
+    "review_style": "Rigorous talmid-chacham-style source analysis; no claim of human rabbinic identity or approval",
+    "reviewed_at": "2026-10-21",
+    "git_commit": "d6ee91672c76355f8b189a702b8504741e8fb69f",
+    "version": "0.13.14",
+    "editorial_sha256": "9049de9b3be00871daba93a0b4f1e477b1e04aeeac13a52e72d3c390698ee973",
+    "reviewed_ledger_sha256": "dfeff78bc336da883b4fe0291d8a6cf53b9fdfb1d47c33849f7f640b49c6f0ae",
+    "source_records_sha256": "f56f44d7a5949c2a992fa0da4eaca05656dc2ae28c806a033dcbbb11f337aba4",
+    "overlay_hashes": {
+      "adjudicated_repairs.json": "044f9241aef0d9de63f13d2e78f771341a5b43dc7a4b6aa5469c7577f0038982",
+      "readability_0137.json": "6403b90c9e32e5d5b4cdb55fc693a7844ec5dae00875fea3ade17e3b329b1ec6",
+      "polish_0139.json": "0a75a338fffd13667f95b76e1487686556bf33bb9e4860d21aeae83dc2b4486d",
+      "sentence_flow_01310.json": "90ae97a820e85983d91d12e0afb6266c34b640fa57b5a56a6c3a022a13d0fc22",
+      "refinement_01313.json": "8c12221ca04b5ded4b84ac28fa69dd16a4b19c230b95e3ab7c271023371749e9",
+      "refinement_01314.json": "907521c2b55cb72940e9ccb3686eb7410ffaf70ac0c89837aa52e8c43a40744d"
+    },
+    "status": "FULL_CORPUS_SOURCE_PAIRED_READING_COMPLETED_GATES_INCOMPLETE",
+    "protocol_status": "No claim marked verified; six-gate completion is not asserted"
+  },
+  "summary": {
+    "total_blocks": 317,
+    "total_claim_units": 360,
+    "source_paired_blocks": 317,
+    "source_paired_claim_units": 360,
+    "unreviewed_blocks": 0,
+    "unreviewed_claim_units": 0,
+    "demonstrable_source_contradictions_found": 0,
+    "established_unsupported_inferences_or_omissions_found": 0,
+    "tentative_evidence_too_thin_findings": 2,
+    "faithfully_disclosed_conflict_records": 5,
+    "claim_assessment_counts": {
+      "reasonable_paraphrase_no_specific_defect_found_in_this_pass": 350,
+      "faithfully_disclosed_source_conflict": 8,
+      "evidence_too_thin_to_decide": 2
+    },
+    "priority_overlays": {
+      "adjudicated_repairs.json": {
+        "total_edits": 32,
+        "read_current_claim_units": 32,
+        "not_yet_read_claim_ids": []
+      },
+      "readability_0137.json": {
+        "total_edits": 203,
+        "read_current_claim_units": 203,
+        "not_yet_read_claim_ids": []
+      },
+      "polish_0139.json": {
+        "total_edits": 14,
+        "read_current_claim_units": 14,
+        "not_yet_read_claim_ids": []
+      },
+      "sentence_flow_01310.json": {
+        "total_edits": 8,
+        "read_current_claim_units": 8,
+        "not_yet_read_claim_ids": []
+      },
+      "refinement_01313.json": {
+        "total_edits": 5,
+        "read_current_claim_units": 5,
+        "not_yet_read_claim_ids": []
+      },
+      "refinement_01314.json": {
+        "total_edits": 2,
+        "read_current_claim_units": 2,
+        "not_yet_read_claim_ids": []
+      }
+    }
+  },
+  "findings": [
+    {
+      "id": "TR-001",
+      "classification": "evidence_too_thin_to_decide",
+      "severity": "low",
+      "claim_ids": [
+        "d-gezel/meaning/paragraph-1"
+      ],
+      "current_text": [
+        {
+          "claim_id": "d-gezel/meaning/paragraph-1",
+          "current_hebrew": "מצוות השבת הגזלה מחייבת להחזיר את הדבר לבעליו. פעמים שמחזירים את החפץ עצמו ואומרים ״הרי שלך לפניך״, ופעמים שחייבים לשלם את שוויו בשעת הגזלה. הרמב״ם מדגים זאת בפירות: הרקיבו במקצת, משיבם כמות שהם; הרקיבו לגמרי, משלם כשעת הגזלה.",
+          "sha256": "0751a814c2ee4475aed10bc0de2a72bd6913a72fc570d2935b1d4bbcd0ac7643"
+        }
+      ],
+      "title": "Pre-existing ambiguity: degrees of rot versus some/all fruits",
+      "defect_established": false,
+      "source_evidence": [
+        {
+          "source_id": "p-Bava_Kamma-9.2",
+          "segments": [
+            1
+          ],
+          "citation": "רמב\"ם על משנה בבא קמא ט׳:ב׳",
+          "edition_metadata": [
+            {
+              "versionTitle": "Vilna edition",
+              "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+              "license": "Public Domain",
+              "language": "he"
+            }
+          ],
+          "url": "https://www.sefaria.org/Rambam_on_Mishnah_Bava_Kamma_9:2",
+          "exact_source_quotations": [
+            {
+              "segment": 1,
+              "text": "גזל בהמה והזקינה עבדים והזקינו כו': כשהרקיבו מקצת הפירות אומרים לו הרי שלך לפניך ואם הרקיבו כולם משלם כשעת הגזלה. ומטבע ונפסל הוא שלא יעבור באותה מדינה אבל עובר הוא במדינה אחרת. והלכה כר\"מ:"
+            }
+          ],
+          "quotation_scope": "Complete cited bundled segment(s), verbatim. Reviewer focus below is explanatory and not a substitute textual witness.",
+          "reviewer_focus": "כשהרקיבו מקצת הפירות אומרים לו הרי שלך לפניך ואם הרקיבו כולם משלם כשעת הגזלה."
+        }
+      ],
+      "reasoning": "Current במקצת/לגמרי naturally expresses degree of deterioration; the attached source says מקצת הפירות/כולם, which can express a subset versus the whole. The fresh public commentary witness preserves that exact distinction but does not by quote matching alone decide its legal interpretation. This is not a demonstrated contradiction, and the present wording may be a reasonable reading. It already appears in the historical baseline; it was not introduced by the recent readability/refinement passes.",
+      "minimal_proposed_correction": "If removing the ambiguity, replace only the fruit example with: הרמב״ם מדגים זאת בפירות: ״כשהרקיבו מקצת הפירות״ אומרים לו ״הרי שלך לפניך״, ו״אם הרקיבו כולם״ משלם כשעת הגזלה. This quotes the identified source without choosing an interpretation.",
+      "correction_status": "optional proposed clarification; not applied; interpretation pending",
+      "external_witness": {
+        "url": "https://he.wikisource.org/wiki/משנה_בבא_קמא_ט_ב",
+        "edition": "Wikisource public Hebrew transcription, labeled פירוש הרמב״ם; no independent physical-edition lineage established",
+        "retrieved_at": "2026-10-21",
+        "fresh_fetch": true,
+        "context_read": "Rambam section and surrounding explanations, particularly rendered lines187-212",
+        "exact_supporting_quote": "כשהרקיבו מקצת הפירות, אומרים לו הרי שלך לפניך. ואם הרקיבו כולם, משלם כשעת הגזלה.",
+        "receipt": "external/rotting-context-web-result.json",
+        "limit": "Confirms wording and context, not the proposed quantity-versus-degree interpretation."
+      }
+    },
+    {
+      "id": "TR-002",
+      "classification": "faithfully_disclosed_source_conflict",
+      "severity": "informational",
+      "claim_ids": [
+        "minchah/exceptions/paragraph-1",
+        "minchah/exceptions/paragraph-2"
+      ],
+      "current_text": [
+        {
+          "claim_id": "minchah/exceptions/paragraph-1",
+          "current_hebrew": "מנחה רגילה שנקמצה שלא לשמה כשרה, לדברי הרמב״ם, אף שאינה עולה לבעליה כראוי. מנחת קנאות ומנחת חוטא נידונות מתוך זיקתן לחטאת. במנחת העומר יש הבדל בין מקורות הרמב״ם: בפירוש המשנה נאמר שאם נקמצה שלא לשמה היא פסולה, מפני שבאה להתיר את החדש. בהלכות פסולי המוקדשין יד, ג, לעומת זאת, כתב שהרי היא כאילו נקמצה לשמה ושייריה נאכלין. לכן לצד הכלל במנחות יש ללמוד את דיניה של כל מנחה, ולשמור את ההבדל בין שני המקורות בעומר.",
+          "sha256": "8d130a9b1ba3c9c075267ff7af6e8e9dc9e4002b30bb56d8bffac6121ac963bb"
+        },
+        {
+          "claim_id": "minchah/exceptions/paragraph-2",
+          "current_hebrew": "הערת מקור: בפירוש המשנה נפסלה מנחת העומר שנקמצה שלא לשמה, ואילו במשנה תורה הוכשרה. בתוספות יום טוב למנחות א, א הועמדו הדברים מול פסקי הרמב״ם בחיבורו, ובעיקר תוספות יום טוב נתפרש שהרמב״ם חזר בו. הסבר זה מובא בשם מפרשו; יחס נוסחי פירוש המשנה והמהדורות לא הוכרע בבדיקה זו.",
+          "sha256": "7b54d40f4d8aecb665b6692ffb92e9ac33684ec6bafbccecdd93ea2430b0f43d"
+        }
+      ],
+      "title": "Omer shelo lishmah: Commentary versus code, with correct Ikkar attribution",
+      "source_evidence": [
+        {
+          "source_id": "m1-1",
+          "segments": [
+            1
+          ],
+          "citation": "רמב\"ם על משנה מנחות א׳:א׳",
+          "edition_metadata": [
+            {
+              "versionTitle": "Vilna edition",
+              "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+              "license": "Public Domain",
+              "language": "he"
+            }
+          ],
+          "url": "https://www.sefaria.org/Rambam_on_Mishnah_Menachot_1:1",
+          "exact_source_quotations": [
+            {
+              "segment": 1,
+              "text": "כל המנחות שנקמצו שלא לשמן כשירות אלא שלא כו': נתן קמיצות המנחה תחת שחיטת הקרבנות וכבר הקדמנו בתחילת זבחים שכל הזבחים שנשחטו שלא לשמן כשרים חוץ מן החטאת ונאמר במנחת קנאות הוא מנחת זכרון מזכרת עון ולפי שזכר בה עון עשו אותה כמנחת חוטא וכבר ידעת מה שנאמר במנחת חוטא שקראה חטאת: וענין מה שנא' כשרים שיגמר אותם בכשרות כמו שנתבאר בזבחים: ומה שאמר כל המנחות ר\"ל מנחות שאין קבוע להם זמן אבל עומר התנופה אם קמצו שלא לשמו פסול הואיל ובאת להתיר ולא הותרה ר\"ל שאינו מותר לאכול החדש עד שיקריב אותו הקומץ שנא' ולחם וקלי וכרמל וגו' אבל מנחות שאין קבוע להן זמן אם קמצן [יעב\"ץ: שלא לשמן] כשרים כגון שיקמוץ מחבת לשם מרחשת או מרחשת לשם מחבת והדומה לזה: ומה שאמר נתן בכלי רוצה לומר נתן הקומץ בכלי לפי שהוא צריך לתת אותו בכלי שרת וראיתי לזכור בכאן גוף הברייתא הנזכרת בגמ' בסדר הקרבת המנחה ומפני שהיא מבוארת ואינה צריכה פירוש וזה גוף מה שאמר בה סדר מנחות (האשם) ושמור העניינים האלו שכוללת אותם הברייתא הזאת:"
+            }
+          ],
+          "quotation_scope": "Complete cited bundled segment(s), verbatim. Reviewer focus below is explanatory and not a substitute textual witness.",
+          "reviewer_focus": "אבל עומר התנופה אם קמצו שלא לשמו פסול הואיל ובאת להתיר ולא הותרה"
+        },
+        {
+          "source_id": "mt-pesulei-14-3",
+          "segments": [
+            1
+          ],
+          "citation": "רמב״ם, הלכות פסולי המוקדשין יד:ג (סעיף ד במספור הרציף)",
+          "edition_metadata": [
+            {
+              "versionTitle": "Mishneh Torah (Mechon Mamre)—verbatim excerpt, not complete chapter",
+              "versionSource": "https://mechon-mamre.org/i/8714.htm",
+              "license": "Public Domain",
+              "language": "he"
+            }
+          ],
+          "url": "https://mechon-mamre.org/i/8714.htm",
+          "exact_source_quotations": [
+            {
+              "segment": 1,
+              "text": "מנחת העומר שקמצה שלא לשמה--הרי זו כמי שנעשת לשמה, ושייריה נאכלין, מפני שהיא מן השעורים, ואין השעורים דבר הראוי לשאר קרבנות."
+            }
+          ],
+          "quotation_scope": "Complete cited bundled segment(s), verbatim. Reviewer focus below is explanatory and not a substitute textual witness.",
+          "reviewer_focus": "מנחת העומר שקמצה שלא לשמה--הרי זו כמי שנעשת לשמה, ושייריה נאכלין"
+        },
+        {
+          "source_id": "full-tyt-menachot-1-1",
+          "segments": [
+            1
+          ],
+          "citation": "תוספות יום טוב מנחות א, א — הפירוש המלא",
+          "edition_metadata": [
+            {
+              "versionTitle": "Wikisource public Hebrew transcription",
+              "versionSource": "https://he.wikisource.org/wiki/משנה_מנחות_א_א",
+              "license": "CC BY-SA",
+              "language": "he"
+            }
+          ],
+          "url": "https://he.wikisource.org/wiki/משנה_מנחות_א_א",
+          "exact_source_quotations": [
+            {
+              "segment": 1,
+              "text": "וכן ראיתי בפט\"ו מה' פה\"מ דלא כתב להא דהעומר. וכן בפ\"ז מה' תמידין לא פסל לעומר שקמץ שלא לשמו:"
+            }
+          ],
+          "quotation_scope": "Complete cited bundled segment(s), verbatim. Reviewer focus below is explanatory and not a substitute textual witness.",
+          "reviewer_focus": "וכן ראיתי בפט״ו מה' פה״מ דלא כתב להא דהעומר. וכן בפ״ז מה' תמידין לא פסל לעומר שקמץ שלא לשמו:"
+        },
+        {
+          "source_id": "ikkar-tyt-menachot-1-1",
+          "segments": [
+            1
+          ],
+          "citation": "עיקר תוספות יום טוב מנחות א, א",
+          "edition_metadata": [
+            {
+              "versionTitle": "Wikisource public Hebrew transcription",
+              "versionSource": "https://he.wikisource.org/wiki/משנה_מנחות_א_א",
+              "license": "CC BY-SA",
+              "language": "he"
+            }
+          ],
+          "url": "https://he.wikisource.org/wiki/משנה_מנחות_א_א",
+          "exact_source_quotations": [
+            {
+              "segment": 1,
+              "text": "וכן הר\"מ בחבורו חזר בו ולא פסל לעומר שלא לשמו:"
+            }
+          ],
+          "quotation_scope": "Complete cited bundled segment(s), verbatim. Reviewer focus below is explanatory and not a substitute textual witness.",
+          "reviewer_focus": "וכן הר״מ בחבורו חזר בו ולא פסל לעומר שלא לשמו:"
+        }
+      ],
+      "reasoning": "Current two paragraphs disclose the opposed outcomes. The explicit חזר בו is attributed to Ikkar Tosafot Yom Tov, while full Tosafot Yom Tov is described as comparing the code. No alternative edition or historical resolution is invented.",
+      "minimal_proposed_correction": null,
+      "external_witness": {
+        "fresh_fetch": false,
+        "status": "Not independently refetched in this checkpoint; historical ledger evidence remains historical, not credited as a new witness."
+      }
+    },
+    {
+      "id": "TR-003",
+      "classification": "faithfully_disclosed_source_conflict",
+      "severity": "informational",
+      "claim_ids": [
+        "d-shomrim/four/paragraph-1",
+        "d-shomrim/four/paragraph-2"
+      ],
+      "current_text": [
+        {
+          "claim_id": "d-shomrim/four/paragraph-1",
+          "current_hebrew": "המשנה מונה ארבעה שומרים: שומר חינם, שואל, שומר שכר ושוכר. שומר שכר ושוכר שווים בדינם: הם חייבים בגניבה ובאבדה, אך נשבעים ונפטרים באונס, כגון שבורה, שבויה ומתה. שומר חינם נשבע ונפטר במקרים המנויים בדינו. השואל חייב אף באונס, בכפוף לפטוריו, ובהם מתה מחמת מלאכה. גם כשהשואל משלם על החפץ שאבד, ייתכן שתידרש ממנו שבועה שאינו ברשותו, מחשש שנתן בו עיניו. בהלכות שאלה ופיקדון ו, א מגדיר הרמב״ם שבועה זו כתקנת חכמים, ומבחין בין חפץ מסוים לבין דבר שאפשר לקנות כמותו. עצם החובה לשלם אינה אפוא מבטלת את הצורך בשבועה.",
+          "sha256": "a1798e5eb071580b8baefbd0676f5730a9468384dbc23ebaa5c8444838d84f2e"
+        },
+        {
+          "claim_id": "d-shomrim/four/paragraph-2",
+          "current_hebrew": "הערת מקור: בנוסח פירוש המשנה המצוטט כאן מופיע הביטוי ״שבועת התורה״, ואילו במשנה תורה נאמר שזו שבועה מתקנת חכמים. אין לטשטש חילוף לשונות זה; טעמו ויחס שני המקורות עדיין טעונים בירור.",
+          "sha256": "69300535a0e0f77d825f4dc7fbfc225136e0acbf7fd074e87a4f0b34cc219fa7"
+        }
+      ],
+      "title": "Borrower paying but swearing: Torah wording versus rabbinic enactment",
+      "source_evidence": [
+        {
+          "source_id": "review-shomrim",
+          "segments": [
+            1
+          ],
+          "citation": "רמב\"ם על משנה שבועות ח׳:א׳",
+          "edition_metadata": [
+            {
+              "versionTitle": "Vilna edition",
+              "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+              "license": "Public Domain",
+              "language": "he"
+            }
+          ],
+          "url": "https://www.sefaria.org/Rambam_on_Mishnah_Shevuot_8:1",
+          "exact_source_quotations": [
+            {
+              "segment": 1,
+              "text": "ארבעה שומרין הן שומר חנם והשואל נושא שכר והשוכר כו': דיני הארבעה שומרין שלשה לפי שדין נושא שכר והשוכר אחד והדינין הנזכרים בהן הוא לשון התורה ויוקש עליהם כי נושא שכר והשוכר נשבעין על האונס ואינם חייבים לשלם כי שבורה ומתה אונס הוא והשואל חייב באונס אלא אם מתה בשעת מלאכה כמו שבארנו בפ' שמיני מן בבא מציעא ושבועת השומרין הוא שבועת התורה ואע\"פ שהשואל משלם את הכל ישבע קודם לכן שבועת התורה שאותו הדבר נאבד שיש לומר שמא עיניו נתן בה ועל הדרך שבארנו בפרק ששי מזו המסכתא:"
+            }
+          ],
+          "quotation_scope": "Complete cited bundled segment(s), verbatim. Reviewer focus below is explanatory and not a substitute textual witness.",
+          "reviewer_focus": "ואע״פ שהשואל משלם את הכל ישבע קודם לכן שבועת התורה שאותו הדבר נאבד שיש לומר שמא עיניו נתן בה"
+        },
+        {
+          "source_id": "mt-sheelah-6-1-extension",
+          "segments": [
+            1
+          ],
+          "citation": "רמב״ם הלכות שאלה ופיקדון ו, א — מכון ממרא א–ב",
+          "edition_metadata": [
+            {
+              "versionTitle": "Mechon Mamre public Hebrew text",
+              "versionSource": "https://mechon-mamre.org/i/d206.htm",
+              "license": "Public Domain",
+              "language": "he"
+            }
+          ],
+          "url": "https://mechon-mamre.org/i/d206.htm",
+          "exact_source_quotations": [
+            {
+              "segment": 1,
+              "text": "שומר חינם שאמר הריני משלם, ואיני נשבע--אם היה הפיקדון דבר שכל מינו שווה ומצוי בשוק לקנות כמותו כגון פירות, או יריעות של צמר או של פשתן השוות בכל עניינם, או קורות המצויות, וכל כיוצא בהן--הרי זה משלם, ואינו נשבע. אבל אם היה הפיקדון בהמה, או בגד מצוייר, או כלי מתוקן, או דבר שאינו מוצא לקנות כמותו בשווה--חוששין שמא עיניו נתן בו, ומשביעין אותו בתקנת חכמים שבועה בנקיטת חפץ שאינו ברשותו; ואחר כך משלם. ב והוא הדין לשאר השומרין, כגון השואל שאמר מתה או נגנבה, ושומר שכר והשוכר, שאמר נגנבה או אבדה--אף על פי שהן חייבין לשלם--משביעין אותן שבועה שאינה ברשותן, ואחר כך משלמין דמי הבהמה או החפץ: שאנו חוששין לו, שמא עיניו נתן בה. ואם אמרו הבעלים, יתר על זה היה שווה--כולל בשבועתו שאינו שווה אלא כך וכך."
+            }
+          ],
+          "quotation_scope": "Complete cited bundled segment(s), verbatim. Reviewer focus below is explanatory and not a substitute textual witness.",
+          "reviewer_focus": "ומשביעין אותו בתקנת חכמים שבועה בנקיטת חפץ שאינו ברשותו; ואחר כך משלם. ב והוא הדין לשאר השומרין, כגון השואל שאמר מתה או נגנבה"
+        }
+      ],
+      "reasoning": "Current note retains the conflicting level labels; the body preserves specific-object versus replaceable-kind scope and separately attaches explicit borrower extension. The interpretation/history remains unresolved.",
+      "minimal_proposed_correction": null,
+      "external_witness": {
+        "fresh_fetch": false,
+        "status": "Bundled passages read; prior external evidence is not counted as freshly accessed."
+      }
+    },
+    {
+      "id": "TR-004",
+      "classification": "faithfully_disclosed_source_conflict",
+      "severity": "informational",
+      "claim_ids": [
+        "t-kelim/purification/paragraph-1",
+        "t-kelim/purification/paragraph-2"
+      ],
+      "current_text": [
+        {
+          "claim_id": "t-kelim/purification/paragraph-1",
+          "current_hebrew": "כלי חרס נטהר בשבירה לפי דיניה, ולא בטבילה. גם בין שאר הכלים יש הבדלים: כלי זכוכית אינם נטהרים מטומאתם בטבילה במקווה, אף שטומאתם מגזרת חכמים, ואילו מיני כלים אחרים נטהרים לפי דיניהם. הלשון הכללית שבהקדמה אינה מלמדת שכל כלי שנזכר בה נטהר בטבילה. בכלי מתכות קבעו חכמים דין נוסף, ״טומאה ישנה״: אם נשברו ונטהרו, ולאחר מכן שבו ונעשו כלים, חוזרת אליהם טומאתם הקודמת.",
+          "sha256": "6e6f79d29d880933ea66ec2ba2fb36113f7dfc3dcf81f6d2e513fa6e4eacc8fe"
+        },
+        {
+          "claim_id": "t-kelim/purification/paragraph-2",
+          "current_hebrew": "הערת מקור: הלשון הכללית שבהקדמה לסדר טהרות טעונה סייג לאור דברי הרמב״ם בהלכות מקוואות א, ג, המוציאים כלי זכוכית מכלל הכלים הנטהרים בטבילה מטומאתם. אין עניין זה נוגע לטבילת כלים הנקנים מן הגוי.",
+          "sha256": "d1d01f684e74de7c85b90ada8e3296f9f7dd3bf3f655fca43c87a6f40ce3f9a9"
+        }
+      ],
+      "title": "General immersion wording versus glass-vessel exception",
+      "source_evidence": [
+        {
+          "source_id": "t-intro",
+          "segments": [
+            14
+          ],
+          "citation": "רמב\"ם הקדמה לסדר טהרות",
+          "edition_metadata": [
+            {
+              "versionTitle": "Commentarie de Maimonide sur la Mischnah Seder Tohorot, Berlin 1889",
+              "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH000521134",
+              "license": "Public Domain",
+              "language": "he"
+            }
+          ],
+          "url": "https://www.sefaria.org/Rambam_Introduction_to_Seder_Tahorot",
+          "exact_source_quotations": [
+            {
+              "segment": 14,
+              "text": "ודע ששם כלים נופל על שמנה מינים והם בגדים ושק וכלי חרס וכלי עור וכלי עצם וכלי זכוכית וכלי מתכות וכלי עץ. אולם הקופות והדומה להן מהכלים הנעשים מנצרים והוצין וגמי וחריות דקלים וקנים וכיוצא בהן כולן בכלל כלי עץ כמו שיתבאר בזאת המסכתא (פט\"ו מ\"ב). והתורה אמרה שאלו המינים כולם מקבלים טומאה חוץ מכלי זכוכית לבד שהן לא יטמאו אלא מדרבנן. ולשון הגמר (שבת י\"ד ע\"ב) יוסי בן יועזר איש צרדה ויוסף בן יוחנן איש ירושלם גזרו טומאה על כלי זכוכית. ובתוספת כלים אמרו (כלים. בבא בתרא פ\"ז הל' ז') כלי זכוכית מדברי סופרים. אבל שאר הכלים יטמאו מדאוריתא אמר השם יתברך (ויקרא י\"א ל\"ב) מכל כלי עץ או בגד או עור או שק. ושק הוא הנארג מן השער הדק והעב מאוד כמו מה שנעשה ממנו לשאת בו משא הכל יקרא שק. ובגד הנארג בזולת השער כמו הפשתן והצמר והמשי וצמר הגפן וזולתם. והלבדים נכנסים בכלל הבגדים. ולשון התוספתא (כלים ב\"ב פ\"ה ה\"ג) העושה חלוק מן הלבד אם יש בו שלשה על שלשה טמא וזהו שיעור הבגד לטומאה לפי מה שיתבאר בשבעה ועשרים (מ\"א) מזאת המסכתא. ובספרא (שמיני פ\"ז הל' ח') או בגד לרבות את הלבדים. ואמר בטומאת כלי חרס (ויקרא י\"א ל\"ג) וכל כלי חרש אשר יפול מהם אל תוכו יטמא. ואמר בכלי מתכות (במדבר ל\"א כ\"ב) אך את הזהב ואת הכסף וגומר. אולם כלי עצם הם נכנסים תחת אמרו (שם כ') וכל מעשה עזים כמו שנבאר בשני (מ\"א) מזאת המסכתא. וכלי זכוכית נסמכין על כלי חרס כמו שיתבאר בשני (שם) מזאת המסכתא גם כן. ומיני אלו הכלים כולן חוץ מכלי חרס יש להן טהרה במקוה אבל כלי חרס אין לו טהרה כי אם בשברה ולא יטהר במקוה כלל והוא אמרו יתברך (ויקרא י\"א ל\"ג) ואותו תשברו. ואמר (שם ט\"ו י\"ב) וכל כלי עץ ישטף במים. וכמו זה יקראו גם כן כלי ההיתוך כלי מתכות ואין כלי זכוכית מכללם. ויקראו האריגות כולם כלים (וכן הגהתי בערבי במקום בגדים) ואפילו הנעשית מהשער וכלי חרס לא יכניסוהו בכלל הכלים על הרוב לפי שייחדו לו דינים פרטיים כמו שנזכור. ושאר הכלים והם כלי עץ וכלי עצם וכלי עור יקראו אותם כלי שטף לפי שיש להם טהרה במקוה. וכאשר תשמעם אומרים מטמא כלים או מטמא בגדים תדע שהוא מטמא אלו המינים כולן חוץ מכלי חרס שהוא לא יטמא כי אם באב הטומאה כמו שאבאר. ובטומאת מת בפרט אשר שמנו לכלים בה אלו הדינים הבדל. וזה שכלי חרס איך מה שיטמא במת יהיה ראשון לטומאה ולא יהיה אב ואפילו נגע במת עצמו או היה באהל המת. וכבר קדם לנו בזה לשון התוספתא (אהלות ט\"ו הל' י') אמר יתברך (במדבר י\"ט ט\"ו) וכל כלי פתוח אשר אין צמיד פתיל עליו טמא הוא אמרו (ירושלמי פסחים פ\"א ה\"ז), הוא טמא ואינו נעשה אב הטומאה לטמא. וכבר התבאר בספרי (פיסקא קכ\"ו) שבכלי חרס הכתוב מדבר וזה יתבאר בעשירי (מ\"א) מזאת המסכתא. אבל שאר כלים ובגדים כשנגעו באדם שנטמא במת יהיו אב הטומאה. ובין אם נגע דבר מהן במת ואחר כך נגע בו אדם ונגע כלי באדם שלשתן יהיו אבות כמו שזכרנו וכמו שבארו בספרי לפי מה שאפרש בראשון (מ\"ב) מאהלות. ודע שהכלי חרס לבדו לא יהיה אב הטומאה לעולם לא בטומאת מת ולא בזולתה מהטומאות ויתבאר זה במקומות שונות מזה הסדר. ובכלי מתכות בפרט יש דין שאינו בשאר כלים. וזה שאם נטמאו באיזה מהטומאות שתהיה ואחר זה נשברו וכבר נטהרו בשבירתן אם התיכם וחזר ועשה מהם כלי שני ישובו לטומאתן הראשונה אשר היו בה וזה גם כן רק מדרבנן. ואני עתיד לבאר טעם זה באחד עשר מזאת המסכתא (מ\"א). אמרו (שבת ט\"ז ע\"ב) שמעון בן שטח גזר טומאה על כלי מתכות. רצונם לומר שגזר שישובו לטומאתן אחר שנטהרו בשבירתן עד שיטבלו במי מקוה. ולשון התלמוד (שם ועיין כלים פי\"א מ\"א) טומאה ישנה מדרבנן. ודע זה."
+            }
+          ],
+          "quotation_scope": "Complete cited bundled segment(s), verbatim. Reviewer focus below is explanatory and not a substitute textual witness.",
+          "reviewer_focus": "ומיני אלו הכלים כולן חוץ מכלי חרס יש להן טהרה במקוה"
+        },
+        {
+          "source_id": "mt-mikvaot-1-3",
+          "segments": [
+            1
+          ],
+          "citation": "רמב״ם, הלכות מקוואות א:ג",
+          "edition_metadata": [
+            {
+              "versionTitle": "Mishneh Torah (Mechon Mamre)—verbatim excerpt, not complete chapter",
+              "versionSource": "https://mechon-mamre.org/i/a801.htm",
+              "license": "Public Domain",
+              "language": "he"
+            }
+          ],
+          "url": "https://mechon-mamre.org/i/a801.htm",
+          "exact_source_quotations": [
+            {
+              "segment": 1,
+              "text": "כל הכלים שנטמאו--יש להן טהרה במקוה, חוץ מכלי חרס וכלי זכוכית; וכן המפץ."
+            }
+          ],
+          "quotation_scope": "Complete cited bundled segment(s), verbatim. Reviewer focus below is explanatory and not a substitute textual witness.",
+          "reviewer_focus": "כל הכלים שנטמאו--יש להן טהרה במקוה, חוץ מכלי חרס וכלי זכוכית; וכן המפץ."
+        }
+      ],
+      "reasoning": "Current paragraphs explicitly qualify the introduction by the separate glass exception and preserve the metal old-impurity decree. No practical purchased-vessel immersion inference is made.",
+      "minimal_proposed_correction": null,
+      "external_witness": {
+        "fresh_fetch": false,
+        "status": "Bundled witnesses read; historical public witness evidence is not newly retrieved here."
+      }
+    },
+    {
+      "id": "TR-005",
+      "classification": "faithfully_disclosed_source_conflict",
+      "severity": "informational",
+      "claim_ids": [
+        "t-ranks/rank/paragraph-1"
+      ],
+      "current_text": [
+        {
+          "claim_id": "t-ranks/rank/paragraph-1",
+          "current_hebrew": "אב הטומאה מטמא אדם וכלים לפי דיניו, ואילו ולד הטומאה מטמא בדרך כלל אוכלין ומשקין בלבד. יוצאים מן הכלל משקין טמאים, שחכמים גזרו שיטמאו גם כלים.",
+          "sha256": "f802363b77a8c0e5614019be057f3109ff6ca45084dc53f8841018bc46d2103a"
+        }
+      ],
+      "title": "Difficult av/derivative sentence within the saved Introduction",
+      "source_evidence": [
+        {
+          "source_id": "t-intro",
+          "segments": [
+            23
+          ],
+          "citation": "רמב\"ם הקדמה לסדר טהרות",
+          "edition_metadata": [
+            {
+              "versionTitle": "Commentarie de Maimonide sur la Mischnah Seder Tohorot, Berlin 1889",
+              "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH000521134",
+              "license": "Public Domain",
+              "language": "he"
+            }
+          ],
+          "url": "https://www.sefaria.org/Rambam_Introduction_to_Seder_Tahorot",
+          "exact_source_quotations": [
+            {
+              "segment": 23,
+              "text": "ודע כי כל מה שיטמא באחד מאבות הטומאות בין אדם בין כלים בין אוכלים בין משקין יקרא ראשון לטומאה ומה שיגע בראשון יקרא שני ומה שיגע בשני יקרא לו שלישי ומה שיגע בשלישי יאמר לו רביעי וזהו המדרגה האחרונה בטומאה. ובשני (מ\"ג) מטהרות אמרו הראשון בחולין טמא ומטמא השני פסול ואינו מטמא הראשון והשני שבתרומה טמאין ומטמאין השלישי פסול ולא מטמא הראשון והשני והשלישי שבקודש טמאין ומטמאין הרביעי פסול ולא מטמא. הנה כבר מבואר לך שהרביעי הוא תכלית הטומאה ושכל מה שיאמרו עליו פסול ענינו שלא יטמא זולתו לפי שכל מה שהגיעה אליו הטומאה ויִטמא אבל לא יטמא זולתו יקרא פסול. ולזה יאמר לאשר אכל אוכלין טמאין או שתה משקין טמאין נפסלה גויתו (עיין מקואות פ\"י מ\"ז) לפי שהוא לא יטמא זולתו. ויקראו גם כן הראשון ולד הטומאה והשני ולד ולד הטומאה והמשנה תקרא כל מה שאינו אב ולד הטומאה בין שהוא ראשון או שני. ומבואר הוא שכמו שתאמר זה אב מדאוריתא וזה אב מדרבנן כן תאמר זה ולד מדאוריתא וזה ולד מדרבנן. ומהעקרים גם כן אשר ראוי להיותן שמורים אצלך אמרם בתוספת טהרות (פ\"ה הל' י') כשם שראשון עושה שני ושני עושה שלישי כך ספק ראשון עושה ספק שני וספק שני עושה ספק שלישי. ועוד יש דברים רבים שהם גם כן מדרבנן אבל אינם אבות אלא בתחלה תיקון רבנן עשו אותם ולד הטומאה. כאמרם (שבת י\"ד ב') תלמידי שמאי והלל גזרו טומאה על הידים ועשו אותן שניות לעולם כמו שנבאר במסכת ידים (פ\"ג מ\"א) וכמו כן גזרו על האדם אשר יאכל אוכל ראשון או אוכל שני או ישתה משקין טמאין ושאר מה שמנו באחרון מזבים (מי\"ב) שיהיה שני לטומאה כמו שנבאר שם. ומדרבנן גם כן הטמאות אוכלין לאוכלין לפי שמן התורה אין אוכל מטמא אוכל. אמר יתברך (ויקרא י\"א ל\"ז ל\"ח) וכי יפול מנבלתם על כל זרע זרוע אשר יזרע טמא הוא אמרו (פסחים י\"ח ע\"ב) הוא טמא ואינו עושה כיוצא בו. ובטומאת משקין מחלוקת (שם ט\"ו ע\"ב) שיש מן החכמים אומרים שטומאת משקין מדרבנן ויש מי שאמרו טומאתן בעצמן והיותן מקבלין טומאה הוא מן התורה אבל היות משקין טמאין מטמאין אוכלין הוא מדרבנן ויש מי שאמרו שאפילו מה שיטמאו את האוכלין הוא מדאוריתא אבל היות משקין טמאין מטמאין הכלים עד שיהיה הכלי שני הנה זה מדרבנן לדברי הכל. והנני עתיד לבאר טעמי זאת המחלוקת ברביעי מטהרות (מ\"י) ובאחרון מזבים (מי\"כ). ולשון גמר נדה (ז' ע\"ב) מדאוריתא אין אוכל מטמא כלי ואין משקה מטמא כלי ורבנן הוא דגזור גזרה משום משקה זב וזבה משקה דעלולין לקבל טומאה גזרו בהן רבנן אוכלין דאין עלולין לקבל טומאה ולא גזרו בהן. וענין עלולין אשר להן סיבות מוכנות לקבל טומאה (מלשון עילה) וזה אמרם (פסחים י\"ח ב') דלא בעו הכשר. הנה כבר התבאר לך שיש דברים רבים שהם ולד הטומאה מדרבנן אף על פי שהאב אשר הוא לו ולד הוא דאוריתא וזהו הענין אשר רצינו להעיר עליו בזה הדיבור. ודמיון זה שאם יגע שרץ בככר הככר הזה ראשון מדאוריתא על מה שבארנו ואם נגע על דרך משל זה הככר בבשר זה הבשר שני מדרבנן לפי שמן התורה אין אוכל מטמא אוכל. וכמו זה אם אכל אדם זה הככר הטמא יהיה שני מדרבנן ועל זה תקיש ותבין שאר מה שזכרנו. והדין אשר יכלול אבות הטומאה שלא יטמא לא אדם ולא כלים ושלא יטמאו אלא אוכלין ומשקין לבד. ולשון הגמר בראשון דקמא (ב' ע\"א) דאב מטמא אדם וכלים וולד אוכלין ומשקין מטמא אדם וכלים לא מטמא. ועל אחת כמה וכמה הוא ראוי ונכון שהאב מטמא אוכלין ומשקין. אבל משקין טמאין לבד מטמאין הכלים לא האדם אף על פי שהם ולד הטומאה. ובמסכת פרה (פ\"ח מ\"ה) מזה הסדר יתבאר זה ושם נאמר כל ולד הטומאה אינו מטמא כלים אלא משקין. ודע שזה משפט מהופך (בההעתקה הנדפסת הוסיפו מלת בשיווי; ראה מלות ההגיון להר\"מ ז\"ל פרק ה') והוא שכל אב הטומאה מטמא אדם ובגדים וכל מה שמטמא אדם ובגדים הוא אב הטומאה. ושמור זה שהוא עיקר גדול אשר יצא לנו אחר שחזרנו על כל מיני הטומאות. ואחר שכבר הוא ברור ומבואר שכל ולד הטומאה לא יטמא כלים חוץ מן המשקה שהוא יטמא כלים וזה מדרבנן כמו שבארנו ושכמו זה גם כן מן התורה אין אוכל מטמא אוכל הנה הוא שמוכרח לעולם לא יהיה שלישי אלא מדרבנן. לפי שהאב אם יטמא הכלי או האדם יעשה זה הכלי או האדם ראשון וזה הראשון יטמא אוכלין ומשקין לבד כמו שקדם ויהיה האוכל שני דאוריתא גם כן ולא יטמא זה האוכל זולתו עד שיחזירהו שלישי אלא מדרבנן כמו שהשרשנו. ובתנאי שתהיה תרומה לא חולין לפי שאין בחולין כי אם שני לבד כמו שקדם על מה שבארנו בחמישי (מ\"ב) מסוטה. הנה כבר התבאר שראשון ושני פעם יהיו מדאוריתא ופעם יהיו מדרבנן על מה שבארנו אבל שלשי ורביעי הם לעולם מדרבנן אף על פי שהאב שהם מיוחסים אליו דאוריתא כמו שבארנו. ולזה אמרו (שם במשנת א\"י ובירושלמי חסרה מלת עיקר ובמשנתנו הגירסא מקרא) עתיד דור אחר לטהר את הככר השלישי שאין לו עיקר מן התורה. ומכלל מה ששמוהו גם כן ולד הטומאה משרש הגזרה הוא בשר תאוה שכבר התבאר בתוספת נדה (פ\"ט הל' י\"ח) שבשר תאוה שמוהו לעולם שלישי לטומאה אף על פי שלא נטמא כלל. ושם נאמר גזרו עליו שיטמא את הידים וחזרו וגזרו עליו שיטמא במגע וחזרו וגזרו עליו שיהא כנבלה עצמה מטמא במשא עוד אמרו שבאחרונה אמרו עליו שהוא טהור לתרומה רצונם לומר שלא יטמא תרומה ויטמא הקודש וזהו דין שלישי לטומאה כמו שזכרנו."
+            }
+          ],
+          "quotation_scope": "Complete cited bundled segment(s), verbatim. Reviewer focus below is explanatory and not a substitute textual witness.",
+          "reviewer_focus": "והדין אשר יכלול אבות הטומאה שלא יטמא לא אדם ולא כלים ושלא יטמאו אלא אוכלין ומשקין לבד. ולשון הגמר בראשון דקמא (ב' ע״א) דאב מטמא אדם וכלים וולד אוכלין ומשקין מטמא אדם וכלים לא מטמא."
+        }
+      ],
+      "reasoning": "The saved segment contains opposite formulations. Current body follows the explicit av/derivative maxim, and its attached source note conspicuously identifies the difficult preceding sentence without emending the witness. This pass does not settle the textual problem or claim agreement of all Rishonim.",
+      "minimal_proposed_correction": null,
+      "external_witness": {
+        "fresh_fetch": false,
+        "status": "No new independent edition for the difficult introductory wording was established in this checkpoint."
+      }
+    },
+    {
+      "id": "TR-006",
+      "classification": "faithfully_disclosed_source_conflict",
+      "severity": "informational",
+      "claim_ids": [
+        "d-edut/meaning/paragraph-1"
+      ],
+      "current_text": [
+        {
+          "claim_id": "d-edut/meaning/paragraph-1",
+          "current_hebrew": "תחילה מזהירים הדיינים את העדים על חומרת עדות שקר, ובודקים כל עד בנפרד כיצד נודע לו על החוב. מי שרק שמע את הדברים מאדם אחר אינו מעיד על ההודאה עצמה. אם העדויות תואמות, הדיינים נושאים ונותנים בדין. דרך ההכרעה תלויה גם בגודל ההרכב: בהרכב הראשון של שלושה מוסיפים שני דיינים אם אחד אומר ״איני יודע״, אפילו שני האחרים מסכימים. גם בהרכב שהורחב לחמישה, כששניים מזכים ושניים מחייבים ואחד אינו יודע, מוסיפים שניים. כשארבעה מסכימים ואחד אינו יודע יש הבדל בין המקורות: בפירוש המשנה נאמר שמוסיפים, ואילו בהלכות סנהדרין ח, ב הולכים אחר הרוב. בירור העדות וההכרעה בדין הם אפוא שלבים נפרדים, ובדין ההכרעה יש לשמור גם את ההבדל בין ההרכבים ואת חילוק המקורות.",
+          "sha256": "0a59d53319645f4254b8a65aa32af3efd65f4e2a1c7b04a80c10e4e70eccd237"
+        }
+      ],
+      "title": "Original three versus expanded five; four-agree/one-unsure difference",
+      "source_evidence": [
+        {
+          "source_id": "q-m-Sanhedrin-3.6",
+          "segments": [
+            1
+          ],
+          "citation": "משנה סנהדרין ג׳:ו׳",
+          "edition_metadata": [
+            {
+              "versionTitle": "Torat Emet 357",
+              "versionSource": "http://www.toratemetfreeware.com/index.html?downloads",
+              "license": "Public Domain",
+              "language": "he"
+            },
+            {
+              "versionTitle": "Mishnah, ed. Romm, Vilna 1913",
+              "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001741739",
+              "license": "Public Domain",
+              "language": "he"
+            },
+            {
+              "versionTitle": "Mishnah based on the Kaufmann manuscript, edited by Dan Be'eri",
+              "versionSource": "https://archive.org/details/MishnaCorrectedKaufman00WHOLE",
+              "license": "PD",
+              "language": "he"
+            }
+          ],
+          "url": "https://www.sefaria.org/Mishnah_Sanhedrin_3:6",
+          "exact_source_quotations": [
+            {
+              "segment": 1,
+              "text": "כֵּיצַד בּוֹדְקִים אֶת הָעֵדִים, הָיוּ מַכְנִיסִין אוֹתָן וּמְאַיְּמִין עֲלֵיהֶן וּמוֹצִיאִין אֶת כָּל הָאָדָם לַחוּץ, וּמְשַׁיְּרִין אֶת הַגָּדוֹל שֶׁבָּהֶן, וְאוֹמְרִים לוֹ אֱמֹר הֵיאַךְ אַתָּה יוֹדֵעַ שֶׁזֶּה חַיָּב לָזֶה. אִם אָמַר, הוּא אָמַר לִי שֶׁאֲנִי חַיָּב לוֹ, אִישׁ פְּלוֹנִי אָמַר לִי שֶׁהוּא חַיָּב לוֹ, לֹא אָמַר כְּלוּם, עַד שֶׁיֹּאמַר, בְּפָנֵינוּ הוֹדָה לוֹ שֶׁהוּא חַיָּב לוֹ מָאתַיִם זוּז. וְאַחַר כָּךְ מַכְנִיסִין אֶת הַשֵּׁנִי וּבוֹדְקִים אוֹתוֹ. אִם נִמְצְאוּ דִבְרֵיהֶם מְכֻוָּנִים, נוֹשְׂאִין וְנוֹתְנִין בַּדָּבָר. שְׁנַיִם אוֹמְרִים זַכַּאי, וְאֶחָד אוֹמֵר חַיָּב, זַכַּאי. שְׁנַיִם אוֹמְרִים חַיָּב, וְאֶחָד אוֹמֵר זַכַּאי, חַיָּב. אֶחָד אוֹמֵר זַכַּאי, וְאֶחָד אוֹמֵר חַיָּב, וַאֲפִלּוּ שְׁנַיִם מְזַכִּין אוֹ שְׁנַיִם מְחַיְּבִין וְאֶחָד אוֹמֵר אֵינִי יוֹדֵעַ, יוֹסִיפוּ הַדַּיָּנִין:"
+            }
+          ],
+          "quotation_scope": "Complete cited bundled segment(s), verbatim. Reviewer focus below is explanatory and not a substitute textual witness.",
+          "reviewer_focus": "וַאֲפִלּוּ שְׁנַיִם מְזַכִּין אוֹ שְׁנַיִם מְחַיְּבִין וְאֶחָד אוֹמֵר אֵינִי יוֹדֵעַ, יוֹסִיפוּ הַדַּיָּנִין"
+        },
+        {
+          "source_id": "q-Sanhedrin-3.6",
+          "segments": [
+            1
+          ],
+          "citation": "רמב\"ם על משנה סנהדרין ג׳:ו׳",
+          "edition_metadata": [
+            {
+              "versionTitle": "Vilna edition",
+              "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001300957",
+              "license": "Public Domain",
+              "language": "he"
+            }
+          ],
+          "url": "https://www.sefaria.org/Rambam_on_Mishnah_Sanhedrin_3:6",
+          "exact_source_quotations": [
+            {
+              "segment": 1,
+              "text": "כיצד בודקין את העדים היו מכניסין אותן כו':  מאיימין מיראין מפחידין ויכבידו עליהם גדולת העדות מבארין להם מה שיש בעדות שקר מן הבזוי וכובד העונש למעיד אותה: ופירוש בפנינו הודה לו שאמר לנו הוו עלי עדים שאני חייב לו מנה או כיוצא בזה או אמר לנו דרך הודאה ומסירת עדות אבל אם הודה בפניהם בדרך ספור דברים ולא אמר להם הוו עלי עדים וזהו מה שאמר הוא אמר לי שאני חייב לו שאין עדות זו מועלת. ויוסיפו הדיינין הוא שיוסיפו שנים ויהיו חמשה. ואם אירע עוד כגון זה המאורע בעצמו ואמרו שנים זכאי ושנים חייב ואחד איני יודע או שאמרו הארבעה זכאי או חייב ואחד איני יודע יוסיפו שנים כן יעשו תמיד עד שיהו שם מנין שיאמר סברתו ומנין גדול ממנו שיאמר הפך אותה סברא:"
+            }
+          ],
+          "quotation_scope": "Complete cited bundled segment(s), verbatim. Reviewer focus below is explanatory and not a substitute textual witness.",
+          "reviewer_focus": "או שאמרו הארבעה זכאי או חייב ואחד איני יודע יוסיפו שנים"
+        },
+        {
+          "source_id": "mt-sanhedrin-8-2",
+          "segments": [
+            1
+          ],
+          "citation": "רמב״ם הלכות סנהדרין ח, ב — מכון ממרא ד–ו",
+          "edition_metadata": [
+            {
+              "versionTitle": "Mechon Mamre public Hebrew text",
+              "versionSource": "https://mechon-mamre.org/i/e108.htm",
+              "license": "Public Domain",
+              "language": "he"
+            }
+          ],
+          "url": "https://mechon-mamre.org/i/e108.htm",
+          "exact_source_quotations": [
+            {
+              "segment": 1,
+              "text": "בית דין של שלושה שנחלקו--שניים אומרים זכאי ואחד אומר חייב, הרי זה זכאי; שניים אומרים חייב ואחד אומר זכאי, הרי זה חייב. אחד אומר זכאי ואחד אומר חייב, ואחד אומר איני יודע, או שאמרו שניים זכאי או חייב, והשלישי אומר איני יודע--יוסיפו שניים. ה נמצאו חמישה נושאין ונותנין בדבר: אמרו שלושה מהם זכאי ושניים חייב, הרי זה זכאי; אמרו שלושה חייב ושניים זכאי, הרי זה חייב; אמרו שניים זכאי ושניים חייב, ואחד אומר איני יודע--מוסיפין שניים. ו אבל אם אמרו ארבעה זכאי או חייב, ואחד אומר איני יודע, או שאמרו שלושה זכאי ואחד חייב, ואמר אחד איני יודע--בין שהיה זה שאמר איני יודע הוא שאמר איני יודע בתחילה, בין שאמר אחר--הולכים אחר הרוב. היו מחצה למחצה, ואחד אומר איני יודע--הרי אלו מוסיפין שניים אחרים; וכן אם נסתפק הדבר--מוסיפין והולכין, עד שבעים ואחד."
+            }
+          ],
+          "quotation_scope": "Complete cited bundled segment(s), verbatim. Reviewer focus below is explanatory and not a substitute textual witness.",
+          "reviewer_focus": "אבל אם אמרו ארבעה זכאי או חייב, ואחד אומר איני יודע ... הולכים אחר הרוב."
+        }
+      ],
+      "reasoning": "Current body correctly requires additions for the initial three even where two agree, then treats five separately. It retains the opposed four-agree outcomes instead of resolving the conflict by majority wording taken out of panel context.",
+      "minimal_proposed_correction": null,
+      "external_witness": {
+        "fresh_fetch": true,
+        "retrieved_at": "2026-10-21",
+        "witnesses": [
+          {
+            "url": "https://mechon-mamre.org/i/e108.htm",
+            "edition": "Mechon Mamre public Hebrew transcription",
+            "context": "Full rendered chapter, especially clauses ד–ו / conventional8:2"
+          },
+          {
+            "url": "https://he.wikisource.org/wiki/משנה_סנהדרין_ג_ו",
+            "edition": "Wikisource public Hebrew transcription, Rambam section",
+            "context": "Mishnah and Rambam commentary rendered lines122-210"
+          }
+        ],
+        "receipt": "external/court-and-milk-web-result.json",
+        "limit": "Independent public textual access, not manuscript/original-Arabic or scholarly resolution of the discrepancy."
+      }
+    },
+    {
+      "id": "TR-007",
+      "classification": "evidence_too_thin_to_decide",
+      "severity": "low",
+      "claim_ids": [
+        "av-melikah/portions/paragraph-1"
+      ],
+      "current_text": [
+        {
+          "claim_id": "av-melikah/portions/paragraph-1",
+          "current_hebrew": "בחטאת העוף ניתן למזבח הדם בלבד, וכל הבשר נאכל לכהנים. בעולת העוף מקטירים את הראש ואת הגוף, לאחר הסרת המוראה והנוצה והמליחה, כסדר המבואר במשנה. לפיכך אין בחטאת העוף הקטרת אימורים, ובעולת העוף אין בשר הנאכל לכהנים.",
+          "sha256": "b5f1819020b6468a0f1d82336205dd6f26fc6f5c0e35f15a5f123dab694cabcb"
+        }
+      ],
+      "title": "Pre-existing compressed sequence may attach body preparation to head burning",
+      "defect_established": false,
+      "source_evidence": [
+        {
+          "source_id": "mishnah6",
+          "segments": [
+            5
+          ],
+          "citation": "משנה זבחים ו׳",
+          "edition_metadata": [
+            {
+              "versionTitle": "Torat Emet 357",
+              "versionSource": "http://www.toratemetfreeware.com/index.html?downloads",
+              "license": "Public Domain",
+              "language": "he"
+            },
+            {
+              "versionTitle": "Mishnah, ed. Romm, Vilna 1913",
+              "versionSource": "https://www.nli.org.il/he/books/NNL_ALEPH001741739",
+              "license": "Public Domain",
+              "language": "he"
+            },
+            {
+              "versionTitle": "Mishnah based on the Kaufmann manuscript, edited by Dan Be'eri",
+              "versionSource": "https://archive.org/details/MishnaCorrectedKaufman00WHOLE",
+              "license": "PD",
+              "language": "he"
+            }
+          ],
+          "url": "https://www.sefaria.org/Mishnah_Zevachim_6",
+          "exact_source_quotations": [
+            {
+              "segment": 5,
+              "text": "עוֹלַת הָעוֹף כֵּיצַד הָיְתָה נַעֲשֵׂית. עָלָה בַכֶּבֶשׁ וּפָנָה לַסּוֹבֵב, בָּא לוֹ לְקֶרֶן דְּרוֹמִית מִזְרָחִית, הָיָה מוֹלֵק אֶת רֹאשָׁהּ מִמּוּל עָרְפָּהּ וּמַבְדִּיל, וּמְמַצֶּה אֶת דָּמָהּ עַל קִיר הַמִּזְבֵּחַ. נָטַל אֶת הָרֹאשׁ, וְהִקִּיף בֵּית מְלִיקָתוֹ לַמִּזְבֵּחַ, וּסְפָגוֹ בְמֶלַח, וּזְרָקוֹ עַל גַּבֵּי הָאִשִּׁים, בָּא לוֹ לַגּוּף וְהֵסִיר אֶת הַמֻּרְאָה וְאֶת הַנּוֹצָה וְאֶת בְּנֵי מֵעַיִם הַיּוֹצְאִים עִמָּהּ, וְהִשְׁלִיכָן לְבֵית הַדָּשֶׁן. שִׁסַּע וְלֹא הִבְדִּיל. וְאִם הִבְדִּיל, כָּשֵׁר. וּסְפָגוֹ בְמֶלַח, וּזְרָקוֹ עַל גַּבֵּי הָאִשִּׁים:"
+            }
+          ],
+          "quotation_scope": "Complete cited bundled segment(s), verbatim. Reviewer focus below is explanatory and not a substitute textual witness.",
+          "reviewer_focus": "The head is salted and burned; only then does the Mishnah turn to the body, crop/plumage removal, splitting and separate salting/burning."
+        }
+      ],
+      "reasoning": "Current מקטירים את הראש ואת הגוף, לאחר הסרת המוראה והנוצה והמליחה can be read as placing both burnings after body preparation. The source expressly handles the salted/burned head before בא לו לגוף. This establishes the source sequence, but the current sentence may be intended as compressed, distributive description rather than an assertion about order. The detailed olah/bird paragraph already gives the correct sequence. Therefore this is a low-severity ambiguity, not a demonstrated invalidity rule or confirmed source contradiction. The same wording already appears in the historical ledger baseline and is absent from every requested later overlay.",
+      "minimal_proposed_correction": "Replace only the middle sentence with: בעולת העוף מקטירים את הראש לאחר מליחתו. לאחר מכן מסירים מן הגוף את המוראה, הנוצה ובני המעיים היוצאים עמה, משסעים אותו וממליחים אותו, ומקטירים אף אותו, כסדר המבואר במשנה.",
+      "correction_status": "optional source-order clarification; not applied; no finding that current paragraph explicitly rules the contrary",
+      "external_witness": {
+        "url": "https://he.wikisource.org/wiki/משנה_זבחים_ו_ה",
+        "edition": "Wikisource public Hebrew transcription; Mishnah and separately labeled Rambam text, no physical-edition lineage authenticated",
+        "retrieved_at": "2026-10-21",
+        "fresh_fetch": true,
+        "context_read": "Rendered Mishnah and Rambam-text sequence, lines120-177, plus commentary182-192",
+        "exact_supporting_quote": "נטל את הראש, והקיף בית מליקתו למזבח, וספגו במלח, וזרקו על גבי האישים. בא לו לגוף",
+        "receipt": "external/bird-order-web-result.json",
+        "limit": "Confirms the stated source order, without proving that the current compressed sentence intends a different legal order."
+      }
+    }
+  ],
+  "limitations": [
+    "All317 blocks/all360 paragraph-item units received full current-text and cited bundled-context reading. This does not complete the independent-witness or all-six-gates requirements.",
+    "No verified status or all-six-gates completion. Independent human scholarly approval is a separate decision.",
+    "Public web access was newly successful for selected witnesses after shell requests returned403. Successful connector results are saved separately from failed requests.",
+    "External edition identity and original Arabic/manuscript collation are not established by named public transcriptions.",
+    "No generator was run over the master ledger, and no application/source/historical evidence was changed."
+  ],
+  "presentation_review": {
+    "file": "presentation-review.json",
+    "active_glosses_reviewed": 2,
+    "reading_plans_reviewed": 98,
+    "additional_claim_units": 0
+  }
+}

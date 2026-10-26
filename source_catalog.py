@@ -102,6 +102,45 @@ for id in sorted(_cited):
  filename=('Mishnah_' if m else 'Rambam_on_Mishnah_')+book+'.'+loc+'.json'
  source(id,('next-'+filename) if (ROOT/'sources'/('next-'+filename)).exists() else filename,'משנה' if m else 'רמב״ם')
 sources['c-Chullin-3.1']['note']='סוגריים, הצעות הגהה ותוספות שבנוסח הדיגיטלי נשמרו. אין כאן הכרעת נוסח או אימות אנטומי מחודש של כל פרט; המבוא אינו מסיק דין מן המקומות המסופקים.'
+# Audited Mishnah witnesses for direct claims about Peah and the eating table.
+# Preserve public-domain Sefaria snapshots verbatim, with edition metadata.
+source('c-m-Peah-1.2','next-Mishnah_Peah.1.2.json','משנה')
+source('c-m-Chullin-8.1','next-Mishnah_Chullin.8.1.json','משנה')
+source('audit-m-sheviit-7-1','audit-Mishnah_Sheviit.7.1-excerpt.json','משנה')
+source('mt-mikvaot-1-3','audit-MT-Mikvaot.1.3.json','רמב״ם')
+sources['mt-mikvaot-1-3']['url']='https://mechon-mamre.org/i/a801.htm'
+sources['mt-mikvaot-1-3']['note']='מובא מקטע מדויק מנוסח משנה תורה שבמכון ממרא, לצורך בירור הנקודה הנדונה בלבד; זה אינו הפרק השלם ואין בהבאתו הכרעה בין נוסחאות כתבי היד.'
+source('mt-sheelah-6-1','audit-MT-Sheelah.6.1.json','רמב״ם')
+sources['mt-sheelah-6-1']['url']='https://mechon-mamre.org/i/d206.htm'
+sources['mt-sheelah-6-1']['note']='מובא מקטע מדויק מנוסח משנה תורה שבמכון ממרא, לצורך בירור הנקודה הנדונה בלבד; זה אינו הפרק השלם ואין בהבאתו הכרעה בין נוסחאות כתבי היד.'
+source('mt-pesulei-14-3','audit-MT-Pesulei.14.3.json','רמב״ם')
+sources['mt-pesulei-14-3']['url']='https://mechon-mamre.org/i/8714.htm'
+sources['mt-pesulei-14-3']['note']='מובא מקטע מדויק מנוסח משנה תורה שבמכון ממרא, לצורך בירור הנקודה הנדונה בלבד; זה אינו הפרק השלם ואין בהבאתו הכרעה בין נוסחאות כתבי היד.'
+source('mt-nedarim-1-16','audit-MT-Nedarim.1.16.json','רמב״ם')
+sources['mt-nedarim-1-16']['url']='https://mechon-mamre.org/i/6201.htm'
+sources['mt-nedarim-1-16']['note']='מובא מקטע מדויק מנוסח משנה תורה שבמכון ממרא, לצורך בירור הנקודה הנדונה בלבד; זה אינו הפרק השלם ואין בהבאתו הכרעה בין נוסחאות כתבי היד.'
+source('mt-kelim-8-1','audit-MT-Kelim.8.1.json','רמב״ם')
+sources['mt-kelim-8-1']['url']='https://mechon-mamre.org/i/a708.htm'
+sources['mt-kelim-8-1']['note']='מובאים משפטים נבחרים מנוסח משנה תורה שבמכון ממרא; זה אינו נוסח הפרק בשלמותו. מספרי ההלכות באתר כוללים לעיתים מספור רציף בצד מספר ההלכה המקובל.'
+source('mt-pesulei-4-22','audit-MT-Pesulei.4.22.json','רמב״ם')
+sources['mt-pesulei-4-22']['url']='https://mechon-mamre.org/i/8704.htm'
+sources['mt-pesulei-4-22']['note']='מובאים משפטים נבחרים מנוסח משנה תורה שבמכון ממרא; זה אינו נוסח הפרק בשלמותו. מספרי ההלכות באתר כוללים לעיתים מספור רציף בצד מספר ההלכה המקובל.'
+source('mt-gerushin-1-13-18','audit-MT-Gerushin.1.13-18.json','רמב״ם')
+sources['mt-gerushin-1-13-18']['url']='https://mechon-mamre.org/i/4201.htm'
+sources['mt-gerushin-1-13-18']['note']='מובאים משפטים נבחרים מנוסח משנה תורה שבמכון ממרא; זה אינו נוסח הפרק בשלמותו. מספרי ההלכות באתר כוללים לעיתים מספור רציף בצד מספר ההלכה המקובל.'
+source('mt-toen-1-4-5','audit-MT-Toen.1.4-5.json','רמב״ם')
+sources['mt-toen-1-4-5']['url']='https://mechon-mamre.org/i/d401.htm'
+sources['mt-toen-1-4-5']['note']='מובאים משפטים נבחרים מנוסח משנה תורה שבמכון ממרא; זה אינו נוסח הפרק בשלמותו. מספרי ההלכות באתר כוללים לעיתים מספור רציף בצד מספר ההלכה המקובל.'
+source('mt-malveh-11-4','audit-MT-Malveh.11.4.json','רמב״ם')
+sources['mt-malveh-11-4']['url']='https://mechon-mamre.org/i/d311.htm'
+sources['mt-malveh-11-4']['note']='מובאים משפטים נבחרים מנוסח משנה תורה שבמכון ממרא; זה אינו נוסח הפרק בשלמותו. מספרי ההלכות באתר כוללים לעיתים מספור רציף בצד מספר ההלכה המקובל.'
+source('mt-chovel-1-12','audit-MT-Chovel.1.12.json','רמב״ם')
+sources['mt-chovel-1-12']['url']='https://mechon-mamre.org/i/b401.htm'
+sources['mt-chovel-1-12']['note']='מובאים משפטים נבחרים מנוסח משנה תורה שבמכון ממרא; זה אינו נוסח הפרק בשלמותו. מספרי ההלכות באתר כוללים לעיתים מספור רציף בצד מספר ההלכה המקובל.'
+source('mt-shechitah-4-12','audit-MT-Shechitah.4.12.json','רמב״ם')
+sources['mt-shechitah-4-12']['url']='https://mechon-mamre.org/i/5304.htm'
+sources['mt-shechitah-4-12']['note']='מובאים משפטים נבחרים מנוסח משנה תורה שבמכון ממרא; זה אינו נוסח הפרק בשלמותו. מספרי ההלכות באתר כוללים לעיתים מספור רציף בצד מספר ההלכה המקובל.'
+sources['audit-m-sheviit-7-1']['note']='זהו מקטע מדויק מן המשפט הפותח משנה שביעית ז, א, ולא נוסח המשנה בשלמותה. נעזרנו בו להוכחת שלוש המחלקות ותנאי שאינו מתקיים בארץ; ראו מהדורת ויקיטקסט שצוינה בקובץ המקור.'
 sources['c-Peah-1.2']['note']='הרמב״ם מביא שני נוסחים, ״ענוה״ ו״ענבה״, ומפרש את שניהם. שניהם נשמרו ללא הכרעת נוסח חדשה.'
 
 # Supplementary Rambam Mishneh Torah source verifies the distinction between
