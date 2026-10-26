@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "com.dantheman.mevoot-shas",
   "name": "מבואות הש״ס",
-  "version": "0.13.5",
+  "version": "0.13.6",
   "description": "מפתח מבואי לששה תחומים בש״ס: ענינים ותהליכים בקצרה, עם מקורות לעיון ללא רשת.",
   "author": "DanTheMan",
   "stability": "beta",

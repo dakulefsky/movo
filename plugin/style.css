@@ -59,3 +59,10 @@ html[data-theme-wait] body{visibility:hidden;background:transparent}html[data-th
 @media(max-width:800px){.topic-directory{column-gap:20px}.subject-card{padding:20px;min-height:170px}}
 @media(max-width:480px){.home-heading h1{font-size:2.35rem}.home-heading{padding-top:6px}.subject-grid{gap:10px}.subject-card{padding:17px 18px;min-height:0}.subject-card .subject-title{font-size:1.4rem}.subject-card small{min-height:0}.section-heading{display:block}.section-heading h2{margin-bottom:4px}.topic-directory{grid-template-columns:1fr;row-gap:22px}.reading-toolbar #read-all{margin-inline-end:0}.continue-panel{align-items:flex-start;flex-direction:column}.pager button{max-width:100%}}
 @media(prefers-reduced-motion:reduce){.subject-card{transition:none}.subject-card:hover{transform:none}}
+
+/* Visible reading size and resilient narrow-pane controls. */
+.font-tools{align-items:center;gap:4px}.font-tools output{font-size:.75rem;min-width:38px;text-align:center;font-variant-numeric:tabular-nums}
+button:disabled{opacity:.45;cursor:default}
+.search-row input{min-width:0}.search-row select{max-width:100%}
+.chapter,.source-segment{scroll-margin-block-start:16px}
+@media(max-width:600px){.topbar{height:auto;min-height:48px;flex-wrap:wrap;padding-block:8px}.topbar .brand{white-space:normal}.search-row{flex-wrap:wrap}.search-row input{flex-basis:100%}.search-row select{flex:1;min-width:0}.reading-toolbar{align-items:center;gap:8px}.font-tools{margin-inline-start:auto}.dialog-head{flex-wrap:wrap}.dialog-head h2{overflow-wrap:anywhere}.pager{flex-wrap:wrap}}
