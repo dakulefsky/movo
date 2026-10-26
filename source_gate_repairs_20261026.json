@@ -1,0 +1,88 @@
+{
+  "basis_commit": "d6a8804",
+  "status": "corrected_pending_recheck",
+  "scope": "Clarify an explicit invalidity ruling; explain the cited sukkah/matzah analogy in place of an editorial instruction; repair five displayed source-reference identifiers; preserve all raw sources. No publication or scholarly certification.",
+  "edits": [
+    {
+      "claim_id": "minchah/exceptions/paragraph-1",
+      "before": "מנחה רגילה שנקמצה שלא לשמה כשרה, לדברי הרמב״ם, אף שאינה עולה לבעליה כראוי. מנחת קנאות ומנחת חוטא נידונות מתוך זיקתן לחטאת. במנחת העומר יש הבדל בין מקורות הרמב״ם: בפירוש המשנה נאמר שאם נקמצה שלא לשמה היא פסולה, מפני שבאה להתיר את החדש. בהלכות פסולי המוקדשין יד, ג, לעומת זאת, כתב שהרי היא כאילו נקמצה לשמה ושייריה נאכלין. לכן לצד הכלל במנחות יש ללמוד את דיניה של כל מנחה, ולשמור את ההבדל בין שני המקורות בעומר.",
+      "after": "מנחה רגילה שנקמצה שלא לשמה כשרה, אלא שלא עלתה לבעליה לשם חובה. לעומת זאת, מנחת חוטא ומנחת קנאות שנקמצו שלא לשמן פסולות. הרמב״ם מבאר שמנחת חוטא נקראת חטאת, ומנחת קנאות נידונה כמותה מפני שנאמר בה ״מנחת זכרון מזכרת עון״. במנחת העומר יש הבדל בין מקורות הרמב״ם: בפירוש המשנה נאמר שאם נקמצה שלא לשמה היא פסולה, מפני שבאה להתיר את החדש. בהלכות פסולי המוקדשין יד, ג, לעומת זאת, כתב שהרי היא כאילו נקמצה לשמה ושייריה נאכלין. לכן לצד הכלל במנחות יש ללמוד את דיניה של כל מנחה, ולשמור את ההבדל בין שני המקורות בעומר.",
+      "defect_type": "missing_explicit_ruling_and_imprecise_obligation_wording",
+      "severity": "medium",
+      "source_id": "m1-1",
+      "segment": 1,
+      "supporting_quotations": [
+        "ולפי שזכר בה עון עשו אותה כמנחת חוטא",
+        "כבר ידעת מה שנאמר במנחת חוטא שקראה חטאת"
+      ],
+      "witness_url": "https://he.wikisource.org/wiki/משנה_מנחות_א_א",
+      "witness_receipts": [
+        "audit/reviews/source-gates-2026-10-26/witness-01.json",
+        "audit/reviews/source-gates-2026-10-26/witness-02.json"
+      ],
+      "reason": "State the exception’s legal result rather than merely referring to its connection with chattat. Preserve the independently disclosed Omer conflict and its explanatory note.",
+      "expanded": true,
+      "independent_second_review": "pending",
+      "independent_mishnah_rule": "כל המנחות שנקמצו שלא לשמן, כשרות, אלא שלא עלו לבעלים לשם חובה, חוץ ממנחת חוטא ומנחת קנאות"
+    },
+    {
+      "claim_id": "a-neder/sukkah/paragraph-1",
+      "before": "מי שאסר על עצמו סוכה מסוימת בנדר אינו רשאי לשבת בה, אף כדי לקיים מצווה: בנדר חל האיסור על גוף הדבר. בדוגמה זו מסביר הרמב״ם את החילוק בין נדר לשבועה. לצד זאת הוא מבחין בנדר שבו האדם מתחייב בקרבן בכל פעם שיעשה מצווה. כאן ההבחנה היא בין איסור חפצא, כלומר איסור החל על הדבר, לבין התחייבות המוטלת על האדם. אלו שני סוגים שונים של נדר, ואין להוסיף להם טעם שלא נאמר במקור.",
+      "after": "איסור הנדר חל גם כשהדבר הנאסר נצרך לקיום מצווה. הרמב״ם מדמה את הנודר מסוכה מסוימת למי שאין לו בליל הפסח אלא מצה של טבל או של הקדש: כשם שחיוב אכילת מצה אינו מתיר את אכילתה באיסור, כך אין מצוות הישיבה בסוכה מתירה לשבת בסוכה שנאסרה עליו בנדר. בשני המקרים קיום המצווה בדבר האסור הוא מצווה הבאה בעבירה. לעומת זאת, כשאדם מתחייב בקרבן בכל פעם שיניח תפילין, הנדר אינו אוסר עליו את התפילין; עליו לקיים את המצווה ולהביא את הקרבן שהתחייב בו.",
+      "defect_type": "editorial_process_instruction_in_reader_text_and_repeated_abstract_explanation",
+      "severity": "low",
+      "source_id": "c-Nedarim-2.2",
+      "segment": 1,
+      "supporting_quotations": [
+        "כגון שיאסר סוכה זו עליו שחזרה ישיבתה עבירה",
+        "מצה שהיא אסורה עליו באכילה כגון שתהיה טבל או הקדש",
+        "יוכל לקיים הנדר ולעשות המצוה"
+      ],
+      "witness_url": "https://he.wikisource.org/wiki/משנה_נדרים_ב_ב",
+      "witness_receipts": [
+        "audit/reviews/source-gates-2026-10-26/supplement-10-nedarim.json"
+      ],
+      "reason": "Replace an instruction to the editor with the concrete analogy given in the cited Commentary. Keep the prohibition-vow/conditional-offering distinction and avoid adding topics.",
+      "textual_note": "The public Rambam transcription compresses the last conditional-offering sentence relative to the bundled Vilna text; Bartenura on the same page independently states the liability when tefillin are worn. No emendation of either source or edition lineage is inferred.",
+      "expanded": true,
+      "independent_second_review": "pending"
+    }
+  ],
+  "source_metadata": [
+    {
+      "source_id": "mt-meilah-1",
+      "field": "ref",
+      "before": "mt-meilah-1",
+      "after": "רמב״ם, הלכות מעילה, פרק א",
+      "reason": "Replace an internal capture ID in the displayed source reference with the named work and location. Preserve raw snapshots and all segment text."
+    },
+    {
+      "source_id": "mt-meilah-2",
+      "field": "ref",
+      "before": "mt-meilah-2",
+      "after": "רמב״ם, הלכות מעילה, פרק ב",
+      "reason": "Replace an internal capture ID in the displayed source reference with the named work and location. Preserve raw snapshots and all segment text."
+    },
+    {
+      "source_id": "mt-meilah-3",
+      "field": "ref",
+      "before": "mt-meilah-3",
+      "after": "רמב״ם, הלכות מעילה, פרק ג",
+      "reason": "Replace an internal capture ID in the displayed source reference with the named work and location. Preserve raw snapshots and all segment text."
+    },
+    {
+      "source_id": "mt-shechitah-1-9",
+      "field": "ref",
+      "before": "mt-shechitah-1-9",
+      "after": "רמב״ם, הלכות שחיטה א, ט",
+      "reason": "Replace an internal capture ID in the displayed source reference with the named work and location. Preserve raw snapshots and all segment text."
+    },
+    {
+      "source_id": "mt-bikkurim-2",
+      "field": "ref",
+      "before": "mt-bikkurim-2",
+      "after": "רמב״ם, הלכות ביכורים, פרק ב",
+      "reason": "Replace an internal capture ID in the displayed source reference with the named work and location. Preserve raw snapshots and all segment text."
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Internal Error ()\n【turn384611view0】 [wordlim: 200] Source: open({\"ref_id\":\"https://daf-yomi.com/Dafyomi_Page.aspx?id=2946&vt=2&source=3\",\"lineno\":null}); Total lines: 1\nL0: URL https://daf-yomi.com/Dafyomi_Page.aspx?id=2946&source=3&vt=2 is not accessible via this tool.\n"
+    }
+  ],
+  "isError": false
+}

@@ -1,0 +1,18 @@
+
+=== מאחזר מפרט SDK רשמי מ-GitHub ===
+מפרט ה-SDK לא נטען מ-GitHub (fetch failed); נעשה שימוש בעותק המצורף (src/spec.json) — אותו ארטיפקט, ולכן אותה תוצאה. ייתכן שחסרים בו APIים שנוספו לאחר גרסת הוולידטור.
+נמצאו 1 תוספים לבדיקה.
+
+=== בדיקת תוסף: מבואות הש״ס (com.dantheman.mevoot-shas) ===
+NOTICE: 4 קבצים ייארזו אך לא נראים מופנים מ-manifest/HTML/CSS/JS — שקול להסירם (שים לב: הפניות דינמיות אינן מזוהות): fonts/NotoSerifHebrew.ttf, fonts/Rubik.ttf, fonts/notoserifhebrew-OFL.txt, fonts/rubik-OFL.txt
+✓ עבר ללא שגיאות ואזהרות.
+✓ העיצוב תואם לתיעוד אוצריא.
+OUTPUT total-plugins=1
+OUTPUT total-errors=0
+OUTPUT total-warnings=0
+OUTPUT passed=true
+OUTPUT published=false
+OUTPUT pending-approval=false
+
+סיכום: 1 תוספים, 0 שגיאות, 0 אזהרות, 0 הערות עיצוב.
+✓ כל התוספים עברו את הבדיקה.

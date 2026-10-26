@@ -1,0 +1,15 @@
+{
+  "two_clean_builds_identical_payloads": true,
+  "payload_file_sha256": {
+    "app.js": "952110f04591cc12656faae4deea70da3d5ba1711721efe5f116d8997c9df889",
+    "data/library.js": "67cc982508acaa3156e2996f6029687cffd7af313754aa8281c95e24a02bb102",
+    "fonts/NotoSerifHebrew.ttf": "4a76d07f2f671273d0219e51dc63459323be0c7b7d8106267f0f68af4227a3b5",
+    "fonts/Rubik.ttf": "7604615c681d3594432cb7f1b592657d1cac98acdb60c7e95619cddda19b265f",
+    "fonts/notoserifhebrew-OFL.txt": "9b9fe028b5ba74d231659a1bbaf0ed09b11e759d1ca6a070999e16d151616b47",
+    "fonts/rubik-OFL.txt": "472cbe7c25441df63e9c7864b43eb3c0f4b3df950c66a76224e6cfe1eae843fb",
+    "index.html": "2654bbd7642c67f135b2453d36979928774627ecf13684c48252e9cb0965d2b5",
+    "manifest.json": "be5d6fc2ebc743cc5f435cbecc0b91682dfb9eb9699b64a7873e8b2fd7ff3d11",
+    "style.css": "7633758a8b50cf74431c1381addb867f04c5f13e3cf994239cffb9b2dd79ebc2",
+    "theme-start.js": "8196bd063e270c287accace6dc102392e8fef835f14d100215881cc5b8d86034"
+  }
+}

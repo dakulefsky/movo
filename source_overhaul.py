@@ -35,7 +35,8 @@ def apply_overhaul(handbooks,sources):
 
 def pre_overhaul_corpus(data):
     """Strict inverse allows historical preservation checks to inspect their layer."""
-    result=deepcopy(data); plan=manifest(); blocks=_blocks(result['handbooks'])
+    from source_gate_repairs import pre_source_gates_corpus
+    result=pre_source_gates_corpus(data); plan=manifest(); blocks=_blocks(result['handbooks'])
     for item in reversed(plan['prooftexts']):
         assert result['sources'].pop(item['id'])==source_record(item),item['id']
         for key,segments in item['targets'].items():

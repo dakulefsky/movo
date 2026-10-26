@@ -4,7 +4,8 @@ import io, json, subprocess, tarfile, tempfile, hashlib, re
 from pathlib import Path
 from source_overhaul import manifest, pre_overhaul_corpus
 ROOT=Path(__file__).resolve().parent
-plan=manifest(); current=json.loads((ROOT/'editorial.json').read_text())
+from source_gate_repairs import pre_source_gates_corpus
+plan=manifest(); current=pre_source_gates_corpus(json.loads((ROOT/'editorial.json').read_text()))
 ledger=json.loads((ROOT/'audit/master-ledger.json').read_text())
 (ROOT/'work').mkdir(exist_ok=True)
 with tempfile.TemporaryDirectory(prefix='overhaul-baseline-',dir=ROOT/'work') as directory:
@@ -13,7 +14,7 @@ with tempfile.TemporaryDirectory(prefix='overhaul-baseline-',dir=ROOT/'work') as
     subprocess.run(['python3','build.py'],cwd=directory,check=True,stdout=subprocess.DEVNULL)
     baseline=json.loads((Path(directory)/'editorial.json').read_text())
     previous=json.loads((Path(directory)/'audit/master-ledger.json').read_text())
-assert pre_overhaul_corpus(current)==baseline,'Unrecorded content, source, ordering or metadata change'
+assert pre_overhaul_corpus(json.loads((ROOT/'editorial.json').read_text()))==baseline,'Unrecorded content, source, ordering or metadata change'
 for key,value in previous.items(): assert ledger[key]==value,('Historical ledger changed',key)
 for line in subprocess.check_output(['git','ls-tree','-r',plan['basis_commit'],'--','sources'],cwd=ROOT,text=True).splitlines():
     meta,name=line.split('\t');assert subprocess.check_output(['git','hash-object',name],cwd=ROOT,text=True).strip()==meta.split()[2],name
@@ -37,5 +38,5 @@ for key,text in expected.items():
     assert records[key]['current_hebrew']==text and records[key]['current_sha256']==hashlib.sha256(text.encode()).hexdigest(),key
     assert records[key]['six_gate_status']=='incomplete_not_verified' and records[key]['current_disposition']!='verified',key
 assert checkpoint['independently_six_gate_verified_blocks']==0
-assert checkpoint['editorial_sha256']==hashlib.sha256((ROOT/'editorial.json').read_bytes()).hexdigest()
+assert checkpoint['editorial_sha256']==hashlib.sha256(json.dumps(current,ensure_ascii=False,indent=2).encode()).hexdigest()
 print('PASS exact 8-paragraph /7-block continuation; five witnessed prooftexts; all 246 prior sources and complete historical ledger preserved. No six-gate verification claimed.')
