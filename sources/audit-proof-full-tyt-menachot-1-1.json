@@ -1,0 +1,22 @@
+{
+  "ref": "תוספות יום טוב מנחות א, א",
+  "heRef": "תוספות יום טוב מנחות א, א — הפירוש המלא",
+  "he": [
+    "וכן ראיתי בפט\"ו מה' פה\"מ דלא כתב להא דהעומר. וכן בפ\"ז מה' תמידין לא פסל לעומר שקמץ שלא לשמו:"
+  ],
+  "versions": [
+    {
+      "language": "he",
+      "versionTitle": "Wikisource public Hebrew transcription",
+      "versionSource": "https://he.wikisource.org/wiki/משנה_מנחות_א_א",
+      "license": "CC BY-SA"
+    }
+  ],
+  "witness": {
+    "url": "https://he.wikisource.org/wiki/משנה_מנחות_א_א",
+    "retrieved_at": "2026-10-21",
+    "page_sha256": "f66585b8225c91918aa6d8fa70be51d837a214ffb0e9e442fa0aaf28f88bd594",
+    "capture": "audit-witness-menachot.json",
+    "normalization": "HTML text nodes joined, whitespace collapsed; passages extracted without rewriting"
+  }
+}

@@ -1,0 +1,5 @@
+
+> movo-mevoot-shas@0.13.15 test:host
+> node test_host_sdk.cjs
+
+PASS actual Otzaria SDK 9f11690b80bf37703a3d1477a32c677c889dab7b: streamed chunks, highlighted text, envelope true/false, source identity, no-match, permission failure, cancellation, boot/change theme. Flutter RPC remains a double; no screenshots.

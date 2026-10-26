@@ -3,6 +3,7 @@ __pycache__/
 node_modules/
 package-lock.json
 test-unpacked/
+work/
 archive/
 editorial.json
 plugin/data/library.js

@@ -4,11 +4,27 @@ An offline Hebrew introductory index for Otzaria, by **DanTheMan**.
 
 The plugin introduces the main subjects and essential processes in קדשים, טהרות, אישות, זרעים, דיני ממונות, and איסור והיתר. Entries are short, with expandable headings, search, related entries, and bundled source passages. The current source version is **0.13.5**, incorporating a sixth source-first audit of the Rambam and Meiri while retaining 98 introductions, 317 sections and globally safe cross-handbook links.
 
+The 0.13.7 readability pass clarifies 203 explanatory paragraphs across all six areas. Original source quotations, references and legal qualifications are preserved. Accuracy remains under review.
+
+Each introduction now follows a reading plan: **what the subject means**, **its main rules and process**, then **distinctions and exceptions**. A linked outline lets readers jump to each passage. Shorter entries omit stages they do not need. Sources remain attached to the passages they support. This presentation change preserves all 98 entries, 317 audited blocks and their full wording.
+
+The 0.13.9 final wording polish smooths 14 remaining sentences without changing sources, legal conditions or the reading plan. Accuracy remains under review.
+
+The 0.13.10 pass splits long sentences in eight passages. Every word and its order are preserved; only sentence punctuation changes.
+
+The 0.13.11 reader edition adds short Hebrew glosses for selected unfamiliar terms, explicitly labeled **תרגום העורך** or **ביאור העורך** in parentheses. These are separate editorial annotations; original paragraphs and all source text remain unchanged.
+
+The current 0.13.12 policy is deliberately sparse: elementary Aramaic and routine study terms receive no gloss. Only the less familiar **כחל** retains a short marked explanation in its two passages.
+
+The 0.13.13 pass clarifies five compressed phrases and ambiguous references, without adding cases, legal claims or glosses.
+
+The 0.13.14 reading pass removes one repeated explanation and identifies the owner explicitly in a reference to silence. Legal conditions, sources and gloss policy remain unchanged.
+
 ## Install
 
-Install the **0.13.5** package once validated from the `Mevoot-Hashas-plugin` artifact of the latest successful [GitHub Actions run](https://github.com/dakulefsky/movo/actions/workflows/release.yml), or from the Otzaria plugin listing once its update is published. The older [0.12.0 package](dist/Mevoot-Shas-0.12.0.otzplugin) remains in the repository for comparison. No internet connection or AI service is required by the installed plugin.
+Install the **0.13.14** review package from the `Mevoot-Hashas-plugin` artifact of the latest successful [GitHub Actions run](https://github.com/dakulefsky/movo/actions/workflows/release.yml), or update it from the Otzaria plugin store. The older [0.12.0 package](dist/Mevoot-Shas-0.12.0.otzplugin) remains in the repository for comparison. No internet connection or AI service is required by the installed plugin.
 
-The manifest declares Otzaria 0.9.97 or later. Package validation was run against 0.9.98. Installation and source opening in a running installed Otzaria application remain unverified; see [VALIDATION.md](VALIDATION.md).
+The manifest declares Otzaria 0.9.97 or later. Package validation was run against 0.9.98. Selected installation and reading checks passed in native Otzaria; successful indexed-source opening still needs a real library catalogue. See [audit/README.md](audit/README.md) for current validation and scholarly limitations.
 
 ## Build offline
 
@@ -19,7 +35,7 @@ python3 build.py
 python3 package.py
 ```
 
-This generates the content export, editorial data and `plugin/data/library.js`, then creates `dist/Mevoot-Shas-0.13.5.otzplugin`. Build output is reproducible without fetching source texts.
+This generates the content export, editorial data and `plugin/data/library.js`, then creates `dist/Mevoot-Shas-0.13.14.otzplugin`. Build output is reproducible without fetching source texts.
 
 ## Sources and editorial scope
 
@@ -144,3 +160,7 @@ A consolidated review of the exact 0.13.4 prose identified one serious ambiguity
 ### Source-first depth additions
 
 Five short introductions were deliberately expanded instead of increasing the index count: inner blood applications (`k-matanot/inner`), the Mishnah's specific standards for unavoidable losses by animal attacks (`d-shomer-ones/wolves`), the five grain species and their related obligations (`z-five-grains/species`), the Meiri's map of Ketubot (`i-ketubah/source-map`), and the distinction between invalid slaughter, retained meilah and the three formulae of the Mishnah (`k-meilah/invalid-service`). See `DEPTH-REVIEW-0.13.5.json` for complete prose and passage anchors. The build and packaged regression tests require both directly cited source evidence and minimum meaningful depth in each revised explanation.
+
+## 0.13.6 review distribution
+
+The plugin and store short description explicitly state that content accuracy is under review. This version carries the adjudicated repairs without declaring scholarly clearance. It can be published from `audit-0135-repairs` by manually running the existing release workflow; no merge into main is required. The workflow checks reviewed evidence preservation instead of overwriting the master ledger. Historical review files retain their 0.13.5 audit basis.

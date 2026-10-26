@@ -1,0 +1,22 @@
+{
+  "ref": "mt-meilah-2",
+  "heRef": "רמב״ם, הלכות מעילה ב, ב; ו",
+  "he": [
+    "ג  [ב] כל קודשי קודשים--מועלין בהן משהוקדשו, עד שייזרק הדם.  נזרק הדם--מועלין בהן בדבר שכולו לאישים, עד שיישרף וייצא לבית הדשן; ואין מועלין בדבר הנאכל, כמו שביארנו.",
+    "ו  חטאת בהמה, ואשם, וזבחי שלמי ציבור--מועלין בכולן משהוקדשו, עד שייזרק הדם.  נזרק הדם--מועלין באימוריהן, עד שייצאו לבית הדשן; ואין מועלין בבשר.  וכן חטאת העוף--מועלין בה משהוקדשה, עד שיזה דמה.  הוזה דמה--אין בה מעילה, אבל אסור ליהנות במוראתה ונוצתה; והנהנה בהן אחר הזיה, לא מעל."
+  ],
+  "versions": [
+    {
+      "versionTitle": "Public Hebrew transcription accessed 2026-10-26",
+      "versionSource": "https://mechon-mamre.org/i/8902.htm",
+      "language": "he",
+      "license": "Public Domain"
+    }
+  ],
+  "witness": {
+    "receipt": "audit/reviews/continuation-2026-10-26/witness26e.json",
+    "url": "https://mechon-mamre.org/i/8902.htm",
+    "retrieved_at": "2026-10-26",
+    "transcription": "Rendered lines; link markup expanded to its original visible text; no words silently emended."
+  }
+}

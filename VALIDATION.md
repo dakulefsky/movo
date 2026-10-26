@@ -1,3 +1,39 @@
+# Current focused reading pass — 0.13.14
+
+Two guarded wording edits remove repetition and clarify the reference to the owner. All other corpus content, quotations, numbers, legal qualifications and sparse glosses are unchanged from 0.13.13. Current results and store receipt are recorded in `audit/master-ledger.json`; older reports below remain historical.
+
+# Current phrasing refinement — 0.13.13
+
+Five guarded paragraph edits clarify references and compressed phrasing. All other explanations, source quotations, reading stages and the sparse gloss selection remain unchanged from 0.13.12. Results and store receipt are recorded in `audit/master-ledger.json`; earlier reports below are historical.
+
+# Current sparse gloss selection — 0.13.12
+
+Fourteen elementary translations are removed; only the two existing כחל glosses remain. Original explanations, quotations, all sources, reading stages and the complete reviewed ledger history are unchanged from 0.13.11. Current checks and store receipts are recorded in `audit/master-ledger.json`; older reports below remain historical.
+
+# Current labeled glosses — 0.13.11
+
+Sixteen separate editorial annotations clarify seven terms in twelve explanation paragraphs. Raw explanations, quotations, all 241 sources, source notes and reading stages remain byte-identical to committed 0.13.10. Original source text is displayed without annotations. The current check suite validates the separation, rendered attribution labels and Hebrew-gloss search; runtime results and store receipts are recorded in `audit/master-ledger.json`. Earlier reports below are historical.
+
+# Current sentence-flow pass — 0.13.10
+
+Eight paragraphs receive clearer sentence breaks. The checked word sequences are identical before and after; source texts, reading stages and all other corpus fields are unchanged from committed 0.13.9. Current runtime validation and store receipts are recorded in `audit/master-ledger.json`; earlier reports below are historical.
+
+# Current sentence polish — 0.13.9
+
+Exactly 14 explanatory paragraphs receive small wording changes. Full comparison against committed 0.13.8 preserves every other corpus field and all previously reviewed ledger-row fields. Quotations, numbers and all 0.13.8 reading stages remain intact. Runtime validation and store receipts are recorded in `audit/master-ledger.json`; the earlier reports below are historical.
+
+# Current reading structure — 0.13.8
+
+All 98 introductions have explicit nonempty reading stages and linked outlines. All 317 complete blocks, 360 claims and 241 sources are preserved exactly against the committed 0.13.7 build. No new legal explanations or quotations are introduced. Current build, browser, SDK, native and store results are recorded in `audit/master-ledger.json`; earlier results below remain historical.
+
+# Current review build — 0.13.7
+
+The readability pass changes 203 explanatory paragraphs in 185 of the existing 317 blocks. Exact source-preservation and guarded-overlay checks pass for all 241 source records and 360 claim units. Two clean builds produce identical ten-file package payloads; ZIP timestamps may differ. Host SDK tests, native Otzaria packaging and official validation pass (zero errors/warnings, local validation `published=false`, bundled SDK fallback). The full packaged browser suite passes using the authorized loopback HTTP preview transport, checking all 98 entries and 317 block controls with no external requests or JavaScript errors. Store receipts are recorded separately in `audit/master-ledger.json`.
+
+Native 0.13.6 installation and selected WebView/permission checks passed in an isolated profile. Successful indexed-source opening still needs a populated catalogue. The current native packager validates the 0.13.7 payload. Independent scholarly review remains pending; the plugin visibly says accuracy is under review. See [audit/README.md](audit/README.md) for the current audit and reproducible commands.
+
+The following 0.9.3 report is historical and does not describe the current corpus.
+
 # Validation — 0.9.3, 18 October 2026
 
 ## Content and package

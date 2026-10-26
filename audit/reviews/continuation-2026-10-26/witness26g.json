@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Internal Error ()\n【turn958119view0】 [wordlim: 200] Source: open({\"ref_id\":\"https://he.wikisource.org/wiki/כסף_משנה/הלכות_מעילה/ג\",\"lineno\":null}); Total lines: 1\nL0: URL https://he.wikisource.org/wiki/%D7%9B%D7%A1%D7%A3_%D7%9E%D7%A9%D7%A0%D7%94/%D7%94%D7%9C%D7%9B%D7%95%D7%AA_%D7%9E%D7%A2%D7%99%D7%9C%D7%94/%D7%92 is not accessible via this tool.\n\n--------------------------------------------------------------------------------\nInternal Error ()\n【turn958119view1】 [wordlim: 200] Source: open({\"ref_id\":\"https://he.wikisource.org/wiki/לחם_משנה/הלכות_מעילה/ג\",\"lineno\":null}); Total lines: 1\nL0: URL https://he.wikisource.org/wiki/%D7%9C%D7%97%D7%9D_%D7%9E%D7%A9%D7%A0%D7%94/%D7%94%D7%9C%D7%9B%D7%95%D7%AA_%D7%9E%D7%A2%D7%99%D7%9C%D7%94/%D7%92 is not accessible via this tool.\n"
+    }
+  ],
+  "isError": false
+}

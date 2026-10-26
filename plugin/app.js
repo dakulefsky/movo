@@ -61,6 +61,15 @@ $('search-toggle').onclick=()=>{const open=$('search-panel').hidden;$('search-pa
 $('home-search').onclick=()=>{$('search-toggle').click();if(!$('search-panel').hidden)$('scroll-content').scrollTop=0;};
 $('read-all').onclick=()=>document.querySelectorAll('.chapter').forEach(x=>x.open=true);
 function refControls(refs){const d=el('details');d.className='refs';d.append(el('summary','לעיון במקורות'));for(const r of refs){const src=D.sources[r.source];d.append(btn(src.citation+' · מקטעים '+r.segments.join(', '),()=>showSource(src.id,r.segments)));}return d;}
+function explanationParagraph(text,key){
+ const paragraph=el('p');paragraph.dataset.claimId=key;let offset=0;
+ for(const gloss of D.editorialGlosses[key]||[]){
+  paragraph.append(document.createTextNode(text.slice(offset,gloss.end)));
+  const note=el('span',' ('+gloss.label+': '+gloss.text+')');note.className='editorial-gloss';note.dataset.term=gloss.term;paragraph.append(note);offset=gloss.end;
+ }
+ paragraph.append(document.createTextNode(text.slice(offset)));return paragraph;
+}
+function renderBlock(e,b,container){const d=el('details');d.className='chapter';d.id=e.id+'--'+b.id;d.open=e.blocks.indexOf(b)===0;d.append(el('summary',b.title));b.paragraphs.forEach((p,index)=>d.append(explanationParagraph(p,e.id+'/'+b.id+'/paragraph-'+(index+1))));if(b.items.length){const list=el('dl');list.className='fact-list';for(const i of b.items){list.append(el('dt',i.label),el('dd',i.text));}d.append(list);}const by=el('div',b.by);by.className='by';d.append(by);d.append(refControls(b.refs));if(b.links.length){const related=el('nav');related.className='related';related.setAttribute('aria-label','ענינים קשורים');for(const id of b.links){const next=allEntriesById.get(id);if(next)related.append(btn(next.title,()=>navigate(id)));}d.append(related);}container.append(d);}
 function render(id,blockId){
  H=D.handbooks.find(h=>h.entries.some(e=>e.id===id));if(!H){showHome();return;}
  const e=H.entries.find(x=>x.id===id);current=e.id;showView('entry');$('subject-switch').value=H.id;
@@ -68,7 +77,20 @@ function render(id,blockId){
  try{localStorage.setItem('mevoot-last-entry',JSON.stringify({id:e.id}));}catch{}
  $('article').replaceChildren(el('h2',e.title));$('entry-label').textContent=e.title;$('back-subject').textContent=H.title;
  document.querySelectorAll('[data-subject]').forEach(b=>{if(b.dataset.subject===H.id)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');});
-for(const b of e.blocks){const d=el('details');d.className='chapter';d.id=e.id+'--'+b.id;d.open=e.blocks.indexOf(b)===0;d.append(el('summary',b.title));for(const p of b.paragraphs)d.append(el('p',p));if(b.items.length){const list=el('dl');list.className='fact-list';for(const i of b.items){list.append(el('dt',i.label),el('dd',i.text));}d.append(list);}const by=el('div',b.by);by.className='by';d.append(by);d.append(refControls(b.refs));if(b.links.length){const related=el('nav');related.className='related';related.setAttribute('aria-label','ענינים קשורים');for(const id of b.links){const next=allEntriesById.get(id);if(next)related.append(btn(next.title,()=>navigate(id)));}d.append(related);}$('article').append(d);}
+const outline=el('nav');outline.className='entry-outline';outline.setAttribute('aria-label','מה נלמד במבוא');
+const outlineTitle=el('p','מה נלמד במבוא');outlineTitle.className='outline-title';outline.append(outlineTitle);
+const outlineGroups=el('div');outlineGroups.className='outline-groups';outline.append(outlineGroups);
+for(const section of e.readingSections){
+ const group=el('div');group.append(el('p',section.title));
+ const list=el('ul');for(const blockId of section.blocks){const b=e.blocks.find(b=>b.id===blockId),item=el('li'),link=el('a',b.title);link.href='#'+e.id+'--'+b.id;link.onclick=event=>{event.preventDefault();navigate(e.id,b.id);};item.append(link);list.append(item);}group.append(list);outlineGroups.append(group);
+}
+$('article').append(outline);
+for(const section of e.readingSections){
+ const group=el('section');group.className='reading-stage';group.dataset.stage=section.id;
+ const heading=el('h3',section.title);heading.id=e.id+'--stage-'+section.id;group.setAttribute('aria-labelledby',heading.id);group.append(heading);
+ for(const blockId of section.blocks)renderBlock(e,e.blocks.find(b=>b.id===blockId),group);
+ $('article').append(group);
+}
 const n=H.entries.indexOf(e),pager=el('nav');pager.className='pager';pager.setAttribute('aria-label','מעבר בין הענינים');if(n>0)pager.append(btn('הקודם: '+H.entries[n-1].title,()=>navigate(H.entries[n-1].id)));if(n<H.entries.length-1)pager.append(btn('הבא: '+H.entries[n+1].title,()=>navigate(H.entries[n+1].id)));$('article').append(pager);
 fillDirectory(H);
 if(blockId){const b=$(e.id+'--'+blockId);if(b){b.open=true;requestAnimationFrame(()=>b.scrollIntoView({block:'start'}));}}
@@ -78,10 +100,10 @@ function route(){resetSearch();const hash=decodeURIComponent(location.hash.slice
 window.addEventListener('hashchange',route);window.addEventListener('popstate',route);
 $('expand').onclick=()=>document.querySelectorAll('.chapter').forEach(x=>x.open=true);
 $('collapse').onclick=()=>document.querySelectorAll('.chapter').forEach(x=>x.open=false);
-function blockText(b){return [b.title,...b.paragraphs,...b.items.flatMap(i=>[i.label,i.text])].join(' ');}
+function blockText(b,entryId){const glosses=b.paragraphs.flatMap((_,index)=>(D.editorialGlosses[entryId+'/'+b.id+'/paragraph-'+(index+1)]||[]).map(g=>g.text));return [b.title,...b.paragraphs,...b.items.flatMap(i=>[i.label,i.text]),...glosses].join(' ');}
 function excerpt(text,words){const sentence=text.split(/(?<=[.!?])\s+/).find(p=>norm(p).includes(words[0]))||text;return sentence.length>230?sentence.slice(0,230)+'…':sentence;}
 function search(){const q=norm($('search').value),words=q.split(' ').filter(Boolean);$('results').replaceChildren();$('results').hidden=!q;if(!q){$('search-status').textContent='';return;}let count=0;const scope=$('search-scope').value;
-if(scope!=='sources')for(const h of D.handbooks){for(const e of h.entries){for(const b of e.blocks){const text=blockText(b);if(words.every(w=>norm(h.title+' '+e.title+' '+text).includes(w))){const hit=btn(h.title+' · '+e.title+' · '+b.title,()=>navigate(e.id,b.id));hit.append(el('small',excerpt(text,words)));$('results').append(hit);count++;}}}}
+if(scope!=='sources')for(const h of D.handbooks){for(const e of h.entries){for(const b of e.blocks){const text=blockText(b,e.id);if(words.every(w=>norm(h.title+' '+e.title+' '+text).includes(w))){const hit=btn(h.title+' · '+e.title+' · '+b.title,()=>navigate(e.id,b.id));hit.append(el('small',excerpt(text,words)));$('results').append(hit);count++;}}}}
 if(scope!=='introductions')for(const src of Object.values(D.sources)){for(const seg of src.segments){if(words.every(w=>norm(seg.text).includes(w))){const hit=btn('מקור: '+src.citation+' · מקטע '+seg.number,()=>showSource(src.id,[seg.number]));hit.append(el('small',seg.text.slice(0,200)+'…'));$('results').append(hit);count++;}}}
 $('search-status').textContent=count?count+' תוצאות '+(scope==='introductions'?'במבואות':scope==='sources'?'במקורות':'במבואות ובמקורות'):'לא נמצאו תוצאות. נסו כתיב אחר או מלים מעטות יותר.';}
 $('search').oninput=search;$('search-scope').onchange=search;$('clear').onclick=()=>{$('search').value='';search();$('search').focus();};
@@ -100,6 +122,6 @@ $('native-status').textContent='נמצאו התאמות ללשון הקטע. ב�
 for(const h of hits){const row=el('section');row.append(el('h3',h.book||h.bookId||'ספר בספרייה'),el('small',h.reference||''),el('p',h.text));const open=btn('פתיחת ההתאמה באוצריא',async()=>{open.disabled=true;try{const identity=h.bookUid?{bookUid:h.bookUid}:Number.isInteger(h.id)?{id:h.id,...(h.type?{type:h.type}:{}),...(h.source?{source:h.source}:{})}:{bookId:h.bookId,...(h.type?{type:h.type}:{})};const response=await window.Otzaria.call('reader.openBook',{...identity,index:h.index,searchQuery:query,navigateToPositionIfReused:true});if(run!==serial)return;const ok=response&&typeof response==='object'?response.success===true&&response.data===true:response===true;if(!ok)throw Error('not opened');$('native-status').textContent='הקטע נפתח באוצריא.';}catch{if(run===serial)$('native-status').textContent='לא ניתן לפתוח את הקטע. ייתכן שהספר אינו זמין או שהרשאת פתיחת ספרים חסרה. המקור השמור נשאר זמין כאן.';}finally{open.disabled=false;}});row.append(open);$('native-results').append(row);}
 }catch{if(run===serial)$('native-status').textContent='החיפוש באוצריא לא הצליח. בדקו את הרשאות התוסף ואת זמינות החיפוש המקומי. המקור השמור זמין כאן.';}}
 
-$('about').onclick=()=>{resetNative();$('source-title').textContent='על ההסברים והמקורות';$('source-note').textContent=H?H.method:'המבואות ערוכים על פי המקורות המצוינים בכל סעיף. לשון המקור מובאת בנפרד מן הביאור. עיקר היסוד בפירוש המשנה ובהקדמות הרמב״ם, ובצדם מקורות נוספים המצוינים במקומם.';$('source-edition').textContent='עריכה: DanTheMan · גרסה '+D.version;$('source-segments').replaceChildren(el('h3','היקף ההסברים'),el('p',H?H.limits:'נכללו עניינים מרכזיים בשישה תחומים. זהו מפתח מבואי, ואין בו כיסוי של כל ענייני הש״ס.'),el('h3','דרך העריכה'),el('p',D.editorialPolicy.principle),el('p',D.editorialPolicy.style));$('whole-source').hidden=true;$('source-dialog').showModal();};
+$('about').onclick=()=>{resetNative();$('source-title').textContent='על ההסברים והמקורות';$('source-note').textContent=H?H.method:'המבואות ערוכים על פי המקורות המצוינים בכל סעיף. לשון המקור מובאת בנפרד מן הביאור. עיקר היסוד בפירוש המשנה ובהקדמות הרמב״ם, ובצדם מקורות נוספים המצוינים במקומם.';$('source-edition').textContent='עריכה: DanTheMan · גרסה '+D.version;$('source-segments').replaceChildren(el('h3','היקף ההסברים'),el('p',H?H.limits:'נכללו עניינים מרכזיים בשישה תחומים. זהו מפתח מבואי, ואין בו כיסוי של כל ענייני הש״ס.'),el('h3','דרך העריכה'),el('p',D.editorialPolicy.principle),el('p',D.editorialPolicy.style),el('p','סוגריים המסומנים ״תרגום העורך״ או ״ביאור העורך״ הם תוספת שלנו להסבר מונחים, ואינם חלק מלשון המקור.'));$('whole-source').hidden=true;$('source-dialog').showModal();};
 route();
 })();

@@ -1,0 +1,301 @@
+{
+  "reviewed_commit": "e701a4006c23215449e7d53bb2f0cf0b5b6bc93b",
+  "editorial_sha256": "9049de9b3be00871daba93a0b4f1e477b1e04aeeac13a52e72d3c390698ee973",
+  "scope": "Coordinator check of six framing statements, source plurality and selected teaching candidates; not a claim the coordinator independently reread all98 entries",
+  "editorial_policy": {
+    "format": "subject-handbook",
+    "scope": "מפתח לעניינים המרכזיים בלבד. אין להוסיף תחומים או מונחים רק כדי להגדיל את ההיקף. מבוא לסוגיות המרכזיות: מבאר את הענין, סדרו, מקורותיו וחילוקיו העיקריים לפני הכניסה למשא ומתן של הסוגיה. אין להוסיף סעיפים לשם מיצוי כל פרט ודעה.",
+    "fidelity": "הביאור נשען על האמור במקור המצוטט. אין להוסיף טעמים, מסקנות או מסגרות מושגיות שאינם מפורשים בו. ספקות נוסח ומחלוקות נשמרים בגלוי.",
+    "principle": "בכל תחום מסבירים את הדברים, הפעולות והדינים הנצרכים להבנתו: מהו כל ענין, כיצד הוא נעשה, מתי הוא נוהג ומה פרטיו. אין להצטמצם לשמות חפצים או קרבנות בלבד.",
+    "organization": "תחומים רחבים בלבד בראש הספרייה; בתוכם ענינים מסודרים, עם כותרות משנה המשתנות לפי הצורך.",
+    "style": "הסברים בעלי תוכן ממשי בלשון בית המדרש; לא הערות קצרות בלבד, ולא פתיחות מאמריות שאין להן עוגן במקור.",
+    "sources": "כל הסבר ערוך נבדל מלשון המחבר ומקושר למקורות שנקראו בפועל. אין להרחיב מן הזיכרון או להסיק הכרעת נוסח בלי ראיה.",
+    "future_examples": {
+      "טהרות": [
+        "טומאת מת",
+        "שרץ",
+        "נבילה",
+        "זב",
+        "טומאת אדם וכלים",
+        "דרכי הטהרה"
+      ],
+      "אישות": [
+        "קידושין",
+        "נישואין",
+        "גירושין",
+        "יבום וחליצה"
+      ],
+      "זרעים": [
+        "תרומה",
+        "מעשרות",
+        "חלה",
+        "ערלה",
+        "כלאים"
+      ]
+    },
+    "status": "נכתבו מבואות נבחרים בששה תחומים. זהו מפתח מבואי ולא אנציקלופדיה; אין זו טענת כיסוי מלא."
+  },
+  "source_author_block_usage": {
+    "רמב״ם / הקדמת המעתיק": 35,
+    "רמב״ם": 281,
+    "משנה": 133,
+    "תורה": 15,
+    "מאירי": 7,
+    "תוספות יום טוב": 1,
+    "עיקר תוספות יום טוב": 1,
+    "רש״י": 1,
+    "רמב״ן": 1
+  },
+  "usage_note": "Each author counted once per citing block; author totals overlap and do not establish interpretive balance. Actual text is Rambam-centered, not Rambam-exclusive.",
+  "framing": [
+    {
+      "handbook": "kodashim",
+      "current_framing": {
+        "id": "kodashim",
+        "title": "קדשים",
+        "subtitle": "מיני הקרבנות וסדרי העבודה",
+        "method": "ההסברים ערוכים על פי הקדמת הרמב״ם לסדר קדשים ופירוש המשנה, ואינם ציטוט מלשונו. מקורות לכל סעיף נפתחים תחתיו. המקרא והמאירי נזכרים במפורש במקומות שנעזרנו בהם.",
+        "limits": "נכללו מיני הקרבנות, עיקרי העבודה, נסכים, פסולי מחשבה, מעילה ותמורה. לא נכללו כל מיני המנחות, סדר עבודת יום הכפורים, פסח שני, כל פסולי העבודה ופרטי זמני ההקטרה. זהו מבוא לסוגיות ולא ספר הלכות מקיף."
+      },
+      "coordinator_judgment": "The current method and limits explicitly present selected subject introductions, not exhaustive subject coverage or practical rulings. Declared exclusions alone are not defects. A stated exclusion does not excuse failure to explain a term in an included entry title."
+    },
+    {
+      "handbook": "tahorot",
+      "current_framing": {
+        "id": "tahorot",
+        "title": "טהרות",
+        "subtitle": "מקורות הטומאה, דרכי העברתה וסדרי הטהרה",
+        "method": "הסברים ערוכים בעיקר על פי הקדמת הרמב״ם לסדר טהרות ופירוש המשנה. ההזאה בשלישי ובשביעי מובאת גם מן המקרא במפורש. המקורות נבדלים מן ההסבר ונפתחים בכל סעיף.",
+        "limits": "נכללו מקורות הטומאה העיקריים, העברתה, דרגותיה, ידיים, הכשר, טבילה, הזאה וספקות נבחרים. פרטי אהל, נגעים, חשבון ימי נדה וזיבה, מקואות וספקות בכל מסכת אינם מכוסים. הצגת שיטת הרמב״ם אינה טענה להסכמת כל הראשונים."
+      },
+      "coordinator_judgment": "The current method and limits explicitly present selected subject introductions, not exhaustive subject coverage or practical rulings. Declared exclusions alone are not defects. A stated exclusion does not excuse failure to explain a term in an included entry title."
+    },
+    {
+      "handbook": "ishut",
+      "current_framing": {
+        "id": "ishut",
+        "title": "אישות",
+        "subtitle": "קידושין ונישואין, גירושין, יבום וחליצה",
+        "method": "הסברים ערוכים על פי פירוש המשנה לרמב״ם והמשניות המצוינות. המאירי משמש במפורש לבירור שלבי האישות ותחומי החיובים שבכתובות. אין אלה הוראות לסידור קידושין, גט או חליצה למעשה.",
+        "limits": "נכללו קידושין ונישואין, כתובה, שליחות, נתינת הגט וכתיבתו לשמה, עדי מסירה, יבום וחליצה. לא נכללו כל העריות, צורות החופה ושיטותיהן, תנאים, מיאון ופרטי ממונות האישות. אין כאן סדר למעשה קידושין או גירושין."
+      },
+      "coordinator_judgment": "The current method and limits explicitly present selected subject introductions, not exhaustive subject coverage or practical rulings. Declared exclusions alone are not defects. A stated exclusion does not excuse failure to explain a term in an included entry title."
+    },
+    {
+      "handbook": "zeraim",
+      "current_framing": {
+        "id": "zeraim",
+        "title": "זרעים",
+        "subtitle": "הפרשה ומתנות, עיסה ואילן, כלאים ושביעית",
+        "method": "הסברים ערוכים בעיקר על פי פירוש המשנה לרמב״ם. במקומות שהעיקר הובא מן המשנה או מן המקרא הדבר מצוין, והמקור נפתח בנפרד. אין כאן נוסח הפרשה או מדריך למעשה לימינו.",
+        "limits": "נכללו מתנות עניים, תרומות ומעשרות, דמאי, חלה, ערלה, ביכורים, כלאים, שביעית ופרוזבול. לא נכללו כל חיובי הארץ וחוץ לארץ, קביעת שנות הפירות, תערובות, פרטי זמני הביעור ופרטי הפדיון. השיעורים הקדומים לא הומרו למשקל או למטבע בני זמננו."
+      },
+      "coordinator_judgment": "The current method and limits explicitly present selected subject introductions, not exhaustive subject coverage or practical rulings. Declared exclusions alone are not defects. A stated exclusion does not excuse failure to explain a term in an included entry title."
+    },
+    {
+      "handbook": "mammon",
+      "current_framing": {
+        "id": "mammon",
+        "title": "דיני ממונות",
+        "subtitle": "נזיקין, שומרים, מציאה וקנין ובית דין",
+        "method": "מפתח מבואי נבחר, לא חיבור המקיף את כל הדינים. ההסברים ערוכים על פי פירוש המשנה לרמב״ם והמשניות המצוינות בכל סעיף; אינם לשון המחבר. לשון המקורות שמורה לעיון בנפרד.",
+        "limits": "נכללו נזיקין, גניבה וגזלה, שומרים, רבית, מציאה, קנין ואונאה, שכנים, סדר נחלות, חזקה, שבועות ובית דין. לא נכללו כל דיני אדם המזיק, פרטי תשלומי חובל, יאוש ותקנת השבים, חלוקת עיזבון לפרטיה, שטרות ופרטי דיני עדות. הסעיפים מעמידים את החילוקים הראשונים ואינם הוראה לדון מקרה מסוים."
+      },
+      "coordinator_judgment": "The current method and limits explicitly present selected subject introductions, not exhaustive subject coverage or practical rulings. Declared exclusions alone are not defects. A stated exclusion does not excuse failure to explain a term in an included entry title."
+    },
+    {
+      "handbook": "issur",
+      "current_framing": {
+        "id": "issur",
+        "title": "איסור והיתר",
+        "subtitle": "שחיטה, טרפות, תערובות ונדרים",
+        "method": "מפתח מבואי נבחר, לא חיבור המקיף את כל הדינים. ההסברים ערוכים על פי פירוש המשנה לרמב״ם והמשניות המצוינות בכל סעיף; אינם לשון המחבר. לשון המקורות שמורה לעיון בנפרד.",
+        "limits": "נבחרו יסודות בשחיטה, טרפה, בשר בחלב, נותן טעם ונדרים ושבועות. לא נכללו כל איסורי המאכלות, מליחה, גיד הנשה, איסורי הנאה, שיעורי תערובות והכשרת כלים. זהו מפתח להבנת הסוגיות ולא הוראות למעשה."
+      },
+      "coordinator_judgment": "The current method and limits explicitly present selected subject introductions, not exhaustive subject coverage or practical rulings. Declared exclusions alone are not defects. A stated exclusion does not excuse failure to explain a term in an included entry title."
+    }
+  ],
+  "observed_overlap": [
+    {
+      "entry": "a-basar-chalav",
+      "blocks": [
+        "distinction",
+        "distance"
+      ],
+      "current_paragraphs": {
+        "distinction": [
+          "מלבד איסור האכילה אסרו חכמים להעלות בשר עם גבינה על שולחן שאוכלים עליו. לדעת בית הלל גם עוף בכלל הגזרה, והרמב״ם מבאר שחששו להרגל עבירה. איסור זה נוהג אף כשהבשר והגבינה לא נתבשלו יחד."
+        ],
+        "distance": [
+          "לצד דיני בישול בשר בחלב, המשנה מביאה גזרה נוספת: אין להעלות בשר עם גבינה על שולחן שאוכלים עליו. לבית הלל גם עוף בכלל האיסור. הרמב״ם מבאר שהגזרה נועדה למנוע הרגל עבירה, ולכן היא נוהגת גם כשהבשר והגבינה לא נתבשלו יחד. סייג זה קבעו חכמים לקראת האכילה. הוא נבדל מאיסור הבישול עצמו שבתורה."
+        ]
+      },
+      "judgment": "Concrete substantial overlap observed in both current passages. Recap can help, but as separately headed teaching stages these should earn their space by advancing the learner. This is an editorial judgment, not a legal/source error; no mechanical deletion or invented replacement is justified."
+    },
+    {
+      "entry": "t-tevilah",
+      "blocks": [
+        "sunset",
+        "tvul-explanation"
+      ],
+      "current_paragraphs": {
+        "sunset": [
+          "טבול יום הוא מי שטבל וטרם העריב שמשו. אף שכבר טבל, הוא פוסל תרומה וקדש בדינים שפירט הרמב״ם, ואינו מטמא משקה חולין. בטומאות קלות מסוימות מדברי סופרים אין צורך בהערב שמש, והטבילה מטהרת בו ביום."
+        ],
+        "tvul-explanation": [
+          "מי שטבל ועדיין לא העריב שמשו נקרא ״טבול יום״. הטבילה כבר הועילה לו, אך עדיין לא הושלמה טהרתו לכל דבר: הוא פוסל תרומה וקדשים לפי דיניהם. הרמב״ם מדגים זאת במשקים שבקדרה. משקה תרומה שנגע בו טבול יום נפסל, ואילו משקה חולין אינו נטמא באותה דרך. לכן יש להבחין בין עצם הטבילה לבין השלמת הטהרה לאחר הערב שמש."
+        ]
+      },
+      "judgment": "Concrete substantial overlap observed in both current passages. Recap can help, but as separately headed teaching stages these should earn their space by advancing the learner. This is an editorial judgment, not a legal/source error; no mechanical deletion or invented replacement is justified."
+    },
+    {
+      "entry": "t-ranks",
+      "blocks": [
+        "food",
+        "levels"
+      ],
+      "current_paragraphs": {
+        "food": [
+          "בחולין הטומאה מגיעה עד שני, בתרומה עד שלישי ובקדש עד רביעי. המדרגה האחרונה בכל אחד מהם נקראת ״פסול״: הדבר עצמו טמא או פסול לאכילה, אך אינו ממשיך לטמא באותה שרשרת."
+        ],
+        "levels": [
+          "אותה מדרגת טומאה אינה פועלת באותה דרך בחולין, בתרומה ובקודש. בחולין הראשון מטמא, ואילו השני אינו ממשיך את הטומאה בדרך המתוארת ברמב״ם. בתרומה יש גם שלישי הפוסל, ובקודש גם רביעי. לכן לצד השם ״ראשון״, ״שני״ או ״שלישי״ יש לברר באיזה סוג מאכל מדובר, ובאיזו מדרגה נפסקת בו שרשרת הטומאה."
+        ]
+      },
+      "judgment": "Concrete substantial overlap observed in both current passages. Recap can help, but as separately headed teaching stages these should earn their space by advancing the learner. This is an editorial judgment, not a legal/source error; no mechanical deletion or invented replacement is justified."
+    },
+    {
+      "entry": "z-sheviit",
+      "blocks": [
+        "fruit",
+        "price"
+      ],
+      "current_paragraphs": {
+        "fruit": [
+          "דיני שביעית נוהגים לא רק בפירות אלא אף בדמיהם. כך מפרש הרמב״ם את לשון המשנה ״יש לו שביעית ולדמיו שביעית״: כשנמכרו הפירות, חלים דיני שביעית גם על המעות שהתקבלו. בכלל הדברים הנידונים כאן מאכל אדם, מאכל בהמה ומיני צבעונים."
+        ],
+        "price": [
+          "״יש לו שביעית ולדמיו שביעית״ פירושו שדיני שביעית חלים לא רק על הפרי אלא גם על המעות שהתקבלו במכירתו, כפי שמבאר הרמב״ם. קדושת הדמים היא שאלה נפרדת מן השימוש המותר בפרי, כגון אכילה או רפואה. המשנה דנה במאכל אדם, במאכל בהמה ובמיני צבעונין, ומוסיפה את התנאי שאינם מתקיימים בארץ לעניין דין הביעור האמור בה. יש אפוא להבחין בין קדושת הפירות ודמיהם לבין הזמן והחיוב לבערם."
+        ]
+      },
+      "judgment": "Concrete substantial overlap observed in both current passages. Recap can help, but as separately headed teaching stages these should earn their space by advancing the learner. This is an editorial judgment, not a legal/source error; no mechanical deletion or invented replacement is justified."
+    },
+    {
+      "entry": "d-nezikin",
+      "blocks": [
+        "difference",
+        "features"
+      ],
+      "current_paragraphs": {
+        "difference": [
+          "הצד השווה שבאבות הנזיקין הוא שדרכם להזיק וחובת שמירתם מוטלת על בעליהם. עם זאת, לכל אב דינים המיוחדים לו: שן ורגל פטורות ברשות הרבים, בור פטור על הכלים, ואש על הטמון. אף תולדות יש לאבות, כגון בהמה המזיקה בגופה בדרך הילוכה, שהיא תולדת רגל."
+        ],
+        "features": [
+          "לכל אחד מארבעת אבות הנזיקין אופי מיוחד. הרמב״ם מסביר שרגל מזיקה בדרך הילוכה, ושן באכילתה, כשיש לה הנאה מן ההיזק; אש מזיקה אף שאין בה רוח חיים, ובור מזיק אף שאינו נע ממקומו. כולם בכלל חובת שמירת ממונו, אך דיניהם שונים: שן ורגל פטורות ברשות הרבים, בור פטור על כלים ואש על טמון. הבדלים אלו הם הבסיס גם ללימוד תולדותיהם."
+        ]
+      },
+      "judgment": "Concrete substantial overlap observed in both current passages. Recap can help, but as separately headed teaching stages these should earn their space by advancing the learner. This is an editorial judgment, not a legal/source error; no mechanical deletion or invented replacement is justified."
+    },
+    {
+      "entry": "k-temurah",
+      "blocks": [
+        "distinction",
+        "ownership"
+      ],
+      "current_paragraphs": {
+        "distinction": [
+          "האיסור להמיר רחב מחלות התמורה. הרמב״ם מבאר שקרבנות ציבור וקרבנות שותפים אינם עושים תמורה, אף שהלאו חל גם במקום שאין התמורה חלה. כמו כן, קבלת קרבן במתנת כהונה אינה מקנה לכהן בכל מקרה דין בעלים לעניין תמורה."
+        ],
+        "ownership": [
+          "לא בכל מקרה של המרה נוצרת תמורה קדושה. הרמב״ם מבאר שקרבנות ציבור ושל שותפים אינם עושים תמורה, אף שאיסור ההמרה רחב יותר מן המקרים שבהם התמורה חלה. לכן יש לשאול בנפרד אם האדם עבר באיסור, ואם הבהמה שהעמיד במקום הקרבן אכן נתקדשה. המשנה דנה בשתי התוצאות יחד, אך אינה משווה ביניהן."
+        ]
+      },
+      "judgment": "Concrete substantial overlap observed in both current passages. Recap can help, but as separately headed teaching stages these should earn their space by advancing the learner. This is an editorial judgment, not a legal/source error; no mechanical deletion or invented replacement is justified."
+    },
+    {
+      "entry": "a-shevuah",
+      "blocks": [
+        "distinction",
+        "speech"
+      ],
+      "current_paragraphs": {
+        "distinction": [
+          "לשון השבועה קובעת גם את מספר החיובים. הנשבע ״שלא אוכל״ ואכל ושתה חייב אחת; אמר ״שלא אוכל ושלא אשתה״ ואכל ושתה, חייב שתיים. הרמב״ם מבאר שבנוסח השני גילה בדעתו להפריד בין האכילה לשתייה."
+        ],
+        "speech": [
+          "בשבועת ביטוי אין מספר המעשים לבדו קובע את מספר החיובים. הרמב״ם משווה בין מי שנשבע שלא יאכל ואחר כך אכל ושתה, לבין מי שנשבע במפורש שלא יאכל ושלא ישתה, ואחר כך אכל ושתה. בנוסח השני הפריד בדבריו בין איסור האכילה לאיסור השתייה, ולכן מתחייב שתיים במקרה שבמשנה. לשון השבועה היא המפתח להבנת ההבדל."
+        ]
+      },
+      "judgment": "Concrete substantial overlap observed in both current passages. Recap can help, but as separately headed teaching stages these should earn their space by advancing the learner. This is an editorial judgment, not a legal/source error; no mechanical deletion or invented replacement is justified."
+    }
+  ],
+  "priority_candidate": {
+    "entry": "i-nissuin",
+    "title": "נישואין וחופה",
+    "current_blocks": [
+      {
+        "id": "stages",
+        "title": "קידושין ונישואין",
+        "paragraphs": [
+          "הקידושין קודמים לנישואין ולכניסה לחופה. עם הנישואין נוספים חיובים וזכויות שבין האיש לאשתו: הבעל חייב במזונותיה וזוכה באכילת פירות נכסיה. המאירי מונה בכלל ענייני האישות גם את הכתובה ותוספתה, ושאר הזכויות והחיובים שבין בני הזוג."
+        ],
+        "items": [],
+        "refs": [
+          {
+            "source": "i-meiri",
+            "segments": [
+              1
+            ]
+          },
+          {
+            "source": "review-nissuin-m",
+            "segments": [
+              1
+            ]
+          }
+        ],
+        "links": [],
+        "by": "ביאור ערוך על פי המשנה והמאירי"
+      },
+      {
+        "id": "time",
+        "title": "הזמן שנותנים לנישואין",
+        "paragraphs": [
+          "לאחר הקידושין נותנים לאשה זמן להכין עצמה לנישואין. הרמב״ם מבאר שמונים זמן זה מן התביעה להינשא, ולא מעצם הקידושין. משך ההמתנה אינו שווה בכל מקרה: הוא משתנה בין בתולה לאלמנה, ותלוי גם בזמן שבו בגרה האשה."
+        ],
+        "items": [],
+        "refs": [
+          {
+            "source": "i-ket-5-2",
+            "segments": [
+              1
+            ]
+          }
+        ],
+        "links": [],
+        "by": "ביאור ערוך על פי הרמב״ם"
+      },
+      {
+        "id": "example",
+        "title": "אירוסין לכהן",
+        "paragraphs": [
+          "מן ההבדלים שבין אירוסין לנישואין: בת ישראל שנתארסה לכהן עדיין אינה אוכלת בתרומה, עד שתיכנס לחופה."
+        ],
+        "items": [],
+        "refs": [
+          {
+            "source": "i-ket-5-2",
+            "segments": [
+              1
+            ]
+          }
+        ],
+        "links": [],
+        "by": "ביאור ערוך על פי הרמב״ם"
+      }
+    ],
+    "judgment": "The title promises חופה but the entry describes consequences, preparation times and terumah without defining the act. A basic attributed definition is distinct from surveying every excluded chuppah form.",
+    "source_check": "Ishut10:1-2 and conventional10:6 newly read on Wikisource and Mechon Mamre; root-checks/chuppah-public-witnesses.json. Any draft must preserve relevant qualifications and make Rambam attribution explicit."
+  },
+  "application_changes": false
+}
