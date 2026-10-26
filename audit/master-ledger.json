@@ -145777,5 +145777,6 @@
       "connected_web_tool": "Successfully accessed named full public texts; failed URLs/search-only results retained as such, never promoted to direct witness",
       "independent_edition_limit": "Public transcription comparison is not physical-edition lineage or Arabic manuscript collation."
     }
-  }
+  },
+  "active_review_checkpoint": "continuation_20261026"
 }
