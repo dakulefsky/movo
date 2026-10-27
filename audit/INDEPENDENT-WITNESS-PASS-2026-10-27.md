@@ -23,3 +23,25 @@ The following paragraph explicitly adds that collection from purchasers is not p
 **Assessment:** the current runtime paragraph is materially qualified in the way required by issue #12 and is consistent with these witnesses. The source check supports the distinction; it does not independently settle every legal nuance of the full paragraph.
 
 **Status:** `corrected_pending_recheck`, not `verified`. Reference and claim checks were performed for this targeted point. The full six-gate process, particularly an independent adversarial second pass and scholarly review, remains outstanding. Do not count this item as source-certified or use it to infer completion of other blocks.
+
+
+## `t-hechsher/conditions` — consent, drying, and impure liquids
+
+**Issue #12 concern:** retain the timing condition for later consent while moisture remains, and distinguish ordinary pure liquid from impure liquids that both convey impurity and effect the preparation.
+
+**Exact current runtime wording** (from `Mevoot-Shas-Content.md`, section “טומאת כלים” / subsection “עקירה ורצון”):
+
+> כדי שאוכל יוכשר לקבל טומאה, עליו להירטב באחד משבעת המשקים לאחר שנעקר מן הקרקע, וברצון. גם אם נרטב בתחילה שלא לרצון, הסכמה מאוחרת עשויה להכשירו, ובלבד שנתרצה בעוד המשקה על האוכל. אם כבר נתייבש, אין ההסכמה המאוחרת מכשירה אותו מכוח אותה הרטבה. משקין טמאין המטמאים את האוכל ומכשירים אותו בשעת טומאתם נידונים אחרת: אין צורך ברצון להכשר זה, מפני שהטומאה וההכשר באין כאחד. אין ללמוד מכך שהרטבה רגילה במשקה טהור מועילה בלא רצון.
+
+**Independent textual witnesses**
+
+1. Mishneh Torah, Hilchot Tum'at Ochlin 12:1–2: https://mechon-mamre.org/i/a612.htm  
+   Halakhah 1 requires the owner's consent and that the produce/liquid have been detached from the ground. Halakhah 2 says liquid that fell on food is effective if it was wanted at the beginning even if not at the end, or wanted at the end even if not at the beginning.
+2. *Mincha Tehorah*, “Hechsher Ochlin,” pp. 151–152 in the PDF: https://www.etzion.org.il/sites/default/files/MinchaTehora12-HechsherOchlin.pdf  
+   This study explicitly explains Rambam's interpretation: “תחלה” is when the liquid falls on the food, and “סוף” is after the food has become wet; on Rambam's reading, consent is required while the liquid is on the food. It also records a different interpretation by the Rash and Ra'avad, so the wording should be understood as following Rambam, not as an uncontested reading of every Rishon.
+3. Rambam, Hilchot Tum'at Ochlin, chapter 2, halakhah 13 (online edition): https://web.yad14.co.il/yad-hachazakah/%D7%A4%D7%A8%D7%A7-%D7%91-%D7%94%D7%9C%D7%9B%D7%95%D7%AA-%D7%98%D7%95%D7%9E%D7%90%D7%AA-%D7%90%D7%95%D7%9B%D7%9C%D7%99%D7%9F-%D7%A1%D7%A4%D7%A8-%D7%98%D7%94%D7%A8%D7%94/  
+   The text distinguishes impure liquids: they can make food impure even without the owner's consent because impurity and preparation occur together.
+
+**Assessment:** the core timing distinction and the exception for impure liquids are supported by these witnesses. The current wording correctly preserves the difference between Rambam's interpretation and the alternative interpretation noted by later authorities. This targeted check does not replace verification of the full source citation, bundled segment, or all surrounding claims.
+
+**Status:** `corrected_pending_recheck`, not `verified`. Independent adversarial second pass and scholarly review remain outstanding.
