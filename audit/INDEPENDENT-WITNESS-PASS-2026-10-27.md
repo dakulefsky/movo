@@ -45,3 +45,29 @@ The following paragraph explicitly adds that collection from purchasers is not p
 **Assessment:** the core timing distinction and the exception for impure liquids are supported by these witnesses. The current wording correctly preserves the difference between Rambam's interpretation and the alternative interpretation noted by later authorities. This targeted check does not replace verification of the full source citation, bundled segment, or all surrounding claims.
 
 **Status:** `corrected_pending_recheck`, not `verified`. Independent adversarial second pass and scholarly review remain outstanding.
+
+
+## `i-edei-get/distinction` — one signature, valid delivery witnesses, and `מזויף מתוכו`
+
+**Issue #12 concern:** condition the severe outcome on absence of valid עדי מסירה; assess a defective signature (`מזויף מתוכו`) separately.
+
+**Exact current runtime wording** (from `Mevoot-Shas-Content.md`, section “עדי חתימה ועדי מסירה”):
+
+> המשנה מונה שלושה גיטין פסולים שאם נישאת בהם האשה, הוולד כשר. אחד מהם הוא גט שאין עליו אלא עד אחד; הרמב״ם מעמיד מקרה זה בגט שכתב הבעל בכתב ידו. אם כתבו סופר ואין עליו אלא עד אחד, ולא נמסר בפני שני עדים כשרים, אין זה גט. חסרון החתימות כשלעצמו אינו קובע תוצאה זו: גט שאין עליו חתימות כשר כשנמסר כדין בפני שני עדים כשרים, כמבואר בהלכות גירושין א.
+
+The next paragraph separately states that a validly witnessed delivery can validate a get with no signatures, but does not cure the distinct problem of a valid and an invalid signature within the get.
+
+**Independent textual witness**
+
+Rambam, Mishneh Torah, Hilchot Gerushin 1:13–18: https://he.wikisource.org/wiki/רמב%22ם_הלכות_גירושין_א  
+- 1:13: delivery must occur before witnesses; delivery privately, even before one witness, is not a get.
+- 1:14: a get in the husband's handwriting with one signature is treated as invalid (פסול) and disqualifying for priesthood, not simply equated with a get delivered privately.
+- 1:15–16: signatures were instituted as a safeguard, while the essential act is delivery before witnesses; a get with proper signatures can remain valid despite a defective delivery-witness situation under the stated conditions.
+- 1:17: one valid and one invalid signature is treated as `מזוייף מתוכו` and is invalid even if delivered before two valid witnesses.
+- 1:18: a get with signatures too far from the text can be valid when properly delivered before witnesses, including when no signatures are present.
+
+Rambam, Hilchot Gerushin 3:8, also discusses a get with an invalid signature or only one witness and distinguishes the status of `מזוייף מתוכו`; its exact relationship to the chapter-1 cases must not be flattened into one blanket rule: https://he.wikisource.org/wiki/רמב%22ם_הלכות_גירושין_ג
+
+**Assessment:** the current text now distinguishes (a) a lack of valid delivery witnesses, (b) no signatures but valid delivery witnesses, and (c) a defective signature within the get. These are materially different cases in Rambam's text. The source supports the distinctions; full source-segment and edition checks and an independent adversarial review remain.
+
+**Status:** `corrected_pending_recheck`, not `verified`. This check is limited to the flagged block and does not certify the whole gittin entry.
