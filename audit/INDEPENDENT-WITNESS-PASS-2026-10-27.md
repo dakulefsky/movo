@@ -71,3 +71,22 @@ Rambam, Hilchot Gerushin 3:8, also discusses a get with an invalid signature or 
 **Assessment:** the current text now distinguishes (a) a lack of valid delivery witnesses, (b) no signatures but valid delivery witnesses, and (c) a defective signature within the get. These are materially different cases in Rambam's text. The source supports the distinctions; full source-segment and edition checks and an independent adversarial review remain.
 
 **Status:** `corrected_pending_recheck`, not `verified`. This check is limited to the flagged block and does not certify the whole gittin entry.
+
+
+## `d-shevuot/distinction` and `d-shevuot/hesset` — oath to be exempted versus oath to collect
+
+**Issue #12 concern:** preserve the distinction between a rabbinic oath imposed on a defendant to be exempted and an oath imposed on a plaintiff as a condition of collecting.
+
+**Exact current runtime wording:** the two current sections under “חילוקים וחריגים” for דיני שבועות explicitly say that when a defendant owes a rabbinic oath to be exempted (including שבועת היסת), refusal does not lead to execution against assets as in a Torah oath; the court applies the relevant shaming/ostracism procedure. By contrast, a plaintiff who must swear in order to collect and refuses does not collect under that enactment. The second block repeats the distinction in a separate context.
+
+**Independent textual witness**
+
+Rambam, Mishneh Torah, Hilchot To'en veNit'an 1:2–6: https://he.wikisource.org/wiki/רמב%22ם_הלכות_טוען_ונטען_א  
+- 1:2 identifies the three Torah-level monetary oaths and says other oaths instituted by the Sages are rabbinic, though some are performed with an object in hand.
+- 1:4 distinguishes a Torah oath whose refusal leads to collection from assets from rabbinic oaths imposed on those who swear and collect: if the plaintiff refuses, “ילך לו”; the defendant need not turn the oath into payment simply because the plaintiff refuses.
+- 1:5 states that a defendant who refuses a rabbinic oath of the “swear and be exempt” kind, including שבועת היסת, is subject to the relevant *nidui* procedure and “אין יורדין לנכסיו”.
+- The parallel Mechon Mamre text gives the same distinction: https://mechon-mamre.org/i/d401.htm
+
+**Assessment:** both current runtime blocks preserve the key distinction and cite the relevant Rambam chapter. Their overlapping explanations are not themselves a source error, though an editorial second pass should consider whether both are needed without sacrificing the independent coverage issue in #12. The substantive distinction is supported by the witness.
+
+**Status:** `corrected_pending_recheck`, not `verified`. The independent adversarial pass and scholarly review remain outstanding.
